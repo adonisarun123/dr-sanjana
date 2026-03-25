@@ -303,25 +303,33 @@ export default function HomePage() {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               {/* Visual */}
               <div
-                className="rounded-3xl p-10 flex flex-col items-center justify-center text-center gap-6"
-                style={{ background: 'linear-gradient(135deg, #8B5E83, #2A6B5A)', minHeight: '350px' }}
+                className="rounded-3xl p-10 flex flex-col items-center justify-center text-center gap-6 relative overflow-hidden"
+                style={{ minHeight: '350px' }}
               >
-                <div className="w-24 h-24 rounded-full bg-white/20 flex items-center justify-center">
+                {/* Background image */}
+                <div
+                  className="absolute inset-0 bg-cover bg-center"
+                  style={{ backgroundImage: "url('/about-card-bg.png')" }}
+                />
+                {/* Dark overlay for legibility */}
+                <div className="absolute inset-0" style={{ background: 'linear-gradient(135deg, rgba(139,94,131,0.65), rgba(42,107,90,0.65))' }} />
+                {/* Content (above overlay) */}
+                <div className="relative z-10 w-24 h-24 rounded-full bg-white/20 flex items-center justify-center">
                   <span className="text-white font-bold text-3xl" style={{ fontFamily: 'Playfair Display, serif' }}>SL</span>
                 </div>
-                <div className="text-white">
+                <div className="relative z-10 text-white">
                   <p className="text-2xl font-bold mb-1" style={{ fontFamily: 'Playfair Display, serif' }}>Dr. Sanjana L</p>
-                  <p className="text-sm opacity-80" style={{ fontFamily: 'DM Sans, sans-serif' }}>MBBS, MS (Obstetrics & Gynaecology)</p>
+                  <p className="text-sm opacity-80" style={{ fontFamily: 'DM Sans, sans-serif' }}>MBBS, MS (Obstetrics &amp; Gynaecology)</p>
                   <p className="text-sm opacity-80" style={{ fontFamily: 'DM Sans, sans-serif' }}>Reg. No: 124759</p>
                 </div>
-                <div className="grid grid-cols-2 gap-3 w-full">
+                <div className="relative z-10 grid grid-cols-2 gap-3 w-full">
                   {[
                     { n: '15+', l: 'Years' },
                     { n: '5000+', l: 'Patients' },
                     { n: '4.9★', l: 'Rating' },
                     { n: '4', l: 'Languages' },
                   ].map(({ n, l }) => (
-                    <div key={l} className="bg-white/15 rounded-xl p-3 text-white">
+                    <div key={l} className="bg-white/15 backdrop-blur-sm rounded-xl p-3 text-white border border-white/20">
                       <p className="text-2xl font-bold" style={{ fontFamily: 'Playfair Display, serif' }}>{n}</p>
                       <p className="text-sm opacity-80">{l}</p>
                     </div>
