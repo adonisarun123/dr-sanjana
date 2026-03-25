@@ -191,9 +191,9 @@ export default function HomePage() {
                     style={{ aspectRatio: '4/5', transform: 'rotateY(-5deg) rotateX(2deg)', transformStyle: 'preserve-3d', transition: 'transform 0.5s ease' }}
                   >
                     <img 
-                      src="/dr-sanjana-hero.jpg" 
+                      src="/dr-sanjana-hero.png" 
                       alt="Dr. Sanjana - Health Nest" 
-                      className="w-full h-full object-cover object-center"
+                      className="w-full h-full object-cover object-top"
                     />
                     {/* Inner elegant gradient overlay */}
                     <div className="absolute inset-0 bg-gradient-to-t from-[#1C1C2E]/60 via-transparent to-transparent" />
