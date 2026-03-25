@@ -515,7 +515,7 @@ export default function HomePage() {
 
         {/* ─── CTA STRIP ─── */}
         <section
-          className="section-sm"
+          className="py-20 md:py-28"
           style={{ background: 'linear-gradient(135deg, #8B5E83, #6B4563)' }}
         >
           <div className="container-hn text-center">
