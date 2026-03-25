@@ -303,35 +303,31 @@ export default function HomePage() {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               {/* Visual */}
               <div
-                className="rounded-3xl p-10 flex flex-col items-center justify-center text-center gap-6 relative overflow-hidden"
-                style={{ minHeight: '350px' }}
+                className="rounded-3xl p-10 flex flex-col items-center justify-center text-center gap-6"
+                style={{
+                  minHeight: '350px',
+                  background: 'linear-gradient(160deg, #1C1235 0%, #3D2A5A 40%, #1A3A4A 100%)',
+                  boxShadow: '0 20px 60px rgba(28,18,53,0.35)',
+                }}
               >
-                {/* Background image */}
-                <div
-                  className="absolute inset-0 bg-cover bg-center"
-                  style={{ backgroundImage: "url('/about-card-bg.png')" }}
-                />
-                {/* Dark overlay for legibility */}
-                <div className="absolute inset-0" style={{ background: 'linear-gradient(135deg, rgba(139,94,131,0.65), rgba(42,107,90,0.65))' }} />
-                {/* Content (above overlay) */}
-                <div className="relative z-10 w-24 h-24 rounded-full bg-white/20 flex items-center justify-center">
+                <div className="w-24 h-24 rounded-full flex items-center justify-center" style={{ background: 'rgba(255,255,255,0.12)', border: '2px solid rgba(255,255,255,0.25)' }}>
                   <span className="text-white font-bold text-3xl" style={{ fontFamily: 'Playfair Display, serif' }}>SL</span>
                 </div>
-                <div className="relative z-10 text-white">
+                <div className="text-white">
                   <p className="text-2xl font-bold mb-1" style={{ fontFamily: 'Playfair Display, serif' }}>Dr. Sanjana L</p>
-                  <p className="text-sm opacity-80" style={{ fontFamily: 'DM Sans, sans-serif' }}>MBBS, MS (Obstetrics &amp; Gynaecology)</p>
-                  <p className="text-sm opacity-80" style={{ fontFamily: 'DM Sans, sans-serif' }}>Reg. No: 124759</p>
+                  <p className="text-sm opacity-75" style={{ fontFamily: 'DM Sans, sans-serif' }}>MBBS, MS (Obstetrics &amp; Gynaecology)</p>
+                  <p className="text-sm opacity-75" style={{ fontFamily: 'DM Sans, sans-serif' }}>Reg. No: 124759</p>
                 </div>
-                <div className="relative z-10 grid grid-cols-2 gap-3 w-full">
+                <div className="grid grid-cols-2 gap-3 w-full">
                   {[
                     { n: '15+', l: 'Years' },
                     { n: '5000+', l: 'Patients' },
                     { n: '4.9★', l: 'Rating' },
                     { n: '4', l: 'Languages' },
                   ].map(({ n, l }) => (
-                    <div key={l} className="bg-white/15 backdrop-blur-sm rounded-xl p-3 text-white border border-white/20">
+                    <div key={l} className="rounded-xl p-3 text-white" style={{ background: 'rgba(255,255,255,0.1)', border: '1px solid rgba(255,255,255,0.15)' }}>
                       <p className="text-2xl font-bold" style={{ fontFamily: 'Playfair Display, serif' }}>{n}</p>
-                      <p className="text-sm opacity-80">{l}</p>
+                      <p className="text-sm opacity-70">{l}</p>
                     </div>
                   ))}
                 </div>
