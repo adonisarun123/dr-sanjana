@@ -1,65 +1,544 @@
-import Image from "next/image";
+import type { Metadata } from 'next';
+import Link from 'next/link';
+import {
+  Phone, Calendar, Star, Baby, HeartPulse, Flower2, Activity,
+  Scissors, ShieldCheck, ArrowRight, MapPin, Clock, Award, Users, Languages, CheckCircle2
+} from 'lucide-react';
+import FAQAccordion from '@/components/FAQAccordion';
+import TestimonialCarousel from '@/components/TestimonialCarousel';
+import FloatingButtons from '@/components/FloatingButtons';
+import Navbar from '@/components/Navbar';
+import Footer from '@/components/Footer';
 
-export default function Home() {
+export const metadata: Metadata = {
+  title: 'Best Gynaecologist in HSR Layout Bangalore | Dr. Sanjana L - Health Nest',
+  description:
+    'Dr. Sanjana L (MBBS, MS) — 15+ yrs experienced gynaecologist & obstetrician in HSR Layout, Bangalore. Book appointment at Health Nest for pregnancy care, fertility, laparoscopy & more.',
+};
+
+const homeServices = [
+  {
+    icon: Baby,
+    title: 'Pregnancy Care',
+    description: 'Comprehensive prenatal support from conception through safe delivery.',
+    href: '/services/pregnancy-care',
+  },
+  {
+    icon: HeartPulse,
+    title: 'High-Risk Pregnancy',
+    description: 'Expert management of complex pregnancies with vigilant monitoring.',
+    href: '/services/high-risk-pregnancy',
+  },
+  {
+    icon: Flower2,
+    title: 'Fertility Treatment',
+    description: 'Compassionate fertility evaluation, IUI support and IVF guidance.',
+    href: '/services/fertility-treatment',
+  },
+  {
+    icon: Activity,
+    title: 'PCOS & PCOD',
+    description: 'Holistic hormonal management, lifestyle support and fertility care.',
+    href: '/services/pcos-pcod-treatment',
+  },
+  {
+    icon: Scissors,
+    title: 'Laparoscopic Surgery',
+    description: 'Minimally invasive keyhole surgery for cysts, fibroids, endometriosis.',
+    href: '/services/laparoscopic-surgery',
+  },
+  {
+    icon: ShieldCheck,
+    title: 'Cervical Cancer Screening',
+    description: 'Pap smear and HPV testing for early detection and prevention.',
+    href: '/services/cervical-cancer-screening',
+  },
+];
+
+const homeFaqs = [
+  {
+    q: 'Who is the best gynaecologist in HSR Layout, Bangalore?',
+    a: 'Dr. Sanjana L at Health Nest is one of the most trusted gynaecologists in HSR Layout, Bangalore, with 15+ years of experience in obstetrics and gynaecology. She holds MBBS and MS (OB-GYN) qualifications (Registration No: 124759) and is known for her compassionate, patient-centred approach.',
+  },
+  {
+    q: 'What services does Health Nest clinic offer?',
+    a: 'Health Nest offers a comprehensive range of gynaecological and obstetric services including pregnancy care, high-risk pregnancy management, normal and caesarean delivery, fertility treatment (IUI/IVF), PCOS/PCOD management, laparoscopic surgery, hysteroscopy, cervical cancer screening, menopause management, and adolescent gynaecology.',
+  },
+  {
+    q: 'Does Dr. Sanjana L perform normal deliveries?',
+    a: 'Yes, Dr. Sanjana L supports and facilitates normal (vaginal) deliveries for eligible patients. She provides birth planning, labour support, and evidence-based pain management, and is experienced in both normal and caesarean deliveries.',
+  },
+  {
+    q: 'What is the consultation fee at Health Nest HSR Layout?',
+    a: 'Please contact Health Nest directly at +91-XXXX-XXXXXX or via the booking form for current consultation fees. The clinic offers both in-person and online consultations.',
+  },
+  {
+    q: 'Is online consultation available with Dr. Sanjana L?',
+    a: 'Yes, Dr. Sanjana L offers online video consultations for follow-up visits, second opinions, and initial discussion of concerns. Book through the website or call the clinic to schedule an online appointment.',
+  },
+  {
+    q: 'Where is Health Nest clinic located?',
+    a: 'Health Nest is located in HSR Layout, Bangalore, Karnataka — 560102. The clinic is easily accessible from Silk Board, Agara Lake, Koramangala, BTM Layout, and Marathahalli. Street parking is available nearby.',
+  },
+];
+
+const usps = [
+  {
+    icon: '💜',
+    title: 'Personalised Care',
+    description: 'Every consultation is tailored to your unique health needs, history, and concerns.',
+  },
+  {
+    icon: '🔬',
+    title: 'Advanced Technology',
+    description: 'State-of-the-art diagnostic tools and minimally invasive surgical techniques.',
+  },
+  {
+    icon: '🗣️',
+    title: 'Multilingual',
+    description: 'Consultations in English, Hindi, Kannada, and Telugu for your comfort.',
+  },
+  {
+    icon: '📍',
+    title: 'Convenient Location',
+    description: 'Centrally located in HSR Layout — easily accessible from South Bangalore.',
+  },
+];
+
+export default function HomePage() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
+    <>
+      <Navbar />
+      <main id="main-content">
+        {/* ─── HERO SECTION ─── */}
+        <section
+          className="bg-gradient-hero relative overflow-hidden"
+          style={{ paddingTop: '140px', paddingBottom: '100px' }}
+        >
+          {/* Background decorative elements */}
+          <div
+            className="absolute top-0 right-0 w-[600px] h-[600px] rounded-full opacity-30 pointer-events-none translate-x-1/3 -translate-y-1/3"
+            style={{ background: 'radial-gradient(circle, #C9A7C7 0%, transparent 70%)' }}
+            aria-hidden="true"
+          />
+          <div
+            className="absolute bottom-0 left-0 w-[500px] h-[500px] rounded-full opacity-20 pointer-events-none -translate-x-1/3 translate-y-1/3"
+            style={{ background: 'radial-gradient(circle, #2A6B5A 0%, transparent 70%)' }}
+            aria-hidden="true"
+          />
+
+          <div className="container-hn relative z-10">
+            <div className="grid lg:grid-cols-2 gap-16 items-center">
+              
+              {/* Left Column: Text & CTA */}
+              <div className="max-w-2xl">
+                <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/60 border border-white/80 shadow-sm mb-6 backdrop-blur-md">
+                  <span className="relative flex h-2 w-2">
+                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+                    <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
+                  </span>
+                  <span className="text-xs font-semibold uppercase tracking-wide" style={{ color: '#2A6B5A', fontFamily: 'DM Sans, sans-serif' }}>
+                    Accepting New Patients
+                  </span>
+                </div>
+                
+                <h1
+                  className="text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.1] mb-6"
+                  style={{ fontFamily: 'Playfair Display, serif', color: '#1C1C2E' }}
+                >
+                  Compassionate <br/>
+                  <span className="gradient-text italic opacity-90">Women&apos;s Health</span> <br/>
+                  Care in HSR
+                </h1>
+                
+                <p
+                  className="text-lg md:text-xl mb-8"
+                  style={{ color: '#4A4A4A', fontFamily: 'DM Sans, sans-serif', lineHeight: 1.6 }}
+                >
+                  Pregnancy care, fertility support, and advanced gynaecology by <strong>Dr. Sanjana L</strong> — all under one roof at Health Nest, Bangalore.
+                </p>
+
+                <div className="flex flex-wrap items-center gap-4 mb-10">
+                  <Link href="/book-appointment" className="btn-primary" style={{ padding: '0.875rem 2rem', fontSize: '1.05rem' }}>
+                    <Calendar size={20} />
+                    Book Appointment
+                  </Link>
+                  <a href="tel:+91XXXXXXXXXX" className="btn-white" style={{ padding: '0.875rem 2rem', fontSize: '1.05rem' }}>
+                    <Phone size={20} />
+                    Call Clinic
+                  </a>
+                </div>
+
+                {/* Mobile-only Trust Badges (Hidden on large screens because they float on the image) */}
+                <div className="flex lg:hidden flex-wrap gap-3 mt-8">
+                  <div className="flex items-center gap-2 px-3 py-2 bg-white rounded-xl shadow-sm border border-gray-100">
+                    <Award size={18} style={{ color: '#8B5E83' }} />
+                    <span className="text-sm font-semibold text-gray-800">15+ Years Exp.</span>
+                  </div>
+                  <div className="flex items-center gap-2 px-3 py-2 bg-white rounded-xl shadow-sm border border-gray-100">
+                    <Star size={18} style={{ color: '#F59E0B', fill: '#F59E0B' }} />
+                    <span className="text-sm font-semibold text-gray-800">4.9/5 Rating</span>
+                  </div>
+                </div>
+              </div>
+
+              {/* Right Column: Premium Image Layout */}
+              <div className="hidden lg:block relative perspective-1000">
+                {/* Main Image Container */}
+                <div className="relative z-10 w-full max-w-[500px] ml-auto">
+                  <div 
+                    className="relative rounded-[2rem] overflow-hidden shadow-2xl"
+                    style={{ aspectRatio: '4/5', transform: 'rotateY(-5deg) rotateX(2deg)', transformStyle: 'preserve-3d', transition: 'transform 0.5s ease' }}
+                  >
+                    <img 
+                      src="https://images.unsplash.com/photo-1594824416398-33df457d5cb1?q=80&w=1000&auto=format&fit=crop" 
+                      alt="Dr. Sanjana - Health Nest" 
+                      className="w-full h-full object-cover object-center"
+                    />
+                    {/* Inner elegant gradient overlay */}
+                    <div className="absolute inset-0 bg-gradient-to-t from-[#1C1C2E]/60 via-transparent to-transparent" />
+                    
+                    {/* Name block inside image */}
+                    <div className="absolute bottom-6 left-6 right-6 p-5 rounded-2xl backdrop-blur-md bg-white/20 border border-white/30 text-white shadow-lg">
+                      <p className="text-2xl font-bold mb-1" style={{ fontFamily: 'Playfair Display, serif' }}>Dr. Sanjana L</p>
+                      <p className="text-sm font-medium opacity-90" style={{ fontFamily: 'DM Sans, sans-serif' }}>MBBS, MS (OB-GYN)</p>
+                      <div className="flex items-center gap-2 mt-3 pt-3 border-t border-white/20">
+                        <CheckCircle2 size={14} className="text-green-300" />
+                        <span className="text-xs">Apollo 247 Associated</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Floating Glassmorphic Badge 1 */}
+                  <div 
+                    className="absolute -left-12 top-20 z-20 p-4 rounded-2xl backdrop-blur-xl bg-white/80 border border-white shadow-[0_8px_30px_rgb(0,0,0,0.12)] flex items-center gap-4 animate-bounce-slow"
+                    style={{ animation: 'float 6s ease-in-out infinite' }}
+                  >
+                    <div className="w-12 h-12 rounded-full flex items-center justify-center" style={{ background: 'rgba(139,94,131,0.1)' }}>
+                      <Award size={24} style={{ color: '#8B5E83' }} />
+                    </div>
+                    <div>
+                      <p className="text-xl font-bold leading-none mb-1" style={{ color: '#1C1C2E', fontFamily: 'Playfair Display, serif' }}>15+ Years</p>
+                      <p className="text-sm font-medium" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}>Trusted Experience</p>
+                    </div>
+                  </div>
+
+                  {/* Floating Glassmorphic Badge 2 */}
+                  <div 
+                    className="absolute -right-8 bottom-32 z-20 p-4 rounded-2xl backdrop-blur-xl bg-white/80 border border-white shadow-[0_8px_30px_rgb(0,0,0,0.12)] flex items-center gap-3 animate-bounce-slow"
+                    style={{ animation: 'float 8s ease-in-out infinite reverse' }}
+                  >
+                    <div className="flex -space-x-3">
+                      {[1, 2, 3].map((i) => (
+                        <div key={i} className="w-10 h-10 rounded-full border-2 border-white bg-gray-200 overflow-hidden">
+                          <img src={`https://i.pravatar.cc/100?img=${i + 10}`} alt="Patient" className="w-full h-full object-cover" />
+                        </div>
+                      ))}
+                    </div>
+                    <div>
+                      <div className="flex items-center gap-1 mb-0.5">
+                        <Star size={14} style={{ color: '#F59E0B', fill: '#F59E0B' }} />
+                        <span className="text-sm font-bold" style={{ color: '#1C1C2E' }}>4.9/5</span>
+                      </div>
+                      <p className="text-xs font-medium" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}>5000+ Happy Patients</p>
+                    </div>
+                  </div>
+
+                  {/* Decorative element behind image */}
+                  <div className="absolute -inset-4 bg-gradient-to-tr from-[#8B5E83]/20 to-[#2A6B5A]/20 rounded-[2.5rem] -z-10 blur-2xl" />
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </section>
+
+        {/* ─── SERVICES SECTION ─── */}
+        <section className="section" style={{ background: '#FFFFFF' }}>
+          <div className="container-hn">
+            <div className="text-center mb-12">
+              <p className="section-label mb-2">Our Services</p>
+              <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ fontFamily: 'Playfair Display, serif', color: '#2D2D2D' }}>
+                Comprehensive Women&apos;s Healthcare
+              </h2>
+              <div className="accent-line-center" />
+              <p className="text-lg max-w-2xl mx-auto" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}>
+                From first pregnancy to menopause and every milestone in between, Health Nest provides expert care for every stage of a woman&apos;s life.
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+              {homeServices.map((service) => (
+                <Link key={service.href} href={service.href} className="service-card group">
+                  <div className="service-icon">
+                    <service.icon size={24} />
+                  </div>
+                  <h3
+                    className="text-lg font-semibold mb-2 transition-colors group-hover:text-purple-700"
+                    style={{ fontFamily: 'DM Sans, sans-serif', color: '#2D2D2D' }}
+                  >
+                    {service.title}
+                  </h3>
+                  <p className="text-sm leading-relaxed mb-4" style={{ color: '#6B6B6B' }}>
+                    {service.description}
+                  </p>
+                  <span className="text-sm font-semibold flex items-center gap-1" style={{ color: '#8B5E83' }}>
+                    Learn More <ArrowRight size={14} />
+                  </span>
+                </Link>
+              ))}
+            </div>
+
+            <div className="text-center mt-10">
+              <Link href="/services" className="btn-secondary">
+                View All Services <ArrowRight size={16} />
+              </Link>
+            </div>
+          </div>
+        </section>
+
+        {/* ─── ABOUT QUICK INTRO ─── */}
+        <section className="section bg-gradient-hero">
+          <div className="container-hn">
+            <div className="grid lg:grid-cols-2 gap-12 items-center">
+              {/* Visual */}
+              <div
+                className="rounded-3xl p-10 flex flex-col items-center justify-center text-center gap-6"
+                style={{ background: 'linear-gradient(135deg, #8B5E83, #2A6B5A)', minHeight: '350px' }}
+              >
+                <div className="w-24 h-24 rounded-full bg-white/20 flex items-center justify-center">
+                  <span className="text-white font-bold text-3xl" style={{ fontFamily: 'Playfair Display, serif' }}>SL</span>
+                </div>
+                <div className="text-white">
+                  <p className="text-2xl font-bold mb-1" style={{ fontFamily: 'Playfair Display, serif' }}>Dr. Sanjana L</p>
+                  <p className="text-sm opacity-80" style={{ fontFamily: 'DM Sans, sans-serif' }}>MBBS, MS (Obstetrics & Gynaecology)</p>
+                  <p className="text-sm opacity-80" style={{ fontFamily: 'DM Sans, sans-serif' }}>Reg. No: 124759</p>
+                </div>
+                <div className="grid grid-cols-2 gap-3 w-full">
+                  {[
+                    { n: '15+', l: 'Years' },
+                    { n: '5000+', l: 'Patients' },
+                    { n: '4.9★', l: 'Rating' },
+                    { n: '4', l: 'Languages' },
+                  ].map(({ n, l }) => (
+                    <div key={l} className="bg-white/15 rounded-xl p-3 text-white">
+                      <p className="text-2xl font-bold" style={{ fontFamily: 'Playfair Display, serif' }}>{n}</p>
+                      <p className="text-sm opacity-80">{l}</p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              {/* Text */}
+              <div>
+                <p className="section-label mb-2">About Dr. Sanjana</p>
+                <h2 className="text-3xl md:text-4xl font-bold mb-3" style={{ fontFamily: 'Playfair Display, serif', color: '#2D2D2D' }}>
+                  Your Trusted Partner in Women&apos;s Health
+                </h2>
+                <div className="accent-line" />
+                <p className="mb-4" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif', lineHeight: 1.7 }}>
+                  Dr. Sanjana L is an experienced Obstetrician and Gynaecologist with over 15 years of practice in Bangalore. Holding an MBBS and MS in Obstetrics & Gynaecology, she has dedicated her career to empowering women through compassionate, evidence-based healthcare.
+                </p>
+                <p className="mb-6" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif', lineHeight: 1.7 }}>
+                  At Health Nest, HSR Layout, Dr. Sanjana believes that every woman deserves personalised care delivered with dignity, warmth, and clinical excellence. She consults in English, Hindi, Kannada, and Telugu, ensuring every patient feels heard and understood.
+                </p>
+                <ul className="space-y-2 mb-8">
+                  {[
+                    'Specialised in high-risk pregnancy & laparoscopic surgery',
+                    'Associated with Apollo 247 platform',
+                    'Member of FOGSI (Federation of OB/GYN Societies of India)',
+                    'Offers both in-person & online consultations',
+                  ].map((item) => (
+                    <li key={item} className="flex items-start gap-2">
+                      <CheckCircle2 size={17} className="mt-0.5 flex-shrink-0" style={{ color: '#2A6B5A' }} />
+                      <span className="text-sm" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}>{item}</span>
+                    </li>
+                  ))}
+                </ul>
+                <Link href="/about-dr-sanjana" className="btn-primary">
+                  Read Full Profile <ArrowRight size={16} />
+                </Link>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* ─── WHY CHOOSE US ─── */}
+        <section className="section" style={{ background: '#FFFFFF' }}>
+          <div className="container-hn">
+            <div className="text-center mb-12">
+              <p className="section-label mb-2">Why Health Nest</p>
+              <h2 className="text-3xl md:text-4xl font-bold mb-3" style={{ fontFamily: 'Playfair Display, serif', color: '#2D2D2D' }}>
+                The Health Nest Difference
+              </h2>
+              <div className="accent-line-center" />
+            </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+              {usps.map((usp) => (
+                <div
+                  key={usp.title}
+                  className="text-center p-6 rounded-2xl border transition-all hover:shadow-lg hover:-translate-y-1"
+                  style={{ borderColor: '#E8E0DB', background: '#FFF8F0' }}
+                >
+                  <div className="text-4xl mb-4" role="img" aria-label={usp.title}>{usp.icon}</div>
+                  <h3 className="text-lg font-semibold mb-2" style={{ fontFamily: 'DM Sans, sans-serif', color: '#2D2D2D' }}>{usp.title}</h3>
+                  <p className="text-sm leading-relaxed" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}>{usp.description}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* ─── TESTIMONIALS ─── */}
+        <section className="section bg-gradient-hero">
+          <div className="container-hn">
+            <div className="text-center mb-12">
+              <p className="section-label mb-2">Patient Stories</p>
+              <h2 className="text-3xl md:text-4xl font-bold mb-3" style={{ fontFamily: 'Playfair Display, serif', color: '#2D2D2D' }}>
+                What Our Patients Say
+              </h2>
+              <div className="accent-line-center" />
+              <div className="flex items-center justify-center gap-1 mt-2">
+                {[1,2,3,4,5].map(i => <Star key={i} size={18} fill="#F59E0B" color="#F59E0B" />)}
+                <span className="ml-2 text-sm font-semibold" style={{ color: '#2D2D2D', fontFamily: 'DM Sans, sans-serif' }}>4.9</span>
+                <span className="text-sm" style={{ color: '#6B6B6B' }}>· 200+ reviews on Apollo 247 & Google</span>
+              </div>
+            </div>
+            <TestimonialCarousel />
+            <div className="text-center mt-10">
+              <Link href="/patient-stories" className="btn-secondary">
+                Read All Stories <ArrowRight size={16} />
+              </Link>
+            </div>
+          </div>
+        </section>
+
+        {/* ─── BLOG PREVIEW ─── */}
+        <section className="section" style={{ background: '#FFFFFF' }}>
+          <div className="container-hn">
+            <div className="text-center mb-12">
+              <p className="section-label mb-2">Health Articles</p>
+              <h2 className="text-3xl md:text-4xl font-bold mb-3" style={{ fontFamily: 'Playfair Display, serif', color: '#2D2D2D' }}>
+                Expert Health Tips from Dr. Sanjana
+              </h2>
+              <div className="accent-line-center" />
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              {[
+                {
+                  href: '/blog/first-trimester-pregnancy-guide',
+                  category: 'Pregnancy',
+                  title: 'First Trimester Pregnancy Guide: What Every Mom-to-Be Should Know',
+                  excerpt: 'The first 12 weeks of pregnancy are crucial. From managing morning sickness to understanding your first scans — your complete guide.',
+                  readTime: 8,
+                  date: 'March 1, 2026',
+                  color: '#8B5E83',
+                },
+                {
+                  href: '/blog/pcos-vs-pcod-difference',
+                  category: 'Fertility',
+                  title: 'PCOS vs PCOD: Understanding the Difference and Treatment Options',
+                  excerpt: 'Many women use PCOS and PCOD interchangeably, but they are distinct conditions. Learn the key differences and how both can be managed.',
+                  readTime: 7,
+                  date: 'March 10, 2026',
+                  color: '#2A6B5A',
+                },
+                {
+                  href: '/blog/when-to-visit-gynaecologist',
+                  category: "Women's Health",
+                  title: 'When Should You Visit a Gynaecologist? 10 Signs to Watch For',
+                  excerpt: 'Many women delay gynaecological care due to discomfort or uncertainty. Learn the 10 key signs that it\'s time to book an appointment.',
+                  readTime: 6,
+                  date: 'Feb 20, 2026',
+                  color: '#E8A87C',
+                },
+              ].map((post) => (
+                <Link key={post.href} href={post.href} className="card block group" style={{ textDecoration: 'none' }}>
+                  <div
+                    className="h-40 rounded-t-2xl flex items-center justify-center p-6"
+                    style={{ background: `linear-gradient(135deg, ${post.color}22, ${post.color}11)` }}
+                  >
+                    <h3
+                      className="text-base font-semibold text-center leading-snug transition-colors group-hover:text-purple-700"
+                      style={{ fontFamily: 'Playfair Display, serif', color: '#2D2D2D' }}
+                    >
+                      {post.title}
+                    </h3>
+                  </div>
+                  <div className="p-5">
+                    <div className="flex items-center gap-2 mb-3">
+                      <span
+                        className="text-xs font-semibold px-2 py-0.5 rounded-full"
+                        style={{ background: `${post.color}18`, color: post.color }}
+                      >
+                        {post.category}
+                      </span>
+                      <span className="text-xs" style={{ color: '#9B9B9B' }}>{post.readTime} min read</span>
+                      <span className="text-xs" style={{ color: '#9B9B9B' }}>{post.date}</span>
+                    </div>
+                    <p className="text-sm leading-relaxed" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}>
+                      {post.excerpt}
+                    </p>
+                    <p className="mt-3 text-sm font-semibold" style={{ color: '#8B5E83' }}>Read Article →</p>
+                  </div>
+                </Link>
+              ))}
+            </div>
+            <div className="text-center mt-10">
+              <Link href="/blog" className="btn-secondary">View All Articles <ArrowRight size={16} /></Link>
+            </div>
+          </div>
+        </section>
+
+        {/* ─── FAQ SECTION ─── */}
+        <section className="section bg-gradient-hero">
+          <div className="container-hn">
+            <div className="max-w-3xl mx-auto">
+              <div className="text-center mb-10">
+                <p className="section-label mb-2">FAQ</p>
+                <h2 className="text-3xl md:text-4xl font-bold mb-3" style={{ fontFamily: 'Playfair Display, serif', color: '#2D2D2D' }}>
+                  Frequently Asked Questions
+                </h2>
+                <div className="accent-line-center" />
+              </div>
+              <FAQAccordion faqs={homeFaqs} />
+              <div className="text-center mt-8">
+                <Link href="/faq" className="btn-secondary">See All FAQs <ArrowRight size={16} /></Link>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* ─── CTA STRIP ─── */}
+        <section
+          className="section-sm"
+          style={{ background: 'linear-gradient(135deg, #8B5E83, #6B4563)' }}
+        >
+          <div className="container-hn text-center">
+            <h2
+              className="text-2xl md:text-3xl font-bold text-white mb-3"
+              style={{ fontFamily: 'Playfair Display, serif' }}
             >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
+              Ready to Book Your Visit?
+            </h2>
+            <p className="text-white/80 mb-6" style={{ fontFamily: 'DM Sans, sans-serif' }}>
+              200+ women trust Dr. Sanjana L with their health every month. Join them today.
+            </p>
+            <div className="flex flex-wrap gap-3 justify-center">
+              <Link href="/book-appointment" className="btn-white">
+                <Calendar size={18} /> Book Appointment
+              </Link>
+              <a href="tel:+91XXXXXXXXXX" className="btn-outline-white">
+                <Phone size={18} /> Call: +91-XXXX-XXXXXX
+              </a>
+            </div>
+          </div>
+        </section>
+
+
       </main>
-    </div>
+      <Footer />
+      <FloatingButtons />
+    </>
   );
 }
