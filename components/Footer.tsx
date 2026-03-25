@@ -24,7 +24,7 @@ const quickLinks = [
 export default function Footer() {
   return (
     <footer style={{ background: '#1C1C2E', color: '#E8E0DB' }} role="contentinfo">
-      <div className="container-hn py-20 md:py-28">
+      <div className="container-hn" style={{ padding: '0.5rem' }}>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Brand */}
           <div>
