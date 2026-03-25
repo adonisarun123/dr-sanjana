@@ -191,7 +191,7 @@ export default function HomePage() {
                     style={{ aspectRatio: '4/5', transform: 'rotateY(-5deg) rotateX(2deg)', transformStyle: 'preserve-3d', transition: 'transform 0.5s ease' }}
                   >
                     <img 
-                      src="https://images.unsplash.com/photo-1594824416398-33df457d5cb1?q=80&w=1000&auto=format&fit=crop" 
+                      src="/dr-sanjana-hero.jpg" 
                       alt="Dr. Sanjana - Health Nest" 
                       className="w-full h-full object-cover object-center"
                     />
