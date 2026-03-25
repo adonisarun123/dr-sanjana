@@ -91,8 +91,12 @@ export default function AboutPage() {
                 className="rounded-3xl p-12 flex flex-col items-center text-center gap-6"
                 style={{ background: 'linear-gradient(135deg, #8B5E83, #2A6B5A)' }}
               >
-                <div className="w-32 h-32 rounded-full bg-white/20 flex items-center justify-center">
-                  <span className="text-white font-bold text-4xl" style={{ fontFamily: 'Playfair Display, serif' }}>SL</span>
+                <div className="w-32 h-32 rounded-full overflow-hidden border-[3px] border-white/30 shadow-xl bg-[#1C1C2E]">
+                  <img
+                    src="/dr-sanjana-hero.png"
+                    alt="Dr. Sanjana L"
+                    className="w-full h-full object-cover object-top"
+                  />
                 </div>
                 <div className="text-white">
                   <h1 className="text-3xl font-bold mb-1" style={{ fontFamily: 'Playfair Display, serif' }}>Dr. Sanjana L</h1>
