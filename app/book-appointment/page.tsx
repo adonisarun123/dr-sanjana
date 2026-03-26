@@ -18,6 +18,7 @@ const schema = z.object({
   preferredDate: z.string().min(1, 'Please select a date'),
   preferredTime: z.string().min(1, 'Please select a time slot'),
   visitType: z.string().min(1, 'Please select visit type'),
+  center: z.string().min(1, 'Please select a clinic center'),
   service: z.string().optional(),
   description: z.string().optional(),
   referral: z.string().optional(),
@@ -204,7 +205,23 @@ export default function BookAppointmentPage() {
                           <option value="emergency">Emergency / Urgent</option>
                           <option value="online">Online Consultation</option>
                         </select>
-                        {errors.visitType && <p className="text-xs mt-1" style={{ color: '#EF4444' }}>{errors.visitType.message}</p>}
+                        {errors.visitType && <p id="visitType-error" className="text-xs mt-1" style={{ color: '#EF4444' }}>{errors.visitType.message}</p>}
+                      </div>
+
+                      {/* Center Selection */}
+                      <div className="md:col-span-2">
+                        <label className="form-label" htmlFor="center">Preferred Clinic Center <span aria-hidden="true">*</span></label>
+                        <select 
+                          id="center" 
+                          className={`form-input${errors.center ? ' error' : ''}`} 
+                          {...register('center')} 
+                          aria-required="true"
+                        >
+                          <option value="">Select a center</option>
+                          <option value="HSR Layout">Health Nest (HSR Layout)</option>
+                          <option value="Attibele">Raghava Hospital (Attibele)</option>
+                        </select>
+                        {errors.center && <p className="text-xs mt-1" style={{ color: '#EF4444' }}>{errors.center.message}</p>}
                       </div>
 
                       {/* Service */}

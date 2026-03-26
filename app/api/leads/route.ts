@@ -52,6 +52,12 @@ export async function POST(req: Request) {
 
     // 2. Send Email Notification via SMTP if configured
     if (process.env.SMTP_USER && process.env.SMTP_PASS) {
+      const hsrEmail = 'healthnest2010@yahoo.in';
+      const attibeleEmail = 'raghavahospital2002@gmail.com';
+      
+      // Route based on center
+      const destinationEmail = center === 'Attibele' ? attibeleEmail : hsrEmail;
+
       const transporter = nodemailer.createTransport({
         host: process.env.SMTP_HOST,
         port: Number(process.env.SMTP_PORT),
@@ -64,8 +70,8 @@ export async function POST(req: Request) {
 
       const mailOptions = {
         from: process.env.SMTP_FROM || `"Health Nest Leads" <${process.env.SMTP_USER}>`,
-        to: process.env.SALES_EMAIL || process.env.SMTP_USER,
-        subject: `New Lead: ${fullName} - ${concern || data.service || 'Consultation'}`,
+        to: destinationEmail,
+        subject: `New Lead [${center}]: ${fullName} - ${concern || data.service || 'Consultation'}`,
         html: `
           <div style="font-family: sans-serif; padding: 24px; border: 1px solid #f0f0f0; border-radius: 16px; max-width: 600px; margin: auto; background-color: #ffffff;">
             <h2 style="color: #8B5E83; margin-top: 0; font-family: serif;">New Consultation Request</h2>
