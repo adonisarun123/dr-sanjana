@@ -146,6 +146,22 @@ function AppointmentForm() {
           />
         </div>
 
+        {/* Center Selection */}
+        <div className="md:col-span-2">
+          <label className="form-label" htmlFor="center">Preferred Clinic Center <span aria-hidden="true">*</span></label>
+          <select 
+            id="center" 
+            className={`form-input${errors.center ? ' error' : ''}`} 
+            {...register('center')} 
+            aria-required="true"
+          >
+            <option value="">Select a center</option>
+            <option value="HSR Layout">Health Nest (HSR Layout)</option>
+            <option value="Attibele">Raghava Hospital (Attibele)</option>
+          </select>
+          {errors.center && <p className="text-xs mt-1" style={{ color: '#EF4444' }}>{errors.center.message}</p>}
+        </div>
+
         {/* Date */}
         <div>
           <label className="form-label" htmlFor="preferredDate">Preferred Date <span aria-hidden="true">*</span></label>
@@ -160,7 +176,6 @@ function AppointmentForm() {
           />
           {errors.preferredDate && <p className="text-xs mt-1" style={{ color: '#EF4444' }}>{errors.preferredDate.message}</p>}
         </div>
-
         {/* Time Slot */}
         <div>
           <label className="form-label" htmlFor="preferredTime">Preferred Time Slot <span aria-hidden="true">*</span></label>
@@ -185,22 +200,6 @@ function AppointmentForm() {
             <option value="online">Online Consultation</option>
           </select>
           {errors.visitType && <p id="visitType-error" className="text-xs mt-1" style={{ color: '#EF4444' }}>{errors.visitType.message}</p>}
-        </div>
-
-        {/* Center Selection */}
-        <div className="md:col-span-2">
-          <label className="form-label" htmlFor="center">Preferred Clinic Center <span aria-hidden="true">*</span></label>
-          <select 
-            id="center" 
-            className={`form-input${errors.center ? ' error' : ''}`} 
-            {...register('center')} 
-            aria-required="true"
-          >
-            <option value="">Select a center</option>
-            <option value="HSR Layout">Health Nest (HSR Layout)</option>
-            <option value="Attibele">Raghava Hospital (Attibele)</option>
-          </select>
-          {errors.center && <p className="text-xs mt-1" style={{ color: '#EF4444' }}>{errors.center.message}</p>}
         </div>
 
         {/* Service */}
