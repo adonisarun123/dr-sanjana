@@ -26,7 +26,7 @@ export default function ContactPage() {
             </h1>
             <div className="accent-line" />
             <p style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}>
-              Health Nest Clinic · HSR Layout, Bangalore, Karnataka 560102
+              Health Nest & Raghava Multispeciality Hospital · Bangalore
             </p>
           </div>
         </section>
@@ -128,7 +128,7 @@ export default function ContactPage() {
               <div className="p-8 rounded-2xl border border-gray-100 text-center" style={{ background: 'linear-gradient(to bottom, #FFFFFF, rgba(42,107,90,0.05))' }}>
                 <Clock size={32} className="mx-auto mb-3" style={{ color: '#2A6B5A' }} />
                 <p className="text-lg font-bold mb-1" style={{ color: '#2D2D2D', fontFamily: 'Playfair Display, serif' }}>Working Hours</p>
-                <p className="text-sm" style={{ color: '#6B6B6B' }}>Mon–Sat: 9 AM – 6 PM<br/>Sunday: Closed</p>
+                <p className="text-sm" style={{ color: '#6B6B6B' }}>Mon–Sat: 8 AM – 9 PM<br/>Sunday: On Appointment</p>
               </div>
           </div>
           </div>

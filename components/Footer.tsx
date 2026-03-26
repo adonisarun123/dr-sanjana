@@ -37,13 +37,13 @@ export default function Footer() {
               </div>
               <div>
                 <p className="font-bold text-lg leading-tight text-white" style={{ fontFamily: 'Playfair Display, serif' }}>
-                  Health Nest
+                  Dr. Sanjana L
                 </p>
-                <p className="text-xs leading-tight" style={{ color: '#9B9B9B' }}>Dr. Sanjana L · OB-GYN</p>
+                <p className="text-xs leading-tight" style={{ color: '#9B9B9B' }}>Health Nest & Raghava Multispeciality Hospital</p>
               </div>
             </div>
             <p className="text-sm leading-relaxed mb-5" style={{ color: '#9B9B9B', fontFamily: 'DM Sans, sans-serif' }}>
-              Trusted gynaecology & obstetrics care in HSR Layout, Bangalore. 15+ years of compassionate women&apos;s healthcare.
+              Trusted gynaecology & obstetrics care in HSR Layout, Bangalore. 8 plus years of compassionate women&apos;s healthcare.
             </p>
             <div className="flex gap-3">
               <a

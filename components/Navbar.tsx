@@ -59,10 +59,10 @@ export default function Navbar() {
             />
             <div>
               <p className="font-bold text-lg leading-tight" style={{ fontFamily: 'Playfair Display, serif', color: '#8B5E83' }}>
-                Health Nest
+                Dr. Sanjana L
               </p>
               <p className="text-xs leading-tight" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}>
-                Dr. Sanjana L · OB-GYN
+                Health Nest & Raghava Multispeciality Hospital
               </p>
             </div>
           </Link>

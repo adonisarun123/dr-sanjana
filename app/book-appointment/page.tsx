@@ -64,7 +64,7 @@ export default function BookAppointmentPage() {
             </h1>
             <div className="accent-line" />
             <p style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}>
-              Dr. Sanjana L · Health Nest · HSR Layout, Bangalore | Reg. No: 124759
+              Dr. Sanjana L · Health Nest & Raghava Multispeciality Hospital | Reg. No: 124759
             </p>
           </div>
         </section>
@@ -150,9 +150,9 @@ export default function BookAppointmentPage() {
                         <label className="form-label" htmlFor="preferredTime">Preferred Time Slot <span aria-hidden="true">*</span></label>
                         <select id="preferredTime" className={`form-input${errors.preferredTime ? ' error' : ''}`} {...register('preferredTime')} aria-required="true">
                           <option value="">Select a time slot</option>
-                          <option value="morning">Morning: 9:00 AM – 12:00 PM</option>
-                          <option value="afternoon">Afternoon: 12:00 PM – 3:00 PM</option>
-                          <option value="evening">Evening: 3:00 PM – 6:00 PM</option>
+                          <option value="morning">Morning: 8:00 AM – 12:00 PM</option>
+                          <option value="afternoon">Afternoon: 12:00 PM – 4:00 PM</option>
+                          <option value="evening">Evening: 4:00 PM – 9:00 PM</option>
                         </select>
                         {errors.preferredTime && <p className="text-xs mt-1" style={{ color: '#EF4444' }}>{errors.preferredTime.message}</p>}
                       </div>
@@ -239,12 +239,12 @@ export default function BookAppointmentPage() {
                   <a href="tel:+919449031003" className="btn-primary w-full justify-center">
                     <Phone size={16} /> +91-9449031003
                   </a>
-                  <p className="text-xs mt-3 text-center" style={{ color: '#9B9B9B' }}>Mon–Sat · 9 AM – 6 PM</p>
+                  <p className="text-xs mt-3 text-center" style={{ color: '#9B9B9B' }}>Mon–Sat · 8 AM – 9 PM | Sun · On Appointment</p>
                 </div>
                 <div className="rounded-2xl p-5" style={{ background: '#FFF8F0', border: '1px solid #E8E0DB' }}>
                   <h3 className="font-bold mb-3" style={{ fontFamily: 'DM Sans, sans-serif', color: '#2D2D2D' }}>Why Health Nest?</h3>
                   {[
-                    '15+ years of expertise',
+                    '8 plus years of expertise',
                     'In-person & online consultations',
                     'English, Hindi, Kannada, Telugu',
                     '200+ trusted reviews',

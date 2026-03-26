@@ -7,19 +7,19 @@ import FloatingButtons from '@/components/FloatingButtons';
 import FAQAccordion from '@/components/FAQAccordion';
 
 export const metadata: Metadata = {
-  title: 'About Dr. Sanjana L — Obstetrician & Gynaecologist, HSR Layout',
+  title: 'About Dr. Sanjana L — Obstetrician & Gynaecologist, HSR Layout & Attibele',
   description:
-    'Meet Dr. Sanjana L — MBBS, MS OB-GYN with 15+ years experience. Trusted women\'s health specialist at Health Nest, HSR Layout, Bangalore.',
+    'Meet Dr. Sanjana L — MBBS, MS OB-GYN with 8 plus years experience. Trusted women\'s health specialist at Health Nest & Raghava Multispeciality Hospital.',
 };
 
 const physicianSchema = {
   '@context': 'https://schema.org',
   '@type': 'Physician',
   name: 'Dr. Sanjana L',
-  description: 'Obstetrician & Gynaecologist with 15+ years experience in HSR Layout, Bangalore',
+  description: 'Obstetrician & Gynaecologist with 8 plus years experience in HSR Layout & Attibele, Bangalore',
   medicalSpecialty: 'Obstetrics and Gynaecology',
-  qualification: 'MBBS, MS (Obstetrics & Gynaecology)',
-  yearsOfExperience: 15,
+  qualification: 'MBBS MS ( OBG) Gold Medalist FRM ( RGUHS) FMAS',
+  yearsOfExperience: 8,
   availableLanguage: ['English', 'Hindi', 'Kannada', 'Telugu'],
   identifier: '124759',
   worksFor: { '@type': 'MedicalBusiness', name: 'Health Nest' },
@@ -44,7 +44,7 @@ const qualifications = [
   { year: '2008', title: 'MS — Obstetrics & Gynaecology', institution: 'Postgraduate Medical Studies, Bangalore', desc: 'Specialisation in women\'s reproductive health, surgery, and obstetrics.' },
   { year: '2009', title: 'Clinical Practice Begins', institution: 'HSR Layout, Bangalore', desc: 'Commenced independent gynaecology practice serving South Bangalore.' },
   { year: '2015+', title: 'Health Nest Founded', institution: 'HSR Layout, Bangalore', desc: 'Established Health Nest as a dedicated women\'s health clinic in the community.' },
-  { year: '2026', title: '15+ Years & 5000+ Patients', institution: 'Ongoing', desc: 'Continued commitment to compassionate, evidence-based women\'s healthcare.' },
+  { year: '2026', title: '8 plus Years & 5000+ Patients', institution: 'Ongoing', desc: 'Continued commitment to compassionate, evidence-based women\'s healthcare.' },
 ];
 
 const specialisations = [
@@ -105,7 +105,7 @@ export default function AboutPage() {
                 </div>
                 <div className="grid grid-cols-2 gap-3 w-full">
                   {[
-                    { icon: Award, label: '15+ Years Experience' },
+                    { icon: Award, label: '8 plus Years Experience' },
                     { icon: Users, label: '5000+ Patients' },
                     { icon: BookOpen, label: 'MBBS, MS OB-GYN' },
                     { icon: Languages, label: '4 Languages' },
@@ -126,7 +126,7 @@ export default function AboutPage() {
                 </h2>
                 <div className="accent-line" />
                 <p className="mb-4" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif', lineHeight: 1.8 }}>
-                  Dr. Sanjana L is a highly experienced Obstetrician and Gynaecologist based at Health Nest, HSR Layout, Bangalore. With over 15 years of dedicated practice and more than 5,000 patients cared for, she has established herself as one of the most trusted gynaecologists in South Bangalore.
+                  Dr. Sanjana L is a highly experienced Obstetrician and Gynaecologist based at Health Nest & Raghava Multispeciality Hospital. With over 8 plus years of dedicated practice and more than 5,000 patients cared for, she has established herself as one of the most trusted gynaecologists in South Bangalore.
                 </p>
                 <p className="mb-4" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif', lineHeight: 1.8 }}>
                   Holding an MBBS and a postgraduate MS in Obstetrics & Gynaecology, Dr. Sanjana combines deep clinical expertise with genuine warmth and empathy. She is known for her calm, patient-first approach — taking the time to truly listen, explain, and support each woman on her unique health journey.
