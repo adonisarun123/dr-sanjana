@@ -1,46 +1,47 @@
-import type { Metadata } from 'next';
 import Link from 'next/link';
-import { CheckCircle, ArrowRight } from 'lucide-react';
-import Navbar from '@/components/Navbar';
-import Footer from '@/components/Footer';
-import FloatingButtons from '@/components/FloatingButtons';
+import { CheckCircle2, Phone, ArrowLeft, Calendar } from 'lucide-react';
 
-export const metadata: Metadata = {
-  title: 'Thank You | Health Nest',
-  description: 'Thank you for contacting Health Nest. We will get back to you shortly.',
-  robots: {
-    index: false,
-    follow: false,
-  },
+export const metadata = {
+  title: 'Thank You - Health Nest',
+  robots: 'noindex, nofollow',
 };
 
 export default function ThankYouPage() {
   return (
-    <>
-      <Navbar />
-      <main id="main-content" className="min-h-[80vh] flex flex-col justify-center bg-gradient-hero">
-        <section className="container-hn py-32">
-          <div className="max-w-2xl mx-auto text-center" style={{ background: '#FFF8F0', border: '1px solid #E8E0DB', borderRadius: '24px', padding: '4rem 2rem' }}>
-            <CheckCircle size={64} className="mx-auto mb-6" style={{ color: '#2A6B5A' }} />
-            <h1 className="text-4xl md:text-5xl font-bold mb-4" style={{ fontFamily: 'Playfair Display, serif', color: '#2D2D2D' }}>
-              Thank You!
-            </h1>
-            <p className="text-lg mb-8" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}>
-              Your request has been successfully submitted. Our team at Health Nest will review your details and get back to you shortly to confirm your appointment or answer your query.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link href="/" className="btn-primary justify-center">
-                Return to Home
-              </Link>
-              <Link href="/blog" className="btn-secondary justify-center">
-                Read our Health Blog <ArrowRight size={16} className="ml-2" />
-              </Link>
-            </div>
+    <div className="min-h-screen bg-[#FFF8F0] flex items-center justify-center p-4">
+      <div className="max-w-xl w-full bg-white rounded-[2.5rem] p-8 md:p-12 shadow-2xl border border-gray-50 text-center">
+        <div className="inline-flex items-center justify-center w-20 h-20 bg-green-50 rounded-full mb-8">
+          <CheckCircle2 className="text-green-500" size={40} />
+        </div>
+        
+        <h1 className="text-3xl md:text-4xl font-bold mb-4" style={{ fontFamily: 'Playfair Display, serif' }}>
+          Thank You!
+        </h1>
+        
+        <p className="text-lg text-gray-600 mb-8 leading-relaxed">
+          Your request has been received. Our team will contact you shortly on the provided number to discuss your consultation.
+        </p>
+
+        <div className="grid sm:grid-cols-2 gap-4 mb-10">
+          <div className="p-4 bg-gray-50 rounded-2xl border border-gray-100 italic transition-all hover:shadow-md">
+             <Phone className="text-[#8B5E83] mx-auto mb-2" size={20} />
+             <p className="text-[10px] text-gray-400 font-bold uppercase tracking-wider mb-1">Follow up on</p>
+             <p className="font-bold text-[#8B5E83]">+91-9449031003</p>
           </div>
-        </section>
-      </main>
-      <Footer />
-      <FloatingButtons />
-    </>
+          <div className="p-4 bg-gray-50 rounded-2xl border border-gray-100 italic transition-all hover:shadow-md">
+             <Calendar className="text-[#2A6B5A] mx-auto mb-2" size={20} />
+             <p className="text-[10px] text-gray-400 font-bold uppercase tracking-wider mb-1">Clinic Hours</p>
+             <p className="font-bold text-[#2A6B5A]">8 AM – 9 PM</p>
+          </div>
+        </div>
+
+        <div className="space-y-4">
+          <Link href="/" className="inline-flex items-center gap-2 text-[#8B5E83] font-bold hover:underline">
+            <ArrowLeft size={18} />
+            Back to Homepage
+          </Link>
+        </div>
+      </div>
+    </div>
   );
 }
