@@ -1,5 +1,5 @@
 'use client';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, Suspense } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
@@ -40,7 +40,7 @@ const nextYearDate = new Date();
 nextYearDate.setFullYear(nextYearDate.getFullYear() + 1);
 const maxDate = nextYearDate.toISOString().split('T')[0];
 
-export default function ContactForm() {
+function ContactFormFields() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const {
@@ -254,5 +254,13 @@ export default function ContactForm() {
         </div>
       </form>
     </div>
+  );
+}
+
+export default function ContactForm() {
+  return (
+    <Suspense fallback={<div className="p-8 text-center text-gray-400">Loading form...</div>}>
+      <ContactFormFields />
+    </Suspense>
   );
 }
