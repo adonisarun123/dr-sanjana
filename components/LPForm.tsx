@@ -18,6 +18,7 @@ const schema = z.object({
   utm_campaign: z.string().optional(),
   utm_term: z.string().optional(),
   utm_content: z.string().optional(),
+  sourceUrl: z.string().optional(),
   honeypot: z.string().max(0, 'Bot detected'),
 });
 
@@ -36,7 +37,11 @@ function FormFields() {
   } = useForm<FormData>({ resolver: zodResolver(schema) });
 
   useEffect(() => {
-    // Capture UTM parameters from URL
+    // Capture URL and Trackers
+    if (typeof window !== 'undefined') {
+      setValue('sourceUrl', window.location.href);
+    }
+    
     if (searchParams) {
       setValue('utm_source', searchParams.get('utm_source') || '');
       setValue('utm_medium', searchParams.get('utm_medium') || '');
@@ -49,10 +54,22 @@ function FormFields() {
 
   const onSubmit = async (data: FormData) => {
     setIsSubmitting(true);
-    // Simulate submission (integrate with your lead management system / email here)
-    console.log('Lead Captured with UTMs:', data);
-    await new Promise((r) => setTimeout(r, 1500));
-    router.push('/thank-you');
+    try {
+      const response = await fetch('/api/leads', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data),
+      });
+
+      if (!response.ok) throw new Error('Submission failed');
+      
+      router.push('/thank-you');
+    } catch (error) {
+      console.error('Error:', error);
+      alert('Something went wrong. Please try again or call us directly.');
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -67,6 +84,7 @@ function FormFields() {
       <input type="hidden" {...register('utm_term')} />
       <input type="hidden" {...register('utm_content')} />
       <input type="hidden" {...register('source')} />
+      <input type="hidden" {...register('sourceUrl')} />
 
       <div>
         <label className="block text-sm font-semibold mb-1 text-gray-700">Full Name*</label>

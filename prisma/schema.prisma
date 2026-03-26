@@ -1,0 +1,36 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Lead {
+  id           Int      @id @default(autoincrement())
+  createdAt    DateTime @default(now())
+  fullName     String
+  phone        String
+  concern      String
+  center       String?
+  source       String?  // e.g. "Google Ads Landing Page"
+  sourceUrl    String   // The full URL where the form was filled
+  utm_source   String?
+  utm_medium   String?
+  utm_campaign String?
+  utm_term     String?
+  utm_content  String?
+  ipAddress    String?
+  
+  // Appointment specific fields
+  email        String?
+  preferredDate String?
+  preferredTime String?
+  visitType    String?
+  description  String?
+  referral     String?
+}

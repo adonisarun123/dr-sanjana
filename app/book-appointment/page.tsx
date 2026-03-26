@@ -1,5 +1,6 @@
 'use client';
-import { useRouter } from 'next/navigation';
+import { useState, useEffect } from 'react';
+import { useRouter, useSearchParams } from 'next/navigation';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
@@ -20,6 +21,11 @@ const schema = z.object({
   service: z.string().optional(),
   description: z.string().optional(),
   referral: z.string().optional(),
+  source: z.string().optional(),
+  sourceUrl: z.string().optional(),
+  utm_source: z.string().optional(),
+  utm_medium: z.string().optional(),
+  utm_campaign: z.string().optional(),
   honeypot: z.string().max(0, 'Bot detected'),
 });
 
@@ -40,16 +46,41 @@ const maxDate = nextYearDate.toISOString().split('T')[0];
 
 export default function BookAppointmentPage() {
   const router = useRouter();
+  const searchParams = useSearchParams();
   const {
     register,
     handleSubmit,
+    setValue,
     formState: { errors, isSubmitting },
   } = useForm<FormData>({ resolver: zodResolver(schema) });
 
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      setValue('sourceUrl', window.location.href);
+    }
+    if (searchParams) {
+      setValue('utm_source', searchParams.get('utm_source') || '');
+      setValue('utm_medium', searchParams.get('utm_medium') || '');
+      setValue('utm_campaign', searchParams.get('utm_campaign') || '');
+      setValue('source', 'Appointment Booking Page');
+    }
+  }, [searchParams, setValue]);
+
   const onSubmit = async (data: FormData) => {
-    // Simulated submission (integrate with email/API in production)
-    await new Promise((r) => setTimeout(r, 1200));
-    router.push('/thank-you');
+    try {
+      const response = await fetch('/api/leads', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data),
+      });
+
+      if (!response.ok) throw new Error('Submission failed');
+      
+      router.push('/thank-you');
+    } catch (error) {
+      console.error('Error:', error);
+      alert('Something went wrong. Please try again or call us directly.');
+    }
   };
 
   return (
@@ -83,6 +114,11 @@ export default function BookAppointmentPage() {
                   >
                     {/* Honeypot */}
                     <input type="text" {...register('honeypot')} style={{ display: 'none' }} tabIndex={-1} aria-hidden="true" />
+                    <input type="hidden" {...register('source')} />
+                    <input type="hidden" {...register('sourceUrl')} />
+                    <input type="hidden" {...register('utm_source')} />
+                    <input type="hidden" {...register('utm_medium')} />
+                    <input type="hidden" {...register('utm_campaign')} />
 
                     <div className="grid md:grid-cols-2 gap-5">
                       {/* Full Name */}
