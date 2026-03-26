@@ -5,12 +5,13 @@ import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
 import { useRouter } from 'next/navigation';
-import { Phone, User, MessageSquare, Send } from 'lucide-react';
+import { Phone, User, MessageSquare, Send, MapPin } from 'lucide-react';
 
 const schema = z.object({
   fullName: z.string().min(2, 'Please enter your full name'),
   phone: z.string().regex(/^[6-9]\d{9}$/, 'Enter a valid 10-digit Indian mobile number'),
   concern: z.string().min(1, 'Please select your concern'),
+  center: z.string().min(1, 'Please select a clinic center'),
   source: z.string().optional(),
   utm_source: z.string().optional(),
   utm_medium: z.string().optional(),
@@ -92,6 +93,22 @@ function FormFields() {
           />
         </div>
         {errors.phone && <p className="text-xs text-red-500 mt-1">{errors.phone.message}</p>}
+      </div>
+
+      <div>
+        <label className="block text-sm font-semibold mb-1 text-gray-700">Preferred Clinic*</label>
+        <div className="relative">
+          <MapPin className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400" size={18} />
+          <select
+            {...register('center')}
+            className={`w-full pl-10 pr-4 py-3 rounded-xl border ${errors.center ? 'border-red-500' : 'border-gray-200'} focus:ring-2 focus:ring-purple-100 outline-none appearance-none transition-all`}
+          >
+            <option value="">Select a center</option>
+            <option value="HSR Layout">Health Nest (HSR Layout)</option>
+            <option value="Attibele">Raghava Hospital (Attibele)</option>
+          </select>
+        </div>
+        {errors.center && <p className="text-xs text-red-500 mt-1">{errors.center.message}</p>}
       </div>
 
       <div>
