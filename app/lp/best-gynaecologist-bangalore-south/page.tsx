@@ -54,7 +54,7 @@ export default function LPLandingPage() {
 
                 <div className="flex flex-wrap justify-center lg:justify-start gap-4 pt-4">
                   {[
-                    { label: '8+ Years Exp.', icon: Award },
+                    { label: '10+ Years Exp.', icon: Award },
                     { label: '4.9/5 Rating', icon: Star },
                     { label: 'Gold Medalist', icon: CheckCircle2 },
                   ].map((item, i) => (
@@ -88,9 +88,9 @@ export default function LPLandingPage() {
           <div className="container-hn">
             <p className="text-center text-xs font-bold text-gray-400 uppercase tracking-[0.2em] mb-8">Professional Associations & Trust</p>
             <div className="flex flex-wrap justify-center items-center gap-12 opacity-50 grayscale hover:grayscale-0 transition-all duration-500">
-              <span className="text-2xl font-bold text-gray-400 font-serif italic">Apollo 24|7</span>
-              <span className="text-2xl font-bold text-gray-400 font-serif italic">FOGSI Member</span>
               <span className="text-2xl font-bold text-gray-400 font-serif italic">RGUHS Gold Medalist</span>
+              <span className="text-2xl font-bold text-gray-400 font-serif italic">FOGSI Member</span>
+              <span className="text-2xl font-bold text-gray-400 font-serif italic">FMAS Certified</span>
             </div>
           </div>
         </section>
@@ -201,12 +201,6 @@ export default function LPLandingPage() {
                 </div>
               </div>
               <div className="relative rounded-[2rem] overflow-hidden shadow-2xl h-[550px] bg-gray-100">
-                 <Image 
-                   src="/dr-sanjana-hero.png" 
-                   fill
-                   className="object-cover" 
-                   alt="Dr. Sanjana L - Top Gynaecologist in Bangalore"
-                 />
                  <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/20 to-transparent h-1/4" />
               </div>
             </div>

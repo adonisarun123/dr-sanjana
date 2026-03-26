@@ -10,7 +10,7 @@ import BreadcrumbNav from '@/components/BreadcrumbNav';
 export const metadata: Metadata = {
   title: 'Patient Stories & Reviews | Health Nest - Dr. Sanjana L, Bangalore',
   description:
-    'Read what patients say about Dr. Sanjana L at Health Nest, HSR Layout, Bangalore. Real reviews from Google and Apollo 247.',
+    'Read what patients say about Dr. Sanjana L at Health Nest, HSR Layout, Bangalore. Real reviews from Google Trust.',
 };
 
 export default function PatientStoriesPage() {
@@ -28,7 +28,7 @@ export default function PatientStoriesPage() {
             <div className="flex items-center gap-2 mb-3">
               {[1,2,3,4,5].map(i => <Star key={i} size={20} fill="#F59E0B" color="#F59E0B" />)}
               <span className="font-bold text-lg ml-1" style={{ color: '#2D2D2D', fontFamily: 'DM Sans, sans-serif' }}>4.9</span>
-              <span style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}>· 200+ reviews on Apollo 247 & Google</span>
+              <span style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}>· 200+ Trusted Google Reviews</span>
             </div>
             <p style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}>
               Real stories from real patients — the trust that 5,000+ women have placed in Dr. Sanjana L at Health Nest.
@@ -48,23 +48,15 @@ export default function PatientStoriesPage() {
               </div>
               <p className="text-5xl font-bold mb-1" style={{ fontFamily: 'Playfair Display, serif', color: '#8B5E83' }}>4.9</p>
               <p className="font-medium mb-1" style={{ color: '#2D2D2D', fontFamily: 'DM Sans, sans-serif' }}>Average Rating</p>
-              <p className="text-sm mb-5" style={{ color: '#6B6B6B' }}>Based on 200+ reviews on Apollo 247 and Google</p>
+              <p className="text-sm mb-5" style={{ color: '#6B6B6B' }}>Based on 200+ Verified Google Reviews</p>
               <div className="flex flex-wrap gap-3 justify-center">
-                <a
-                  href="https://www.apollo247.com/doctors/dr-sanjana-l-fd572709-8e73-4725-b310-ad3fdf705d06"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn-secondary text-sm"
-                >
-                  <ExternalLink size={14} /> View on Apollo 247
-                </a>
                 <a
                   href="https://g.page/r/HealthNestHSRLayout/review"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn-secondary text-sm"
+                  className="btn-primary text-sm"
                 >
-                  <ExternalLink size={14} /> View on Google
+                  Rate us on Google
                 </a>
               </div>
             </div>
@@ -120,14 +112,6 @@ export default function PatientStoriesPage() {
                   className="btn-primary"
                 >
                   Write a Google Review
-                </a>
-                <a
-                  href="https://www.apollo247.com/doctors/dr-sanjana-l-fd572709-8e73-4725-b310-ad3fdf705d06"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn-secondary"
-                >
-                  Review on Apollo 247
                 </a>
               </div>
             </div>

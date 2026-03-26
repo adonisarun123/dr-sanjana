@@ -223,7 +223,6 @@ function ContactFormFields() {
               <option value="google">Google Search</option>
               <option value="referral">Doctor / Friend Referral</option>
               <option value="social">Social Media</option>
-              <option value="apollo">Apollo 247</option>
               <option value="other">Other</option>
             </select>
           </div>

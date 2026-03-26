@@ -43,7 +43,7 @@ export default function Footer() {
               </div>
             </div>
             <p className="text-sm leading-relaxed mb-5" style={{ color: '#9B9B9B', fontFamily: 'DM Sans, sans-serif' }}>
-              Trusted gynaecology & obstetrics care in HSR Layout, Bangalore. 8 plus years of compassionate women&apos;s healthcare.
+              Trusted gynaecology & obstetrics care in HSR Layout, Bangalore. 10 plus years of compassionate women&apos;s healthcare.
             </p>
             <div className="flex gap-3">
               <a

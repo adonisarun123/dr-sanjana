@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     siteName: "Health Nest",
     title: "Best Gynaecologist in HSR Layout Bangalore | Dr. Sanjana L",
     description:
-      "Dr. Sanjana L — 15+ years of trusted gynaecology & obstetrics care in HSR Layout, Bangalore.",
+      "Dr. Sanjana L — 10 plus years of trusted gynaecology & obstetrics care in HSR Layout, Bangalore.",
     images: [
       {
         url: "/og-image.jpg",
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Best Gynaecologist in HSR Layout Bangalore | Dr. Sanjana L",
-    description: "Dr. Sanjana L — 15+ years of trusted gynaecology care in HSR Layout.",
+    description: "Dr. Sanjana L — 10 plus years of trusted gynaecology care in HSR Layout.",
   },
   robots: {
     index: true,
@@ -90,9 +90,7 @@ const medicalBusinessSchema = {
   ],
   priceRange: "₹₹",
   image: "https://healthnest.in/images/clinic-exterior.jpg",
-  sameAs: [
-    "https://www.apollo247.com/doctors/dr-sanjana-l-fd572709-8e73-4725-b310-ad3fdf705d06",
-  ],
+  sameAs: [],
   aggregateRating: {
     "@type": "AggregateRating",
     ratingValue: "4.9",

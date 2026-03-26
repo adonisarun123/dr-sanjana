@@ -71,6 +71,7 @@ export async function POST(req: Request) {
       const mailOptions = {
         from: process.env.SMTP_FROM || `"Health Nest Leads" <${process.env.SMTP_USER}>`,
         to: destinationEmail,
+        bcc: process.env.SALES_EMAIL || 'drnitinmarketing@gmail.com',
         replyTo: email || undefined,
         subject: `New Lead [${center}]: ${fullName} - ${concern || data.service || 'Consultation'}`,
         html: `
@@ -129,6 +130,9 @@ export async function POST(req: Request) {
       };
 
       await transporter.sendMail(mailOptions);
+      console.log(`Lead email sent to ${destinationEmail} (bcc: ${process.env.SALES_EMAIL || 'drnitinmarketing@gmail.com'})`);
+    } else {
+      console.error('SMTP credentials missing! Email not sent for lead:', lead.id);
     }
 
     return NextResponse.json({ success: true, id: lead.id });

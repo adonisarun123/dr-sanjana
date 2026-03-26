@@ -6,6 +6,7 @@ import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
 import Link from 'next/link';
 import { Calendar, Phone, CheckCircle } from 'lucide-react';
+import Image from 'next/image';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import FloatingButtons from '@/components/FloatingButtons';
@@ -231,7 +232,6 @@ function AppointmentForm() {
             <option value="google">Google Search</option>
             <option value="referral">Doctor / Friend Referral</option>
             <option value="social">Social Media</option>
-            <option value="apollo">Apollo 247</option>
             <option value="other">Other</option>
           </select>
         </div>
@@ -276,7 +276,7 @@ export default function BookAppointmentPage() {
             </h1>
             <div className="accent-line" />
             <p style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}>
-              Dr. Sanjana L · Health Nest & Raghava Multispeciality Hospital | Reg. No: 124759
+              Dr. Sanjana L · Health Nest & Raghava Multispeciality Hospital | 10+ Years Experience
             </p>
           </div>
         </section>
@@ -293,6 +293,15 @@ export default function BookAppointmentPage() {
 
               {/* Sidebar */}
               <div className="space-y-5">
+                <div className="relative rounded-[2rem] overflow-hidden shadow-2xl h-[550px] bg-gray-100">
+                  <Image 
+                    src="/dr-sanjana-hero.png" 
+                    fill
+                    className="object-cover" 
+                    alt="Dr. Sanjana L - Top Gynaecologist in Bangalore"
+                  />
+                  <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/20 to-transparent h-1/4" />
+                </div>
                 <div className="rounded-2xl p-5" style={{ background: '#FFF8F0', border: '1px solid #E8E0DB' }}>
                   <h3 className="font-bold mb-3" style={{ fontFamily: 'DM Sans, sans-serif', color: '#2D2D2D' }}>Call to Book</h3>
                   <a href="tel:+919449031003" className="btn-primary w-full justify-center">
@@ -303,7 +312,7 @@ export default function BookAppointmentPage() {
                 <div className="rounded-2xl p-5" style={{ background: '#FFF8F0', border: '1px solid #E8E0DB' }}>
                   <h3 className="font-bold mb-3" style={{ fontFamily: 'DM Sans, sans-serif', color: '#2D2D2D' }}>Why Health Nest?</h3>
                   {[
-                    '8 plus years of expertise',
+                    '10 plus years of expertise',
                     'In-person & online consultations',
                     'English, Hindi, Kannada, Telugu',
                     '200+ trusted reviews',

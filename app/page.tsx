@@ -13,7 +13,7 @@ import Footer from '@/components/Footer';
 export const metadata: Metadata = {
   title: 'Best Gynaecologist in HSR Layout Bangalore | Dr. Sanjana L - Health Nest',
   description:
-    'Dr. Sanjana L (MBBS, MS) — 8 plus years experienced gynaecologist & obstetrician in HSR Layout & Attibele, Bangalore. Book appointment at Health Nest for pregnancy care, fertility, laparoscopy & more.',
+    'Dr. Sanjana L (MBBS, MS) — 10 plus years experienced gynaecologist & obstetrician in HSR Layout & Attibele, Bangalore. Book appointment at Health Nest for pregnancy care, fertility, laparoscopy & more.',
 };
 
 const homeServices = [
@@ -58,7 +58,7 @@ const homeServices = [
 const homeFaqs = [
   {
     q: 'Who is the best gynaecologist in HSR Layout, Bangalore?',
-    a: 'Dr. Sanjana L at Health Nest is one of the most trusted gynaecologists in HSR Layout & Attibele, Bangalore, with 8 plus years of experience in obstetrics and gynaecology. She holds MBBS and MS (OB-GYN) qualifications (Registration No: 124759) and is known for her compassionate, patient-centred approach.',
+    a: 'Dr. Sanjana L at Health Nest is one of the most trusted gynaecologists in HSR Layout & Attibele, Bangalore, with 10 plus years of experience in obstetrics and gynaecology. She holds MBBS and MS (OB-GYN) qualifications (Registration No: 124759) and is known for her compassionate, patient-centred approach.',
   },
   {
     q: 'What services does Health Nest clinic offer?',
@@ -173,7 +173,7 @@ export default function HomePage() {
                 <div className="flex lg:hidden flex-wrap gap-3 mt-8">
                   <div className="flex items-center gap-2 px-3 py-2 bg-white rounded-xl shadow-sm border border-gray-100">
                     <Award size={18} style={{ color: '#8B5E83' }} />
-                    <span className="text-sm font-semibold text-gray-800">8 plus years Exp.</span>
+                    <span className="text-sm font-semibold text-gray-800">10 plus years Exp.</span>
                   </div>
                   <div className="flex items-center gap-2 px-3 py-2 bg-white rounded-xl shadow-sm border border-gray-100">
                     <Star size={18} style={{ color: '#F59E0B', fill: '#F59E0B' }} />
@@ -204,7 +204,7 @@ export default function HomePage() {
                       <p className="text-sm font-medium opacity-90" style={{ fontFamily: 'DM Sans, sans-serif' }}>MBBS MS ( OBG) Gold Medalist FRM ( RGUHS) FMAS</p>
                       <div className="flex items-center gap-2 mt-3 pt-3 border-t border-white/20">
                         <CheckCircle2 size={14} className="text-green-300" />
-                        <span className="text-xs">Apollo 247 Associated</span>
+                        <span className="text-xs">RGUHS Gold Medalist</span>
                       </div>
                     </div>
                   </div>
@@ -218,7 +218,7 @@ export default function HomePage() {
                       <Award size={24} style={{ color: '#8B5E83' }} />
                     </div>
                     <div>
-                      <p className="text-xl font-bold leading-none mb-1" style={{ color: '#1C1C2E', fontFamily: 'Playfair Display, serif' }}>8 plus years</p>
+                      <p className="text-xl font-bold leading-none mb-1" style={{ color: '#1C1C2E', fontFamily: 'Playfair Display, serif' }}>10 plus years</p>
                       <p className="text-sm font-medium" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}>Trusted Experience</p>
                     </div>
                   </div>
@@ -341,7 +341,7 @@ export default function HomePage() {
                 </h2>
                 <div className="accent-line" />
                 <p className="mb-4" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif', lineHeight: 1.7 }}>
-                  Dr. Sanjana L is an experienced Obstetrician and Gynaecologist with over 8 plus years of practice in Bangalore. Holding an MBBS and MS in Obstetrics & Gynaecology, she has dedicated her career to empowering women through compassionate, evidence-based healthcare.
+                  Dr. Sanjana L is an experienced Obstetrician and Gynaecologist with over 10 plus years of practice in Bangalore. Holding an MBBS and MS in Obstetrics & Gynaecology, she has dedicated her career to empowering women through compassionate, evidence-based healthcare.
                 </p>
                 <p className="mb-6" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif', lineHeight: 1.7 }}>
                   At Health Nest, HSR Layout, Dr. Sanjana believes that every woman deserves personalised care delivered with dignity, warmth, and clinical excellence. She consults in English, Hindi, Kannada, and Telugu, ensuring every patient feels heard and understood.
@@ -349,7 +349,7 @@ export default function HomePage() {
                 <ul className="space-y-2 mb-8">
                   {[
                     'Specialised in high-risk pregnancy & laparoscopic surgery',
-                    'Associated with Apollo 247 platform',
+                    'Gold Medalist - Obstetrics & Gynaecology',
                     'Member of FOGSI (Federation of OB/GYN Societies of India)',
                     'Offers both in-person & online consultations',
                   ].map((item) => (
@@ -405,7 +405,7 @@ export default function HomePage() {
               <div className="flex items-center justify-center gap-1 mt-2">
                 {[1,2,3,4,5].map(i => <Star key={i} size={18} fill="#F59E0B" color="#F59E0B" />)}
                 <span className="ml-2 text-sm font-semibold" style={{ color: '#2D2D2D', fontFamily: 'DM Sans, sans-serif' }}>4.9</span>
-                <span className="text-sm" style={{ color: '#6B6B6B' }}>· 200+ reviews on Apollo 247 & Google</span>
+                <span className="text-sm" style={{ color: '#6B6B6B' }}>· 200+ Trusted Reviews on Google</span>
               </div>
             </div>
             <TestimonialCarousel />

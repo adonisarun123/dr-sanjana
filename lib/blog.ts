@@ -91,7 +91,7 @@ Diagnosis typically involves:
 
 If you experience irregular periods, unusual hair growth, persistent acne, or difficulty conceiving, a comprehensive evaluation at Health Nest can provide clarity and a personalised treatment plan. Early intervention — especially for PCOS — is key to protecting your long-term health.
 
-Dr. Sanjana L, Gynaecologist at Health Nest, HSR Layout, Bangalore, has 15+ years of experience managing both PCOS and PCOD with a holistic, patient-centred approach.
+Dr. Sanjana L, Gynaecologist at Health Nest, HSR Layout, Bangalore, has 10 plus years of experience managing both PCOS and PCOD with a holistic, patient-centred approach.
     `,
   },
   {

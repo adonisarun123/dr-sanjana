@@ -24,7 +24,7 @@ export const services: Service[] = [
     description: 'Comprehensive prenatal support from conception to delivery.',
     icon: 'Baby',
     category: 'Obstetrics',
-    overview: 'Pregnancy is one of the most beautiful journeys of your life, and you deserve expert, compassionate care every step of the way. At Health Nest, Dr. Sanjana L provides comprehensive pregnancy care tailored to your unique needs — from your first prenatal visit through safe delivery and beyond. With 15+ years of experience managing both routine and complex pregnancies, Dr. Sanjana ensures you feel informed, supported, and confident throughout your journey to motherhood.',
+    overview: 'Pregnancy is one of the most beautiful journeys of your life, and you deserve expert, compassionate care every step of the way. At Health Nest, Dr. Sanjana L provides comprehensive pregnancy care tailored to your unique needs — from your first prenatal visit through safe delivery and beyond. With 10 plus years of experience managing both routine and complex pregnancies, Dr. Sanjana ensures you feel informed, supported, and confident throughout your journey to motherhood.',
     whatToExpect: [
       'Initial consultation and dating scan in the first trimester',
       'Regular prenatal check-ups every 4 weeks (adjusting closer to delivery)',
@@ -41,7 +41,7 @@ export const services: Service[] = [
       'Any concerns about your baby\'s growth or wellbeing',
     ],
     whyChooseDrSanjana: [
-      '15+ years managing both routine and high-risk pregnancies',
+      '10 plus years managing both routine and high-risk pregnancies',
       'Multilingual consultations (English, Hindi, Kannada, Telugu)',
       'Personalised birth plans and patient-centred approach',
       'Seamless coordination with the delivery team for your comfort',
