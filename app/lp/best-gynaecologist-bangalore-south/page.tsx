@@ -7,7 +7,7 @@ import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
   title: 'Best Gynaecologist in HSR Layout & Attibele | Dr. Sanjana L - Health Nest',
-  description: 'Top-rated gynaecologist Dr. Sanjana L (MBBS, MS) offers expert pregnancy care, fertility support, and laparoscopic surgery in HSR Layout & Attibele. Book a free callback today.',
+  description: 'Top-rated gynaecologist Dr. Sanjana L (MBBS, MS) offers expert pregnancy care and fertility support for HSR Layout, Attibele, Sarjapura & South Bangalore areas. Book a callback today.',
 };
 
 export default function LPLandingPage() {
@@ -38,21 +38,21 @@ export default function LPLandingPage() {
             <div className="grid lg:grid-cols-12 gap-12 items-center">
               
               {/* Left Column: Value Proposition & Social Proof */}
-              <div className="lg:col-span-7 space-y-8">
-                <div className="inline-flex items-center gap-2 px-3 py-1 bg-[#2A6B5A]/10 text-[#2A6B5A] rounded-full text-xs font-bold uppercase tracking-widest">
+              <div className="lg:col-span-7 space-y-8 text-center lg:text-left">
+                <div className="inline-flex items-center gap-2 px-3 py-1 bg-[#2A6B5A]/10 text-[#2A6B5A] rounded-full text-xs font-bold uppercase tracking-widest mx-auto lg:mx-0">
                   <ShieldCheck size={14} /> 
                   Trusted by 5000+ Happy Patients
                 </div>
                 
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-[1.15]" style={{ fontFamily: 'Playfair Display, serif' }}>
-                  Top-Rated <span className="text-[#8B5E83]">Gynaecology & Pregnancy</span> Care in HSR Layout
+                  Top-Rated <span className="text-[#8B5E83]">Gynaecology & Pregnancy</span> Care near you
                 </h1>
                 
-                <p className="text-lg md:text-xl text-gray-600 leading-relaxed max-w-xl">
-                  Get personalized, compassionate care from <strong>Dr. Sanjana L</strong> — Gold Medalist Obstetrician with 8+ years of expertise in high-risk pregnancy and fertility.
+                <p className="text-lg md:text-xl text-gray-600 leading-relaxed max-w-xl mx-auto lg:mx-0">
+                  Expert care for women in <strong>HSR Layout, Attibele, Sarjapura, Electronic City</strong> & nearby South Bangalore areas. Consult with <strong>Dr. Sanjana L</strong> — Gold Medalist Gynaecologist.
                 </p>
 
-                <div className="flex flex-wrap gap-4 pt-4">
+                <div className="flex flex-wrap justify-center lg:justify-start gap-4 pt-4">
                   {[
                     { label: '8+ Years Exp.', icon: Award },
                     { label: '4.9/5 Rating', icon: Star },
@@ -169,12 +169,15 @@ export default function LPLandingPage() {
           <div className="container-hn">
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
-                <h2 className="text-3xl font-bold mb-6" style={{ fontFamily: 'Playfair Display, serif' }}>Find Us Across Bangalore</h2>
+                <h2 className="text-3xl font-bold mb-6" style={{ fontFamily: 'Playfair Display, serif' }}>Visit Our Clinics</h2>
+                <p className="text-gray-500 mb-8 max-w-md leading-relaxed">
+                  Easily accessible for residents of HSR Layout, Attibele, Sarjapura, Electronic City, Chandapura, and surrounding South Bangalore neighborhoods.
+                </p>
                 <div className="space-y-6">
                   <div className="flex gap-4 p-6 rounded-2xl bg-gray-50 border border-gray-100 hover:shadow-md transition-all">
                     <MapPin className="text-[#8B5E83] flex-shrink-0" size={24} />
                     <div>
-                      <h4 className="font-bold text-gray-800">Health Nest Hospital (HSR Layout)</h4>
+                      <h4 className="font-bold text-gray-800">Health Nest (HSR Layout)</h4>
                       <p className="text-sm text-gray-500 mt-1 leading-relaxed">1162, 24th Main Rd, Sector 2, HSR Layout, Bangalore</p>
                     </div>
                   </div>
@@ -197,18 +200,19 @@ export default function LPLandingPage() {
                   </div>
                 </div>
               </div>
-              <div className="relative rounded-[2rem] overflow-hidden shadow-2xl h-[450px]">
+              <div className="relative rounded-[2rem] overflow-hidden shadow-2xl h-[550px] bg-gray-100">
                  <Image 
-                   src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" 
+                   src="/dr-sanjana-hero.png" 
                    fill
-                   className="object-cover grayscale hover:grayscale-0 transition-all duration-700" 
-                   alt="Clinic Interior"
+                   className="object-cover" 
+                   alt="Dr. Sanjana L - Top Gynaecologist in Bangalore"
                  />
-                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
+                 <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/20 to-transparent h-1/4" />
               </div>
             </div>
           </div>
         </section>
+
 
         {/* FINAL CONVERSION STRIP */}
         <section className="py-20 bg-gradient-to-r from-[#8B5E83] to-[#6B4563]">
