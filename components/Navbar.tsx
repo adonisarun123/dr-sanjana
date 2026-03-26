@@ -57,18 +57,18 @@ export default function Navbar() {
               className="h-10 w-10 md:h-12 md:w-12 object-contain mix-blend-multiply"
               priority
             />
-            <div>
+            <div className="flex-shrink-0">
               <p className="font-bold text-lg leading-tight" style={{ fontFamily: 'Playfair Display, serif', color: '#8B5E83' }}>
                 Dr. Sanjana L
               </p>
-              <p className="text-xs leading-tight" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}>
+              <p className="text-[10px] md:text-xs leading-tight whitespace-nowrap" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}>
                 Health Nest & Raghava Multispeciality Hospital
               </p>
             </div>
           </Link>
 
           {/* Desktop Nav */}
-          <ul className="hidden lg:flex items-center gap-1" role="list">
+          <ul className="hidden xl:flex items-center gap-0.5" role="list">
             {navLinks.map((link) =>
               link.children ? (
                 <li key={link.href} className="relative group">
@@ -109,7 +109,7 @@ export default function Navbar() {
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="px-3 py-2 rounded-lg text-sm font-medium transition-colors hover:bg-purple-50 block"
+                    className="px-2 py-2 rounded-lg text-sm font-medium transition-colors hover:bg-purple-50 block"
                     style={{ color: '#2D2D2D', fontFamily: 'DM Sans, sans-serif' }}
                   >
                     {link.label}
@@ -120,7 +120,7 @@ export default function Navbar() {
           </ul>
 
           {/* Desktop CTA */}
-          <div className="hidden lg:flex items-center gap-3">
+          <div className="hidden xl:flex items-center gap-2">
             <a
               href="tel:+919449031003"
               className="flex items-center gap-2 text-sm font-medium transition-colors hover:text-purple-700"
