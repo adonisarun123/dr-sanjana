@@ -125,6 +125,23 @@ function ContactFormFields() {
             {errors.phone && <p id="phone-error" className="text-xs mt-1" style={{ color: '#EF4444' }}>{errors.phone.message}</p>}
           </div>
 
+          {/* Center Selection (Moved to Top for Visibility) */}
+          <div className="md:col-span-2">
+            <label className="form-label" htmlFor="center">Select Clinic Center <span aria-hidden="true">*</span></label>
+            <select 
+              id="center" 
+              className={`form-input${errors.center ? ' error' : ''}`} 
+              style={{ border: '2px solid #8B5E83', background: '#fff' }}
+              {...register('center')} 
+              aria-required="true"
+            >
+              <option value="">-- Choose between HSR Layout & Attibele --</option>
+              <option value="HSR Layout">Health Nest (HSR Layout)</option>
+              <option value="Attibele">Raghava Hospital (Attibele)</option>
+            </select>
+            {errors.center && <p className="text-xs mt-1" style={{ color: '#EF4444' }}>{errors.center.message}</p>}
+          </div>
+
           {/* Email */}
           <div>
             <label className="form-label" htmlFor="email">Email <span className="text-gray-400">(Optional)</span></label>
@@ -136,22 +153,6 @@ function ContactFormFields() {
               placeholder="your@email.com"
               {...register('email')}
             />
-          </div>
-
-          {/* Center */}
-          <div className="md:col-span-2">
-            <label className="form-label" htmlFor="center">Preferred Clinic Center <span aria-hidden="true">*</span></label>
-            <select 
-              id="center" 
-              className={`form-input${errors.center ? ' error' : ''}`} 
-              {...register('center')} 
-              aria-required="true"
-            >
-              <option value="">Select a center</option>
-              <option value="HSR Layout">Health Nest (HSR Layout)</option>
-              <option value="Attibele">Raghava Hospital (Attibele)</option>
-            </select>
-            {errors.center && <p className="text-xs mt-1" style={{ color: '#EF4444' }}>{errors.center.message}</p>}
           </div>
 
           {/* Date */}

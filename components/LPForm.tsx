@@ -114,14 +114,15 @@ function FormFields() {
       </div>
 
       <div>
-        <label className="block text-sm font-semibold mb-1 text-gray-700">Preferred Clinic*</label>
+        <label className="block text-sm font-semibold mb-1 text-gray-700">Select Clinic Center*</label>
         <div className="relative">
           <MapPin className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400" size={18} />
           <select
             {...register('center')}
-            className={`w-full pl-10 pr-4 py-3 rounded-xl border ${errors.center ? 'border-red-500' : 'border-gray-200'} focus:ring-2 focus:ring-purple-100 outline-none appearance-none transition-all`}
+            className={`w-full pl-10 pr-4 py-3 rounded-xl border-2 border-[#8B5E83] bg-white focus:ring-2 focus:ring-purple-100 outline-none appearance-none transition-all`}
+            style={{ fontWeight: '500' }}
           >
-            <option value="">Select a center</option>
+            <option value="">-- Choose between HSR Layout & Attibele --</option>
             <option value="HSR Layout">Health Nest (HSR Layout)</option>
             <option value="Attibele">Raghava Hospital (Attibele)</option>
           </select>
