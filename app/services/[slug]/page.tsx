@@ -42,10 +42,10 @@ export default async function ServicePage({ params }: Props) {
     procedureType: service.category,
     body: {
       '@type': 'MedicalOrganization',
-      name: 'Health Nest',
+      name: 'Health Nest & Raghava Hospital',
       address: {
         '@type': 'PostalAddress',
-        addressLocality: 'Bangalore',
+        addressLocality: 'South Bangalore & Attibele',
         addressRegion: 'Karnataka',
         addressCountry: 'IN',
       },
@@ -106,7 +106,7 @@ export default async function ServicePage({ params }: Props) {
               <div className="grid md:grid-cols-2 gap-4">
                 <div>
                   <p className="text-sm font-semibold mb-2 uppercase tracking-wide" style={{ color: '#8B5E83' }}>Specialty</p>
-                  <p className="text-sm" style={{ color: '#6B6B6B' }}>{service.category} — Health Nest, HSR Layout, Bangalore</p>
+                  <p className="text-sm" style={{ color: '#6B6B6B' }}>{service.category} — HSR Layout & Attibele</p>
                 </div>
                 <div>
                   <p className="text-sm font-semibold mb-2 uppercase tracking-wide" style={{ color: '#8B5E83' }}>Specialist</p>
@@ -215,7 +215,7 @@ export default async function ServicePage({ params }: Props) {
                   Book for {service.shortTitle}
                 </p>
                 <p className="text-sm text-white/80 mb-4" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                  Dr. Sanjana L · Health Nest · HSR Layout
+                  Dr. Sanjana L · HSR Layout & Attibele
                 </p>
                 <p className="text-xs text-white/60 mb-4">200+ patients trust Dr. Sanjana</p>
                 <Link href="/book-appointment" className="btn-white w-full justify-center">

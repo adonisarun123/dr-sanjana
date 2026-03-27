@@ -1,8 +1,8 @@
 import Link from 'next/link';
 import { MessageCircle, Phone, Calendar } from 'lucide-react';
 
-const WHATSAPP_NUMBER = '91XXXXXXXXXX';
-const WHATSAPP_MESSAGE = encodeURIComponent('Hello, I would like to book an appointment with Dr. Sanjana L at Health Nest, HSR Layout.');
+const WHATSAPP_NUMBER = '919449031003';
+const WHATSAPP_MESSAGE = encodeURIComponent('Hello, I would like to book an appointment with Dr. Sanjana L at Health Nest (HSR Layout) / Raghava Hospital (Attibele).');
 
 export default function FloatingButtons() {
   return (
