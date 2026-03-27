@@ -9,7 +9,7 @@ import FAQAccordion from '@/components/FAQAccordion';
 export const metadata: Metadata = {
   title: 'About Dr. Sanjana L — Obstetrician & Gynaecologist, HSR Layout & Attibele',
   description:
-    'Meet Dr. Sanjana L — MBBS, MS OB-GYN with 10 plus years experience. Trusted women\'s health specialist at Health Nest & Raghava Multispeciality Hospital.',
+    'Meet Dr. Sanjana L — MBBS, MS OB-GYN with 10 plus years experience. Serving patients in HSR Layout, Attibele, Sarjapura, and Hosur at Health Nest & Raghava Hospital.',
 };
 
 const physicianSchema = {
@@ -23,14 +23,24 @@ const physicianSchema = {
   availableLanguage: ['English', 'Hindi', 'Kannada', 'Telugu'],
   identifier: '124759',
   worksFor: { '@type': 'MedicalBusiness', name: 'Health Nest' },
-  address: {
-    '@type': 'PostalAddress',
-    streetAddress: 'HSR Layout',
-    addressLocality: 'Bangalore',
-    addressRegion: 'Karnataka',
-    postalCode: '560102',
-    addressCountry: 'IN',
-  },
+  address: [
+    {
+      '@type': 'PostalAddress',
+      streetAddress: 'HSR Layout',
+      addressLocality: 'Bangalore',
+      addressRegion: 'Karnataka',
+      postalCode: '560102',
+      addressCountry: 'IN',
+    },
+    {
+      '@type': 'PostalAddress',
+      streetAddress: 'Attibele',
+      addressLocality: 'Bangalore',
+      addressRegion: 'Karnataka',
+      postalCode: '562107',
+      addressCountry: 'IN',
+    }
+  ],
   aggregateRating: {
     '@type': 'AggregateRating',
     ratingValue: '4.9',
@@ -58,7 +68,7 @@ const specialisations = [
 const aboutFaqs = [
   {
     q: 'What are Dr. Sanjana L\'s qualifications?',
-    a: 'Dr. Sanjana L holds an MBBS and an MS in Obstetrics & Gynaecology (Medical Registration No: 124759). She has over 15 years of experience in the field and practises at Health Nest, HSR Layout, Bangalore.',
+    a: 'Dr. Sanjana L holds an MBBS and an MS in Obstetrics & Gynaecology (Medical Registration No: 124759). She has over 10 plus years of experience and consults at Health Nest (HSR Layout) and Raghava Hospital (Attibele), Bangalore.',
   },
   {
     q: 'Does Dr. Sanjana L offer online consultations?',
@@ -239,7 +249,7 @@ export default function AboutPage() {
               Ready to Meet Dr. Sanjana?
             </h2>
             <p className="text-white/80 mb-6" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-              Book your appointment at Health Nest, HSR Layout today.
+              Book your appointment at Health Nest (HSR Layout) or Raghava Hospital (Attibele) today.
             </p>
             <div className="flex flex-wrap gap-3 justify-center">
               <Link href="/book-appointment" className="btn-white">

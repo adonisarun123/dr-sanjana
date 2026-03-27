@@ -4,20 +4,22 @@ import "./globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL("https://healthnest.in"),
   title: {
-    default: "Best Gynaecologist in HSR Layout Bangalore | Dr. Sanjana L - Health Nest",
-    template: "%s | Health Nest",
+    default: "Best Gynaecologist in HSR Layout & Attibele | Dr. Sanjana L",
+    template: "%s | Dr. Sanjana L",
   },
   description:
-    "Dr. Sanjana L (MBBS, MS) — 15+ yrs experienced gynaecologist & obstetrician in HSR Layout, Bangalore. Book appointment at Health Nest clinic for pregnancy care, fertility, laparoscopy & more.",
+    "Dr. Sanjana L (MBBS, MS) — 10 plus years experienced gynaecologist & obstetrician serving HSR Layout, Attibele, Sarjapura and South Bangalore. Expert care for pregnancy, fertility and laparoscopy.",
   keywords: [
     "gynaecologist in HSR Layout Bangalore",
-    "best gynecologist near me HSR Layout",
-    "lady gynecologist HSR Layout",
-    "obstetrician Bangalore",
+    "best gynaecologist in Attibele",
+    "obstetrician in Sarjapura",
+    "gynecologist near Electronic City",
     "Dr Sanjana L",
-    "Health Nest",
-    "pregnancy care Bangalore",
-    "PCOS treatment HSR Layout",
+    "Health Nest Bangalore",
+    "pregnancy care Attibele",
+    "PCOS treatment Bangalore",
+    "lady gynaecologist Hosur Road",
+    "Raghava Hospital Attibele",
   ],
   authors: [{ name: "Dr. Sanjana L" }],
   creator: "Health Nest",
@@ -26,9 +28,9 @@ export const metadata: Metadata = {
     locale: "en_IN",
     url: "https://healthnest.in",
     siteName: "Health Nest",
-    title: "Best Gynaecologist in HSR Layout Bangalore | Dr. Sanjana L",
+    title: "Best Gynaecologist in HSR Layout & Attibele | Dr. Sanjana L",
     description:
-      "Dr. Sanjana L — 10 plus years of trusted gynaecology & obstetrics care in HSR Layout, Bangalore.",
+      "Dr. Sanjana L — 10 plus years of trusted gynaecology & obstetrics care in HSR Layout, Attibele, and Sarjapura Bangalore.",
     images: [
       {
         url: "/og-image.jpg",
@@ -67,14 +69,24 @@ const medicalBusinessSchema = {
   url: "https://healthnest.in",
   telephone: "+91-XXXXXXXXXX",
   email: "info@healthnest.in",
-  address: {
-    "@type": "PostalAddress",
-    streetAddress: "HSR Layout",
-    addressLocality: "Bangalore",
-    addressRegion: "Karnataka",
-    postalCode: "560102",
-    addressCountry: "IN",
-  },
+  address: [
+    {
+      "@type": "PostalAddress",
+      streetAddress: "HSR Layout",
+      addressLocality: "Bangalore",
+      addressRegion: "Karnataka",
+      postalCode: "560102",
+      addressCountry: "IN",
+    },
+    {
+      "@type": "PostalAddress",
+      streetAddress: "Attibele",
+      addressLocality: "Bangalore",
+      addressRegion: "Karnataka",
+      postalCode: "562107",
+      addressCountry: "IN",
+    }
+  ],
   geo: {
     "@type": "GeoCoordinates",
     latitude: "12.9116",
@@ -84,8 +96,8 @@ const medicalBusinessSchema = {
     {
       "@type": "OpeningHoursSpecification",
       dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-      opens: "09:00",
-      closes: "18:00",
+      opens: "08:00",
+      closes: "21:00",
     },
   ],
   priceRange: "₹₹",

@@ -7,20 +7,20 @@ import BreadcrumbNav from '@/components/BreadcrumbNav';
 import FAQAccordion from '@/components/FAQAccordion';
 
 export const metadata: Metadata = {
-  title: 'FAQs — Health Nest Gynaecology Clinic, HSR Layout Bangalore',
+  title: 'FAQs — Health Nest Gynaecology, HSR Layout & Attibele Bangalore',
   description:
-    'Common questions about gynaecology services, pregnancy care, fees & appointments at Health Nest with Dr. Sanjana L.',
+    'Common questions about gynaecology services, pregnancy care, fees & appointments with Dr. Sanjana L at HSR Layout and Attibele.',
 };
 
 const allFaqs = [
   {
     category: 'About Dr. Sanjana & Health Nest',
     faqs: [
-      { q: 'Who is Dr. Sanjana L?', a: 'Dr. Sanjana L is an experienced Obstetrician and Gynaecologist (MBBS, MS OB-GYN) with over 15 years of practice. She is based at Health Nest clinic in HSR Layout, Bangalore, and is known for her compassionate, patient-centred approach. Medical Registration No: 124759.' },
-      { q: 'What languages does Dr. Sanjana consult in?', a: 'Dr. Sanjana L consults in English, Hindi, Kannada, and Telugu, making her accessible to a diverse range of patients across Bangalore and beyond.' },
+      { q: 'Who is Dr. Sanjana L?', a: 'Dr. Sanjana L is an experienced Obstetrician and Gynaecologist (MBBS, MS OB-GYN) with over 10 plus years of practice. She practises at Health Nest (HSR Layout) and Raghava Hospital (Attibele), Bangalore, and is known for her compassionate, patient-centred approach. Medical Registration No: 124759.' },
+      { q: 'What languages does Dr. Sanjana consult in?', a: 'Dr. Sanjana L consults in English, Hindi, Kannada, and Telugu, making her accessible to a diverse range of patients across Bangalore, Hosur and beyond.' },
       { q: 'Is online consultation available?', a: 'Yes, online video consultations are available for follow-up visits, second opinions, and initial discussions. Book through the website or call the clinic.' },
-      { q: 'Where is Health Nest located?', a: 'Health Nest is in HSR Layout, Bangalore, Karnataka — 560102. It is conveniently located near Agara Lake, Silk Board, and Koramangala and easily accessible from South Bangalore.' },
-      { q: 'What are the clinic hours?', a: 'The clinic is open Monday to Saturday, 9:00 AM – 6:00 PM. The clinic is closed on Sundays.' },
+      { q: 'Where is Health Nest located?', a: 'We have two primary locations: HSR Layout (near Agara Lake, serving Koramangala & BTM Layout) and Raghava Hospital, Attibele (serving Sarjapura, Electronic City, Chandapura, and Hosur). Both are easily accessible with parking available.' },
+      { q: 'What are the clinic hours?', a: 'Consultations are available Monday to Saturday, 8:00 AM – 9:00 PM. Sundays are available by prior appointment only.' },
     ],
   },
   {

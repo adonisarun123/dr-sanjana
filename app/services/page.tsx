@@ -11,9 +11,9 @@ import FloatingButtons from '@/components/FloatingButtons';
 import BreadcrumbNav from '@/components/BreadcrumbNav';
 
 export const metadata: Metadata = {
-  title: 'Gynaecology & Obstetrics Services | Health Nest HSR Layout Bangalore',
+  title: 'Gynaecology & Obstetrics Services | HSR Layout & Attibele Bangalore',
   description:
-    'Comprehensive gynaecology and obstetrics services at Health Nest, HSR Layout. Dr. Sanjana L offers pregnancy care, fertility, laparoscopic surgery, PCOS treatment & more.',
+    'Comprehensive women’s healthcare services at Health Nest (HSR Layout) and Raghava Hospital (Attibele). Dr. Sanjana L offers pregnancy care, high-risk obstetrics, fertility, and laparoscopic surgery for patients across South Bangalore and Hosur.',
 };
 
 const allServices = [
@@ -58,7 +58,7 @@ export default function ServicesPage() {
             </h1>
             <div className="accent-line" />
             <p className="text-lg max-w-2xl" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}>
-              Comprehensive gynaecology and obstetrics care at Health Nest, HSR Layout, Bangalore — delivered by Dr. Sanjana L with compassion, expertise, and clinical excellence.
+              Comprehensive gynaecology and obstetrics care at Health Nest (HSR Layout) and Raghava Hospital (Attibele), Bangalore — delivered by Dr. Sanjana L with compassion, expertise, and clinical excellence.
             </p>
           </div>
         </section>

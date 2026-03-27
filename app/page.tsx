@@ -11,9 +11,9 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
-  title: 'Best Gynaecologist in HSR Layout Bangalore | Dr. Sanjana L - Health Nest',
+  title: 'Best Gynaecologist in HSR Layout & Attibele | Dr. Sanjana L - Health Nest',
   description:
-    'Dr. Sanjana L (MBBS, MS) — 10 plus years experienced gynaecologist & obstetrician in HSR Layout & Attibele, Bangalore. Book appointment at Health Nest for pregnancy care, fertility, laparoscopy & more.',
+    'Dr. Sanjana L (MBBS, MS) — 10 plus years experienced gynaecologist & obstetrician serving HSR Layout, Attibele, Sarjapura and South Bangalore. Expert care for pregnancy, fertility and laparoscopy.',
 };
 
 const homeServices = [
@@ -78,7 +78,7 @@ const homeFaqs = [
   },
   {
     q: 'Where is Health Nest clinic located?',
-    a: 'Health Nest is located in HSR Layout, Bangalore, Karnataka — 560102. The clinic is easily accessible from Silk Board, Agara Lake, Koramangala, BTM Layout, and Marathahalli. Street parking is available nearby.',
+    a: 'Health Nest has two primary consultation centers: HSR Layout (near Agara Lake, accessible from Koramangala & BTM Layout) and Raghava Hospital, Attibele (serving Sarjapura, Electronic City, Chandapura, and Hosur). Street parking is available at both locations.',
   },
 ];
 
@@ -101,7 +101,7 @@ const usps = [
   {
     icon: '📍',
     title: 'Convenient Location',
-    description: 'Centrally located in HSR Layout & Attibele — easily accessible from South Bangalore.',
+    description: 'Centrally located in HSR Layout & Attibele — easily accessible from Sarjapura, Electronic City and South Bangalore.',
   },
 ];
 
@@ -148,7 +148,7 @@ export default function HomePage() {
                 >
                   Compassionate <br/>
                   <span className="gradient-text italic opacity-90">Women&apos;s Health</span> <br/>
-                  Care in HSR
+                  Care in HSR & Attibele
                 </h1>
                 
                 <p

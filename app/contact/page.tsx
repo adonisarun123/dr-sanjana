@@ -8,9 +8,9 @@ import BreadcrumbNav from '@/components/BreadcrumbNav';
 import ContactForm from '@/components/ContactForm';
 
 export const metadata: Metadata = {
-  title: 'Contact Health Nest — Gynaecologist HSR Layout Bangalore | Dr. Sanjana L',
+  title: 'Contact Health Nest — Gynaecologist HSR Layout & Attibele | Dr. Sanjana L',
   description:
-    'Contact Health Nest in HSR Layout, Bangalore. Get directions, clinic hours, and contact Dr. Sanjana L for gynaecology & obstetrics appointments.',
+    'Contact Health Nest in HSR Layout or Raghava Hospital in Attibele. Get directions, clinic hours, and book appointments with Dr. Sanjana L for patients in Sarjapura, Electronic City, and South Bangalore.',
 };
 
 export default function ContactPage() {
@@ -26,7 +26,7 @@ export default function ContactPage() {
             </h1>
             <div className="accent-line" />
             <p style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}>
-              Health Nest & Raghava Multispeciality Hospital · Bangalore
+              HSR Layout & Attibele · Serving Sarjapura, Electronic City & South Bangalore
             </p>
           </div>
         </section>
