@@ -17,18 +17,18 @@ export const blogPosts: BlogPost[] = [
   {
     slug: 'pcos-vs-pcod-difference',
     title: 'PCOS vs PCOD: Key Differences, Symptoms, Diagnosis & Treatment in 2026',
-    excerpt: 'Are PCOS and PCOD the same thing? Dr. Sanjana L, a leading gynaecologist in HSR Layout Bangalore, explains the critical differences between Polycystic Ovary Syndrome and Polycystic Ovarian Disease — including symptoms, diagnosis, fertility impact, and the latest treatment options available at Health Nest.',
+    excerpt: 'Are PCOS and PCOD the same thing? Dr. Sanjana L, a leading gynaecologist in HSR Layout & Attibele Bangalore, explains the critical differences between Polycystic Ovary Syndrome and Polycystic Ovarian Disease — including symptoms, diagnosis, fertility impact, and the latest treatment options available at Health Nest & Raghava Hospital.',
     category: 'Fertility',
-    tags: ['PCOS', 'PCOD', 'hormonal health', 'irregular periods', 'fertility treatment', 'gynaecologist HSR Layout', 'Bangalore', 'insulin resistance', 'weight gain'],
+    tags: ['PCOS', 'PCOD', 'hormonal health', 'irregular periods', 'fertility treatment', 'gynaecologist HSR Layout', 'gynaecologist Attibele', 'Bangalore', 'insulin resistance', 'weight gain'],
     readTime: 10,
     date: '2026-03-10',
     author: 'Dr. Sanjana L',
-    metaTitle: 'PCOS vs PCOD: Difference, Symptoms & Treatment | Best Gynaecologist in HSR Layout Bangalore',
-    metaDescription: 'Confused about PCOS and PCOD? Dr. Sanjana L at Health Nest, HSR Layout Bangalore explains the differences, symptoms, diagnosis using Rotterdam Criteria, and evidence-based treatment options.',
+    metaTitle: 'PCOS vs PCOD: Difference, Symptoms & Treatment | HSR Layout & Attibele Bangalore',
+    metaDescription: 'Confused about PCOS and PCOD? Dr. Sanjana L at Health Nest (HSR Layout) and Raghava Hospital (Attibele) explains the differences, symptoms, and treatment options.',
     content: `
 ## PCOS vs PCOD — Why the Distinction Matters
 
-"Is it PCOS or PCOD?" is one of the most common questions Dr. Sanjana L hears from patients at Health Nest, HSR Layout, Bangalore. While many women — and even some healthcare providers — use the terms interchangeably, they refer to conditions with important clinical differences. Understanding whether you have PCOS or PCOD helps determine the right treatment plan, the level of monitoring you need, and your long-term health outlook.
+"Is it PCOS or PCOD?" is one of the most common questions Dr. Sanjana L hears from patients at Health Nest (HSR Layout) and Raghava Hospital (Attibele). While many women — and even some healthcare providers — use the terms interchangeably, they refer to conditions with important clinical differences. Understanding whether you have PCOS or PCOD helps determine the right treatment plan, the level of monitoring you need, and your long-term health outlook.
 
 In her 10-plus years of clinical practice as a gynaecologist in Bangalore, Dr. Sanjana has treated thousands of women with hormonal and ovarian conditions and emphasises that early, accurate diagnosis is key.
 
@@ -159,7 +159,7 @@ A diet low in processed foods and refined sugars, rich in fibre, healthy fats, a
 
 If you experience irregular periods, unusual hair growth, persistent acne, unexplained weight gain, or difficulty conceiving, a comprehensive evaluation at Health Nest can provide clarity and a personalised treatment plan. Early intervention — especially for PCOS — is key to protecting your long-term health.
 
-Dr. Sanjana L is a trusted gynaecologist in HSR Layout, Bangalore, with 10-plus years of experience managing both PCOS and PCOD. She consults at Health Nest (HSR Layout, near Agara Lake) and Raghava Hospital (Attibele), serving patients from Koramangala, BTM Layout, Sarjapura, Electronic City, and across South Bangalore.
+Dr. Sanjana L is a trusted gynaecologist in HSR Layout and Attibele, Bangalore, with 10-plus years of experience managing both PCOS and PCOD. She consults at Health Nest (HSR Layout, near Agara Lake) and Raghava Hospital (Attibele, opposite Syndicate Bank), serving patients from Koramangala, BTM Layout, Sarjapura, Electronic City, Chandapura, and across South Bangalore.
 
 Book your appointment today to take the first step toward hormonal balance and better health.
     `,
@@ -167,20 +167,20 @@ Book your appointment today to take the first step toward hormonal balance and b
   {
     slug: 'first-trimester-pregnancy-guide',
     title: 'First Trimester Pregnancy Guide: Symptoms, Tests, Nutrition & Week-by-Week Changes',
-    excerpt: 'The first 12 weeks of pregnancy are the most critical for your baby\'s development. Dr. Sanjana L at Health Nest, HSR Layout Bangalore shares a complete week-by-week guide to the first trimester — covering early symptoms, essential tests, nutrition tips, supplements, and warning signs every expecting mother should know.',
+    excerpt: 'The first 12 weeks of pregnancy are critical. Dr. Sanjana L at Health Nest (HSR Layout) and Raghava Hospital (Attibele) shares a complete week-by-week guide to the first trimester — covering early symptoms, essential tests, and nutrition.',
     category: 'Pregnancy',
-    tags: ['pregnancy', 'first trimester', 'prenatal care', 'morning sickness', 'pregnancy symptoms', 'dating scan', 'NT scan', 'folic acid', 'gynaecologist HSR Layout', 'Bangalore'],
+    tags: ['pregnancy', 'first trimester', 'prenatal care', 'morning sickness', 'pregnancy symptoms', 'dating scan', 'NT scan', 'folic acid', 'gynaecologist HSR Layout', 'gynaecologist Attibele', 'Bangalore'],
     readTime: 12,
     date: '2026-03-01',
     author: 'Dr. Sanjana L',
-    metaTitle: 'First Trimester Pregnancy Guide: Week-by-Week | Dr. Sanjana L, Health Nest HSR Layout Bangalore',
-    metaDescription: 'Complete first trimester pregnancy guide by Dr. Sanjana L at Health Nest, HSR Layout Bangalore. Week-by-week development, essential tests, nutrition tips, supplements & warning signs for weeks 1-12.',
+    metaTitle: 'First Trimester Pregnancy Guide: Week-by-Week | Dr. Sanjana L, HSR Layout & Attibele',
+    metaDescription: 'Complete first trimester pregnancy guide by Dr. Sanjana L at Health Nest (HSR Layout) and Raghava Hospital (Attibele). Week-by-week development, tests, & nutrition tips.',
     content: `
 ## Congratulations — You Are Pregnant!
 
 Finding out you are pregnant is one of life's most exciting moments. The first trimester — weeks 1 through 12 — is also one of the most important periods for your baby's development and your own health. During these early weeks, your body undergoes profound hormonal and physical changes, and your baby transforms from a single fertilised cell into a fully formed foetus with a beating heart, developing brain, and functioning organs.
 
-As an obstetrician and gynaecologist with over 10 years of experience at Health Nest, HSR Layout, Bangalore, Dr. Sanjana L has guided thousands of women through their pregnancies. This comprehensive guide covers everything you need to know about your first trimester — week by week — so you can feel informed, prepared, and confident.
+As an obstetrician and gynaecologist with over 10 years of experience consulting at Health Nest (HSR Layout) and Raghava Hospital (Attibele), Dr. Sanjana L has guided thousands of women through their pregnancies. This comprehensive guide covers everything you need to know about your first trimester — week by week — so you can feel informed, prepared, and confident.
 
 ## Week-by-Week Development in the First Trimester
 
@@ -327,14 +327,14 @@ Book your first prenatal appointment today and begin your pregnancy journey with
   {
     slug: 'when-to-visit-gynaecologist',
     title: 'When Should You Visit a Gynaecologist? 12 Warning Signs Women in Bangalore Should Not Ignore',
-    excerpt: 'Many women in Bangalore delay gynaecological care due to discomfort, busy schedules, or uncertainty about what is "normal." Dr. Sanjana L at Health Nest, HSR Layout shares 12 important signs that it is time to see a gynaecologist — plus why routine check-ups matter for every woman.',
+    excerpt: 'Many women in Bangalore delay gynaecological care. Dr. Sanjana L at Health Nest (HSR Layout) and Raghava Hospital (Attibele) shares 12 important signs that it is time to see a gynaecologist — plus why routine check-ups matter.',
     category: 'Women\'s Health',
-    tags: ['gynaecologist', 'women\'s health', 'HSR Layout', 'Bangalore', 'preventive care', 'irregular periods', 'pelvic pain', 'Pap smear', 'cervical screening', 'fertility evaluation'],
+    tags: ['gynaecologist', 'women\'s health', 'HSR Layout', 'Attibele', 'Bangalore', 'preventive care', 'irregular periods', 'pelvic pain', 'Pap smear', 'cervical screening'],
     readTime: 9,
     date: '2026-02-20',
     author: 'Dr. Sanjana L',
-    metaTitle: '12 Signs to Visit a Gynaecologist in Bangalore | Dr. Sanjana L, Health Nest HSR Layout',
-    metaDescription: 'Not sure when to see a gynaecologist? Dr. Sanjana L at Health Nest, HSR Layout Bangalore shares 12 warning signs including irregular periods, pelvic pain & more you should not ignore.',
+    metaTitle: '12 Signs to Visit a Gynaecologist in Bangalore | HSR Layout & Attibele',
+    metaDescription: 'Not sure when to see a gynaecologist? Dr. Sanjana L at Health Nest (HSR Layout) and Raghava Hospital (Attibele) shares 12 warning signs you should not ignore.',
     content: `
 ## Why Do Women in India Delay Gynaecological Care?
 
@@ -426,7 +426,7 @@ Most gynaecological examinations are not painful. Some procedures like a Pap sme
 
 You deserve expert, compassionate gynaecological care — and you do not have to wait until symptoms become serious. Dr. Sanjana L, gynaecologist in HSR Layout, Bangalore, provides personalised, non-judgmental care for women of all ages.
 
-Health Nest is conveniently located in HSR Layout (near Agara Lake) and also accessible from Koramangala, BTM Layout, Sarjapura Road, and Electronic City. Dr. Sanjana also consults at Raghava Hospital, Attibele, serving Sarjapura, Chandapura, Hosur, and surrounding areas.
+Health Nest is conveniently located in HSR Layout (near Agara Lake) and Raghava Hospital is in Attibele (Sarjapura-Attibele Rd). Dr. Sanjana serves patients from Koramangala, BTM Layout, Sarjapura, Electronic City, Chandapura, and surrounding areas.
 
 Call Health Nest or fill out our online booking form today to schedule your visit.
     `,
@@ -434,18 +434,18 @@ Call Health Nest or fill out our online booking form today to schedule your visi
   {
     slug: 'normal-delivery-vs-c-section',
     title: 'Normal Delivery vs C-Section: Benefits, Risks & How to Decide — Expert Guide by Dr. Sanjana L',
-    excerpt: 'Should you aim for a normal delivery or plan a caesarean section? Dr. Sanjana L at Health Nest, HSR Layout Bangalore explains the benefits and risks of both, who is a good candidate for vaginal birth, when a C-section is necessary, and how to make the best decision for you and your baby.',
+    excerpt: 'Should you aim for a normal delivery or plan a caesarean section? Dr. Sanjana L at Health Nest (HSR Layout) and Raghava Hospital (Attibele) explains the benefits and risks of both, and how to decide.',
     category: 'Pregnancy',
-    tags: ['normal delivery', 'C-section', 'caesarean section', 'vaginal birth', 'pregnancy', 'delivery options', 'birth plan', 'gynaecologist HSR Layout', 'Bangalore', 'VBAC'],
+    tags: ['normal delivery', 'C-section', 'caesarean section', 'vaginal birth', 'pregnancy', 'delivery options', 'birth plan', 'gynaecologist HSR Layout', 'gynaecologist Attibele', 'Bangalore'],
     readTime: 11,
     date: '2026-03-15',
     author: 'Dr. Sanjana L',
-    metaTitle: 'Normal Delivery vs C-Section: Benefits, Risks & How to Choose | Dr. Sanjana L, HSR Layout Bangalore',
-    metaDescription: 'Normal delivery or caesarean? Dr. Sanjana L at Health Nest HSR Layout Bangalore compares benefits, risks, recovery & helps you understand when each is recommended.',
+    metaTitle: 'Normal Delivery vs C-Section: Benefits, Risks & Help Choosing | HSR Layout & Attibele',
+    metaDescription: 'Normal delivery or caesarean? Dr. Sanjana L at Health Nest (HSR Layout) and Raghava Hospital (Attibele) compares benefits, risks, and recovery.',
     content: `
 ## Normal Delivery vs Caesarean Section — One of the Biggest Decisions in Pregnancy
 
-As your due date approaches, one question weighs heavily on every expecting mother's mind: "Will I have a normal delivery or will I need a C-section?" This is one of the most frequently discussed topics at Health Nest, and Dr. Sanjana L believes every woman deserves clear, honest information to make an informed decision.
+As your due date approaches, one question weighs heavily on every expecting mother's mind: "Will I have a normal delivery or will I need a C-section?" This is one of the most frequently discussed topics at Health Nest (HSR Layout) and Raghava Hospital (Attibele), and Dr. Sanjana L believes every woman deserves clear, honest information to make an informed decision.
 
 India's caesarean section rate has risen significantly — from about 9% in 2005 to over 21% nationally, with rates as high as 40-50% in urban private hospitals. While C-sections are life-saving when medically necessary, Dr. Sanjana advocates for supporting normal vaginal delivery whenever it is safe for both mother and baby.
 
@@ -554,14 +554,14 @@ Book your consultation today and feel confident about your delivery journey.
   {
     slug: 'endometriosis-symptoms-treatment',
     title: 'Endometriosis: Symptoms, Causes, Diagnosis & Treatment Options in Bangalore',
-    excerpt: 'Endometriosis affects 1 in 10 women of reproductive age, yet it takes an average of 7-10 years to diagnose. Dr. Sanjana L at Health Nest, HSR Layout Bangalore explains the symptoms, stages, diagnosis methods, and the latest medical and surgical treatment options — including laparoscopic surgery.',
+    excerpt: 'Endometriosis affects 1 in 10 women, yet it takes an average of 7-10 years to diagnose. Dr. Sanjana L at Health Nest (HSR Layout) and Raghava Hospital (Attibele) explains the symptoms, stages, and treatment options.',
     category: 'Gynaecology Tips',
-    tags: ['endometriosis', 'pelvic pain', 'painful periods', 'laparoscopic surgery', 'infertility', 'gynaecologist HSR Layout', 'Bangalore', 'adenomyosis', 'chronic pain'],
+    tags: ['endometriosis', 'pelvic pain', 'painful periods', 'laparoscopic surgery', 'infertility', 'gynaecologist HSR Layout', 'gynaecologist Attibele', 'Bangalore'],
     readTime: 11,
     date: '2026-03-18',
     author: 'Dr. Sanjana L',
-    metaTitle: 'Endometriosis: Symptoms, Causes & Treatment | Laparoscopic Surgery in Bangalore | Dr. Sanjana L',
-    metaDescription: 'Learn about endometriosis symptoms, causes, staging & treatment options from Dr. Sanjana L at Health Nest, HSR Layout Bangalore. Expert laparoscopic surgery & fertility-preserving care.',
+    metaTitle: 'Endometriosis: Symptoms & Treatment | Laparoscopic Surgery in Bangalore | HSR Layout & Attibele',
+    metaDescription: 'Learn about endometriosis from Dr. Sanjana L at Health Nest (HSR Layout) and Raghava Hospital (Attibele). Expert laparoscopic surgery & fertility-preserving care.',
     content: `
 ## What Is Endometriosis?
 
@@ -569,7 +569,7 @@ Endometriosis is a chronic gynaecological condition in which tissue similar to t
 
 Endometriosis affects approximately 10% of women of reproductive age worldwide — that is an estimated 190 million women globally. Despite being so common, endometriosis remains underdiagnosed, with an average delay of 7-10 years between symptom onset and diagnosis.
 
-Dr. Sanjana L at Health Nest, HSR Layout, Bangalore is experienced in the diagnosis and management of endometriosis, including laparoscopic surgery for advanced cases.
+Dr. Sanjana L at Health Nest (HSR Layout) and Raghava Hospital (Attibele), Bangalore is experienced in the diagnosis and management of endometriosis, including laparoscopic surgery for advanced cases.
 
 ## What Causes Endometriosis?
 
@@ -671,7 +671,7 @@ Most women return to normal activities within 1-2 weeks after laparoscopic surge
 
 If you suspect you have endometriosis — or if you have been living with pelvic pain, painful periods, or difficulty conceiving — do not wait years for a diagnosis. Dr. Sanjana L at Health Nest provides thorough evaluation, advanced laparoscopic surgery, and compassionate long-term management.
 
-Health Nest is located in HSR Layout (near Agara Lake), Bangalore, with easy access from Koramangala, BTM Layout, Sarjapura Road, and Electronic City. Dr. Sanjana also consults at Raghava Hospital, Attibele.
+Health Nest is located in HSR Layout (near Agara Lake), Bangalore, with easy access from Koramangala and BTM Layout. Dr. Sanjana also consults at Raghava Hospital, Attibele, serving Sarjapura, Electronic City, Chandapura, and surrounding areas.
 
 Book your consultation today.
     `,
@@ -679,20 +679,20 @@ Book your consultation today.
   {
     slug: 'fertility-after-35-getting-pregnant',
     title: 'Fertility After 35: What Every Woman Should Know About Getting Pregnant Later',
-    excerpt: 'More women in Bangalore are choosing to start families after 35. Dr. Sanjana L at Health Nest, HSR Layout explains how age affects fertility, what tests you should consider, tips to improve your chances of conceiving, and when to seek fertility treatment.',
+    excerpt: 'Starting a family after 35? Dr. Sanjana L at Health Nest (HSR Layout) and Raghava Hospital (Attibele) explains how age affects fertility, tests to consider, and treatment options.',
     category: 'Fertility',
-    tags: ['fertility after 35', 'getting pregnant', 'advanced maternal age', 'egg quality', 'AMH test', 'IVF', 'IUI', 'fertility treatment', 'gynaecologist HSR Layout', 'Bangalore'],
+    tags: ['fertility after 35', 'getting pregnant', 'advanced maternal age', 'egg quality', 'AMH test', 'IVF', 'IUI', 'gynaecologist HSR Layout', 'gynaecologist Attibele'],
     readTime: 10,
     date: '2026-03-20',
     author: 'Dr. Sanjana L',
-    metaTitle: 'Fertility After 35: Getting Pregnant Later | Dr. Sanjana L, Health Nest HSR Layout Bangalore',
-    metaDescription: 'Trying to conceive after 35? Dr. Sanjana L at Health Nest HSR Layout Bangalore explains how age affects fertility, essential tests like AMH, and treatment options including IUI & IVF.',
+    metaTitle: 'Fertility After 35: Getting Pregnant Later | HSR Layout & Attibele Bangalore',
+    metaDescription: 'Trying to conceive after 35? Dr. Sanjana L at Health Nest (HSR Layout) and Raghava Hospital (Attibele) explains how age affects fertility and treatment options.',
     content: `
 ## Fertility After 35 — Understanding Your Options
 
 Women in India — and particularly in cities like Bangalore — are increasingly choosing to start families later. Career growth, higher education, financial stability, and personal readiness all factor into the decision. According to the National Family Health Survey (NFHS-5), the average age at first birth in urban India has been rising steadily, with many women now having their first child in their early to mid-30s.
 
-While a healthy pregnancy after 35 is absolutely possible — and increasingly common — it is important to understand how age affects fertility so you can make informed decisions and seek timely help if needed. Dr. Sanjana L at Health Nest, HSR Layout, Bangalore has extensive experience helping women in their 30s and 40s achieve healthy pregnancies.
+While a healthy pregnancy after 35 is absolutely possible — and increasingly common — it is important to understand how age affects fertility. Dr. Sanjana L at Health Nest (HSR Layout) and Raghava Hospital (Attibele), Bangalore has extensive experience helping women in their 30s and 40s achieve healthy pregnancies.
 
 ## How Does Age Affect Female Fertility?
 
@@ -804,7 +804,7 @@ Dr. Sanjana L provides comprehensive fertility care for women and couples at eve
 
 Whether you are just starting to think about motherhood or have been trying for a while, Dr. Sanjana is here to help you navigate your options with clarity and compassion.
 
-Health Nest, HSR Layout (near Agara Lake), Bangalore. Also consulting at Raghava Hospital, Attibele.
+Health Nest, HSR Layout (near Agara Lake) and Raghava Hospital, Attibele (opposite Syndicate Bank). Serving Sarjapura, Electronic City, and South Bangalore.
 
 Book your fertility consultation today.
     `,
@@ -812,20 +812,20 @@ Book your fertility consultation today.
   {
     slug: 'cervical-cancer-screening-hpv-vaccine-guide',
     title: 'Cervical Cancer Screening & HPV Vaccine: A Complete Guide for Women in Bangalore',
-    excerpt: 'Cervical cancer is the second most common cancer in Indian women — but it is also one of the most preventable. Dr. Sanjana L at Health Nest, HSR Layout Bangalore explains the importance of Pap smears, HPV testing, the HPV vaccine, and who should get screened.',
+    excerpt: 'Cervical cancer is highly preventable. Dr. Sanjana L at Health Nest (HSR Layout) and Raghava Hospital (Attibele) explains the importance of Pap smears, HPV testing, and the HPV vaccine.',
     category: 'Women\'s Health',
-    tags: ['cervical cancer', 'Pap smear', 'HPV vaccine', 'HPV test', 'cervical screening', 'cancer prevention', 'gynaecologist HSR Layout', 'Bangalore', 'women\'s health'],
+    tags: ['cervical cancer', 'Pap smear', 'HPV vaccine', 'HPV test', 'cervical screening', 'gynaecologist HSR Layout', 'gynaecologist Attibele', 'Bangalore'],
     readTime: 9,
     date: '2026-03-22',
     author: 'Dr. Sanjana L',
-    metaTitle: 'Cervical Cancer Screening & HPV Vaccine Guide | Dr. Sanjana L, Health Nest HSR Layout Bangalore',
-    metaDescription: 'Complete guide to cervical cancer prevention: Pap smear, HPV test & HPV vaccine explained by Dr. Sanjana L at Health Nest, HSR Layout Bangalore. Know when to get screened.',
+    metaTitle: 'Cervical Cancer Screening & HPV Vaccine Guide | HSR Layout & Attibele Bangalore',
+    metaDescription: 'Complete guide to cervical cancer prevention: Pap smear, HPV test & vaccine explained by Dr. Sanjana L at Health Nest (HSR Layout) and Raghava Hospital (Attibele).',
     content: `
 ## Cervical Cancer in India — A Preventable Tragedy
 
 Cervical cancer is the second most common cancer in Indian women, accounting for approximately 1.23 lakh (123,000) new cases and over 77,000 deaths annually in India. These numbers are staggering — but what makes them even more heartbreaking is that cervical cancer is one of the most preventable and treatable cancers when detected early through regular screening.
 
-At Health Nest, HSR Layout, Bangalore, Dr. Sanjana L is passionate about preventive women's healthcare. She strongly advocates for routine cervical screening for all eligible women and actively counsels patients about the HPV vaccine.
+At Health Nest (HSR Layout) and Raghava Hospital (Attibele), Bangalore, Dr. Sanjana L is passionate about preventive women's healthcare. She strongly advocates for routine cervical screening and actively counsels patients about the HPV vaccine.
 
 ## What Causes Cervical Cancer?
 
@@ -944,7 +944,7 @@ Dr. Sanjana L provides comprehensive cervical cancer screening — Pap smear, HP
 
 Do not wait for symptoms. Cervical cancer in its early and precancerous stages has no symptoms. Screening is the only way to catch it early.
 
-Health Nest, HSR Layout (near Agara Lake), Bangalore. Also at Raghava Hospital, Attibele. Serving patients from Koramangala, BTM Layout, Sarjapura, Electronic City, and all of South Bangalore.
+Health Nest (HSR Layout, near Agara Lake) and Raghava Hospital (Attibele, opposite Syndicate Bank). Serving Koramangala, BTM Layout, Sarjapura, Electronic City, and all of South Bangalore.
 
 Book your cervical screening appointment today.
     `,
@@ -952,14 +952,14 @@ Book your cervical screening appointment today.
   {
     slug: 'menopause-symptoms-management-guide',
     title: 'Menopause: Symptoms, Stages & Management — A Complete Guide for Women in India',
-    excerpt: 'Menopause is a natural phase of life, but its symptoms can significantly affect your quality of life. Dr. Sanjana L at Health Nest, HSR Layout Bangalore explains the stages of menopause (perimenopause, menopause, post-menopause), common symptoms, and evidence-based management options including HRT.',
+    excerpt: 'Menopause is a natural phase. Dr. Sanjana L at Health Nest (HSR Layout) and Raghava Hospital (Attibele) explains the stages of menopause and evidence-based management options like HRT.',
     category: 'Women\'s Health',
-    tags: ['menopause', 'perimenopause', 'hot flushes', 'HRT', 'hormone replacement therapy', 'night sweats', 'menopause management', 'gynaecologist HSR Layout', 'Bangalore', 'women over 40'],
+    tags: ['menopause', 'perimenopause', 'hot flushes', 'HRT', 'night sweats', 'gynaecologist HSR Layout', 'gynaecologist Attibele', 'Bangalore'],
     readTime: 10,
     date: '2026-03-25',
     author: 'Dr. Sanjana L',
-    metaTitle: 'Menopause Symptoms & Management Guide | HRT & Treatment | Dr. Sanjana L, Health Nest Bangalore',
-    metaDescription: 'Complete guide to menopause by Dr. Sanjana L at Health Nest, HSR Layout Bangalore. Learn about perimenopause, menopause symptoms, HRT, and evidence-based management for women in India.',
+    metaTitle: 'Menopause Symptoms & Management Guide | HRT | HSR Layout & Attibele',
+    metaDescription: 'Complete guide to menopause by Dr. Sanjana L at Health Nest (HSR Layout) and Raghava Hospital (Attibele). Learn about symptoms, HRT, and management for women in India.',
     content: `
 ## What Is Menopause?
 
@@ -967,7 +967,7 @@ Menopause is a natural biological transition that marks the end of a woman's men
 
 While menopause itself is a single point in time, the transition surrounding it — perimenopause — can begin 4-8 years earlier and bring a wide range of physical and emotional symptoms. Many women in India suffer in silence, attributing their symptoms to ageing, stress, or other causes, and miss out on effective treatments that can significantly improve their quality of life.
 
-Dr. Sanjana L at Health Nest, HSR Layout, Bangalore provides personalised menopause care, helping women navigate this transition with confidence, comfort, and evidence-based medical support.
+Dr. Sanjana L at Health Nest (HSR Layout) and Raghava Hospital (Attibele), Bangalore provides personalised menopause care, helping women navigate this transition with confidence and evidence-based medical support.
 
 ## The Three Stages of Menopause
 
@@ -1117,7 +1117,7 @@ Phytoestrogens (soy, flaxseeds), regular exercise, yoga, and adequate calcium an
 
 You do not have to suffer through menopause in silence. Dr. Sanjana L at Health Nest provides comprehensive, compassionate menopause care — from symptom assessment and blood tests to HRT prescribing, bone health monitoring, and long-term wellbeing support.
 
-Health Nest, HSR Layout (near Agara Lake), Bangalore. Also at Raghava Hospital, Attibele. Accessible from Koramangala, BTM Layout, Sarjapura Road, Electronic City, and all of South Bangalore.
+Health Nest (HSR Layout, near Agara Lake) and Raghava Hospital (Attibele). Accessible from Koramangala, BTM Layout, Sarjapura Road, Electronic City, and all of South Bangalore.
 
 Book your menopause consultation today. Take control of this new chapter of your life.
     `,

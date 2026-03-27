@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, MapPin, Phone, Calendar } from 'lucide-react';
 import { blogPosts, blogCategories } from '@/lib/blog';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
@@ -8,9 +8,27 @@ import FloatingButtons from '@/components/FloatingButtons';
 import BreadcrumbNav from '@/components/BreadcrumbNav';
 
 export const metadata: Metadata = {
-  title: "Women's Health Blog | Dr. Sanjana L — Health Nest, Bangalore",
+  title: "Women's Health Blog by Dr. Sanjana L | Gynaecologist in HSR Layout, Attibele & South Bangalore",
   description:
-    "Expert health articles on pregnancy, fertility, gynaecology & women's wellness by Dr. Sanjana L, HSR Layout Bangalore.",
+    "Expert health articles on pregnancy, fertility, PCOS, menopause, endometriosis & cervical cancer screening by Dr. Sanjana L — trusted gynaecologist in HSR Layout, Attibele, Sarjapura & South Bangalore.",
+  keywords: [
+    "women's health blog Bangalore",
+    "gynaecologist blog HSR Layout",
+    "pregnancy tips Bangalore",
+    "PCOS treatment blog",
+    "fertility after 35 India",
+    "cervical cancer screening Bangalore",
+    "menopause management India",
+    "endometriosis treatment Bangalore",
+    "Dr Sanjana L blog",
+    "Health Nest blog",
+  ],
+  openGraph: {
+    title: "Women's Health Blog | Dr. Sanjana L — Health Nest, HSR Layout & Attibele Bangalore",
+    description: "Expert articles on pregnancy, fertility, PCOS, endometriosis, menopause & more by Dr. Sanjana L, gynaecologist in HSR Layout & Attibele, Bangalore.",
+    url: "https://healthnest.in/blog",
+    type: "website",
+  },
 };
 
 const categoryColors: Record<string, string> = {
@@ -19,6 +37,7 @@ const categoryColors: Record<string, string> = {
   "Women's Health": '#E8A87C',
   'Gynaecology Tips': '#5E7B8B',
   'Nutrition': '#8B6B2A',
+  'Preventive Care': '#6B5E8B',
   'FAQs': '#6B5E8B',
 };
 
@@ -26,20 +45,83 @@ export default function BlogPage() {
   const featured = blogPosts[0];
   const rest = blogPosts.slice(1);
 
+  // CollectionPage structured data for AEO
+  const collectionSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: "Women's Health Blog — Dr. Sanjana L, Health Nest Bangalore",
+    description: "Expert health articles on pregnancy, fertility, PCOS, menopause, endometriosis and cervical cancer screening by Dr. Sanjana L, gynaecologist in HSR Layout and Attibele, Bangalore.",
+    url: 'https://healthnest.in/blog',
+    publisher: {
+      '@type': 'MedicalBusiness',
+      name: 'Health Nest',
+      url: 'https://healthnest.in',
+      address: [
+        {
+          '@type': 'PostalAddress',
+          streetAddress: 'HSR Layout, near Agara Lake',
+          addressLocality: 'Bangalore',
+          addressRegion: 'Karnataka',
+          postalCode: '560102',
+          addressCountry: 'IN',
+        },
+        {
+          '@type': 'PostalAddress',
+          streetAddress: 'Raghava Hospital, Attibele',
+          addressLocality: 'Bangalore',
+          addressRegion: 'Karnataka',
+          postalCode: '562107',
+          addressCountry: 'IN',
+        },
+      ],
+    },
+    mainEntity: {
+      '@type': 'ItemList',
+      numberOfItems: blogPosts.length,
+      itemListElement: blogPosts.map((post, index) => ({
+        '@type': 'ListItem',
+        position: index + 1,
+        url: `https://healthnest.in/blog/${post.slug}`,
+        name: post.title,
+      })),
+    },
+  };
+
+  // BreadcrumbList schema for AEO
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://healthnest.in' },
+      { '@type': 'ListItem', position: 2, name: 'Health Blog', item: 'https://healthnest.in/blog' },
+    ],
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
       <Navbar />
       <main id="main-content">
         <section className="bg-gradient-hero" style={{ paddingTop: '100px', paddingBottom: '40px' }}>
           <div className="container-hn">
             <BreadcrumbNav crumbs={[{ label: 'Home', href: '/' }, { label: 'Health Blog' }]} />
             <h1 className="text-4xl md:text-5xl font-bold mt-4 mb-3" style={{ fontFamily: 'Playfair Display, serif', color: '#2D2D2D' }}>
-              Health & Wellness Blog
+              Women&apos;s Health &amp; Wellness Blog
             </h1>
             <div className="accent-line" />
-            <p style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}>
-              Expert articles on women&apos;s health by Dr. Sanjana L, Gynaecologist at Health Nest, HSR Layout, Bangalore.
+            <p className="text-lg mb-2" style={{ color: '#4A4A4A', fontFamily: 'DM Sans, sans-serif', lineHeight: 1.7 }}>
+              Evidence-based health articles on pregnancy, fertility, PCOS, endometriosis, menopause, and preventive gynaecology by <strong>Dr. Sanjana L</strong> — trusted gynaecologist in HSR Layout &amp; Attibele, Bangalore.
             </p>
+            <div className="flex flex-wrap items-center gap-4 mt-3 text-sm" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}>
+              <span className="flex items-center gap-1"><MapPin size={14} style={{ color: '#8B5E83' }} /> HSR Layout &bull; Attibele &bull; Sarjapura &bull; Electronic City &bull; Koramangala</span>
+            </div>
           </div>
         </section>
 
@@ -124,11 +206,25 @@ export default function BlogPage() {
               ))}
             </div>
 
-            {/* More posts CTA */}
-            <div className="mt-12 text-center p-8 rounded-3xl" style={{ background: '#FFF8F0', border: '1px solid #E8E0DB' }}>
-              <h3 className="text-xl font-bold mb-2" style={{ fontFamily: 'Playfair Display, serif', color: '#2D2D2D' }}>More Articles Coming Soon</h3>
-              <p className="text-sm mb-4" style={{ color: '#6B6B6B' }}>Dr. Sanjana regularly publishes expert health guidance. Bookmark this page or follow Health Nest on social media for updates.</p>
-              <Link href="/contact" className="btn-primary">Get in Touch</Link>
+            {/* Local SEO content block */}
+            <div className="mt-14 p-8 rounded-3xl" style={{ background: '#FFF8F0', border: '1px solid #E8E0DB' }}>
+              <h2 className="text-2xl font-bold mb-4" style={{ fontFamily: 'Playfair Display, serif', color: '#2D2D2D' }}>
+                Trusted Women&apos;s Health Information for South Bangalore
+              </h2>
+              <p className="mb-4" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif', lineHeight: 1.7 }}>
+                Dr. Sanjana L writes these health articles based on her 10-plus years of clinical experience treating women across South Bangalore. Whether you are searching for reliable pregnancy advice, PCOS treatment guidance, fertility tips after 35, endometriosis management, or menopause support — these evidence-based articles are written specifically for women in HSR Layout, Attibele, Sarjapura, Electronic City, Koramangala, BTM Layout, Chandapura, and Hosur.
+              </p>
+              <p className="mb-6" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif', lineHeight: 1.7 }}>
+                Health Nest is located in HSR Layout (near Agara Lake) and at Raghava Hospital, Attibele. Dr. Sanjana consults in English, Hindi, Kannada, and Telugu.
+              </p>
+              <div className="flex flex-wrap gap-3">
+                <Link href="/book-appointment" className="btn-primary">
+                  <Calendar size={18} /> Book Appointment
+                </Link>
+                <a href="tel:+919449031003" className="btn-secondary">
+                  <Phone size={18} /> Call Clinic
+                </a>
+              </div>
             </div>
           </div>
         </section>

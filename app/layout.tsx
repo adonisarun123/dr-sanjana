@@ -36,14 +36,14 @@ export const metadata: Metadata = {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Health Nest - Dr. Sanjana L, Gynaecologist HSR Layout Bangalore",
+        alt: "Health Nest - Dr. Sanjana L, Gynaecologist HSR Layout & Attibele Bangalore",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Best Gynaecologist in HSR Layout Bangalore | Dr. Sanjana L",
-    description: "Dr. Sanjana L — 10 plus years of trusted gynaecology care in HSR Layout.",
+    title: "Best Gynaecologist in HSR Layout & Attibele | Dr. Sanjana L",
+    description: "Dr. Sanjana L — 10 plus years of trusted gynaecology care in HSR Layout & Attibele.",
   },
   robots: {
     index: true,
@@ -65,9 +65,9 @@ const medicalBusinessSchema = {
   "@context": "https://schema.org",
   "@type": "MedicalBusiness",
   name: "Health Nest",
-  description: "Gynaecology & Obstetrics clinic in HSR Layout, Bangalore led by Dr. Sanjana L",
+  description: "Gynaecology & Obstetrics clinic in HSR Layout & Attibele, Bangalore led by Dr. Sanjana L",
   url: "https://healthnest.in",
-  telephone: "+91-XXXXXXXXXX",
+  telephone: "+91-9449031003",
   email: "info@healthnest.in",
   address: [
     {

@@ -57,7 +57,7 @@ const homeServices = [
 
 const homeFaqs = [
   {
-    q: 'Who is the best gynaecologist in HSR Layout, Bangalore?',
+    q: 'Who is the best gynaecologist in HSR Layout & Attibele, Bangalore?',
     a: 'Dr. Sanjana L at Health Nest is one of the most trusted gynaecologists in HSR Layout & Attibele, Bangalore, with 10 plus years of experience in obstetrics and gynaecology. She holds MBBS and MS (OB-GYN) qualifications (Registration No: 124759) and is known for her compassionate, patient-centred approach.',
   },
   {
@@ -69,8 +69,8 @@ const homeFaqs = [
     a: 'Yes, Dr. Sanjana L supports and facilitates normal (vaginal) deliveries for eligible patients. She provides birth planning, labour support, and evidence-based pain management, and is experienced in both normal and caesarean deliveries.',
   },
   {
-    q: 'What is the consultation fee at Health Nest HSR Layout?',
-    a: 'Please contact Health Nest directly at +91-XXXX-XXXXXX or via the booking form for current consultation fees. The clinic offers both in-person and online consultations.',
+    q: 'What is the consultation fee at Health Nest (HSR Layout) & Raghava Hospital (Attibele)?',
+    a: 'Please contact Health Nest/Raghava Hospital directly at +91-9449031003 or via the booking form for current consultation fees. The clinic offers both in-person and online consultations.',
   },
   {
     q: 'Is online consultation available with Dr. Sanjana L?',
@@ -344,7 +344,7 @@ export default function HomePage() {
                   Dr. Sanjana L is an experienced Obstetrician and Gynaecologist with over 10 plus years of practice in Bangalore. Holding an MBBS and MS in Obstetrics & Gynaecology, she has dedicated her career to empowering women through compassionate, evidence-based healthcare.
                 </p>
                 <p className="mb-6" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif', lineHeight: 1.7 }}>
-                  At Health Nest, HSR Layout, Dr. Sanjana believes that every woman deserves personalised care delivered with dignity, warmth, and clinical excellence. She consults in English, Hindi, Kannada, and Telugu, ensuring every patient feels heard and understood.
+                  At Health Nest (HSR Layout) and Raghava Hospital (Attibele), Dr. Sanjana believes that every woman deserves personalised care delivered with dignity, warmth, and clinical excellence. She consults in English, Hindi, Kannada, and Telugu, ensuring every patient feels heard and understood.
                 </p>
                 <ul className="space-y-2 mb-8">
                   {[
@@ -426,34 +426,37 @@ export default function HomePage() {
                 Expert Health Tips from Dr. Sanjana
               </h2>
               <div className="accent-line-center" />
+              <p className="text-base max-w-2xl mx-auto" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}>
+                Evidence-based articles on pregnancy, fertility, PCOS, and women&apos;s health for patients in HSR Layout, Attibele, Sarjapura &amp; South Bangalore.
+              </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {[
                 {
-                  href: '/blog/first-trimester-pregnancy-guide',
-                  category: 'Pregnancy',
-                  title: 'First Trimester Pregnancy Guide: What Every Mom-to-Be Should Know',
-                  excerpt: 'The first 12 weeks of pregnancy are crucial. From managing morning sickness to understanding your first scans — your complete guide.',
-                  readTime: 8,
-                  date: 'March 1, 2026',
-                  color: '#8B5E83',
-                },
-                {
                   href: '/blog/pcos-vs-pcod-difference',
                   category: 'Fertility',
-                  title: 'PCOS vs PCOD: Understanding the Difference and Treatment Options',
-                  excerpt: 'Many women use PCOS and PCOD interchangeably, but they are distinct conditions. Learn the key differences and how both can be managed.',
-                  readTime: 7,
+                  title: 'PCOS vs PCOD: Key Differences, Symptoms & Treatment',
+                  excerpt: 'Are PCOS and PCOD the same? Dr. Sanjana explains the critical differences, diagnosis, fertility impact, and latest treatment options.',
+                  readTime: 10,
                   date: 'March 10, 2026',
                   color: '#2A6B5A',
                 },
                 {
-                  href: '/blog/when-to-visit-gynaecologist',
-                  category: "Women's Health",
-                  title: 'When Should You Visit a Gynaecologist? 10 Signs to Watch For',
-                  excerpt: 'Many women delay gynaecological care due to discomfort or uncertainty. Learn the 10 key signs that it\'s time to book an appointment.',
-                  readTime: 6,
-                  date: 'Feb 20, 2026',
+                  href: '/blog/normal-delivery-vs-c-section',
+                  category: 'Pregnancy',
+                  title: 'Normal Delivery vs C-Section: Benefits, Risks & How to Decide',
+                  excerpt: 'Should you aim for normal delivery or C-section? Benefits, risks, VBAC options, and expert guidance from Dr. Sanjana L.',
+                  readTime: 11,
+                  date: 'March 15, 2026',
+                  color: '#8B5E83',
+                },
+                {
+                  href: '/blog/fertility-after-35-getting-pregnant',
+                  category: 'Fertility',
+                  title: 'Fertility After 35: What Every Woman Should Know',
+                  excerpt: 'How age affects fertility, essential tests like AMH, tips to improve your chances, and when to seek IUI or IVF treatment.',
+                  readTime: 10,
+                  date: 'March 20, 2026',
                   color: '#E8A87C',
                 },
               ].map((post) => (
@@ -489,7 +492,7 @@ export default function HomePage() {
               ))}
             </div>
             <div className="text-center mt-10">
-              <Link href="/blog" className="btn-secondary">View All Articles <ArrowRight size={16} /></Link>
+              <Link href="/blog" className="btn-secondary">View All 8 Articles <ArrowRight size={16} /></Link>
             </div>
           </div>
         </section>
