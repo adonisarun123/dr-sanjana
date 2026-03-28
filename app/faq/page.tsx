@@ -16,7 +16,7 @@ const allFaqs = [
   {
     category: 'About Dr. Sanjana & Health Nest',
     faqs: [
-      { q: 'Who is Dr. Sanjana L?', a: 'Dr. Sanjana L is an experienced Obstetrician and Gynaecologist (MBBS, MS OB-GYN) with over 10 plus years of practice. She practises at Health Nest (HSR Layout) and Raghava Hospital (Attibele), Bangalore, and is known for her compassionate, patient-centred approach. Medical Registration No: 124759.' },
+      { q: 'Who is Dr. Sanjana L?', a: 'Dr. Sanjana L is an experienced Obstetrician and Gynaecologist (MBBS MS ( OBG) Gold Medalist FRM ( RGUHS) FMAS) with over 10 plus years of practice. She practises at Health Nest (HSR Layout) and Raghava Hospital (Attibele), Bangalore, and is known for her compassionate, patient-centred approach. Medical Registration No: 124759.' },
       { q: 'What languages does Dr. Sanjana consult in?', a: 'Dr. Sanjana L consults in English, Hindi, Kannada, and Telugu, making her accessible to a diverse range of patients across Bangalore, Hosur and beyond.' },
       { q: 'Is online consultation available?', a: 'Yes, online video consultations are available for follow-up visits, second opinions, and initial discussions. Book through the website or call the clinic.' },
       { q: 'Where is Health Nest located?', a: 'We have two primary locations: HSR Layout (near Agara Lake, serving Koramangala & BTM Layout) and Raghava Hospital, Attibele (serving Sarjapura, Electronic City, Chandapura, and Hosur). Both are easily accessible with parking available.' },

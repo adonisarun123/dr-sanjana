@@ -110,7 +110,7 @@ export default async function ServicePage({ params }: Props) {
                 </div>
                 <div>
                   <p className="text-sm font-semibold mb-2 uppercase tracking-wide" style={{ color: '#8B5E83' }}>Specialist</p>
-                  <p className="text-sm" style={{ color: '#6B6B6B' }}>Dr. Sanjana L, MBBS, MS (OB-GYN) · 10+ years experience</p>
+                  <p className="text-sm" style={{ color: '#6B6B6B' }}>Dr. Sanjana L · Qualification: MBBS MS ( OBG) Gold Medalist FRM ( RGUHS) FMAS · 10+ years experience</p>
                 </div>
               </div>
             </div>

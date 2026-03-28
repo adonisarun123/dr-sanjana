@@ -13,7 +13,7 @@ import Footer from '@/components/Footer';
 export const metadata: Metadata = {
   title: 'Best Gynaecologist in HSR Layout & Attibele | Dr. Sanjana L - Health Nest',
   description:
-    'Dr. Sanjana L (MBBS, MS) — 10 plus years experienced gynaecologist & obstetrician serving HSR Layout, Attibele, Sarjapura and South Bangalore. Expert care for pregnancy, fertility and laparoscopy.',
+    'Dr. Sanjana L (MBBS MS ( OBG) Gold Medalist FRM ( RGUHS) FMAS) — 10 plus years experienced gynaecologist & obstetrician serving HSR Layout, Attibele, Sarjapura and South Bangalore. Expert care for pregnancy, fertility and laparoscopy.',
 };
 
 const homeServices = [
@@ -58,7 +58,7 @@ const homeServices = [
 const homeFaqs = [
   {
     q: 'Who is the best gynaecologist in HSR Layout & Attibele, Bangalore?',
-    a: 'Dr. Sanjana L at Health Nest is one of the most trusted gynaecologists in HSR Layout & Attibele, Bangalore, with 10 plus years of experience in obstetrics and gynaecology. She holds MBBS and MS (OB-GYN) qualifications (Registration No: 124759) and is known for her compassionate, patient-centred approach.',
+    a: 'Dr. Sanjana L at Health Nest is one of the most trusted gynaecologists in HSR Layout & Attibele, Bangalore, with 10 plus years of experience in obstetrics and gynaecology. She holds MBBS MS ( OBG) Gold Medalist FRM ( RGUHS) FMAS qualifications (Registration No: 124759) and is known for her compassionate, patient-centred approach.',
   },
   {
     q: 'What services does Health Nest clinic offer?',
@@ -201,7 +201,7 @@ export default function HomePage() {
                     {/* Name block inside image */}
                     <div className="absolute bottom-6 left-6 right-6 p-5 rounded-2xl backdrop-blur-md bg-white/20 border border-white/30 text-white shadow-lg">
                       <p className="text-2xl font-bold mb-1" style={{ fontFamily: 'Playfair Display, serif' }}>Dr. Sanjana L</p>
-                      <p className="text-sm font-medium opacity-90" style={{ fontFamily: 'DM Sans, sans-serif' }}>MBBS MS ( OBG) Gold Medalist FRM ( RGUHS) FMAS</p>
+                      <p className="text-sm font-medium opacity-90" style={{ fontFamily: 'DM Sans, sans-serif' }}>Qualification: MBBS MS ( OBG) Gold Medalist FRM ( RGUHS) FMAS</p>
                       <div className="flex items-center gap-2 mt-3 pt-3 border-t border-white/20">
                         <CheckCircle2 size={14} className="text-green-300" />
                         <span className="text-xs">RGUHS Gold Medalist</span>
@@ -315,12 +315,12 @@ export default function HomePage() {
                 </div>
                 <div className="text-white">
                   <p className="text-2xl font-bold mb-1" style={{ fontFamily: 'Playfair Display, serif' }}>Dr. Sanjana L</p>
-                  <p className="text-sm opacity-75" style={{ fontFamily: 'DM Sans, sans-serif' }}>MBBS, MS (Obstetrics &amp; Gynaecology)</p>
+                  <p className="text-sm opacity-75" style={{ fontFamily: 'DM Sans, sans-serif' }}>Qualification: MBBS MS ( OBG) Gold Medalist FRM ( RGUHS) FMAS</p>
                   <p className="text-sm opacity-75" style={{ fontFamily: 'DM Sans, sans-serif' }}>Reg. No: 124759</p>
                 </div>
                 <div className="grid grid-cols-2 gap-3 w-full">
                   {[
-                    { n: '8+', l: 'Years' },
+                    { n: '10+', l: 'Years' },
                     { n: '5000+', l: 'Patients' },
                     { n: '4.9★', l: 'Rating' },
                     { n: '4', l: 'Languages' },

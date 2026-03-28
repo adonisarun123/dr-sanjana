@@ -110,7 +110,7 @@ export default async function BlogPostPage({ params }: Props) {
       name: 'Dr. Sanjana L',
       jobTitle: 'Obstetrician & Gynaecologist',
       medicalSpecialty: 'Obstetrics and Gynaecology',
-      qualification: 'MBBS, MS (OB-GYN)',
+      qualification: 'MBBS MS ( OBG) Gold Medalist FRM ( RGUHS) FMAS',
       worksFor: {
         '@type': 'MedicalBusiness',
         name: 'Health Nest',
@@ -323,7 +323,7 @@ export default async function BlogPostPage({ params }: Props) {
                     <div className="w-14 h-14 rounded-full flex items-center justify-center text-white font-bold text-xl flex-shrink-0" style={{ background: 'linear-gradient(135deg, #8B5E83, #2A6B5A)' }}>SL</div>
                     <div>
                       <p className="font-bold text-lg" style={{ fontFamily: 'DM Sans, sans-serif', color: '#2D2D2D' }}>Dr. Sanjana L</p>
-                      <p className="text-sm mb-1" style={{ color: '#6B6B6B' }}>MBBS, MS (OB-GYN) &bull; RGUHS Gold Medalist &bull; FMAS</p>
+                      <p className="text-sm mb-1" style={{ color: '#6B6B6B' }}>MBBS MS ( OBG) Gold Medalist FRM ( RGUHS) FMAS</p>
                       <p className="text-sm mb-2" style={{ color: '#6B6B6B' }}>Gynaecologist &amp; Obstetrician at Health Nest, HSR Layout &amp; Raghava Hospital, Attibele, Bangalore</p>
                       <p className="text-sm" style={{ color: '#6B6B6B', lineHeight: 1.6 }}>
                         Dr. Sanjana L has over 10 years of experience in obstetrics and gynaecology. She is known for her compassionate, patient-centred approach and consults in English, Hindi, Kannada, and Telugu. She serves patients from HSR Layout, Attibele, Sarjapura, Electronic City, Koramangala, BTM Layout, Chandapura, and Hosur.

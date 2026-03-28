@@ -43,7 +43,7 @@ export default function Footer() {
               </div>
             </div>
             <p className="text-sm leading-relaxed mb-5" style={{ color: '#9B9B9B', fontFamily: 'DM Sans, sans-serif' }}>
-              Trusted gynaecology & obstetrics care in HSR Layout and Attibele, Bangalore. 10 plus years of compassionate women&apos;s healthcare serving Sarjapura and South Bangalore.
+              Dr. Sanjana L (MBBS MS ( OBG) Gold Medalist FRM ( RGUHS) FMAS) — 10 plus years experienced gynaecologist & obstetrician serving HSR Layout, Attibele, Sarjapura and South Bangalore. Expert care for pregnancy, fertility and laparoscopy.
             </p>
             <div className="flex gap-3">
               <a
@@ -167,7 +167,7 @@ export default function Footer() {
             © 2026 Health Nest. All rights reserved. | Reg. No: 124759
           </p>
           <p className="text-xs" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}>
-            Dr. Sanjana L — MBBS, MS (Obstetrics & Gynaecology) | HSR Layout & Attibele, Bangalore
+            Dr. Sanjana L — Qualification: MBBS MS ( OBG) Gold Medalist FRM ( RGUHS) FMAS | HSR Layout & Attibele, Bangalore
           </p>
         </div>
       </div>

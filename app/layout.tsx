@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     template: "%s | Dr. Sanjana L",
   },
   description:
-    "Dr. Sanjana L (MBBS, MS) — 10 plus years experienced gynaecologist & obstetrician serving HSR Layout, Attibele, Sarjapura and South Bangalore. Expert care for pregnancy, fertility and laparoscopy.",
+    "Dr. Sanjana L (MBBS MS ( OBG) Gold Medalist FRM ( RGUHS) FMAS) — 10 plus years experienced gynaecologist & obstetrician serving HSR Layout, Attibele, Sarjapura and South Bangalore. Expert care for pregnancy, fertility and laparoscopy.",
   keywords: [
     "gynaecologist in HSR Layout Bangalore",
     "best gynaecologist in Attibele",

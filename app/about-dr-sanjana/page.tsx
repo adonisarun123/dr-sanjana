@@ -9,7 +9,7 @@ import FAQAccordion from '@/components/FAQAccordion';
 export const metadata: Metadata = {
   title: 'About Dr. Sanjana L — Obstetrician & Gynaecologist, HSR Layout & Attibele',
   description:
-    'Meet Dr. Sanjana L — MBBS, MS OB-GYN with 10 plus years experience. Serving patients in HSR Layout, Attibele, Sarjapura, and Hosur at Health Nest & Raghava Hospital.',
+    'Meet Dr. Sanjana L — MBBS MS ( OBG) Gold Medalist FRM ( RGUHS) FMAS with 10 plus years experience. Serving patients in HSR Layout, Attibele, Sarjapura, and Hosur at Health Nest & Raghava Hospital.',
 };
 
 const physicianSchema = {
@@ -19,7 +19,7 @@ const physicianSchema = {
   description: 'Obstetrician & Gynaecologist with 10 plus years experience in HSR Layout & Attibele, Bangalore',
   medicalSpecialty: 'Obstetrics and Gynaecology',
   qualification: 'MBBS MS ( OBG) Gold Medalist FRM ( RGUHS) FMAS',
-  yearsOfExperience: 8,
+  yearsOfExperience: 10,
   availableLanguage: ['English', 'Hindi', 'Kannada', 'Telugu'],
   identifier: '124759',
   worksFor: { '@type': 'MedicalBusiness', name: 'Health Nest' },
@@ -110,14 +110,14 @@ export default function AboutPage() {
                 </div>
                 <div className="text-white">
                   <h1 className="text-3xl font-bold mb-1" style={{ fontFamily: 'Playfair Display, serif' }}>Dr. Sanjana L</h1>
-                  <p className="text-white/80 text-sm" style={{ fontFamily: 'DM Sans, sans-serif' }}>MBBS, MS (Obstetrics & Gynaecology)</p>
+                  <p className="text-white/80 text-sm" style={{ fontFamily: 'DM Sans, sans-serif' }}>Qualification: MBBS MS ( OBG) Gold Medalist FRM ( RGUHS) FMAS</p>
                   <p className="text-white/60 text-xs mt-1">Reg. No: 124759</p>
                 </div>
                 <div className="grid grid-cols-2 gap-3 w-full">
                   {[
                     { icon: Award, label: '10 plus Years Experience' },
                     { icon: Users, label: '5000+ Patients' },
-                    { icon: BookOpen, label: 'MBBS, MS OB-GYN' },
+                    { icon: BookOpen, label: 'MBBS MS ( OBG) Gold Medalist FRM ( RGUHS) FMAS' },
                     { icon: Languages, label: '4 Languages' },
                   ].map(({ icon: Icon, label }) => (
                     <div key={label} className="bg-white/15 rounded-xl p-3 flex items-center gap-2">

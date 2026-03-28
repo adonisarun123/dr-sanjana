@@ -7,7 +7,7 @@ import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
   title: 'Best Gynaecologist in HSR Layout & Attibele | Dr. Sanjana L - Health Nest',
-  description: 'Top-rated gynaecologist Dr. Sanjana L (MBBS, MS) offers expert pregnancy care and fertility support for HSR Layout, Attibele, Sarjapura & South Bangalore areas. Book a callback today.',
+  description: 'Top-rated gynaecologist Dr. Sanjana L (MBBS MS ( OBG) Gold Medalist FRM ( RGUHS) FMAS) offers expert pregnancy care and fertility support for HSR Layout, Attibele, Sarjapura & South Bangalore areas. Book a callback today.',
 };
 
 export default function LPLandingPage() {
