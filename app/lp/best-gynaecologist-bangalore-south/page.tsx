@@ -208,7 +208,18 @@ export default function LPLandingPage() {
                 </div>
               </div>
               <div className="relative rounded-[2rem] overflow-hidden shadow-2xl h-[550px] bg-gray-100">
-                 <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/20 to-transparent h-1/4" />
+                <Image
+                  src="/dr-sanjana-hero.png"
+                  alt="Dr. Sanjana L — Gynaecologist at Health Nest HSR Layout & Raghava Multispeciality Attibele"
+                  fill
+                  className="object-cover object-top"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
+                <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/40 to-transparent h-1/3" />
+                <div className="absolute bottom-6 left-6 text-white">
+                  <p className="font-bold text-lg" style={{ fontFamily: 'Playfair Display, serif' }}>Dr. Sanjana L</p>
+                  <p className="text-sm text-white/80">MS (OBG) · Gold Medalist · FMAS</p>
+                </div>
               </div>
             </div>
           </div>
