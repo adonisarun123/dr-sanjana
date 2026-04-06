@@ -51,6 +51,9 @@ export default function LPLandingPage() {
                 <p className="text-lg md:text-xl text-gray-600 leading-relaxed max-w-xl mx-auto lg:mx-0">
                   Expert care for women in <strong>HSR Layout, Attibele, Sarjapura, Electronic City</strong> & nearby South Bangalore areas. Consult with <strong>Dr. Sanjana L</strong> — Gold Medalist Gynaecologist.
                 </p>
+                <p className="text-sm font-semibold text-[#2A6B5A] bg-[#2A6B5A]/10 px-4 py-2 rounded-full inline-block mx-auto lg:mx-0">
+                  🤰 Trusted Prenatal & Maternity Care in South Bangalore
+                </p>
 
                 <div className="flex flex-wrap justify-center lg:justify-start gap-4 pt-4">
                   {[
@@ -76,6 +79,10 @@ export default function LPLandingPage() {
                   <p className="text-center text-gray-400 text-sm mb-6 font-medium">Get your health queries answered today</p>
                   
                   <LPForm />
+                  <p className="text-center text-[10px] text-gray-400 mt-4 leading-relaxed">
+                    By submitting, you agree to our{' '}
+                    <a href="/privacy-policy" className="underline hover:text-[#8B5E83] transition-colors">Privacy Policy</a>.
+                  </p>
                 </div>
               </div>
 
@@ -112,13 +119,13 @@ export default function LPLandingPage() {
                   icon: '👶'
                 },
                 { 
-                  title: 'Fertility & IVF Support',
-                  desc: 'Compassionate assistance and medical evaluation for your journey to motherhood.',
+                  title: 'Hormonal & Reproductive Health',
+                  desc: 'Compassionate gynaecological evaluation and personalised care for women at every life stage.',
                   icon: '✨'
                 },
                 { 
                   title: 'PCOS & PCOD Management',
-                  desc: 'Holistic hormonal management, lifestyle support, and targeted fertility care.',
+                  desc: 'Holistic hormonal management, lifestyle support, and personalised women\'s health care.',
                   icon: '🔬'
                 },
                 { 
@@ -132,8 +139,8 @@ export default function LPLandingPage() {
                   icon: '🤰'
                 },
                 { 
-                  title: 'Cervical Screening',
-                  desc: 'Early detection through Pap smears and HPV testing for complete prevention.',
+                  title: 'Preventive Gynaecology',
+                  desc: 'Early detection through Pap smears and routine screenings for complete women\'s health care.',
                   icon: '🛡️'
                 }
               ].map((benefit, i) => (
@@ -156,7 +163,7 @@ export default function LPLandingPage() {
               <div className="flex justify-center gap-1 mb-4">
                 {[1,2,3,4,5].map(i => <Star key={i} fill="#F59E0B" className="text-[#F59E0B]" size={20} />)}
               </div>
-              <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ fontFamily: 'Playfair Display, serif' }}>1000+ Happy Patients</h2>
+              <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ fontFamily: 'Playfair Display, serif' }}>5000+ Happy Patients</h2>
               <p className="text-gray-400 max-w-xl mx-auto">Hear from women who experienced compassionate care and clinical excellence with Dr. Sanjana.</p>
             </div>
             
@@ -221,6 +228,15 @@ export default function LPLandingPage() {
           </div>
         </section>
       </main>
+
+      {/* MEDICAL DISCLAIMER - Required by Google Healthcare Ad Policy */}
+      <div className="bg-gray-50 border-t border-gray-100 py-6">
+        <div className="container-hn">
+          <p className="text-center text-xs text-gray-400 leading-relaxed max-w-2xl mx-auto">
+            <strong className="text-gray-500">Medical Disclaimer:</strong> The information on this page is for educational purposes only and does not constitute medical advice. Please consult a qualified doctor before making any health decisions.
+          </p>
+        </div>
+      </div>
 
       <Footer />
       
