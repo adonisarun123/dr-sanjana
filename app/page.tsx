@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import Link from 'next/link';
 import {
   Phone, Calendar, Star, Baby, HeartPulse, Flower2, Activity,
@@ -14,6 +15,8 @@ export const metadata: Metadata = {
   title: 'Best Gynaecologist in HSR Layout & Attibele | Dr. Sanjana L - Health Nest',
   description:
     'Dr. Sanjana L (MBBS MS ( OBG) Gold Medalist FRM ( RGUHS) FMAS) — 10 plus years experienced gynaecologist & obstetrician serving HSR Layout, Attibele, Sarjapura and South Bangalore. Expert care for pregnancy, fertility and laparoscopy.',
+  alternates: { canonical: '/' },
+  openGraph: { url: '/' },
 };
 
 const homeServices = [
@@ -190,9 +193,13 @@ export default function HomePage() {
                     className="relative rounded-[2rem] overflow-hidden shadow-2xl"
                     style={{ aspectRatio: '4/5', transform: 'rotateY(-5deg) rotateX(2deg)', transformStyle: 'preserve-3d', transition: 'transform 0.5s ease' }}
                   >
-                    <img 
-                      src="/dr-sanjana-hero.png" 
-                      alt="Dr. Sanjana - Health Nest" 
+                    <Image
+                      src="/dr-sanjana-hero.png"
+                      alt="Dr. Sanjana - Health Nest"
+                      width={500}
+                      height={625}
+                      priority
+                      sizes="(max-width: 1024px) 0px, 500px"
                       className="w-full h-full object-cover object-top"
                     />
                     {/* Inner elegant gradient overlay */}
@@ -231,7 +238,16 @@ export default function HomePage() {
                     <div className="flex -space-x-3">
                       {[1, 2, 3].map((i) => (
                         <div key={i} className="w-10 h-10 rounded-full border-2 border-white bg-gray-200 overflow-hidden">
-                          <img src={`https://i.pravatar.cc/100?img=${i + 10}`} alt="Patient" className="w-full h-full object-cover" />
+                          <img
+                            src={`https://i.pravatar.cc/100?img=${i + 10}`}
+                            alt=""
+                            width={40}
+                            height={40}
+                            loading="lazy"
+                            decoding="async"
+                            fetchPriority="low"
+                            className="w-full h-full object-cover"
+                          />
                         </div>
                       ))}
                     </div>

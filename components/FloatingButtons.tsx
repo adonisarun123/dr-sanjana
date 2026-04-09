@@ -1,7 +1,9 @@
 import Link from 'next/link';
 import { MessageCircle, Phone, Calendar } from 'lucide-react';
 
-const WHATSAPP_NUMBER = '919449031003';
+/** HSR Layout clinic line (+91-9449031003) — primary contact; same digits as WhatsApp. */
+const HSR_CLINIC_PHONE_E164 = '919449031003';
+const WHATSAPP_NUMBER = HSR_CLINIC_PHONE_E164;
 const WHATSAPP_MESSAGE = encodeURIComponent('Hello, I would like to book an appointment with Dr. Sanjana L at Health Nest (HSR Layout) / Raghava Hospital (Attibele).');
 
 export default function FloatingButtons() {
@@ -21,7 +23,7 @@ export default function FloatingButtons() {
       {/* Mobile Sticky CTA Bar */}
       <div className="mobile-cta-bar" aria-label="Quick contact options">
         <a
-          href="tel:+91XXXXXXXXXX"
+          href={`tel:+${HSR_CLINIC_PHONE_E164}`}
           className="flex-1 flex items-center justify-center gap-2 py-2 rounded-xl font-semibold text-sm"
           style={{
             background: 'rgba(139,94,131,0.1)',

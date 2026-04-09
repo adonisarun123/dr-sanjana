@@ -221,7 +221,7 @@ export default async function ServicePage({ params }: Props) {
                 <Link href="/book-appointment" className="btn-white w-full justify-center">
                   <Calendar size={16} /> Book Now
                 </Link>
-                <a href="tel:+91XXXXXXXXXX" className="btn-outline-white w-full justify-center mt-3 text-sm">
+                <a href="tel:+919449031003" className="btn-outline-white w-full justify-center mt-3 text-sm">
                   Call Clinic
                 </a>
               </div>

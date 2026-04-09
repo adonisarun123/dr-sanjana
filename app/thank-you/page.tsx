@@ -1,9 +1,10 @@
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import { CheckCircle2, Phone, ArrowLeft, Calendar } from 'lucide-react';
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'Thank You - Health Nest',
-  robots: 'noindex, nofollow',
+  robots: { index: false, follow: false },
 };
 
 export default function ThankYouPage() {

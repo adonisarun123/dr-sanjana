@@ -1,9 +1,18 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import Script from "next/script";
 import "./globals.css";
 
+const siteUrl = "https://healthnest.in";
+const ogImagePath = "/og-image.jpg";
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  themeColor: "#8B5E83",
+};
+
 export const metadata: Metadata = {
-  metadataBase: new URL("https://healthnest.in"),
+  metadataBase: new URL(siteUrl),
   title: {
     default: "Best Gynaecologist in HSR Layout & Attibele | Dr. Sanjana L",
     template: "%s | Dr. Sanjana L",
@@ -27,14 +36,14 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_IN",
-    url: "https://healthnest.in",
+    url: siteUrl,
     siteName: "Health Nest",
     title: "Best Gynaecologist in HSR Layout & Attibele | Dr. Sanjana L",
     description:
       "Dr. Sanjana L — 10 plus years of trusted gynaecology & obstetrics care in HSR Layout, Attibele, and Sarjapura Bangalore.",
     images: [
       {
-        url: "/og-image.jpg",
+        url: ogImagePath,
         width: 1200,
         height: 630,
         alt: "Health Nest - Dr. Sanjana L, Gynaecologist HSR Layout & Attibele Bangalore",
@@ -45,6 +54,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Best Gynaecologist in HSR Layout & Attibele | Dr. Sanjana L",
     description: "Dr. Sanjana L — 10 plus years of trusted gynaecology care in HSR Layout & Attibele.",
+    images: [ogImagePath],
   },
   robots: {
     index: true,
@@ -57,9 +67,6 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
-  verification: {
-    google: "your-google-verification-code",
-  },
 };
 
 const medicalBusinessSchema = {
@@ -67,7 +74,7 @@ const medicalBusinessSchema = {
   "@type": "MedicalBusiness",
   name: "Health Nest",
   description: "Gynaecology & Obstetrics clinic in HSR Layout & Attibele, Bangalore led by Dr. Sanjana L",
-  url: "https://healthnest.in",
+  url: siteUrl,
   telephone: "+91-9449031003",
   email: "info@healthnest.in",
   address: [
@@ -102,7 +109,7 @@ const medicalBusinessSchema = {
     },
   ],
   priceRange: "₹₹",
-  image: "https://healthnest.in/images/clinic-exterior.jpg",
+  image: `${siteUrl}${ogImagePath}`,
   sameAs: [],
   aggregateRating: {
     "@type": "AggregateRating",
