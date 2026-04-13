@@ -6,6 +6,7 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import FloatingButtons from '@/components/FloatingButtons';
 import BreadcrumbNav from '@/components/BreadcrumbNav';
+import { SITE_URL, PHYSICIAN_FULL_NAME } from '@/lib/site';
 
 export const metadata: Metadata = {
   title: 'Patient Stories & Reviews | Health Nest - Dr. Sanjana L, Bangalore',
@@ -13,9 +14,45 @@ export const metadata: Metadata = {
     'Read what patients say about Dr. Sanjana L at Health Nest, HSR Layout, Bangalore. Real reviews from Google Trust.',
 };
 
+const patientStoriesSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: 'Patient stories and reviews',
+  url: `${SITE_URL}/patient-stories`,
+  description:
+    'Selected patient feedback about Dr. Sanjana L and Health Nest (HSR Layout and Attibele).',
+  mainEntity: {
+    '@type': 'ItemList',
+    numberOfItems: testimonials.length,
+    itemListElement: testimonials.map((t, index) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      item: {
+        '@type': 'Review',
+        reviewRating: {
+          '@type': 'Rating',
+          ratingValue: t.rating,
+          bestRating: 5,
+        },
+        author: { '@type': 'Person', name: t.name },
+        reviewBody: t.quote,
+        itemReviewed: {
+          '@type': 'Physician',
+          name: PHYSICIAN_FULL_NAME,
+          url: `${SITE_URL}/about-dr-sanjana`,
+        },
+      },
+    })),
+  },
+};
+
 export default function PatientStoriesPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(patientStoriesSchema) }}
+      />
       <Navbar />
       <main id="main-content">
         <section className="bg-gradient-hero" style={{ paddingTop: '100px', paddingBottom: '40px' }}>

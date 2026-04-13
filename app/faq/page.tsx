@@ -57,9 +57,25 @@ const allFaqs = [
   },
 ];
 
+const allFaqsFlat = allFaqs.flatMap((g) => g.faqs);
+
+const faqPageSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: allFaqsFlat.map((faq) => ({
+    '@type': 'Question',
+    name: faq.q,
+    acceptedAnswer: { '@type': 'Answer', text: faq.a },
+  })),
+};
+
 export default function FAQPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqPageSchema) }}
+      />
       <Navbar />
       <main id="main-content">
         <section className="bg-gradient-hero" style={{ paddingTop: '100px', paddingBottom: '40px' }}>
@@ -84,7 +100,7 @@ export default function FAQPage() {
                   <h2 className="text-2xl font-bold mb-5" style={{ fontFamily: 'Playfair Display, serif', color: '#2D2D2D' }}>
                     {group.category}
                   </h2>
-                  <FAQAccordion faqs={group.faqs} />
+                  <FAQAccordion faqs={group.faqs} schema={false} />
                 </div>
               ))}
             </div>

@@ -9,6 +9,8 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import FloatingButtons from '@/components/FloatingButtons';
 import BreadcrumbNav from '@/components/BreadcrumbNav';
+import { services } from '@/lib/services';
+import { SITE_URL } from '@/lib/site';
 
 export const metadata: Metadata = {
   title: 'Gynaecology & Obstetrics Services | HSR Layout & Attibele Bangalore',
@@ -46,9 +48,29 @@ const categoryColors: Record<string, string> = {
   Gynaecology: '#5E7B8B',
 };
 
+const servicesItemListSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: 'Gynaecology and obstetrics services — Health Nest',
+  description:
+    'Clinical services offered by Dr. Sanjana L at Health Nest (HSR Layout) and Raghava Multispeciality Hospital (Attibele), Bengaluru.',
+  numberOfItems: services.length,
+  itemListElement: services.map((s, index) => ({
+    '@type': 'ListItem',
+    position: index + 1,
+    name: s.shortTitle,
+    description: s.description,
+    url: `${SITE_URL}/services/${s.slug}`,
+  })),
+};
+
 export default function ServicesPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(servicesItemListSchema) }}
+      />
       <Navbar />
       <main id="main-content">
         <section className="bg-gradient-hero" style={{ paddingTop: '100px', paddingBottom: '40px' }}>

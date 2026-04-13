@@ -1,8 +1,8 @@
 import type { Metadata, Viewport } from "next";
 import Script from "next/script";
 import "./globals.css";
+import { SITE_URL, SITE_NAME, PHYSICIAN_FULL_NAME } from "@/lib/site";
 
-const siteUrl = "https://healthnest.in";
 const ogImagePath = "/og-image.jpg";
 
 export const viewport: Viewport = {
@@ -12,7 +12,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL(siteUrl),
+  metadataBase: new URL(SITE_URL),
   title: {
     default: "Best Gynaecologist in HSR Layout & Attibele | Dr. Sanjana L",
     template: "%s | Dr. Sanjana L",
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_IN",
-    url: siteUrl,
+    url: SITE_URL,
     siteName: "Health Nest",
     title: "Best Gynaecologist in HSR Layout & Attibele | Dr. Sanjana L",
     description:
@@ -69,54 +69,127 @@ export const metadata: Metadata = {
   },
 };
 
-const medicalBusinessSchema = {
+const rootStructuredData = {
   "@context": "https://schema.org",
-  "@type": "MedicalBusiness",
-  name: "Health Nest",
-  description: "Gynaecology & Obstetrics clinic in HSR Layout & Attibele, Bangalore led by Dr. Sanjana L",
-  url: siteUrl,
-  telephone: "+91-9449031003",
-  email: "info@healthnest.in",
-  address: [
+  "@graph": [
     {
-      "@type": "PostalAddress",
-      streetAddress: "HSR Layout",
-      addressLocality: "Bangalore",
-      addressRegion: "Karnataka",
-      postalCode: "560102",
-      addressCountry: "IN",
+      "@type": "MedicalBusiness",
+      "@id": `${SITE_URL}/#organization`,
+      name: SITE_NAME,
+      description:
+        "Obstetrics and gynaecology care in HSR Layout and Attibele, Bengaluru — pregnancy, delivery, fertility, minimally invasive surgery, and preventive women's health.",
+      url: SITE_URL,
+      telephone: "+91-9449031003",
+      email: "info@healthnest.in",
+      contactPoint: [
+        {
+          "@type": "ContactPoint",
+          telephone: "+91-9449031003",
+          contactType: "customer service",
+          areaServed: "IN",
+          availableLanguage: ["English", "Hindi", "Kannada", "Telugu"],
+        },
+        {
+          "@type": "ContactPoint",
+          telephone: "+91-9980031006",
+          contactType: "customer service",
+          areaServed: "IN",
+          availableLanguage: ["English", "Hindi", "Kannada", "Telugu"],
+        },
+      ],
+      address: [
+        {
+          "@type": "PostalAddress",
+          name: "Health Nest Hospital (HSR Layout)",
+          streetAddress: "1162, 24th Main Rd, Sector 2, HSR Layout",
+          addressLocality: "Bengaluru",
+          addressRegion: "Karnataka",
+          postalCode: "560102",
+          addressCountry: "IN",
+        },
+        {
+          "@type": "PostalAddress",
+          name: "Raghava Multispeciality Hospital (Attibele)",
+          streetAddress: "39, Sarjapura - Attibele Rd, opposite Syndicate Bank",
+          addressLocality: "Attibele, Bengaluru",
+          addressRegion: "Karnataka",
+          postalCode: "562107",
+          addressCountry: "IN",
+        },
+      ],
+      geo: {
+        "@type": "GeoCoordinates",
+        latitude: "12.9116",
+        longitude: "77.6389",
+      },
+      openingHoursSpecification: [
+        {
+          "@type": "OpeningHoursSpecification",
+          dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+          opens: "08:00",
+          closes: "21:00",
+        },
+      ],
+      priceRange: "₹₹",
+      image: `${SITE_URL}${ogImagePath}`,
+      employee: { "@id": `${SITE_URL}/#physician` },
+      medicalSpecialty: ["Obstetrics", "Gynecology"],
+      areaServed: [
+        { "@type": "City", name: "Bengaluru" },
+        { "@type": "City", name: "Attibele" },
+        { "@type": "AdministrativeArea", name: "South Bengaluru" },
+        { "@type": "City", name: "Electronic City" },
+        { "@type": "City", name: "Sarjapura" },
+        { "@type": "City", name: "Chandapura" },
+      ],
+      aggregateRating: {
+        "@type": "AggregateRating",
+        ratingValue: "4.9",
+        reviewCount: "200",
+        bestRating: "5",
+      },
     },
     {
-      "@type": "PostalAddress",
-      streetAddress: "Attibele",
-      addressLocality: "Bangalore",
-      addressRegion: "Karnataka",
-      postalCode: "562107",
-      addressCountry: "IN",
-    }
-  ],
-  geo: {
-    "@type": "GeoCoordinates",
-    latitude: "12.9116",
-    longitude: "77.6389",
-  },
-  openingHoursSpecification: [
+      "@type": "Physician",
+      "@id": `${SITE_URL}/#physician`,
+      name: PHYSICIAN_FULL_NAME,
+      alternateName: "Dr Sanjana L",
+      image: `${SITE_URL}/dr-sanjana-hero.png`,
+      url: `${SITE_URL}/about-dr-sanjana`,
+      telephone: "+91-9449031003",
+      email: "info@healthnest.in",
+      identifier: "124759",
+      medicalSpecialty: "Obstetrics and Gynaecology",
+      qualification: "MBBS MS (OBG) Gold Medalist, FRM (RGUHS), FMAS",
+      jobTitle: "Obstetrician and Gynaecologist",
+      availableLanguage: ["English", "Hindi", "Kannada", "Telugu"],
+      yearsOfExperience: 10,
+      worksFor: { "@id": `${SITE_URL}/#organization` },
+      aggregateRating: {
+        "@type": "AggregateRating",
+        ratingValue: "4.9",
+        reviewCount: "200",
+        bestRating: "5",
+      },
+    },
     {
-      "@type": "OpeningHoursSpecification",
-      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-      opens: "08:00",
-      closes: "21:00",
+      "@type": "WebSite",
+      "@id": `${SITE_URL}/#website`,
+      url: SITE_URL,
+      name: `${SITE_NAME} — ${PHYSICIAN_FULL_NAME}`,
+      inLanguage: "en-IN",
+      publisher: { "@id": `${SITE_URL}/#organization` },
+      about: { "@id": `${SITE_URL}/#physician` },
+      potentialAction: {
+        "@type": "ReserveAction",
+        name: "Book an appointment",
+        target: {
+          "@type": "EntryPoint",
+          urlTemplate: `${SITE_URL}/book-appointment`,
+        },
+      },
     },
   ],
-  priceRange: "₹₹",
-  image: `${siteUrl}${ogImagePath}`,
-  sameAs: [],
-  aggregateRating: {
-    "@type": "AggregateRating",
-    ratingValue: "4.9",
-    reviewCount: "200",
-    bestRating: "5",
-  },
 };
 
 export default function RootLayout({
@@ -144,7 +217,7 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(medicalBusinessSchema) }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(rootStructuredData) }}
         />
       </head>
       <body>

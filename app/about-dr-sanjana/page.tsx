@@ -12,43 +12,6 @@ export const metadata: Metadata = {
     'Meet Dr. Sanjana L — MBBS MS ( OBG) Gold Medalist FRM ( RGUHS) FMAS with 10 plus years experience. Serving patients in HSR Layout, Attibele, Sarjapura, and Hosur at Health Nest & Raghava Hospital.',
 };
 
-const physicianSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'Physician',
-  name: 'Dr. Sanjana L',
-  description: 'Obstetrician & Gynaecologist with 10 plus years experience in HSR Layout & Attibele, Bangalore',
-  medicalSpecialty: 'Obstetrics and Gynaecology',
-  qualification: 'MBBS MS ( OBG) Gold Medalist FRM ( RGUHS) FMAS',
-  yearsOfExperience: 10,
-  availableLanguage: ['English', 'Hindi', 'Kannada', 'Telugu'],
-  identifier: '124759',
-  worksFor: { '@type': 'MedicalBusiness', name: 'Health Nest' },
-  address: [
-    {
-      '@type': 'PostalAddress',
-      streetAddress: 'HSR Layout',
-      addressLocality: 'Bangalore',
-      addressRegion: 'Karnataka',
-      postalCode: '560102',
-      addressCountry: 'IN',
-    },
-    {
-      '@type': 'PostalAddress',
-      streetAddress: 'Attibele',
-      addressLocality: 'Bangalore',
-      addressRegion: 'Karnataka',
-      postalCode: '562107',
-      addressCountry: 'IN',
-    }
-  ],
-  aggregateRating: {
-    '@type': 'AggregateRating',
-    ratingValue: '4.9',
-    reviewCount: '200',
-    bestRating: '5',
-  },
-};
-
 const qualifications = [
   { year: '2004', title: 'MBBS', institution: 'Bangalore Medical College', desc: 'Foundation of medical knowledge and clinical training.' },
   { year: '2008', title: 'MS — Obstetrics & Gynaecology', institution: 'Postgraduate Medical Studies, Bangalore', desc: 'Specialisation in women\'s reproductive health, surgery, and obstetrics.' },
@@ -83,10 +46,6 @@ const aboutFaqs = [
 export default function AboutPage() {
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(physicianSchema) }}
-      />
       <Navbar />
       <main id="main-content">
         {/* Hero */}

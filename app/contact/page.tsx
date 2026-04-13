@@ -6,6 +6,7 @@ import Footer from '@/components/Footer';
 import FloatingButtons from '@/components/FloatingButtons';
 import BreadcrumbNav from '@/components/BreadcrumbNav';
 import ContactForm from '@/components/ContactForm';
+import { SITE_URL } from '@/lib/site';
 
 export const metadata: Metadata = {
   title: 'Contact Health Nest — Gynaecologist HSR Layout & Attibele | Dr. Sanjana L',
@@ -13,9 +14,59 @@ export const metadata: Metadata = {
     'Contact Health Nest in HSR Layout or Raghava Hospital in Attibele. Get directions, clinic hours, and book appointments with Dr. Sanjana L for patients in Sarjapura, Electronic City, and South Bangalore.',
 };
 
+const contactLocationsSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: 'Health Nest clinic locations',
+  itemListElement: [
+    {
+      '@type': 'ListItem',
+      position: 1,
+      item: {
+        '@type': 'MedicalClinic',
+        name: 'Health Nest Hospital',
+        url: `${SITE_URL}/contact`,
+        telephone: '+91-9449031003',
+        email: 'info@healthnest.in',
+        address: {
+          '@type': 'PostalAddress',
+          streetAddress: '1162, 24th Main Rd, Sector 2, HSR Layout',
+          addressLocality: 'Bengaluru',
+          addressRegion: 'Karnataka',
+          postalCode: '560102',
+          addressCountry: 'IN',
+        },
+      },
+    },
+    {
+      '@type': 'ListItem',
+      position: 2,
+      item: {
+        '@type': 'MedicalClinic',
+        name: 'Raghava Multispeciality Hospital — Dr. Sanjana L',
+        url: `${SITE_URL}/contact`,
+        telephone: '+91-9980031006',
+        email: 'info@healthnest.in',
+        address: {
+          '@type': 'PostalAddress',
+          streetAddress: '39, Sarjapura - Attibele Rd, opposite Syndicate Bank',
+          addressLocality: 'Attibele, Bengaluru',
+          addressRegion: 'Karnataka',
+          postalCode: '562107',
+          addressCountry: 'IN',
+        },
+      },
+    },
+  ],
+};
+
 export default function ContactPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(contactLocationsSchema) }}
+      />
       <Navbar />
       <main id="main-content">
         <section className="bg-gradient-hero" style={{ paddingTop: '100px', paddingBottom: '40px' }}>

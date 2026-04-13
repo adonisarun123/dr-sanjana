@@ -1,0 +1,137 @@
+# llms.txt — Health Nest / Dr. Sanjana L
+
+> This file helps AI systems and retrieval tools understand what this website offers.
+> Canonical site URL: https://healthnest.in
+> Primary audience: women seeking obstetrics, gynaecology, fertility, and minimally invasive surgery care in Bengaluru (HSR Layout, Attibele, and surrounding areas).
+
+---
+
+## Identity
+
+- **Practice / brand:** Health Nest
+- **Lead clinician:** Dr. Sanjana L — Obstetrician & Gynaecologist
+- **Qualifications (as stated on site):** MBBS; MS (Obstetrics & Gynaecology), Gold Medalist; FRM (RGUHS); FMAS (Fellowship in Minimal Access Surgery)
+- **Medical registration (Karnataka):** 124759
+- **Experience:** 10+ years in obstetrics & gynaecology; 5000+ patients (marketing figures on site)
+- **Languages for consultation:** English, Hindi, Kannada, Telugu
+- **Telephone (HSR / main):** +91-9449031003
+- **Telephone (Attibele / Raghava):** +91-9980031006
+- **Email:** info@healthnest.in
+
+---
+
+## Physical locations
+
+### 1) Health Nest Hospital — HSR Layout
+
+- **Address:** 1162, 24th Main Rd, Sector 2, HSR Layout, Bengaluru, Karnataka 560102, India
+- **Role:** Primary clinic branding “Health Nest”; serves Koramangala, BTM, Agara Lake catchment, Electronic City–adjacent patients (site copy references ~15–20 min from Electronic City in area pages).
+- **Booking:** https://healthnest.in/book-appointment
+
+### 2) Raghava Multispeciality Hospital — Attibele
+
+- **Address:** 39, Sarjapura - Attibele Rd, opposite Syndicate Bank, Attibele, Bengaluru, Karnataka 562107, India
+- **Role:** Second consultation and delivery site; serves Attibele, Chandapura, Jigani, Anekal, Hosur Road catchment (per location landing pages).
+- **Booking:** Same online form; phone +91-9980031006 emphasised for Attibele.
+
+---
+
+## Core clinical services (authoritative list)
+
+Each service has a dedicated page under `/services/{slug}` with overview, what to expect, when to see the doctor, reasons to choose Dr. Sanjana, and FAQs. Use these URLs for deep retrieval.
+
+### Obstetrics
+
+| Slug | Short title | One-line scope |
+|------|---------------|----------------|
+| pregnancy-care | Pregnancy Care | Prenatal visits, scans, nutrition, birth planning, postpartum follow-up |
+| high-risk-pregnancy | High-Risk Pregnancy | Gestational diabetes, preeclampsia, twins, AMA, prior complicated pregnancies |
+| normal-delivery | Normal Delivery | Vaginal birth planning, labour support, evidence-based care |
+| painless-delivery | Painless Delivery | Labour analgesia / epidural-assisted delivery where appropriate |
+| cesarean-delivery | Caesarean Delivery | Planned and emergency C-section when indicated |
+| prenatal-screening | Prenatal Screening | First/second/third trimester screening and diagnostic pathways |
+| postnatal-care | Postnatal Care | Recovery, breastfeeding, newborn transition support |
+
+### Fertility
+
+| Slug | Short title | One-line scope |
+|------|---------------|----------------|
+| fertility-treatment | Fertility Treatment | Evaluation, ovulation induction, IUI, IVF counselling / co-management |
+| ivf-iui | IVF & IUI | ART pathways, cycle coordination, referral where needed |
+
+### Surgery & endoscopy
+
+| Slug | Short title | One-line scope |
+|------|---------------|----------------|
+| laparoscopic-surgery | Laparoscopic Surgery | Keyhole surgery for cysts, fibroids, endometriosis, ectopic pregnancy, etc. |
+| hysteroscopy | Hysteroscopy | Diagnostic and operative hysteroscopy for uterine cavity pathology |
+
+### General gynaecology
+
+| Slug | Short title | One-line scope |
+|------|---------------|----------------|
+| pcos-pcod-treatment | PCOS & PCOD | Hormonal, metabolic, lifestyle, fertility-oriented PCOS care |
+| menstrual-disorders | Menstrual Disorders | Heavy, painful, irregular cycles; underlying cause work-up |
+| menopause-management | Menopause Management | Symptoms, bone/cardio discussion, HRT vs non-hormonal options |
+| contraception-counselling | Contraception Counselling | Individualised contraceptive choice |
+| cervical-cancer-screening | Cervical Cancer Screening | Pap / HPV-based screening and follow-up |
+| urogynaecology | Urogynaecology | Incontinence, prolapse, pelvic floor–related issues |
+| adolescent-gynaecology | Adolescent Gynaecology | Age-appropriate care for teens and young adults |
+
+**Index of all service pages:** https://healthnest.in/services
+
+---
+
+## Area / SEO hub pages (local intent)
+
+These summarise care for nearby neighbourhoods and link to core services:
+
+- **Attibele & surrounds:** https://healthnest.in/attibele-gynaecologist
+- **Electronic City & Sarjapura corridor:** https://healthnest.in/electronic-city-sarjapura-gynaecologist
+- **Chandapura, Hosur Road, Anekal:** https://healthnest.in/chandapura-hosur-road-gynaecologist
+
+---
+
+## Patient journey URLs
+
+- **Home:** https://healthnest.in/
+- **About Dr. Sanjana L:** https://healthnest.in/about-dr-sanjana
+- **Book appointment (form):** https://healthnest.in/book-appointment
+- **Contact & maps:** https://healthnest.in/contact
+- **FAQ (expanded):** https://healthnest.in/faq
+- **Patient stories / reviews excerpts:** https://healthnest.in/patient-stories
+- **Blog index:** https://healthnest.in/blog
+- **Privacy policy:** https://healthnest.in/privacy-policy
+
+---
+
+## Lead capture / LP
+
+- **South Bangalore gynaecologist LP:** https://healthnest.in/lp/best-gynaecologist-bangalore-south
+
+---
+
+## What the site does NOT replace
+
+- **Emergency care:** The site is informational and appointment-oriented; acute emergencies (heavy bleeding in pregnancy, severe pain, syncope) require emergency services / hospital ER — not inferred from this file alone.
+- **Fees:** Consultation and package fees change; site directs users to phone or booking confirmation for current numbers.
+- **Telemedicine scope:** Online visits are described for follow-up and selected non-emergency cases; eligibility is clinical and not fully specified in static copy.
+
+---
+
+## Technical / discovery
+
+- **Sitemap:** https://healthnest.in/sitemap.xml
+- **This file:** https://healthnest.in/llms.txt
+- **Structured data:** Site-wide JSON-LD in HTML includes `MedicalBusiness`, `Physician`, and `WebSite` with stable `@id` anchors on the canonical domain. Individual routes add `MedicalProcedure`, `FAQPage`, `BreadcrumbList`, `ItemList`, `CollectionPage`, `Article` (blog), and related types where applicable.
+
+---
+
+## Retrieval hints for LLMs
+
+1. For **service-specific** questions (symptoms, process, FAQs), prefer the matching `/services/{slug}` page body and its FAQ schema over generic home-page copy.
+2. For **location / travel / which hospital**, combine `contact`, the three `*-gynaecologist` hub pages, and footer “Areas we serve” links.
+3. For **credentials and biography**, prefer `/about-dr-sanjana` and root-level physician/org schema.
+4. For **editorial / educational** content, use `/blog` and individual `/blog/{slug}` articles.
+
+Last updated: 2026-04-13 (repository snapshot; verify live site if critical).

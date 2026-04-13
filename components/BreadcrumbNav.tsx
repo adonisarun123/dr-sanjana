@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { SITE_URL } from '@/lib/site';
 
 interface Crumb {
   label: string;
@@ -17,7 +18,7 @@ export default function BreadcrumbNav({ crumbs }: BreadcrumbNavProps) {
       '@type': 'ListItem',
       position: i + 1,
       name: crumb.label,
-      ...(crumb.href ? { item: `https://healthnest.in${crumb.href}` } : {}),
+      ...(crumb.href ? { item: `${SITE_URL}${crumb.href}` } : {}),
     })),
   };
 
