@@ -160,6 +160,21 @@ h1, h2, h3, h4, h5, h6 {
 .section { padding: 5rem 1.5rem; }
 .section-sm { padding: 3rem 1.5rem; }
 
+/* Location / long-form landing pages (Attibele, Chandapura, Electronic City) */
+.section-padding {
+  padding: 3rem 1.5rem;
+}
+@media (min-width: 768px) {
+  .section-padding {
+    padding: 4.5rem 1.5rem;
+  }
+}
+@media (min-width: 1024px) {
+  .section-padding {
+    padding: 5rem 1.5rem;
+  }
+}
+
 .container-hn {
   max-width: 1200px;
   margin: 0 auto;

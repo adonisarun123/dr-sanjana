@@ -21,6 +21,12 @@ const quickLinks = [
   { label: 'Privacy Policy', href: '/privacy-policy' },
 ];
 
+const areaLinks = [
+  { label: 'Gynaecologist in Attibele', href: '/attibele-gynaecologist' },
+  { label: 'Near Electronic City & Sarjapura', href: '/electronic-city-sarjapura-gynaecologist' },
+  { label: 'Near Chandapura & Hosur Road', href: '/chandapura-hosur-road-gynaecologist' },
+];
+
 export default function Footer() {
   return (
     <footer style={{ background: '#1C1C2E', color: '#E8E0DB' }} role="contentinfo">
@@ -136,6 +142,24 @@ export default function Footer() {
                     39, Sarjapura - Attibele Rd<br />Attibele, Bangalore
                   </p>
                 </div>
+              </li>
+              <li className="pt-2">
+                <p className="text-xs font-semibold uppercase tracking-wide mb-3" style={{ color: '#C9A7C7', fontFamily: 'DM Sans, sans-serif' }}>
+                  Areas we serve
+                </p>
+                <ul className="space-y-2.5" role="list">
+                  {areaLinks.map((link) => (
+                    <li key={link.href}>
+                      <Link
+                        href={link.href}
+                        className="text-sm transition-colors hover:text-purple-300"
+                        style={{ color: '#9B9B9B', fontFamily: 'DM Sans, sans-serif' }}
+                      >
+                        {link.label}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
               </li>
               <li className="flex items-start gap-3">
                 <Phone size={16} className="mt-0.5 flex-shrink-0" style={{ color: '#C9A7C7' }} />
