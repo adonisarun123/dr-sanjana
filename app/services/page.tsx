@@ -3,7 +3,7 @@ import Link from 'next/link';
 import {
   Baby, HeartPulse, Smile, Stethoscope, Flower2, Microscope,
   Scissors, Search, Activity, Calendar as CalendarIcon, Sun, ScanLine,
-  Heart, ShieldCheck, Shield, Droplets, UserRound
+  Heart, HeartHandshake, ShieldCheck, Shield, Droplets, UserRound
 } from 'lucide-react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
@@ -20,6 +20,7 @@ const allServices = [
   { slug: 'pregnancy-care', icon: Baby, title: 'Pregnancy Care', desc: 'Comprehensive prenatal support from conception to delivery.', category: 'Obstetrics' },
   { slug: 'high-risk-pregnancy', icon: HeartPulse, title: 'High-Risk Pregnancy', desc: 'Expert care for gestational diabetes, preeclampsia, and complex pregnancies.', category: 'Obstetrics' },
   { slug: 'normal-delivery', icon: Smile, title: 'Normal Delivery', desc: 'Safe, supportive vaginal delivery with experienced guidance.', category: 'Obstetrics' },
+  { slug: 'painless-delivery', icon: HeartHandshake, title: 'Painless Delivery', desc: 'Comfortable, pain-managed labour using modern epidural anaesthesia.', category: 'Obstetrics' },
   { slug: 'cesarean-delivery', icon: Stethoscope, title: 'Caesarean Delivery', desc: 'Skilled C-section surgery when medically indicated or planned.', category: 'Obstetrics' },
   { slug: 'prenatal-screening', icon: ScanLine, title: 'Prenatal Screening', desc: 'Comprehensive antenatal tests for healthy fetal development.', category: 'Obstetrics' },
   { slug: 'postnatal-care', icon: Heart, title: 'Postnatal Care', desc: 'Post-delivery recovery, breastfeeding and newborn care support.', category: 'Obstetrics' },

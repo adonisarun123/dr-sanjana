@@ -17,6 +17,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/privacy-policy`, lastModified: new Date(), changeFrequency: 'yearly', priority: 0.3 },
   ];
 
+  const locationPages: MetadataRoute.Sitemap = [
+    { url: `${baseUrl}/attibele-gynaecologist`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.9 },
+    { url: `${baseUrl}/electronic-city-sarjapura-gynaecologist`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.9 },
+    { url: `${baseUrl}/chandapura-hosur-road-gynaecologist`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.9 },
+  ];
+
   const servicePages: MetadataRoute.Sitemap = services.map(service => ({
     url: `${baseUrl}/services/${service.slug}`,
     lastModified: new Date(),
@@ -31,5 +37,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  return [...staticPages, ...servicePages, ...blogPages];
+  return [...staticPages, ...locationPages, ...servicePages, ...blogPages];
 }
