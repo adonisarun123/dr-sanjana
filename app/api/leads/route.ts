@@ -52,11 +52,11 @@ export async function POST(req: Request) {
 
     // 2. Send Email Notification via SMTP if configured
     if (process.env.SMTP_USER && process.env.SMTP_PASS) {
-      const hsrEmail = 'healthnest2010@yahoo.in';
-      const attibeleEmail = 'raghavahospital2002@gmail.com';
-      
-      // Route based on center
-      const destinationEmail = center === 'Attibele' ? attibeleEmail : hsrEmail;
+      const hsrLeadEmails = ['sanjanalaksh@gmail.com', 'healthnest2010@yahoo.in'];
+      const attibeleLeadEmails = ['raghavahospital2002@gmail.com'];
+
+      const destinationEmails =
+        center === 'Attibele' ? attibeleLeadEmails : hsrLeadEmails;
 
       const transporter = nodemailer.createTransport({
         host: process.env.SMTP_HOST,
@@ -70,8 +70,8 @@ export async function POST(req: Request) {
 
       const mailOptions = {
         from: process.env.SMTP_FROM || `"Health Nest Leads" <${process.env.SMTP_USER}>`,
-        to: destinationEmail,
-        bcc: process.env.SALES_EMAIL || 'drnitinmarketing@gmail.com',
+        to: destinationEmails,
+        ...(process.env.SALES_EMAIL ? { bcc: process.env.SALES_EMAIL } : {}),
         replyTo: email || undefined,
         subject: `New Lead [${center}]: ${fullName} - ${concern || data.service || 'Consultation'}`,
         html: `
@@ -130,7 +130,10 @@ export async function POST(req: Request) {
       };
 
       await transporter.sendMail(mailOptions);
-      console.log(`Lead email sent to ${destinationEmail} (bcc: ${process.env.SALES_EMAIL || 'drnitinmarketing@gmail.com'})`);
+      const bccNote = process.env.SALES_EMAIL ? ` bcc: ${process.env.SALES_EMAIL}` : '';
+      console.log(
+        `Lead email sent to ${destinationEmails.join(', ')}${bccNote}`,
+      );
     } else {
       console.error('SMTP credentials missing! Email not sent for lead:', lead.id);
     }
