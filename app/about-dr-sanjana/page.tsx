@@ -7,7 +7,7 @@ import FloatingButtons from '@/components/FloatingButtons';
 import FAQAccordion from '@/components/FAQAccordion';
 
 export const metadata: Metadata = {
-  title: 'About Dr. Sanjana L — Obstetrician & Gynaecologist, HSR Layout & Attibele',
+  title: 'About Dr. Sanjana L | OB-GYN, HSR Layout & Attibele, Bangalore',
   description:
     'Meet Dr. Sanjana L — MBBS MS ( OBG) Gold Medalist FRM ( RGUHS) FMAS with 10 plus years experience. Serving patients in HSR Layout, Attibele, Sarjapura, and Hosur at Health Nest & Raghava Hospital.',
 };

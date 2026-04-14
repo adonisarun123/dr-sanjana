@@ -21,6 +21,7 @@ import Footer from '@/components/Footer';
 import FloatingButtons from '@/components/FloatingButtons';
 import BreadcrumbNav from '@/components/BreadcrumbNav';
 import FAQAccordion from '@/components/FAQAccordion';
+import { SITE_URL } from '@/lib/site';
 
 /* ──────────────────────────── SEO META ──────────────────────────── */
 
@@ -45,14 +46,14 @@ export const metadata: Metadata = {
     'Raghava Hospital Attibele gynaecologist',
   ],
   alternates: {
-    canonical: 'https://healthnest.in/attibele-gynaecologist',
+    canonical: `${SITE_URL}/attibele-gynaecologist`,
   },
   openGraph: {
     title:
       'Best Gynaecologist in Attibele | Dr. Sanjana L — Raghava Hospital',
     description:
       'Dr. Sanjana L at Raghava Multispeciality Hospital, Attibele — 10+ years experienced gynaecologist & obstetrician. Expert pregnancy care, PCOS treatment, fertility & laparoscopic surgery.',
-    url: 'https://healthnest.in/attibele-gynaecologist',
+    url: `${SITE_URL}/attibele-gynaecologist`,
     type: 'website',
     locale: 'en_IN',
     siteName: 'Health Nest',
@@ -148,57 +149,13 @@ const nearbyAreas = [
 
 /* ──────────────────────────── SCHEMAS ──────────────────────────── */
 
-const physicianSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'Physician',
-  name: 'Dr. Sanjana L',
-  description:
-    'Obstetrician & Gynaecologist with 10+ years experience serving Attibele, Chandapura, Jigani, Anekal and South Bangalore',
-  medicalSpecialty: 'Obstetrics and Gynaecology',
-  qualification: 'MBBS, MS (Obstetrics & Gynaecology), Gold Medalist RGUHS, FMAS',
-  yearsOfExperience: 10,
-  availableLanguage: ['English', 'Hindi', 'Kannada', 'Telugu'],
-  worksFor: {
-    '@type': 'MedicalBusiness',
-    name: 'Raghava Multispeciality Hospital',
-    address: {
-      '@type': 'PostalAddress',
-      streetAddress: '39, Sarjapura - Attibele Rd, opposite Syndicate Bank',
-      addressLocality: 'Attibele, Bengaluru',
-      addressRegion: 'Karnataka',
-      postalCode: '562107',
-      addressCountry: 'IN',
-    },
-    telephone: '+91-9980031006',
-    geo: {
-      '@type': 'GeoCoordinates',
-      latitude: '12.7803654',
-      longitude: '77.7707144',
-    },
-    openingHoursSpecification: [
-      {
-        '@type': 'OpeningHoursSpecification',
-        dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
-        opens: '09:00',
-        closes: '21:00',
-      },
-    ],
-  },
-  aggregateRating: {
-    '@type': 'AggregateRating',
-    ratingValue: '4.9',
-    reviewCount: '200',
-    bestRating: '5',
-  },
-};
-
 const localBusinessSchema = {
   '@context': 'https://schema.org',
   '@type': 'MedicalBusiness',
   name: 'Dr. Sanjana L — Gynaecologist at Raghava Multispeciality Hospital, Attibele',
   description:
     'Best gynaecologist in Attibele offering pregnancy care, normal delivery, PCOS treatment, fertility support and laparoscopic surgery at Raghava Multispeciality Hospital.',
-  url: 'https://healthnest.in/attibele-gynaecologist',
+  url: `${SITE_URL}/attibele-gynaecologist`,
   telephone: '+91-9980031006',
   address: {
     '@type': 'PostalAddress',
@@ -229,7 +186,7 @@ const localBusinessSchema = {
     },
   ],
   priceRange: '$$',
-  image: 'https://healthnest.in/dr-sanjana-hero.png',
+  image: `${SITE_URL}/dr-sanjana-hero.png`,
   areaServed: [
     { '@type': 'City', name: 'Attibele' },
     { '@type': 'City', name: 'Chandapura' },
@@ -255,13 +212,13 @@ const breadcrumbSchema = {
       '@type': 'ListItem',
       position: 1,
       name: 'Home',
-      item: 'https://healthnest.in',
+      item: SITE_URL,
     },
     {
       '@type': 'ListItem',
       position: 2,
       name: 'Gynaecologist in Attibele',
-      item: 'https://healthnest.in/attibele-gynaecologist',
+      item: `${SITE_URL}/attibele-gynaecologist`,
     },
   ],
 };
@@ -272,10 +229,6 @@ export default function AttibeleGynaecologistPage() {
   return (
     <>
       {/* Structured Data */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(physicianSchema) }}
-      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
@@ -326,25 +279,23 @@ export default function AttibeleGynaecologistPage() {
                 <div className="accent-line" />
 
                 <p
-                  className="text-base md:text-lg mb-6 leading-relaxed"
+                  className="text-base md:text-lg mb-4 leading-relaxed max-w-[68ch]"
                   style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}
                 >
-                  Dr. Sanjana L is a highly experienced <strong>obstetrician and gynaecologist</strong>{' '}
-                  practising at <strong>Raghava Multispeciality Hospital, Attibele</strong>. With over
-                  10 years of clinical expertise, an <strong>MS (OBG) Gold Medal from RGUHS</strong>,
-                  and FMAS certification in minimally invasive surgery, she provides compassionate,
-                  evidence-based care for women across Attibele, Chandapura, Jigani, Anekal and Hosur
-                  Road areas.
+                  Dr. Sanjana L is an <strong>obstetrician and gynaecologist</strong> at{' '}
+                  <strong>Raghava Multispeciality Hospital, Attibele</strong>. She has 10 plus years of
+                  experience. She is an <strong>MS (OBG) Gold Medalist (RGUHS)</strong> and holds{' '}
+                  <strong>FMAS</strong> (keyhole surgery) training.
                 </p>
                 <p
-                  className="text-base mb-6 leading-relaxed"
+                  className="text-base mb-6 leading-relaxed max-w-[68ch]"
                   style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}
                 >
-                  Whether you need routine <strong>pregnancy check-ups</strong>, are looking for a
-                  trusted <strong>normal delivery doctor in Attibele</strong>, require{' '}
-                  <strong>PCOS treatment</strong>, <strong>fertility support</strong>, or{' '}
-                  <strong>laparoscopic surgery</strong> — Dr. Sanjana offers personalised care in
-                  English, Hindi, Kannada, and Telugu.
+                  She cares for women from Attibele, Chandapura, Jigani, Anekal, and Hosur Road. Common
+                  reasons for visits include <strong>pregnancy check-ups</strong>,{' '}
+                  <strong>normal delivery</strong>, <strong>PCOS</strong>, <strong>fertility support</strong>,
+                  and <strong>laparoscopic surgery</strong>. Consults are in English, Hindi, Kannada, or
+                  Telugu.
                 </p>
 
                 {/* Trust Badges */}
@@ -483,26 +434,24 @@ export default function AttibeleGynaecologistPage() {
             </h2>
             <div className="accent-line" />
 
-            <div className="space-y-4" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif', lineHeight: 1.8 }}>
+            <div
+              className="space-y-4 max-w-[68ch]"
+              style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif', lineHeight: 1.8 }}
+            >
               <p>
-                Finding a skilled and approachable gynaecologist near Attibele is a priority for women
-                in this rapidly growing part of South Bangalore. Dr. Sanjana L has been serving
-                patients at <strong>Raghava Multispeciality Hospital</strong> on Sarjapura–Attibele
-                Road, providing the same standard of expert, personalised care that she delivers at
-                her HSR Layout clinic (Health Nest).
+                Many women in South Bangalore want a skilled, approachable gynaecologist near Attibele.
+                Dr. Sanjana L sees patients at <strong>Raghava Multispeciality Hospital</strong> on
+                Sarjapura–Attibele Road. Care here matches what she offers at Health Nest, HSR Layout.
               </p>
               <p>
-                Her approach combines clinical excellence with genuine warmth — she takes the time to
-                listen, explain diagnoses in simple terms, discuss all available treatment options, and
-                involve patients in every decision. This patient-first philosophy has earned her the
-                trust of over <strong>5,000 women</strong> across South Bangalore.
+                She listens, explains results in plain language, and reviews options with you. That
+                style has helped her earn trust from <strong>5,000 plus women</strong> across the
+                region.
               </p>
               <p>
-                Dr. Sanjana specialises in both routine and complex gynaecological conditions. From
-                first-time pregnancies to high-risk obstetric cases, from adolescent PCOS to
-                menopausal health — she offers end-to-end women&apos;s healthcare under one roof.
-                Consultations are available in <strong>English, Hindi, Kannada, and Telugu</strong>,
-                ensuring every patient feels comfortable and understood.
+                She treats both routine and complex cases. That includes first pregnancies, some
+                high-risk pregnancies, PCOS in younger patients, and menopause support. Visits are
+                offered in <strong>English, Hindi, Kannada, and Telugu</strong>.
               </p>
             </div>
 
@@ -646,17 +595,17 @@ export default function AttibeleGynaecologistPage() {
             </h2>
             <div className="accent-line" />
 
-            <p
-              className="text-base mb-6 leading-relaxed"
-              style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}
-            >
-              Raghava Multispeciality Hospital on Sarjapura–Attibele Road is conveniently located for
-              women seeking expert gynaecological care from the following areas. If you are searching
-              for a <strong>gynaecologist near Chandapura</strong>,{' '}
-              <strong>gynaecologist near Jigani</strong>, or a{' '}
-              <strong>delivery hospital near Attibele</strong>, Dr. Sanjana L is just a short drive
-              away.
-            </p>
+            <div className="text-base mb-6 leading-relaxed max-w-[68ch] space-y-3" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}>
+              <p className="m-0">
+                Raghava Multispeciality Hospital sits on Sarjapura–Attibele Road. It is easy to reach
+                from nearby towns.
+              </p>
+              <p className="m-0">
+                If you want a <strong>gynaecologist near Chandapura</strong>,{' '}
+                <strong>gynaecologist near Jigani</strong>, or a <strong>delivery hospital near Attibele</strong>,
+                Dr. Sanjana L is often just a short drive away.
+              </p>
+            </div>
 
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
               {nearbyAreas.map((area, i) => (

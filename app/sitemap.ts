@@ -1,9 +1,10 @@
 import { MetadataRoute } from 'next';
 import { services } from '@/lib/services';
 import { blogPosts } from '@/lib/blog';
+import { SITE_URL } from '@/lib/site';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://healthnest.in';
+  const baseUrl = SITE_URL;
 
   const staticPages: MetadataRoute.Sitemap = [
     { url: baseUrl, lastModified: new Date(), changeFrequency: 'weekly', priority: 1 },

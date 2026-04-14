@@ -12,7 +12,7 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
-  title: 'Best Gynaecologist in HSR Layout & Attibele | Dr. Sanjana L - Health Nest',
+  title: 'Best Gynaecologist | HSR & Attibele | Dr. Sanjana L — Health Nest',
   description:
     'Dr. Sanjana L (MBBS MS ( OBG) Gold Medalist FRM ( RGUHS) FMAS) — 10 plus years experienced gynaecologist & obstetrician serving HSR Layout, Attibele, Sarjapura and South Bangalore. Expert care for pregnancy, fertility and laparoscopy.',
   alternates: { canonical: '/' },
@@ -61,27 +61,27 @@ const homeServices = [
 const homeFaqs = [
   {
     q: 'Who is the best gynaecologist in HSR Layout & Attibele, Bangalore?',
-    a: 'Dr. Sanjana L at Health Nest is one of the most trusted gynaecologists in HSR Layout & Attibele, Bangalore, with 10 plus years of experience in obstetrics and gynaecology. She holds MBBS MS ( OBG) Gold Medalist FRM ( RGUHS) FMAS qualifications (Registration No: 124759) and is known for her compassionate, patient-centred approach.',
+    a: 'Dr. Sanjana L at Health Nest is a trusted gynaecologist in HSR Layout and Attibele. She has 10 plus years of experience in obstetrics and gynaecology.\n\nShe is MBBS MS ( OBG) Gold Medalist, FRM ( RGUHS), FMAS (Registration No: 124759). Patients value her clear explanations and calm, patient-centred care.',
   },
   {
     q: 'What services does Health Nest clinic offer?',
-    a: 'Health Nest offers a comprehensive range of gynaecological and obstetric services including pregnancy care, high-risk pregnancy management, normal and caesarean delivery, fertility treatment (IUI/IVF), PCOS/PCOD management, laparoscopic surgery, hysteroscopy, cervical cancer screening, menopause management, and adolescent gynaecology.',
+    a: 'Health Nest offers pregnancy care, high-risk pregnancy care, normal and caesarean delivery, and fertility support including IUI and IVF guidance.\n\nWe also treat PCOS/PCOD, offer laparoscopy and hysteroscopy, cervical screening, menopause care, and adolescent gynaecology.',
   },
   {
     q: 'Does Dr. Sanjana L perform normal deliveries?',
-    a: 'Yes, Dr. Sanjana L supports and facilitates normal (vaginal) deliveries for eligible patients. She provides birth planning, labour support, and evidence-based pain management, and is experienced in both normal and caesarean deliveries.',
+    a: 'Yes. Dr. Sanjana L supports normal (vaginal) delivery when it is safe for you and your baby.\n\nShe helps with birth planning, labour support, and pain-relief options. She is also experienced in caesarean birth when needed.',
   },
   {
     q: 'What is the consultation fee at Health Nest (HSR Layout) & Raghava Hospital (Attibele)?',
-    a: 'Please contact Health Nest/Raghava Hospital directly at +91-9449031003 or via the booking form for current consultation fees. The clinic offers both in-person and online consultations.',
+    a: 'Fees can change with the type of visit. Please call +91-9449031003 or use the booking form for the latest consultation fee.\n\nBoth in-person and online visits are available.',
   },
   {
     q: 'Is online consultation available with Dr. Sanjana L?',
-    a: 'Yes, Dr. Sanjana L offers online video consultations for follow-up visits, second opinions, and initial discussion of concerns. Book through the website or call the clinic to schedule an online appointment.',
+    a: 'Yes. Online video visits work well for follow-ups, second opinions, and first questions about symptoms.\n\nBook on the website or call the clinic to choose a time.',
   },
   {
     q: 'Where is Health Nest clinic located?',
-    a: 'Health Nest has two primary consultation centers: HSR Layout (near Agara Lake, accessible from Koramangala & BTM Layout) and Raghava Hospital, Attibele (serving Sarjapura, Electronic City, Chandapura, and Hosur). Street parking is available at both locations.',
+    a: 'HSR Layout: near Agara Lake, easy to reach from Koramangala and BTM Layout.\n\nAttibele: Raghava Multispeciality Hospital, for Sarjapura, Electronic City, Chandapura, and Hosur Road. Street parking is available at both sites.',
   },
 ];
 
@@ -356,11 +356,14 @@ export default function HomePage() {
                   Your Trusted Partner in Women&apos;s Health
                 </h2>
                 <div className="accent-line" />
-                <p className="mb-4" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif', lineHeight: 1.7 }}>
-                  Dr. Sanjana L is an experienced Obstetrician and Gynaecologist with over 10 plus years of practice in Bangalore. Holding an MBBS and MS in Obstetrics & Gynaecology, she has dedicated her career to empowering women through compassionate, evidence-based healthcare.
+                <p className="mb-4 max-w-[68ch]" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif', lineHeight: 1.75 }}>
+                  Dr. Sanjana L is an obstetrician and gynaecologist with 10 plus years of practice in Bangalore. She is MBBS and MS (Obstetrics &amp; Gynaecology). Her focus is clear, kind, evidence-based care at every visit.
                 </p>
-                <p className="mb-6" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif', lineHeight: 1.7 }}>
-                  At Health Nest (HSR Layout) and Raghava Hospital (Attibele), Dr. Sanjana believes that every woman deserves personalised care delivered with dignity, warmth, and clinical excellence. She consults in English, Hindi, Kannada, and Telugu, ensuring every patient feels heard and understood.
+                <p className="mb-4 max-w-[68ch]" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif', lineHeight: 1.75 }}>
+                  She sees patients at Health Nest, HSR Layout, and at Raghava Hospital, Attibele. She believes care should feel personal, respectful, and clinically strong.
+                </p>
+                <p className="mb-6 max-w-[68ch]" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif', lineHeight: 1.75 }}>
+                  Consultations are offered in English, Hindi, Kannada, and Telugu so you can explain symptoms and ask questions comfortably.
                 </p>
                 <ul className="space-y-2 mb-8">
                   {[

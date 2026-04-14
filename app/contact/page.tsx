@@ -9,7 +9,7 @@ import ContactForm from '@/components/ContactForm';
 import { SITE_URL } from '@/lib/site';
 
 export const metadata: Metadata = {
-  title: 'Contact Health Nest — Gynaecologist HSR Layout & Attibele | Dr. Sanjana L',
+  title: 'Contact Health Nest | Dr. Sanjana L — HSR Layout & Attibele',
   description:
     'Contact Health Nest in HSR Layout or Raghava Hospital in Attibele. Get directions, clinic hours, and book appointments with Dr. Sanjana L for patients in Sarjapura, Electronic City, and South Bangalore.',
 };

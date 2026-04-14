@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { CheckCircle2, AlertCircle, ArrowRight, Calendar } from 'lucide-react';
 import { services, getServiceBySlug, getRelatedServices } from '@/lib/services';
+import { SITE_URL } from '@/lib/site';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import FloatingButtons from '@/components/FloatingButtons';
@@ -40,16 +41,7 @@ export default async function ServicePage({ params }: Props) {
     name: service.shortTitle,
     description: service.overview,
     procedureType: service.category,
-    body: {
-      '@type': 'MedicalOrganization',
-      name: 'Health Nest & Raghava Hospital',
-      address: {
-        '@type': 'PostalAddress',
-        addressLocality: 'South Bangalore & Attibele',
-        addressRegion: 'Karnataka',
-        addressCountry: 'IN',
-      },
-    },
+    location: { '@id': `${SITE_URL}/#organization` },
     followup: 'Follow-up care and monitoring provided by Dr. Sanjana L',
     howPerformed: service.whatToExpect.join('. '),
   };
@@ -127,9 +119,17 @@ export default async function ServicePage({ params }: Props) {
                   Overview
                 </h2>
                 <div className="accent-line" />
-                <p style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif', lineHeight: 1.8 }}>
-                  {service.overview}
-                </p>
+                <div className="readable-service-overview space-y-4" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif', lineHeight: 1.8 }}>
+                  {service.overview
+                    .split(/\n{2,}/)
+                    .map((block) => block.trim())
+                    .filter(Boolean)
+                    .map((block, i) => (
+                      <p key={i} className="m-0 max-w-[68ch]">
+                        {block}
+                      </p>
+                    ))}
+                </div>
               </div>
 
               {/* What to Expect */}

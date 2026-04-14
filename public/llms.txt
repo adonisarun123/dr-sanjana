@@ -1,7 +1,7 @@
 # llms.txt — Health Nest / Dr. Sanjana L
 
 > This file helps AI systems and retrieval tools understand what this website offers.
-> Canonical site URL: https://healthnest.in
+> Canonical site URL: https://www.drsanjanal.in
 > Primary audience: women seeking obstetrics, gynaecology, fertility, and minimally invasive surgery care in Bengaluru (HSR Layout, Attibele, and surrounding areas).
 
 ---
@@ -26,7 +26,7 @@
 
 - **Address:** 1162, 24th Main Rd, Sector 2, HSR Layout, Bengaluru, Karnataka 560102, India
 - **Role:** Primary clinic branding “Health Nest”; serves Koramangala, BTM, Agara Lake catchment, Electronic City–adjacent patients (site copy references ~15–20 min from Electronic City in area pages).
-- **Booking:** https://healthnest.in/book-appointment
+- **Booking:** https://www.drsanjanal.in/book-appointment
 
 ### 2) Raghava Multispeciality Hospital — Attibele
 
@@ -78,7 +78,7 @@ Each service has a dedicated page under `/services/{slug}` with overview, what t
 | urogynaecology | Urogynaecology | Incontinence, prolapse, pelvic floor–related issues |
 | adolescent-gynaecology | Adolescent Gynaecology | Age-appropriate care for teens and young adults |
 
-**Index of all service pages:** https://healthnest.in/services
+**Index of all service pages:** https://www.drsanjanal.in/services
 
 ---
 
@@ -86,28 +86,28 @@ Each service has a dedicated page under `/services/{slug}` with overview, what t
 
 These summarise care for nearby neighbourhoods and link to core services:
 
-- **Attibele & surrounds:** https://healthnest.in/attibele-gynaecologist
-- **Electronic City & Sarjapura corridor:** https://healthnest.in/electronic-city-sarjapura-gynaecologist
-- **Chandapura, Hosur Road, Anekal:** https://healthnest.in/chandapura-hosur-road-gynaecologist
+- **Attibele & surrounds:** https://www.drsanjanal.in/attibele-gynaecologist
+- **Electronic City & Sarjapura corridor:** https://www.drsanjanal.in/electronic-city-sarjapura-gynaecologist
+- **Chandapura, Hosur Road, Anekal:** https://www.drsanjanal.in/chandapura-hosur-road-gynaecologist
 
 ---
 
 ## Patient journey URLs
 
-- **Home:** https://healthnest.in/
-- **About Dr. Sanjana L:** https://healthnest.in/about-dr-sanjana
-- **Book appointment (form):** https://healthnest.in/book-appointment
-- **Contact & maps:** https://healthnest.in/contact
-- **FAQ (expanded):** https://healthnest.in/faq
-- **Patient stories / reviews excerpts:** https://healthnest.in/patient-stories
-- **Blog index:** https://healthnest.in/blog
-- **Privacy policy:** https://healthnest.in/privacy-policy
+- **Home:** https://www.drsanjanal.in/
+- **About Dr. Sanjana L:** https://www.drsanjanal.in/about-dr-sanjana
+- **Book appointment (form):** https://www.drsanjanal.in/book-appointment
+- **Contact & maps:** https://www.drsanjanal.in/contact
+- **FAQ (expanded):** https://www.drsanjanal.in/faq
+- **Patient stories / reviews excerpts:** https://www.drsanjanal.in/patient-stories
+- **Blog index:** https://www.drsanjanal.in/blog
+- **Privacy policy:** https://www.drsanjanal.in/privacy-policy
 
 ---
 
 ## Lead capture / LP
 
-- **South Bangalore gynaecologist LP:** https://healthnest.in/lp/best-gynaecologist-bangalore-south
+- **South Bangalore gynaecologist LP:** https://www.drsanjanal.in/lp/best-gynaecologist-bangalore-south
 
 ---
 
@@ -121,9 +121,9 @@ These summarise care for nearby neighbourhoods and link to core services:
 
 ## Technical / discovery
 
-- **Sitemap:** https://healthnest.in/sitemap.xml
-- **This file:** https://healthnest.in/llms.txt
-- **Structured data:** Site-wide JSON-LD in HTML includes `MedicalBusiness`, `Physician`, and `WebSite` with stable `@id` anchors on the canonical domain. Individual routes add `MedicalProcedure`, `FAQPage`, `BreadcrumbList`, `ItemList`, `CollectionPage`, `Article` (blog), and related types where applicable.
+- **Sitemap:** https://www.drsanjanal.in/sitemap.xml
+- **This file:** https://www.drsanjanal.in/llms.txt
+- **Structured data:** Site-wide JSON-LD in HTML includes `MedicalBusiness`, `Person` (clinician, `#physician`), and `WebSite` with stable `@id` anchors on the canonical domain. Individual routes add `MedicalProcedure`, `FAQPage`, `BreadcrumbList`, `ItemList`, `CollectionPage`, `BlogPosting` (blog), and related types where applicable.
 
 ---
 

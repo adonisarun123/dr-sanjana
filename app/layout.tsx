@@ -13,10 +13,7 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: {
-    default: "Best Gynaecologist in HSR Layout & Attibele | Dr. Sanjana L",
-    template: "%s | Dr. Sanjana L",
-  },
+  title: "Best Gynaecologist in HSR Layout & Attibele | Dr. Sanjana L",
   description:
     "Dr. Sanjana L (MBBS MS ( OBG) Gold Medalist FRM ( RGUHS) FMAS) — 10 plus years experienced gynaecologist & obstetrician serving HSR Layout, Attibele, Sarjapura and South Bangalore. Expert care for pregnancy, fertility and laparoscopy.",
   keywords: [
@@ -133,7 +130,6 @@ const rootStructuredData = {
       priceRange: "₹₹",
       image: `${SITE_URL}${ogImagePath}`,
       employee: { "@id": `${SITE_URL}/#physician` },
-      medicalSpecialty: ["Obstetrics", "Gynecology"],
       areaServed: [
         { "@type": "City", name: "Bengaluru" },
         { "@type": "City", name: "Attibele" },
@@ -150,7 +146,7 @@ const rootStructuredData = {
       },
     },
     {
-      "@type": "Physician",
+      "@type": "Person",
       "@id": `${SITE_URL}/#physician`,
       name: PHYSICIAN_FULL_NAME,
       alternateName: "Dr Sanjana L",
@@ -159,11 +155,10 @@ const rootStructuredData = {
       telephone: "+91-9449031003",
       email: "info@healthnest.in",
       identifier: "124759",
-      medicalSpecialty: "Obstetrics and Gynaecology",
-      qualification: "MBBS MS (OBG) Gold Medalist, FRM (RGUHS), FMAS",
       jobTitle: "Obstetrician and Gynaecologist",
-      availableLanguage: ["English", "Hindi", "Kannada", "Telugu"],
-      yearsOfExperience: 10,
+      description:
+        "Obstetrician and gynaecologist (MBBS MS OBG Gold Medalist, FRM RGUHS, FMAS). Over 10 years of clinical experience. Consults in English, Hindi, Kannada, and Telugu.",
+      knowsLanguage: ["English", "Hindi", "Kannada", "Telugu"],
       worksFor: { "@id": `${SITE_URL}/#organization` },
       aggregateRating: {
         "@type": "AggregateRating",

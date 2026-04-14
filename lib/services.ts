@@ -135,19 +135,19 @@ export const services: Service[] = [
     description: 'Comfortable, pain-managed labour and delivery using modern epidural anaesthesia techniques.',
     icon: 'HeartHandshake',
     category: 'Obstetrics',
-    overview: `Painless delivery — also known as epidural delivery or labour analgesia — is a safe, medically proven technique that allows women to experience childbirth with significantly reduced pain. Dr. Sanjana L at Health Nest (HSR Layout) and Raghava Hospital (Attibele) offers painless normal delivery as an option for eligible mothers, helping them stay comfortable, alert, and actively involved in the birthing process.
+    overview: `Painless delivery (epidural or labour analgesia) is a safe way to reduce labour pain. Dr. Sanjana L offers it at Health Nest (HSR Layout) and Raghava Hospital (Attibele) when you are a good fit for the procedure.
 
-An epidural is a form of regional anaesthesia administered by a trained anaesthetist into the lower back during active labour. It numbs the lower half of the body while keeping you fully conscious. You can feel the pressure of contractions without the sharp pain, push effectively when needed, and hold your baby immediately after delivery. The procedure is widely practised in leading hospitals around the world and is considered safe for both mother and baby.
+An epidural is regional anaesthesia. A trained anaesthetist places it in your lower back during active labour. You stay awake. Many women feel pressure from contractions but not sharp pain. You can usually push when it is time, and hold your baby soon after birth.
 
-Dr. Sanjana believes every woman deserves to choose how she experiences childbirth. Whether you prefer a completely natural delivery, a delivery with partial pain relief, or full epidural analgesia — she will discuss all options during your birth planning sessions and help you make an informed decision that aligns with your preferences and medical profile. Her goal is a safe delivery and a positive birthing memory.`,
+Dr. Sanjana will explain natural coping methods, partial pain relief, and full epidural options in birth planning. Together you choose a plan that matches your wishes and your health. The aim is a safe birth and a calm, supported experience.`,
     whatToExpect: [
-      'Birth planning consultation where Dr. Sanjana discusses all pain management options including epidural, breathing techniques, and other non-pharmacological methods',
-      'On the day of delivery, the anaesthetist places a thin catheter in the epidural space of your lower back — the procedure takes about 10–15 minutes and is performed while you are sitting or lying on your side',
-      'Pain relief begins within 10–20 minutes of the epidural being administered — you will feel pressure but not sharp pain during contractions',
-      'Continuous monitoring of your vitals, baby\'s heart rate, and labour progress by Dr. Sanjana and the nursing team throughout the delivery',
-      'You remain fully awake and can push actively when the cervix is fully dilated — the epidural does not take away your ability to push',
-      'Immediate skin-to-skin contact with your baby after delivery and early breastfeeding initiation',
-      'Postnatal monitoring, pain management, and recovery support — the epidural catheter is removed shortly after delivery',
+      'Birth planning visit: discuss epidural, breathing techniques, and other comfort options.',
+      'On delivery day: the anaesthetist places a thin catheter in your lower back (often 10–15 minutes) while you sit or lie on your side.',
+      'Relief often starts within 10–20 minutes. You may feel pressure but less sharp pain with contractions.',
+      'Your vitals, your baby\'s heart rate, and labour progress are monitored throughout.',
+      'You stay awake and push when your cervix is fully dilated, unless your team advises otherwise.',
+      'Skin-to-skin and early breastfeeding are encouraged when medically appropriate.',
+      'After birth: monitoring, recovery support, and removal of the epidural catheter.',
     ],
     whenToSeeDoctor: [
       'You are pregnant and wish to discuss pain management options for your upcoming delivery',

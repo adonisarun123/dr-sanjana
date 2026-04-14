@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { ArrowLeft, ArrowRight, Clock, Calendar, User, MapPin, Phone } from 'lucide-react';
 import { blogPosts, getBlogPostBySlug } from '@/lib/blog';
+import { SITE_URL } from '@/lib/site';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import FloatingButtons from '@/components/FloatingButtons';
@@ -27,7 +28,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     openGraph: {
       title: post.metaTitle,
       description: post.metaDescription,
-      url: `https://healthnest.in/blog/${post.slug}`,
+      url: `${SITE_URL}/blog/${post.slug}`,
       type: 'article',
       publishedTime: post.date,
       authors: ['Dr. Sanjana L'],
@@ -40,7 +41,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: post.metaDescription,
     },
     alternates: {
-      canonical: `https://healthnest.in/blog/${post.slug}`,
+      canonical: `${SITE_URL}/blog/${post.slug}`,
     },
   };
 }
@@ -95,55 +96,16 @@ export default async function BlogPostPage({ params }: Props) {
 
   const faqs = extractFAQs(post.content);
 
-  // MedicalWebPage + Article structured data for AEO
   const articleSchema = {
     '@context': 'https://schema.org',
-    '@type': 'MedicalWebPage',
-    name: post.title,
+    '@type': 'BlogPosting',
     headline: post.title,
     description: post.excerpt,
-    url: `https://healthnest.in/blog/${post.slug}`,
+    url: `${SITE_URL}/blog/${post.slug}`,
     datePublished: post.date,
     dateModified: post.date,
-    author: {
-      '@type': 'Physician',
-      name: 'Dr. Sanjana L',
-      jobTitle: 'Obstetrician & Gynaecologist',
-      medicalSpecialty: 'Obstetrics and Gynaecology',
-      qualification: 'MBBS MS ( OBG) Gold Medalist FRM ( RGUHS) FMAS',
-      worksFor: {
-        '@type': 'MedicalBusiness',
-        name: 'Health Nest',
-        url: 'https://healthnest.in',
-        address: [
-          {
-            '@type': 'PostalAddress',
-            streetAddress: 'HSR Layout, near Agara Lake',
-            addressLocality: 'Bangalore',
-            addressRegion: 'Karnataka',
-            postalCode: '560102',
-            addressCountry: 'IN',
-          },
-          {
-            '@type': 'PostalAddress',
-            streetAddress: 'Raghava Hospital, Attibele',
-            addressLocality: 'Bangalore',
-            addressRegion: 'Karnataka',
-            postalCode: '562107',
-            addressCountry: 'IN',
-          },
-        ],
-      },
-    },
-    publisher: {
-      '@type': 'Organization',
-      name: 'Health Nest',
-      url: 'https://healthnest.in',
-      logo: {
-        '@type': 'ImageObject',
-        url: 'https://healthnest.in/logo.png',
-      },
-    },
+    author: { '@id': `${SITE_URL}/#physician` },
+    publisher: { '@id': `${SITE_URL}/#organization` },
     keywords: post.tags.join(', '),
     articleSection: post.category,
     wordCount: post.content.split(/\s+/).length,
@@ -151,7 +113,7 @@ export default async function BlogPostPage({ params }: Props) {
     isAccessibleForFree: true,
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id': `https://healthnest.in/blog/${post.slug}`,
+      '@id': `${SITE_URL}/blog/${post.slug}`,
     },
   };
 
@@ -160,9 +122,9 @@ export default async function BlogPostPage({ params }: Props) {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://healthnest.in' },
-      { '@type': 'ListItem', position: 2, name: 'Health Blog', item: 'https://healthnest.in/blog' },
-      { '@type': 'ListItem', position: 3, name: post.title, item: `https://healthnest.in/blog/${post.slug}` },
+      { '@type': 'ListItem', position: 1, name: 'Home', item: SITE_URL },
+      { '@type': 'ListItem', position: 2, name: 'Health Blog', item: `${SITE_URL}/blog` },
+      { '@type': 'ListItem', position: 3, name: post.title, item: `${SITE_URL}/blog/${post.slug}` },
     ],
   };
 
@@ -307,12 +269,13 @@ export default async function BlogPostPage({ params }: Props) {
               <article className="lg:col-span-2">
                 {/* Excerpt / TL;DR block — optimised for AI answer engines */}
                 <p
-                  className="text-lg mb-8 p-5 rounded-2xl"
-                  style={{ color: '#2D2D2D', fontFamily: 'DM Sans, sans-serif', lineHeight: 1.7, background: '#FFF8F0', borderLeft: '4px solid #8B5E83' }}
+                  className="text-lg mb-8 p-5 rounded-2xl max-w-[68ch]"
+                  style={{ color: '#2D2D2D', fontFamily: 'DM Sans, sans-serif', lineHeight: 1.75, background: '#FFF8F0', borderLeft: '4px solid #8B5E83' }}
                 >
                   {post.excerpt}
                 </p>
                 <div
+                  className="readable-article"
                   style={{ fontFamily: 'DM Sans, sans-serif' }}
                   dangerouslySetInnerHTML={{ __html: renderContent(post.content) }}
                 />

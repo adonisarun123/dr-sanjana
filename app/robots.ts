@@ -1,4 +1,5 @@
 import { MetadataRoute } from 'next';
+import { SITE_URL } from '@/lib/site';
 
 export default function robots(): MetadataRoute.Robots {
   return {
@@ -6,10 +7,12 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: '*',
         allow: '/',
-        disallow: ['/api/', '/_next/'],
+        // Only block non-public endpoints. Do NOT disallow /_next/ — that blocks
+        // CSS, JS, and /_next/image, which Search Console flags as blocked render resources.
+        disallow: ['/api/'],
       },
     ],
-    sitemap: 'https://healthnest.in/sitemap.xml',
-    host: 'https://healthnest.in',
+    sitemap: `${SITE_URL}/sitemap.xml`,
+    host: SITE_URL,
   };
 }

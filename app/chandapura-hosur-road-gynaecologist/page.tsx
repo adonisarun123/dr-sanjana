@@ -22,12 +22,12 @@ import Footer from '@/components/Footer';
 import FloatingButtons from '@/components/FloatingButtons';
 import BreadcrumbNav from '@/components/BreadcrumbNav';
 import FAQAccordion from '@/components/FAQAccordion';
+import { SITE_URL } from '@/lib/site';
 
 /* ──────────────────────────── SEO META ──────────────────────────── */
 
 export const metadata: Metadata = {
-  title:
-    'Best Gynaecologist near Chandapura, Hosur Road & Anekal — Dr. Sanjana L',
+  title: 'Gynaecologist near Chandapura, Hosur Road & Anekal | Dr. Sanjana L',
   description:
     'Looking for the best gynaecologist near Chandapura, Hosur Road or Anekal? Dr. Sanjana L (MBBS, MS OBG, Gold Medalist) at Raghava Multispeciality Hospital, Attibele offers expert pregnancy care, normal delivery, PCOS treatment, fertility support & laparoscopic surgery — just 10 minutes from Chandapura Junction.',
   keywords: [
@@ -46,14 +46,13 @@ export const metadata: Metadata = {
     'fertility specialist near Hosur Road',
   ],
   alternates: {
-    canonical: 'https://healthnest.in/chandapura-hosur-road-gynaecologist',
+    canonical: `${SITE_URL}/chandapura-hosur-road-gynaecologist`,
   },
   openGraph: {
-    title:
-      'Best Gynaecologist near Chandapura, Hosur Road & Anekal — Dr. Sanjana L',
+    title: 'Gynaecologist near Chandapura, Hosur Road & Anekal | Dr. Sanjana L',
     description:
       'Dr. Sanjana L at Raghava Multispeciality Hospital, Attibele — 10+ years experienced gynaecologist near Chandapura & Hosur Road. Expert pregnancy care, normal delivery, PCOS treatment & more.',
-    url: 'https://healthnest.in/chandapura-hosur-road-gynaecologist',
+    url: `${SITE_URL}/chandapura-hosur-road-gynaecologist`,
     type: 'website',
     locale: 'en_IN',
     siteName: 'Health Nest',
@@ -158,57 +157,13 @@ const travelTimes = [
 
 /* ──────────────────────────── SCHEMAS ──────────────────────────── */
 
-const physicianSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'Physician',
-  name: 'Dr. Sanjana L',
-  description:
-    'Obstetrician & Gynaecologist with 10+ years experience serving Chandapura, Hosur Road, Anekal, Jigani and South Bangalore',
-  medicalSpecialty: 'Obstetrics and Gynaecology',
-  qualification: 'MBBS, MS (Obstetrics & Gynaecology), Gold Medalist RGUHS, FMAS',
-  yearsOfExperience: 10,
-  availableLanguage: ['English', 'Hindi', 'Kannada', 'Telugu'],
-  worksFor: {
-    '@type': 'MedicalBusiness',
-    name: 'Raghava Multispeciality Hospital',
-    address: {
-      '@type': 'PostalAddress',
-      streetAddress: '39, Sarjapura - Attibele Rd, opposite Syndicate Bank',
-      addressLocality: 'Attibele, Bengaluru',
-      addressRegion: 'Karnataka',
-      postalCode: '562107',
-      addressCountry: 'IN',
-    },
-    telephone: '+91-9980031006',
-    geo: {
-      '@type': 'GeoCoordinates',
-      latitude: '12.7803654',
-      longitude: '77.7707144',
-    },
-    openingHoursSpecification: [
-      {
-        '@type': 'OpeningHoursSpecification',
-        dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
-        opens: '09:00',
-        closes: '21:00',
-      },
-    ],
-  },
-  aggregateRating: {
-    '@type': 'AggregateRating',
-    ratingValue: '4.9',
-    reviewCount: '200',
-    bestRating: '5',
-  },
-};
-
 const localBusinessSchema = {
   '@context': 'https://schema.org',
   '@type': 'MedicalBusiness',
   name: 'Dr. Sanjana L — Gynaecologist near Chandapura, Hosur Road & Anekal',
   description:
     'Best gynaecologist near Chandapura and Hosur Road offering pregnancy care, normal delivery, PCOS treatment, fertility support and laparoscopic surgery at Raghava Multispeciality Hospital, Attibele.',
-  url: 'https://healthnest.in/chandapura-hosur-road-gynaecologist',
+  url: `${SITE_URL}/chandapura-hosur-road-gynaecologist`,
   telephone: '+91-9980031006',
   address: {
     '@type': 'PostalAddress',
@@ -239,7 +194,7 @@ const localBusinessSchema = {
     },
   ],
   priceRange: '$$',
-  image: 'https://healthnest.in/dr-sanjana-hero.png',
+  image: `${SITE_URL}/dr-sanjana-hero.png`,
   areaServed: [
     { '@type': 'City', name: 'Chandapura' },
     { '@type': 'City', name: 'Anekal' },
@@ -266,13 +221,13 @@ const breadcrumbSchema = {
       '@type': 'ListItem',
       position: 1,
       name: 'Home',
-      item: 'https://healthnest.in',
+      item: SITE_URL,
     },
     {
       '@type': 'ListItem',
       position: 2,
       name: 'Gynaecologist near Chandapura, Hosur Road & Anekal',
-      item: 'https://healthnest.in/chandapura-hosur-road-gynaecologist',
+      item: `${SITE_URL}/chandapura-hosur-road-gynaecologist`,
     },
   ],
 };
@@ -283,10 +238,6 @@ export default function ChandapuraHosurRoadGynaecologistPage() {
   return (
     <>
       {/* Structured Data */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(physicianSchema) }}
-      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
@@ -337,26 +288,23 @@ export default function ChandapuraHosurRoadGynaecologistPage() {
                 <div className="accent-line" />
 
                 <p
-                  className="text-base md:text-lg mb-6 leading-relaxed"
+                  className="text-base md:text-lg mb-4 leading-relaxed max-w-[68ch]"
                   style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}
                 >
-                  Women living along <strong>Chandapura, Hosur Road, Anekal and Jigani</strong> now
-                  have access to experienced, compassionate gynaecological care close to home.
-                  Dr. Sanjana L is a senior <strong>obstetrician and gynaecologist</strong> with over
-                  10 years of clinical expertise, an{' '}
-                  <strong>MS (OBG) Gold Medal from RGUHS</strong>, and FMAS certification. She
-                  practises at <strong>Raghava Multispeciality Hospital, Attibele</strong> — just
-                  10–15 minutes from Chandapura Junction via the Sarjapura–Attibele Road.
+                  If you live near <strong>Chandapura, Hosur Road, Anekal, or Jigani</strong>, you can
+                  see a senior <strong>obstetrician and gynaecologist</strong> without a long commute.
+                  Dr. Sanjana L has 10 plus years of experience. She is an <strong>MS (OBG) Gold
+                  Medalist (RGUHS)</strong> and is <strong>FMAS</strong>-trained.
                 </p>
                 <p
-                  className="text-base mb-6 leading-relaxed"
+                  className="text-base mb-6 leading-relaxed max-w-[68ch]"
                   style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}
                 >
-                  Whether you need a trusted{' '}
-                  <strong>delivery hospital near Chandapura</strong>, are looking for an experienced{' '}
-                  <strong>normal delivery doctor on Hosur Road</strong>, or need{' '}
-                  <strong>PCOS treatment near Anekal</strong> — Dr. Sanjana provides personalised
-                  care in English, Hindi, Kannada, and Telugu at a modern, well-equipped facility.
+                  She consults at <strong>Raghava Multispeciality Hospital, Attibele</strong>. From
+                  Chandapura Junction that is often about <strong>10–15 minutes</strong> on
+                  Sarjapura–Attibele Road. She supports <strong>normal delivery</strong>,{' '}
+                  <strong>high-risk pregnancy</strong>, <strong>PCOS care</strong>, and more. Languages:
+                  English, Hindi, Kannada, Telugu.
                 </p>
 
                 {/* Trust Badges */}
@@ -606,26 +554,23 @@ export default function ChandapuraHosurRoadGynaecologistPage() {
             </h2>
             <div className="accent-line" />
 
-            <div className="space-y-4" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif', lineHeight: 1.8 }}>
+            <div
+              className="space-y-4 max-w-[68ch]"
+              style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif', lineHeight: 1.8 }}
+            >
               <p>
-                The Chandapura–Hosur Road–Anekal belt is one of the fastest-growing residential
-                corridors in South Bangalore, yet quality gynaecological care has been scarce in this
-                region. Dr. Sanjana L at Raghava Multispeciality Hospital fills this gap with the same
-                high standard of care she is known for at her HSR Layout practice.
+                The Chandapura–Hosur Road–Anekal area is growing fast. Many families still travel far
+                for women&apos;s health care. Dr. Sanjana L at <strong>Raghava Hospital, Attibele</strong>{' '}
+                offers the same clinical standard as her HSR Layout practice.
               </p>
               <p>
-                Her approach centres on the patient — she listens carefully, explains medical findings
-                in simple language, discusses every treatment option, and makes sure you are an active
-                participant in your own care decisions. Whether it is a first pregnancy for a young
-                couple in Chandapura, a complex gynaecological condition for a woman in Anekal, or
-                adolescent health concerns in Jigani — Dr. Sanjana treats every patient with equal
-                attention and clinical rigour.
+                She listens, explains tests in simple words, and reviews options with you. First
+                pregnancies, complex gynaecology, and teen health questions are all welcome.
               </p>
               <p>
-                With <strong>over 5,000 patients</strong> treated across her career and a consistent{' '}
-                <strong>4.9/5 Google rating</strong>, she is one of the most highly rated
-                gynaecologists in the broader South Bangalore and Hosur Road region. Consultations are
-                available in <strong>English, Hindi, Kannada, and Telugu</strong>.
+                She has cared for <strong>5,000 plus patients</strong> and holds a strong{' '}
+                <strong>4.9/5 Google</strong> rating. Consults run in{' '}
+                <strong>English, Hindi, Kannada, and Telugu</strong>.
               </p>
             </div>
 

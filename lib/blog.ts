@@ -23,14 +23,16 @@ export const blogPosts: BlogPost[] = [
     readTime: 10,
     date: '2026-03-10',
     author: 'Dr. Sanjana L',
-    metaTitle: 'PCOS vs PCOD: Difference, Symptoms & Treatment | HSR Layout & Attibele Bangalore',
+    metaTitle: 'PCOS vs PCOD: Symptoms, Diagnosis & Treatment | Dr. Sanjana L',
     metaDescription: 'Confused about PCOS and PCOD? Dr. Sanjana L at Health Nest (HSR Layout) and Raghava Hospital (Attibele) explains the differences, symptoms, and treatment options.',
     content: `
 ## PCOS vs PCOD — Why the Distinction Matters
 
-"Is it PCOS or PCOD?" is one of the most common questions Dr. Sanjana L hears from patients at Health Nest (HSR Layout) and Raghava Hospital (Attibele). While many women — and even some healthcare providers — use the terms interchangeably, they refer to conditions with important clinical differences. Understanding whether you have PCOS or PCOD helps determine the right treatment plan, the level of monitoring you need, and your long-term health outlook.
+"Is it PCOS or PCOD?" is one of the most common questions Dr. Sanjana L hears at Health Nest (HSR Layout) and Raghava Hospital (Attibele).
 
-In her 10-plus years of clinical practice as a gynaecologist in Bangalore, Dr. Sanjana has treated thousands of women with hormonal and ovarian conditions and emphasises that early, accurate diagnosis is key.
+Many people use the words interchangeably. In the clinic they mean different things. The right label guides treatment, follow-up, and long-term health planning.
+
+In 10 plus years as a gynaecologist in Bangalore, Dr. Sanjana has cared for many women with hormonal and ovarian issues. Early, clear diagnosis matters.
 
 ## What Is PCOD (Polycystic Ovarian Disease)?
 
@@ -173,7 +175,7 @@ Book your appointment today to take the first step toward hormonal balance and b
     readTime: 12,
     date: '2026-03-01',
     author: 'Dr. Sanjana L',
-    metaTitle: 'First Trimester Pregnancy Guide: Week-by-Week | Dr. Sanjana L, HSR Layout & Attibele',
+    metaTitle: 'First Trimester Guide: Week-by-Week | Dr. Sanjana L',
     metaDescription: 'Complete first trimester pregnancy guide by Dr. Sanjana L at Health Nest (HSR Layout) and Raghava Hospital (Attibele). Week-by-week development, tests, & nutrition tips.',
     content: `
 ## Congratulations — You Are Pregnant!
@@ -338,11 +340,13 @@ Book your first prenatal appointment today and begin your pregnancy journey with
     content: `
 ## Why Do Women in India Delay Gynaecological Care?
 
-According to a 2024 study published in the Journal of Obstetrics and Gynaecology of India, over 65% of Indian women delay seeking gynaecological care by at least 6 months after symptoms appear. The reasons are varied — embarrassment, fear of invasive examinations, cultural taboos around discussing reproductive health, busy professional schedules, or the mistaken belief that symptoms like painful periods or irregular cycles are "just normal."
+A 2024 study in the Journal of Obstetrics and Gynaecology of India found that over 65% of Indian women delay gynaecology care by at least six months after symptoms start.
 
-But early gynaecological care can prevent serious conditions, preserve fertility, improve your quality of life, and in some cases, save your life.
+Common reasons include embarrassment, fear of examinations, taboo around sexual health, busy work lives, or assuming painful or irregular periods are "normal."
 
-Dr. Sanjana L, a trusted gynaecologist in HSR Layout, Bangalore, with over 10 years of experience, encourages every woman to prioritise her health. Here are 12 important warning signs that indicate it is time to schedule an appointment.
+Early visits can prevent serious disease, protect fertility, improve daily life, and sometimes save lives.
+
+Dr. Sanjana L works in HSR Layout, Bangalore, with 10 plus years of experience. She encourages every woman to put her health first. Below are 12 signs it is time to book a visit.
 
 ## 12 Signs You Should See a Gynaecologist
 
@@ -440,7 +444,7 @@ Call Health Nest or fill out our online booking form today to schedule your visi
     readTime: 11,
     date: '2026-03-15',
     author: 'Dr. Sanjana L',
-    metaTitle: 'Normal Delivery vs C-Section: Benefits, Risks & Help Choosing | HSR Layout & Attibele',
+    metaTitle: 'Normal Delivery vs C-Section | HSR Layout & Attibele',
     metaDescription: 'Normal delivery or caesarean? Dr. Sanjana L at Health Nest (HSR Layout) and Raghava Hospital (Attibele) compares benefits, risks, and recovery.',
     content: `
 ## Normal Delivery vs Caesarean Section — One of the Biggest Decisions in Pregnancy
@@ -560,16 +564,18 @@ Book your consultation today and feel confident about your delivery journey.
     readTime: 11,
     date: '2026-03-18',
     author: 'Dr. Sanjana L',
-    metaTitle: 'Endometriosis: Symptoms & Treatment | Laparoscopic Surgery in Bangalore | HSR Layout & Attibele',
+    metaTitle: 'Endometriosis: Symptoms & Laparoscopic Treatment | Bangalore',
     metaDescription: 'Learn about endometriosis from Dr. Sanjana L at Health Nest (HSR Layout) and Raghava Hospital (Attibele). Expert laparoscopic surgery & fertility-preserving care.',
     content: `
 ## What Is Endometriosis?
 
-Endometriosis is a chronic gynaecological condition in which tissue similar to the lining of the uterus (endometrium) grows outside the uterus — on the ovaries, fallopian tubes, bowel, bladder, or other pelvic structures. Like the normal endometrium, this misplaced tissue responds to hormonal changes during the menstrual cycle — it thickens, breaks down, and bleeds each month. However, because it has no way to exit the body, it causes inflammation, scar tissue (adhesions), pain, and in many cases, fertility problems.
+Endometriosis is a long-term condition. Tissue like the womb lining grows outside the womb — for example on ovaries, tubes, bowel, bladder, or other pelvic sites.
 
-Endometriosis affects approximately 10% of women of reproductive age worldwide — that is an estimated 190 million women globally. Despite being so common, endometriosis remains underdiagnosed, with an average delay of 7-10 years between symptom onset and diagnosis.
+Each cycle this tissue thickens and bleeds, like a period, but the blood cannot leave the body easily. That leads to inflammation, scars (adhesions), pain, and often fertility challenges.
 
-Dr. Sanjana L at Health Nest (HSR Layout) and Raghava Hospital (Attibele), Bangalore is experienced in the diagnosis and management of endometriosis, including laparoscopic surgery for advanced cases.
+About 10% of women of reproductive age are affected worldwide (roughly 190 million). Many wait 7–10 years from first symptoms to diagnosis.
+
+Dr. Sanjana L at Health Nest (HSR Layout) and Raghava Hospital (Attibele) diagnoses and treats endometriosis, including advanced laparoscopic surgery when needed.
 
 ## What Causes Endometriosis?
 
@@ -685,7 +691,7 @@ Book your consultation today.
     readTime: 10,
     date: '2026-03-20',
     author: 'Dr. Sanjana L',
-    metaTitle: 'Fertility After 35: Getting Pregnant Later | HSR Layout & Attibele Bangalore',
+    metaTitle: 'Fertility After 35: Getting Pregnant | Dr. Sanjana L',
     metaDescription: 'Trying to conceive after 35? Dr. Sanjana L at Health Nest (HSR Layout) and Raghava Hospital (Attibele) explains how age affects fertility and treatment options.',
     content: `
 ## Fertility After 35 — Understanding Your Options
@@ -818,7 +824,7 @@ Book your fertility consultation today.
     readTime: 9,
     date: '2026-03-22',
     author: 'Dr. Sanjana L',
-    metaTitle: 'Cervical Cancer Screening & HPV Vaccine Guide | HSR Layout & Attibele Bangalore',
+    metaTitle: 'Cervical Cancer Screening & HPV Vaccine | Dr. Sanjana L',
     metaDescription: 'Complete guide to cervical cancer prevention: Pap smear, HPV test & vaccine explained by Dr. Sanjana L at Health Nest (HSR Layout) and Raghava Hospital (Attibele).',
     content: `
 ## Cervical Cancer in India — A Preventable Tragedy
@@ -958,16 +964,20 @@ Book your cervical screening appointment today.
     readTime: 10,
     date: '2026-03-25',
     author: 'Dr. Sanjana L',
-    metaTitle: 'Menopause Symptoms & Management Guide | HRT | HSR Layout & Attibele',
+    metaTitle: 'Menopause Symptoms & Management | HRT | Bangalore',
     metaDescription: 'Complete guide to menopause by Dr. Sanjana L at Health Nest (HSR Layout) and Raghava Hospital (Attibele). Learn about symptoms, HRT, and management for women in India.',
     content: `
 ## What Is Menopause?
 
-Menopause is a natural biological transition that marks the end of a woman's menstrual cycles and reproductive years. It is officially diagnosed when you have gone 12 consecutive months without a menstrual period. In India, the average age of menopause is 46-48 years, slightly earlier than the global average of 51 years.
+Menopause means your periods have stopped for good. Doctors call it menopause after 12 months in a row with no period.
 
-While menopause itself is a single point in time, the transition surrounding it — perimenopause — can begin 4-8 years earlier and bring a wide range of physical and emotional symptoms. Many women in India suffer in silence, attributing their symptoms to ageing, stress, or other causes, and miss out on effective treatments that can significantly improve their quality of life.
+In India, the average age is about 46–48 years. The global average is closer to 51.
 
-Dr. Sanjana L at Health Nest (HSR Layout) and Raghava Hospital (Attibele), Bangalore provides personalised menopause care, helping women navigate this transition with confidence and evidence-based medical support.
+The years before the last period are called perimenopause. Symptoms can start about 4–8 years earlier. Hot flushes, sleep changes, mood shifts, and vaginal dryness are common.
+
+Many women in India stay quiet about symptoms. They blame age or stress. Effective care exists and can greatly improve comfort and health.
+
+Dr. Sanjana L at Health Nest (HSR Layout) and Raghava Hospital (Attibele) offers individual menopause plans based on evidence and your goals.
 
 ## The Three Stages of Menopause
 

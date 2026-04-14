@@ -22,6 +22,7 @@ import Footer from '@/components/Footer';
 import FloatingButtons from '@/components/FloatingButtons';
 import BreadcrumbNav from '@/components/BreadcrumbNav';
 import FAQAccordion from '@/components/FAQAccordion';
+import { SITE_URL } from '@/lib/site';
 
 /* ──────────────────────────── SEO META ──────────────────────────── */
 
@@ -46,14 +47,14 @@ export const metadata: Metadata = {
     'lady gynaecologist Electronic City Bangalore',
   ],
   alternates: {
-    canonical: 'https://healthnest.in/electronic-city-sarjapura-gynaecologist',
+    canonical: `${SITE_URL}/electronic-city-sarjapura-gynaecologist`,
   },
   openGraph: {
     title:
       'Best Gynaecologist near Electronic City & Sarjapura — Dr. Sanjana L',
     description:
       'Dr. Sanjana L — 10+ years experienced gynaecologist & obstetrician near Electronic City & Sarjapura. Expert pregnancy care, PCOS treatment, fertility & laparoscopic surgery at Health Nest HSR Layout.',
-    url: 'https://healthnest.in/electronic-city-sarjapura-gynaecologist',
+    url: `${SITE_URL}/electronic-city-sarjapura-gynaecologist`,
     type: 'website',
     locale: 'en_IN',
     siteName: 'Health Nest',
@@ -158,59 +159,13 @@ const travelTimes = [
 
 /* ──────────────────────────── SCHEMAS ──────────────────────────── */
 
-const physicianSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'Physician',
-  name: 'Dr. Sanjana L',
-  description:
-    'Obstetrician & Gynaecologist with 10+ years experience serving Electronic City, Sarjapura Road, Dommasandra and South Bangalore',
-  medicalSpecialty: 'Obstetrics and Gynaecology',
-  qualification: 'MBBS, MS (Obstetrics & Gynaecology), Gold Medalist RGUHS, FMAS',
-  yearsOfExperience: 10,
-  availableLanguage: ['English', 'Hindi', 'Kannada', 'Telugu'],
-  worksFor: [
-    {
-      '@type': 'MedicalBusiness',
-      name: 'Health Nest',
-      address: {
-        '@type': 'PostalAddress',
-        streetAddress: '1162, 24th Main Rd, Sector 2, HSR Layout',
-        addressLocality: 'Bangalore',
-        addressRegion: 'Karnataka',
-        postalCode: '560102',
-        addressCountry: 'IN',
-      },
-      telephone: '+91-9449031003',
-    },
-    {
-      '@type': 'MedicalBusiness',
-      name: 'Raghava Multispeciality Hospital',
-      address: {
-        '@type': 'PostalAddress',
-        streetAddress: '39, Sarjapura - Attibele Rd, opposite Syndicate Bank',
-        addressLocality: 'Attibele, Bengaluru',
-        addressRegion: 'Karnataka',
-        postalCode: '562107',
-        addressCountry: 'IN',
-      },
-      telephone: '+91-9980031006',
-    },
-  ],
-  aggregateRating: {
-    '@type': 'AggregateRating',
-    ratingValue: '4.9',
-    reviewCount: '200',
-    bestRating: '5',
-  },
-};
-
 const localBusinessSchema = {
   '@context': 'https://schema.org',
   '@type': 'MedicalBusiness',
   name: 'Dr. Sanjana L — Gynaecologist near Electronic City & Sarjapura',
   description:
     'Best gynaecologist near Electronic City and Sarjapura Road offering pregnancy care, normal delivery, PCOS treatment, fertility support and laparoscopic surgery at Health Nest, HSR Layout.',
-  url: 'https://healthnest.in/electronic-city-sarjapura-gynaecologist',
+  url: `${SITE_URL}/electronic-city-sarjapura-gynaecologist`,
   telephone: '+91-9449031003',
   address: {
     '@type': 'PostalAddress',
@@ -234,7 +189,7 @@ const localBusinessSchema = {
     },
   ],
   priceRange: '$$',
-  image: 'https://healthnest.in/dr-sanjana-hero.png',
+  image: `${SITE_URL}/dr-sanjana-hero.png`,
   areaServed: [
     { '@type': 'City', name: 'Electronic City, Bangalore' },
     { '@type': 'City', name: 'Sarjapura' },
@@ -260,13 +215,13 @@ const breadcrumbSchema = {
       '@type': 'ListItem',
       position: 1,
       name: 'Home',
-      item: 'https://healthnest.in',
+      item: SITE_URL,
     },
     {
       '@type': 'ListItem',
       position: 2,
       name: 'Gynaecologist near Electronic City & Sarjapura',
-      item: 'https://healthnest.in/electronic-city-sarjapura-gynaecologist',
+      item: `${SITE_URL}/electronic-city-sarjapura-gynaecologist`,
     },
   ],
 };
@@ -277,10 +232,6 @@ export default function ElectronicCitySarjapuraGynaecologistPage() {
   return (
     <>
       {/* Structured Data */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(physicianSchema) }}
-      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
@@ -331,26 +282,24 @@ export default function ElectronicCitySarjapuraGynaecologistPage() {
                 <div className="accent-line" />
 
                 <p
-                  className="text-base md:text-lg mb-6 leading-relaxed"
+                  className="text-base md:text-lg mb-4 leading-relaxed max-w-[68ch]"
                   style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}
                 >
-                  Women in <strong>Electronic City, Sarjapura Road, and Dommasandra</strong> now have
-                  access to expert gynaecological care just a short drive away. Dr. Sanjana L is a
-                  senior <strong>obstetrician and gynaecologist</strong> with over 10 years of
-                  experience, an <strong>MS (OBG) Gold Medal from RGUHS</strong>, and FMAS
-                  certification in minimally invasive surgery. She practises at{' '}
-                  <strong>Health Nest, HSR Layout</strong> (15–20 minutes from Electronic City Phase 1
-                  and 2) and <strong>Raghava Multispeciality Hospital, Attibele</strong>.
+                  Women in <strong>Electronic City, Sarjapura Road, and Dommasandra</strong> can reach
+                  Dr. Sanjana L within a short drive. She is a senior{' '}
+                  <strong>obstetrician and gynaecologist</strong> with 10 plus years of work behind her.
+                  She is an <strong>MS (OBG) Gold Medalist (RGUHS)</strong> and <strong>FMAS</strong>
+                  -trained.
                 </p>
                 <p
-                  className="text-base mb-6 leading-relaxed"
+                  className="text-base mb-6 leading-relaxed max-w-[68ch]"
                   style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}
                 >
-                  Whether you are looking for a trusted{' '}
-                  <strong>pregnancy doctor near Electronic City</strong>, need{' '}
-                  <strong>PCOS treatment on Sarjapura Road</strong>, or are searching for a{' '}
-                  <strong>fertility specialist near Dommasandra</strong> — Dr. Sanjana provides
-                  personalised, evidence-based care in English, Hindi, Kannada, and Telugu.
+                  She sees patients at <strong>Health Nest, HSR Layout</strong> (often about 15–20
+                  minutes from Electronic City Phase 1 and 2) and at{' '}
+                  <strong>Raghava Multispeciality Hospital, Attibele</strong>. Common visits include
+                  pregnancy care, <strong>PCOS</strong>, and <strong>fertility</strong> questions.
+                  Languages: English, Hindi, Kannada, Telugu.
                 </p>
 
                 {/* Trust Badges */}
@@ -575,25 +524,23 @@ export default function ElectronicCitySarjapuraGynaecologistPage() {
             </h2>
             <div className="accent-line" />
 
-            <div className="space-y-4" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif', lineHeight: 1.8 }}>
+            <div
+              className="space-y-4 max-w-[68ch]"
+              style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif', lineHeight: 1.8 }}
+            >
               <p>
-                Electronic City and Sarjapura Road are home to thousands of working women and young
-                families — yet finding a skilled, approachable gynaecologist nearby has historically
-                been a challenge. Dr. Sanjana L at Health Nest bridges this gap with world-class
-                women&apos;s healthcare just 15–20 minutes from your doorstep.
+                Electronic City and Sarjapura Road have many working women and young families. A
+                nearby, approachable gynaecologist matters. Dr. Sanjana L sees patients at Health Nest,
+                HSR Layout — often about 15–20 minutes away by car.
               </p>
               <p>
-                Her patient-first approach means she takes the time to listen, explain diagnoses
-                clearly, walk you through every treatment option, and ensure you feel confident in
-                every decision about your health. This philosophy — combined with her Gold Medal
-                credentials and extensive surgical experience — has made her the gynaecologist of
-                choice for over <strong>5,000 women</strong> across South Bangalore.
+                She explains results clearly and helps you choose next steps. Her training and
+                experience have made her a common choice for <strong>5,000 plus women</strong> across
+                South Bangalore.
               </p>
               <p>
-                Whether you are an IT professional in Electronic City planning your first pregnancy,
-                a young mother on Sarjapura Road dealing with postpartum concerns, or a teenager in
-                Dommasandra experiencing irregular periods — Dr. Sanjana provides the same meticulous,
-                compassionate care tailored to your individual needs and life stage.
+                First pregnancies, postpartum questions, PCOS in teens, and routine check-ups are all
+                in scope. Care is matched to your age, goals, and comfort level.
               </p>
             </div>
 

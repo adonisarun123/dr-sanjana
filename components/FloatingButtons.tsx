@@ -1,17 +1,13 @@
 import Link from 'next/link';
 import { MessageCircle, Phone, Calendar } from 'lucide-react';
-
-/** HSR Layout clinic line (+91-9449031003) — primary contact; same digits as WhatsApp. */
-const HSR_CLINIC_PHONE_E164 = '919449031003';
-const WHATSAPP_NUMBER = HSR_CLINIC_PHONE_E164;
-const WHATSAPP_MESSAGE = encodeURIComponent('Hello, I would like to book an appointment with Dr. Sanjana L at Health Nest (HSR Layout) / Raghava Hospital (Attibele).');
+import { HSR_CLINIC_PHONE_E164, WHATSAPP_CHAT_URL } from '@/lib/site';
 
 export default function FloatingButtons() {
   return (
     <>
       {/* WhatsApp Float */}
       <a
-        href={`https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`}
+        href={WHATSAPP_CHAT_URL}
         className="whatsapp-float"
         target="_blank"
         rel="noopener noreferrer"

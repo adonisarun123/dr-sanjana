@@ -28,7 +28,7 @@ export default function PrivacyPolicyPage() {
           <div className="container-hn max-w-3xl">
             <div className="prose-hn space-y-6" style={{ fontFamily: 'DM Sans, sans-serif' }}>
               <h2>About This Policy</h2>
-              <p>Health Nest (&ldquo;we&rdquo;, &ldquo;us&rdquo;, &ldquo;our&rdquo;) is the practice of Dr. Sanjana L, located in HSR Layout, Bangalore, Karnataka, India. This Privacy Policy explains how we collect, use, and protect your information when you use our website at healthnest.in or contact us.</p>
+              <p>Health Nest (&ldquo;we&rdquo;, &ldquo;us&rdquo;, &ldquo;our&rdquo;) is the practice of Dr. Sanjana L, located in HSR Layout, Bangalore, Karnataka, India. This Privacy Policy explains how we collect, use, and protect your information when you use our website at https://www.drsanjanal.in or contact us.</p>
 
               <h2>Information We Collect</h2>
               <p>We collect information you provide directly to us:</p>

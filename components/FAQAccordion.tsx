@@ -58,9 +58,19 @@ export default function FAQAccordion({ faqs, schema = true }: FAQAccordionProps)
               role="region"
               aria-labelledby={`faq-question-${i}`}
               className="overflow-hidden transition-all duration-300"
-              style={{ maxHeight: openIndex === i ? '500px' : '0' }}
+              style={{ maxHeight: openIndex === i ? '3200px' : '0' }}
             >
-              <p className="faq-content">{faq.a}</p>
+              <div className="faq-content space-y-3">
+                {faq.a
+                  .split(/\n{2,}/)
+                  .map((para) => para.trim())
+                  .filter(Boolean)
+                  .map((para, j) => (
+                    <p key={j} className="m-0 leading-relaxed">
+                      {para}
+                    </p>
+                  ))}
+              </div>
             </div>
           </div>
         ))}

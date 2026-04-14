@@ -2,13 +2,14 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { ArrowRight, MapPin, Phone, Calendar } from 'lucide-react';
 import { blogPosts, blogCategories } from '@/lib/blog';
+import { SITE_URL } from '@/lib/site';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import FloatingButtons from '@/components/FloatingButtons';
 import BreadcrumbNav from '@/components/BreadcrumbNav';
 
 export const metadata: Metadata = {
-  title: "Women's Health Blog by Dr. Sanjana L | Gynaecologist in HSR Layout, Attibele & South Bangalore",
+  title: "Women's Health Blog | Dr. Sanjana L — HSR, Attibele & South Bangalore",
   description:
     "Expert health articles on pregnancy, fertility, PCOS, menopause, endometriosis & cervical cancer screening by Dr. Sanjana L — trusted gynaecologist in HSR Layout, Attibele, Sarjapura & South Bangalore.",
   keywords: [
@@ -24,9 +25,9 @@ export const metadata: Metadata = {
     "Health Nest blog",
   ],
   openGraph: {
-    title: "Women's Health Blog | Dr. Sanjana L — Health Nest, HSR Layout & Attibele Bangalore",
+    title: "Women's Health Blog | Dr. Sanjana L — HSR, Attibele & South Bangalore",
     description: "Expert articles on pregnancy, fertility, PCOS, endometriosis, menopause & more by Dr. Sanjana L, gynaecologist in HSR Layout & Attibele, Bangalore.",
-    url: "https://healthnest.in/blog",
+    url: `${SITE_URL}/blog`,
     type: "website",
   },
 };
@@ -51,37 +52,15 @@ export default function BlogPage() {
     '@type': 'CollectionPage',
     name: "Women's Health Blog — Dr. Sanjana L, Health Nest Bangalore",
     description: "Expert health articles on pregnancy, fertility, PCOS, menopause, endometriosis and cervical cancer screening by Dr. Sanjana L, gynaecologist in HSR Layout and Attibele, Bangalore.",
-    url: 'https://healthnest.in/blog',
-    publisher: {
-      '@type': 'MedicalBusiness',
-      name: 'Health Nest',
-      url: 'https://healthnest.in',
-      address: [
-        {
-          '@type': 'PostalAddress',
-          streetAddress: 'HSR Layout, near Agara Lake',
-          addressLocality: 'Bangalore',
-          addressRegion: 'Karnataka',
-          postalCode: '560102',
-          addressCountry: 'IN',
-        },
-        {
-          '@type': 'PostalAddress',
-          streetAddress: 'Raghava Hospital, Attibele',
-          addressLocality: 'Bangalore',
-          addressRegion: 'Karnataka',
-          postalCode: '562107',
-          addressCountry: 'IN',
-        },
-      ],
-    },
+    url: `${SITE_URL}/blog`,
+    publisher: { '@id': `${SITE_URL}/#organization` },
     mainEntity: {
       '@type': 'ItemList',
       numberOfItems: blogPosts.length,
       itemListElement: blogPosts.map((post, index) => ({
         '@type': 'ListItem',
         position: index + 1,
-        url: `https://healthnest.in/blog/${post.slug}`,
+        url: `${SITE_URL}/blog/${post.slug}`,
         name: post.title,
       })),
     },
@@ -92,8 +71,8 @@ export default function BlogPage() {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://healthnest.in' },
-      { '@type': 'ListItem', position: 2, name: 'Health Blog', item: 'https://healthnest.in/blog' },
+      { '@type': 'ListItem', position: 1, name: 'Home', item: SITE_URL },
+      { '@type': 'ListItem', position: 2, name: 'Health Blog', item: `${SITE_URL}/blog` },
     ],
   };
 
