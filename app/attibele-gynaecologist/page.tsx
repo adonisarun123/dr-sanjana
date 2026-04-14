@@ -104,35 +104,35 @@ const services = [
 const faqs: { q: string; a: string }[] = [
   {
     q: 'Who is the best gynaecologist in Attibele?',
-    a: 'Dr. Sanjana L at Raghava Multispeciality Hospital is one of the most trusted and experienced gynaecologists serving Attibele and surrounding areas. With an MBBS, MS (OBG), Gold Medal from RGUHS, and FMAS certification, she brings over 10 years of clinical expertise in pregnancy care, normal delivery, PCOS treatment, fertility management and laparoscopic surgery. She consults at Raghava Hospital, Attibele (Mon–Sat, 9 AM – 9 PM) and at Health Nest, HSR Layout.',
+    a: 'Dr. Sanjana L sees patients at Raghava Multispeciality Hospital, Attibele. She is a trusted obstetrician and gynaecologist for the area.\n\nShe is MBBS, MS (OBG) Gold Medalist (RGUHS), and FMAS-trained, with 10 plus years of experience. She supports pregnancy, normal birth, PCOS care, fertility, and keyhole surgery.\n\nTimings at Attibele: Mon–Sat, 9 AM–9 PM. She also consults at Health Nest, HSR Layout.',
   },
   {
     q: 'What gynaecology services are available at Raghava Hospital, Attibele?',
-    a: 'At Raghava Multispeciality Hospital, Attibele, Dr. Sanjana L provides a complete range of gynaecology and obstetric services including pregnancy care and prenatal check-ups, normal and painless delivery, high-risk pregnancy management, caesarean delivery, PCOS/PCOD treatment, fertility evaluation and treatment, laparoscopic surgery, hysteroscopy, menstrual disorder management, cervical cancer screening, and contraception counselling.',
+    a: 'You can book pregnancy visits, scans, and birth planning. Dr. Sanjana supports normal birth, painless birth with epidural when suitable, and caesarean birth when needed.\n\nShe also treats high-risk pregnancy, PCOS/PCOD, fertility concerns, period problems, and offers laparoscopy, hysteroscopy, cervical screening, and contraception advice.',
   },
   {
     q: 'Is there a lady gynaecologist available near Attibele?',
-    a: 'Yes. Dr. Sanjana L is a highly experienced lady gynaecologist who consults at Raghava Multispeciality Hospital on Sarjapura–Attibele Road. She offers compassionate, confidential care in English, Hindi, Kannada and Telugu, making consultations comfortable for women from Attibele, Chandapura, Jigani, Anekal and Hosur Road areas.',
+    a: 'Yes. Dr. Sanjana L is a woman gynaecologist at Raghava Hospital on Sarjapura–Attibele Road.\n\nVisits are private and respectful. She speaks English, Hindi, Kannada, and Telugu. Many patients come from Attibele, Chandapura, Jigani, Anekal, and Hosur Road.',
   },
   {
     q: 'What are the consulting hours for Dr. Sanjana L at Attibele?',
-    a: 'Dr. Sanjana L consults at Raghava Multispeciality Hospital, Attibele from Monday to Saturday, 9:00 AM to 9:00 PM. Sunday consultations are available by appointment. You can book by calling +91-9980031006 or by filling the online appointment form on our website.',
+    a: 'Monday to Saturday: 9:00 AM to 9:00 PM at Raghava Hospital, Attibele.\n\nSunday: by appointment only.\n\nCall +91-9980031006 or use the website booking form.',
   },
   {
     q: 'How do I reach Raghava Hospital from Chandapura or Hosur Road?',
-    a: 'Raghava Multispeciality Hospital is located at 39, Sarjapura–Attibele Road, opposite Syndicate Bank, Attibele, Bangalore 562107. It is approximately 10 km from Chandapura Junction and easily accessible via Hosur Road and the Attibele–Sarjapura Road. The hospital has ample parking and is well connected by public transport.',
+    a: 'Address: 39, Sarjapura–Attibele Road, opposite Syndicate Bank, Attibele, Bengaluru 562107.\n\nIt is about 10 km from Chandapura Junction. Use Hosur Road and Attibele–Sarjapura Road. Parking is available. Buses and cabs serve the area.',
   },
   {
     q: 'What is the consultation fee for Dr. Sanjana L at Attibele?',
-    a: 'Consultation fees at Raghava Multispeciality Hospital, Attibele are kept affordable and competitive. Please call +91-9980031006 for the latest fee details, or book an appointment online and the team will share all relevant information before your visit.',
+    a: 'Fees are set to stay fair for patients.\n\nCall +91-9980031006 for the latest consultation fee. If you book online, the team can confirm costs before you visit.',
   },
   {
     q: 'Does Dr. Sanjana perform normal deliveries and C-sections at Attibele?',
-    a: 'Yes. Dr. Sanjana L performs both normal (vaginal) deliveries and caesarean deliveries at Raghava Multispeciality Hospital, Attibele. She also offers painless delivery (with epidural anaesthesia) and manages high-risk pregnancies with a fully equipped labour ward and neonatal care support.',
+    a: 'Yes. She performs normal (vaginal) birth and caesarean birth at Raghava Hospital when clinically right for you and your baby.\n\nPainless labour with epidural is available when suitable. The unit has labour and newborn support for many high-risk cases.',
   },
   {
     q: 'Can I consult Dr. Sanjana online if I live near Attibele?',
-    a: 'Yes. Dr. Sanjana L offers teleconsultation and video consultations for follow-up visits, second opinions, and non-emergency gynaecology queries. You can book an online consultation through the Health Nest website or call +91-9980031006.',
+    a: 'Yes. Video visits work well for follow-up, second opinions, and many non-urgent questions.\n\nBook on the Health Nest website or call +91-9980031006.',
   },
 ];
 
@@ -491,13 +491,12 @@ export default function AttibeleGynaecologistPage() {
                 Gynaecology Services Available in Attibele
               </h2>
               <div className="accent-line mx-auto" />
-              <p
-                className="text-base max-w-2xl mx-auto"
-                style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}
+              <div
+                className="mx-auto max-w-2xl space-y-3 text-base font-sans text-ink-muted"
               >
-                Dr. Sanjana L offers comprehensive women&apos;s healthcare at Raghava Multispeciality
-                Hospital, Attibele — from routine consultations to advanced surgical procedures.
-              </p>
+                <p className="m-0">Dr. Sanjana L runs a full women&apos;s health clinic at Raghava Multispeciality Hospital, Attibele.</p>
+                <p className="m-0">You can book routine visits, pregnancy care, birth planning, and keyhole surgery when needed.</p>
+              </div>
             </div>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -625,25 +624,26 @@ export default function AttibeleGynaecologistPage() {
               ))}
             </div>
 
-            <p
-              className="text-sm mt-6 leading-relaxed"
-              style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}
-            >
-              Dr. Sanjana also consults at{' '}
-              <Link href="/" className="font-semibold hover:underline" style={{ color: '#8B5E83' }}>
-                Health Nest, HSR Layout
-              </Link>{' '}
-              — providing women in South Bangalore with two convenient clinic locations. She also
-              serves patients from{' '}
-              <Link href="/electronic-city-sarjapura-gynaecologist" className="font-semibold hover:underline" style={{ color: '#8B5E83' }}>
-                Electronic City, Sarjapura &amp; Dommasandra
-              </Link>{' '}
-              and{' '}
-              <Link href="/chandapura-hosur-road-gynaecologist" className="font-semibold hover:underline" style={{ color: '#8B5E83' }}>
-                Chandapura, Hosur Road &amp; Anekal
-              </Link>
-              .
-            </p>
+            <div className="mt-6 max-w-[68ch] space-y-2 text-sm leading-relaxed font-sans text-ink-muted">
+              <p className="m-0">
+                She also consults at{' '}
+                <Link href="/" className="font-semibold text-primary hover:underline">
+                  Health Nest, HSR Layout
+                </Link>
+                . That gives South Bangalore two sites for care.
+              </p>
+              <p className="m-0">
+                She welcomes patients from{' '}
+                <Link href="/electronic-city-sarjapura-gynaecologist" className="font-semibold text-primary hover:underline">
+                  Electronic City, Sarjapura &amp; Dommasandra
+                </Link>{' '}
+                and from{' '}
+                <Link href="/chandapura-hosur-road-gynaecologist" className="font-semibold text-primary hover:underline">
+                  Chandapura, Hosur Road &amp; Anekal
+                </Link>
+                .
+              </p>
+            </div>
           </div>
         </section>
 
@@ -673,13 +673,10 @@ export default function AttibeleGynaecologistPage() {
             >
               Looking for a Trusted Gynaecologist in Attibele?
             </h2>
-            <p
-              className="text-white/80 max-w-xl mx-auto mb-8"
-              style={{ fontFamily: 'DM Sans, sans-serif' }}
-            >
-              Book a consultation with Dr. Sanjana L at Raghava Multispeciality Hospital.
-              Compassionate, expert care — right in your neighbourhood.
-            </p>
+            <div className="mx-auto mb-8 max-w-xl space-y-2 font-sans text-white/80">
+              <p className="m-0">Book with Dr. Sanjana L at Raghava Multispeciality Hospital, Attibele.</p>
+              <p className="m-0">Expect clear advice and kind support, close to home.</p>
+            </div>
             <div className="flex flex-wrap justify-center gap-4">
               <Link
                 href="/book-appointment"

@@ -20,6 +20,9 @@ const config: Config = {
         accent: '#E8A87C',
         cream: '#FFF8F0',
         border: '#E8E0DB',
+        /** Body text (reduces long arbitrary class strings sitewide) */
+        ink: '#2D2D2D',
+        'ink-muted': '#6B6B6B',
       },
     },
   },

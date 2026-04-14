@@ -173,37 +173,37 @@ export default async function BlogPostPage({ params }: Props) {
         if (inOrderedList) { result.push('</ol>'); inOrderedList = false; }
         const headingText = trimmed.slice(4);
         const headingId = headingText.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
-        result.push(`<h3 id="${headingId}" style="font-family:'Playfair Display',serif;font-size:1.25rem;font-weight:600;color:#2D2D2D;margin-top:1.75rem;margin-bottom:0.5rem">${headingText}</h3>`);
+        result.push(`<h3 id="${headingId}" class="article-md-h3">${headingText}</h3>`);
       } else if (trimmed.startsWith('## ')) {
         if (inList) { result.push('</ul>'); inList = false; }
         if (inOrderedList) { result.push('</ol>'); inOrderedList = false; }
         const headingText = trimmed.slice(3);
         const headingId = headingText.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
-        result.push(`<h2 id="${headingId}" style="font-family:'Playfair Display',serif;font-size:1.75rem;font-weight:700;color:#2D2D2D;margin-top:2.5rem;margin-bottom:0.75rem">${headingText}</h2>`);
+        result.push(`<h2 id="${headingId}" class="article-md-h2">${headingText}</h2>`);
       } else if (trimmed.startsWith('- ')) {
         if (inOrderedList) { result.push('</ol>'); inOrderedList = false; }
-        if (!inList) { result.push('<ul style="margin:0.75rem 0 1rem 1.5rem;list-style:disc">'); inList = true; }
-        result.push(`<li style="font-size:1rem;line-height:1.7;color:#6B6B6B;margin-bottom:0.4rem">${trimmed.slice(2).replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')}</li>`);
+        if (!inList) { result.push('<ul class="article-md-ul">'); inList = true; }
+        result.push(`<li class="article-md-li">${trimmed.slice(2).replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')}</li>`);
       } else if (/^\d+\.\s/.test(trimmed)) {
         if (inList) { result.push('</ul>'); inList = false; }
-        if (!inOrderedList) { result.push('<ol style="margin:0.75rem 0 1rem 1.5rem;list-style:decimal">'); inOrderedList = true; }
+        if (!inOrderedList) { result.push('<ol class="article-md-ol">'); inOrderedList = true; }
         const listContent = trimmed.replace(/^\d+\.\s/, '');
-        result.push(`<li style="font-size:1rem;line-height:1.7;color:#6B6B6B;margin-bottom:0.4rem">${listContent.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')}</li>`);
+        result.push(`<li class="article-md-li">${listContent.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')}</li>`);
       } else if (trimmed.startsWith('|')) {
         if (inList) { result.push('</ul>'); inList = false; }
         if (inOrderedList) { result.push('</ol>'); inOrderedList = false; }
         if (!inTable) {
-          result.push('<div style="overflow-x:auto;margin:1.5rem 0"><table style="width:100%;border-collapse:collapse;font-size:0.9rem"><thead>');
+          result.push('<div class="article-md-table-wrap"><table class="article-md-table"><thead>');
           inTable = true;
           const headers = trimmed.split('|').filter(h => h.trim() && !h.match(/^[-| ]+$/));
           if (headers.length) {
-            result.push(`<tr>${headers.map(h => `<th style="padding:0.6rem 0.75rem;background:#F3EDF5;color:#8B5E83;font-weight:600;border:1px solid #E8E0DB;text-align:left">${h.trim()}</th>`).join('')}</tr>`);
+            result.push(`<tr>${headers.map(h => `<th class="article-md-th">${h.trim()}</th>`).join('')}</tr>`);
             result.push('</thead><tbody>');
           }
         } else if (!trimmed.match(/^\|[-| ]+\|$/)) {
           const cells = trimmed.split('|').filter(c => c.trim());
           if (cells.length) {
-            result.push(`<tr>${cells.map(c => `<td style="padding:0.6rem 0.75rem;border:1px solid #E8E0DB;color:#6B6B6B">${c.trim()}</td>`).join('')}</tr>`);
+            result.push(`<tr>${cells.map(c => `<td class="article-md-td">${c.trim()}</td>`).join('')}</tr>`);
           }
         }
       } else {
@@ -213,7 +213,7 @@ export default async function BlogPostPage({ params }: Props) {
         const formatted = trimmed
           .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
           .replace(/\*(.*?)\*/g, '<em>$1</em>');
-        result.push(`<p style="font-size:1.0625rem;line-height:1.8;color:#6B6B6B;margin-bottom:1.25rem">${formatted}</p>`);
+        result.push(`<p class="article-md-p">${formatted}</p>`);
       }
     }
     if (inList) result.push('</ul>');

@@ -54,8 +54,7 @@ export default async function ServicePage({ params }: Props) {
       />
       <Navbar />
       <main id="main-content">
-        {/* Hero */}
-        <section className="bg-gradient-hero" style={{ paddingTop: '100px', paddingBottom: '50px' }}>
+        <section className="bg-gradient-hero pt-[100px] pb-[50px]">
           <div className="container-hn">
             <BreadcrumbNav
               crumbs={[
@@ -65,22 +64,14 @@ export default async function ServicePage({ params }: Props) {
               ]}
             />
             <div className="mt-4 max-w-3xl">
-              <span
-                className="text-xs font-semibold px-3 py-1 rounded-full inline-block mb-4"
-                style={{ background: 'rgba(139,94,131,0.12)', color: '#8B5E83', fontFamily: 'DM Sans, sans-serif' }}
-              >
+              <span className="mb-4 inline-block rounded-full bg-primary/12 px-3 py-1 font-sans text-xs font-semibold text-primary">
                 {service.category}
               </span>
-              <h1
-                className="text-4xl md:text-5xl font-bold mb-4"
-                style={{ fontFamily: 'Playfair Display, serif', color: '#2D2D2D' }}
-              >
+              <h1 className="mb-4 font-display text-4xl font-bold text-ink md:text-5xl">
                 {service.title}
               </h1>
               <div className="accent-line" />
-              <p className="text-lg mb-6" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif', lineHeight: 1.7 }}>
-                {service.description}
-              </p>
+              <p className="mb-6 font-sans text-lg leading-[1.7] text-ink-muted">{service.description}</p>
               <Link href="/book-appointment" className="btn-primary">
                 <Calendar size={18} /> Book Appointment
               </Link>
@@ -88,38 +79,35 @@ export default async function ServicePage({ params }: Props) {
           </div>
         </section>
 
-        {/* At a Glance */}
-        <section className="section-sm" style={{ background: '#FFFFFF' }}>
+        <section className="section-sm bg-white">
           <div className="container-hn">
-            <div className="at-a-glance max-w-4xl mx-auto">
-              <h2 className="text-xl font-bold mb-4" style={{ fontFamily: 'DM Sans, sans-serif', color: '#2D2D2D' }}>
+            <div className="at-a-glance mx-auto max-w-4xl">
+              <h2 className="mb-4 font-sans text-xl font-bold text-ink">
                 At a Glance — {service.shortTitle}
               </h2>
-              <div className="grid md:grid-cols-2 gap-4">
+              <div className="grid gap-4 md:grid-cols-2">
                 <div>
-                  <p className="text-sm font-semibold mb-2 uppercase tracking-wide" style={{ color: '#8B5E83' }}>Specialty</p>
-                  <p className="text-sm" style={{ color: '#6B6B6B' }}>{service.category} — HSR Layout & Attibele</p>
+                  <p className="mb-2 text-sm font-semibold uppercase tracking-wide text-primary">Specialty</p>
+                  <p className="text-sm text-ink-muted">{service.category} — HSR Layout & Attibele</p>
                 </div>
                 <div>
-                  <p className="text-sm font-semibold mb-2 uppercase tracking-wide" style={{ color: '#8B5E83' }}>Specialist</p>
-                  <p className="text-sm" style={{ color: '#6B6B6B' }}>Dr. Sanjana L · Qualification: MBBS MS ( OBG) Gold Medalist FRM ( RGUHS) FMAS · 10+ years experience</p>
+                  <p className="mb-2 text-sm font-semibold uppercase tracking-wide text-primary">Specialist</p>
+                  <p className="text-sm text-ink-muted">
+                    Dr. Sanjana L · Qualification: MBBS MS ( OBG) Gold Medalist FRM ( RGUHS) FMAS · 10+ years experience
+                  </p>
                 </div>
               </div>
             </div>
           </div>
         </section>
 
-        <div className="container-hn" style={{ paddingBottom: '8rem' }}>
-          <div className="grid lg:grid-cols-3 gap-10">
-            {/* Main content */}
-            <div className="lg:col-span-2 space-y-10">
-              {/* Overview */}
+        <div className="container-hn pb-32">
+          <div className="grid gap-10 lg:grid-cols-3">
+            <div className="space-y-10 lg:col-span-2">
               <div>
-                <h2 className="text-2xl font-bold mb-4" style={{ fontFamily: 'Playfair Display, serif', color: '#2D2D2D' }}>
-                  Overview
-                </h2>
+                <h2 className="mb-4 font-display text-2xl font-bold text-ink">Overview</h2>
                 <div className="accent-line" />
-                <div className="readable-service-overview space-y-4" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif', lineHeight: 1.8 }}>
+                <div className="readable-service-overview space-y-4 font-sans leading-[1.8] text-ink-muted">
                   {service.overview
                     .split(/\n{2,}/)
                     .map((block) => block.trim())
@@ -132,115 +120,85 @@ export default async function ServicePage({ params }: Props) {
                 </div>
               </div>
 
-              {/* What to Expect */}
               <div>
-                <h2 className="text-2xl font-bold mb-4" style={{ fontFamily: 'Playfair Display, serif', color: '#2D2D2D' }}>
-                  What to Expect
-                </h2>
+                <h2 className="mb-4 font-display text-2xl font-bold text-ink">What to Expect</h2>
                 <div className="accent-line" />
                 <ul className="space-y-3">
                   {service.whatToExpect.map((step, i) => (
                     <li key={i} className="flex items-start gap-3">
-                      <div
-                        className="w-7 h-7 rounded-full flex items-center justify-center text-white text-xs font-bold flex-shrink-0 mt-0.5"
-                        style={{ background: 'linear-gradient(135deg, #8B5E83, #6B4563)' }}
-                      >
+                      <div className="mt-0.5 flex h-7 w-7 flex-shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-primary to-primary-dark text-xs font-bold text-white">
                         {i + 1}
                       </div>
-                      <p className="text-sm leading-relaxed pt-1" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}>{step}</p>
+                      <p className="pt-1 font-sans text-sm leading-relaxed text-ink-muted">{step}</p>
                     </li>
                   ))}
                 </ul>
               </div>
 
-              {/* When to See Doctor */}
-              <div
-                className="rounded-2xl p-6"
-                style={{ background: 'rgba(232,168,124,0.08)', border: '1px solid rgba(232,168,124,0.3)' }}
-              >
-                <div className="flex items-center gap-2 mb-4">
-                  <AlertCircle size={20} style={{ color: '#E8A87C' }} />
-                  <h2 className="text-xl font-bold" style={{ fontFamily: 'DM Sans, sans-serif', color: '#2D2D2D' }}>
-                    When Should You See Dr. Sanjana?
-                  </h2>
+              <div className="rounded-2xl border border-accent/30 bg-accent/10 p-6">
+                <div className="mb-4 flex items-center gap-2">
+                  <AlertCircle size={20} className="text-accent" />
+                  <h2 className="font-sans text-xl font-bold text-ink">When Should You See Dr. Sanjana?</h2>
                 </div>
                 <ul className="space-y-2">
                   {service.whenToSeeDoctor.map((sign, i) => (
                     <li key={i} className="flex items-start gap-2">
-                      <CheckCircle2 size={15} className="mt-0.5 flex-shrink-0" style={{ color: '#2A6B5A' }} />
-                      <span className="text-sm" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}>{sign}</span>
+                      <CheckCircle2 size={15} className="mt-0.5 flex-shrink-0 text-secondary" />
+                      <span className="font-sans text-sm text-ink-muted">{sign}</span>
                     </li>
                   ))}
                 </ul>
               </div>
 
-              {/* Why Choose Dr Sanjana */}
               <div>
-                <h2 className="text-2xl font-bold mb-4" style={{ fontFamily: 'Playfair Display, serif', color: '#2D2D2D' }}>
+                <h2 className="mb-4 font-display text-2xl font-bold text-ink">
                   Why Choose Dr. Sanjana for {service.shortTitle}?
                 </h2>
                 <div className="accent-line" />
-                <div className="grid sm:grid-cols-2 gap-4">
+                <div className="grid gap-4 sm:grid-cols-2">
                   {service.whyChooseDrSanjana.map((reason, i) => (
                     <div
                       key={i}
-                      className="flex items-start gap-3 p-4 rounded-xl"
-                      style={{ background: '#FFF8F0', border: '1px solid #E8E0DB' }}
+                      className="flex items-start gap-3 rounded-xl border border-border bg-cream p-4"
                     >
-                      <CheckCircle2 size={16} className="mt-0.5 flex-shrink-0" style={{ color: '#8B5E83' }} />
-                      <p className="text-sm" style={{ color: '#2D2D2D', fontFamily: 'DM Sans, sans-serif' }}>{reason}</p>
+                      <CheckCircle2 size={16} className="mt-0.5 flex-shrink-0 text-primary" />
+                      <p className="font-sans text-sm text-ink">{reason}</p>
                     </div>
                   ))}
                 </div>
               </div>
 
-              {/* FAQs */}
               <div>
-                <h2 className="text-2xl font-bold mb-4" style={{ fontFamily: 'Playfair Display, serif', color: '#2D2D2D' }}>
-                  Frequently Asked Questions
-                </h2>
+                <h2 className="mb-4 font-display text-2xl font-bold text-ink">Frequently Asked Questions</h2>
                 <div className="accent-line" />
                 <FAQAccordion faqs={service.faqs} />
               </div>
             </div>
 
-            {/* Sidebar */}
             <div className="space-y-6">
-              {/* Book CTA */}
-              <div
-                className="rounded-2xl p-6 text-center sticky top-24"
-                style={{ background: 'linear-gradient(135deg, #8B5E83, #6B4563)', color: 'white' }}
-              >
-                <p className="text-lg font-bold mb-2" style={{ fontFamily: 'Playfair Display, serif' }}>
-                  Book for {service.shortTitle}
-                </p>
-                <p className="text-sm text-white/80 mb-4" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                  Dr. Sanjana L · HSR Layout & Attibele
-                </p>
-                <p className="text-xs text-white/60 mb-4">200+ patients trust Dr. Sanjana</p>
+              <div className="sticky top-24 rounded-2xl bg-gradient-to-br from-primary to-primary-dark p-6 text-center text-white">
+                <p className="mb-2 font-display text-lg font-bold">Book for {service.shortTitle}</p>
+                <p className="mb-4 font-sans text-sm text-white/80">Dr. Sanjana L · HSR Layout & Attibele</p>
+                <p className="mb-4 text-xs text-white/60">200+ patients trust Dr. Sanjana</p>
                 <Link href="/book-appointment" className="btn-white w-full justify-center">
                   <Calendar size={16} /> Book Now
                 </Link>
-                <a href="tel:+919449031003" className="btn-outline-white w-full justify-center mt-3 text-sm">
+                <a href="tel:+919449031003" className="btn-outline-white mt-3 w-full justify-center text-sm">
                   Call Clinic
                 </a>
               </div>
 
-              {/* Related Services */}
               {related.length > 0 && (
-                <div className="rounded-2xl p-5" style={{ border: '1px solid #E8E0DB', background: 'white' }}>
-                  <h3 className="font-semibold mb-4" style={{ fontFamily: 'DM Sans, sans-serif', color: '#2D2D2D' }}>
-                    Related Services
-                  </h3>
+                <div className="rounded-2xl border border-border bg-white p-5">
+                  <h3 className="mb-4 font-sans font-semibold text-ink">Related Services</h3>
                   <ul className="space-y-2">
                     {related.map((r) => (
                       <li key={r.slug}>
                         <Link
                           href={`/services/${r.slug}`}
-                          className="flex items-center gap-2 text-sm p-2 rounded-lg transition-colors hover:bg-purple-50"
-                          style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}
+                          className="flex items-center gap-2 rounded-lg p-2 font-sans text-sm text-ink-muted transition-colors hover:bg-purple-50"
                         >
-                          <ArrowRight size={14} style={{ color: '#8B5E83', flexShrink: 0 }} />
+                          <ArrowRight size={14} className="flex-shrink-0 text-primary" />
                           {r.shortTitle}
                         </Link>
                       </li>

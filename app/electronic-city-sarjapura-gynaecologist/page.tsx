@@ -105,35 +105,35 @@ const services = [
 const faqs: { q: string; a: string }[] = [
   {
     q: 'Who is the best gynaecologist near Electronic City, Bangalore?',
-    a: 'Dr. Sanjana L at Health Nest, HSR Layout is one of the most trusted gynaecologists serving women from Electronic City and surrounding areas. With over 10 years of clinical experience, an MS (OBG) Gold Medal from RGUHS, and FMAS certification, she provides comprehensive gynaecology and obstetric care. Health Nest in HSR Layout is only 15–20 minutes from Electronic City Phase 1 and Phase 2.',
+    a: 'Dr. Sanjana L sees patients at Health Nest, HSR Layout. That clinic is about 15–20 minutes from Electronic City Phase 1 and 2 for many people.\n\nShe has 10 plus years of experience. She is MS (OBG) Gold Medalist (RGUHS) and FMAS-trained. She covers pregnancy, PCOS, fertility, and surgery when needed.',
   },
   {
     q: 'How far is Health Nest HSR Layout from Electronic City?',
-    a: 'Health Nest clinic in HSR Layout is approximately 8–10 km from Electronic City Phase 1 and Phase 2, which translates to roughly 15–25 minutes by car depending on traffic. For patients closer to the Attibele side of Electronic City, Raghava Multispeciality Hospital on Sarjapura–Attibele Road (about 15 km) is an alternative option where Dr. Sanjana also consults.',
+    a: 'HSR is roughly 8–10 km from Electronic City Phase 1 and 2. In traffic, plan about 15–25 minutes by car.\n\nIf you live closer to the Attibele side, you can also meet her at Raghava Hospital on Sarjapura–Attibele Road.',
   },
   {
     q: 'Is there a good gynaecologist near Sarjapura Road?',
-    a: 'Yes. Dr. Sanjana L consults at Health Nest, HSR Layout — which is conveniently located for residents along Sarjapura Road, Dommasandra, Carmelaram and Harlur. She offers a complete range of gynaecology services including pregnancy care, PCOS treatment, fertility support, laparoscopic surgery and more. Consultations are available Monday to Saturday, and she speaks English, Hindi, Kannada and Telugu.',
+    a: 'Yes. Health Nest in HSR Layout is easy to reach from Sarjapura Road, Dommasandra, Carmelaram, and Harlur.\n\nShe treats pregnancy, PCOS, fertility, and offers laparoscopy and more.\n\nShe works Mon–Sat and speaks English, Hindi, Kannada, and Telugu.',
   },
   {
     q: 'What gynaecology services are available near Electronic City?',
-    a: 'At Health Nest (HSR Layout) and Raghava Hospital (Attibele), Dr. Sanjana L provides pregnancy care, normal and painless delivery, caesarean delivery, high-risk pregnancy management, PCOS/PCOD treatment, fertility evaluation and treatment (IUI/IVF guidance), laparoscopic surgery, hysteroscopy, menstrual disorder management, cervical cancer screening, contraception counselling, and menopause care.',
+    a: 'At Health Nest and at Raghava Hospital, Attibele, she offers pregnancy visits, normal and painless birth, caesarean birth, high-risk pregnancy care, PCOS/PCOD care, fertility tests and IUI/IVF guidance, laparoscopy, hysteroscopy, period care, cervical screening, contraception advice, and menopause support.',
   },
   {
     q: 'Can I consult Dr. Sanjana for PCOS treatment near Electronic City?',
-    a: 'Absolutely. PCOS and PCOD are among Dr. Sanjana\'s core specialities. She provides holistic management including hormonal evaluation, ultrasound assessment, medication, lifestyle and diet guidance, weight management support, and fertility treatment if needed. Her clinic at Health Nest, HSR Layout is a short drive from Electronic City.',
+    a: 'Yes. PCOS and PCOD are a main focus of her practice.\n\nShe uses blood tests, scans, medicines, food and exercise plans, weight support, and fertility help when needed.\n\nHealth Nest is a short drive from Electronic City for many families.',
   },
   {
     q: 'Does Dr. Sanjana offer pregnancy care for women in Sarjapura and Dommasandra?',
-    a: 'Yes. Many of Dr. Sanjana\'s patients come from Sarjapura Road, Dommasandra, Carmelaram, and surrounding areas. She provides complete prenatal care including regular check-ups, all necessary scans, nutrition advice, high-risk pregnancy management, and safe delivery services. You can choose to visit Health Nest (HSR Layout) or Raghava Hospital (Attibele) based on what is more convenient.',
+    a: 'Yes. Many patients come from Sarjapura Road, Dommasandra, and Carmelaram.\n\nCare includes visits, scans, food advice, high-risk follow-up, and birth planning.\n\nYou can pick Health Nest, HSR Layout, or Raghava Hospital, Attibele, whichever is easier.',
   },
   {
     q: 'What are the consulting hours for Dr. Sanjana at HSR Layout?',
-    a: 'Dr. Sanjana L consults at Health Nest, HSR Layout from Monday to Saturday, 8:00 AM to 9:00 PM. Sunday consultations are available by appointment. You can book by calling +91-9449031003 or through the online appointment form on our website.',
+    a: 'Health Nest: Monday to Saturday, 8:00 AM to 9:00 PM.\n\nSunday: by appointment.\n\nCall +91-9449031003 or book online.',
   },
   {
     q: 'Is online consultation available for patients in Electronic City?',
-    a: 'Yes. Dr. Sanjana L offers teleconsultation and video consultations for follow-ups, second opinions, and non-emergency gynaecology queries. This is especially convenient for working professionals in Electronic City who may find it difficult to visit during office hours. Book online via the Health Nest website.',
+    a: 'Yes. Video visits work for follow-up, second opinions, and many routine questions.\n\nThey suit busy work schedules.\n\nBook on the Health Nest website.',
   },
 ];
 
@@ -580,14 +580,10 @@ export default function ElectronicCitySarjapuraGynaecologistPage() {
                 Gynaecology Services for Electronic City &amp; Sarjapura Residents
               </h2>
               <div className="accent-line mx-auto" />
-              <p
-                className="text-base max-w-2xl mx-auto"
-                style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}
-              >
-                Dr. Sanjana L offers comprehensive women&apos;s healthcare — from routine check-ups
-                to advanced surgical procedures — at Health Nest, HSR Layout and Raghava Hospital,
-                Attibele.
-              </p>
+              <div className="mx-auto max-w-2xl space-y-3 text-base font-sans text-ink-muted">
+                <p className="m-0">Dr. Sanjana L sees patients at Health Nest, HSR Layout and at Raghava Hospital, Attibele.</p>
+                <p className="m-0">Care ranges from routine check-ups to advanced surgery when required.</p>
+              </div>
             </div>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -685,16 +681,13 @@ export default function ElectronicCitySarjapuraGynaecologistPage() {
             </h2>
             <div className="accent-line" />
 
-            <p
-              className="text-base mb-6 leading-relaxed"
-              style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}
-            >
-              Whether you are searching for a <strong>gynaecologist near Dommasandra</strong>, a{' '}
-              <strong>maternity hospital near Electronic City</strong>, or a{' '}
-              <strong>fertility clinic near Sarjapura Road</strong> — Dr. Sanjana L&apos;s clinics
-              are conveniently located to serve patients from across this fast-growing corridor of
-              South Bangalore.
-            </p>
+            <div className="mb-6 max-w-[68ch] space-y-3 text-base leading-relaxed font-sans text-ink-muted">
+              <p className="m-0">Health Nest, HSR Layout, and Raghava Hospital, Attibele, cover much of South Bangalore.</p>
+              <p className="m-0">
+                That helps if you want a <strong>gynaecologist near Dommasandra</strong>, a{' '}
+                <strong>maternity unit near Electronic City</strong>, or <strong>fertility care near Sarjapura Road</strong>.
+              </p>
+            </div>
 
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
               {nearbyAreas.map((area, i) => (
@@ -714,17 +707,16 @@ export default function ElectronicCitySarjapuraGynaecologistPage() {
               ))}
             </div>
 
-            <p
-              className="text-sm mt-6 leading-relaxed"
-              style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}
-            >
-              Dr. Sanjana also serves patients from{' '}
-              <Link href="/attibele-gynaecologist" className="font-semibold hover:underline" style={{ color: '#8B5E83' }}>
-                Attibele, Chandapura &amp; Anekal
-              </Link>{' '}
-              at Raghava Multispeciality Hospital — giving women across South Bangalore two convenient
-              clinic locations.
-            </p>
+            <div className="mt-6 max-w-[68ch] space-y-2 text-sm leading-relaxed font-sans text-ink-muted">
+              <p className="m-0">
+                She also sees patients from{' '}
+                <Link href="/attibele-gynaecologist" className="font-semibold text-primary hover:underline">
+                  Attibele, Chandapura &amp; Anekal
+                </Link>{' '}
+                at Raghava Hospital.
+              </p>
+              <p className="m-0">Together with HSR Layout, that gives two main sites for care.</p>
+            </div>
           </div>
         </section>
 
@@ -754,13 +746,10 @@ export default function ElectronicCitySarjapuraGynaecologistPage() {
             >
               Expert Gynaecology Care — Just Minutes from Electronic City
             </h2>
-            <p
-              className="text-white/80 max-w-xl mx-auto mb-8"
-              style={{ fontFamily: 'DM Sans, sans-serif' }}
-            >
-              Book a consultation with Dr. Sanjana L at Health Nest, HSR Layout. Compassionate,
-              world-class women&apos;s healthcare within easy reach of your home or office.
-            </p>
+            <div className="mx-auto mb-8 max-w-xl space-y-2 font-sans text-white/80">
+              <p className="m-0">Book with Dr. Sanjana L at Health Nest, HSR Layout.</p>
+              <p className="m-0">Care is close to Electronic City, Sarjapura, and Dommasandra for many families.</p>
+            </div>
             <div className="flex flex-wrap justify-center gap-4">
               <Link
                 href="/book-appointment"

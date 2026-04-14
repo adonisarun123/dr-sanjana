@@ -103,35 +103,35 @@ const services = [
 const faqs: { q: string; a: string }[] = [
   {
     q: 'Who is the best gynaecologist near Chandapura, Bangalore?',
-    a: 'Dr. Sanjana L at Raghava Multispeciality Hospital, Attibele is one of the most trusted gynaecologists serving Chandapura and Hosur Road residents. With over 10 years of clinical experience, an MS (OBG) Gold Medal from RGUHS, and FMAS certification in minimally invasive surgery, she offers comprehensive gynaecology and obstetric care just 10 minutes from Chandapura Junction.',
+    a: 'Dr. Sanjana L consults at Raghava Multispeciality Hospital, Attibele. It is a short drive from Chandapura and Hosur Road.\n\nShe has 10 plus years of experience. She is MS (OBG) Gold Medalist (RGUHS) and FMAS-trained. She covers pregnancy, birth, PCOS, fertility, and keyhole surgery.',
   },
   {
     q: 'How far is Raghava Hospital, Attibele from Chandapura?',
-    a: 'Raghava Multispeciality Hospital on Sarjapura–Attibele Road is approximately 8–10 km from Chandapura Junction, which is roughly a 10–15 minute drive. It is conveniently located on the Attibele main road, opposite Syndicate Bank, with ample parking available.',
+    a: 'The hospital is on Sarjapura–Attibele Road. From Chandapura Junction it is about 8–10 km.\n\nMost days that is a 10–15 minute drive. There is parking on site.',
   },
   {
     q: 'Is there a delivery hospital near Chandapura or Hosur Road?',
-    a: 'Yes. Raghava Multispeciality Hospital in Attibele, where Dr. Sanjana L practises, is a fully equipped delivery hospital serving Chandapura, Hosur Road and Anekal residents. Dr. Sanjana performs normal deliveries, painless deliveries (with epidural), and caesarean sections with a well-equipped labour ward and neonatal care support.',
+    a: 'Yes. Raghava Hospital in Attibele has a labour suite and newborn support.\n\nDr. Sanjana attends normal birth, painless birth with epidural when suitable, and caesarean birth when needed.',
   },
   {
     q: 'What gynaecology services are available near Hosur Road?',
-    a: 'At Raghava Multispeciality Hospital (Attibele) — easily accessible from Hosur Road — Dr. Sanjana provides pregnancy care, normal and painless delivery, caesarean delivery, high-risk pregnancy management, PCOS/PCOD treatment, fertility evaluation, laparoscopic surgery, hysteroscopy, menstrual disorder treatment, cervical cancer screening, contraception counselling and menopause management.',
+    a: 'From Hosur Road you can reach Raghava Hospital, Attibele quickly.\n\nServices include pregnancy care, normal and painless birth, caesarean birth, high-risk pregnancy, PCOS/PCOD care, fertility tests, laparoscopy, hysteroscopy, period problems, cervical screening, contraception advice, and menopause care.',
   },
   {
     q: 'Can I see Dr. Sanjana for PCOS treatment near Chandapura?',
-    a: 'Yes. PCOS and PCOD management are among Dr. Sanjana\'s core specialities. She provides thorough hormonal evaluation, ultrasound assessment, personalised medication, lifestyle and diet guidance, weight management support, and fertility treatment where needed. Raghava Hospital in Attibele is a short drive from Chandapura.',
+    a: 'Yes. PCOS and PCOD care is a core part of her practice.\n\nShe orders the right blood tests and scans. She plans medicines, food and activity steps, weight support, and fertility help if you need it.\n\nThe Attibele site is a short trip from Chandapura.',
   },
   {
     q: 'What are the consulting hours at Raghava Hospital for Dr. Sanjana?',
-    a: 'Dr. Sanjana L consults at Raghava Multispeciality Hospital, Attibele from Monday to Saturday, 9:00 AM to 9:00 PM. Sunday consultations are available by appointment. Call +91-9980031006 to book, or use the online appointment form.',
+    a: 'Monday to Saturday: 9:00 AM to 9:00 PM at Raghava Hospital, Attibele.\n\nSunday: by appointment.\n\nCall +91-9980031006 or use the online form.',
   },
   {
     q: 'Does Dr. Sanjana also consult in HSR Layout?',
-    a: 'Yes. Dr. Sanjana L also practises at Health Nest clinic in HSR Layout, Bangalore (Mon–Sat, 8 AM – 9 PM). Patients from Chandapura and Hosur Road who work in central Bangalore may find the HSR Layout clinic more convenient for daytime appointments. Call +91-9449031003 for HSR Layout bookings.',
+    a: 'Yes. She also works at Health Nest, HSR Layout (Mon–Sat, 8 AM–9 PM).\n\nThat can suit people who work in central Bangalore.\n\nFor HSR bookings call +91-9449031003.',
   },
   {
     q: 'Is online consultation available for patients near Chandapura?',
-    a: 'Yes. Dr. Sanjana offers teleconsultation and video consultations for follow-up visits, second opinions and non-emergency gynaecology queries. This is especially useful for working women or those with mobility constraints. Book via the Health Nest website or call +91-9980031006.',
+    a: 'Yes. Video visits suit follow-ups, second opinions, and many non-urgent issues.\n\nThey help if travel is hard or time is tight.\n\nBook on the website or call +91-9980031006.',
   },
 ];
 
@@ -610,14 +610,10 @@ export default function ChandapuraHosurRoadGynaecologistPage() {
                 Gynaecology Services for Chandapura, Hosur Road &amp; Anekal Residents
               </h2>
               <div className="accent-line mx-auto" />
-              <p
-                className="text-base max-w-2xl mx-auto"
-                style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}
-              >
-                Dr. Sanjana L provides comprehensive women&apos;s healthcare at Raghava
-                Multispeciality Hospital, Attibele — from routine consultations to advanced
-                minimally invasive procedures.
-              </p>
+              <div className="mx-auto max-w-2xl space-y-3 text-base font-sans text-ink-muted">
+                <p className="m-0">Dr. Sanjana L sees women at Raghava Multispeciality Hospital, Attibele.</p>
+                <p className="m-0">You can book routine visits, pregnancy care, birth planning, and keyhole surgery when needed.</p>
+              </div>
             </div>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -715,17 +711,16 @@ export default function ChandapuraHosurRoadGynaecologistPage() {
             </h2>
             <div className="accent-line" />
 
-            <p
-              className="text-base mb-6 leading-relaxed"
-              style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}
-            >
-              Whether you are searching for a{' '}
-              <strong>gynaecologist near Jigani</strong>, a{' '}
-              <strong>maternity hospital near Chandapura</strong>, or a{' '}
-              <strong>delivery hospital near Hosur Road</strong> — Raghava Multispeciality Hospital
-              in Attibele is conveniently located for patients across this entire corridor, including
-              residents of Hosur, Tamil Nadu.
-            </p>
+            <div className="mb-6 max-w-[68ch] space-y-3 text-base leading-relaxed font-sans text-ink-muted">
+              <p className="m-0">
+                Raghava Multispeciality Hospital, Attibele, is easy to reach from Chandapura, Hosur Road, and Jigani.
+              </p>
+              <p className="m-0">
+                It works well if you want a <strong>gynaecologist near Jigani</strong>, a{' '}
+                <strong>maternity hospital near Chandapura</strong>, or a <strong>delivery unit near Hosur Road</strong>.
+                Patients also travel from Hosur, Tamil Nadu.
+              </p>
+            </div>
 
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
               {nearbyAreas.map((area, i) => (
@@ -745,20 +740,22 @@ export default function ChandapuraHosurRoadGynaecologistPage() {
               ))}
             </div>
 
-            <p
-              className="text-sm mt-6 leading-relaxed"
-              style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}
-            >
-              Dr. Sanjana also serves patients from{' '}
-              <Link href="/attibele-gynaecologist" className="font-semibold hover:underline" style={{ color: '#8B5E83' }}>
-                Attibele
-              </Link>{' '}
-              and{' '}
-              <Link href="/electronic-city-sarjapura-gynaecologist" className="font-semibold hover:underline" style={{ color: '#8B5E83' }}>
-                Electronic City, Sarjapura &amp; Dommasandra
-              </Link>{' '}
-              — two convenient clinic locations across South Bangalore.
-            </p>
+            <div className="mt-6 max-w-[68ch] space-y-2 text-sm leading-relaxed font-sans text-ink-muted">
+              <p className="m-0">
+                She also sees patients from{' '}
+                <Link href="/attibele-gynaecologist" className="font-semibold text-primary hover:underline">
+                  Attibele
+                </Link>
+                .
+              </p>
+              <p className="m-0">
+                She covers{' '}
+                <Link href="/electronic-city-sarjapura-gynaecologist" className="font-semibold text-primary hover:underline">
+                  Electronic City, Sarjapura &amp; Dommasandra
+                </Link>{' '}
+                from her HSR and Attibele sites.
+              </p>
+            </div>
           </div>
         </section>
 
@@ -788,13 +785,10 @@ export default function ChandapuraHosurRoadGynaecologistPage() {
             >
               Trusted Gynaecology Care — Close to Chandapura &amp; Hosur Road
             </h2>
-            <p
-              className="text-white/80 max-w-xl mx-auto mb-8"
-              style={{ fontFamily: 'DM Sans, sans-serif' }}
-            >
-              Book a consultation with Dr. Sanjana L at Raghava Multispeciality Hospital, Attibele.
-              Expert, compassionate care — just minutes from your home.
-            </p>
+            <div className="mx-auto mb-8 max-w-xl space-y-2 font-sans text-white/80">
+              <p className="m-0">Book with Dr. Sanjana L at Raghava Multispeciality Hospital, Attibele.</p>
+              <p className="m-0">Clear advice and kind support, a short drive from Chandapura and Hosur Road.</p>
+            </div>
             <div className="flex flex-wrap justify-center gap-4">
               <Link
                 href="/book-appointment"

@@ -308,10 +308,6 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 68ch;
 }
 
-.readable-article p {
-  max-width: 68ch;
-}
-
 .mobile-cta-bar {
   position: fixed;
   bottom: 0;
@@ -397,4 +393,65 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.7;
   color: var(--text-secondary);
   margin-bottom: 0.5rem;
+}
+
+/* Blog markdown HTML — classes instead of per-element inline styles (text/HTML ratio) */
+.readable-article .article-md-h2 {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin: 2.5rem 0 0.75rem;
+}
+.readable-article .article-md-h3 {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin: 1.75rem 0 0.5rem;
+}
+.readable-article .article-md-p {
+  font-size: 1.0625rem;
+  line-height: 1.8;
+  color: var(--text-secondary);
+  margin: 0 0 1.25rem;
+  max-width: 68ch;
+}
+.readable-article .article-md-ul {
+  margin: 0.75rem 0 1rem 1.5rem;
+  list-style: disc;
+  padding: 0;
+}
+.readable-article .article-md-ol {
+  margin: 0.75rem 0 1rem 1.5rem;
+  list-style: decimal;
+  padding: 0;
+}
+.readable-article .article-md-li {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--text-secondary);
+  margin-bottom: 0.4rem;
+}
+.readable-article .article-md-table-wrap {
+  overflow-x: auto;
+  margin: 1.5rem 0;
+}
+.readable-article .article-md-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+.readable-article .article-md-th {
+  padding: 0.6rem 0.75rem;
+  background: #f3edf5;
+  color: var(--primary);
+  font-weight: 600;
+  border: 1px solid var(--border);
+  text-align: left;
+}
+.readable-article .article-md-td {
+  padding: 0.6rem 0.75rem;
+  border: 1px solid var(--border);
+  color: var(--text-secondary);
 }
