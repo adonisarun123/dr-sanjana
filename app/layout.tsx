@@ -1,9 +1,16 @@
 import type { Metadata, Viewport } from "next";
 import Script from "next/script";
 import "./globals.css";
-import { SITE_URL, SITE_NAME, PHYSICIAN_FULL_NAME } from "@/lib/site";
+import {
+  SITE_URL,
+  SITE_NAME,
+  PHYSICIAN_FULL_NAME,
+  DEFAULT_OG_IMAGE_PATH,
+  ORGANIZATION_SAME_AS,
+  PHYSICIAN_SAME_AS,
+} from "@/lib/site";
 
-const ogImagePath = "/og-image.jpg";
+const ogImagePath = DEFAULT_OG_IMAGE_PATH;
 
 export const viewport: Viewport = {
   width: "device-width",
@@ -78,6 +85,7 @@ const rootStructuredData = {
       url: SITE_URL,
       telephone: "+91-9449031003",
       email: "info@healthnest.in",
+      sameAs: [...ORGANIZATION_SAME_AS],
       contactPoint: [
         {
           "@type": "ContactPoint",
@@ -114,11 +122,49 @@ const rootStructuredData = {
           addressCountry: "IN",
         },
       ],
-      geo: {
-        "@type": "GeoCoordinates",
-        latitude: "12.9116",
-        longitude: "77.6389",
-      },
+      location: [
+        {
+          "@type": "Place",
+          "@id": `${SITE_URL}/#location-hsr`,
+          name: "Health Nest Hospital (HSR Layout)",
+          telephone: "+91-9449031003",
+          hasMap: "https://maps.google.com/?q=Health+Nest+HSR+Layout+Bangalore",
+          address: {
+            "@type": "PostalAddress",
+            streetAddress: "1162, 24th Main Rd, Sector 2, HSR Layout",
+            addressLocality: "Bengaluru",
+            addressRegion: "Karnataka",
+            postalCode: "560102",
+            addressCountry: "IN",
+          },
+          geo: {
+            "@type": "GeoCoordinates",
+            latitude: "12.9116",
+            longitude: "77.6389",
+          },
+        },
+        {
+          "@type": "Place",
+          "@id": `${SITE_URL}/#location-attibele`,
+          name: "Raghava Multispeciality Hospital — Dr. Sanjana L",
+          telephone: "+91-9980031006",
+          hasMap:
+            "https://www.google.com/maps/place/Raghava+Multispeciality+Hospital/@12.7803654,77.7707144,17z",
+          address: {
+            "@type": "PostalAddress",
+            streetAddress: "39, Sarjapura - Attibele Rd, opposite Syndicate Bank",
+            addressLocality: "Attibele, Bengaluru",
+            addressRegion: "Karnataka",
+            postalCode: "562107",
+            addressCountry: "IN",
+          },
+          geo: {
+            "@type": "GeoCoordinates",
+            latitude: "12.7803654",
+            longitude: "77.7707144",
+          },
+        },
+      ],
       openingHoursSpecification: [
         {
           "@type": "OpeningHoursSpecification",
@@ -146,7 +192,7 @@ const rootStructuredData = {
       },
     },
     {
-      "@type": "Person",
+      "@type": "Physician",
       "@id": `${SITE_URL}/#physician`,
       name: PHYSICIAN_FULL_NAME,
       alternateName: "Dr Sanjana L",
@@ -154,6 +200,7 @@ const rootStructuredData = {
       url: `${SITE_URL}/about-dr-sanjana`,
       telephone: "+91-9449031003",
       email: "info@healthnest.in",
+      sameAs: [...PHYSICIAN_SAME_AS],
       identifier: "124759",
       jobTitle: "Obstetrician and Gynaecologist",
       description:

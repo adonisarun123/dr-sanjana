@@ -5,6 +5,7 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import FloatingButtons from '@/components/FloatingButtons';
 import FAQAccordion from '@/components/FAQAccordion';
+import { SITE_URL } from '@/lib/site';
 
 export const metadata: Metadata = {
   title: 'About Dr. Sanjana L | OB-GYN, HSR Layout & Attibele, Bangalore',
@@ -43,9 +44,26 @@ const aboutFaqs = [
   },
 ];
 
+const aboutWebPageSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  '@id': `${SITE_URL}/about-dr-sanjana#webpage`,
+  url: `${SITE_URL}/about-dr-sanjana`,
+  name: 'About Dr. Sanjana L | OB-GYN, HSR Layout & Attibele, Bangalore',
+  description:
+    'Meet Dr. Sanjana L — MBBS MS (OBG) Gold Medalist, FRM (RGUHS), FMAS — obstetrician and gynaecologist at Health Nest and Raghava Hospital.',
+  isPartOf: { '@id': `${SITE_URL}/#website` },
+  about: { '@id': `${SITE_URL}/#physician` },
+  mainEntity: { '@id': `${SITE_URL}/#physician` },
+};
+
 export default function AboutPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(aboutWebPageSchema) }}
+      />
       <Navbar />
       <main id="main-content">
         {/* Hero */}

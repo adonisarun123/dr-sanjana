@@ -28,6 +28,12 @@ const contactLocationsSchema = {
         url: `${SITE_URL}/contact`,
         telephone: '+91-9449031003',
         email: 'info@healthnest.in',
+        hasMap: 'https://maps.google.com/?q=Health+Nest+HSR+Layout+Bangalore',
+        geo: {
+          '@type': 'GeoCoordinates',
+          latitude: '12.9116',
+          longitude: '77.6389',
+        },
         address: {
           '@type': 'PostalAddress',
           streetAddress: '1162, 24th Main Rd, Sector 2, HSR Layout',
@@ -47,6 +53,13 @@ const contactLocationsSchema = {
         url: `${SITE_URL}/contact`,
         telephone: '+91-9980031006',
         email: 'info@healthnest.in',
+        hasMap:
+          'https://www.google.com/maps/place/Raghava+Multispeciality+Hospital/@12.7803654,77.7707144,17z',
+        geo: {
+          '@type': 'GeoCoordinates',
+          latitude: '12.7803654',
+          longitude: '77.7707144',
+        },
         address: {
           '@type': 'PostalAddress',
           streetAddress: '39, Sarjapura - Attibele Rd, opposite Syndicate Bank',

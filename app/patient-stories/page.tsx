@@ -37,7 +37,7 @@ const patientStoriesSchema = {
         author: { '@type': 'Person', name: t.name },
         reviewBody: t.quote,
         itemReviewed: {
-          '@type': 'Person',
+          '@type': 'Physician',
           '@id': `${SITE_URL}/#physician`,
           name: PHYSICIAN_FULL_NAME,
           url: `${SITE_URL}/about-dr-sanjana`,

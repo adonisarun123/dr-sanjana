@@ -11,6 +11,8 @@ export interface BlogPost {
   author: string;
   metaTitle: string;
   metaDescription: string;
+  /** Optional hero image for Open Graph / BlogPosting schema (absolute URL or path starting with `/`). */
+  image?: string;
 }
 
 export const blogPosts: BlogPost[] = [

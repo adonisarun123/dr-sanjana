@@ -1,5 +1,6 @@
 import Link from 'next/link';
-import { Phone, Mail, MapPin, Clock, Instagram, Facebook, Youtube } from 'lucide-react';
+import { Phone, Mail, MapPin, Clock, Linkedin } from 'lucide-react';
+import { PHYSICIAN_LINKEDIN_URL } from '@/lib/site';
 
 const serviceLinks = [
   { label: 'Pregnancy Care', href: '/services/pregnancy-care' },
@@ -53,34 +54,14 @@ export default function Footer() {
             </p>
             <div className="flex gap-3">
               <a
-                href="https://instagram.com"
+                href={PHYSICIAN_LINKEDIN_URL}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-9 h-9 rounded-lg flex items-center justify-center transition-colors hover:bg-purple-900"
                 style={{ background: 'rgba(255,255,255,0.08)' }}
-                aria-label="Health Nest on Instagram"
+                aria-label="Dr. Sanjana L on LinkedIn"
               >
-                <Instagram size={16} />
-              </a>
-              <a
-                href="https://facebook.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-9 h-9 rounded-lg flex items-center justify-center transition-colors hover:bg-purple-900"
-                style={{ background: 'rgba(255,255,255,0.08)' }}
-                aria-label="Health Nest on Facebook"
-              >
-                <Facebook size={16} />
-              </a>
-              <a
-                href="https://youtube.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-9 h-9 rounded-lg flex items-center justify-center transition-colors hover:bg-purple-900"
-                style={{ background: 'rgba(255,255,255,0.08)' }}
-                aria-label="Health Nest on YouTube"
-              >
-                <Youtube size={16} />
+                <Linkedin size={16} />
               </a>
             </div>
           </div>

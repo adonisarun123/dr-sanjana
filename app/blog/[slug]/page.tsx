@@ -3,7 +3,7 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { ArrowLeft, ArrowRight, Clock, Calendar, User, MapPin, Phone } from 'lucide-react';
 import { blogPosts, getBlogPostBySlug } from '@/lib/blog';
-import { SITE_URL } from '@/lib/site';
+import { SITE_URL, DEFAULT_OG_IMAGE_PATH } from '@/lib/site';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import FloatingButtons from '@/components/FloatingButtons';
@@ -96,11 +96,21 @@ export default async function BlogPostPage({ params }: Props) {
 
   const faqs = extractFAQs(post.content);
 
+  const articleImageUrl = post.image
+    ? post.image.startsWith('http')
+      ? post.image
+      : `${SITE_URL}${post.image.startsWith('/') ? post.image : `/${post.image}`}`
+    : `${SITE_URL}${DEFAULT_OG_IMAGE_PATH}`;
+
   const articleSchema = {
     '@context': 'https://schema.org',
     '@type': 'BlogPosting',
     headline: post.title,
     description: post.excerpt,
+    image: {
+      '@type': 'ImageObject',
+      url: articleImageUrl,
+    },
     url: `${SITE_URL}/blog/${post.slug}`,
     datePublished: post.date,
     dateModified: post.date,

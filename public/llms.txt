@@ -123,7 +123,7 @@ These summarise care for nearby neighbourhoods and link to core services:
 
 - **Sitemap:** https://www.drsanjanal.in/sitemap.xml
 - **This file:** https://www.drsanjanal.in/llms.txt
-- **Structured data:** Site-wide JSON-LD in HTML includes `MedicalBusiness`, `Person` (clinician, `#physician`), and `WebSite` with stable `@id` anchors on the canonical domain. Individual routes add `MedicalProcedure`, `FAQPage`, `BreadcrumbList`, `ItemList`, `CollectionPage`, `BlogPosting` (blog), and related types where applicable.
+- **Structured data:** Site-wide JSON-LD in HTML includes `MedicalBusiness` (with `sameAs`, dual `Place` `location` + `geo`), `Physician` (clinician, `#physician`, `sameAs`), and `WebSite` with stable `@id` anchors on the canonical domain. Individual routes add `MedicalProcedure`, `FAQPage`, `BreadcrumbList`, `ItemList`, `CollectionPage`, `BlogPosting` with `image` (blog), `WebPage` (about), and related types where applicable.
 
 ---
 
