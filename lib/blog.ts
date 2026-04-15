@@ -1178,6 +1178,234 @@ Health Nest (HSR Layout, near Agara Lake) and Raghava Hospital (Attibele). Acces
 Book your menopause consultation today. Take control of this new chapter of your life.
     `,
   },
+  {
+    slug: 'gynaecologist-in-attibele-complete-guide',
+    title: 'Gynaecologist in Attibele: Complete Guide to Pregnancy Care, PCOS, Fertility, Menopause & Laparoscopic Surgery',
+    excerpt: 'Searching for a trusted gynaecologist in Attibele? Dr. Sanjana L (MBBS, MS OBG, Gold Medalist, FMAS) at Raghava Multispeciality Hospital offers comprehensive care — antenatal checkups, vaginal delivery, PCOS and fertility treatment, ovarian cyst and fibroid surgery, menopause management and online consultations. A complete guide for women in Attibele, Chandapura, Jigani, Anekal and Hosur Road.',
+    category: "Women's Health",
+    tags: [
+      'gynaecologist Attibele',
+      'obstetrician Attibele',
+      'pregnancy care Attibele',
+      'antenatal checkup Attibele',
+      'postnatal care Attibele',
+      'vaginal delivery doctor Attibele',
+      'delivery hospital near Attibele',
+      'fertility specialist Attibele',
+      'fertility treatment Attibele',
+      'PCOS specialist Attibele',
+      'menopause treatment Attibele',
+      'menopause doctor Attibele',
+      'ovarian cyst treatment Attibele',
+      'birth control doctor Attibele',
+      'online gynaecologist consultation Attibele',
+      'laparoscopic fibroid surgery HSR Layout',
+      'laparoscopic gynaecology HSR Layout',
+      'dr sanjana gynaecologist HSR Layout',
+    ],
+    readTime: 12,
+    date: '2026-04-15',
+    author: 'Dr. Sanjana L',
+    metaTitle: 'Gynaecologist in Attibele — Pregnancy, PCOS, Fertility & Menopause Care | Dr. Sanjana L',
+    metaDescription: 'Complete guide to gynaecology care in Attibele by Dr. Sanjana L at Raghava Hospital — pregnancy, antenatal checkup, vaginal delivery, PCOS, fertility, ovarian cyst, menopause, contraception and online consultation. Also serving Chandapura, Jigani, Anekal and HSR Layout.',
+    content: `
+## Why Women in Attibele Need a Dedicated Gynaecologist Close to Home
+
+Attibele has grown fast in the last decade. Families from Chandapura, Jigani, Anekal, Sarjapura Road and Hosur Road now live within a 10 km radius of the town. With growth comes demand for reliable women's healthcare — pregnancy scans, period problems, fertility help, surgery for fibroids and cysts, and menopause support.
+
+Dr. Sanjana L is an experienced **obstetrician in Attibele** who consults at **Raghava Multispeciality Hospital** on Sarjapura–Attibele Road. She is MBBS, MS (OBG) Gold Medalist from RGUHS, and holds an FMAS fellowship in minimal access (keyhole) surgery. With 10 plus years of clinical practice, she has cared for more than 5,000 women across South Bangalore.
+
+This guide walks through every major reason a woman visits a **gynaecologist in Attibele** — and how care is delivered locally so patients do not need to travel to central Bangalore for quality treatment.
+
+## Pregnancy Care in Attibele — From First Trimester to Delivery
+
+Good **pregnancy care in Attibele** is about far more than monthly scans. Dr. Sanjana follows international obstetric guidelines adapted for the Indian context.
+
+### Early Pregnancy Visits (First Trimester)
+
+The first visit usually happens between 6 and 10 weeks. It includes confirmation of pregnancy, dating scan, blood group and Rh typing, thyroid screening, haemoglobin, vitamin D, and screening for gestational diabetes risk. Early folate, calcium and iron support is started.
+
+### Routine Antenatal Checkup in Attibele
+
+An **antenatal checkup in Attibele** with Dr. Sanjana covers the full schedule recommended by FOGSI and NICE:
+
+- Monthly visits until 28 weeks
+- Fortnightly between 28 and 36 weeks
+- Weekly after 36 weeks until delivery
+- Targeted scans at 11–13 weeks (NT scan), 18–22 weeks (anomaly scan) and 28–34 weeks (growth and Doppler)
+- Oral glucose tolerance test (OGTT) at 24–28 weeks
+- TDAP vaccination and influenza vaccine where indicated
+
+Patients receive written birth plans, nutrition charts, and a direct line to the clinic for urgent questions.
+
+### High-Risk Pregnancy Support
+
+Women with gestational diabetes, preeclampsia, twin pregnancy, advanced maternal age, thyroid issues, or previous caesarean deliveries get structured high-risk protocols. Raghava Hospital has a Level II newborn care unit, so most pregnancy emergencies can be managed on site.
+
+## Vaginal Delivery Doctor in Attibele — Safe, Evidence-Based Birth
+
+Dr. Sanjana is known as a **vaginal delivery doctor in Attibele** who actively supports normal birth whenever it is safe. Her vaginal birth rate is well above the national average — the result of careful labour support, continuous foetal monitoring, and timely decisions.
+
+### Painless Delivery (Epidural) at Raghava Hospital
+
+For women who want a **painless delivery near Attibele**, epidural anaesthesia is available around the clock. The epidural relieves pain but preserves the ability to push.
+
+### When a Caesarean Is Genuinely Needed
+
+C-sections are offered when vaginal delivery would be unsafe — for example breech presentation at term, placenta praevia, foetal distress, or previous classical caesarean. Dr. Sanjana explains indications in plain language so patients understand the decision.
+
+### Delivery Hospital near Attibele
+
+Looking for a trusted **delivery hospital near Attibele**? Raghava Multispeciality Hospital has 24-hour obstetric cover, operating theatres, blood bank access, newborn resuscitation and a neonatal unit. It is the closest tertiary-level maternity unit for patients in Chandapura, Jigani, Dommasandra and Anekal.
+
+## Postnatal Care in Attibele — The First Six Weeks Matter
+
+Good **postnatal care in Attibele** reduces long-term complications for both mother and baby. Dr. Sanjana schedules:
+
+- Day 3 and Day 7 wellness checks (or earlier if caesarean)
+- 2-week wound and breastfeeding review
+- 6-week complete postnatal visit with pelvic floor assessment, contraception counselling and mental-health screening
+- Vaccination catch-up for the baby in coordination with paediatrics
+
+Common concerns addressed include perineal healing, breast engorgement, lactation difficulties, mood changes, diastasis recti, and contraception resumption.
+
+## PCOS Specialist in Attibele — Teen, Adult and Pre-Conception Care
+
+PCOS affects roughly 1 in 5 Indian women. As a **PCOS specialist in Attibele**, Dr. Sanjana sees patients across three life stages:
+
+- **Teens (13–19):** irregular periods, acne, unwanted hair growth
+- **Adults (20–35):** weight gain, insulin resistance, hair thinning, difficulty conceiving
+- **Pre-menopausal (35–45):** long-term metabolic risk and uterine lining safety
+
+Care is always personalised. It may include lifestyle coaching, myo-inositol and vitamin D support, metformin where appropriate, cyclical hormone therapy, and ovulation induction for those trying to conceive. Blood panels are done locally at Raghava Hospital so results return within 24 hours.
+
+## Fertility Specialist in Attibele — A Structured Path to Pregnancy
+
+Fertility concerns are sensitive. Dr. Sanjana offers a calm, step-by-step approach as a **fertility specialist in Attibele** and a **fertility treatment in Attibele** provider.
+
+### Initial Fertility Workup
+
+- Menstrual and ovulation history
+- Husband's semen analysis
+- Hormonal panel: AMH, FSH, LH, prolactin, thyroid
+- Pelvic ultrasound and antral follicle count
+- Tubal patency test (HSG or SSG) where indicated
+
+### Treatment Options
+
+Depending on the cause, Dr. Sanjana offers ovulation induction with letrozole or clomiphene, timed intercourse counselling, IUI planning and IVF referral to partner fertility units. Many couples conceive within 3–6 cycles with the right plan.
+
+## Ovarian Cyst Treatment in Attibele — Medical or Keyhole Surgery
+
+Most ovarian cysts are harmless and resolve on their own. A few need surgery. For **ovarian cyst treatment in Attibele**, Dr. Sanjana follows a clear pathway:
+
+- Functional cysts under 5 cm — observe with repeat scan in 8–12 weeks
+- Persistent or complex cysts — blood tumour markers (CA-125, HE4), MRI if needed
+- Torsion, rupture or suspicious cysts — urgent laparoscopic surgery
+
+Laparoscopy allows cysts to be removed through 3–4 tiny cuts. Most women go home within 24–48 hours.
+
+## Menopause Treatment in Attibele — Reclaiming Quality of Life
+
+Menopause is not a disease, but the symptoms can be disruptive. As a **menopause doctor in Attibele**, Dr. Sanjana offers structured **menopause treatment in Attibele** that covers:
+
+- Hot flush and night sweat relief
+- Vaginal dryness and urinary symptoms (local oestrogen, non-hormonal options)
+- Bone health (DEXA scan advice, calcium, vitamin D, weight-bearing exercise)
+- Mood, sleep and cognitive support
+- Cardiovascular and metabolic risk review
+- Hormone Replacement Therapy (HRT) where clinically appropriate
+
+A typical first consult lasts 30–40 minutes. Follow-up visits track symptom scores and adjust therapy.
+
+## Birth Control Doctor in Attibele — Modern Contraception Without Judgement
+
+Choosing contraception is personal. As a **birth control doctor in Attibele**, Dr. Sanjana counsels on the full range of options without bias:
+
+- Combined oral contraceptive pills (COCs)
+- Progestogen-only pills and injectables
+- Copper IUCD and hormonal IUS (Mirena)
+- Contraceptive implants
+- Barrier methods
+- Permanent options (laparoscopic sterilisation)
+
+Emergency contraception is also available. Each option is matched to a woman's age, health history, and future pregnancy plans.
+
+## Laparoscopic Fibroid Surgery in HSR Layout — Minimally Invasive Care
+
+Dr. Sanjana also consults in HSR Layout, where patients often search for **laparoscopic fibroid surgery in HSR Layout** or a trusted **dr sanjana gynaecologist in HSR Layout**. At Health Nest (HSR Layout) she offers the full range of **laparoscopic gynaecology in HSR Layout**:
+
+- Laparoscopic myomectomy (fibroid removal while preserving the uterus)
+- Laparoscopic hysterectomy for large symptomatic fibroids
+- Laparoscopic cystectomy for ovarian cysts and endometriomas
+- Laparoscopic management of ectopic pregnancy
+- Diagnostic laparoscopy and hysteroscopy for unexplained infertility
+
+Keyhole surgery means smaller scars, less pain, lower infection risk, and recovery times of 7–10 days instead of 4–6 weeks.
+
+## Online Gynaecologist Consultation in Attibele
+
+Not every concern needs a hospital visit. Dr. Sanjana offers **online gynaecologist consultation in Attibele** through secure video for:
+
+- Report reviews (ultrasound, blood tests, pathology)
+- Follow-ups after in-person visits
+- Second opinions on surgery or IVF
+- Medication refills where safe
+- Period and contraception queries
+- Menopause symptom check-ins
+
+Video consults are ideal for working women, patients in Jigani or Bommasandra stuck in traffic, or anyone recovering from surgery. Appointments can be booked on the Health Nest website or by calling **+91-9980031006**.
+
+## How to Reach Raghava Hospital, Attibele
+
+- **Address:** 39, Sarjapura–Attibele Road, opposite Syndicate Bank, Attibele, Bengaluru 562107
+- **Phone:** +91-9980031006
+- **Timings:** Monday to Saturday, 9:00 AM to 9:00 PM. Sunday by appointment.
+- **From Chandapura:** ~10 km via Hosur Road, 20–25 minutes
+- **From Electronic City:** ~12 km via NICE Road or Hosur Road, 25–30 minutes
+- **From Sarjapura:** ~8 km via Sarjapura–Attibele Road, 15–20 minutes
+
+Free parking is available. The hospital is well served by BMTC buses and cabs.
+
+## Frequently Asked Questions
+
+### Who is the best obstetrician in Attibele for normal delivery?
+Dr. Sanjana L at Raghava Multispeciality Hospital is widely rated among the best obstetricians in Attibele for normal delivery. She actively supports vaginal birth with continuous labour support, painless delivery using epidural, and evidence-based labour management. Caesarean is reserved for genuine medical indications.
+
+### How often should I have an antenatal checkup in Attibele?
+A typical antenatal schedule is monthly visits until 28 weeks, fortnightly between 28 and 36 weeks, and weekly after 36 weeks. Additional visits are scheduled for high-risk pregnancies, growth scans, or when symptoms such as bleeding, reduced foetal movements, or severe headaches occur.
+
+### What is the cost of delivery at a hospital near Attibele?
+Delivery costs at Raghava Hospital depend on the type of delivery (normal vs caesarean), room category, and any special neonatal needs. Please call +91-9980031006 for the current package rates. Most insurance and Ayushman schemes are accepted.
+
+### Can Dr. Sanjana treat PCOS without hormonal pills?
+Yes. For many women with mild to moderate PCOS, Dr. Sanjana starts with lifestyle modification, weight management, myo-inositol and vitamin D before considering oral contraceptives or metformin. Treatment is always personalised and reviewed every 3–6 months.
+
+### Is fertility treatment in Attibele as good as central Bangalore?
+Yes. Initial fertility evaluation, ovulation induction, IUI planning, and IVF counselling are all offered at Raghava Hospital, Attibele. Where advanced IVF or ICSI procedures are needed, Dr. Sanjana refers to trusted partner fertility centres while continuing to manage your routine care locally.
+
+### Does Dr. Sanjana offer menopause treatment in Attibele with HRT?
+Yes. Hormone Replacement Therapy is offered where clinically appropriate, after detailed history, examination and baseline investigations. Non-hormonal options including SSRIs, gabapentin, cognitive behavioural therapy and lifestyle modification are also available for women who prefer or need them.
+
+### How is ovarian cyst treatment in Attibele decided?
+Treatment depends on the size, appearance, symptoms, and age of the patient. Small functional cysts are observed. Persistent, complex or symptomatic cysts are removed laparoscopically — usually as a day-care or 24-hour admission procedure.
+
+### Can I consult Dr. Sanjana online if I live in Attibele?
+Yes. Online gynaecologist consultation in Attibele is available through secure video calls. It works well for follow-ups, report reviews, second opinions, contraception queries and menopause check-ins. For pregnancy scans, deliveries and surgeries, in-person visits at Raghava Hospital are required.
+
+### Where can I get laparoscopic fibroid surgery in HSR Layout?
+Dr. Sanjana performs laparoscopic fibroid surgery at partner facilities in HSR Layout and Koramangala. She also consults at Health Nest, HSR Layout, for pre-operative assessment, surgical planning, and post-operative follow-up. Keyhole fibroid removal (myomectomy) preserves the uterus for women who wish to conceive later.
+
+### Is a lady gynaecologist available in Attibele?
+Yes. Dr. Sanjana L is a woman gynaecologist at Raghava Hospital, Attibele. Consultations are private and respectful. She speaks English, Hindi, Kannada and Telugu, which makes communication easy for most families in the region.
+
+## Book Your Appointment with Dr. Sanjana L
+
+Whether you need a routine pregnancy visit, PCOS help, fertility guidance, cyst or fibroid surgery, menopause support, or simply a second opinion — Dr. Sanjana L is available at Raghava Multispeciality Hospital, Attibele, and at Health Nest, HSR Layout.
+
+Call **+91-9980031006** or book your appointment online. Care close to home, delivered with the clinical rigour of a Gold Medalist gynaecologist and FMAS-trained laparoscopic surgeon.
+    `,
+  },
 ];
 
 export function getBlogPostBySlug(slug: string): BlogPost | undefined {
