@@ -1,4 +1,18 @@
+import type { Metadata } from 'next';
 import { SITE_URL } from '@/lib/site';
+
+export const metadata: Metadata = {
+  title: 'Book an Appointment | Dr. Sanjana L — Health Nest, HSR Layout & Attibele',
+  description:
+    'Book an in-person or online consultation with Dr. Sanjana L (gynaecologist & obstetrician, 10+ years) at Health Nest, HSR Layout or Raghava Hospital, Attibele Bangalore.',
+  alternates: { canonical: '/book-appointment' },
+  openGraph: {
+    url: '/book-appointment',
+    title: 'Book an Appointment | Dr. Sanjana L — Health Nest',
+    description:
+      'Request an in-person or online consultation at Health Nest (HSR Layout) or Raghava Multispeciality Hospital (Attibele).',
+  },
+};
 
 const bookAppointmentPageSchema = {
   '@context': 'https://schema.org',

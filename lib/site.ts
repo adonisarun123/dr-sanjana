@@ -29,6 +29,19 @@ export const PHYSICIAN_SAME_AS: readonly string[] = [
 /** E.164 country + number, no + (HSR line; same as WhatsApp). */
 export const HSR_CLINIC_PHONE_E164 = '919449031003' as const;
 
+/**
+ * Primary practice address (HSR Layout) used in JSON-LD nodes that require
+ * `address` per Google's rich-result validation (LocalBusiness/Physician).
+ */
+export const PRIMARY_PRACTICE_ADDRESS = {
+  '@type': 'PostalAddress',
+  streetAddress: '1162, 24th Main Rd, Sector 2, HSR Layout',
+  addressLocality: 'Bengaluru',
+  addressRegion: 'Karnataka',
+  postalCode: '560102',
+  addressCountry: 'IN',
+} as const;
+
 const WHATSAPP_PREFILL_MESSAGE =
   'Hello, I would like to book an appointment with Dr. Sanjana L at Health Nest (HSR Layout) / Raghava Hospital (Attibele).';
 

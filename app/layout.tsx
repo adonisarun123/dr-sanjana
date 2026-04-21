@@ -8,6 +8,7 @@ import {
   DEFAULT_OG_IMAGE_PATH,
   ORGANIZATION_SAME_AS,
   PHYSICIAN_SAME_AS,
+  PRIMARY_PRACTICE_ADDRESS,
 } from "@/lib/site";
 
 const ogImagePath = DEFAULT_OG_IMAGE_PATH;
@@ -192,7 +193,9 @@ const rootStructuredData = {
       },
     },
     {
-      "@type": "Physician",
+      // Multi-typed so Google validates against both Person (jobTitle, worksFor)
+      // and Physician/MedicalBusiness (medical-specific properties + LocalBusiness).
+      "@type": ["Person", "Physician"],
       "@id": `${SITE_URL}/#physician`,
       name: PHYSICIAN_FULL_NAME,
       alternateName: "Dr Sanjana L",
@@ -206,6 +209,10 @@ const rootStructuredData = {
       description:
         "Obstetrician and gynaecologist (MBBS MS OBG Gold Medalist, FRM RGUHS, FMAS). Over 10 years of clinical experience. Consults in English, Hindi, Kannada, and Telugu.",
       knowsLanguage: ["English", "Hindi", "Kannada", "Telugu"],
+      medicalSpecialty: ["Gynecologic", "Obstetric"],
+      // Required by Google's LocalBusiness rich-result validation because
+      // Physician inherits from MedicalBusiness > LocalBusiness.
+      address: PRIMARY_PRACTICE_ADDRESS,
       worksFor: { "@id": `${SITE_URL}/#organization` },
       aggregateRating: {
         "@type": "AggregateRating",

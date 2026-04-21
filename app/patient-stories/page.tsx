@@ -36,8 +36,11 @@ const patientStoriesSchema = {
         },
         author: { '@type': 'Person', name: t.name },
         reviewBody: t.quote,
+        // Reference the canonical Physician/Person entity declared in the root
+        // layout via @id. Use Person here (not Physician) so each nested copy
+        // doesn't trigger LocalBusiness "address required" validation.
         itemReviewed: {
-          '@type': 'Physician',
+          '@type': 'Person',
           '@id': `${SITE_URL}/#physician`,
           name: PHYSICIAN_FULL_NAME,
           url: `${SITE_URL}/about-dr-sanjana`,
