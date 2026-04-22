@@ -101,114 +101,116 @@ export default async function ServicePage({ params }: Props) {
           </div>
         </section>
 
-        <div className="container-hn pb-32">
-          <div className="grid gap-10 lg:grid-cols-3">
-            <div className="space-y-10 lg:col-span-2">
-              <div>
-                <h2 className="mb-4 font-display text-2xl font-bold text-ink">Overview</h2>
-                <div className="accent-line" />
-                <div className="readable-service-overview space-y-4 font-sans leading-[1.8] text-ink-muted">
-                  {service.overview
-                    .split(/\n{2,}/)
-                    .map((block) => block.trim())
-                    .filter(Boolean)
-                    .map((block, i) => (
-                      <p key={i} className="m-0 max-w-[68ch]">
-                        {block}
-                      </p>
-                    ))}
+        <section className="section">
+          <div className="container-hn">
+            <div className="grid gap-10 lg:grid-cols-3">
+              <div className="space-y-10 lg:col-span-2">
+                <div>
+                  <h2 className="mb-4 font-display text-2xl font-bold text-ink">Overview</h2>
+                  <div className="accent-line" />
+                  <div className="readable-service-overview space-y-4 font-sans leading-[1.8] text-ink-muted">
+                    {service.overview
+                      .split(/\n{2,}/)
+                      .map((block) => block.trim())
+                      .filter(Boolean)
+                      .map((block, i) => (
+                        <p key={i} className="m-0 max-w-[68ch]">
+                          {block}
+                        </p>
+                      ))}
+                  </div>
                 </div>
-              </div>
 
-              <div>
-                <h2 className="mb-4 font-display text-2xl font-bold text-ink">What to Expect</h2>
-                <div className="accent-line" />
-                <ul className="space-y-3">
-                  {service.whatToExpect.map((step, i) => (
-                    <li key={i} className="flex items-start gap-3">
-                      <div className="mt-0.5 flex h-7 w-7 flex-shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-primary to-primary-dark text-xs font-bold text-white">
-                        {i + 1}
-                      </div>
-                      <p className="pt-1 font-sans text-sm leading-relaxed text-ink-muted">{step}</p>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-
-              <div className="rounded-2xl border border-accent/30 bg-accent/10 p-6">
-                <div className="mb-4 flex items-center gap-2">
-                  <AlertCircle size={20} className="text-accent" />
-                  <h2 className="font-sans text-xl font-bold text-ink">When Should You See Dr. Sanjana?</h2>
-                </div>
-                <ul className="space-y-2">
-                  {service.whenToSeeDoctor.map((sign, i) => (
-                    <li key={i} className="flex items-start gap-2">
-                      <CheckCircle2 size={15} className="mt-0.5 flex-shrink-0 text-secondary" />
-                      <span className="font-sans text-sm text-ink-muted">{sign}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-
-              <div>
-                <h2 className="mb-4 font-display text-2xl font-bold text-ink">
-                  Why Choose Dr. Sanjana for {service.shortTitle}?
-                </h2>
-                <div className="accent-line" />
-                <div className="grid gap-4 sm:grid-cols-2">
-                  {service.whyChooseDrSanjana.map((reason, i) => (
-                    <div
-                      key={i}
-                      className="flex items-start gap-3 rounded-xl border border-border bg-cream p-4"
-                    >
-                      <CheckCircle2 size={16} className="mt-0.5 flex-shrink-0 text-primary" />
-                      <p className="font-sans text-sm text-ink">{reason}</p>
-                    </div>
-                  ))}
-                </div>
-              </div>
-
-              <div>
-                <h2 className="mb-4 font-display text-2xl font-bold text-ink">Frequently Asked Questions</h2>
-                <div className="accent-line" />
-                <FAQAccordion faqs={service.faqs} />
-              </div>
-            </div>
-
-            <div className="space-y-6">
-              <div className="sticky top-24 rounded-2xl bg-gradient-to-br from-primary to-primary-dark p-6 text-center text-white">
-                <p className="mb-2 font-display text-lg font-bold">Book for {service.shortTitle}</p>
-                <p className="mb-4 font-sans text-sm text-white/80">Dr. Sanjana L · HSR Layout & Attibele</p>
-                <p className="mb-4 text-xs text-white/60">200+ patients trust Dr. Sanjana</p>
-                <Link href="/book-appointment" className="btn-white w-full justify-center">
-                  <Calendar size={16} /> Book Now
-                </Link>
-                <a href="tel:+919449031003" className="btn-outline-white mt-3 w-full justify-center text-sm">
-                  Call Clinic
-                </a>
-              </div>
-
-              {related.length > 0 && (
-                <div className="rounded-2xl border border-border bg-white p-5">
-                  <h3 className="mb-4 font-sans font-semibold text-ink">Related Services</h3>
-                  <ul className="space-y-2">
-                    {related.map((r) => (
-                      <li key={r.slug}>
-                        <Link
-                          href={`/services/${r.slug}`}
-                          className="flex items-center gap-2 rounded-lg p-2 font-sans text-sm text-ink-muted transition-colors hover:bg-purple-50"
-                        >
-                          <ArrowRight size={14} className="flex-shrink-0 text-primary" />
-                          {r.shortTitle}
-                        </Link>
+                <div>
+                  <h2 className="mb-4 font-display text-2xl font-bold text-ink">What to Expect</h2>
+                  <div className="accent-line" />
+                  <ul className="space-y-3">
+                    {service.whatToExpect.map((step, i) => (
+                      <li key={i} className="flex items-start gap-3">
+                        <div className="mt-0.5 flex h-7 w-7 flex-shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-primary to-primary-dark text-xs font-bold text-white">
+                          {i + 1}
+                        </div>
+                        <p className="pt-1 font-sans text-sm leading-relaxed text-ink-muted">{step}</p>
                       </li>
                     ))}
                   </ul>
                 </div>
-              )}
+
+                <div className="rounded-2xl border border-accent/30 bg-accent/10 p-6">
+                  <div className="mb-4 flex items-center gap-2">
+                    <AlertCircle size={20} className="text-accent" />
+                    <h2 className="font-sans text-xl font-bold text-ink">When Should You See Dr. Sanjana?</h2>
+                  </div>
+                  <ul className="space-y-2">
+                    {service.whenToSeeDoctor.map((sign, i) => (
+                      <li key={i} className="flex items-start gap-2">
+                        <CheckCircle2 size={15} className="mt-0.5 flex-shrink-0 text-secondary" />
+                        <span className="font-sans text-sm text-ink-muted">{sign}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+
+                <div>
+                  <h2 className="mb-4 font-display text-2xl font-bold text-ink">
+                    Why Choose Dr. Sanjana for {service.shortTitle}?
+                  </h2>
+                  <div className="accent-line" />
+                  <div className="grid gap-4 sm:grid-cols-2">
+                    {service.whyChooseDrSanjana.map((reason, i) => (
+                      <div
+                        key={i}
+                        className="flex items-start gap-3 rounded-xl border border-border bg-cream p-4"
+                      >
+                        <CheckCircle2 size={16} className="mt-0.5 flex-shrink-0 text-primary" />
+                        <p className="font-sans text-sm text-ink">{reason}</p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+
+                <div>
+                  <h2 className="mb-4 font-display text-2xl font-bold text-ink">Frequently Asked Questions</h2>
+                  <div className="accent-line" />
+                  <FAQAccordion faqs={service.faqs} />
+                </div>
+              </div>
+
+              <div className="space-y-6">
+                <div className="sticky top-24 rounded-2xl bg-gradient-to-br from-primary to-primary-dark p-6 text-center text-white">
+                  <p className="mb-2 font-display text-lg font-bold">Book for {service.shortTitle}</p>
+                  <p className="mb-4 font-sans text-sm text-white/80">Dr. Sanjana L · HSR Layout & Attibele</p>
+                  <p className="mb-4 text-xs text-white/60">200+ patients trust Dr. Sanjana</p>
+                  <Link href="/book-appointment" className="btn-white w-full justify-center">
+                    <Calendar size={16} /> Book Now
+                  </Link>
+                  <a href="tel:+919449031003" className="btn-outline-white mt-3 w-full justify-center text-sm">
+                    Call Clinic
+                  </a>
+                </div>
+
+                {related.length > 0 && (
+                  <div className="rounded-2xl border border-border bg-white p-5">
+                    <h3 className="mb-4 font-sans font-semibold text-ink">Related Services</h3>
+                    <ul className="space-y-2">
+                      {related.map((r) => (
+                        <li key={r.slug}>
+                          <Link
+                            href={`/services/${r.slug}`}
+                            className="flex items-center gap-2 rounded-lg p-2 font-sans text-sm text-ink-muted transition-colors hover:bg-purple-50"
+                          >
+                            <ArrowRight size={14} className="flex-shrink-0 text-primary" />
+                            {r.shortTitle}
+                          </Link>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+              </div>
             </div>
           </div>
-        </div>
+        </section>
       </main>
       <Footer />
       <FloatingButtons />
