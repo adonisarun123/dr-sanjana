@@ -1,7 +1,15 @@
 import type { Metadata, Viewport } from "next";
+import Script from "next/script";
 import { Playfair_Display, DM_Sans } from "next/font/google";
 import Analytics from "@/components/Analytics";
 import "./globals.css";
+
+// Google Tag Manager container ID. Defaults to the production container; can
+// be overridden per environment via NEXT_PUBLIC_GTM_ID. All custom events the
+// site fires (phone_click, lead_form_submit_success, etc.) push to the same
+// `window.dataLayer` GTM listens on, so any tag configured inside GTM picks
+// them up automatically — no extra wiring per tag.
+const GTM_ID = process.env.NEXT_PUBLIC_GTM_ID || "GTM-MXWJFJKG";
 import {
   SITE_URL,
   SITE_NAME,
@@ -272,12 +280,29 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${playfair.variable} ${dmSans.variable}`}>
       <head>
+        {/* Google Tag Manager — loaded as high in <head> as Next.js allows. */}
+        <Script id="gtm-init" strategy="afterInteractive">
+          {`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','${GTM_ID}');`}
+        </Script>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(rootStructuredData) }}
         />
       </head>
       <body>
+        {/* Google Tag Manager (noscript) — must be the first child inside <body>. */}
+        <noscript>
+          <iframe
+            src={`https://www.googletagmanager.com/ns.html?id=${GTM_ID}`}
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          />
+        </noscript>
         <a href="#main-content" className="skip-to-content">
           Skip to main content
         </a>

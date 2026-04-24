@@ -31,6 +31,13 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 ## Analytics
 
+**Google Tag Manager** (`GTM-MXWJFJKG` by default, override with `NEXT_PUBLIC_GTM_ID`) is loaded in the root layout. Every event the site fires is pushed to `window.dataLayer`, so any tag configured inside the GTM container picks them up automatically — no per-tag wiring in code.
+
+> **Heads up — double-counting risk.** The site also loads `gtag.js` directly for the existing Google Ads tag (`AW-18058250699`) so you don't lose existing conversions. If you reconfigure the *same* Google Ads tag inside GTM, page-views and conversions will fire twice. Two clean options:
+>
+> 1. **Recommended (long-term):** move all tag config into GTM, then remove the hardcoded gtag loader from `components/Analytics.tsx` (the `dataLayer` events keep flowing).
+> 2. **Status quo:** leave Google Ads on the hardcoded path and only add *new* tags (Meta Pixel, LinkedIn Insight, etc.) inside GTM.
+
 The site ships with a single analytics layer (`lib/analytics.ts` + `components/Analytics.tsx`) that pushes to `window.dataLayer` and to `gtag`. Out of the box it tracks:
 
 | Event | Where it fires | Useful for |
@@ -52,6 +59,9 @@ The site ships with a single analytics layer (`lib/analytics.ts` + `components/A
 To wire up Google Ads conversions and (optional) GA4, set these in `.env.local` / Vercel project env vars:
 
 ```bash
+# Google Tag Manager — already wired in the layout, override only if needed
+NEXT_PUBLIC_GTM_ID="GTM-MXWJFJKG"
+
 # Google Ads — required
 NEXT_PUBLIC_GADS_ID="AW-18058250699"                          # already the default
 
