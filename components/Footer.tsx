@@ -40,16 +40,16 @@ export default function Footer() {
                 className="w-10 h-10 rounded-xl flex items-center justify-center"
                 style={{ background: 'linear-gradient(135deg, #8B5E83, #6B4563)' }}
               >
-                <span className="text-white font-bold text-sm" style={{ fontFamily: 'Playfair Display, serif' }}>HN</span>
+                <span className="text-white font-bold text-sm" style={{ fontFamily: 'var(--font-display), Georgia, serif' }}>HN</span>
               </div>
               <div>
-                <p className="font-bold text-lg leading-tight text-white" style={{ fontFamily: 'Playfair Display, serif' }}>
+                <p className="font-bold text-lg leading-tight text-white" style={{ fontFamily: 'var(--font-display), Georgia, serif' }}>
                   Dr. Sanjana L
                 </p>
                 <p className="text-xs leading-tight" style={{ color: '#9B9B9B' }}>Health Nest & Raghava Multispeciality Hospital</p>
               </div>
             </div>
-            <p className="text-sm leading-relaxed mb-5" style={{ color: '#9B9B9B', fontFamily: 'DM Sans, sans-serif' }}>
+            <p className="text-sm leading-relaxed mb-5" style={{ color: '#9B9B9B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
               Dr. Sanjana L (MBBS MS ( OBG) Gold Medalist FRM ( RGUHS) FMAS) — 10 plus years experienced gynaecologist & obstetrician serving HSR Layout, Attibele, Sarjapura and South Bangalore. Expert care for pregnancy, fertility and laparoscopy.
             </p>
             <div className="flex gap-3">
@@ -68,14 +68,14 @@ export default function Footer() {
 
           {/* Services */}
           <div>
-            <h3 className="font-semibold text-white mb-6" style={{ fontFamily: 'DM Sans, sans-serif' }}>Services</h3>
+            <h3 className="font-semibold text-white mb-6" style={{ fontFamily: 'var(--font-body), system-ui, sans-serif' }}>Services</h3>
             <ul className="space-y-4" role="list">
               {serviceLinks.map((link) => (
                 <li key={link.href}>
                   <Link
                     href={link.href}
                     className="text-sm transition-colors hover:text-purple-300"
-                    style={{ color: '#9B9B9B', fontFamily: 'DM Sans, sans-serif' }}
+                    style={{ color: '#9B9B9B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}
                   >
                     {link.label}
                   </Link>
@@ -86,14 +86,14 @@ export default function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h3 className="font-semibold text-white mb-6" style={{ fontFamily: 'DM Sans, sans-serif' }}>Quick Links</h3>
+            <h3 className="font-semibold text-white mb-6" style={{ fontFamily: 'var(--font-body), system-ui, sans-serif' }}>Quick Links</h3>
             <ul className="space-y-4" role="list">
               {quickLinks.map((link) => (
                 <li key={link.href}>
                   <Link
                     href={link.href}
                     className="text-sm transition-colors hover:text-purple-300"
-                    style={{ color: '#9B9B9B', fontFamily: 'DM Sans, sans-serif' }}
+                    style={{ color: '#9B9B9B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}
                   >
                     {link.label}
                   </Link>
@@ -104,13 +104,13 @@ export default function Footer() {
 
           {/* Contact */}
           <div>
-            <h3 className="font-semibold text-white mb-6" style={{ fontFamily: 'DM Sans, sans-serif' }}>Contact Us</h3>
+            <h3 className="font-semibold text-white mb-6" style={{ fontFamily: 'var(--font-body), system-ui, sans-serif' }}>Contact Us</h3>
             <ul className="space-y-5" role="list">
               <li className="flex items-start gap-3">
                 <MapPin size={16} className="mt-0.5 flex-shrink-0" style={{ color: '#C9A7C7' }} />
                 <div>
-                  <p className="text-sm font-semibold text-white" style={{ fontFamily: 'DM Sans, sans-serif' }}>Health Nest Hospital</p>
-                  <p className="text-sm" style={{ color: '#9B9B9B', fontFamily: 'DM Sans, sans-serif' }}>
+                  <p className="text-sm font-semibold text-white" style={{ fontFamily: 'var(--font-body), system-ui, sans-serif' }}>Health Nest Hospital</p>
+                  <p className="text-sm" style={{ color: '#9B9B9B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
                     1162, 24th Main Rd, Sector 2<br />HSR Layout, Bangalore
                   </p>
                 </div>
@@ -118,14 +118,14 @@ export default function Footer() {
               <li className="flex items-start gap-3">
                 <MapPin size={16} className="mt-0.5 flex-shrink-0" style={{ color: '#C9A7C7' }} />
                 <div>
-                  <p className="text-sm font-semibold text-white" style={{ fontFamily: 'DM Sans, sans-serif' }}>Raghava Hospital</p>
-                  <p className="text-sm" style={{ color: '#9B9B9B', fontFamily: 'DM Sans, sans-serif' }}>
+                  <p className="text-sm font-semibold text-white" style={{ fontFamily: 'var(--font-body), system-ui, sans-serif' }}>Raghava Hospital</p>
+                  <p className="text-sm" style={{ color: '#9B9B9B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
                     39, Sarjapura - Attibele Rd<br />Attibele, Bangalore
                   </p>
                 </div>
               </li>
               <li className="pt-2">
-                <p className="text-xs font-semibold uppercase tracking-wide mb-3" style={{ color: '#C9A7C7', fontFamily: 'DM Sans, sans-serif' }}>
+                <p className="text-xs font-semibold uppercase tracking-wide mb-3" style={{ color: '#C9A7C7', fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
                   Areas we serve
                 </p>
                 <ul className="space-y-2.5" role="list">
@@ -134,7 +134,7 @@ export default function Footer() {
                       <Link
                         href={link.href}
                         className="text-sm transition-colors hover:text-purple-300"
-                        style={{ color: '#9B9B9B', fontFamily: 'DM Sans, sans-serif' }}
+                        style={{ color: '#9B9B9B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}
                       >
                         {link.label}
                       </Link>
@@ -145,8 +145,8 @@ export default function Footer() {
               <li className="flex items-start gap-3">
                 <Phone size={16} className="mt-0.5 flex-shrink-0" style={{ color: '#C9A7C7' }} />
                 <div className="flex flex-col gap-1">
-                  <a href="tel:+919449031003" className="text-sm transition-colors hover:text-purple-300" style={{ color: '#9B9B9B', fontFamily: 'DM Sans, sans-serif' }}>+91-9449031003 (HSR)</a>
-                  <a href="tel:+919980031006" className="text-sm transition-colors hover:text-purple-300" style={{ color: '#9B9B9B', fontFamily: 'DM Sans, sans-serif' }}>+91-9980031006 (Attibele)</a>
+                  <a href="tel:+919449031003" className="text-sm transition-colors hover:text-purple-300" style={{ color: '#9B9B9B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}>+91-9449031003 (HSR)</a>
+                  <a href="tel:+919980031006" className="text-sm transition-colors hover:text-purple-300" style={{ color: '#9B9B9B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}>+91-9980031006 (Attibele)</a>
                 </div>
               </li>
               <li className="flex items-center gap-3 mt-2">
@@ -154,7 +154,7 @@ export default function Footer() {
                 <a
                   href="mailto:info@healthnest.in"
                   className="text-sm transition-colors hover:text-purple-300"
-                  style={{ color: '#9B9B9B', fontFamily: 'DM Sans, sans-serif' }}
+                  style={{ color: '#9B9B9B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}
                 >
                   info@healthnest.in
                 </a>
@@ -168,10 +168,10 @@ export default function Footer() {
           className="mt-16 pt-8 flex flex-col md:flex-row items-center justify-between gap-4"
           style={{ borderTop: '1px solid rgba(255,255,255,0.08)' }}
         >
-          <p className="text-xs" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}>
+          <p className="text-xs" style={{ color: '#A8A8B5', fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
             © 2026 Health Nest. All rights reserved. | Reg. No: 124759
           </p>
-          <p className="text-xs" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}>
+          <p className="text-xs" style={{ color: '#A8A8B5', fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
             Dr. Sanjana L — Qualification: MBBS MS ( OBG) Gold Medalist FRM ( RGUHS) FMAS | HSR Layout & Attibele, Bangalore
           </p>
         </div>

@@ -262,7 +262,7 @@ export default function AttibeleGynaecologistPage() {
                   style={{
                     background: 'rgba(42,107,90,0.12)',
                     color: '#2A6B5A',
-                    fontFamily: 'DM Sans, sans-serif',
+                    fontFamily: 'var(--font-body), system-ui, sans-serif',
                   }}
                 >
                   Attibele &middot; Chandapura &middot; Jigani &middot; Anekal
@@ -270,7 +270,7 @@ export default function AttibeleGynaecologistPage() {
 
                 <h1
                   className="text-3xl md:text-4xl lg:text-5xl font-bold mb-5 leading-tight"
-                  style={{ fontFamily: 'Playfair Display, serif', color: '#2D2D2D' }}
+                  style={{ fontFamily: 'var(--font-display), Georgia, serif', color: '#2D2D2D' }}
                 >
                   Best Gynaecologist in Attibele —{' '}
                   <span style={{ color: '#8B5E83' }}>Dr. Sanjana L</span>
@@ -280,7 +280,7 @@ export default function AttibeleGynaecologistPage() {
 
                 <p
                   className="text-base md:text-lg mb-4 leading-relaxed max-w-[68ch]"
-                  style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}
+                  style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}
                 >
                   Dr. Sanjana L is an <strong>obstetrician and gynaecologist</strong> at{' '}
                   <strong>Raghava Multispeciality Hospital, Attibele</strong>. She has 10 plus years of
@@ -289,7 +289,7 @@ export default function AttibeleGynaecologistPage() {
                 </p>
                 <p
                   className="text-base mb-6 leading-relaxed max-w-[68ch]"
-                  style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}
+                  style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}
                 >
                   She cares for women from Attibele, Chandapura, Jigani, Anekal, and Hosur Road. Common
                   reasons for visits include <strong>pregnancy check-ups</strong>,{' '}
@@ -311,7 +311,7 @@ export default function AttibeleGynaecologistPage() {
                       style={{
                         background: '#FFFFFF',
                         borderColor: '#E8E0DB',
-                        fontFamily: 'DM Sans, sans-serif',
+                        fontFamily: 'var(--font-body), system-ui, sans-serif',
                       }}
                     >
                       <badge.icon size={16} style={{ color: '#E8A87C' }} />
@@ -344,7 +344,7 @@ export default function AttibeleGynaecologistPage() {
                 >
                   <h2
                     className="text-lg font-bold mb-4"
-                    style={{ fontFamily: 'Playfair Display, serif', color: '#2D2D2D' }}
+                    style={{ fontFamily: 'var(--font-display), Georgia, serif', color: '#2D2D2D' }}
                   >
                     Raghava Multispeciality Hospital
                   </h2>
@@ -352,7 +352,7 @@ export default function AttibeleGynaecologistPage() {
                   <div className="space-y-4">
                     <div className="flex items-start gap-3">
                       <MapPin size={18} className="mt-0.5 flex-shrink-0" style={{ color: '#8B5E83' }} />
-                      <p className="text-sm" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}>
+                      <p className="text-sm" style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
                         39, Sarjapura – Attibele Rd, opposite Syndicate Bank, Attibele, Bengaluru,
                         Karnataka 562107
                       </p>
@@ -362,14 +362,14 @@ export default function AttibeleGynaecologistPage() {
                       <a
                         href="tel:+919980031006"
                         className="text-sm font-semibold hover:underline"
-                        style={{ color: '#2A6B5A', fontFamily: 'DM Sans, sans-serif' }}
+                        style={{ color: '#2A6B5A', fontFamily: 'var(--font-body), system-ui, sans-serif' }}
                       >
                         +91-9980031006
                       </a>
                     </div>
                     <div className="flex items-start gap-3">
                       <Clock size={18} className="mt-0.5 flex-shrink-0" style={{ color: '#8B5E83' }} />
-                      <div className="text-sm" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}>
+                      <div className="text-sm" style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
                         <p className="font-semibold" style={{ color: '#2D2D2D' }}>
                           Mon – Sat: 9:00 AM – 9:00 PM
                         </p>
@@ -398,7 +398,7 @@ export default function AttibeleGynaecologistPage() {
                       className="w-full flex items-center justify-center gap-2 py-3 rounded-xl text-white font-semibold text-sm"
                       style={{
                         background: 'linear-gradient(135deg, #8B5E83, #6B4563)',
-                        fontFamily: 'DM Sans, sans-serif',
+                        fontFamily: 'var(--font-body), system-ui, sans-serif',
                       }}
                     >
                       <Calendar size={16} /> Book Appointment
@@ -411,7 +411,7 @@ export default function AttibeleGynaecologistPage() {
                       style={{
                         borderColor: '#E8E0DB',
                         color: '#2A6B5A',
-                        fontFamily: 'DM Sans, sans-serif',
+                        fontFamily: 'var(--font-body), system-ui, sans-serif',
                       }}
                     >
                       <MapPin size={16} /> Get Directions
@@ -428,7 +428,7 @@ export default function AttibeleGynaecologistPage() {
           <div className="container-hn max-w-4xl">
             <h2
               className="text-2xl md:text-3xl font-bold mb-4"
-              style={{ fontFamily: 'Playfair Display, serif', color: '#2D2D2D' }}
+              style={{ fontFamily: 'var(--font-display), Georgia, serif', color: '#2D2D2D' }}
             >
               Why Women in Attibele Trust Dr. Sanjana L
             </h2>
@@ -436,7 +436,7 @@ export default function AttibeleGynaecologistPage() {
 
             <div
               className="space-y-4 max-w-[68ch]"
-              style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif', lineHeight: 1.8 }}
+              style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif', lineHeight: 1.8 }}
             >
               <p>
                 Many women in South Bangalore want a skilled, approachable gynaecologist near Attibele.
@@ -471,7 +471,7 @@ export default function AttibeleGynaecologistPage() {
                   style={{ background: '#FFF8F0', border: '1px solid #E8E0DB' }}
                 >
                   <CheckCircle2 size={16} className="mt-0.5 flex-shrink-0" style={{ color: '#8B5E83' }} />
-                  <p className="text-sm" style={{ color: '#2D2D2D', fontFamily: 'DM Sans, sans-serif' }}>
+                  <p className="text-sm" style={{ color: '#2D2D2D', fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
                     {item}
                   </p>
                 </div>
@@ -486,7 +486,7 @@ export default function AttibeleGynaecologistPage() {
             <div className="text-center mb-12">
               <h2
                 className="text-2xl md:text-3xl font-bold mb-3"
-                style={{ fontFamily: 'Playfair Display, serif', color: '#2D2D2D' }}
+                style={{ fontFamily: 'var(--font-display), Georgia, serif', color: '#2D2D2D' }}
               >
                 Gynaecology Services Available in Attibele
               </h2>
@@ -515,13 +515,13 @@ export default function AttibeleGynaecologistPage() {
                   </div>
                   <h3
                     className="text-lg font-bold mb-2"
-                    style={{ fontFamily: 'DM Sans, sans-serif', color: '#2D2D2D' }}
+                    style={{ fontFamily: 'var(--font-body), system-ui, sans-serif', color: '#2D2D2D' }}
                   >
                     {svc.title}
                   </h3>
                   <p
                     className="text-sm leading-relaxed mb-3"
-                    style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}
+                    style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}
                   >
                     {svc.desc}
                   </p>
@@ -539,7 +539,7 @@ export default function AttibeleGynaecologistPage() {
             <div className="mt-10 max-w-3xl mx-auto text-center">
               <p
                 className="text-sm leading-relaxed"
-                style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}
+                style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}
               >
                 <strong style={{ color: '#2D2D2D' }}>Also available at Attibele:</strong>{' '}
                 <Link href="/services/cesarean-delivery" className="hover:underline" style={{ color: '#8B5E83' }}>
@@ -588,13 +588,13 @@ export default function AttibeleGynaecologistPage() {
           <div className="container-hn max-w-4xl">
             <h2
               className="text-2xl md:text-3xl font-bold mb-4"
-              style={{ fontFamily: 'Playfair Display, serif', color: '#2D2D2D' }}
+              style={{ fontFamily: 'var(--font-display), Georgia, serif', color: '#2D2D2D' }}
             >
               Serving Women across Attibele and Nearby Areas
             </h2>
             <div className="accent-line" />
 
-            <div className="text-base mb-6 leading-relaxed max-w-[68ch] space-y-3" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}>
+            <div className="text-base mb-6 leading-relaxed max-w-[68ch] space-y-3" style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
               <p className="m-0">
                 Raghava Multispeciality Hospital sits on Sarjapura–Attibele Road. It is easy to reach
                 from nearby towns.
@@ -615,7 +615,7 @@ export default function AttibeleGynaecologistPage() {
                     background: '#FFF8F0',
                     border: '1px solid #E8E0DB',
                     color: '#2D2D2D',
-                    fontFamily: 'DM Sans, sans-serif',
+                    fontFamily: 'var(--font-body), system-ui, sans-serif',
                   }}
                 >
                   <MapPin size={14} style={{ color: '#8B5E83', flexShrink: 0 }} />
@@ -652,7 +652,7 @@ export default function AttibeleGynaecologistPage() {
           <div className="container-hn max-w-3xl">
             <h2
               className="text-2xl md:text-3xl font-bold mb-4"
-              style={{ fontFamily: 'Playfair Display, serif', color: '#2D2D2D' }}
+              style={{ fontFamily: 'var(--font-display), Georgia, serif', color: '#2D2D2D' }}
             >
               Frequently Asked Questions — Gynaecologist in Attibele
             </h2>
@@ -669,7 +669,7 @@ export default function AttibeleGynaecologistPage() {
           <div className="container-hn text-center">
             <h2
               className="text-2xl md:text-3xl font-bold text-white mb-3"
-              style={{ fontFamily: 'Playfair Display, serif' }}
+              style={{ fontFamily: 'var(--font-display), Georgia, serif' }}
             >
               Looking for a Trusted Gynaecologist in Attibele?
             </h2>
@@ -681,14 +681,14 @@ export default function AttibeleGynaecologistPage() {
               <Link
                 href="/book-appointment"
                 className="px-8 py-3.5 bg-white rounded-xl font-semibold text-sm shadow-lg hover:scale-105 transition-transform"
-                style={{ color: '#8B5E83', fontFamily: 'DM Sans, sans-serif' }}
+                style={{ color: '#8B5E83', fontFamily: 'var(--font-body), system-ui, sans-serif' }}
               >
                 Book Appointment Online
               </Link>
               <a
                 href="tel:+919980031006"
                 className="px-8 py-3.5 border-2 border-white rounded-xl text-white font-semibold text-sm hover:bg-white/10 transition-colors flex items-center gap-2"
-                style={{ fontFamily: 'DM Sans, sans-serif' }}
+                style={{ fontFamily: 'var(--font-body), system-ui, sans-serif' }}
               >
                 <Phone size={16} /> Call +91-9980031006
               </a>

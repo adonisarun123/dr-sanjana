@@ -49,12 +49,12 @@ export default function TestimonialCarousel() {
                   {t.initial}
                 </div>
                 <div>
-                  <p className="font-semibold text-sm" style={{ color: '#2D2D2D', fontFamily: 'DM Sans, sans-serif' }}>{t.name}</p>
-                  <p className="text-xs" style={{ color: '#9B9B9B' }}>{t.service}</p>
+                  <p className="font-semibold text-sm" style={{ color: '#2D2D2D', fontFamily: 'var(--font-body), system-ui, sans-serif' }}>{t.name}</p>
+                  <p className="text-xs" style={{ color: '#5C5C5C' }}>{t.service}</p>
                 </div>
                 <div
                   className="ml-auto text-xs font-medium px-2 py-1 rounded-full"
-                  style={{ background: 'rgba(139,94,131,0.08)', color: '#8B5E83' }}
+                  style={{ background: 'rgba(139,94,131,0.08)', color: '#6B4563' }}
                 >
                   {t.source}
                 </div>
@@ -64,7 +64,7 @@ export default function TestimonialCarousel() {
                   <Star key={i} size={14} fill="#F59E0B" color="#F59E0B" />
                 ))}
               </div>
-              <p className="text-sm leading-relaxed" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}>
+              <p className="text-sm leading-relaxed" style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
                 &ldquo;{t.quote}&rdquo;
               </p>
             </div>
@@ -79,12 +79,13 @@ export default function TestimonialCarousel() {
             <div
               className="w-11 h-11 rounded-full flex items-center justify-center text-white font-bold text-lg flex-shrink-0"
               style={{ background: 'linear-gradient(135deg, #8B5E83, #2A6B5A)' }}
+              aria-hidden="true"
             >
               {testimonials[current].initial}
             </div>
             <div>
               <p className="font-semibold text-sm" style={{ color: '#2D2D2D' }}>{testimonials[current].name}</p>
-              <p className="text-xs" style={{ color: '#9B9B9B' }}>{testimonials[current].service}</p>
+              <p className="text-xs" style={{ color: '#5C5C5C' }}>{testimonials[current].service}</p>
             </div>
           </div>
           <div className="flex gap-0.5 mb-3">
@@ -108,19 +109,28 @@ export default function TestimonialCarousel() {
         >
           <ChevronLeft size={18} />
         </button>
-        <div className="flex gap-2">
+        <div className="flex gap-1" role="tablist" aria-label="Testimonial pagination">
           {testimonials.map((_, i) => (
             <button
               key={i}
+              type="button"
               onClick={() => setCurrent(i)}
-              className="rounded-full transition-all"
-              style={{
-                width: i === current ? '24px' : '8px',
-                height: '8px',
-                background: i === current ? '#8B5E83' : '#E8E0DB',
-              }}
+              className="grid place-items-center transition-colors"
+              style={{ width: '32px', height: '32px', background: 'transparent', border: 0, cursor: 'pointer' }}
+              role="tab"
+              aria-selected={i === current}
               aria-label={`Go to testimonial ${i + 1}`}
-            />
+            >
+              <span
+                className="rounded-full block transition-[width,background] duration-200"
+                style={{
+                  width: i === current ? '24px' : '8px',
+                  height: '8px',
+                  background: i === current ? '#8B5E83' : '#B5B0AC',
+                }}
+                aria-hidden="true"
+              />
+            </button>
           ))}
         </div>
         <button

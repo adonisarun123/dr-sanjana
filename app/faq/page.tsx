@@ -81,11 +81,11 @@ export default function FAQPage() {
         <section className="bg-gradient-hero" style={{ paddingTop: '100px', paddingBottom: '40px' }}>
           <div className="container-hn">
             <BreadcrumbNav crumbs={[{ label: 'Home', href: '/' }, { label: 'FAQ' }]} />
-            <h1 className="text-4xl md:text-5xl font-bold mt-4 mb-3" style={{ fontFamily: 'Playfair Display, serif', color: '#2D2D2D' }}>
+            <h1 className="text-4xl md:text-5xl font-bold mt-4 mb-3" style={{ fontFamily: 'var(--font-display), Georgia, serif', color: '#2D2D2D' }}>
               Frequently Asked Questions
             </h1>
             <div className="accent-line" />
-            <p className="max-w-2xl" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}>
+            <p className="max-w-2xl" style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
               Common questions about Dr. Sanjana L, Health Nest clinic, pregnancy care, fertility, and women&apos;s health. Can&apos;t find your answer?{' '}
               <Link href="/contact" style={{ color: '#8B5E83', fontWeight: 600 }}>Contact us →</Link>
             </p>
@@ -97,7 +97,7 @@ export default function FAQPage() {
             <div className="max-w-3xl mx-auto space-y-12">
               {allFaqs.map((group) => (
                 <div key={group.category}>
-                  <h2 className="text-2xl font-bold mb-5" style={{ fontFamily: 'Playfair Display, serif', color: '#2D2D2D' }}>
+                  <h2 className="text-2xl font-bold mb-5" style={{ fontFamily: 'var(--font-display), Georgia, serif', color: '#2D2D2D' }}>
                     {group.category}
                   </h2>
                   <FAQAccordion faqs={group.faqs} schema={false} />
@@ -109,10 +109,10 @@ export default function FAQPage() {
 
         <section className="section-sm" style={{ background: 'linear-gradient(135deg, #8B5E83, #6B4563)' }}>
           <div className="container-hn text-center">
-            <h2 className="text-2xl font-bold text-white mb-3" style={{ fontFamily: 'Playfair Display, serif' }}>
+            <h2 className="text-2xl font-bold text-white mb-3" style={{ fontFamily: 'var(--font-display), Georgia, serif' }}>
               Still Have Questions?
             </h2>
-            <p className="text-white/80 mb-5" style={{ fontFamily: 'DM Sans, sans-serif' }}>
+            <p className="text-white/80 mb-5" style={{ fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
               Book a consultation with Dr. Sanjana L and get personalised answers.
             </p>
             <Link href="/book-appointment" className="btn-white">Book Appointment</Link>

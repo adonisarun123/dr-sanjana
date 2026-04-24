@@ -343,7 +343,7 @@ export default function NormalDeliveryPage() {
                   style={{
                     background: 'rgba(139,94,131,0.12)',
                     color: '#8B5E83',
-                    fontFamily: 'DM Sans, sans-serif',
+                    fontFamily: 'var(--font-body), system-ui, sans-serif',
                   }}
                 >
                   HSR Layout · Attibele · Sarjapura Road · South Bangalore
@@ -351,7 +351,7 @@ export default function NormalDeliveryPage() {
 
                 <h1
                   className="text-3xl md:text-4xl lg:text-5xl font-bold mb-5 leading-tight"
-                  style={{ fontFamily: 'Playfair Display, serif', color: '#2D2D2D' }}
+                  style={{ fontFamily: 'var(--font-display), Georgia, serif', color: '#2D2D2D' }}
                 >
                   Normal Delivery Doctor in HSR Layout, Attibele &amp; South Bangalore —{' '}
                   <span style={{ color: '#8B5E83' }}>Dr. Sanjana L</span>
@@ -361,7 +361,7 @@ export default function NormalDeliveryPage() {
 
                 <p
                   className="text-base md:text-lg mb-4 leading-relaxed max-w-[68ch]"
-                  style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}
+                  style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}
                 >
                   A safe, well-supported <strong>vaginal delivery</strong> remains the best birth
                   experience for most healthy mothers and babies. Dr. Sanjana L is a trusted{' '}
@@ -375,7 +375,7 @@ export default function NormalDeliveryPage() {
                 </p>
                 <p
                   className="text-base mb-6 leading-relaxed max-w-[68ch]"
-                  style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}
+                  style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}
                 >
                   Care is offered at Health Nest (HSR Layout) and Raghava Multispeciality Hospital
                   (Attibele) — short drives for families in Koramangala, Sarjapura Road, Bellandur,
@@ -394,7 +394,7 @@ export default function NormalDeliveryPage() {
                       style={{
                         background: '#FFFFFF',
                         borderColor: '#E8E0DB',
-                        fontFamily: 'DM Sans, sans-serif',
+                        fontFamily: 'var(--font-body), system-ui, sans-serif',
                       }}
                     >
                       <badge.icon size={16} style={{ color: '#E8A87C' }} />
@@ -426,25 +426,25 @@ export default function NormalDeliveryPage() {
                 >
                   <h2
                     className="text-lg font-bold mb-1"
-                    style={{ fontFamily: 'Playfair Display, serif', color: '#2D2D2D' }}
+                    style={{ fontFamily: 'var(--font-display), Georgia, serif', color: '#2D2D2D' }}
                   >
                     Where Dr. Sanjana Conducts Normal Deliveries
                   </h2>
                   <p
                     className="text-xs mb-5"
-                    style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}
+                    style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}
                   >
                     Two trusted units across South Bangalore.
                   </p>
 
                   <div className="space-y-5">
                     <div>
-                      <p className="text-sm font-bold mb-2" style={{ color: '#8B5E83', fontFamily: 'DM Sans, sans-serif' }}>
+                      <p className="text-sm font-bold mb-2" style={{ color: '#8B5E83', fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
                         Health Nest — HSR Layout
                       </p>
                       <div className="flex items-start gap-2 mb-2">
                         <MapPin size={14} className="mt-0.5 flex-shrink-0" style={{ color: '#8B5E83' }} />
-                        <p className="text-xs leading-relaxed" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}>
+                        <p className="text-xs leading-relaxed" style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
                           1162, 24th Main Rd, Sector 2, HSR Layout, Bengaluru 560102
                         </p>
                       </div>
@@ -453,7 +453,7 @@ export default function NormalDeliveryPage() {
                         <a
                           href="tel:+919449031003"
                           className="text-xs font-semibold hover:underline"
-                          style={{ color: '#2A6B5A', fontFamily: 'DM Sans, sans-serif' }}
+                          style={{ color: '#2A6B5A', fontFamily: 'var(--font-body), system-ui, sans-serif' }}
                         >
                           +91-9449031003
                         </a>
@@ -463,12 +463,12 @@ export default function NormalDeliveryPage() {
                     <div className="h-px" style={{ background: '#E8E0DB' }} />
 
                     <div>
-                      <p className="text-sm font-bold mb-2" style={{ color: '#8B5E83', fontFamily: 'DM Sans, sans-serif' }}>
+                      <p className="text-sm font-bold mb-2" style={{ color: '#8B5E83', fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
                         Raghava Hospital — Attibele
                       </p>
                       <div className="flex items-start gap-2 mb-2">
                         <MapPin size={14} className="mt-0.5 flex-shrink-0" style={{ color: '#8B5E83' }} />
-                        <p className="text-xs leading-relaxed" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}>
+                        <p className="text-xs leading-relaxed" style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
                           39, Sarjapura – Attibele Rd, opposite Syndicate Bank, Attibele 562107
                         </p>
                       </div>
@@ -477,7 +477,7 @@ export default function NormalDeliveryPage() {
                         <a
                           href="tel:+919980031006"
                           className="text-xs font-semibold hover:underline"
-                          style={{ color: '#2A6B5A', fontFamily: 'DM Sans, sans-serif' }}
+                          style={{ color: '#2A6B5A', fontFamily: 'var(--font-body), system-ui, sans-serif' }}
                         >
                           +91-9980031006
                         </a>
@@ -488,7 +488,7 @@ export default function NormalDeliveryPage() {
 
                     <div className="flex items-start gap-2">
                       <Clock size={14} className="mt-0.5 flex-shrink-0" style={{ color: '#8B5E83' }} />
-                      <div className="text-xs" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}>
+                      <div className="text-xs" style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
                         <p className="font-semibold" style={{ color: '#2D2D2D' }}>
                           Labour &amp; Delivery: 24×7 cover
                         </p>
@@ -503,7 +503,7 @@ export default function NormalDeliveryPage() {
                       className="w-full flex items-center justify-center gap-2 py-3 rounded-xl text-white font-semibold text-sm"
                       style={{
                         background: 'linear-gradient(135deg, #8B5E83, #6B4563)',
-                        fontFamily: 'DM Sans, sans-serif',
+                        fontFamily: 'var(--font-body), system-ui, sans-serif',
                       }}
                     >
                       <Calendar size={16} /> Book Antenatal Visit
@@ -520,7 +520,7 @@ export default function NormalDeliveryPage() {
           <div className="container-hn max-w-4xl">
             <h2
               className="text-2xl md:text-3xl font-bold mb-4"
-              style={{ fontFamily: 'Playfair Display, serif', color: '#2D2D2D' }}
+              style={{ fontFamily: 'var(--font-display), Georgia, serif', color: '#2D2D2D' }}
             >
               What Is Normal Delivery?
             </h2>
@@ -528,7 +528,7 @@ export default function NormalDeliveryPage() {
 
             <div
               className="space-y-4 max-w-[68ch]"
-              style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif', lineHeight: 1.8 }}
+              style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif', lineHeight: 1.8 }}
             >
               <p>
                 A normal delivery — also called a <strong>vaginal delivery</strong> — is a birth
@@ -565,7 +565,7 @@ export default function NormalDeliveryPage() {
             <div className="text-center mb-12">
               <h2
                 className="text-2xl md:text-3xl font-bold mb-3"
-                style={{ fontFamily: 'Playfair Display, serif', color: '#2D2D2D' }}
+                style={{ fontFamily: 'var(--font-display), Georgia, serif', color: '#2D2D2D' }}
               >
                 Why Normal Delivery Is Worth Planning For
               </h2>
@@ -591,13 +591,13 @@ export default function NormalDeliveryPage() {
                   </div>
                   <h3
                     className="text-lg font-bold mb-2"
-                    style={{ fontFamily: 'DM Sans, sans-serif', color: '#2D2D2D' }}
+                    style={{ fontFamily: 'var(--font-body), system-ui, sans-serif', color: '#2D2D2D' }}
                   >
                     {b.title}
                   </h3>
                   <p
                     className="text-sm leading-relaxed"
-                    style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}
+                    style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}
                   >
                     {b.desc}
                   </p>
@@ -612,7 +612,7 @@ export default function NormalDeliveryPage() {
           <div className="container-hn max-w-4xl">
             <h2
               className="text-2xl md:text-3xl font-bold mb-4"
-              style={{ fontFamily: 'Playfair Display, serif', color: '#2D2D2D' }}
+              style={{ fontFamily: 'var(--font-display), Georgia, serif', color: '#2D2D2D' }}
             >
               The Normal Delivery Process — Step by Step
             </h2>
@@ -620,7 +620,7 @@ export default function NormalDeliveryPage() {
 
             <p
               className="text-base mb-8 leading-relaxed max-w-[68ch]"
-              style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}
+              style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}
             >
               From your birth-planning visit in the third trimester to your discharge with the
               baby, here is exactly what to expect when you choose a normal delivery with Dr.
@@ -639,13 +639,13 @@ export default function NormalDeliveryPage() {
                   <div>
                     <h3
                       className="text-base font-bold mb-1"
-                      style={{ fontFamily: 'DM Sans, sans-serif', color: '#2D2D2D' }}
+                      style={{ fontFamily: 'var(--font-body), system-ui, sans-serif', color: '#2D2D2D' }}
                     >
                       {s.title}
                     </h3>
                     <p
                       className="text-sm leading-relaxed max-w-[64ch]"
-                      style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}
+                      style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}
                       dangerouslySetInnerHTML={{ __html: s.desc }}
                     />
                   </div>
@@ -660,7 +660,7 @@ export default function NormalDeliveryPage() {
           <div className="container-hn max-w-5xl">
             <h2
               className="text-2xl md:text-3xl font-bold mb-4"
-              style={{ fontFamily: 'Playfair Display, serif', color: '#2D2D2D' }}
+              style={{ fontFamily: 'var(--font-display), Georgia, serif', color: '#2D2D2D' }}
             >
               Are You a Candidate for Normal Delivery?
             </h2>
@@ -668,7 +668,7 @@ export default function NormalDeliveryPage() {
 
             <p
               className="text-base mb-8 leading-relaxed max-w-[68ch]"
-              style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}
+              style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}
             >
               Most healthy women with an uncomplicated pregnancy are good candidates. Dr. Sanjana
               confirms eligibility in the third trimester after reviewing your scans, blood
@@ -682,7 +682,7 @@ export default function NormalDeliveryPage() {
               >
                 <div className="flex items-center gap-2 mb-4">
                   <CheckCircle2 size={20} style={{ color: '#2A6B5A' }} />
-                  <h3 className="text-lg font-bold" style={{ fontFamily: 'DM Sans, sans-serif', color: '#2D2D2D' }}>
+                  <h3 className="text-lg font-bold" style={{ fontFamily: 'var(--font-body), system-ui, sans-serif', color: '#2D2D2D' }}>
                     Usually a good candidate if&hellip;
                   </h3>
                 </div>
@@ -690,7 +690,7 @@ export default function NormalDeliveryPage() {
                   {eligibility.map((e, i) => (
                     <li key={i} className="flex items-start gap-2">
                       <CheckCircle2 size={15} className="mt-0.5 flex-shrink-0" style={{ color: '#2A6B5A' }} />
-                      <span className="text-sm" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}>
+                      <span className="text-sm" style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
                         {e}
                       </span>
                     </li>
@@ -704,7 +704,7 @@ export default function NormalDeliveryPage() {
               >
                 <div className="flex items-center gap-2 mb-4">
                   <AlertCircle size={20} style={{ color: '#E8A87C' }} />
-                  <h3 className="text-lg font-bold" style={{ fontFamily: 'DM Sans, sans-serif', color: '#2D2D2D' }}>
+                  <h3 className="text-lg font-bold" style={{ fontFamily: 'var(--font-body), system-ui, sans-serif', color: '#2D2D2D' }}>
                     A planned caesarean may be safer if&hellip;
                   </h3>
                 </div>
@@ -712,7 +712,7 @@ export default function NormalDeliveryPage() {
                   {cautions.map((c, i) => (
                     <li key={i} className="flex items-start gap-2">
                       <AlertCircle size={15} className="mt-0.5 flex-shrink-0" style={{ color: '#E8A87C' }} />
-                      <span className="text-sm" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}>
+                      <span className="text-sm" style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
                         {c}
                       </span>
                     </li>
@@ -720,7 +720,7 @@ export default function NormalDeliveryPage() {
                 </ul>
                 <p
                   className="text-xs mt-4 leading-relaxed"
-                  style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}
+                  style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}
                 >
                   Each situation is reviewed individually. Many of these conditions can still be
                   managed safely with careful planning.
@@ -735,13 +735,13 @@ export default function NormalDeliveryPage() {
           <div className="container-hn max-w-4xl">
             <h2
               className="text-2xl md:text-3xl font-bold mb-4"
-              style={{ fontFamily: 'Playfair Display, serif', color: '#2D2D2D' }}
+              style={{ fontFamily: 'var(--font-display), Georgia, serif', color: '#2D2D2D' }}
             >
               Normal Delivery Cost in HSR Layout &amp; Attibele
             </h2>
             <div className="accent-line" />
 
-            <div className="space-y-4 max-w-[68ch]" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif', lineHeight: 1.8 }}>
+            <div className="space-y-4 max-w-[68ch]" style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif', lineHeight: 1.8 }}>
               <p>
                 <strong>Normal delivery cost in HSR Layout</strong> at Health Nest, and{' '}
                 <strong>normal delivery cost in Attibele</strong> at Raghava Multispeciality
@@ -760,7 +760,7 @@ export default function NormalDeliveryPage() {
                   style={{ background: '#FFF8F0', border: '1px solid #E8E0DB' }}
                 >
                   <CheckCircle2 size={16} className="mt-0.5 flex-shrink-0" style={{ color: '#8B5E83' }} />
-                  <span className="text-sm" style={{ color: '#2D2D2D', fontFamily: 'DM Sans, sans-serif' }}>
+                  <span className="text-sm" style={{ color: '#2D2D2D', fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
                     {f}
                   </span>
                 </li>
@@ -772,17 +772,17 @@ export default function NormalDeliveryPage() {
                 className="rounded-2xl p-5"
                 style={{ background: '#FFFFFF', border: '1px solid #E8E0DB' }}
               >
-                <p className="text-sm font-bold mb-2" style={{ color: '#8B5E83', fontFamily: 'DM Sans, sans-serif' }}>
+                <p className="text-sm font-bold mb-2" style={{ color: '#8B5E83', fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
                   Health Nest, HSR Layout
                 </p>
-                <p className="text-sm mb-3" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif', lineHeight: 1.7 }}>
+                <p className="text-sm mb-3" style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif', lineHeight: 1.7 }}>
                   Call for the latest normal delivery package and a personalised estimate. Cashless
                   insurance accepted.
                 </p>
                 <a
                   href="tel:+919449031003"
                   className="inline-flex items-center gap-2 text-sm font-semibold hover:underline"
-                  style={{ color: '#2A6B5A', fontFamily: 'DM Sans, sans-serif' }}
+                  style={{ color: '#2A6B5A', fontFamily: 'var(--font-body), system-ui, sans-serif' }}
                 >
                   <Phone size={14} /> +91-9449031003
                 </a>
@@ -791,17 +791,17 @@ export default function NormalDeliveryPage() {
                 className="rounded-2xl p-5"
                 style={{ background: '#FFFFFF', border: '1px solid #E8E0DB' }}
               >
-                <p className="text-sm font-bold mb-2" style={{ color: '#8B5E83', fontFamily: 'DM Sans, sans-serif' }}>
+                <p className="text-sm font-bold mb-2" style={{ color: '#8B5E83', fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
                   Raghava Hospital, Attibele
                 </p>
-                <p className="text-sm mb-3" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif', lineHeight: 1.7 }}>
+                <p className="text-sm mb-3" style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif', lineHeight: 1.7 }}>
                   Call for the current normal delivery package. Most insurance and Ayushman Bharat
                   accepted.
                 </p>
                 <a
                   href="tel:+919980031006"
                   className="inline-flex items-center gap-2 text-sm font-semibold hover:underline"
-                  style={{ color: '#2A6B5A', fontFamily: 'DM Sans, sans-serif' }}
+                  style={{ color: '#2A6B5A', fontFamily: 'var(--font-body), system-ui, sans-serif' }}
                 >
                   <Phone size={14} /> +91-9980031006
                 </a>
@@ -815,7 +815,7 @@ export default function NormalDeliveryPage() {
           <div className="container-hn max-w-4xl">
             <h2
               className="text-2xl md:text-3xl font-bold mb-4"
-              style={{ fontFamily: 'Playfair Display, serif', color: '#2D2D2D' }}
+              style={{ fontFamily: 'var(--font-display), Georgia, serif', color: '#2D2D2D' }}
             >
               Why Choose Dr. Sanjana L for Your Normal Delivery
             </h2>
@@ -823,7 +823,7 @@ export default function NormalDeliveryPage() {
 
             <div
               className="space-y-4 max-w-[68ch]"
-              style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif', lineHeight: 1.8 }}
+              style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif', lineHeight: 1.8 }}
             >
               <p>
                 Dr. Sanjana L is an <strong>MS (OBG) Gold Medalist (RGUHS)</strong> with{' '}
@@ -859,7 +859,7 @@ export default function NormalDeliveryPage() {
                   style={{ background: '#FFFFFF', border: '1px solid #E8E0DB' }}
                 >
                   <CheckCircle2 size={16} className="mt-0.5 flex-shrink-0" style={{ color: '#8B5E83' }} />
-                  <p className="text-sm" style={{ color: '#2D2D2D', fontFamily: 'DM Sans, sans-serif' }}>
+                  <p className="text-sm" style={{ color: '#2D2D2D', fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
                     {item}
                   </p>
                 </div>
@@ -873,13 +873,13 @@ export default function NormalDeliveryPage() {
           <div className="container-hn max-w-5xl">
             <h2
               className="text-2xl md:text-3xl font-bold mb-4"
-              style={{ fontFamily: 'Playfair Display, serif', color: '#2D2D2D' }}
+              style={{ fontFamily: 'var(--font-display), Georgia, serif', color: '#2D2D2D' }}
             >
               Normal Delivery for Families across South Bangalore
             </h2>
             <div className="accent-line" />
 
-            <div className="text-base mb-6 leading-relaxed max-w-[68ch] space-y-3" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}>
+            <div className="text-base mb-6 leading-relaxed max-w-[68ch] space-y-3" style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
               <p className="m-0">
                 Dr. Sanjana L is one of the most accessible{' '}
                 <strong>normal delivery doctors in South Bangalore</strong>. Health Nest sits in
@@ -904,7 +904,7 @@ export default function NormalDeliveryPage() {
                     background: '#FFF8F0',
                     border: '1px solid #E8E0DB',
                     color: '#2D2D2D',
-                    fontFamily: 'DM Sans, sans-serif',
+                    fontFamily: 'var(--font-body), system-ui, sans-serif',
                   }}
                 >
                   <MapPin size={14} style={{ color: '#8B5E83', flexShrink: 0 }} />
@@ -920,7 +920,7 @@ export default function NormalDeliveryPage() {
           <div className="container-hn max-w-5xl">
             <h2
               className="text-2xl md:text-3xl font-bold mb-3 text-center"
-              style={{ fontFamily: 'Playfair Display, serif', color: '#2D2D2D' }}
+              style={{ fontFamily: 'var(--font-display), Georgia, serif', color: '#2D2D2D' }}
             >
               Related Pregnancy &amp; Birth Services
             </h2>
@@ -961,13 +961,13 @@ export default function NormalDeliveryPage() {
                   </div>
                   <h3
                     className="text-lg font-bold mb-2"
-                    style={{ fontFamily: 'DM Sans, sans-serif', color: '#2D2D2D' }}
+                    style={{ fontFamily: 'var(--font-body), system-ui, sans-serif', color: '#2D2D2D' }}
                   >
                     {svc.title}
                   </h3>
                   <p
                     className="text-sm leading-relaxed mb-3"
-                    style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}
+                    style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}
                   >
                     {svc.desc}
                   </p>
@@ -988,7 +988,7 @@ export default function NormalDeliveryPage() {
           <div className="container-hn max-w-3xl">
             <h2
               className="text-2xl md:text-3xl font-bold mb-4"
-              style={{ fontFamily: 'Playfair Display, serif', color: '#2D2D2D' }}
+              style={{ fontFamily: 'var(--font-display), Georgia, serif', color: '#2D2D2D' }}
             >
               Normal Delivery — Frequently Asked Questions
             </h2>
@@ -1005,7 +1005,7 @@ export default function NormalDeliveryPage() {
           <div className="container-hn text-center">
             <h2
               className="text-2xl md:text-3xl font-bold text-white mb-3"
-              style={{ fontFamily: 'Playfair Display, serif' }}
+              style={{ fontFamily: 'var(--font-display), Georgia, serif' }}
             >
               Plan Your Normal Delivery with Dr. Sanjana L
             </h2>
@@ -1022,21 +1022,21 @@ export default function NormalDeliveryPage() {
               <Link
                 href="/book-appointment"
                 className="px-8 py-3.5 bg-white rounded-xl font-semibold text-sm shadow-lg hover:scale-105 transition-transform"
-                style={{ color: '#8B5E83', fontFamily: 'DM Sans, sans-serif' }}
+                style={{ color: '#8B5E83', fontFamily: 'var(--font-body), system-ui, sans-serif' }}
               >
                 Book Appointment Online
               </Link>
               <a
                 href="tel:+919449031003"
                 className="px-8 py-3.5 border-2 border-white rounded-xl text-white font-semibold text-sm hover:bg-white/10 transition-colors flex items-center gap-2"
-                style={{ fontFamily: 'DM Sans, sans-serif' }}
+                style={{ fontFamily: 'var(--font-body), system-ui, sans-serif' }}
               >
                 <Phone size={16} /> Call HSR Layout
               </a>
               <a
                 href="tel:+919980031006"
                 className="px-8 py-3.5 border-2 border-white rounded-xl text-white font-semibold text-sm hover:bg-white/10 transition-colors flex items-center gap-2"
-                style={{ fontFamily: 'DM Sans, sans-serif' }}
+                style={{ fontFamily: 'var(--font-body), system-ui, sans-serif' }}
               >
                 <Phone size={16} /> Call Attibele
               </a>

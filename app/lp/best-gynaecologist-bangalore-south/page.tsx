@@ -1,9 +1,10 @@
 import type { Metadata } from 'next';
 import Image from 'next/image';
-import { Phone, Star, Award, CheckCircle2, ShieldCheck, MapPin, Clock, Calendar } from 'lucide-react';
+import { Phone, Star, Award, CheckCircle2, ShieldCheck, MapPin, Clock, Calendar, MessageCircle } from 'lucide-react';
 import LPForm from '@/components/LPForm';
 import TestimonialCarousel from '@/components/TestimonialCarousel';
 import Footer from '@/components/Footer';
+import { WHATSAPP_CHAT_URL } from '@/lib/site';
 
 export const metadata: Metadata = {
   title: 'Best Gynaecologist | HSR & Attibele | Dr. Sanjana L — Health Nest',
@@ -17,13 +18,23 @@ export default function LPLandingPage() {
       <header className="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-gray-100 py-3">
         <div className="container-hn flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <Image src="/dr-sanjana-icon.png" alt="Dr. Sanjana L" width={40} height={40} className="rounded-full" />
+            <Image
+              src="/dr-sanjana-icon.png"
+              alt="Dr. Sanjana L"
+              width={40}
+              height={40}
+              quality={70}
+              priority
+              fetchPriority="high"
+              sizes="40px"
+              className="rounded-full"
+            />
             <div>
-              <p className="font-bold text-base leading-tight" style={{ fontFamily: 'Playfair Display, serif', color: '#8B5E83' }}>Dr. Sanjana L</p>
-              <p className="text-[10px] text-gray-500 uppercase tracking-wider font-semibold">Health Nest & Raghava Multispeciality</p>
+              <p className="font-bold text-base leading-tight" style={{ fontFamily: 'var(--font-display), Georgia, serif', color: '#8B5E83' }}>Dr. Sanjana L</p>
+              <p className="text-[11px] text-gray-600 uppercase tracking-wider font-semibold">Health Nest & Raghava Multispeciality</p>
             </div>
           </div>
-          <a href="tel:+919449031003" className="flex items-center gap-2 bg-[#8B5E83]/10 px-4 py-2 rounded-full text-[#8B5E83] font-bold text-sm transition-all hover:bg-[#8B5E83]/20">
+          <a href="tel:+919449031003" data-analytics="header_call" className="flex items-center gap-2 bg-[#8B5E83]/10 px-4 py-2 rounded-full text-[#8B5E83] font-bold text-sm transition-colors hover:bg-[#8B5E83]/20" aria-label="Call Dr. Sanjana L at +91 94490 31003">
             <Phone size={16} />
             <span className="hidden sm:inline">+91-9449031003</span>
             <span className="sm:hidden">Call Now</span>
@@ -31,7 +42,7 @@ export default function LPLandingPage() {
         </div>
       </header>
 
-      <main>
+      <main id="main-content">
         {/* HERO SECTION WITH FORM - Above the fold conversion unit */}
         <section className="relative pt-12 pb-20 md:pt-20 md:pb-32 overflow-hidden bg-gradient-hero">
           <div className="container-hn relative z-10">
@@ -44,7 +55,7 @@ export default function LPLandingPage() {
                   Trusted by 5000+ Happy Patients
                 </div>
                 
-                <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-[1.15]" style={{ fontFamily: 'Playfair Display, serif' }}>
+                <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-[1.15]" style={{ fontFamily: 'var(--font-display), Georgia, serif' }}>
                   Top-Rated <span className="text-[#8B5E83]">Gynaecology & Pregnancy</span> Care near you
                 </h1>
                 
@@ -72,14 +83,14 @@ export default function LPLandingPage() {
               {/* Right Column: High Conversion Lead Form */}
               <div id="callback-form" className="lg:col-span-5">
                 <div className="bg-white rounded-[2.5rem] p-8 shadow-2xl border border-gray-50 relative">
-                  <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-green-500 text-white px-4 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider shadow-md">
+                  <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-green-600 text-white px-4 py-1 rounded-full text-[11px] font-bold uppercase tracking-wider shadow-md">
                     Fast Response Guaranteed
                   </div>
-                  <h2 className="text-2xl font-bold mb-2 text-center" style={{ fontFamily: 'Playfair Display, serif' }}>Request a Callback</h2>
-                  <p className="text-center text-gray-400 text-sm mb-6 font-medium">Get your health queries answered today</p>
-                  
+                  <h2 className="text-2xl font-bold mb-2 text-center" style={{ fontFamily: 'var(--font-display), Georgia, serif' }}>Request a Callback</h2>
+                  <p className="text-center text-gray-600 text-sm mb-6 font-medium">Get your health queries answered today</p>
+
                   <LPForm />
-                  <p className="text-center text-[10px] text-gray-400 mt-4 leading-relaxed">
+                  <p className="text-center text-[11px] text-gray-600 mt-4 leading-relaxed">
                     By submitting, you agree to our{' '}
                     <a href="/privacy-policy" className="underline hover:text-[#8B5E83] transition-colors">Privacy Policy</a>.
                   </p>
@@ -93,11 +104,11 @@ export default function LPLandingPage() {
         {/* TRUST SIGNALS / ASSOCIATIONS */}
         <section className="py-10 border-y border-gray-50 bg-white">
           <div className="container-hn">
-            <p className="text-center text-xs font-bold text-gray-400 uppercase tracking-[0.2em] mb-8">Professional Associations & Trust</p>
-            <div className="flex flex-wrap justify-center items-center gap-12 opacity-50 grayscale hover:grayscale-0 transition-all duration-500">
-              <span className="text-2xl font-bold text-gray-400 font-serif italic">RGUHS Gold Medalist</span>
-              <span className="text-2xl font-bold text-gray-400 font-serif italic">FOGSI Member</span>
-              <span className="text-2xl font-bold text-gray-400 font-serif italic">FMAS Certified</span>
+            <p className="text-center text-xs font-bold text-gray-600 uppercase tracking-[0.2em] mb-8">Professional Associations & Trust</p>
+            <div className="flex flex-wrap justify-center items-center gap-12 grayscale hover:grayscale-0 transition-[filter] duration-500">
+              <span className="text-2xl font-bold text-gray-600 font-serif italic">RGUHS Gold Medalist</span>
+              <span className="text-2xl font-bold text-gray-600 font-serif italic">FOGSI Member</span>
+              <span className="text-2xl font-bold text-gray-600 font-serif italic">FMAS Certified</span>
             </div>
           </div>
         </section>
@@ -107,7 +118,7 @@ export default function LPLandingPage() {
           <div className="container-hn">
             <div className="text-center mb-16">
               <p className="text-[#8B5E83] font-bold text-sm tracking-widest uppercase mb-3">Our Expertise</p>
-              <h2 className="text-3xl md:text-4xl font-bold" style={{ fontFamily: 'Playfair Display, serif' }}>Comprehensive Care for Every Woman</h2>
+              <h2 className="text-3xl md:text-4xl font-bold" style={{ fontFamily: 'var(--font-display), Georgia, serif' }}>Comprehensive Care for Every Woman</h2>
               <div className="w-16 h-1 bg-[#8B5E83] mx-auto mt-6 rounded-full" />
             </div>
 
@@ -148,7 +159,7 @@ export default function LPLandingPage() {
                   <div className="text-4xl mb-6 bg-white w-16 h-16 rounded-2xl flex items-center justify-center shadow-sm group-hover:scale-110 transition-transform">
                     {benefit.icon}
                   </div>
-                  <h3 className="text-xl font-bold mb-3" style={{ fontFamily: 'DM Sans, sans-serif' }}>{benefit.title}</h3>
+                  <h3 className="text-xl font-bold mb-3" style={{ fontFamily: 'var(--font-body), system-ui, sans-serif' }}>{benefit.title}</h3>
                   <p className="text-gray-500 leading-relaxed text-sm">{benefit.desc}</p>
                 </div>
               ))}
@@ -163,7 +174,7 @@ export default function LPLandingPage() {
               <div className="flex justify-center gap-1 mb-4">
                 {[1,2,3,4,5].map(i => <Star key={i} fill="#F59E0B" className="text-[#F59E0B]" size={20} />)}
               </div>
-              <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ fontFamily: 'Playfair Display, serif' }}>5000+ Happy Patients</h2>
+              <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ fontFamily: 'var(--font-display), Georgia, serif' }}>5000+ Happy Patients</h2>
               <p className="text-gray-400 max-w-xl mx-auto">Hear from women who experienced compassionate care and clinical excellence with Dr. Sanjana.</p>
             </div>
             
@@ -176,23 +187,23 @@ export default function LPLandingPage() {
           <div className="container-hn">
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
-                <h2 className="text-3xl font-bold mb-6" style={{ fontFamily: 'Playfair Display, serif' }}>Visit Our Clinics</h2>
+                <h2 className="text-3xl font-bold mb-6" style={{ fontFamily: 'var(--font-display), Georgia, serif' }}>Visit Our Clinics</h2>
                 <p className="text-gray-500 mb-8 max-w-md leading-relaxed">
                   Easily accessible for residents of HSR Layout, Attibele, Sarjapura, Electronic City, Chandapura, and surrounding South Bangalore neighborhoods.
                 </p>
                 <div className="space-y-6">
-                  <div className="flex gap-4 p-6 rounded-2xl bg-gray-50 border border-gray-100 hover:shadow-md transition-all">
-                    <MapPin className="text-[#8B5E83] flex-shrink-0" size={24} />
+                  <div className="flex gap-4 p-6 rounded-2xl bg-gray-50 border border-gray-100 hover:shadow-md transition-shadow">
+                    <MapPin className="text-[#8B5E83] flex-shrink-0" size={24} aria-hidden="true" />
                     <div>
-                      <h4 className="font-bold text-gray-800">Health Nest (HSR Layout)</h4>
-                      <p className="text-sm text-gray-500 mt-1 leading-relaxed">1162, 24th Main Rd, Sector 2, HSR Layout, Bangalore</p>
+                      <h3 className="font-bold text-gray-800 text-base">Health Nest (HSR Layout)</h3>
+                      <p className="text-sm text-gray-600 mt-1 leading-relaxed">1162, 24th Main Rd, Sector 2, HSR Layout, Bangalore</p>
                     </div>
                   </div>
-                  <div className="flex gap-4 p-6 rounded-2xl bg-gray-50 border border-gray-100 hover:shadow-md transition-all">
-                    <MapPin className="text-[#8B5E83] flex-shrink-0" size={24} />
+                  <div className="flex gap-4 p-6 rounded-2xl bg-gray-50 border border-gray-100 hover:shadow-md transition-shadow">
+                    <MapPin className="text-[#8B5E83] flex-shrink-0" size={24} aria-hidden="true" />
                     <div>
-                      <h4 className="font-bold text-gray-800">Raghava Multispeciality (Attibele)</h4>
-                      <p className="text-sm text-gray-500 mt-1 leading-relaxed">39, Sarjapura - Attibele Rd, Attibele, Bangalore</p>
+                      <h3 className="font-bold text-gray-800 text-base">Raghava Multispeciality (Attibele)</h3>
+                      <p className="text-sm text-gray-600 mt-1 leading-relaxed">39, Sarjapura - Attibele Rd, Attibele, Bangalore</p>
                     </div>
                   </div>
                 </div>
@@ -212,12 +223,14 @@ export default function LPLandingPage() {
                   src="/dr-sanjana-hero.png"
                   alt="Dr. Sanjana L — Gynaecologist at Health Nest HSR Layout & Raghava Multispeciality Attibele"
                   fill
+                  quality={70}
+                  loading="lazy"
                   className="object-cover object-top"
-                  sizes="(max-width: 768px) 100vw, 50vw"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 600px"
                 />
                 <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/40 to-transparent h-1/3" />
                 <div className="absolute bottom-6 left-6 text-white">
-                  <p className="font-bold text-lg" style={{ fontFamily: 'Playfair Display, serif' }}>Dr. Sanjana L</p>
+                  <p className="font-bold text-lg" style={{ fontFamily: 'var(--font-display), Georgia, serif' }}>Dr. Sanjana L</p>
                   <p className="text-sm text-white/80">MS (OBG) · Gold Medalist · FMAS</p>
                 </div>
               </div>
@@ -229,11 +242,11 @@ export default function LPLandingPage() {
         {/* FINAL CONVERSION STRIP */}
         <section className="py-20 bg-gradient-to-r from-[#8B5E83] to-[#6B4563]">
           <div className="container-hn text-center">
-            <h2 className="text-3xl md:text-4xl font-bold text-white mb-10" style={{ fontFamily: 'Playfair Display, serif' }}>Ready to Start Your Health Journey?</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-10" style={{ fontFamily: 'var(--font-display), Georgia, serif' }}>Ready to Start Your Health Journey?</h2>
             <div className="flex flex-wrap justify-center gap-5">
-               <a href="#callback-form" className="px-10 py-4 bg-white text-[#8B5E83] rounded-full font-bold text-lg shadow-xl hover:scale-105 transition-transform">Request a Callback</a>
-               <a href="tel:+919449031003" className="px-10 py-4 bg-transparent border-2 border-white text-white rounded-full font-bold text-lg hover:bg-white/10 transition-colors flex items-center gap-2">
-                 <Phone size={20} /> Call Now: +91-9449031003
+               <a href="#callback-form" data-analytics="footer_strip_callback" className="px-10 py-4 bg-white text-[#8B5E83] rounded-full font-bold text-lg shadow-xl hover:scale-105 transition-transform">Request a Callback</a>
+               <a href="tel:+919449031003" data-analytics="footer_strip_call" className="px-10 py-4 bg-transparent border-2 border-white text-white rounded-full font-bold text-lg hover:bg-white/10 transition-colors flex items-center gap-2">
+                 <Phone size={20} aria-hidden="true" /> Call Now: +91-9449031003
                </a>
             </div>
           </div>
@@ -243,20 +256,34 @@ export default function LPLandingPage() {
       {/* MEDICAL DISCLAIMER - Required by Google Healthcare Ad Policy */}
       <div className="bg-gray-50 border-t border-gray-100 py-6">
         <div className="container-hn">
-          <p className="text-center text-xs text-gray-400 leading-relaxed max-w-2xl mx-auto">
-            <strong className="text-gray-500">Medical Disclaimer:</strong> The information on this page is for educational purposes only and does not constitute medical advice. Please consult a qualified doctor before making any health decisions.
+          <p className="text-center text-xs text-gray-600 leading-relaxed max-w-2xl mx-auto">
+            <strong className="text-gray-700">Medical Disclaimer:</strong> The information on this page is for educational purposes only and does not constitute medical advice. Please consult a qualified doctor before making any health decisions.
           </p>
         </div>
       </div>
 
       <Footer />
-      
+
+      {/* WHATSAPP FLOATING BUTTON - bottom right corner */}
+      <a
+        href={WHATSAPP_CHAT_URL}
+        target="_blank"
+        rel="noopener noreferrer"
+        data-analytics="whatsapp_float"
+        aria-label="Chat with us on WhatsApp at +91 94490 31003"
+        className="fixed z-[60] flex items-center justify-center rounded-full shadow-lg transition-transform hover:scale-110 bottom-24 right-4 w-14 h-14 md:bottom-6 md:right-6 md:w-16 md:h-16"
+        style={{ background: '#25D366', boxShadow: '0 6px 24px rgba(37,211,102,0.45)' }}
+      >
+        <MessageCircle size={28} color="white" fill="white" aria-hidden="true" />
+        <span className="sr-only">WhatsApp +91-9449031003</span>
+      </a>
+
       {/* STICKY MOBILE CTA - Crucial for Google Ads LP */}
       <div className="md:hidden fixed bottom-0 left-0 right-0 z-50 p-4 bg-white/95 backdrop-blur-sm border-t flex gap-3 shadow-[0_-10px_30px_rgba(0,0,0,0.1)]">
-         <a href="tel:+919449031003" className="flex-1 flex items-center justify-center gap-2 bg-white border-2 border-[#8B5E83] text-[#8B5E83] py-4 rounded-xl font-bold text-sm">
-            <Phone size={18} /> Call
+         <a href="tel:+919449031003" data-analytics="mobile_sticky_call" className="flex-1 flex items-center justify-center gap-2 bg-white border-2 border-[#8B5E83] text-[#8B5E83] py-4 rounded-xl font-bold text-sm">
+            <Phone size={18} aria-hidden="true" /> Call
          </a>
-         <a href="#callback-form" className="flex-[2] flex items-center justify-center gap-2 bg-[#8B5E83] text-white py-4 rounded-xl font-bold shadow-lg text-sm">
+         <a href="#callback-form" data-analytics="mobile_sticky_callback" className="flex-[2] flex items-center justify-center gap-2 bg-[#8B5E83] text-white py-4 rounded-xl font-bold shadow-lg text-sm">
             Request Callback
          </a>
       </div>

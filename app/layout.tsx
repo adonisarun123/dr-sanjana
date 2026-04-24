@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
-import Script from "next/script";
+import { Playfair_Display, DM_Sans } from "next/font/google";
+import Analytics from "@/components/Analytics";
 import "./globals.css";
 import {
   SITE_URL,
@@ -10,6 +11,28 @@ import {
   PHYSICIAN_SAME_AS,
   PRIMARY_PRACTICE_ADDRESS,
 } from "@/lib/site";
+
+// Self-hosted Google Fonts via next/font — eliminates the render-blocking
+// stylesheet round-trip and serves the woff2 files from the same origin.
+// Italic faces are intentionally NOT loaded: every `italic` Tailwind class in
+// the app is applied to elements that use the browser default serif stack or
+// gradient text, so dropping italic faces halves the woff2 payload with no
+// visual regression.
+const playfair = Playfair_Display({
+  subsets: ["latin"],
+  weight: ["400", "600", "700"],
+  variable: "--font-display",
+  display: "swap",
+  preload: true,
+});
+
+const dmSans = DM_Sans({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-body",
+  display: "swap",
+  preload: true,
+});
 
 const ogImagePath = DEFAULT_OG_IMAGE_PATH;
 
@@ -247,23 +270,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${playfair.variable} ${dmSans.variable}`}>
       <head>
-        <Script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=AW-18058250699"
-          strategy="afterInteractive"
-        />
-        <Script id="google-tag" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'AW-18058250699');
-          `}
-        </Script>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(rootStructuredData) }}
@@ -274,6 +282,7 @@ export default function RootLayout({
           Skip to main content
         </a>
         {children}
+        <Analytics />
       </body>
     </html>
   );

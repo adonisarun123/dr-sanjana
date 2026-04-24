@@ -76,11 +76,11 @@ export default function ServicesPage() {
         <section className="bg-gradient-hero" style={{ paddingTop: '100px', paddingBottom: '40px' }}>
           <div className="container-hn">
             <BreadcrumbNav crumbs={[{ label: 'Home', href: '/' }, { label: 'Services' }]} />
-            <h1 className="text-4xl md:text-5xl font-bold mt-4 mb-3" style={{ fontFamily: 'Playfair Display, serif', color: '#2D2D2D' }}>
+            <h1 className="text-4xl md:text-5xl font-bold mt-4 mb-3" style={{ fontFamily: 'var(--font-display), Georgia, serif', color: '#2D2D2D' }}>
               Our Services
             </h1>
             <div className="accent-line" />
-            <p className="text-lg max-w-2xl" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}>
+            <p className="text-lg max-w-2xl" style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
               Comprehensive gynaecology and obstetrics care at Health Nest (HSR Layout) and Raghava Hospital (Attibele), Bangalore — delivered by Dr. Sanjana L with compassion, expertise, and clinical excellence.
             </p>
           </div>
@@ -91,7 +91,7 @@ export default function ServicesPage() {
             {categories.map((cat) => (
               <div key={cat} className="mb-16">
                 <div className="flex items-center gap-3 mb-6">
-                  <h2 className="text-2xl font-bold" style={{ fontFamily: 'Playfair Display, serif', color: '#2D2D2D' }}>{cat}</h2>
+                  <h2 className="text-2xl font-bold" style={{ fontFamily: 'var(--font-display), Georgia, serif', color: '#2D2D2D' }}>{cat}</h2>
                   <div className="flex-1 h-px" style={{ background: '#E8E0DB' }} />
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
@@ -100,7 +100,7 @@ export default function ServicesPage() {
                       <div className="service-icon" style={{ color: categoryColors[cat] }}>
                         <service.icon size={24} />
                       </div>
-                      <h3 className="text-base font-semibold mb-2 transition-colors group-hover:text-purple-700" style={{ fontFamily: 'DM Sans, sans-serif', color: '#2D2D2D' }}>
+                      <h3 className="text-base font-semibold mb-2 transition-colors group-hover:text-purple-700" style={{ fontFamily: 'var(--font-body), system-ui, sans-serif', color: '#2D2D2D' }}>
                         {service.title}
                       </h3>
                       <p className="text-sm leading-relaxed mb-3" style={{ color: '#6B6B6B' }}>{service.desc}</p>
@@ -115,10 +115,10 @@ export default function ServicesPage() {
 
         <section className="section-sm" style={{ background: 'linear-gradient(135deg, #8B5E83, #6B4563)' }}>
           <div className="container-hn text-center">
-            <h2 className="text-2xl font-bold text-white mb-3" style={{ fontFamily: 'Playfair Display, serif' }}>
+            <h2 className="text-2xl font-bold text-white mb-3" style={{ fontFamily: 'var(--font-display), Georgia, serif' }}>
               Not Sure Which Service You Need?
             </h2>
-            <p className="text-white/80 mb-5" style={{ fontFamily: 'DM Sans, sans-serif' }}>
+            <p className="text-white/80 mb-5" style={{ fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
               Book a general consultation and Dr. Sanjana will guide you to the right care.
             </p>
             <Link href="/book-appointment" className="btn-white">Book Consultation</Link>

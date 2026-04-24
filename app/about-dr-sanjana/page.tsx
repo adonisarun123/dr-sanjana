@@ -86,8 +86,8 @@ export default function AboutPage() {
                   />
                 </div>
                 <div className="text-white">
-                  <h1 className="text-3xl font-bold mb-1" style={{ fontFamily: 'Playfair Display, serif' }}>Dr. Sanjana L</h1>
-                  <p className="text-white/80 text-sm" style={{ fontFamily: 'DM Sans, sans-serif' }}>Qualification: MBBS MS ( OBG) Gold Medalist FRM ( RGUHS) FMAS</p>
+                  <h1 className="text-3xl font-bold mb-1" style={{ fontFamily: 'var(--font-display), Georgia, serif' }}>Dr. Sanjana L</h1>
+                  <p className="text-white/80 text-sm" style={{ fontFamily: 'var(--font-body), system-ui, sans-serif' }}>Qualification: MBBS MS ( OBG) Gold Medalist FRM ( RGUHS) FMAS</p>
                   <p className="text-white/60 text-xs mt-1">Reg. No: 124759</p>
                 </div>
                 <div className="grid grid-cols-2 gap-3 w-full">
@@ -108,17 +108,17 @@ export default function AboutPage() {
               {/* Bio */}
               <div>
                 <p className="section-label mb-2">About the Doctor</p>
-                <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ fontFamily: 'Playfair Display, serif', color: '#2D2D2D' }}>
+                <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ fontFamily: 'var(--font-display), Georgia, serif', color: '#2D2D2D' }}>
                   A Trusted Name in Women&apos;s Healthcare
                 </h2>
                 <div className="accent-line" />
-                <p className="mb-4" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif', lineHeight: 1.8 }}>
+                <p className="mb-4" style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif', lineHeight: 1.8 }}>
                   Dr. Sanjana L is a highly experienced Obstetrician and Gynaecologist based at Health Nest & Raghava Multispeciality Hospital. With over 10 plus years of dedicated practice and more than 5,000 patients cared for, she has established herself as one of the most trusted gynaecologists in South Bangalore.
                 </p>
-                <p className="mb-4" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif', lineHeight: 1.8 }}>
+                <p className="mb-4" style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif', lineHeight: 1.8 }}>
                   Holding an MBBS and a postgraduate MS in Obstetrics & Gynaecology, Dr. Sanjana combines deep clinical expertise with genuine warmth and empathy. She is known for her calm, patient-first approach — taking the time to truly listen, explain, and support each woman on her unique health journey.
                 </p>
-                <p className="mb-6" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif', lineHeight: 1.8 }}>
+                <p className="mb-6" style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif', lineHeight: 1.8 }}>
                   Whether you are navigating your first pregnancy, managing a hormonal condition, seeking fertility guidance, or simply overdue for a routine check-up, Dr. Sanjana&apos;s door at Health Nest is always open. She consults in English, Hindi, Kannada, and Telugu, ensuring every patient feels understood.
                 </p>
                 <Link href="/book-appointment" className="btn-primary">
@@ -134,11 +134,11 @@ export default function AboutPage() {
           <div className="container-hn">
             <div className="max-w-3xl mx-auto text-center">
               <p className="section-label mb-2">Philosophy of Care</p>
-              <h2 className="text-3xl font-bold mb-4" style={{ fontFamily: 'Playfair Display, serif', color: '#2D2D2D' }}>
+              <h2 className="text-3xl font-bold mb-4" style={{ fontFamily: 'var(--font-display), Georgia, serif', color: '#2D2D2D' }}>
                 &ldquo;Every woman deserves care delivered with dignity, warmth, and clinical excellence.&rdquo;
               </h2>
               <div className="accent-line-center" />
-              <p style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif', lineHeight: 1.8 }}>
+              <p style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif', lineHeight: 1.8 }}>
                 Dr. Sanjana L believes that gynaecological care goes beyond treating conditions — it is about empowering women to understand their bodies, make informed choices, and live healthier, more confident lives. She fosters an environment where no question is too small and no concern is dismissed. At Health Nest, you are always the priority.
               </p>
             </div>
@@ -150,7 +150,7 @@ export default function AboutPage() {
           <div className="container-hn">
             <div className="text-center mb-12">
               <p className="section-label mb-2">Education & Experience</p>
-              <h2 className="text-3xl font-bold" style={{ fontFamily: 'Playfair Display, serif', color: '#2D2D2D' }}>
+              <h2 className="text-3xl font-bold" style={{ fontFamily: 'var(--font-display), Georgia, serif', color: '#2D2D2D' }}>
                 Qualifications & Journey
               </h2>
               <div className="accent-line-center" />
@@ -170,8 +170,8 @@ export default function AboutPage() {
                     )}
                   </div>
                   <div className="pb-6">
-                    <p className="text-xs font-semibold mb-1" style={{ color: '#8B5E83', fontFamily: 'DM Sans, sans-serif' }}>{q.year}</p>
-                    <h3 className="text-lg font-semibold mb-1" style={{ fontFamily: 'DM Sans, sans-serif', color: '#2D2D2D' }}>{q.title}</h3>
+                    <p className="text-xs font-semibold mb-1" style={{ color: '#8B5E83', fontFamily: 'var(--font-body), system-ui, sans-serif' }}>{q.year}</p>
+                    <h3 className="text-lg font-semibold mb-1" style={{ fontFamily: 'var(--font-body), system-ui, sans-serif', color: '#2D2D2D' }}>{q.title}</h3>
                     <p className="text-sm font-medium mb-1" style={{ color: '#6B6B6B' }}>{q.institution}</p>
                     <p className="text-sm" style={{ color: '#9B9B9B' }}>{q.desc}</p>
                   </div>
@@ -186,7 +186,7 @@ export default function AboutPage() {
           <div className="container-hn">
             <div className="text-center mb-10">
               <p className="section-label mb-2">Areas of Expertise</p>
-              <h2 className="text-3xl font-bold" style={{ fontFamily: 'Playfair Display, serif', color: '#2D2D2D' }}>
+              <h2 className="text-3xl font-bold" style={{ fontFamily: 'var(--font-display), Georgia, serif', color: '#2D2D2D' }}>
                 Specialisations
               </h2>
               <div className="accent-line-center" />
@@ -196,7 +196,7 @@ export default function AboutPage() {
                 <span
                   key={s}
                   className="px-4 py-2 rounded-full text-sm font-medium border"
-                  style={{ borderColor: '#C9A7C7', color: '#8B5E83', background: 'rgba(139,94,131,0.06)', fontFamily: 'DM Sans, sans-serif' }}
+                  style={{ borderColor: '#C9A7C7', color: '#8B5E83', background: 'rgba(139,94,131,0.06)', fontFamily: 'var(--font-body), system-ui, sans-serif' }}
                 >
                   <CheckCircle2 size={13} className="inline mr-1.5" style={{ color: '#2A6B5A' }} />
                   {s}
@@ -210,7 +210,7 @@ export default function AboutPage() {
         <section className="section bg-gradient-hero">
           <div className="container-hn max-w-2xl mx-auto">
             <div className="text-center mb-10">
-              <h2 className="text-3xl font-bold" style={{ fontFamily: 'Playfair Display, serif', color: '#2D2D2D' }}>
+              <h2 className="text-3xl font-bold" style={{ fontFamily: 'var(--font-display), Georgia, serif', color: '#2D2D2D' }}>
                 Questions About Dr. Sanjana?
               </h2>
               <div className="accent-line-center" />
@@ -222,10 +222,10 @@ export default function AboutPage() {
         {/* CTA */}
         <section className="section-sm" style={{ background: 'linear-gradient(135deg, #8B5E83, #6B4563)' }}>
           <div className="container-hn text-center">
-            <h2 className="text-2xl md:text-3xl font-bold text-white mb-3" style={{ fontFamily: 'Playfair Display, serif' }}>
+            <h2 className="text-2xl md:text-3xl font-bold text-white mb-3" style={{ fontFamily: 'var(--font-display), Georgia, serif' }}>
               Ready to Meet Dr. Sanjana?
             </h2>
-            <p className="text-white/80 mb-6" style={{ fontFamily: 'DM Sans, sans-serif' }}>
+            <p className="text-white/80 mb-6" style={{ fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
               Book your appointment at Health Nest (HSR Layout) or Raghava Hospital (Attibele) today.
             </p>
             <div className="flex flex-wrap gap-3 justify-center">

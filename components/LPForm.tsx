@@ -1,11 +1,12 @@
 'use client';
-import { useState, useEffect, Suspense } from 'react';
+import { useState, useEffect, useRef, Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
 import { useRouter } from 'next/navigation';
 import { Phone, User, MessageSquare, Send, MapPin } from 'lucide-react';
+import { track, trackLeadConversion } from '@/lib/analytics';
 
 const schema = z.object({
   fullName: z.string().min(2, 'Please enter your full name'),
@@ -28,6 +29,9 @@ function FormFields() {
   const searchParams = useSearchParams();
   const router = useRouter();
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const hasTrackedFocus = useRef(false);
+  const hasTrackedView = useRef(false);
+  const formRef = useRef<HTMLFormElement | null>(null);
 
   const {
     register,
@@ -37,11 +41,10 @@ function FormFields() {
   } = useForm<FormData>({ resolver: zodResolver(schema) });
 
   useEffect(() => {
-    // Capture URL and Trackers
     if (typeof window !== 'undefined') {
       setValue('sourceUrl', window.location.href);
     }
-    
+
     if (searchParams) {
       setValue('utm_source', searchParams.get('utm_source') || '');
       setValue('utm_medium', searchParams.get('utm_medium') || '');
@@ -52,8 +55,44 @@ function FormFields() {
     }
   }, [searchParams, setValue]);
 
+  // Fire `lead_form_view` once when the form first scrolls into view.
+  useEffect(() => {
+    const node = formRef.current;
+    if (!node || hasTrackedView.current) return;
+    const observer = new IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) {
+          if (entry.isIntersecting && !hasTrackedView.current) {
+            hasTrackedView.current = true;
+            track('lead_form_view', { form_id: 'lp_callback' });
+            observer.disconnect();
+          }
+        }
+      },
+      { threshold: 0.5 },
+    );
+    observer.observe(node);
+    return () => observer.disconnect();
+  }, []);
+
+  // Engagement signal: first time any field receives focus.
+  const handleFirstFocus = (fieldName: string) => {
+    if (hasTrackedFocus.current) return;
+    hasTrackedFocus.current = true;
+    track('lead_form_field_focus', {
+      form_id: 'lp_callback',
+      field: fieldName,
+    });
+  };
+
   const onSubmit = async (data: FormData) => {
     setIsSubmitting(true);
+    track('lead_form_submit_attempt', {
+      form_id: 'lp_callback',
+      service: data.concern,
+      center: data.center,
+    });
+
     try {
       const response = await fetch('/api/leads', {
         method: 'POST',
@@ -62,20 +101,60 @@ function FormFields() {
       });
 
       if (!response.ok) throw new Error('Submission failed');
-      
+
+      const json = (await response.json().catch(() => ({}))) as {
+        success?: boolean;
+        id?: string | number;
+      };
+
+      const leadId = json.id ? String(json.id) : '';
+      try {
+        sessionStorage.setItem('lastLeadId', leadId);
+      } catch {
+        /* private mode etc. — ignore */
+      }
+
+      track('lead_form_submit_success', {
+        form_id: 'lp_callback',
+        service: data.concern,
+        center: data.center,
+        lead_id: leadId,
+      });
+      trackLeadConversion({
+        transaction_id: leadId,
+        service: data.concern,
+        center: data.center,
+      });
+
       router.push('/thank-you');
     } catch (error) {
       console.error('Error:', error);
+      track('lead_form_submit_error', {
+        form_id: 'lp_callback',
+        message: error instanceof Error ? error.message : 'unknown',
+      });
       alert('Something went wrong. Please try again or call us directly.');
     } finally {
       setIsSubmitting(false);
     }
   };
 
+  // Wrap each registered field so we can intercept first focus without losing
+  // react-hook-form's onChange / onBlur handlers.
+  const fieldName = (name: keyof FormData) => {
+    const props = register(name);
+    return {
+      ...props,
+      onFocus: () => handleFirstFocus(name),
+    };
+  };
+
   return (
-    <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
-      {/* Honeypot to prevent bot spam */}
-      <input type="text" {...register('honeypot')} className="hidden" tabIndex={-1} aria-hidden="true" />
+    <form ref={formRef} onSubmit={handleSubmit(onSubmit)} className="space-y-4">
+      {/* Honeypot to prevent bot spam — display:none already removes it from the
+          accessibility tree, so aria-hidden on a focusable element is unnecessary
+          (and triggers a Lighthouse a11y warning). */}
+      <input type="text" {...register('honeypot')} className="hidden" tabIndex={-1} autoComplete="off" />
       
       {/* Hidden trackers */}
       <input type="hidden" {...register('utm_source')} />
@@ -87,39 +166,51 @@ function FormFields() {
       <input type="hidden" {...register('sourceUrl')} />
 
       <div>
-        <label className="block text-sm font-semibold mb-1 text-gray-700">Full Name*</label>
+        <label htmlFor="lp-fullName" className="block text-sm font-semibold mb-1 text-gray-700">Full Name*</label>
         <div className="relative">
-          <User className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400" size={18} />
+          <User className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-500" size={18} aria-hidden="true" />
           <input
-            {...register('fullName')}
-            className={`w-full pl-10 pr-4 py-3 rounded-xl border ${errors.fullName ? 'border-red-500' : 'border-gray-200'} focus:ring-2 focus:ring-purple-100 outline-none transition-all`}
+            id="lp-fullName"
+            {...fieldName('fullName')}
+            aria-invalid={errors.fullName ? 'true' : 'false'}
+            aria-describedby={errors.fullName ? 'lp-fullName-err' : undefined}
+            autoComplete="name"
+            className={`w-full pl-10 pr-4 py-3 rounded-xl border ${errors.fullName ? 'border-red-500' : 'border-gray-200'} focus:ring-2 focus:ring-purple-100 outline-none transition-colors`}
             placeholder="Your name"
           />
         </div>
-        {errors.fullName && <p className="text-xs text-red-500 mt-1">{errors.fullName.message}</p>}
+        {errors.fullName && <p id="lp-fullName-err" className="text-xs text-red-600 mt-1">{errors.fullName.message}</p>}
       </div>
 
       <div>
-        <label className="block text-sm font-semibold mb-1 text-gray-700">Phone Number*</label>
+        <label htmlFor="lp-phone" className="block text-sm font-semibold mb-1 text-gray-700">Phone Number*</label>
         <div className="relative">
-          <Phone className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400" size={18} />
+          <Phone className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-500" size={18} aria-hidden="true" />
           <input
-            {...register('phone')}
+            id="lp-phone"
+            {...fieldName('phone')}
             type="tel"
-            className={`w-full pl-10 pr-4 py-3 rounded-xl border ${errors.phone ? 'border-red-500' : 'border-gray-200'} focus:ring-2 focus:ring-purple-100 outline-none transition-all`}
+            inputMode="numeric"
+            autoComplete="tel"
+            aria-invalid={errors.phone ? 'true' : 'false'}
+            aria-describedby={errors.phone ? 'lp-phone-err' : undefined}
+            className={`w-full pl-10 pr-4 py-3 rounded-xl border ${errors.phone ? 'border-red-500' : 'border-gray-200'} focus:ring-2 focus:ring-purple-100 outline-none transition-colors`}
             placeholder="10-digit mobile number"
           />
         </div>
-        {errors.phone && <p className="text-xs text-red-500 mt-1">{errors.phone.message}</p>}
+        {errors.phone && <p id="lp-phone-err" className="text-xs text-red-600 mt-1">{errors.phone.message}</p>}
       </div>
 
       <div>
-        <label className="block text-sm font-semibold mb-1 text-gray-700">Select Clinic Center*</label>
+        <label htmlFor="lp-center" className="block text-sm font-semibold mb-1 text-gray-700">Select Clinic Center*</label>
         <div className="relative">
-          <MapPin className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400" size={18} />
+          <MapPin className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-500" size={18} aria-hidden="true" />
           <select
-            {...register('center')}
-            className={`w-full pl-10 pr-4 py-3 rounded-xl border-2 border-[#8B5E83] bg-white focus:ring-2 focus:ring-purple-100 outline-none appearance-none transition-all`}
+            id="lp-center"
+            {...fieldName('center')}
+            aria-invalid={errors.center ? 'true' : 'false'}
+            aria-describedby={errors.center ? 'lp-center-err' : undefined}
+            className={`w-full pl-10 pr-4 py-3 rounded-xl border-2 border-[#8B5E83] bg-white focus:ring-2 focus:ring-purple-100 outline-none appearance-none transition-colors`}
             style={{ fontWeight: '500' }}
           >
             <option value="">-- Choose between HSR Layout & Attibele --</option>
@@ -127,16 +218,19 @@ function FormFields() {
             <option value="Attibele">Raghava Hospital (Attibele)</option>
           </select>
         </div>
-        {errors.center && <p className="text-xs text-red-500 mt-1">{errors.center.message}</p>}
+        {errors.center && <p id="lp-center-err" className="text-xs text-red-600 mt-1">{errors.center.message}</p>}
       </div>
 
       <div>
-        <label className="block text-sm font-semibold mb-1 text-gray-700">Service Required*</label>
+        <label htmlFor="lp-concern" className="block text-sm font-semibold mb-1 text-gray-700">Service Required*</label>
         <div className="relative">
-          <MessageSquare className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400" size={18} />
+          <MessageSquare className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-500" size={18} aria-hidden="true" />
           <select
-            {...register('concern')}
-            className={`w-full pl-10 pr-4 py-3 rounded-xl border ${errors.concern ? 'border-red-500' : 'border-gray-200'} focus:ring-2 focus:ring-purple-100 outline-none appearance-none transition-all`}
+            id="lp-concern"
+            {...fieldName('concern')}
+            aria-invalid={errors.concern ? 'true' : 'false'}
+            aria-describedby={errors.concern ? 'lp-concern-err' : undefined}
+            className={`w-full pl-10 pr-4 py-3 rounded-xl border ${errors.concern ? 'border-red-500' : 'border-gray-200'} focus:ring-2 focus:ring-purple-100 outline-none appearance-none transition-colors`}
           >
             <option value="">Select a service</option>
             <option value="Pregnancy Care">Pregnancy Care</option>
@@ -146,7 +240,7 @@ function FormFields() {
             <option value="Other">General Consultation</option>
           </select>
         </div>
-        {errors.concern && <p className="text-xs text-red-500 mt-1">{errors.concern.message}</p>}
+        {errors.concern && <p id="lp-concern-err" className="text-xs text-red-600 mt-1">{errors.concern.message}</p>}
       </div>
 
       <button
@@ -166,7 +260,7 @@ function FormFields() {
           </>
         )}
       </button>
-      <p className="text-[10px] text-center text-gray-500 mt-4 leading-relaxed">
+      <p className="text-[11px] text-center text-gray-600 mt-4 leading-relaxed">
         By submitting this form, you agree to receive a callback for medical consultation. Your data remains strictly confidential.
       </p>
     </form>

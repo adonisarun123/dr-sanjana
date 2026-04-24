@@ -265,7 +265,7 @@ export default function ElectronicCitySarjapuraGynaecologistPage() {
                   style={{
                     background: 'rgba(42,107,90,0.12)',
                     color: '#2A6B5A',
-                    fontFamily: 'DM Sans, sans-serif',
+                    fontFamily: 'var(--font-body), system-ui, sans-serif',
                   }}
                 >
                   Electronic City &middot; Sarjapura &middot; Dommasandra &middot; Kudlu Gate
@@ -273,7 +273,7 @@ export default function ElectronicCitySarjapuraGynaecologistPage() {
 
                 <h1
                   className="text-3xl md:text-4xl lg:text-5xl font-bold mb-5 leading-tight"
-                  style={{ fontFamily: 'Playfair Display, serif', color: '#2D2D2D' }}
+                  style={{ fontFamily: 'var(--font-display), Georgia, serif', color: '#2D2D2D' }}
                 >
                   Best Gynaecologist near Electronic City &amp; Sarjapura —{' '}
                   <span style={{ color: '#8B5E83' }}>Dr. Sanjana L</span>
@@ -283,7 +283,7 @@ export default function ElectronicCitySarjapuraGynaecologistPage() {
 
                 <p
                   className="text-base md:text-lg mb-4 leading-relaxed max-w-[68ch]"
-                  style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}
+                  style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}
                 >
                   Women in <strong>Electronic City, Sarjapura Road, and Dommasandra</strong> can reach
                   Dr. Sanjana L within a short drive. She is a senior{' '}
@@ -293,7 +293,7 @@ export default function ElectronicCitySarjapuraGynaecologistPage() {
                 </p>
                 <p
                   className="text-base mb-6 leading-relaxed max-w-[68ch]"
-                  style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}
+                  style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}
                 >
                   She sees patients at <strong>Health Nest, HSR Layout</strong> (often about 15–20
                   minutes from Electronic City Phase 1 and 2) and at{' '}
@@ -315,7 +315,7 @@ export default function ElectronicCitySarjapuraGynaecologistPage() {
                       style={{
                         background: '#FFFFFF',
                         borderColor: '#E8E0DB',
-                        fontFamily: 'DM Sans, sans-serif',
+                        fontFamily: 'var(--font-body), system-ui, sans-serif',
                       }}
                     >
                       <badge.icon size={16} style={{ color: '#E8A87C' }} />
@@ -357,7 +357,7 @@ export default function ElectronicCitySarjapuraGynaecologistPage() {
                   </div>
                   <h2
                     className="text-lg font-bold mb-3"
-                    style={{ fontFamily: 'Playfair Display, serif', color: '#2D2D2D' }}
+                    style={{ fontFamily: 'var(--font-display), Georgia, serif', color: '#2D2D2D' }}
                   >
                     Health Nest — HSR Layout
                   </h2>
@@ -365,7 +365,7 @@ export default function ElectronicCitySarjapuraGynaecologistPage() {
                   <div className="space-y-3">
                     <div className="flex items-start gap-3">
                       <MapPin size={16} className="mt-0.5 flex-shrink-0" style={{ color: '#8B5E83' }} />
-                      <p className="text-sm" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}>
+                      <p className="text-sm" style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
                         1162, 24th Main Rd, Sector 2, HSR Layout, Bangalore 560102
                       </p>
                     </div>
@@ -374,14 +374,14 @@ export default function ElectronicCitySarjapuraGynaecologistPage() {
                       <a
                         href="tel:+919449031003"
                         className="text-sm font-semibold hover:underline"
-                        style={{ color: '#2A6B5A', fontFamily: 'DM Sans, sans-serif' }}
+                        style={{ color: '#2A6B5A', fontFamily: 'var(--font-body), system-ui, sans-serif' }}
                       >
                         +91-9449031003
                       </a>
                     </div>
                     <div className="flex items-start gap-3">
                       <Clock size={16} className="mt-0.5 flex-shrink-0" style={{ color: '#8B5E83' }} />
-                      <div className="text-sm" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}>
+                      <div className="text-sm" style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
                         <p className="font-semibold" style={{ color: '#2D2D2D' }}>
                           Mon – Sat: 8:00 AM – 9:00 PM
                         </p>
@@ -390,7 +390,7 @@ export default function ElectronicCitySarjapuraGynaecologistPage() {
                     </div>
                     <div className="flex items-center gap-3">
                       <Navigation size={16} className="flex-shrink-0" style={{ color: '#8B5E83' }} />
-                      <p className="text-sm" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}>
+                      <p className="text-sm" style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
                         ~15–20 min from Electronic City Phase 1 &amp; 2
                       </p>
                     </div>
@@ -402,7 +402,7 @@ export default function ElectronicCitySarjapuraGynaecologistPage() {
                       className="w-full flex items-center justify-center gap-2 py-3 rounded-xl text-white font-semibold text-sm"
                       style={{
                         background: 'linear-gradient(135deg, #8B5E83, #6B4563)',
-                        fontFamily: 'DM Sans, sans-serif',
+                        fontFamily: 'var(--font-body), system-ui, sans-serif',
                       }}
                     >
                       <Calendar size={16} /> Book Appointment
@@ -417,13 +417,13 @@ export default function ElectronicCitySarjapuraGynaecologistPage() {
                 >
                   <h3
                     className="text-base font-bold mb-2"
-                    style={{ fontFamily: 'DM Sans, sans-serif', color: '#2D2D2D' }}
+                    style={{ fontFamily: 'var(--font-body), system-ui, sans-serif', color: '#2D2D2D' }}
                   >
                     Also available at: Raghava Hospital, Attibele
                   </h3>
                   <div className="flex items-start gap-2">
                     <MapPin size={14} className="mt-0.5 flex-shrink-0" style={{ color: '#8B5E83' }} />
-                    <p className="text-xs" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}>
+                    <p className="text-xs" style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
                       39, Sarjapura – Attibele Rd, Attibele 562107 &middot;{' '}
                       <a href="tel:+919980031006" className="font-semibold hover:underline" style={{ color: '#2A6B5A' }}>
                         +91-9980031006
@@ -448,7 +448,7 @@ export default function ElectronicCitySarjapuraGynaecologistPage() {
           <div className="container-hn max-w-4xl">
             <h2
               className="text-2xl md:text-3xl font-bold mb-4"
-              style={{ fontFamily: 'Playfair Display, serif', color: '#2D2D2D' }}
+              style={{ fontFamily: 'var(--font-display), Georgia, serif', color: '#2D2D2D' }}
             >
               How to Reach Dr. Sanjana from Electronic City &amp; Sarjapura
             </h2>
@@ -456,7 +456,7 @@ export default function ElectronicCitySarjapuraGynaecologistPage() {
 
             <p
               className="text-base mb-8 leading-relaxed"
-              style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}
+              style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}
             >
               Health Nest in HSR Layout is the closest clinic for most residents of Electronic City
               and Sarjapura Road. For patients in South Electronic City or areas closer to Attibele,
@@ -464,7 +464,7 @@ export default function ElectronicCitySarjapuraGynaecologistPage() {
             </p>
 
             <div className="overflow-x-auto">
-              <table className="w-full text-sm" style={{ fontFamily: 'DM Sans, sans-serif' }}>
+              <table className="w-full text-sm" style={{ fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
                 <thead>
                   <tr style={{ background: '#FFF8F0' }}>
                     <th className="text-left p-3 font-semibold rounded-tl-xl" style={{ color: '#2D2D2D' }}>
@@ -518,7 +518,7 @@ export default function ElectronicCitySarjapuraGynaecologistPage() {
           <div className="container-hn max-w-4xl">
             <h2
               className="text-2xl md:text-3xl font-bold mb-4"
-              style={{ fontFamily: 'Playfair Display, serif', color: '#2D2D2D' }}
+              style={{ fontFamily: 'var(--font-display), Georgia, serif', color: '#2D2D2D' }}
             >
               Why Women from Electronic City &amp; Sarjapura Choose Dr. Sanjana L
             </h2>
@@ -526,7 +526,7 @@ export default function ElectronicCitySarjapuraGynaecologistPage() {
 
             <div
               className="space-y-4 max-w-[68ch]"
-              style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif', lineHeight: 1.8 }}
+              style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif', lineHeight: 1.8 }}
             >
               <p>
                 Electronic City and Sarjapura Road have many working women and young families. A
@@ -560,7 +560,7 @@ export default function ElectronicCitySarjapuraGynaecologistPage() {
                   style={{ background: '#FFFFFF', border: '1px solid #E8E0DB' }}
                 >
                   <CheckCircle2 size={16} className="mt-0.5 flex-shrink-0" style={{ color: '#8B5E83' }} />
-                  <p className="text-sm" style={{ color: '#2D2D2D', fontFamily: 'DM Sans, sans-serif' }}>
+                  <p className="text-sm" style={{ color: '#2D2D2D', fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
                     {item}
                   </p>
                 </div>
@@ -575,7 +575,7 @@ export default function ElectronicCitySarjapuraGynaecologistPage() {
             <div className="text-center mb-12">
               <h2
                 className="text-2xl md:text-3xl font-bold mb-3"
-                style={{ fontFamily: 'Playfair Display, serif', color: '#2D2D2D' }}
+                style={{ fontFamily: 'var(--font-display), Georgia, serif', color: '#2D2D2D' }}
               >
                 Gynaecology Services for Electronic City &amp; Sarjapura Residents
               </h2>
@@ -602,13 +602,13 @@ export default function ElectronicCitySarjapuraGynaecologistPage() {
                   </div>
                   <h3
                     className="text-lg font-bold mb-2"
-                    style={{ fontFamily: 'DM Sans, sans-serif', color: '#2D2D2D' }}
+                    style={{ fontFamily: 'var(--font-body), system-ui, sans-serif', color: '#2D2D2D' }}
                   >
                     {svc.title}
                   </h3>
                   <p
                     className="text-sm leading-relaxed mb-3"
-                    style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}
+                    style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}
                   >
                     {svc.desc}
                   </p>
@@ -626,7 +626,7 @@ export default function ElectronicCitySarjapuraGynaecologistPage() {
             <div className="mt-10 max-w-3xl mx-auto text-center">
               <p
                 className="text-sm leading-relaxed"
-                style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}
+                style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}
               >
                 <strong style={{ color: '#2D2D2D' }}>Also available:</strong>{' '}
                 <Link href="/services/cesarean-delivery" className="hover:underline" style={{ color: '#8B5E83' }}>
@@ -675,7 +675,7 @@ export default function ElectronicCitySarjapuraGynaecologistPage() {
           <div className="container-hn max-w-4xl">
             <h2
               className="text-2xl md:text-3xl font-bold mb-4"
-              style={{ fontFamily: 'Playfair Display, serif', color: '#2D2D2D' }}
+              style={{ fontFamily: 'var(--font-display), Georgia, serif', color: '#2D2D2D' }}
             >
               Serving Women across Electronic City, Sarjapura &amp; Nearby Areas
             </h2>
@@ -698,7 +698,7 @@ export default function ElectronicCitySarjapuraGynaecologistPage() {
                     background: '#FFFFFF',
                     border: '1px solid #E8E0DB',
                     color: '#2D2D2D',
-                    fontFamily: 'DM Sans, sans-serif',
+                    fontFamily: 'var(--font-body), system-ui, sans-serif',
                   }}
                 >
                   <MapPin size={14} style={{ color: '#8B5E83', flexShrink: 0 }} />
@@ -725,7 +725,7 @@ export default function ElectronicCitySarjapuraGynaecologistPage() {
           <div className="container-hn max-w-3xl">
             <h2
               className="text-2xl md:text-3xl font-bold mb-4"
-              style={{ fontFamily: 'Playfair Display, serif', color: '#2D2D2D' }}
+              style={{ fontFamily: 'var(--font-display), Georgia, serif', color: '#2D2D2D' }}
             >
               Frequently Asked Questions — Gynaecologist near Electronic City &amp; Sarjapura
             </h2>
@@ -742,7 +742,7 @@ export default function ElectronicCitySarjapuraGynaecologistPage() {
           <div className="container-hn text-center">
             <h2
               className="text-2xl md:text-3xl font-bold text-white mb-3"
-              style={{ fontFamily: 'Playfair Display, serif' }}
+              style={{ fontFamily: 'var(--font-display), Georgia, serif' }}
             >
               Expert Gynaecology Care — Just Minutes from Electronic City
             </h2>
@@ -754,14 +754,14 @@ export default function ElectronicCitySarjapuraGynaecologistPage() {
               <Link
                 href="/book-appointment"
                 className="px-8 py-3.5 bg-white rounded-xl font-semibold text-sm shadow-lg hover:scale-105 transition-transform"
-                style={{ color: '#8B5E83', fontFamily: 'DM Sans, sans-serif' }}
+                style={{ color: '#8B5E83', fontFamily: 'var(--font-body), system-ui, sans-serif' }}
               >
                 Book Appointment Online
               </Link>
               <a
                 href="tel:+919449031003"
                 className="px-8 py-3.5 border-2 border-white rounded-xl text-white font-semibold text-sm hover:bg-white/10 transition-colors flex items-center gap-2"
-                style={{ fontFamily: 'DM Sans, sans-serif' }}
+                style={{ fontFamily: 'var(--font-body), system-ui, sans-serif' }}
               >
                 <Phone size={16} /> Call +91-9449031003
               </a>

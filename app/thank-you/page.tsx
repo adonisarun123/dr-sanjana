@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { CheckCircle2, Phone, ArrowLeft, Calendar } from 'lucide-react';
+import ThankYouConversion from './ThankYouConversion';
 
 export const metadata: Metadata = {
   title: 'Thank You - Health Nest',
@@ -10,12 +11,13 @@ export const metadata: Metadata = {
 export default function ThankYouPage() {
   return (
     <div className="min-h-screen bg-[#FFF8F0] flex items-center justify-center p-4">
+      <ThankYouConversion />
       <div className="max-w-xl w-full bg-white rounded-[2.5rem] p-8 md:p-12 shadow-2xl border border-gray-50 text-center">
         <div className="inline-flex items-center justify-center w-20 h-20 bg-green-50 rounded-full mb-8">
           <CheckCircle2 className="text-green-500" size={40} />
         </div>
         
-        <h1 className="text-3xl md:text-4xl font-bold mb-4" style={{ fontFamily: 'Playfair Display, serif' }}>
+        <h1 className="text-3xl md:text-4xl font-bold mb-4" style={{ fontFamily: 'var(--font-display), Georgia, serif' }}>
           Thank You!
         </h1>
         

@@ -17,7 +17,7 @@ export default function PrivacyPolicyPage() {
       <main id="main-content">
         <section className="bg-gradient-hero" style={{ paddingTop: '100px', paddingBottom: '40px' }}>
           <div className="container-hn">
-            <h1 className="text-4xl font-bold mt-4 mb-3" style={{ fontFamily: 'Playfair Display, serif', color: '#2D2D2D' }}>
+            <h1 className="text-4xl font-bold mt-4 mb-3" style={{ fontFamily: 'var(--font-display), Georgia, serif', color: '#2D2D2D' }}>
               Privacy Policy
             </h1>
             <div className="accent-line" />
@@ -26,7 +26,7 @@ export default function PrivacyPolicyPage() {
         </section>
         <section className="section" style={{ background: '#FFFFFF' }}>
           <div className="container-hn max-w-3xl">
-            <div className="prose-hn space-y-6" style={{ fontFamily: 'DM Sans, sans-serif' }}>
+            <div className="prose-hn space-y-6" style={{ fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
               <h2>About This Policy</h2>
               <p>Health Nest (&ldquo;we&rdquo;, &ldquo;us&rdquo;, &ldquo;our&rdquo;) is the practice of Dr. Sanjana L, located in HSR Layout, Bangalore, Karnataka, India. This Privacy Policy explains how we collect, use, and protect your information when you use our website at https://www.drsanjanal.in or contact us.</p>
 

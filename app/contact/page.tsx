@@ -85,11 +85,11 @@ export default function ContactPage() {
         <section className="bg-gradient-hero" style={{ paddingTop: '100px', paddingBottom: '40px' }}>
           <div className="container-hn">
             <BreadcrumbNav crumbs={[{ label: 'Home', href: '/' }, { label: 'Contact' }]} />
-            <h1 className="text-4xl md:text-5xl font-bold mt-4 mb-3" style={{ fontFamily: 'Playfair Display, serif', color: '#2D2D2D' }}>
+            <h1 className="text-4xl md:text-5xl font-bold mt-4 mb-3" style={{ fontFamily: 'var(--font-display), Georgia, serif', color: '#2D2D2D' }}>
               Find Us
             </h1>
             <div className="accent-line" />
-            <p style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}>
+            <p style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
               HSR Layout & Attibele · Serving Sarjapura, Electronic City & South Bangalore
             </p>
           </div>
@@ -104,10 +104,10 @@ export default function ContactPage() {
 
             {/* MIDDLE: Locations & Maps */}
             <div className="mb-10 text-center">
-              <h2 className="text-3xl font-bold mb-3" style={{ fontFamily: 'Playfair Display, serif', color: '#2D2D2D' }}>
+              <h2 className="text-3xl font-bold mb-3" style={{ fontFamily: 'var(--font-display), Georgia, serif', color: '#2D2D2D' }}>
                 Our Clinic Locations
               </h2>
-              <p style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}>
+              <p style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
                 Visit us at any of our specialized branches across Bangalore.
               </p>
             </div>
@@ -128,7 +128,7 @@ export default function ContactPage() {
                   />
                 </div>
                 <div className="p-6 rounded-2xl" style={{ background: '#FFF8F0', border: '1px solid #E8E0DB' }}>
-                  <h3 className="font-bold text-lg mb-4 flex items-center gap-2" style={{ color: '#8B5E83', fontFamily: 'DM Sans, sans-serif' }}>
+                  <h3 className="font-bold text-lg mb-4 flex items-center gap-2" style={{ color: '#8B5E83', fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
                     <MapPin size={20} /> Health Nest Hospital (HSR Layout)
                   </h3>
                   <div className="space-y-4">
@@ -162,7 +162,7 @@ export default function ContactPage() {
                   />
                 </div>
                 <div className="p-6 rounded-2xl" style={{ background: '#FFF8F0', border: '1px solid #E8E0DB' }}>
-                  <h3 className="font-bold text-lg mb-4 flex items-center gap-2" style={{ color: '#8B5E83', fontFamily: 'DM Sans, sans-serif' }}>
+                  <h3 className="font-bold text-lg mb-4 flex items-center gap-2" style={{ color: '#8B5E83', fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
                     <MapPin size={20} /> Raghava Multispeciality Hospital
                   </h3>
                   <div className="space-y-4">
@@ -186,12 +186,12 @@ export default function ContactPage() {
             <div className="grid md:grid-cols-2 gap-6 mt-12 max-w-4xl mx-auto">
               <div className="p-8 rounded-2xl border border-gray-100 text-center" style={{ background: 'linear-gradient(to bottom, #FFFFFF, #FFF8F0)' }}>
                 <Mail size={32} className="mx-auto mb-3" style={{ color: '#E8A87C' }} />
-                <p className="text-lg font-bold mb-1" style={{ color: '#2D2D2D', fontFamily: 'Playfair Display, serif' }}>Email Us</p>
+                <p className="text-lg font-bold mb-1" style={{ color: '#2D2D2D', fontFamily: 'var(--font-display), Georgia, serif' }}>Email Us</p>
                 <a href="mailto:info@healthnest.in" className="text-sm break-all hover:text-purple-700" style={{ color: '#6B6B6B' }}>info@healthnest.in</a>
               </div>
               <div className="p-8 rounded-2xl border border-gray-100 text-center" style={{ background: 'linear-gradient(to bottom, #FFFFFF, rgba(42,107,90,0.05))' }}>
                 <Clock size={32} className="mx-auto mb-3" style={{ color: '#2A6B5A' }} />
-                <p className="text-lg font-bold mb-1" style={{ color: '#2D2D2D', fontFamily: 'Playfair Display, serif' }}>Working Hours</p>
+                <p className="text-lg font-bold mb-1" style={{ color: '#2D2D2D', fontFamily: 'var(--font-display), Georgia, serif' }}>Working Hours</p>
                 <p className="text-sm" style={{ color: '#6B6B6B' }}>Mon–Sat: 8 AM – 9 PM<br/>Sunday: On Appointment</p>
               </div>
           </div>

@@ -62,16 +62,16 @@ export default function PatientStoriesPage() {
         <section className="bg-gradient-hero" style={{ paddingTop: '100px', paddingBottom: '40px' }}>
           <div className="container-hn">
             <BreadcrumbNav crumbs={[{ label: 'Home', href: '/' }, { label: 'Patient Stories' }]} />
-            <h1 className="text-4xl md:text-5xl font-bold mt-4 mb-3" style={{ fontFamily: 'Playfair Display, serif', color: '#2D2D2D' }}>
+            <h1 className="text-4xl md:text-5xl font-bold mt-4 mb-3" style={{ fontFamily: 'var(--font-display), Georgia, serif', color: '#2D2D2D' }}>
               Patient Stories
             </h1>
             <div className="accent-line" />
             <div className="flex items-center gap-2 mb-3">
               {[1,2,3,4,5].map(i => <Star key={i} size={20} fill="#F59E0B" color="#F59E0B" />)}
-              <span className="font-bold text-lg ml-1" style={{ color: '#2D2D2D', fontFamily: 'DM Sans, sans-serif' }}>4.9</span>
-              <span style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}>· 200+ Trusted Google Reviews</span>
+              <span className="font-bold text-lg ml-1" style={{ color: '#2D2D2D', fontFamily: 'var(--font-body), system-ui, sans-serif' }}>4.9</span>
+              <span style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}>· 200+ Trusted Google Reviews</span>
             </div>
-            <p style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}>
+            <p style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
               Real stories from real patients — the trust that 5,000+ women have placed in Dr. Sanjana L at Health Nest.
             </p>
           </div>
@@ -87,8 +87,8 @@ export default function PatientStoriesPage() {
               <div className="flex justify-center gap-1 mb-2">
                 {[1,2,3,4,5].map(i => <Star key={i} size={28} fill="#F59E0B" color="#F59E0B" />)}
               </div>
-              <p className="text-5xl font-bold mb-1" style={{ fontFamily: 'Playfair Display, serif', color: '#8B5E83' }}>4.9</p>
-              <p className="font-medium mb-1" style={{ color: '#2D2D2D', fontFamily: 'DM Sans, sans-serif' }}>Average Rating</p>
+              <p className="text-5xl font-bold mb-1" style={{ fontFamily: 'var(--font-display), Georgia, serif', color: '#8B5E83' }}>4.9</p>
+              <p className="font-medium mb-1" style={{ color: '#2D2D2D', fontFamily: 'var(--font-body), system-ui, sans-serif' }}>Average Rating</p>
               <p className="text-sm mb-5" style={{ color: '#6B6B6B' }}>Based on 200+ Verified Google Reviews</p>
               <div className="flex flex-wrap gap-3 justify-center">
                 <a
@@ -115,7 +115,7 @@ export default function PatientStoriesPage() {
                       {t.initial}
                     </div>
                     <div>
-                      <p className="font-semibold" style={{ color: '#2D2D2D', fontFamily: 'DM Sans, sans-serif' }}>{t.name}</p>
+                      <p className="font-semibold" style={{ color: '#2D2D2D', fontFamily: 'var(--font-body), system-ui, sans-serif' }}>{t.name}</p>
                       <p className="text-xs" style={{ color: '#9B9B9B' }}>{t.service}</p>
                     </div>
                     <span
@@ -130,7 +130,7 @@ export default function PatientStoriesPage() {
                       <Star key={i} size={14} fill="#F59E0B" color="#F59E0B" />
                     ))}
                   </div>
-                  <p className="text-sm leading-relaxed flex-1" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}>
+                  <p className="text-sm leading-relaxed flex-1" style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
                     &ldquo;{t.quote}&rdquo;
                   </p>
                 </div>
@@ -139,10 +139,10 @@ export default function PatientStoriesPage() {
 
             {/* Share experience CTA */}
             <div className="rounded-3xl p-8 text-center" style={{ background: '#FFF8F0', border: '1px solid #E8E0DB' }}>
-              <h2 className="text-2xl font-bold mb-3" style={{ fontFamily: 'Playfair Display, serif', color: '#2D2D2D' }}>
+              <h2 className="text-2xl font-bold mb-3" style={{ fontFamily: 'var(--font-display), Georgia, serif', color: '#2D2D2D' }}>
                 Share Your Experience
               </h2>
-              <p className="mb-5" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}>
+              <p className="mb-5" style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
                 Your story helps other women make informed decisions about their health. Take 2 minutes to share your experience with Dr. Sanjana L.
               </p>
               <div className="flex flex-wrap gap-3 justify-center">
@@ -161,10 +161,10 @@ export default function PatientStoriesPage() {
 
         <section className="section-sm" style={{ background: 'linear-gradient(135deg, #8B5E83, #6B4563)' }}>
           <div className="container-hn text-center">
-            <h2 className="text-2xl font-bold text-white mb-3" style={{ fontFamily: 'Playfair Display, serif' }}>
+            <h2 className="text-2xl font-bold text-white mb-3" style={{ fontFamily: 'var(--font-display), Georgia, serif' }}>
               Join 5000+ Women Who Trust Dr. Sanjana
             </h2>
-            <p className="text-white/80 mb-5" style={{ fontFamily: 'DM Sans, sans-serif' }}>Book your appointment at Health Nest, HSR Layout today.</p>
+            <p className="text-white/80 mb-5" style={{ fontFamily: 'var(--font-body), system-ui, sans-serif' }}>Book your appointment at Health Nest, HSR Layout today.</p>
             <Link href="/book-appointment" className="btn-white">Book Appointment</Link>
           </div>
         </section>

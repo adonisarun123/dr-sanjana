@@ -260,10 +260,10 @@ export default async function BlogPostPage({ params }: Props) {
               >
                 {post.category}
               </span>
-              <h1 className="text-3xl md:text-4xl font-bold mb-5" style={{ fontFamily: 'Playfair Display, serif', color: '#2D2D2D' }}>
+              <h1 className="text-3xl md:text-4xl font-bold mb-5" style={{ fontFamily: 'var(--font-display), Georgia, serif', color: '#2D2D2D' }}>
                 {post.title}
               </h1>
-              <div className="flex flex-wrap items-center gap-4 text-sm" style={{ color: '#9B9B9B', fontFamily: 'DM Sans, sans-serif' }}>
+              <div className="flex flex-wrap items-center gap-4 text-sm" style={{ color: '#9B9B9B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
                 <span className="flex items-center gap-1"><User size={14} /> {post.author}</span>
                 <span className="flex items-center gap-1"><Calendar size={14} /> {new Date(post.date).toLocaleDateString('en-IN', { day: 'numeric', month: 'long', year: 'numeric' })}</span>
                 <span className="flex items-center gap-1"><Clock size={14} /> {post.readTime} min read</span>
@@ -280,13 +280,13 @@ export default async function BlogPostPage({ params }: Props) {
                 {/* Excerpt / TL;DR block — optimised for AI answer engines */}
                 <p
                   className="text-lg mb-8 p-5 rounded-2xl max-w-[68ch]"
-                  style={{ color: '#2D2D2D', fontFamily: 'DM Sans, sans-serif', lineHeight: 1.75, background: '#FFF8F0', borderLeft: '4px solid #8B5E83' }}
+                  style={{ color: '#2D2D2D', fontFamily: 'var(--font-body), system-ui, sans-serif', lineHeight: 1.75, background: '#FFF8F0', borderLeft: '4px solid #8B5E83' }}
                 >
                   {post.excerpt}
                 </p>
                 <div
                   className="readable-article"
-                  style={{ fontFamily: 'DM Sans, sans-serif' }}
+                  style={{ fontFamily: 'var(--font-body), system-ui, sans-serif' }}
                   dangerouslySetInnerHTML={{ __html: renderContent(post.content) }}
                 />
 
@@ -295,7 +295,7 @@ export default async function BlogPostPage({ params }: Props) {
                   <div className="flex items-start gap-4">
                     <div className="w-14 h-14 rounded-full flex items-center justify-center text-white font-bold text-xl flex-shrink-0" style={{ background: 'linear-gradient(135deg, #8B5E83, #2A6B5A)' }}>SL</div>
                     <div>
-                      <p className="font-bold text-lg" style={{ fontFamily: 'DM Sans, sans-serif', color: '#2D2D2D' }}>Dr. Sanjana L</p>
+                      <p className="font-bold text-lg" style={{ fontFamily: 'var(--font-body), system-ui, sans-serif', color: '#2D2D2D' }}>Dr. Sanjana L</p>
                       <p className="text-sm mb-1" style={{ color: '#6B6B6B' }}>MBBS MS ( OBG) Gold Medalist FRM ( RGUHS) FMAS</p>
                       <p className="text-sm mb-2" style={{ color: '#6B6B6B' }}>Gynaecologist &amp; Obstetrician at Health Nest, HSR Layout &amp; Raghava Hospital, Attibele, Bangalore</p>
                       <p className="text-sm" style={{ color: '#6B6B6B', lineHeight: 1.6 }}>
@@ -322,9 +322,9 @@ export default async function BlogPostPage({ params }: Props) {
                 <div className="sticky top-24 space-y-5">
                   {/* CTA */}
                   <div className="rounded-2xl p-6" style={{ background: 'linear-gradient(135deg, #8B5E83, #6B4563)' }}>
-                    <p className="text-white font-bold text-lg mb-2" style={{ fontFamily: 'Playfair Display, serif' }}>Consult Dr. Sanjana</p>
-                    <p className="text-white/80 text-sm mb-1" style={{ fontFamily: 'DM Sans, sans-serif' }}>Health Nest, HSR Layout &amp; Attibele</p>
-                    <p className="text-white/70 text-xs mb-4" style={{ fontFamily: 'DM Sans, sans-serif' }}>
+                    <p className="text-white font-bold text-lg mb-2" style={{ fontFamily: 'var(--font-display), Georgia, serif' }}>Consult Dr. Sanjana</p>
+                    <p className="text-white/80 text-sm mb-1" style={{ fontFamily: 'var(--font-body), system-ui, sans-serif' }}>Health Nest, HSR Layout &amp; Attibele</p>
+                    <p className="text-white/70 text-xs mb-4" style={{ fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
                       Serving Sarjapura, Electronic City, Koramangala, BTM Layout, Chandapura &amp; Hosur
                     </p>
                     <Link href="/book-appointment" className="btn-white w-full justify-center mb-2">
@@ -338,7 +338,7 @@ export default async function BlogPostPage({ params }: Props) {
                   {/* Related Articles */}
                   {sidebarPosts.length > 0 && (
                     <div className="rounded-2xl p-5" style={{ background: '#FFF8F0', border: '1px solid #E8E0DB' }}>
-                      <p className="font-semibold mb-4" style={{ fontFamily: 'DM Sans, sans-serif', color: '#2D2D2D' }}>Related Articles</p>
+                      <p className="font-semibold mb-4" style={{ fontFamily: 'var(--font-body), system-ui, sans-serif', color: '#2D2D2D' }}>Related Articles</p>
                       <div className="space-y-3">
                         {sidebarPosts.map(related => (
                           <Link
@@ -363,7 +363,7 @@ export default async function BlogPostPage({ params }: Props) {
 
                   {/* Location block for local SEO */}
                   <div className="rounded-2xl p-5" style={{ background: '#FFFFFF', border: '1px solid #E8E0DB' }}>
-                    <p className="font-semibold mb-3" style={{ fontFamily: 'DM Sans, sans-serif', color: '#2D2D2D' }}>Clinic Locations</p>
+                    <p className="font-semibold mb-3" style={{ fontFamily: 'var(--font-body), system-ui, sans-serif', color: '#2D2D2D' }}>Clinic Locations</p>
                     <div className="space-y-3 text-sm" style={{ color: '#6B6B6B' }}>
                       <div className="flex items-start gap-2">
                         <MapPin size={14} className="mt-0.5 flex-shrink-0" style={{ color: '#8B5E83' }} />

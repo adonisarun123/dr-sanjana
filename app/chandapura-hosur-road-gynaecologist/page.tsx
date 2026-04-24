@@ -271,7 +271,7 @@ export default function ChandapuraHosurRoadGynaecologistPage() {
                   style={{
                     background: 'rgba(42,107,90,0.12)',
                     color: '#2A6B5A',
-                    fontFamily: 'DM Sans, sans-serif',
+                    fontFamily: 'var(--font-body), system-ui, sans-serif',
                   }}
                 >
                   Chandapura &middot; Hosur Road &middot; Anekal &middot; Jigani
@@ -279,7 +279,7 @@ export default function ChandapuraHosurRoadGynaecologistPage() {
 
                 <h1
                   className="text-3xl md:text-4xl lg:text-5xl font-bold mb-5 leading-tight"
-                  style={{ fontFamily: 'Playfair Display, serif', color: '#2D2D2D' }}
+                  style={{ fontFamily: 'var(--font-display), Georgia, serif', color: '#2D2D2D' }}
                 >
                   Best Gynaecologist near Chandapura, Hosur Road &amp; Anekal —{' '}
                   <span style={{ color: '#8B5E83' }}>Dr. Sanjana L</span>
@@ -289,7 +289,7 @@ export default function ChandapuraHosurRoadGynaecologistPage() {
 
                 <p
                   className="text-base md:text-lg mb-4 leading-relaxed max-w-[68ch]"
-                  style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}
+                  style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}
                 >
                   If you live near <strong>Chandapura, Hosur Road, Anekal, or Jigani</strong>, you can
                   see a senior <strong>obstetrician and gynaecologist</strong> without a long commute.
@@ -298,7 +298,7 @@ export default function ChandapuraHosurRoadGynaecologistPage() {
                 </p>
                 <p
                   className="text-base mb-6 leading-relaxed max-w-[68ch]"
-                  style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}
+                  style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}
                 >
                   She consults at <strong>Raghava Multispeciality Hospital, Attibele</strong>. From
                   Chandapura Junction that is often about <strong>10–15 minutes</strong> on
@@ -320,7 +320,7 @@ export default function ChandapuraHosurRoadGynaecologistPage() {
                       style={{
                         background: '#FFFFFF',
                         borderColor: '#E8E0DB',
-                        fontFamily: 'DM Sans, sans-serif',
+                        fontFamily: 'var(--font-body), system-ui, sans-serif',
                       }}
                     >
                       <badge.icon size={16} style={{ color: '#E8A87C' }} />
@@ -362,7 +362,7 @@ export default function ChandapuraHosurRoadGynaecologistPage() {
                   </div>
                   <h2
                     className="text-lg font-bold mb-3"
-                    style={{ fontFamily: 'Playfair Display, serif', color: '#2D2D2D' }}
+                    style={{ fontFamily: 'var(--font-display), Georgia, serif', color: '#2D2D2D' }}
                   >
                     Raghava Multispeciality Hospital
                   </h2>
@@ -370,7 +370,7 @@ export default function ChandapuraHosurRoadGynaecologistPage() {
                   <div className="space-y-3">
                     <div className="flex items-start gap-3">
                       <MapPin size={16} className="mt-0.5 flex-shrink-0" style={{ color: '#8B5E83' }} />
-                      <p className="text-sm" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}>
+                      <p className="text-sm" style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
                         39, Sarjapura – Attibele Rd, opposite Syndicate Bank, Attibele, Bengaluru,
                         Karnataka 562107
                       </p>
@@ -380,14 +380,14 @@ export default function ChandapuraHosurRoadGynaecologistPage() {
                       <a
                         href="tel:+919980031006"
                         className="text-sm font-semibold hover:underline"
-                        style={{ color: '#2A6B5A', fontFamily: 'DM Sans, sans-serif' }}
+                        style={{ color: '#2A6B5A', fontFamily: 'var(--font-body), system-ui, sans-serif' }}
                       >
                         +91-9980031006
                       </a>
                     </div>
                     <div className="flex items-start gap-3">
                       <Clock size={16} className="mt-0.5 flex-shrink-0" style={{ color: '#8B5E83' }} />
-                      <div className="text-sm" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}>
+                      <div className="text-sm" style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
                         <p className="font-semibold" style={{ color: '#2D2D2D' }}>
                           Mon – Sat: 9:00 AM – 9:00 PM
                         </p>
@@ -396,7 +396,7 @@ export default function ChandapuraHosurRoadGynaecologistPage() {
                     </div>
                     <div className="flex items-center gap-3">
                       <Navigation size={16} className="flex-shrink-0" style={{ color: '#8B5E83' }} />
-                      <p className="text-sm" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}>
+                      <p className="text-sm" style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
                         ~10–15 min from Chandapura Junction
                       </p>
                     </div>
@@ -422,7 +422,7 @@ export default function ChandapuraHosurRoadGynaecologistPage() {
                       className="w-full flex items-center justify-center gap-2 py-3 rounded-xl text-white font-semibold text-sm"
                       style={{
                         background: 'linear-gradient(135deg, #8B5E83, #6B4563)',
-                        fontFamily: 'DM Sans, sans-serif',
+                        fontFamily: 'var(--font-body), system-ui, sans-serif',
                       }}
                     >
                       <Calendar size={16} /> Book Appointment
@@ -435,7 +435,7 @@ export default function ChandapuraHosurRoadGynaecologistPage() {
                       style={{
                         borderColor: '#E8E0DB',
                         color: '#2A6B5A',
-                        fontFamily: 'DM Sans, sans-serif',
+                        fontFamily: 'var(--font-body), system-ui, sans-serif',
                       }}
                     >
                       <MapPin size={16} /> Get Directions
@@ -450,20 +450,20 @@ export default function ChandapuraHosurRoadGynaecologistPage() {
                 >
                   <h3
                     className="text-base font-bold mb-2"
-                    style={{ fontFamily: 'DM Sans, sans-serif', color: '#2D2D2D' }}
+                    style={{ fontFamily: 'var(--font-body), system-ui, sans-serif', color: '#2D2D2D' }}
                   >
                     Also available at: Health Nest, HSR Layout
                   </h3>
                   <div className="flex items-start gap-2">
                     <MapPin size={14} className="mt-0.5 flex-shrink-0" style={{ color: '#8B5E83' }} />
-                    <p className="text-xs" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}>
+                    <p className="text-xs" style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
                       1162, 24th Main Rd, Sector 2, HSR Layout, Bangalore 560102 &middot;{' '}
                       <a href="tel:+919449031003" className="font-semibold hover:underline" style={{ color: '#2A6B5A' }}>
                         +91-9449031003
                       </a>
                     </p>
                   </div>
-                  <p className="text-xs mt-1" style={{ color: '#9B9B9B', fontFamily: 'DM Sans, sans-serif' }}>
+                  <p className="text-xs mt-1" style={{ color: '#9B9B9B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
                     Convenient for patients who work in central Bangalore
                   </p>
                 </div>
@@ -477,7 +477,7 @@ export default function ChandapuraHosurRoadGynaecologistPage() {
           <div className="container-hn max-w-4xl">
             <h2
               className="text-2xl md:text-3xl font-bold mb-4"
-              style={{ fontFamily: 'Playfair Display, serif', color: '#2D2D2D' }}
+              style={{ fontFamily: 'var(--font-display), Georgia, serif', color: '#2D2D2D' }}
             >
               How to Reach Dr. Sanjana from Chandapura, Hosur Road &amp; Anekal
             </h2>
@@ -485,7 +485,7 @@ export default function ChandapuraHosurRoadGynaecologistPage() {
 
             <p
               className="text-base mb-8 leading-relaxed"
-              style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}
+              style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}
             >
               Raghava Multispeciality Hospital in Attibele is the nearest clinic for residents of
               Chandapura, Anekal, Jigani and areas along Hosur Road. The hospital sits on the main
@@ -494,7 +494,7 @@ export default function ChandapuraHosurRoadGynaecologistPage() {
             </p>
 
             <div className="overflow-x-auto">
-              <table className="w-full text-sm" style={{ fontFamily: 'DM Sans, sans-serif' }}>
+              <table className="w-full text-sm" style={{ fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
                 <thead>
                   <tr style={{ background: '#FFF8F0' }}>
                     <th className="text-left p-3 font-semibold rounded-tl-xl" style={{ color: '#2D2D2D' }}>
@@ -548,7 +548,7 @@ export default function ChandapuraHosurRoadGynaecologistPage() {
           <div className="container-hn max-w-4xl">
             <h2
               className="text-2xl md:text-3xl font-bold mb-4"
-              style={{ fontFamily: 'Playfair Display, serif', color: '#2D2D2D' }}
+              style={{ fontFamily: 'var(--font-display), Georgia, serif', color: '#2D2D2D' }}
             >
               Why Families near Chandapura &amp; Hosur Road Choose Dr. Sanjana L
             </h2>
@@ -556,7 +556,7 @@ export default function ChandapuraHosurRoadGynaecologistPage() {
 
             <div
               className="space-y-4 max-w-[68ch]"
-              style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif', lineHeight: 1.8 }}
+              style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif', lineHeight: 1.8 }}
             >
               <p>
                 The Chandapura–Hosur Road–Anekal area is growing fast. Many families still travel far
@@ -590,7 +590,7 @@ export default function ChandapuraHosurRoadGynaecologistPage() {
                   style={{ background: '#FFFFFF', border: '1px solid #E8E0DB' }}
                 >
                   <CheckCircle2 size={16} className="mt-0.5 flex-shrink-0" style={{ color: '#8B5E83' }} />
-                  <p className="text-sm" style={{ color: '#2D2D2D', fontFamily: 'DM Sans, sans-serif' }}>
+                  <p className="text-sm" style={{ color: '#2D2D2D', fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
                     {item}
                   </p>
                 </div>
@@ -605,7 +605,7 @@ export default function ChandapuraHosurRoadGynaecologistPage() {
             <div className="text-center mb-12">
               <h2
                 className="text-2xl md:text-3xl font-bold mb-3"
-                style={{ fontFamily: 'Playfair Display, serif', color: '#2D2D2D' }}
+                style={{ fontFamily: 'var(--font-display), Georgia, serif', color: '#2D2D2D' }}
               >
                 Gynaecology Services for Chandapura, Hosur Road &amp; Anekal Residents
               </h2>
@@ -632,13 +632,13 @@ export default function ChandapuraHosurRoadGynaecologistPage() {
                   </div>
                   <h3
                     className="text-lg font-bold mb-2"
-                    style={{ fontFamily: 'DM Sans, sans-serif', color: '#2D2D2D' }}
+                    style={{ fontFamily: 'var(--font-body), system-ui, sans-serif', color: '#2D2D2D' }}
                   >
                     {svc.title}
                   </h3>
                   <p
                     className="text-sm leading-relaxed mb-3"
-                    style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}
+                    style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}
                   >
                     {svc.desc}
                   </p>
@@ -656,7 +656,7 @@ export default function ChandapuraHosurRoadGynaecologistPage() {
             <div className="mt-10 max-w-3xl mx-auto text-center">
               <p
                 className="text-sm leading-relaxed"
-                style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}
+                style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}
               >
                 <strong style={{ color: '#2D2D2D' }}>Also available:</strong>{' '}
                 <Link href="/services/cesarean-delivery" className="hover:underline" style={{ color: '#8B5E83' }}>
@@ -705,7 +705,7 @@ export default function ChandapuraHosurRoadGynaecologistPage() {
           <div className="container-hn max-w-4xl">
             <h2
               className="text-2xl md:text-3xl font-bold mb-4"
-              style={{ fontFamily: 'Playfair Display, serif', color: '#2D2D2D' }}
+              style={{ fontFamily: 'var(--font-display), Georgia, serif', color: '#2D2D2D' }}
             >
               Serving Women across Chandapura, Hosur Road &amp; Surrounding Areas
             </h2>
@@ -731,7 +731,7 @@ export default function ChandapuraHosurRoadGynaecologistPage() {
                     background: '#FFFFFF',
                     border: '1px solid #E8E0DB',
                     color: '#2D2D2D',
-                    fontFamily: 'DM Sans, sans-serif',
+                    fontFamily: 'var(--font-body), system-ui, sans-serif',
                   }}
                 >
                   <MapPin size={14} style={{ color: '#8B5E83', flexShrink: 0 }} />
@@ -764,7 +764,7 @@ export default function ChandapuraHosurRoadGynaecologistPage() {
           <div className="container-hn max-w-3xl">
             <h2
               className="text-2xl md:text-3xl font-bold mb-4"
-              style={{ fontFamily: 'Playfair Display, serif', color: '#2D2D2D' }}
+              style={{ fontFamily: 'var(--font-display), Georgia, serif', color: '#2D2D2D' }}
             >
               Frequently Asked Questions — Gynaecologist near Chandapura &amp; Hosur Road
             </h2>
@@ -781,7 +781,7 @@ export default function ChandapuraHosurRoadGynaecologistPage() {
           <div className="container-hn text-center">
             <h2
               className="text-2xl md:text-3xl font-bold text-white mb-3"
-              style={{ fontFamily: 'Playfair Display, serif' }}
+              style={{ fontFamily: 'var(--font-display), Georgia, serif' }}
             >
               Trusted Gynaecology Care — Close to Chandapura &amp; Hosur Road
             </h2>
@@ -793,14 +793,14 @@ export default function ChandapuraHosurRoadGynaecologistPage() {
               <Link
                 href="/book-appointment"
                 className="px-8 py-3.5 bg-white rounded-xl font-semibold text-sm shadow-lg hover:scale-105 transition-transform"
-                style={{ color: '#8B5E83', fontFamily: 'DM Sans, sans-serif' }}
+                style={{ color: '#8B5E83', fontFamily: 'var(--font-body), system-ui, sans-serif' }}
               >
                 Book Appointment Online
               </Link>
               <a
                 href="tel:+919980031006"
                 className="px-8 py-3.5 border-2 border-white rounded-xl text-white font-semibold text-sm hover:bg-white/10 transition-colors flex items-center gap-2"
-                style={{ fontFamily: 'DM Sans, sans-serif' }}
+                style={{ fontFamily: 'var(--font-body), system-ui, sans-serif' }}
               >
                 <Phone size={16} /> Call +91-9980031006
               </a>

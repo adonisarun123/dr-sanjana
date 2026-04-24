@@ -91,14 +91,14 @@ export default function BlogPage() {
         <section className="bg-gradient-hero" style={{ paddingTop: '100px', paddingBottom: '40px' }}>
           <div className="container-hn">
             <BreadcrumbNav crumbs={[{ label: 'Home', href: '/' }, { label: 'Health Blog' }]} />
-            <h1 className="text-4xl md:text-5xl font-bold mt-4 mb-3" style={{ fontFamily: 'Playfair Display, serif', color: '#2D2D2D' }}>
+            <h1 className="text-4xl md:text-5xl font-bold mt-4 mb-3" style={{ fontFamily: 'var(--font-display), Georgia, serif', color: '#2D2D2D' }}>
               Women&apos;s Health &amp; Wellness Blog
             </h1>
             <div className="accent-line" />
-            <p className="text-lg mb-2" style={{ color: '#4A4A4A', fontFamily: 'DM Sans, sans-serif', lineHeight: 1.7 }}>
+            <p className="text-lg mb-2" style={{ color: '#4A4A4A', fontFamily: 'var(--font-body), system-ui, sans-serif', lineHeight: 1.7 }}>
               Evidence-based health articles on pregnancy, fertility, PCOS, endometriosis, menopause, and preventive gynaecology by <strong>Dr. Sanjana L</strong> — trusted gynaecologist in HSR Layout &amp; Attibele, Bangalore.
             </p>
-            <div className="flex flex-wrap items-center gap-4 mt-3 text-sm" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}>
+            <div className="flex flex-wrap items-center gap-4 mt-3 text-sm" style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
               <span className="flex items-center gap-1"><MapPin size={14} style={{ color: '#8B5E83' }} /> HSR Layout &bull; Attibele &bull; Sarjapura &bull; Electronic City &bull; Koramangala</span>
             </div>
           </div>
@@ -124,7 +124,7 @@ export default function BlogPage() {
                     className="rounded-l-2xl md:rounded-r-none rounded-t-2xl md:rounded-t-2xl flex items-center justify-center p-10"
                     style={{ background: 'linear-gradient(135deg, rgba(139,94,131,0.15), rgba(42,107,90,0.1))', minHeight: '260px' }}
                   >
-                    <h2 className="text-2xl font-bold text-center" style={{ fontFamily: 'Playfair Display, serif', color: '#2D2D2D' }}>
+                    <h2 className="text-2xl font-bold text-center" style={{ fontFamily: 'var(--font-display), Georgia, serif', color: '#2D2D2D' }}>
                       {featured.title}
                     </h2>
                   </div>
@@ -138,7 +138,7 @@ export default function BlogPage() {
                       </span>
                       <span className="text-xs" style={{ color: '#9B9B9B' }}>{featured.readTime} min read</span>
                     </div>
-                    <p className="mb-4" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif', lineHeight: 1.7 }}>
+                    <p className="mb-4" style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif', lineHeight: 1.7 }}>
                       {featured.excerpt}
                     </p>
                     <div className="flex items-center gap-3">
@@ -164,7 +164,7 @@ export default function BlogPage() {
                     className="h-36 rounded-t-2xl flex items-center justify-center p-6"
                     style={{ background: `linear-gradient(135deg, ${categoryColors[post.category] || '#8B5E83'}15, ${categoryColors[post.category] || '#8B5E83'}08)` }}
                   >
-                    <h2 className="text-base font-bold text-center leading-snug" style={{ fontFamily: 'Playfair Display, serif', color: '#2D2D2D' }}>
+                    <h2 className="text-base font-bold text-center leading-snug" style={{ fontFamily: 'var(--font-display), Georgia, serif', color: '#2D2D2D' }}>
                       {post.title}
                     </h2>
                   </div>
@@ -187,13 +187,13 @@ export default function BlogPage() {
 
             {/* Local SEO content block */}
             <div className="mt-14 p-8 rounded-3xl" style={{ background: '#FFF8F0', border: '1px solid #E8E0DB' }}>
-              <h2 className="text-2xl font-bold mb-4" style={{ fontFamily: 'Playfair Display, serif', color: '#2D2D2D' }}>
+              <h2 className="text-2xl font-bold mb-4" style={{ fontFamily: 'var(--font-display), Georgia, serif', color: '#2D2D2D' }}>
                 Trusted Women&apos;s Health Information for South Bangalore
               </h2>
-              <p className="mb-4" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif', lineHeight: 1.7 }}>
+              <p className="mb-4" style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif', lineHeight: 1.7 }}>
                 Dr. Sanjana L writes these health articles based on her 10-plus years of clinical experience treating women across South Bangalore. Whether you are searching for reliable pregnancy advice, PCOS treatment guidance, fertility tips after 35, endometriosis management, or menopause support — these evidence-based articles are written specifically for women in HSR Layout, Attibele, Sarjapura, Electronic City, Koramangala, BTM Layout, Chandapura, and Hosur.
               </p>
-              <p className="mb-6" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif', lineHeight: 1.7 }}>
+              <p className="mb-6" style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif', lineHeight: 1.7 }}>
                 Health Nest is located in HSR Layout (near Agara Lake) and at Raghava Hospital, Attibele. Dr. Sanjana consults in English, Hindi, Kannada, and Telugu.
               </p>
               <div className="flex flex-wrap gap-3">

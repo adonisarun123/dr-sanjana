@@ -140,14 +140,14 @@ export default function HomePage() {
                     <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
                     <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
                   </span>
-                  <span className="text-xs font-semibold uppercase tracking-wide" style={{ color: '#2A6B5A', fontFamily: 'DM Sans, sans-serif' }}>
+                  <span className="text-xs font-semibold uppercase tracking-wide" style={{ color: '#2A6B5A', fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
                     Accepting New Patients
                   </span>
                 </div>
                 
                 <h1
                   className="text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.1] mb-6"
-                  style={{ fontFamily: 'Playfair Display, serif', color: '#1C1C2E' }}
+                  style={{ fontFamily: 'var(--font-display), Georgia, serif', color: '#1C1C2E' }}
                 >
                   Compassionate <br/>
                   <span className="gradient-text italic opacity-90">Women&apos;s Health</span> <br/>
@@ -156,7 +156,7 @@ export default function HomePage() {
                 
                 <p
                   className="text-lg md:text-xl mb-8"
-                  style={{ color: '#4A4A4A', fontFamily: 'DM Sans, sans-serif', lineHeight: 1.6 }}
+                  style={{ color: '#4A4A4A', fontFamily: 'var(--font-body), system-ui, sans-serif', lineHeight: 1.6 }}
                 >
                   Pregnancy care, fertility support, and advanced gynaecology by <strong>Dr. Sanjana L</strong> — all under one roof at Health Nest, Bangalore.
                 </p>
@@ -207,8 +207,8 @@ export default function HomePage() {
                     
                     {/* Name block inside image */}
                     <div className="absolute bottom-6 left-6 right-6 p-5 rounded-2xl backdrop-blur-md bg-white/20 border border-white/30 text-white shadow-lg">
-                      <p className="text-2xl font-bold mb-1" style={{ fontFamily: 'Playfair Display, serif' }}>Dr. Sanjana L</p>
-                      <p className="text-sm font-medium opacity-90" style={{ fontFamily: 'DM Sans, sans-serif' }}>Qualification: MBBS MS ( OBG) Gold Medalist FRM ( RGUHS) FMAS</p>
+                      <p className="text-2xl font-bold mb-1" style={{ fontFamily: 'var(--font-display), Georgia, serif' }}>Dr. Sanjana L</p>
+                      <p className="text-sm font-medium opacity-90" style={{ fontFamily: 'var(--font-body), system-ui, sans-serif' }}>Qualification: MBBS MS ( OBG) Gold Medalist FRM ( RGUHS) FMAS</p>
                       <div className="flex items-center gap-2 mt-3 pt-3 border-t border-white/20">
                         <CheckCircle2 size={14} className="text-green-300" />
                         <span className="text-xs">RGUHS Gold Medalist</span>
@@ -225,8 +225,8 @@ export default function HomePage() {
                       <Award size={24} style={{ color: '#8B5E83' }} />
                     </div>
                     <div>
-                      <p className="text-xl font-bold leading-none mb-1" style={{ color: '#1C1C2E', fontFamily: 'Playfair Display, serif' }}>10 plus years</p>
-                      <p className="text-sm font-medium" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}>Trusted Experience</p>
+                      <p className="text-xl font-bold leading-none mb-1" style={{ color: '#1C1C2E', fontFamily: 'var(--font-display), Georgia, serif' }}>10 plus years</p>
+                      <p className="text-sm font-medium" style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}>Trusted Experience</p>
                     </div>
                   </div>
 
@@ -256,7 +256,7 @@ export default function HomePage() {
                         <Star size={14} style={{ color: '#F59E0B', fill: '#F59E0B' }} />
                         <span className="text-sm font-bold" style={{ color: '#1C1C2E' }}>4.9/5</span>
                       </div>
-                      <p className="text-xs font-medium" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}>5000+ Happy Patients</p>
+                      <p className="text-xs font-medium" style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}>5000+ Happy Patients</p>
                     </div>
                   </div>
 
@@ -274,11 +274,11 @@ export default function HomePage() {
           <div className="container-hn">
             <div className="text-center mb-12">
               <p className="section-label mb-2">Our Services</p>
-              <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ fontFamily: 'Playfair Display, serif', color: '#2D2D2D' }}>
+              <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ fontFamily: 'var(--font-display), Georgia, serif', color: '#2D2D2D' }}>
                 Comprehensive Women&apos;s Healthcare
               </h2>
               <div className="accent-line-center" />
-              <p className="text-lg max-w-2xl mx-auto" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}>
+              <p className="text-lg max-w-2xl mx-auto" style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
                 From first pregnancy to menopause and every milestone in between, Health Nest provides expert care for every stage of a woman&apos;s life.
               </p>
             </div>
@@ -291,7 +291,7 @@ export default function HomePage() {
                   </div>
                   <h3
                     className="text-lg font-semibold mb-2 transition-colors group-hover:text-purple-700"
-                    style={{ fontFamily: 'DM Sans, sans-serif', color: '#2D2D2D' }}
+                    style={{ fontFamily: 'var(--font-body), system-ui, sans-serif', color: '#2D2D2D' }}
                   >
                     {service.title}
                   </h3>
@@ -327,12 +327,12 @@ export default function HomePage() {
                 }}
               >
                 <div className="w-24 h-24 rounded-full flex items-center justify-center" style={{ background: 'rgba(255,255,255,0.12)', border: '2px solid rgba(255,255,255,0.25)' }}>
-                  <span className="text-white font-bold text-3xl" style={{ fontFamily: 'Playfair Display, serif' }}>SL</span>
+                  <span className="text-white font-bold text-3xl" style={{ fontFamily: 'var(--font-display), Georgia, serif' }}>SL</span>
                 </div>
                 <div className="text-white">
-                  <p className="text-2xl font-bold mb-1" style={{ fontFamily: 'Playfair Display, serif' }}>Dr. Sanjana L</p>
-                  <p className="text-sm opacity-75" style={{ fontFamily: 'DM Sans, sans-serif' }}>Qualification: MBBS MS ( OBG) Gold Medalist FRM ( RGUHS) FMAS</p>
-                  <p className="text-sm opacity-75" style={{ fontFamily: 'DM Sans, sans-serif' }}>Reg. No: 124759</p>
+                  <p className="text-2xl font-bold mb-1" style={{ fontFamily: 'var(--font-display), Georgia, serif' }}>Dr. Sanjana L</p>
+                  <p className="text-sm opacity-75" style={{ fontFamily: 'var(--font-body), system-ui, sans-serif' }}>Qualification: MBBS MS ( OBG) Gold Medalist FRM ( RGUHS) FMAS</p>
+                  <p className="text-sm opacity-75" style={{ fontFamily: 'var(--font-body), system-ui, sans-serif' }}>Reg. No: 124759</p>
                 </div>
                 <div className="grid grid-cols-2 gap-3 w-full">
                   {[
@@ -342,7 +342,7 @@ export default function HomePage() {
                     { n: '4', l: 'Languages' },
                   ].map(({ n, l }) => (
                     <div key={l} className="rounded-xl p-3 text-white" style={{ background: 'rgba(255,255,255,0.1)', border: '1px solid rgba(255,255,255,0.15)' }}>
-                      <p className="text-2xl font-bold" style={{ fontFamily: 'Playfair Display, serif' }}>{n}</p>
+                      <p className="text-2xl font-bold" style={{ fontFamily: 'var(--font-display), Georgia, serif' }}>{n}</p>
                       <p className="text-sm opacity-70">{l}</p>
                     </div>
                   ))}
@@ -352,17 +352,17 @@ export default function HomePage() {
               {/* Text */}
               <div>
                 <p className="section-label mb-2">About Dr. Sanjana</p>
-                <h2 className="text-3xl md:text-4xl font-bold mb-3" style={{ fontFamily: 'Playfair Display, serif', color: '#2D2D2D' }}>
+                <h2 className="text-3xl md:text-4xl font-bold mb-3" style={{ fontFamily: 'var(--font-display), Georgia, serif', color: '#2D2D2D' }}>
                   Your Trusted Partner in Women&apos;s Health
                 </h2>
                 <div className="accent-line" />
-                <p className="mb-4 max-w-[68ch]" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif', lineHeight: 1.75 }}>
+                <p className="mb-4 max-w-[68ch]" style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif', lineHeight: 1.75 }}>
                   Dr. Sanjana L is an obstetrician and gynaecologist with 10 plus years of practice in Bangalore. She is MBBS and MS (Obstetrics &amp; Gynaecology). Her focus is clear, kind, evidence-based care at every visit.
                 </p>
-                <p className="mb-4 max-w-[68ch]" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif', lineHeight: 1.75 }}>
+                <p className="mb-4 max-w-[68ch]" style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif', lineHeight: 1.75 }}>
                   She sees patients at Health Nest, HSR Layout, and at Raghava Hospital, Attibele. She believes care should feel personal, respectful, and clinically strong.
                 </p>
-                <p className="mb-6 max-w-[68ch]" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif', lineHeight: 1.75 }}>
+                <p className="mb-6 max-w-[68ch]" style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif', lineHeight: 1.75 }}>
                   Consultations are offered in English, Hindi, Kannada, and Telugu so you can explain symptoms and ask questions comfortably.
                 </p>
                 <ul className="space-y-2 mb-8">
@@ -374,7 +374,7 @@ export default function HomePage() {
                   ].map((item) => (
                     <li key={item} className="flex items-start gap-2">
                       <CheckCircle2 size={17} className="mt-0.5 flex-shrink-0" style={{ color: '#2A6B5A' }} />
-                      <span className="text-sm" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}>{item}</span>
+                      <span className="text-sm" style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}>{item}</span>
                     </li>
                   ))}
                 </ul>
@@ -391,7 +391,7 @@ export default function HomePage() {
           <div className="container-hn">
             <div className="text-center mb-12">
               <p className="section-label mb-2">Why Health Nest</p>
-              <h2 className="text-3xl md:text-4xl font-bold mb-3" style={{ fontFamily: 'Playfair Display, serif', color: '#2D2D2D' }}>
+              <h2 className="text-3xl md:text-4xl font-bold mb-3" style={{ fontFamily: 'var(--font-display), Georgia, serif', color: '#2D2D2D' }}>
                 The Health Nest Difference
               </h2>
               <div className="accent-line-center" />
@@ -404,8 +404,8 @@ export default function HomePage() {
                   style={{ borderColor: '#E8E0DB', background: '#FFF8F0' }}
                 >
                   <div className="text-4xl mb-4" role="img" aria-label={usp.title}>{usp.icon}</div>
-                  <h3 className="text-lg font-semibold mb-2" style={{ fontFamily: 'DM Sans, sans-serif', color: '#2D2D2D' }}>{usp.title}</h3>
-                  <p className="text-sm leading-relaxed" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}>{usp.description}</p>
+                  <h3 className="text-lg font-semibold mb-2" style={{ fontFamily: 'var(--font-body), system-ui, sans-serif', color: '#2D2D2D' }}>{usp.title}</h3>
+                  <p className="text-sm leading-relaxed" style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}>{usp.description}</p>
                 </div>
               ))}
             </div>
@@ -417,13 +417,13 @@ export default function HomePage() {
           <div className="container-hn">
             <div className="text-center mb-12">
               <p className="section-label mb-2">Patient Stories</p>
-              <h2 className="text-3xl md:text-4xl font-bold mb-3" style={{ fontFamily: 'Playfair Display, serif', color: '#2D2D2D' }}>
+              <h2 className="text-3xl md:text-4xl font-bold mb-3" style={{ fontFamily: 'var(--font-display), Georgia, serif', color: '#2D2D2D' }}>
                 What Our Patients Say
               </h2>
               <div className="accent-line-center" />
               <div className="flex items-center justify-center gap-1 mt-2">
                 {[1,2,3,4,5].map(i => <Star key={i} size={18} fill="#F59E0B" color="#F59E0B" />)}
-                <span className="ml-2 text-sm font-semibold" style={{ color: '#2D2D2D', fontFamily: 'DM Sans, sans-serif' }}>4.9</span>
+                <span className="ml-2 text-sm font-semibold" style={{ color: '#2D2D2D', fontFamily: 'var(--font-body), system-ui, sans-serif' }}>4.9</span>
                 <span className="text-sm" style={{ color: '#6B6B6B' }}>· 200+ Trusted Reviews on Google</span>
               </div>
             </div>
@@ -441,11 +441,11 @@ export default function HomePage() {
           <div className="container-hn">
             <div className="text-center mb-12">
               <p className="section-label mb-2">Health Articles</p>
-              <h2 className="text-3xl md:text-4xl font-bold mb-3" style={{ fontFamily: 'Playfair Display, serif', color: '#2D2D2D' }}>
+              <h2 className="text-3xl md:text-4xl font-bold mb-3" style={{ fontFamily: 'var(--font-display), Georgia, serif', color: '#2D2D2D' }}>
                 Expert Health Tips from Dr. Sanjana
               </h2>
               <div className="accent-line-center" />
-              <p className="text-base max-w-2xl mx-auto" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}>
+              <p className="text-base max-w-2xl mx-auto" style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
                 Evidence-based articles on pregnancy, fertility, PCOS, and women&apos;s health for patients in HSR Layout, Attibele, Sarjapura &amp; South Bangalore.
               </p>
             </div>
@@ -486,7 +486,7 @@ export default function HomePage() {
                   >
                     <h3
                       className="text-base font-semibold text-center leading-snug transition-colors group-hover:text-purple-700"
-                      style={{ fontFamily: 'Playfair Display, serif', color: '#2D2D2D' }}
+                      style={{ fontFamily: 'var(--font-display), Georgia, serif', color: '#2D2D2D' }}
                     >
                       {post.title}
                     </h3>
@@ -502,7 +502,7 @@ export default function HomePage() {
                       <span className="text-xs" style={{ color: '#9B9B9B' }}>{post.readTime} min read</span>
                       <span className="text-xs" style={{ color: '#9B9B9B' }}>{post.date}</span>
                     </div>
-                    <p className="text-sm leading-relaxed" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}>
+                    <p className="text-sm leading-relaxed" style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
                       {post.excerpt}
                     </p>
                     <p className="mt-3 text-sm font-semibold" style={{ color: '#8B5E83' }}>Read Article →</p>
@@ -522,7 +522,7 @@ export default function HomePage() {
             <div className="max-w-3xl mx-auto">
               <div className="text-center mb-10">
                 <p className="section-label mb-2">FAQ</p>
-                <h2 className="text-3xl md:text-4xl font-bold mb-3" style={{ fontFamily: 'Playfair Display, serif', color: '#2D2D2D' }}>
+                <h2 className="text-3xl md:text-4xl font-bold mb-3" style={{ fontFamily: 'var(--font-display), Georgia, serif', color: '#2D2D2D' }}>
                   Frequently Asked Questions
                 </h2>
                 <div className="accent-line-center" />
@@ -543,11 +543,11 @@ export default function HomePage() {
           <div className="container-hn text-center">
             <h2
               className="text-2xl md:text-3xl font-bold text-white mb-3"
-              style={{ fontFamily: 'Playfair Display, serif' }}
+              style={{ fontFamily: 'var(--font-display), Georgia, serif' }}
             >
               Ready to Book Your Visit?
             </h2>
-            <p className="text-white/80 mb-6" style={{ fontFamily: 'DM Sans, sans-serif' }}>
+            <p className="text-white/80 mb-6" style={{ fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
               200+ women trust Dr. Sanjana L with their health every month. Join them today.
             </p>
             <div className="flex flex-wrap gap-3 justify-center">

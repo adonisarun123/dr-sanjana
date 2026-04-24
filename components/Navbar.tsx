@@ -58,10 +58,10 @@ export default function Navbar() {
               priority
             />
             <div className="flex-shrink-0">
-              <p className="font-bold text-lg leading-tight" style={{ fontFamily: 'Playfair Display, serif', color: '#8B5E83' }}>
+              <p className="font-bold text-lg leading-tight" style={{ fontFamily: 'var(--font-display), Georgia, serif', color: '#8B5E83' }}>
                 Dr. Sanjana L
               </p>
-              <p className="text-[10px] md:text-xs leading-tight whitespace-nowrap" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}>
+              <p className="text-[10px] md:text-xs leading-tight whitespace-nowrap" style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
                 Health Nest & Raghava Multispeciality Hospital
               </p>
             </div>
@@ -74,7 +74,7 @@ export default function Navbar() {
                 <li key={link.href} className="relative group">
                   <button
                     className="flex items-center gap-1 px-3 py-2 rounded-lg text-sm font-medium transition-colors hover:bg-purple-50"
-                    style={{ color: '#2D2D2D', fontFamily: 'DM Sans, sans-serif' }}
+                    style={{ color: '#2D2D2D', fontFamily: 'var(--font-body), system-ui, sans-serif' }}
                     aria-haspopup="true"
                     aria-expanded={servicesOpen}
                     onClick={() => setServicesOpen(!servicesOpen)}
@@ -97,7 +97,7 @@ export default function Navbar() {
                         key={child.href}
                         href={child.href}
                         className="block px-4 py-2 text-sm transition-colors hover:bg-purple-50"
-                        style={{ color: '#2D2D2D', fontFamily: 'DM Sans, sans-serif' }}
+                        style={{ color: '#2D2D2D', fontFamily: 'var(--font-body), system-ui, sans-serif' }}
                         onClick={() => setServicesOpen(false)}
                       >
                         {child.label}
@@ -110,7 +110,7 @@ export default function Navbar() {
                   <Link
                     href={link.href}
                     className="px-2 py-2 rounded-lg text-sm font-medium transition-colors hover:bg-purple-50 block"
-                    style={{ color: '#2D2D2D', fontFamily: 'DM Sans, sans-serif' }}
+                    style={{ color: '#2D2D2D', fontFamily: 'var(--font-body), system-ui, sans-serif' }}
                   >
                     {link.label}
                   </Link>
@@ -123,14 +123,15 @@ export default function Navbar() {
           <div className="hidden xl:flex items-center gap-2">
             <a
               href="tel:+919449031003"
+              data-analytics="navbar_call"
               className="flex items-center gap-2 text-sm font-medium transition-colors hover:text-purple-700"
-              style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}
+              style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}
               aria-label="Call Health Nest"
             >
               <Phone size={15} />
               <span>+91-9449031003</span>
             </a>
-            <Link href="/book-appointment" className="btn-primary text-sm py-2 px-5">
+            <Link href="/book-appointment" data-analytics="navbar_book" className="btn-primary text-sm py-2 px-5">
               <Calendar size={15} />
               Book Appointment
             </Link>
@@ -163,7 +164,7 @@ export default function Navbar() {
                 <Link
                   href={link.href}
                   className="block px-4 py-3 rounded-xl text-sm font-medium transition-colors hover:bg-purple-50"
-                  style={{ color: '#2D2D2D', fontFamily: 'DM Sans, sans-serif' }}
+                  style={{ color: '#2D2D2D', fontFamily: 'var(--font-body), system-ui, sans-serif' }}
                   onClick={() => setMobileOpen(false)}
                 >
                   {link.label}
@@ -175,7 +176,7 @@ export default function Navbar() {
                         <Link
                           href={child.href}
                           className="block px-4 py-2 rounded-lg text-sm transition-colors hover:bg-purple-50"
-                          style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}
+                          style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}
                           onClick={() => setMobileOpen(false)}
                         >
                           {child.label}
@@ -188,10 +189,10 @@ export default function Navbar() {
             ))}
           </ul>
           <div className="mt-4 flex flex-col gap-3 px-4">
-            <a href="tel:+919449031003" className="btn-secondary w-full justify-center">
+            <a href="tel:+919449031003" data-analytics="navbar_mobile_call" className="btn-secondary w-full justify-center">
               <Phone size={15} /> Call Us (+91-9449031003)
             </a>
-            <Link href="/book-appointment" className="btn-primary w-full justify-center" onClick={() => setMobileOpen(false)}>
+            <Link href="/book-appointment" data-analytics="navbar_mobile_book" className="btn-primary w-full justify-center" onClick={() => setMobileOpen(false)}>
               <Calendar size={15} /> Book Appointment
             </Link>
           </div>

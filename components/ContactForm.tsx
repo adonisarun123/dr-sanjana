@@ -81,7 +81,7 @@ function ContactFormFields() {
 
   return (
     <div className="mt-8 rounded-3xl p-8" style={{ background: '#FFF8F0', border: '1px solid #E8E0DB' }}>
-      <h3 className="font-bold text-2xl mb-6" style={{ fontFamily: 'Playfair Display, serif', color: '#2D2D2D' }}>
+      <h3 className="font-bold text-2xl mb-6" style={{ fontFamily: 'var(--font-display), Georgia, serif', color: '#2D2D2D' }}>
         Send Us a Message
       </h3>
       <form onSubmit={handleSubmit(onSubmit)} aria-label="Contact form" noValidate>
@@ -230,7 +230,7 @@ function ContactFormFields() {
         </div>
 
         <div className="mt-6">
-          <p className="text-xs mb-4" style={{ color: '#9B9B9B', fontFamily: 'DM Sans, sans-serif' }}>
+          <p className="text-xs mb-4" style={{ color: '#9B9B9B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
             By submitting, you agree that Health Nest may contact you to confirm your appointment. Your details will not be shared with third parties.
           </p>
           <button

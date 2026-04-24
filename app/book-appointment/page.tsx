@@ -239,7 +239,7 @@ function AppointmentForm() {
       </div>
 
       <div className="mt-6">
-        <p className="text-xs mb-4" style={{ color: '#9B9B9B', fontFamily: 'DM Sans, sans-serif' }}>
+        <p className="text-xs mb-4" style={{ color: '#9B9B9B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
           By submitting, you agree that Health Nest may contact you to confirm your appointment. Your details will not be shared with third parties.
         </p>
         <button
@@ -272,11 +272,11 @@ export default function BookAppointmentPage() {
         <section className="bg-gradient-hero" style={{ paddingTop: '100px', paddingBottom: '40px' }}>
           <div className="container-hn">
             <BreadcrumbNav crumbs={[{ label: 'Home', href: '/' }, { label: 'Book Appointment' }]} />
-            <h1 className="text-4xl md:text-5xl font-bold mt-4 mb-3" style={{ fontFamily: 'Playfair Display, serif', color: '#2D2D2D' }}>
+            <h1 className="text-4xl md:text-5xl font-bold mt-4 mb-3" style={{ fontFamily: 'var(--font-display), Georgia, serif', color: '#2D2D2D' }}>
               Book an Appointment
             </h1>
             <div className="accent-line" />
-            <p style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}>
+            <p style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
               Dr. Sanjana L · Health Nest & Raghava Multispeciality Hospital | 10+ Years Experience
             </p>
           </div>
@@ -304,14 +304,14 @@ export default function BookAppointmentPage() {
                   <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/20 to-transparent h-1/4" />
                 </div>
                 <div className="rounded-2xl p-5" style={{ background: '#FFF8F0', border: '1px solid #E8E0DB' }}>
-                  <h3 className="font-bold mb-3" style={{ fontFamily: 'DM Sans, sans-serif', color: '#2D2D2D' }}>Call to Book</h3>
+                  <h3 className="font-bold mb-3" style={{ fontFamily: 'var(--font-body), system-ui, sans-serif', color: '#2D2D2D' }}>Call to Book</h3>
                   <a href="tel:+919449031003" className="btn-primary w-full justify-center">
                     <Phone size={16} /> +91-9449031003
                   </a>
                   <p className="text-xs mt-3 text-center" style={{ color: '#9B9B9B' }}>Mon–Sat · 8 AM – 9 PM | Sun · On Appointment</p>
                 </div>
                 <div className="rounded-2xl p-5" style={{ background: '#FFF8F0', border: '1px solid #E8E0DB' }}>
-                  <h3 className="font-bold mb-3" style={{ fontFamily: 'DM Sans, sans-serif', color: '#2D2D2D' }}>Why Health Nest?</h3>
+                  <h3 className="font-bold mb-3" style={{ fontFamily: 'var(--font-body), system-ui, sans-serif', color: '#2D2D2D' }}>Why Health Nest?</h3>
                   {[
                     '10 plus years of expertise',
                     'In-person & online consultations',

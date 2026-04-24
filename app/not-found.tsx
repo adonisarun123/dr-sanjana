@@ -7,11 +7,11 @@ export default function NotFound() {
       <Navbar />
       <main id="main-content" className="bg-gradient-hero" style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', paddingTop: '80px' }}>
         <div className="container-hn text-center py-20">
-          <p className="text-8xl font-bold gradient-text mb-4" style={{ fontFamily: 'Playfair Display, serif' }}>404</p>
-          <h1 className="text-3xl font-bold mb-4" style={{ fontFamily: 'Playfair Display, serif', color: '#2D2D2D' }}>
+          <p className="text-8xl font-bold gradient-text mb-4" style={{ fontFamily: 'var(--font-display), Georgia, serif' }}>404</p>
+          <h1 className="text-3xl font-bold mb-4" style={{ fontFamily: 'var(--font-display), Georgia, serif', color: '#2D2D2D' }}>
             Page Not Found
           </h1>
-          <p className="mb-8" style={{ color: '#6B6B6B', fontFamily: 'DM Sans, sans-serif' }}>
+          <p className="mb-8" style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
             The page you are looking for does not exist or has been moved.
           </p>
           <div className="flex flex-wrap gap-3 justify-center">

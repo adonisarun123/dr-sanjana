@@ -43,7 +43,7 @@ export default function FAQAccordion({ faqs, schema = true }: FAQAccordionProps)
               aria-controls={`faq-answer-${i}`}
               id={`faq-question-${i}`}
             >
-              <span className="pr-4 text-left" style={{ fontFamily: 'DM Sans, sans-serif' }}>{faq.q}</span>
+              <span className="pr-4 text-left" style={{ fontFamily: 'var(--font-body), system-ui, sans-serif' }}>{faq.q}</span>
               <ChevronDown
                 size={18}
                 className="flex-shrink-0 transition-transform duration-300"
