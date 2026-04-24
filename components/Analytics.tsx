@@ -3,7 +3,15 @@
 import Script from 'next/script';
 import { usePathname, useSearchParams } from 'next/navigation';
 import { Suspense, useEffect, useRef } from 'react';
-import { GA4_ID, GADS_ID, track, trackPageView } from '@/lib/analytics';
+import {
+  GA4_ID,
+  GADS_ID,
+  GADS_PHONE_CONVERSION_LABEL,
+  GADS_PHONE_FORWARDING_NUMBER,
+  track,
+  trackPageView,
+  trackPhoneCallConversion,
+} from '@/lib/analytics';
 
 /**
  * Mounted once in the root layout. Owns:
@@ -32,6 +40,11 @@ export default function Analytics() {
           gtag('js', new Date());
           gtag('config', '${GADS_ID}', { send_page_view: true });
           ${GA4_ID ? `gtag('config', '${GA4_ID}', { send_page_view: true });` : ''}
+          ${
+            GADS_PHONE_CONVERSION_LABEL && GADS_PHONE_FORWARDING_NUMBER
+              ? `gtag('config', '${GADS_ID}/${GADS_PHONE_CONVERSION_LABEL}', { phone_conversion_number: '${GADS_PHONE_FORWARDING_NUMBER}' });`
+              : ''
+          }
         `}
       </Script>
       <Suspense fallback={null}>
@@ -112,9 +125,17 @@ function AnalyticsListeners() {
       if (link.tagName === 'A') {
         const href = (link as HTMLAnchorElement).getAttribute('href') || '';
         if (href.startsWith('tel:')) {
+          const phone = href.replace(/^tel:/, '');
           track('phone_click', {
-            phone: href.replace(/^tel:/, ''),
+            phone,
             page_path: pathname || '',
+          });
+          // Fire the Google Ads phone-call conversion in addition to the
+          // analytics event. No-op when the conversion label env var isn't
+          // configured, so this is safe to leave on by default.
+          trackPhoneCallConversion({
+            phone,
+            source: ctaId || 'tel_link',
           });
         } else if (
           /(^https?:\/\/(api\.whatsapp\.com|wa\.me|chat\.whatsapp\.com))/i.test(

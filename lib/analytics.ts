@@ -9,20 +9,33 @@
  * Configuration via NEXT_PUBLIC_* env vars (so they're inlined at build time
  * and available on the client):
  *
- *   NEXT_PUBLIC_GADS_ID                  Google Ads tag ID. Default: AW-18058250699
- *   NEXT_PUBLIC_GADS_CONVERSION_LABEL    Conversion label for the "Lead" action.
- *                                         Get this from Google Ads → Tools →
- *                                         Conversions → New conversion (Lead).
- *                                         Looks like:  AbC1dEf2gHi3
- *   NEXT_PUBLIC_GA4_ID                   Optional GA4 measurement ID (G-XXXXXXX).
- *                                         When set, page_view + custom events
- *                                         are also reported to GA4.
+ *   NEXT_PUBLIC_GADS_ID                       Google Ads tag ID. Default: AW-18058250699
+ *   NEXT_PUBLIC_GADS_CONVERSION_LABEL         Conversion label for the "Lead" (form) action.
+ *                                              Get from Google Ads → Tools → Conversions →
+ *                                              New conversion (Lead). Looks like: AbC1dEf2gHi3
+ *   NEXT_PUBLIC_GADS_PHONE_CONVERSION_LABEL   Conversion label for "Phone clicks" action.
+ *                                              Create a separate conversion action of type
+ *                                              "Phone calls → Calls from a website" (or
+ *                                              "Clicks on your number on a mobile website").
+ *   NEXT_PUBLIC_GADS_PHONE_FORWARDING_NUMBER  E.164 number to enable Google Forwarding
+ *                                              Number (Dynamic Number Insertion). When set,
+ *                                              this number is replaced on-page with a
+ *                                              Google-issued tracking number for Ads visitors,
+ *                                              and qualified call duration is reported back.
+ *                                              Example: "+919449031003"
+ *   NEXT_PUBLIC_GA4_ID                        Optional GA4 measurement ID (G-XXXXXXX).
+ *                                              When set, page_view + custom events also
+ *                                              flow to GA4.
  */
 
 export const GADS_ID =
   process.env.NEXT_PUBLIC_GADS_ID || 'AW-18058250699';
 export const GADS_CONVERSION_LABEL =
   process.env.NEXT_PUBLIC_GADS_CONVERSION_LABEL || '';
+export const GADS_PHONE_CONVERSION_LABEL =
+  process.env.NEXT_PUBLIC_GADS_PHONE_CONVERSION_LABEL || '';
+export const GADS_PHONE_FORWARDING_NUMBER =
+  process.env.NEXT_PUBLIC_GADS_PHONE_FORWARDING_NUMBER || '';
 export const GA4_ID = process.env.NEXT_PUBLIC_GA4_ID || '';
 
 declare global {
@@ -39,6 +52,7 @@ export type AnalyticsEvent =
   | 'scroll_depth'
   | 'cta_click'
   | 'phone_click'
+  | 'phone_call_conversion'
   | 'whatsapp_click'
   | 'outbound_click'
   | 'lead_form_view'
@@ -123,5 +137,67 @@ export function trackLeadConversion(meta: {
     transaction_id,
     service: meta.service,
     center: meta.center,
+  });
+}
+
+/**
+ * Fire the Google Ads "Phone clicks" / "Calls from a website" conversion plus
+ * a GA4 phone_call_conversion event. Wired into the global click delegation
+ * for every `tel:` link so each call attempt is counted.
+ *
+ * Skipped silently when NEXT_PUBLIC_GADS_PHONE_CONVERSION_LABEL is unset, so
+ * no unattributed conversions get fired before the Ads action exists.
+ */
+export function trackPhoneCallConversion(meta: {
+  phone?: string;
+  source?: string;
+  value?: number;
+  currency?: string;
+} = {}): void {
+  if (typeof window === 'undefined') return;
+
+  const value = meta.value ?? 1;
+  const currency = meta.currency ?? 'INR';
+
+  if (GADS_PHONE_CONVERSION_LABEL && typeof window.gtag === 'function') {
+    window.gtag('event', 'conversion', {
+      send_to: `${GADS_ID}/${GADS_PHONE_CONVERSION_LABEL}`,
+      value,
+      currency,
+    });
+  }
+
+  // GA4 / GTM-friendly event: not a reserved name, so it shows up clean
+  // alongside the auto-fired `phone_click` event from click delegation.
+  track('phone_call_conversion', {
+    phone: meta.phone,
+    source: meta.source,
+    currency,
+    value,
+  });
+}
+
+/**
+ * Enable Google Forwarding Number (GFN) — Dynamic Number Insertion.
+ *
+ * When NEXT_PUBLIC_GADS_PHONE_FORWARDING_NUMBER is set, this tells gtag to
+ * swap that displayed number with a Google-issued tracking number whenever
+ * the visitor arrived from a Google Ads click. Google then measures call
+ * duration and reports qualifying calls back as conversions.
+ *
+ * Requires:
+ *   1. NEXT_PUBLIC_GADS_PHONE_CONVERSION_LABEL set (the Ads phone-call action)
+ *   2. NEXT_PUBLIC_GADS_PHONE_FORWARDING_NUMBER set to the displayed number
+ *
+ * Must be called AFTER the gtag.js loader has registered window.gtag.
+ */
+export function configurePhoneTracking(): void {
+  if (typeof window === 'undefined') return;
+  if (typeof window.gtag !== 'function') return;
+  if (!GADS_PHONE_CONVERSION_LABEL) return;
+  if (!GADS_PHONE_FORWARDING_NUMBER) return;
+
+  window.gtag('config', `${GADS_ID}/${GADS_PHONE_CONVERSION_LABEL}`, {
+    phone_conversion_number: GADS_PHONE_FORWARDING_NUMBER,
   });
 }

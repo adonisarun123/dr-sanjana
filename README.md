@@ -39,6 +39,7 @@ The site ships with a single analytics layer (`lib/analytics.ts` + `components/A
 | `scroll_depth` (25/50/75/100) | While scrolling any page | Engagement / drop-off |
 | `cta_click` | Click on any element with `data-analytics="..."` | All marked CTAs (header_call, navbar_book, whatsapp_float, etc.) |
 | `phone_click` | Click on any `tel:` link | Call attribution |
+| `phone_call_conversion` + Google Ads `conversion` | Click on any `tel:` link (when `NEXT_PUBLIC_GADS_PHONE_CONVERSION_LABEL` is set) | Smart Bidding for calls |
 | `whatsapp_click` | Click on any `wa.me` / `api.whatsapp.com` / `chat.whatsapp.com` link | WhatsApp attribution |
 | `outbound_click` | Click on any cross-origin `http(s)` link | Exit tracking |
 | `lead_form_view` | Lead form 50% in viewport | Form discovery |
@@ -51,15 +52,33 @@ The site ships with a single analytics layer (`lib/analytics.ts` + `components/A
 To wire up Google Ads conversions and (optional) GA4, set these in `.env.local` / Vercel project env vars:
 
 ```bash
-# Google Ads
-NEXT_PUBLIC_GADS_ID="AW-18058250699"                # already the default
-NEXT_PUBLIC_GADS_CONVERSION_LABEL="AbC1dEf2gHi3"    # required to fire the Ads "Lead" conversion
+# Google Ads — required
+NEXT_PUBLIC_GADS_ID="AW-18058250699"                          # already the default
+
+# Form-submit conversion (Lead)
+NEXT_PUBLIC_GADS_CONVERSION_LABEL="AbC1dEf2gHi3"
+
+# Phone-call conversion (clicks on tel: links)
+NEXT_PUBLIC_GADS_PHONE_CONVERSION_LABEL="ZyXw9876vUtS"
+
+# OPTIONAL: enable Google Forwarding Numbers (Dynamic Number Insertion).
+# When set, the displayed number on Ads-sourced sessions is replaced with a
+# Google-issued tracking number; Google then reports qualified call duration
+# back to your Ads account. Number must be in E.164 format and must match the
+# tel: links rendered on the page.
+NEXT_PUBLIC_GADS_PHONE_FORWARDING_NUMBER="+919449031003"
 
 # Optional: enable GA4 in parallel
 NEXT_PUBLIC_GA4_ID="G-XXXXXXXXXX"
 ```
 
-Get the conversion label from **Google Ads → Tools → Conversions → New conversion → Lead**. Until you set it, every other event still flows through (so GA4 and dataLayer get full data), but the Google Ads `conversion` event is suppressed to prevent unattributed firings.
+### Call tracking setup (Google Ads)
+
+1. **Form-fill conversion** — Ads → Tools → Conversions → New → *Website* → category *Submit lead form*. Save the label into `NEXT_PUBLIC_GADS_CONVERSION_LABEL`.
+2. **Phone-click conversion** — Ads → Tools → Conversions → New → *Phone calls* → *Calls from a website* (preferred) or *Clicks on your number on a mobile website*. Save the label into `NEXT_PUBLIC_GADS_PHONE_CONVERSION_LABEL`. Every `tel:` click on the site will now fire this conversion automatically — no per-link wiring needed.
+3. **(Optional) Google Forwarding Number** — if you chose *Calls from a website* in step 2, also set `NEXT_PUBLIC_GADS_PHONE_FORWARDING_NUMBER` to the displayed number (E.164, e.g. `+919449031003`). For Ads-sourced sessions, Google will swap that number on-page with a tracking number and measure call duration; calls longer than the threshold you configured in Ads count as conversions.
+
+Until the labels are set, the analytics events (`phone_click`, `lead_form_submit_success`, etc.) still flow to GA4 / `dataLayer`, but the Google Ads `conversion` events are suppressed to prevent unattributed firings.
 
 To track a brand-new CTA, add `data-analytics="some_id"` to the element — the global click delegation in `<Analytics />` picks it up automatically; no per-component wiring required.
 
