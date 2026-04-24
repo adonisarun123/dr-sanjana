@@ -32,8 +32,12 @@ export const GADS_ID =
   process.env.NEXT_PUBLIC_GADS_ID || 'AW-18058250699';
 export const GADS_CONVERSION_LABEL =
   process.env.NEXT_PUBLIC_GADS_CONVERSION_LABEL || '';
+// Default is the live "Click to call" conversion label provided by the Ads
+// account. Override per-environment (e.g. set to '' on preview deployments)
+// so non-production traffic never inflates the Ads conversion count.
 export const GADS_PHONE_CONVERSION_LABEL =
-  process.env.NEXT_PUBLIC_GADS_PHONE_CONVERSION_LABEL || '';
+  process.env.NEXT_PUBLIC_GADS_PHONE_CONVERSION_LABEL ||
+  'r8jRCO_C86EcEMuT7KJD';
 export const GADS_PHONE_FORWARDING_NUMBER =
   process.env.NEXT_PUBLIC_GADS_PHONE_FORWARDING_NUMBER || '';
 export const GA4_ID = process.env.NEXT_PUBLIC_GA4_ID || '';
