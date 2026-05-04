@@ -1813,6 +1813,891 @@ If you are looking for **pregnancy care in HSR Layout** or **pregnancy care in A
 Call **+91-9449031003** (HSR Layout) or **+91-9980031006** (Attibele) to book your first **antenatal checkup**. Or learn more about our <a href="/services/pregnancy-care">pregnancy care programme</a> and <a href="/services/high-risk-pregnancy">high-risk pregnancy support</a>. Also read our <a href="/blog/first-trimester-pregnancy-guide">first trimester pregnancy guide</a> for week-by-week guidance through the early months.
     `,
   },
+  {
+    slug: 'early-signs-of-pregnancy',
+    title: 'Early Signs of Pregnancy Before Missed Period — When to See a Gynaecologist in Bangalore',
+    excerpt: 'Wondering if you are pregnant before your period is even due? Dr. Sanjana L, a leading gynaecologist in HSR Layout & Attibele, explains the 12 earliest signs of pregnancy before a missed period, when to take a home pregnancy test, and exactly when to see a gynaecologist for your first antenatal checkup.',
+    category: 'Pregnancy',
+    tags: ['early signs of pregnancy', 'before missed period', 'pregnancy symptoms', 'implantation bleeding', 'when to see gynaecologist', 'pregnancy doctor HSR Layout', 'pregnancy doctor Attibele', 'antenatal checkup HSR Layout', 'antenatal checkup Attibele', 'prenatal care HSR Layout', 'pregnancy scan HSR Layout', 'pregnancy ultrasound HSR Layout', 'Bangalore'],
+    readTime: 11,
+    date: '2026-05-04',
+    author: 'Dr. Sanjana L',
+    metaTitle: 'Early Signs of Pregnancy Before Missed Period | Dr. Sanjana L Bangalore',
+    metaDescription: '12 early signs of pregnancy before a missed period — implantation bleeding, fatigue, breast tenderness, nausea — explained by Dr. Sanjana L, gynaecologist at Health Nest (HSR Layout) and Raghava Hospital (Attibele). Includes when to see a gynaecologist, first scan and antenatal checkup guide.',
+    content: `
+## Early Signs of Pregnancy Before Missed Period — A Complete Guide
+
+If you are wondering whether you might be pregnant before your period is even due, you are not alone. Many women in Bangalore visit Dr. Sanjana L at Health Nest (HSR Layout) and Raghava Multispeciality Hospital (Attibele) asking the same question: "I think I am pregnant. Is it too early to test?"
+
+Your body often gives you small clues days before a missed period. Pregnancy hormones — mainly **human chorionic gonadotropin (hCG)** and progesterone — start rising within hours of implantation, around 6 to 12 days after ovulation. These hormones produce subtle but recognisable symptoms.
+
+This complete guide walks you through the **early signs of pregnancy before missed period**, when a home pregnancy test becomes reliable, **when to see a gynaecologist during pregnancy**, and what your first **antenatal checkup in HSR Layout** or **antenatal checkup in Attibele** will cover.
+
+## Why Spotting Early Pregnancy Signs Matters
+
+Early recognition is more than reassurance — it directly affects your baby's health.
+
+The first 8 to 10 weeks of pregnancy are when the baby's brain, spinal cord, heart, eyes and limbs form. Folic acid intake, controlled blood sugar, thyroid balance, avoiding certain medicines, and stopping alcohol and smoking all matter most during this window — often before a woman realises she is pregnant.
+
+A timely **antenatal checkup with a pregnancy doctor in HSR Layout** or a **pregnancy doctor in Attibele** lets you:
+
+- Start prenatal vitamins (folic acid 400 to 800 mcg, vitamin D, iodine)
+- Confirm the pregnancy with a beta-hCG blood test and rule out ectopic or molar pregnancy
+- Book the first **pregnancy scan in HSR Layout** (a viability and dating ultrasound)
+- Identify high-risk factors early — PCOS, diabetes, hypothyroidism, advanced maternal age, previous miscarriage
+- Adjust existing medications that are unsafe in pregnancy
+
+## 12 Early Signs of Pregnancy Before Missed Period
+
+These are the signs Dr. Sanjana L most often hears from women who turn out to be pregnant before they even miss a period. Some women experience many of these; some experience almost none. Both are normal.
+
+### 1. Implantation Bleeding or Light Spotting
+A small percentage of women notice light pink or brown spotting around 6 to 12 days after ovulation, when the fertilised egg implants into the uterine lining. It is much lighter than a normal period — usually a few drops, lasting a few hours to two days. If you are tracking your cycle and notice spotting earlier than expected, **implantation bleeding** is one of the earliest signs of pregnancy before a missed period.
+
+### 2. Mild Lower Abdominal Cramping
+Implantation can cause mild, dull cramping that feels similar to period pain. The cramps are usually one-sided, mild, and last a day or two. If pain is severe, sharp or one-sided with shoulder tip pain or fainting — see a gynaecologist immediately to rule out an ectopic pregnancy.
+
+### 3. Sore, Tender, Heavier Breasts
+Rising progesterone increases blood flow to the breasts. They may feel fuller, heavier, tingly, or sore. Nipples can darken and become more sensitive. This is one of the most common early signs of pregnancy before missed period and often appears within 1 to 2 weeks of conception.
+
+### 4. Unusual Tiredness and Fatigue
+Progesterone is sedating. Many women feel exhausted by the afternoon, struggle to climb stairs they normally manage easily, or fall asleep during evening TV. Pregnancy fatigue is more intense than premenstrual tiredness — if you find yourself sleeping more than usual without explanation, it is worth taking a test.
+
+### 5. Nausea, Queasiness or Aversion to Food Smells
+Morning sickness can begin as early as 2 to 3 weeks after conception. Smells of cooking oil, fish, eggs or filter coffee may suddenly feel unbearable. Some women experience true vomiting; others just feel "off" and unable to eat normally.
+
+### 6. Frequent Urination
+By week 4 or 5, the kidneys process more fluid and the growing uterus presses on the bladder. Waking up at night to urinate, when you previously slept through the night, can be an early pregnancy clue.
+
+### 7. Raised Basal Body Temperature
+If you track basal body temperature (BBT), a sustained rise of 0.3 to 0.5 degrees Celsius lasting more than 18 days after ovulation strongly suggests pregnancy.
+
+### 8. Heightened Sense of Smell (Hyperosmia)
+A sudden inability to tolerate perfumes, cleaning products, or certain foods is a classic — and often very early — sign of pregnancy. Many women report this even before a missed period.
+
+### 9. Food Cravings or Strong Aversions
+Sudden cravings (especially for sour, salty or spicy food) or a sudden dislike for foods you previously loved can begin within 2 weeks of conception. This is driven by hormonal changes affecting taste and smell receptors.
+
+### 10. Mood Swings and Emotional Sensitivity
+Crying at advertisements, irritability without reason, or feeling unusually anxious can all be early signs. Hormone shifts in early pregnancy affect neurotransmitters in the brain, similar to but more intense than premenstrual mood changes.
+
+### 11. Mild Headaches
+Increased blood volume and hormonal changes cause mild, dull headaches in the first few weeks of pregnancy. Always avoid ibuprofen and aspirin if you suspect pregnancy — paracetamol is the safer option until you see your doctor.
+
+### 12. Bloating and Constipation
+Progesterone slows down the gut, leading to bloating, gas, and constipation that feels different from your usual premenstrual bloating. Many women notice their jeans feel tighter even though their actual weight has not changed.
+
+## When Can You Take a Home Pregnancy Test?
+
+Home **urine pregnancy tests** detect hCG in urine. The earliest reliable result depends on the sensitivity of the test:
+
+- **Standard tests (25 mIU/mL):** From the day of your missed period
+- **Sensitive early-detection tests (10 mIU/mL):** 4 to 5 days before the missed period
+- **Beta-hCG blood test (1 to 2 mIU/mL):** As early as 8 to 10 days after ovulation — the most reliable option
+
+For maximum accuracy:
+
+- Use the first urine of the morning (highest hCG concentration)
+- Avoid drinking large amounts of water before testing
+- Wait at least 14 days after possible conception before retesting if the first result is negative
+- A faint line is still a positive line — confirm with a beta-hCG blood test
+
+If you are unsure, Dr. Sanjana L offers a **beta-hCG blood test** at Health Nest (HSR Layout) and Raghava Hospital (Attibele) with same-day results.
+
+## Confirming Pregnancy — What Will the Doctor Do?
+
+When you visit your **pregnancy doctor in HSR Layout** or **pregnancy doctor in Attibele**, the first visit usually includes:
+
+1. **Detailed history** — last menstrual period (LMP), cycle regularity, previous pregnancies, medical conditions
+2. **Beta-hCG blood test** — to confirm pregnancy and check the trend (it should roughly double every 48 to 72 hours in early pregnancy)
+3. **Baseline blood tests** — haemoglobin, blood group and Rh, thyroid function, blood sugar, vitamin D
+4. **Urine routine and culture** — to rule out infection
+5. **First pregnancy scan in HSR Layout** — a transvaginal **dating ultrasound** at 6 to 8 weeks to confirm viability, location of the pregnancy, and number of foetuses
+6. **Lifestyle counselling** — diet, supplements, exercise, medicines to avoid
+
+Read more in Dr. Sanjana's <a href="/blog/first-trimester-pregnancy-guide">complete first trimester pregnancy guide</a> for a week-by-week breakdown.
+
+## When to See a Gynaecologist During Pregnancy
+
+This is the most common follow-up question Dr. Sanjana hears: **when to see a gynaecologist during pregnancy?** The simple rule is:
+
+> **See a gynaecologist within 1 to 2 weeks of a confirmed positive pregnancy test. Do not wait for symptoms to begin.**
+
+You should book an early **antenatal checkup in HSR Layout** or **antenatal checkup in Attibele** if:
+
+- You have a positive home pregnancy test
+- You have any history of miscarriage, ectopic pregnancy, IVF or IUI conception
+- You have diabetes, thyroid disease, hypertension, PCOS, or autoimmune conditions
+- You are above 35 years old
+- You take regular medication (anti-epileptic, blood pressure, thyroid, antidepressants)
+- You experience any spotting, severe pain, fever, or vomiting that prevents you from eating
+
+If you live near HSR Layout, Sarjapura Road, Koramangala, BTM Layout or Bellandur, your nearest **pregnancy doctor in HSR Layout** is at Health Nest, 1162, 24th Main Road, Sector 2, HSR Layout. If you are closer to Attibele, Chandapura, Hosur Road, Jigani or Anekal, Dr. Sanjana also consults at Raghava Multispeciality Hospital (Attibele).
+
+## Red Flag Symptoms That Need Urgent Care
+
+Most early pregnancy symptoms are normal. The following are red flags that need same-day evaluation:
+
+- **Heavy bleeding** (soaking a pad in 1 hour) with or without clots
+- **Severe one-sided lower abdominal pain**, especially with shoulder tip pain, dizziness or fainting (possible ectopic pregnancy)
+- **Persistent vomiting** — unable to keep water down for more than 12 hours (hyperemesis)
+- **Fever above 38 degrees Celsius**
+- **Painful urination** with fever or back pain (possible kidney infection)
+- **Sudden, severe headache with visual disturbance** (rare in early pregnancy but always urgent)
+
+## Your First Antenatal Visit at Health Nest or Raghava Hospital
+
+A complete first **antenatal checkup at HSR Layout** or **antenatal checkup at Attibele** with Dr. Sanjana L typically takes 30 to 45 minutes and includes:
+
+- Confirmation scan (transvaginal ultrasound for accurate dating)
+- Full antenatal blood and urine panel
+- Folic acid and prenatal vitamin prescription
+- Personalised nutrition plan based on weight, BMI, blood reports
+- Vaccination review (Tdap, influenza, COVID-19 status)
+- Birth planning conversation — Health Nest or Raghava Hospital, painless delivery options
+- Schedule for follow-up scans (NT scan at 11 to 13 weeks, anomaly scan at 18 to 22 weeks)
+
+Learn more about Dr. Sanjana's complete <a href="/services/pregnancy-care">pregnancy care programme in HSR Layout and Attibele</a> and <a href="/services/prenatal-screening">prenatal screening services</a>.
+
+## Frequently Asked Questions
+
+### Can I have pregnancy symptoms 1 week before my missed period?
+Yes. Implantation occurs 6 to 12 days after ovulation, and hCG begins rising immediately. Symptoms like breast tenderness, fatigue, nausea, frequent urination, and heightened smell can start within a week of conception — well before your missed period.
+
+### Is implantation bleeding heavy or light?
+Implantation bleeding is always light — usually pink or brown spotting, lasting a few hours to two days, never enough to soak a pad. If bleeding is heavier, brighter red, or accompanied by cramping, see Dr. Sanjana immediately to rule out an ectopic pregnancy or threatened miscarriage.
+
+### What is the earliest a home pregnancy test can detect pregnancy?
+Sensitive early-detection home pregnancy tests can detect hCG 4 to 5 days before a missed period (around 9 to 10 days after ovulation). However, false negatives are common this early. A beta-hCG blood test is more accurate and detectable from 8 to 10 days after ovulation.
+
+### How accurate is a urine pregnancy test before missed period?
+About 75 percent on the day before missed period, increasing to 99 percent two days after a missed period. If a test is negative but symptoms persist, repeat in 3 to 4 days or get a beta-hCG blood test at Health Nest or Raghava Hospital.
+
+### Can stress delay periods and mimic pregnancy?
+Yes. Stress, weight loss, intense exercise, thyroid disease and PCOS can all delay periods and cause similar symptoms (fatigue, breast tenderness). The only reliable way to differentiate is a urine or blood pregnancy test.
+
+### Should I take folic acid before I see the doctor?
+Yes. Start folic acid 400 to 800 mcg daily as soon as you suspect pregnancy. It reduces the risk of neural tube defects (spina bifida) by up to 70 percent. Continue until your doctor prescribes a complete prenatal vitamin.
+
+### When is the first pregnancy scan done?
+The first **pregnancy scan in HSR Layout** is usually done at 6 to 8 weeks of pregnancy (counted from the first day of LMP). This dating ultrasound confirms viability, location, and number of foetuses, and gives the most accurate due date.
+
+### How much does an antenatal checkup cost in HSR Layout or Attibele?
+Costs vary depending on tests included. A standard first **antenatal checkup at Health Nest (HSR Layout)** or **at Raghava Hospital (Attibele)** with Dr. Sanjana L includes consultation, dating scan, basic blood panel and prenatal vitamins. Call to confirm current pricing and packages.
+
+### Is it safe to travel by flight during early pregnancy?
+Domestic flights are generally safe in early pregnancy if you have no spotting, no severe nausea, and no high-risk conditions. International flights and long journeys are best avoided in the first trimester until the dating scan confirms a viable pregnancy.
+
+### Can I exercise in early pregnancy?
+Yes — moderate walking, prenatal yoga, swimming and stationary cycling are safe. Avoid contact sports, hot yoga, scuba diving and any activity with a fall risk. Stop and call Dr. Sanjana if you experience bleeding, severe pain, or breathlessness.
+
+## Book Your Early Pregnancy Consultation with Dr. Sanjana L
+
+Confirming a pregnancy early — and starting **prenatal care in HSR Layout** or **prenatal care in Attibele** within the first few weeks — gives your baby the best possible start.
+
+Dr. Sanjana L (MBBS, MS OBG, Gold Medalist, FRM RGUHS, FMAS) is a trusted **pregnancy doctor in HSR Layout** and **pregnancy doctor in Attibele** with over 10 years of obstetric experience. She consults at Health Nest (1162, 24th Main Road, Sector 2, HSR Layout — near Agara Lake) and Raghava Multispeciality Hospital (Attibele — opposite Syndicate Bank), serving patients from Koramangala, BTM Layout, Sarjapura, Electronic City, Chandapura, Hosur Road, Bellandur, Bommanahalli and across South Bangalore.
+
+Call **+91-9449031003** (HSR Layout) or **+91-9980031006** (Attibele) to book your **first antenatal checkup**. Or learn more about our <a href="/services/pregnancy-care">pregnancy care programme</a>, <a href="/services/prenatal-screening">prenatal screening services</a> and <a href="/services/high-risk-pregnancy">high-risk pregnancy support</a>. Continue reading our <a href="/blog/first-trimester-pregnancy-guide">first trimester pregnancy guide</a> and <a href="/blog/pregnancy-week-by-week-guide">pregnancy week by week guide</a> for the journey ahead.
+    `,
+  },
+  {
+    slug: 'pregnancy-week-by-week-guide',
+    title: 'Pregnancy Week by Week: A Complete 40-Week Guide for Expecting Mothers in Bangalore',
+    excerpt: 'Your complete pregnancy week by week guide — from week 1 through week 40. Dr. Sanjana L, a leading gynaecologist in HSR Layout & Attibele, walks you through fetal development, weekly symptoms, scans, antenatal checkup schedules and warning signs at every stage of pregnancy.',
+    category: 'Pregnancy',
+    tags: ['pregnancy week by week', 'pregnancy guide', 'prenatal care', 'antenatal care', 'pregnancy trimesters', 'fetal development', 'pregnancy care HSR Layout', 'pregnancy care Attibele', 'pregnancy doctor HSR Layout', 'pregnancy doctor Attibele', 'pregnancy ultrasound HSR Layout', 'pregnancy scan HSR Layout', 'antenatal checkup HSR Layout', 'antenatal checkup Attibele', 'Bangalore'],
+    readTime: 22,
+    date: '2026-05-04',
+    author: 'Dr. Sanjana L',
+    metaTitle: 'Pregnancy Week by Week Guide (Weeks 1–40) | Dr. Sanjana L Bangalore',
+    metaDescription: 'Complete pregnancy week by week guide from week 1 to week 40 by Dr. Sanjana L at Health Nest (HSR Layout) and Raghava Hospital (Attibele). Symptoms, scans, baby development and antenatal checkup schedule for every week.',
+    image: '/og-image.jpg',
+    content: `
+## Pregnancy Week by Week Guide — From Week 1 to Week 40
+
+Pregnancy is one of the most extraordinary journeys a woman can experience. Across 40 weeks, a single fertilised cell becomes a fully formed baby — while your body adapts in ways you never imagined.
+
+This comprehensive **pregnancy week by week guide** is written by Dr. Sanjana L (MBBS, MS OBG, Gold Medalist, FRM RGUHS, FMAS), a trusted **pregnancy doctor in HSR Layout** and **pregnancy doctor in Attibele**, with over 10 years of obstetric experience at Health Nest and Raghava Multispeciality Hospital. It is designed for expecting mothers across Bangalore — HSR Layout, Sarjapura, Electronic City, Koramangala, Attibele, Chandapura and beyond — who want a clear, week-by-week roadmap of **pregnancy care in HSR Layout and Attibele**.
+
+For a deeper dive into the early weeks, read Dr. Sanjana's <a href="/blog/first-trimester-pregnancy-guide">first trimester pregnancy guide</a> and <a href="/blog/early-signs-of-pregnancy">early signs of pregnancy before missed period</a> guide.
+
+## How Pregnancy Is Dated
+
+Pregnancy is dated from the **first day of your last menstrual period (LMP)**, not from the day of conception. This is because most women know the date of their last period but not the exact day of ovulation. So the first 2 weeks of your "pregnancy" actually pass before conception even occurs.
+
+A full-term pregnancy lasts about **40 weeks (or 280 days)** from LMP, divided into three trimesters:
+
+- **First trimester:** Weeks 1 to 12
+- **Second trimester:** Weeks 13 to 27
+- **Third trimester:** Weeks 28 to 40+
+
+## First Trimester (Weeks 1 to 12) — Building Foundations
+
+The first trimester is when most fetal development happens. By the end of week 12, all major organs have formed. This is also when most early **antenatal checkups in HSR Layout** and **antenatal checkups in Attibele** start.
+
+### Week 1 and 2: Pre-Conception
+Your body is preparing for ovulation. The uterine lining thickens. Egg release (ovulation) typically occurs around day 14 of a 28-day cycle. Conception happens within 24 hours of ovulation, when sperm meets egg in the fallopian tube. **Tip:** Start folic acid 400 to 800 mcg daily if you are trying to conceive.
+
+### Week 3: Fertilisation
+The fertilised egg (zygote) divides as it travels down the fallopian tube. Genetic blueprint is set — sex, eye colour, hair, height. You will not feel anything yet.
+
+### Week 4: Implantation
+The blastocyst implants into the uterine lining. hCG production begins. You may notice **implantation bleeding** (light spotting) or mild cramps. A home pregnancy test typically becomes positive at the very end of this week.
+
+### Week 5: Heart Begins to Form
+The embryo is the size of a sesame seed (around 2 mm). The neural tube (future brain and spinal cord) is forming. Pregnancy symptoms — sore breasts, fatigue, frequent urination, nausea — may start. Book your first **antenatal checkup in HSR Layout or Attibele** this week.
+
+### Week 6: First Heartbeat
+The embryo is about 5 mm. Tiny limb buds appear. The first heartbeat is sometimes detectable on a high-quality transvaginal **pregnancy scan in HSR Layout**. Morning sickness peaks for many women.
+
+### Week 7: Limbs Lengthen
+The embryo is around 1 cm. Eyes, nostrils and ears begin to take shape. Many women experience strong food aversions and exhaustion.
+
+### Week 8: Baby Looks Like a Baby
+The embryo (now called a fetus) is around 1.5 cm. Fingers and toes are forming. Heartbeat is now consistently visible on **pregnancy ultrasound in HSR Layout**. The first formal dating scan is usually done now.
+
+### Week 9: Major Organs Forming
+The fetus is around 2.3 cm. All major organs are present in early form. The placenta is taking over hormone production from the corpus luteum.
+
+### Week 10: External Genitalia Develops
+The fetus is around 3 cm. External genitalia begin to form (still not visible on ultrasound). Nausea may start to ease for some women.
+
+### Week 11: Movement Begins
+The fetus is around 4 cm and starts making small movements (you cannot feel them yet). Bones are beginning to harden.
+
+### Week 12: First Trimester Ends
+The fetus is around 5.5 cm and weighs about 14 grams. The **NT (nuchal translucency) scan and dual marker test** is done between week 11 and 13 weeks 6 days to screen for chromosomal abnormalities (Down syndrome). Risk of miscarriage drops sharply after week 12.
+
+## Second Trimester (Weeks 13 to 27) — The Golden Period
+
+The second trimester is often called the most enjoyable phase of pregnancy. Energy returns, nausea usually subsides, and the bump starts to show. Most women in **prenatal care in HSR Layout** report feeling their best between weeks 14 and 24.
+
+### Week 13: Vocal Cords Form
+The fetus is around 7 cm. Vocal cords develop. Many women feel a noticeable energy boost.
+
+### Week 14: Facial Expressions Begin
+The fetus is around 8 cm. It can squint, frown, and grimace. The thyroid gland begins producing its own hormones.
+
+### Week 15: Hair Follicles Appear
+The fetus is around 10 cm. Hair patterns and skin pigment begin developing. Some women notice darkening of the linea nigra (line down the abdomen).
+
+### Week 16: Sex Visible on Ultrasound
+The fetus is around 12 cm. External genitalia are now developed enough to potentially identify sex on ultrasound (note: prenatal sex determination is illegal in India under the PCPNDT Act).
+
+### Week 17: Skeleton Hardens
+The fetus is around 13 cm. Bones transform from cartilage to actual bone. The umbilical cord thickens.
+
+### Week 18: First Movements (Quickening)
+First-time mothers may feel "quickening" — the first faint flutters of fetal movement — between weeks 18 and 22. Mothers who have been pregnant before often feel it earlier (15 to 17 weeks).
+
+### Week 19: Vernix Caseosa
+The fetus is around 15 cm. A protective waxy coating (vernix) covers the skin to protect it from amniotic fluid.
+
+### Week 20: Halfway Point — Anomaly Scan
+The fetus is around 16 cm and weighs around 300 grams. The **detailed anomaly scan (TIFFA scan)** is done between weeks 18 and 22 to check fetal anatomy in detail — heart, brain, spine, kidneys, limbs. This is one of the most important scans in **pregnancy care in HSR Layout and Attibele**.
+
+### Week 21: Taste Buds Develop
+The fetus is around 27 cm (head to heel). Taste buds develop and the fetus swallows amniotic fluid, getting accustomed to flavours from the mother's diet.
+
+### Week 22: Eyebrows and Eyelashes
+The fetus is around 28 cm. Fine hair (lanugo) covers the body. Movements feel stronger.
+
+### Week 23: Hearing Develops
+The fetus is around 29 cm. Hearing is developing — your baby can now hear muffled sounds from outside the womb. Some parents start playing music or talking to the bump.
+
+### Week 24: Lungs Begin to Mature
+The fetus is around 30 cm and weighs around 600 grams. Lungs begin producing surfactant. The point of viability — survival outside the womb (with intensive care) is increasingly possible from this week.
+
+### Week 25: Reflexes Develop
+The fetus is around 34 cm. Startle reflex develops. Eyes may begin to open.
+
+### Week 26: Eyes Open
+The fetus is around 35 cm and weighs around 800 grams. Eyelids open and the fetus can blink. Brain activity surges.
+
+### Week 27: End of Second Trimester
+The fetus is around 36 cm and weighs around 1 kg. Lung development continues. The **glucose tolerance test (GTT)** is usually done between weeks 24 and 28 to screen for gestational diabetes. Read more about <a href="/services/high-risk-pregnancy">high-risk pregnancy management</a> if your GTT is abnormal.
+
+## Third Trimester (Weeks 28 to 40) — Final Preparation
+
+The third trimester is when growth speeds up dramatically. Antenatal visits become more frequent — typically every 2 weeks from week 28 and every week from week 36. **Pregnancy care in HSR Layout** and **pregnancy care in Attibele** during this stage focuses on growth monitoring and birth planning.
+
+### Week 28: Brain Surface Develops
+The fetus is around 37 cm and weighs around 1.1 kg. Brain develops its characteristic grooves and folds. Iron supplements are usually started.
+
+### Week 29: Bones Strengthen
+The fetus is around 38 cm. Bones continue to harden. Mother's calcium needs increase.
+
+### Week 30: Increasing Movements
+The fetus is around 40 cm and weighs around 1.4 kg. Movements should be felt regularly — start counting movements daily.
+
+### Week 31: Bone Marrow Production
+The fetus is around 41 cm. Bone marrow takes over red blood cell production from the liver and spleen.
+
+### Week 32: Baby Settles Head-Down
+The fetus is around 42 cm and weighs around 1.7 kg. Most babies start moving into a head-down position. **Growth scan in HSR Layout** is usually done around this time to assess fetal weight, position and amniotic fluid.
+
+### Week 33: Skull Stays Soft
+The fetus is around 43 cm. Skull bones remain soft and unfused — to allow passage through the birth canal during delivery.
+
+### Week 34: Lungs Almost Mature
+The fetus is around 45 cm and weighs around 2.1 kg. Lungs are nearly fully developed. Babies born now usually breathe independently.
+
+### Week 35: Increasing Weight Gain
+The fetus is around 46 cm and weighs around 2.4 kg. Most weight gain in the final weeks is fat — preparing for life outside the womb.
+
+### Week 36: Term Approaches
+The fetus is around 47 cm and weighs around 2.6 kg. Antenatal visits become weekly. **Group B Streptococcus (GBS) test**, hospital bag preparation, birth plan discussion, and choice of normal versus painless delivery are all reviewed. Read more about <a href="/services/painless-delivery">painless delivery in HSR Layout and Attibele</a>.
+
+### Week 37: Early Term
+The fetus is around 48 cm and weighs around 2.9 kg. Delivery any time from now is considered "early term" but generally safe.
+
+### Week 38: Full Term
+The fetus is around 49 cm and weighs around 3.1 kg. Vernix and lanugo are mostly shed. Baby is fully ready.
+
+### Week 39: Active Term
+The fetus is around 50 cm and weighs around 3.3 kg. The brain continues developing rapidly — this is why obstetricians prefer to wait for spontaneous labour rather than scheduling an early elective induction.
+
+### Week 40: Estimated Due Date
+The fetus is around 51 cm and weighs around 3.5 kg. Only about 5 percent of babies are born exactly on the due date. Most arrive between week 38 and week 41.
+
+### Week 41 and 42: Post-Term
+If labour does not begin by week 41, induction is usually planned. Beyond week 42, the placenta becomes less efficient and risks rise — Dr. Sanjana plans labour induction or caesarean delivery as appropriate.
+
+## Antenatal Checkup Schedule in Bangalore
+
+A standard **antenatal checkup schedule in HSR Layout** or **antenatal checkup schedule in Attibele** with Dr. Sanjana L:
+
+| Trimester | Visit Frequency | Key Investigations |
+|---|---|---|
+| Weeks 6 to 12 | Every 4 weeks | Dating scan, baseline blood and urine, NT scan + dual marker |
+| Weeks 13 to 27 | Every 4 weeks | Anomaly scan (18 to 22 weeks), GTT (24 to 28 weeks) |
+| Weeks 28 to 35 | Every 2 weeks | Growth scan, iron and calcium, Tdap vaccine |
+| Weeks 36 to 40 | Every week | GBS test, position check, birth plan, induction planning if needed |
+
+## Key Pregnancy Tests Trimester by Trimester
+
+### First Trimester
+- Beta-hCG, blood group and Rh, complete blood count
+- TSH (thyroid), fasting and post-meal blood sugar, vitamin D
+- Urine routine and culture
+- Hepatitis B, HIV, VDRL screening
+- Dating ultrasound (6 to 8 weeks)
+- NT scan + dual marker (11 to 13 weeks 6 days)
+
+### Second Trimester
+- Quad marker test (15 to 18 weeks, optional if dual marker not done)
+- Anomaly / TIFFA scan (18 to 22 weeks)
+- Glucose tolerance test (24 to 28 weeks)
+- Repeat haemoglobin
+
+### Third Trimester
+- Growth scan (28 to 32 weeks)
+- Doppler ultrasound (36 weeks, if indicated)
+- GBS test (35 to 37 weeks)
+- Repeat haemoglobin and platelet count
+- Pre-delivery anaesthesia review
+
+## Warning Signs by Trimester — When to Call Your Pregnancy Doctor
+
+Most pregnancies progress smoothly. Call Dr. Sanjana immediately if you experience any of the following:
+
+### First Trimester Warning Signs
+- Heavy bleeding (more than spotting)
+- Severe one-sided pain with shoulder tip pain or fainting (possible ectopic)
+- Persistent vomiting that prevents eating or drinking for 24 hours
+- High-grade fever
+
+### Second Trimester Warning Signs
+- Bleeding or fluid leak from the vagina
+- Severe abdominal pain or contractions before 24 weeks
+- Sudden severe headache, blurred vision, or upper abdominal pain (possible early preeclampsia)
+- Reduced fetal movements after week 20
+
+### Third Trimester Warning Signs
+- Reduced fetal movements (less than 10 movements in 2 hours)
+- Sudden swelling of face, hands or feet, with headache or visual changes
+- Heavy bleeding or watery fluid leak
+- Severe abdominal pain or regular contractions before 37 weeks
+- High blood pressure (above 140/90)
+
+## Lifestyle and Wellness Tips by Trimester
+
+### First Trimester Lifestyle
+Start prenatal yoga in HSR Layout or Attibele under a qualified instructor. Eat small frequent meals to manage nausea. Sleep 8 to 9 hours. Avoid raw fish, soft cheeses, alcohol, smoking and second-hand smoke. Limit caffeine to 1 cup daily. Stay well hydrated.
+
+### Second Trimester Lifestyle
+Continue prenatal yoga and brisk walking 30 minutes a day. Add iron-rich foods (greens, dates, jaggery) and calcium (milk, ragi, curd). Sleep on your left side from week 20 onwards to improve placental blood flow. Begin perineal massage from week 34 if planning vaginal delivery.
+
+### Third Trimester Lifestyle
+Practise breathing exercises and pelvic floor exercises daily. Take frequent breaks at work, keep your feet elevated. Avoid long-distance travel after week 34. Pack your hospital bag by week 36. Discuss pain relief options — including <a href="/services/painless-delivery">painless delivery in HSR Layout and Attibele</a> — with Dr. Sanjana well in advance.
+
+## Frequently Asked Questions
+
+### How is pregnancy dated week by week?
+Pregnancy is dated from the first day of your last menstrual period (LMP). A dating ultrasound between 6 and 8 weeks confirms accuracy. If LMP is uncertain or cycles are irregular, the ultrasound dating overrides the LMP.
+
+### Which trimester is the most critical?
+The first trimester (weeks 1 to 12) is most critical for fetal organ development and most miscarriages occur in this window. The third trimester is most critical for fetal growth, gestational diabetes, and preeclampsia monitoring.
+
+### How many ultrasound scans are needed during pregnancy?
+A typical pregnancy in **prenatal care in HSR Layout** includes 4 to 5 routine scans: dating scan (6 to 8 weeks), NT scan (11 to 13 weeks), anomaly scan (18 to 22 weeks), growth scan (28 to 32 weeks), and a final scan around 36 weeks. Additional scans may be added for high-risk pregnancies.
+
+### When can I feel my baby move?
+First-time mothers typically feel movements between weeks 18 and 22. Mothers who have been pregnant before may feel it as early as 15 to 16 weeks. After week 28, movements should be felt daily — count them every day.
+
+### Is normal delivery safe in Bangalore at HSR Layout or Attibele?
+Yes. Both Health Nest (HSR Layout) and Raghava Multispeciality Hospital (Attibele) are equipped for normal delivery, painless delivery (epidural), and emergency caesarean delivery. Dr. Sanjana L has extensive experience supporting safe vaginal births. Read more about <a href="/services/normal-delivery">normal delivery in HSR Layout and Attibele</a> and <a href="/services/painless-delivery">painless delivery options</a>.
+
+### When should I switch to a high-risk pregnancy specialist?
+You should consult Dr. Sanjana for **high-risk pregnancy care in HSR Layout** if you have gestational diabetes, hypertension, thyroid disease, age above 35, IVF/IUI conception, twins, or previous preterm delivery. Read more on <a href="/services/high-risk-pregnancy">high-risk pregnancy management</a>.
+
+### What vaccines are needed during pregnancy?
+Tdap vaccine between weeks 27 and 36 (to protect newborn from whooping cough), influenza vaccine in flu season, and COVID-19 booster as per current guidelines. Live vaccines (MMR, varicella) are avoided during pregnancy.
+
+### Can I exercise throughout pregnancy?
+Yes — moderate exercise (walking, prenatal yoga, swimming, stationary cycling) is encouraged throughout pregnancy unless your doctor advises otherwise. Avoid contact sports, hot yoga, scuba diving, and any high fall-risk activity.
+
+### What should I eat during pregnancy?
+A balanced Indian diet with adequate protein (dal, paneer, eggs, chicken, fish), iron-rich foods (greens, dates, jaggery), calcium (milk, ragi, curd), folate (leafy greens), and complex carbs (millets, brown rice). Read Dr. Sanjana's complete <a href="/blog/pregnancy-diet-plan-indian-food">pregnancy diet plan with Indian foods</a>.
+
+### How much weight should I gain during pregnancy?
+Total recommended weight gain depends on pre-pregnancy BMI: 11 to 16 kg for normal BMI, 7 to 11 kg for overweight, 12 to 18 kg for underweight. Steady weight gain (1 to 2 kg in first trimester, then around 0.5 kg per week) is healthier than sudden gain.
+
+### When should I pack my hospital bag?
+By week 34 to 36. Pack two bags — one for labour (light clothes, mobile charger, snacks, ID, all reports) and one for the postpartum stay (nursing bras, sanitary pads, baby clothes, blankets, baby toiletries).
+
+### What is painless delivery and is it safe?
+Painless delivery (epidural analgesia) is a safe, well-established technique that uses a tiny catheter in the lower spine to deliver a continuous low-dose anaesthetic during labour. It does not slow labour or harm the baby when administered by a trained anaesthesiologist. Learn more about <a href="/services/painless-delivery">painless delivery in HSR Layout and Attibele</a>.
+
+## Plan Your Pregnancy with Dr. Sanjana L
+
+Every pregnancy is unique. A personalised **pregnancy care plan in HSR Layout** or **pregnancy care plan in Attibele** ensures every scan, blood test, vaccination and birth plan decision is tailored to your body, your baby, and your medical history.
+
+Dr. Sanjana L (MBBS, MS OBG, Gold Medalist, FRM RGUHS, FMAS) consults at Health Nest (1162, 24th Main Road, Sector 2, HSR Layout — near Agara Lake) and Raghava Multispeciality Hospital (Attibele — opposite Syndicate Bank). She serves patients from Koramangala, BTM Layout, Sarjapura Road, Electronic City, Chandapura, Hosur Road, Bellandur, Bommanahalli, Singasandra, Kudlu Gate, Anekal, Jigani and across South Bangalore.
+
+Call **+91-9449031003** (HSR Layout) or **+91-9980031006** (Attibele) to book your **antenatal checkup**. Or learn more about our complete <a href="/services/pregnancy-care">pregnancy care programme</a>, <a href="/services/prenatal-screening">prenatal screening services</a>, <a href="/services/high-risk-pregnancy">high-risk pregnancy support</a>, <a href="/services/normal-delivery">normal delivery</a>, <a href="/services/painless-delivery">painless delivery</a>, <a href="/services/cesarean-delivery">caesarean delivery</a> and <a href="/services/postnatal-care">postnatal care</a>. Continue reading our <a href="/blog/early-signs-of-pregnancy">early signs of pregnancy guide</a>, <a href="/blog/first-trimester-pregnancy-guide">first trimester pregnancy guide</a>, <a href="/blog/pregnancy-diet-plan-indian-food">pregnancy diet plan</a> and <a href="/blog/normal-delivery-vs-c-section">normal delivery vs C-section guide</a> for the journey ahead.
+    `,
+  },
+  {
+    slug: 'pcos-diet-plan-indian',
+    title: 'PCOS Diet Plan for Weight Loss: Indian Diet Chart & Lifestyle Tips by Dr. Sanjana L',
+    excerpt: 'A complete PCOS diet plan for weight loss using everyday Indian foods. Dr. Sanjana L, a leading PCOS specialist in HSR Layout & Attibele, shares a 7-day Indian diet chart, food lists, lifestyle tips and exercise guidance to manage PCOS naturally and reverse insulin resistance.',
+    category: 'Fertility',
+    tags: ['PCOS diet plan', 'PCOS weight loss', 'Indian PCOS diet', 'PCOD diet chart', 'PCOS treatment HSR Layout', 'PCOS treatment Attibele', 'PCOD treatment HSR Layout', 'PCOD treatment Attibele', 'PCOS specialist HSR Layout', 'hormonal imbalance treatment HSR Layout', 'PCOS weight loss doctor Attibele', 'PCOS diet doctor HSR Layout', 'insulin resistance', 'Bangalore'],
+    readTime: 14,
+    date: '2026-05-04',
+    author: 'Dr. Sanjana L',
+    metaTitle: 'PCOS Diet Plan for Weight Loss: Indian Diet Chart | Dr. Sanjana L',
+    metaDescription: 'PCOS diet plan for weight loss using everyday Indian foods — 7-day diet chart, food lists, lifestyle and exercise tips by Dr. Sanjana L, PCOS specialist at Health Nest (HSR Layout) and Raghava Hospital (Attibele).',
+    content: `
+## PCOS Diet Plan for Weight Loss — An Indian Approach That Actually Works
+
+If you have been told you have PCOS or PCOD and asked to "just lose weight", you are not alone. Almost every woman who walks into Dr. Sanjana L's clinic at Health Nest (HSR Layout) or Raghava Multispeciality Hospital (Attibele) for **PCOS treatment in HSR Layout** or **PCOS treatment in Attibele** has been given the same vague advice — without a real diet plan that fits Indian kitchens, work schedules and family meals.
+
+This is that plan.
+
+This complete **PCOS diet plan for weight loss in Indian** food terms is built around dosas, idlis, rotis, dals and sabzis you already eat. It is designed by Dr. Sanjana L (MBBS, MS OBG, Gold Medalist) — a trusted **PCOS diet doctor in HSR Layout** and **PCOS weight loss doctor in Attibele** — based on more than 10 years of clinical experience reversing insulin resistance, restoring periods and supporting fertility in women with PCOS and PCOD.
+
+If you are still confused about whether you have PCOS or PCOD, read our complete guide on <a href="/blog/pcos-vs-pcod-difference">PCOS vs PCOD differences and treatment</a>.
+
+## Why Diet Is the Foundation of PCOS Treatment
+
+Polycystic Ovary Syndrome (PCOS) is, at its core, a metabolic condition. About 70 percent of Indian women with PCOS have **insulin resistance** — their cells do not respond efficiently to insulin, leading to elevated blood sugar, increased androgen production, weight gain (especially around the abdomen), irregular ovulation and difficulty losing weight.
+
+The good news: insulin resistance is highly responsive to diet.
+
+Even a 5 to 10 percent reduction in body weight can:
+
+- Restore regular ovulation and periods
+- Reduce free testosterone and androgen-driven symptoms (acne, facial hair, hair loss)
+- Improve fertility outcomes — important if you are also planning <a href="/services/fertility-treatment">fertility treatment in HSR Layout or Attibele</a>
+- Lower the long-term risk of type 2 diabetes, fatty liver and endometrial cancer
+- Improve mood, energy and sleep quality
+
+This is why every PCOS specialist in HSR Layout and Attibele — including Dr. Sanjana — places diet and lifestyle as the first line of treatment, alongside medication where needed.
+
+## Core Principles of a PCOS Diet Plan in Indian Foods
+
+Before the meal-by-meal chart, understand the rules. Every choice in your **PCOS diet plan** should follow these principles:
+
+### 1. Choose Low Glycaemic Index (GI) Carbohydrates
+Refined white rice, maida, white bread, sugar and most packaged Indian sweets spike insulin. Replace with low-GI options: millets (ragi, foxtail, kodo, little millet), brown rice, hand-pounded rice, oats, quinoa, whole-wheat atta, jowar and bajra rotis.
+
+### 2. Eat Protein at Every Meal
+Protein blunts the insulin response, keeps you full longer, and preserves muscle mass during weight loss. Aim for 1.2 to 1.5 grams of protein per kg body weight per day. Indian sources: paneer, tofu, dals, chana, rajma, sprouts, eggs, chicken, fish, curd, milk, Greek yoghurt, soy chunks.
+
+### 3. Prioritise Fibre — 30 Grams Per Day
+Fibre slows glucose absorption, feeds gut bacteria and reduces androgen reabsorption from the gut. Add: vegetables (at least 400 grams a day), fruits (2 portions), whole grains, dals, sprouts, flax seeds and chia seeds.
+
+### 4. Include Healthy Fats
+Anti-inflammatory fats reduce PCOS symptoms. Cook with cold-pressed groundnut, sesame, mustard or coconut oil (in moderation). Add ghee in small amounts. Eat almonds, walnuts, flax seeds, chia seeds and avocado regularly.
+
+### 5. Eliminate (or Drastically Reduce)
+- Sugar and sugary drinks (cold drinks, packaged juice, sweetened tea)
+- Maida and refined-flour products (biscuits, cakes, samosas, kachoris, pizza, pasta, white bread)
+- Deep-fried foods (regular pakoras, samosas, vadas, chips)
+- Trans-fat-rich packaged foods (cream biscuits, packaged cakes, instant noodles)
+- White rice in large portions
+- Excess dairy if acne is a problem (especially full-fat milk and ghee)
+
+### 6. Time Your Meals
+Eat within a 10 to 12 hour window each day. Have dinner by 7:30 to 8:00 pm. Avoid late-night snacking. Some women with PCOS do well with intermittent fasting (16:8) — but only after stabilising blood sugar with a balanced diet first, and ideally under medical supervision.
+
+## A 7-Day Indian PCOS Diet Chart for Weight Loss
+
+This sample diet chart is based on 1500 to 1700 kilocalories per day — appropriate for most women aiming for slow, sustainable weight loss. Adjust portions to your weight, activity level and clinical advice.
+
+### Daily Foundation
+- **On waking (6:30 to 7:00 am):** 1 glass warm water with soaked methi seeds (1 teaspoon, soaked overnight) OR cinnamon water
+- **Breakfast (8:00 to 9:00 am):** 350 to 400 kcal — protein + complex carb + vegetable
+- **Mid-morning (11:00 am):** 1 fruit OR 10 soaked almonds OR buttermilk
+- **Lunch (1:00 to 2:00 pm):** 450 to 500 kcal — half plate vegetable + protein + 1 small katori rice OR 1 to 2 millet rotis
+- **Evening (4:30 to 5:00 pm):** Sprouts chaat OR boiled chana OR roasted makhana OR green tea
+- **Dinner (7:00 to 7:30 pm):** 350 to 400 kcal — soup + protein + small portion grain + sabzi
+- **Bedtime (optional):** Warm turmeric milk (low-fat) OR chamomile tea
+
+### Day 1
+- **Breakfast:** 2 ragi dosas + green chutney + 1 boiled egg or paneer bhurji
+- **Lunch:** Quinoa with sambar + bhindi sabzi + curd
+- **Dinner:** Multigrain roti (1) + palak chicken or palak paneer + cucumber salad
+
+### Day 2
+- **Breakfast:** Vegetable oats upma with peanuts + buttermilk
+- **Lunch:** Brown rice (small portion) + dal + cabbage thoran + curd
+- **Dinner:** Moong dal cheela (2) + green chutney + tomato cucumber salad
+
+### Day 3
+- **Breakfast:** 2 idlis (millet idli) + sambar + coconut chutney + 1 boiled egg
+- **Lunch:** Jowar roti (1 or 2) + rajma + capsicum sabzi + small bowl curd
+- **Dinner:** Vegetable soup + grilled fish or tofu + sauteed greens
+
+### Day 4
+- **Breakfast:** Besan cheela (2) stuffed with paneer + mint chutney
+- **Lunch:** Foxtail millet pulao with vegetables and chickpeas + curd
+- **Dinner:** Bajra roti + bhindi or tindora sabzi + dal + salad
+
+### Day 5
+- **Breakfast:** Sprouts and vegetable poha (with peanuts) + green tea
+- **Lunch:** Hand-pounded rice + sambar + cabbage poriyal + boiled egg or fish curry
+- **Dinner:** Tomato shorba + multigrain roti + paneer or chicken sabzi
+
+### Day 6
+- **Breakfast:** Greek yoghurt with chia seeds, walnuts and 1 fruit (apple or pear)
+- **Lunch:** Khichdi (moong dal + brown rice) with vegetables + kadhi
+- **Dinner:** Lettuce wrap (chicken or paneer) + roasted vegetables
+
+### Day 7 (Cheat-Friendly Day)
+- **Breakfast:** 2 wheat dosas with sambar + chutney + 1 fruit
+- **Lunch:** Vegetable biryani (small portion, brown rice) + raita + kachumber
+- **Dinner:** Soup + 1 small chapati + chicken curry or chana masala + salad
+
+## Top Foods to Eat in a PCOS Diet
+
+- **Millets:** Ragi, foxtail, kodo, little millet, jowar, bajra
+- **Whole grains:** Oats, quinoa, brown rice, whole-wheat atta
+- **Pulses:** Moong, masoor, chana, rajma, lobia, soybeans, sprouts
+- **Vegetables:** All greens (palak, methi, amaranth), broccoli, cauliflower, cabbage, beans, bhindi, capsicum, tomato, cucumber
+- **Fruits:** Berries, apple, pear, guava, papaya, orange, kiwi (limit mango, banana, chikoo, sapota)
+- **Protein:** Paneer, tofu, eggs, chicken (skinless), fish, soybeans, Greek yoghurt
+- **Healthy fats:** Almonds, walnuts, flax seeds, chia seeds, pumpkin seeds, avocado, cold-pressed oils
+- **Spices and herbs:** Turmeric, cinnamon, fenugreek (methi), ginger, garlic, ashwagandha (under guidance)
+- **Drinks:** Water, green tea, jeera water, methi water, buttermilk, coconut water (in moderation), unsweetened lemon water
+
+## Foods to Avoid in PCOS
+
+- White rice in large portions, maida, white bread, packaged biscuits
+- Sugar, jaggery in excess, packaged sweets, bakery items
+- Sugary drinks: cola, packaged juice, sweetened lassi, sweetened tea or coffee
+- Deep-fried snacks: samosa, vada, pakora, kachori, chips
+- Processed meats: salami, sausages, bacon
+- Trans fats: vanaspati, margarine, instant noodles, packaged cakes
+- Excess full-fat dairy if acne is severe
+- Alcohol — worsens insulin resistance and inflammation
+
+## Lifestyle Tips Beyond the Diet
+
+A **PCOS diet plan for weight loss in Indian** food terms only works when paired with the right lifestyle. Diet alone is rarely enough. At Health Nest (HSR Layout) and Raghava Hospital (Attibele), Dr. Sanjana counsels every PCOS patient on the following:
+
+### Exercise — 200 to 250 Minutes a Week
+Combine the following weekly:
+- 150 minutes of brisk walking, cycling or swimming (moderate cardio)
+- 2 to 3 sessions of strength training (build muscle to improve insulin sensitivity)
+- 2 sessions of yoga or pilates (lower cortisol)
+- 7000 to 10,000 steps a day overall
+
+### Sleep — 7 to 8 Hours Every Night
+Poor sleep raises cortisol and worsens insulin resistance. Aim for a fixed sleep window (e.g. 10:30 pm to 6:30 am).
+
+### Stress Management
+Chronic stress raises cortisol — which directly worsens androgen production. Daily 10-minute meditation, journaling, breathwork (alternate-nostril breathing), or therapy can significantly help **hormonal imbalance treatment in HSR Layout** outcomes.
+
+### Supplements (Under Medical Supervision)
+- **Inositol (myo-inositol + D-chiro inositol):** Strong evidence for improving insulin sensitivity and ovulation in PCOS
+- **Vitamin D:** Most Indian women are deficient — correction improves PCOS markers
+- **Omega-3 (fish oil):** Reduces inflammation
+- **Magnesium and chromium:** Support glucose metabolism
+- **N-acetyl cysteine (NAC):** Improves egg quality and ovulation in PCOS
+- **Berberine:** Comparable to metformin for insulin resistance in some studies
+
+Never start supplements without consulting a **PCOS specialist in HSR Layout** or **PCOD doctor in Attibele** — dosing and combinations matter.
+
+## When Diet Alone Is Not Enough
+
+Diet and lifestyle are the foundation, but some women need additional medical management. See Dr. Sanjana for **PCOS treatment in HSR Layout** or **PCOD treatment in Attibele** if:
+
+- You have not had a period in more than 3 months
+- You are trying to conceive and have not succeeded after 6 to 12 months
+- Acne, hair fall or facial hair is worsening despite diet
+- You have severely irregular cycles, heavy bleeding, or pelvic pain
+- Blood tests show high fasting insulin, HbA1c above 5.7, or significantly raised testosterone
+- You are gaining weight despite a clean diet — possible underlying thyroid or insulin issue
+
+A complete <a href="/services/pcos-pcod-treatment">PCOS and PCOD treatment programme at Health Nest and Raghava Hospital</a> includes hormonal evaluation, ultrasound, individualised diet plan, prescription where needed, fertility planning and 6-month follow-up.
+
+## Frequently Asked Questions
+
+### How long does a PCOS diet take to show results?
+Most women notice improved energy and reduced bloating within 2 to 3 weeks. Period regularity, weight loss and reduction in acne typically begin around 8 to 12 weeks of consistent dietary change.
+
+### Can I lose belly fat with a PCOS diet?
+Yes. PCOS-driven belly fat is largely insulin-resistance fat. Combining a low-GI Indian PCOS diet with strength training is the most effective approach. Most women lose 4 to 6 kg over 3 to 4 months.
+
+### Is rice completely banned in PCOS?
+No. Switch to brown rice, hand-pounded rice or millets, and keep portions to half a cup cooked. Pair with high-fibre vegetables and protein to blunt the insulin response.
+
+### Are bananas, mango and chikoo bad for PCOS?
+They are higher-GI fruits. Eat in small portions and pair with nuts or seeds to slow glucose release. Berries, apples, pears, guava and oranges are better daily choices.
+
+### Is dairy bad for PCOS?
+Not for everyone. Some women with severe acne benefit from cutting full-fat dairy and ghee. Curd, buttermilk and Greek yoghurt are usually fine.
+
+### Can I drink coffee in PCOS?
+Yes — 1 to 2 cups a day, ideally without sugar. Avoid late-evening coffee, which disrupts sleep and worsens insulin resistance.
+
+### Is intermittent fasting good for PCOS?
+Yes for many — but not all. Start with a balanced diet first, then trial 12:12 or 14:10. Avoid prolonged fasting if you have history of eating disorders, hypothyroidism or are underweight.
+
+### Will I need metformin if I follow this diet?
+Not always. Many women reverse mild insulin resistance with diet and exercise alone. If your fasting insulin is high, HbA1c is creeping up, or you are not ovulating, Dr. Sanjana may add metformin or inositol.
+
+### Can a PCOS diet help me get pregnant?
+Yes. A 5 to 10 percent weight reduction restores ovulation in around 60 to 70 percent of women with PCOS, often without fertility medication. If you are still struggling to conceive after 6 months of dietary change, see Dr. Sanjana for <a href="/services/fertility-treatment">fertility treatment in HSR Layout and Attibele</a>.
+
+### Is a PCOS diet the same as a PCOD diet?
+The principles are nearly identical — both are built around low-GI carbs, high protein, high fibre and minimal sugar. PCOS often requires more aggressive insulin control and longer-term medical follow-up.
+
+## Book Your PCOS Consultation with Dr. Sanjana L
+
+Every woman with PCOS or PCOD deserves a diet plan that is personalised to her body, her cycles, her work life and her food preferences — not a generic printout.
+
+Dr. Sanjana L is a trusted **PCOS specialist in HSR Layout**, **PCOD doctor in Attibele**, and a recognised **PCOS diet doctor in HSR Layout** with more than 10 years of clinical experience. She consults at Health Nest (1162, 24th Main Road, Sector 2, HSR Layout — near Agara Lake) and Raghava Multispeciality Hospital (Attibele — opposite Syndicate Bank), serving patients from Koramangala, BTM Layout, Sarjapura, Electronic City, Chandapura, Hosur Road, Bellandur, Bommanahalli and across South Bangalore.
+
+Call **+91-9449031003** (HSR Layout) or **+91-9980031006** (Attibele) to book a complete **PCOS evaluation** — including hormonal panel, ultrasound, insulin resistance testing and a personalised Indian PCOS diet plan. Or learn more about our complete <a href="/services/pcos-pcod-treatment">PCOS and PCOD treatment programme</a> and <a href="/services/fertility-treatment">fertility treatment services</a>. Continue reading our <a href="/blog/pcos-vs-pcod-difference">PCOS vs PCOD differences guide</a> for clarity on diagnosis and treatment.
+    `,
+  },
+  {
+    slug: 'laparoscopic-surgery-gynaecology-guide',
+    title: 'What is Laparoscopic Surgery in Gynaecology? Benefits, Recovery & Cost in Bangalore',
+    excerpt: 'A complete patient guide to laparoscopic gynaecology surgery — what it is, what conditions it treats, recovery time, cost in Bangalore and how to choose the right surgeon. Written by Dr. Sanjana L, a fellowship-trained laparoscopic surgeon at Health Nest (HSR Layout) and Raghava Hospital (Attibele).',
+    category: 'Surgery',
+    tags: ['laparoscopic surgery', 'keyhole surgery', 'minimally invasive surgery', 'laparoscopic gynaecology HSR Layout', 'laparoscopic surgery HSR Layout', 'laparoscopic surgery Attibele', 'laparoscopic cyst removal HSR Layout', 'laparoscopic fibroid surgery HSR Layout', 'laparoscopic endometriosis surgery HSR Layout', 'minimally invasive surgery HSR Layout', 'minimally invasive surgery Attibele', 'laparoscopic surgery Sarjapura', 'laparoscopic surgery Electronic City', 'Bangalore'],
+    readTime: 13,
+    date: '2026-05-04',
+    author: 'Dr. Sanjana L',
+    metaTitle: 'Laparoscopic Surgery in Gynaecology: Benefits, Recovery & Cost | Bangalore',
+    metaDescription: 'Complete patient guide to laparoscopic gynaecology surgery — what it is, conditions treated, recovery, cost in Bangalore. By Dr. Sanjana L, FMAS laparoscopic surgeon at Health Nest (HSR Layout) and Raghava Hospital (Attibele).',
+    content: `
+## Laparoscopic Surgery in Gynaecology — A Complete Patient Guide
+
+If your gynaecologist has recommended surgery for fibroids, ovarian cysts, endometriosis, ectopic pregnancy or persistent pelvic pain, you have probably heard the words "laparoscopic", "keyhole" or "minimally invasive". You may also have heard conflicting things — that it is safer than open surgery, that it costs more, that recovery is faster, that not every surgeon offers it.
+
+This guide explains, in plain language, exactly what **laparoscopic surgery in gynaecology** is, which conditions it treats, what recovery is really like, what it costs in Bangalore, and how to choose the right surgeon. It is written by Dr. Sanjana L (MBBS, MS OBG, Gold Medalist, FRM RGUHS, FMAS) — a fellowship-trained laparoscopic gynaecologist offering **laparoscopic surgery in HSR Layout** and **laparoscopic surgery in Attibele** with more than 10 years of operative experience.
+
+For a related read, see Dr. Sanjana's complete guide on <a href="/blog/endometriosis-symptoms-treatment">endometriosis symptoms and treatment in Bangalore</a>.
+
+## What Is Laparoscopic Surgery?
+
+Laparoscopic surgery — also called **keyhole surgery in gynaecology** or **minimally invasive surgery** — is a technique where the surgeon operates through 3 to 4 small incisions (usually 5 to 10 mm each) on the abdomen, instead of one large open cut.
+
+Through these small incisions, the surgeon inserts:
+
+- A **laparoscope** — a thin, lighted tube with a high-definition camera that displays a magnified image of the pelvis on a monitor
+- Specialised long, thin **instruments** that allow the surgeon to cut, suture, cauterise or remove tissue
+
+Carbon dioxide gas is gently used to inflate the abdomen, creating space to operate. The surgery is performed entirely through these small ports — there is no large open incision.
+
+The result: significantly smaller scars, less blood loss, less post-operative pain, faster recovery, shorter hospital stay and a quicker return to normal life compared to traditional open surgery.
+
+## Conditions Treated with Laparoscopic Gynaecology Surgery
+
+Laparoscopic gynaecology has revolutionised the treatment of nearly every benign gynaecological condition. At Health Nest (HSR Layout) and Raghava Multispeciality Hospital (Attibele), Dr. Sanjana L performs the following procedures:
+
+### 1. Laparoscopic Fibroid Surgery (Myomectomy)
+Used to remove uterine fibroids while preserving the uterus — important for women planning future pregnancy. **Laparoscopic fibroid surgery in HSR Layout** is suitable for fibroids up to 8 to 10 cm; very large or numerous fibroids may need a different approach. Read more about <a href="/services/laparoscopic-surgery">laparoscopic surgery options in HSR Layout and Attibele</a>.
+
+### 2. Laparoscopic Cyst Removal (Ovarian Cystectomy)
+Used to remove ovarian cysts (dermoid cysts, endometriotic cysts, complex cysts) without damaging healthy ovarian tissue — preserving fertility. **Laparoscopic cyst removal in HSR Layout** is the gold standard for benign ovarian cysts more than 5 cm or persistent over 3 months.
+
+### 3. Laparoscopic Endometriosis Surgery
+Endometriosis is one of the most under-diagnosed causes of chronic pelvic pain and infertility in Indian women. **Laparoscopic endometriosis surgery in HSR Layout** allows the surgeon to identify, excise and ablate endometriotic deposits with magnified precision — significantly improving pain and fertility outcomes.
+
+### 4. Laparoscopic Hysterectomy
+Removal of the uterus through small incisions, indicated for severe fibroids, adenomyosis, severe endometriosis or persistent abnormal uterine bleeding when other treatments have failed.
+
+### 5. Laparoscopic Ectopic Pregnancy Management
+A safe, fertility-preserving approach to manage tubal ectopic pregnancy — replacing older open surgery in most cases.
+
+### 6. Laparoscopic Tubal Surgery
+For tubal blockage, hydrosalpinx, sterilisation reversal — important steps in fertility care.
+
+### 7. Diagnostic Laparoscopy
+Sometimes used to investigate unexplained infertility, chronic pelvic pain or suspected endometriosis when ultrasound and MRI are inconclusive. Often combined with <a href="/services/hysteroscopy">hysteroscopy</a> for a complete evaluation.
+
+### 8. Laparoscopic Treatment for PCOS (Ovarian Drilling)
+Used in selected PCOS patients who fail medical ovulation induction — small holes are made on the ovarian surface to restore ovulation.
+
+## Benefits of Laparoscopic Surgery vs Open Surgery
+
+The advantages of choosing **minimally invasive surgery in HSR Layout** or **minimally invasive surgery in Attibele** over traditional open surgery are well established:
+
+| Feature | Laparoscopic Surgery | Open Surgery |
+|---|---|---|
+| Incision size | 3 to 4 cuts of 5 to 10 mm | One 10 to 20 cm cut |
+| Blood loss | Significantly less | Higher |
+| Hospital stay | 1 to 2 days | 4 to 7 days |
+| Post-operative pain | Mild to moderate | Moderate to severe |
+| Return to normal activity | 1 to 2 weeks | 4 to 6 weeks |
+| Return to work (desk job) | 7 to 10 days | 4 to 6 weeks |
+| Scarring | Minimal, often invisible | Long, visible scar |
+| Risk of wound infection | Low | Higher |
+| Risk of post-op adhesions | Low | Higher (bad for fertility) |
+| Cost | Higher upfront, lower indirect | Lower upfront, more lost work days |
+
+For most benign gynaecological conditions in 2026, laparoscopic surgery is the preferred standard of care unless there is a specific contraindication (very large fibroid, advanced cancer, severe adhesions from prior surgery).
+
+## What to Expect — Before, During and After Laparoscopic Surgery
+
+### Before Surgery
+- Pre-operative consultation with Dr. Sanjana — clinical examination, ultrasound, blood tests, ECG, anaesthetic review
+- Stop blood-thinning medication (aspirin, clopidogrel) 5 to 7 days before, only on doctor's advice
+- Fasting for 6 to 8 hours before surgery
+- Bowel preparation (sometimes) the night before
+- Hospital admission usually on the morning of surgery
+
+### During Surgery
+- General anaesthesia is administered
+- Surgery typically takes 45 minutes to 2.5 hours depending on complexity
+- Carbon dioxide gas inflates the abdomen, 3 to 4 small ports are placed
+- The surgeon uses high-definition vision and specialised instruments to perform the procedure
+- Removed tissue is sent for histopathology if indicated
+
+### Immediately After Surgery
+- 2 to 4 hours in recovery
+- Mild shoulder tip pain (from CO2 gas) is common and resolves in 24 to 48 hours
+- Light food and water within 6 hours
+- Walking the same evening or next morning
+- Discharge usually within 24 to 48 hours
+
+### First 2 Weeks at Home
+- Mild pain controlled with simple painkillers (paracetamol, ibuprofen)
+- Light walking encouraged from day 1
+- No heavy lifting (more than 5 kg) for 2 weeks
+- Bathing allowed from day 2 (keep dressings dry until then)
+- Driving usually safe after 7 to 10 days
+- Sexual activity safe after 4 to 6 weeks (or as advised)
+- Return to desk work in 7 to 10 days; physical work in 3 to 4 weeks
+
+### Follow-up
+- First post-op visit at 7 to 10 days for wound check and stitch removal
+- Histopathology review at 2 to 3 weeks
+- Long-term follow-up depending on the condition (e.g. annual review for endometriosis or fibroid recurrence)
+
+## Cost of Laparoscopic Surgery in Bangalore
+
+The cost of **laparoscopic surgery in HSR Layout** or **laparoscopic surgery in Attibele** depends on the procedure complexity, hospital category, room category, anaesthesia type, surgeon experience and any additional procedures (e.g. hysteroscopy combined). Typical price ranges in Bangalore in 2026:
+
+- **Diagnostic laparoscopy:** INR 50,000 to 90,000
+- **Laparoscopic ovarian cystectomy:** INR 70,000 to 1,50,000
+- **Laparoscopic myomectomy (fibroid removal):** INR 1,20,000 to 2,50,000
+- **Laparoscopic endometriosis surgery:** INR 1,00,000 to 2,00,000
+- **Laparoscopic hysterectomy:** INR 1,50,000 to 3,00,000
+- **Laparoscopic ectopic pregnancy surgery:** INR 80,000 to 1,50,000
+
+Most private health insurance policies in India cover laparoscopic gynaecology surgery — check for cashless approval before admission. Health Nest and Raghava Multispeciality Hospital both work with major insurance providers.
+
+Read more about transparent pricing on our <a href="/services/laparoscopic-surgery">laparoscopic surgery service page</a>, or call directly to confirm current packages.
+
+## Risks and Possible Complications
+
+Laparoscopic surgery is very safe in trained hands, but no surgery is risk-free. Possible complications include:
+
+- Infection (uncommon — less than 1 percent)
+- Bleeding requiring transfusion (rare)
+- Injury to bladder, bowel or major blood vessels (very rare in experienced hands)
+- Conversion to open surgery (1 to 2 percent — usually due to severe adhesions or unexpected findings)
+- Anaesthetic complications (rare)
+- Shoulder tip pain from CO2 gas (very common, self-limiting)
+- Hernia at port site (rare, 0.5 to 1 percent)
+
+Choosing a fellowship-trained laparoscopic surgeon — such as Dr. Sanjana L (FMAS) — significantly lowers complication rates.
+
+## How to Choose the Right Laparoscopic Gynaecology Surgeon
+
+Not every gynaecologist is a trained laparoscopic surgeon. When considering **laparoscopic gynaecology in HSR Layout** or **laparoscopic surgery in Sarjapura** / **laparoscopic surgery in Electronic City**, ask the following:
+
+1. **Formal fellowship training** — look for FMAS (Fellowship in Minimal Access Surgery) or equivalent
+2. **Annual case volume** — surgeons performing 100+ laparoscopic cases per year have meaningfully better outcomes
+3. **Hospital infrastructure** — high-definition laparoscopic stack, ICU back-up, blood bank
+4. **Conversion rate** — a low rate (under 5 percent) indicates good case selection
+5. **Histopathology and audit** — every removed tissue should be sent for pathology
+6. **Patient testimonials** — read reviews from women treated for the same condition
+
+Dr. Sanjana L is a fellowship-trained Minimal Access Surgeon (FMAS) with significant operative volume in fibroid, cyst and endometriosis surgery at both Health Nest (HSR Layout) and Raghava Multispeciality Hospital (Attibele).
+
+## Frequently Asked Questions
+
+### How painful is laparoscopic surgery?
+Most patients describe it as moderate, well-controlled pain for the first 24 to 48 hours, easily managed with simple painkillers. Shoulder tip pain (from CO2) is common but resolves in 1 to 2 days.
+
+### How long is the hospital stay after laparoscopic surgery?
+Typically 1 to 2 nights for most procedures. Diagnostic laparoscopy is often a same-day procedure.
+
+### When can I return to work after laparoscopic surgery?
+For desk-based jobs, 7 to 10 days. For physical work, 3 to 4 weeks. Avoid heavy lifting for 2 weeks regardless.
+
+### Will I have visible scars?
+The 5 to 10 mm port scars usually fade over 3 to 6 months and are barely visible. Most women report scars that are far less noticeable than those from open surgery.
+
+### Can I get pregnant after laparoscopic surgery?
+Yes — laparoscopic surgery often improves fertility, especially for endometriosis, fibroids and ovarian cysts. Many women conceive within 6 to 12 months of surgery. For complex cases, Dr. Sanjana plans surgery alongside <a href="/services/fertility-treatment">fertility treatment</a> for the best outcome.
+
+### Is laparoscopic surgery safe for fibroids?
+Yes, for fibroids up to 8 to 10 cm. Very large or multiple deep fibroids may need open or robotic surgery. **Laparoscopic fibroid surgery in HSR Layout** preserves the uterus and supports future pregnancy.
+
+### How much does laparoscopic cyst removal cost in HSR Layout?
+Typically INR 70,000 to 1,50,000 depending on cyst type, hospital and insurance. Confirm with the hospital before admission.
+
+### Is laparoscopy used for diagnosis or only treatment?
+Both. **Diagnostic laparoscopy in HSR Layout** is used when ultrasound and MRI are inconclusive — for unexplained infertility, chronic pelvic pain or suspected endometriosis. Treatment is often performed in the same procedure.
+
+### What is the difference between laparoscopy and hysteroscopy?
+Laparoscopy looks at the outside of the uterus, ovaries, tubes and pelvis through abdominal ports. <a href="/services/hysteroscopy">Hysteroscopy</a> looks inside the uterus through the vagina. Both are minimally invasive and are sometimes performed together.
+
+### Is laparoscopic surgery covered by insurance?
+Yes, most private and corporate insurance policies in India cover laparoscopic gynaecology surgery. Cashless approval is usually possible at empanelled hospitals.
+
+### How soon can I exercise after surgery?
+Light walking from day 1, brisk walking from week 2, yoga and gym from week 4 to 6. Avoid heavy lifting and high-impact activity for the first 2 weeks.
+
+## Book Your Laparoscopic Surgery Consultation with Dr. Sanjana L
+
+If you have been told you need surgery for fibroids, an ovarian cyst, endometriosis or another gynaecological condition — you deserve a transparent conversation about your options, the recovery timeline and the cost. Modern **laparoscopic gynaecology in HSR Layout** offers safer, faster recovery for most benign gynaecological problems.
+
+Dr. Sanjana L (MBBS, MS OBG, Gold Medalist, FRM RGUHS, FMAS) is a fellowship-trained laparoscopic gynaecologist offering **laparoscopic surgery in HSR Layout**, **laparoscopic surgery in Attibele**, **laparoscopic surgery in Sarjapura** and **laparoscopic surgery in Electronic City**. She consults at Health Nest (1162, 24th Main Road, Sector 2, HSR Layout — near Agara Lake) and operates at Raghava Multispeciality Hospital (Attibele — opposite Syndicate Bank), serving patients from Koramangala, BTM Layout, Sarjapura, Electronic City, Chandapura, Hosur Road, Bellandur, Bommanahalli and across South Bangalore.
+
+Call **+91-9449031003** (HSR Layout) or **+91-9980031006** (Attibele) to book a complete **laparoscopic surgery consultation** — including ultrasound review, treatment planning and a transparent cost estimate. Or learn more about our complete <a href="/services/laparoscopic-surgery">laparoscopic surgery programme</a> and <a href="/services/hysteroscopy">hysteroscopy services</a>. Continue reading our <a href="/blog/endometriosis-symptoms-treatment">endometriosis symptoms and treatment guide</a> for related insights.
+    `,
+  },
 ];
 
 export function getBlogPostBySlug(slug: string): BlogPost | undefined {

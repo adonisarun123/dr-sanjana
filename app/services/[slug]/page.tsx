@@ -25,6 +25,21 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: service.metaTitle,
     description: service.metaDescription,
+    alternates: {
+      canonical: `${SITE_URL}/services/${service.slug}`,
+    },
+    openGraph: {
+      title: service.metaTitle,
+      description: service.metaDescription,
+      url: `${SITE_URL}/services/${service.slug}`,
+      type: 'website',
+      siteName: 'Health Nest',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: service.metaTitle,
+      description: service.metaDescription,
+    },
   };
 }
 
@@ -44,7 +59,33 @@ export default async function ServicePage({ params }: Props) {
     location: { '@id': `${SITE_URL}/#organization` },
     followup: 'Follow-up care and monitoring provided by Dr. Sanjana L',
     howPerformed: service.whatToExpect.join('. '),
+    url: `${SITE_URL}/services/${service.slug}`,
   };
+
+  // BreadcrumbList JSON-LD for rich-results breadcrumbs in SERP
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: SITE_URL },
+      { '@type': 'ListItem', position: 2, name: 'Services', item: `${SITE_URL}/services` },
+      { '@type': 'ListItem', position: 3, name: service.shortTitle, item: `${SITE_URL}/services/${service.slug}` },
+    ],
+  };
+
+  // FAQPage JSON-LD — enables "People Also Ask" and AI Overview eligibility
+  const faqSchema = service.faqs && service.faqs.length > 0 ? {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: service.faqs.map(({ q, a }) => ({
+      '@type': 'Question',
+      name: q,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: a,
+      },
+    })),
+  } : null;
 
   return (
     <>
@@ -52,6 +93,16 @@ export default async function ServicePage({ params }: Props) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(medicalProcedureSchema) }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      {faqSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+      )}
       <Navbar />
       <main id="main-content">
         <section className="bg-gradient-hero pt-[100px] pb-[50px]">
