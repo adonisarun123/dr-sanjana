@@ -194,8 +194,8 @@ export default function HomePage() {
                     style={{ aspectRatio: '4/5', transform: 'rotateY(-5deg) rotateX(2deg)', transformStyle: 'preserve-3d', transition: 'transform 0.5s ease' }}
                   >
                     <Image
-                      src="/dr-sanjana-hero.png"
-                      alt="Dr. Sanjana - Health Nest"
+                      src="https://ik.imagekit.io/vlries1el/Dr%20Sanjana/dr-sanjana-l-profile.jpeg"
+                      alt="Dr. Sanjana L - Health Nest"
                       width={500}
                       height={625}
                       priority
@@ -236,11 +236,15 @@ export default function HomePage() {
                     style={{ animation: 'float 8s ease-in-out infinite reverse' }}
                   >
                     <div className="flex -space-x-3">
-                      {[1, 2, 3].map((i) => (
+                      {[
+                        'https://randomuser.me/api/portraits/women/65.jpg',
+                        'https://randomuser.me/api/portraits/women/74.jpg',
+                        'https://randomuser.me/api/portraits/women/68.jpg',
+                      ].map((src, i) => (
                         <div key={i} className="w-10 h-10 rounded-full border-2 border-white bg-gray-200 overflow-hidden">
                           <img
-                            src={`https://i.pravatar.cc/100?img=${i + 10}`}
-                            alt=""
+                            src={src}
+                            alt="Happy patient"
                             width={40}
                             height={40}
                             loading="lazy"
