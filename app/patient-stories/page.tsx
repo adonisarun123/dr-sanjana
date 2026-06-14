@@ -12,6 +12,7 @@ export const metadata: Metadata = {
   title: 'Patient Stories & Reviews | Health Nest - Dr. Sanjana L, Bangalore',
   description:
     'Read what patients say about Dr. Sanjana L at Health Nest, HSR Layout, Bangalore. Real reviews from Google Trust.',
+  alternates: { canonical: `${SITE_URL}/patient-stories` },
 };
 
 const patientStoriesSchema = {

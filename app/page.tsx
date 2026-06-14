@@ -10,6 +10,7 @@ import TestimonialCarousel from '@/components/TestimonialCarousel';
 import FloatingButtons from '@/components/FloatingButtons';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import { SITE_URL } from '@/lib/site';
 
 export const metadata: Metadata = {
   title: 'Best Gynaecologist | HSR & Attibele | Dr. Sanjana L — Health Nest',
@@ -108,9 +109,49 @@ const usps = [
   },
 ];
 
+// Home page is YMYL health content, so MedicalWebPage (not plain WebPage) is the
+// right node — it lets us declare the medical audience and tie the page to the
+// already-defined organization, physician, and website entities by @id.
+// `lastReviewed` + `reviewedBy` are the E-E-A-T signals Google weighs heavily
+// on health pages; the named physician is the reviewer.
+const homeStructuredData = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'MedicalWebPage',
+      '@id': `${SITE_URL}/#webpage`,
+      url: SITE_URL,
+      name: 'Best Gynaecologist in HSR Layout & Attibele | Dr. Sanjana L',
+      description:
+        'Dr. Sanjana L — experienced obstetrician & gynaecologist offering pregnancy care, high-risk obstetrics, fertility, and laparoscopic surgery in HSR Layout and Attibele, Bengaluru.',
+      inLanguage: 'en-IN',
+      isPartOf: { '@id': `${SITE_URL}/#website` },
+      about: { '@id': `${SITE_URL}/#physician` },
+      mainEntity: { '@id': `${SITE_URL}/#organization` },
+      primaryImageOfPage: { '@type': 'ImageObject', url: `${SITE_URL}/dr-sanjana-hero.png` },
+      lastReviewed: new Date().toISOString().split('T')[0],
+      reviewedBy: { '@id': `${SITE_URL}/#physician` },
+      audience: { '@type': 'MedicalAudience', audienceType: 'Patient' },
+      specialty: ['Gynecologic', 'Obstetric'],
+      breadcrumb: { '@id': `${SITE_URL}/#breadcrumb-home` },
+    },
+    {
+      '@type': 'BreadcrumbList',
+      '@id': `${SITE_URL}/#breadcrumb-home`,
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: SITE_URL },
+      ],
+    },
+  ],
+};
+
 export default function HomePage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(homeStructuredData) }}
+      />
       <Navbar />
       <main id="main-content">
         {/* ─── HERO SECTION ─── */}

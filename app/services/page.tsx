@@ -16,6 +16,7 @@ export const metadata: Metadata = {
   title: 'Gynaecology & Obstetrics Services | HSR Layout & Attibele Bangalore',
   description:
     'Comprehensive women’s healthcare services at Health Nest (HSR Layout) and Raghava Hospital (Attibele). Dr. Sanjana L offers pregnancy care, high-risk obstetrics, fertility, and laparoscopic surgery for patients across South Bangalore and Hosur.',
+  alternates: { canonical: `${SITE_URL}/services` },
 };
 
 const allServices = [

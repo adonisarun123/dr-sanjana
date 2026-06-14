@@ -115,6 +115,10 @@ export default async function BlogPostPage({ params }: Props) {
     datePublished: post.date,
     dateModified: post.date,
     author: { '@id': `${SITE_URL}/#physician` },
+    // Medical content E-E-A-T: a named, qualified clinician is credited as the
+    // reviewer of the article, which is a strong trust signal for YMYL health
+    // pages in both Google ranking and AI answer-engine citation.
+    reviewedBy: { '@id': `${SITE_URL}/#physician` },
     publisher: { '@id': `${SITE_URL}/#organization` },
     keywords: post.tags.join(', '),
     articleSection: post.category,

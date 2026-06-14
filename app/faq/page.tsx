@@ -5,11 +5,13 @@ import Footer from '@/components/Footer';
 import FloatingButtons from '@/components/FloatingButtons';
 import BreadcrumbNav from '@/components/BreadcrumbNav';
 import FAQAccordion from '@/components/FAQAccordion';
+import { SITE_URL } from '@/lib/site';
 
 export const metadata: Metadata = {
   title: 'FAQs — Health Nest Gynaecology, HSR Layout & Attibele Bangalore',
   description:
     'Common questions about gynaecology services, pregnancy care, fees & appointments with Dr. Sanjana L at HSR Layout and Attibele.',
+  alternates: { canonical: `${SITE_URL}/faq` },
 };
 
 const allFaqs = [

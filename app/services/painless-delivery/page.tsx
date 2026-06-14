@@ -220,12 +220,11 @@ const medicalProcedureSchema = {
   howPerformed:
     'A trained obstetric anaesthetist places a thin catheter into the lumbar epidural space. Low-dose local anaesthetic is delivered as boluses or continuous infusion to provide pain relief during labour, while the mother remains awake and able to push.',
   url: `${SITE_URL}/services/painless-delivery`,
-  performer: {
-    '@type': 'Physician',
-    name: 'Dr. Sanjana L',
-    medicalSpecialty: 'Obstetrics and Gynaecology',
-    url: `${SITE_URL}/about-dr-sanjana`,
-  },
+  // Reference the canonical physician entity defined in the root layout @graph
+  // (by @id) instead of redefining it inline — this avoids a duplicate Physician
+  // node and keeps a single authoritative entity for search engines and AI.
+  performer: { '@id': `${SITE_URL}/#physician` },
+  relevantSpecialty: ['Gynecologic', 'Obstetric'],
   location: [
     {
       '@type': 'MedicalClinic',

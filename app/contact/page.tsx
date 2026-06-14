@@ -12,6 +12,7 @@ export const metadata: Metadata = {
   title: 'Contact Health Nest | Dr. Sanjana L — HSR Layout & Attibele',
   description:
     'Contact Health Nest in HSR Layout or Raghava Hospital in Attibele. Get directions, clinic hours, and book appointments with Dr. Sanjana L for patients in Sarjapura, Electronic City, and South Bangalore.',
+  alternates: { canonical: `${SITE_URL}/contact` },
 };
 
 const contactLocationsSchema = {

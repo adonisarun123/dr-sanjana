@@ -4,11 +4,15 @@ import { Phone, Star, Award, CheckCircle2, ShieldCheck, MapPin, Clock, Calendar,
 import LPForm from '@/components/LPForm';
 import TestimonialCarousel from '@/components/TestimonialCarousel';
 import Footer from '@/components/Footer';
-import { WHATSAPP_CHAT_URL } from '@/lib/site';
+import { WHATSAPP_CHAT_URL, SITE_URL } from '@/lib/site';
 
 export const metadata: Metadata = {
   title: 'Best Gynaecologist | HSR & Attibele | Dr. Sanjana L — Health Nest',
   description: 'Top-rated gynaecologist Dr. Sanjana L (MBBS MS ( OBG) Gold Medalist FRM ( RGUHS) FMAS) offers expert pregnancy care and fertility support for HSR Layout, Attibele, Sarjapura & South Bangalore areas. Book a callback today.',
+  // Paid-traffic landing page: keep it live for ad campaigns but out of the
+  // organic index so it cannot cannibalise the homepage for the same keywords.
+  robots: { index: false, follow: true },
+  alternates: { canonical: `${SITE_URL}/lp/best-gynaecologist-bangalore-south` },
 };
 
 export default function LPLandingPage() {

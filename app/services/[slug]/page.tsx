@@ -57,8 +57,13 @@ export default async function ServicePage({ params }: Props) {
     description: service.overview,
     procedureType: service.category,
     location: { '@id': `${SITE_URL}/#organization` },
+    // Naming the qualified clinician who performs the procedure is a key
+    // E-E-A-T signal for medical content and supports AI answer attribution.
+    performer: { '@id': `${SITE_URL}/#physician` },
+    relevantSpecialty: ['Gynecologic', 'Obstetric'],
     followup: 'Follow-up care and monitoring provided by Dr. Sanjana L',
     howPerformed: service.whatToExpect.join('. '),
+    inLanguage: 'en-IN',
     url: `${SITE_URL}/services/${service.slug}`,
   };
 

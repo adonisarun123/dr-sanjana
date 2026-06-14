@@ -24,6 +24,7 @@ export const metadata: Metadata = {
     "Dr Sanjana L blog",
     "Health Nest blog",
   ],
+  alternates: { canonical: `${SITE_URL}/blog` },
   openGraph: {
     title: "Women's Health Blog | Dr. Sanjana L — HSR, Attibele & South Bangalore",
     description: "Expert articles on pregnancy, fertility, PCOS, endometriosis, menopause & more by Dr. Sanjana L, gynaecologist in HSR Layout & Attibele, Bangalore.",

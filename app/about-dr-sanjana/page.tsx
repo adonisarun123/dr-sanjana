@@ -11,6 +11,7 @@ export const metadata: Metadata = {
   title: 'About Dr. Sanjana L | OB-GYN, HSR Layout & Attibele, Bangalore',
   description:
     'Meet Dr. Sanjana L — MBBS MS ( OBG) Gold Medalist FRM ( RGUHS) FMAS with 10 plus years experience. Serving patients in HSR Layout, Attibele, Sarjapura, and Hosur at Health Nest & Raghava Hospital.',
+  alternates: { canonical: `${SITE_URL}/about-dr-sanjana` },
 };
 
 const qualifications = [
@@ -44,17 +45,38 @@ const aboutFaqs = [
   },
 ];
 
+// ProfilePage is the schema.org type Google recommends for a page that is the
+// authoritative profile of a single person — here, the physician. It is wrapped
+// in a @graph alongside a BreadcrumbList and an embedded FAQPage so the page
+// declares the full entity relationship (website → profile → physician) and
+// remains eligible for AI Overview / answer-engine citation.
 const aboutWebPageSchema = {
   '@context': 'https://schema.org',
-  '@type': 'WebPage',
-  '@id': `${SITE_URL}/about-dr-sanjana#webpage`,
-  url: `${SITE_URL}/about-dr-sanjana`,
-  name: 'About Dr. Sanjana L | OB-GYN, HSR Layout & Attibele, Bangalore',
-  description:
-    'Meet Dr. Sanjana L — MBBS MS (OBG) Gold Medalist, FRM (RGUHS), FMAS — obstetrician and gynaecologist at Health Nest and Raghava Hospital.',
-  isPartOf: { '@id': `${SITE_URL}/#website` },
-  about: { '@id': `${SITE_URL}/#physician` },
-  mainEntity: { '@id': `${SITE_URL}/#physician` },
+  '@graph': [
+    {
+      '@type': 'ProfilePage',
+      '@id': `${SITE_URL}/about-dr-sanjana#webpage`,
+      url: `${SITE_URL}/about-dr-sanjana`,
+      name: 'About Dr. Sanjana L | OB-GYN, HSR Layout & Attibele, Bangalore',
+      description:
+        'Meet Dr. Sanjana L — MBBS MS (OBG) Gold Medalist, FRM (RGUHS), FMAS — obstetrician and gynaecologist at Health Nest and Raghava Hospital.',
+      inLanguage: 'en-IN',
+      isPartOf: { '@id': `${SITE_URL}/#website` },
+      about: { '@id': `${SITE_URL}/#physician` },
+      mainEntity: { '@id': `${SITE_URL}/#physician` },
+      lastReviewed: new Date().toISOString().split('T')[0],
+      reviewedBy: { '@id': `${SITE_URL}/#physician` },
+      breadcrumb: { '@id': `${SITE_URL}/about-dr-sanjana#breadcrumb` },
+    },
+    {
+      '@type': 'BreadcrumbList',
+      '@id': `${SITE_URL}/about-dr-sanjana#breadcrumb`,
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: SITE_URL },
+        { '@type': 'ListItem', position: 2, name: 'About Dr. Sanjana L', item: `${SITE_URL}/about-dr-sanjana` },
+      ],
+    },
+  ],
 };
 
 export default function AboutPage() {
