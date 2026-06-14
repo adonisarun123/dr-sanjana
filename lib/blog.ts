@@ -173,11 +173,19 @@ A diet low in processed foods and refined sugars, rich in fibre, healthy fats, a
 
 ## When Should You See Dr. Sanjana at Health Nest?
 
-If you experience irregular periods, unusual hair growth, persistent acne, unexplained weight gain, or difficulty conceiving, a comprehensive evaluation at Health Nest can provide clarity and a personalised treatment plan. Early intervention — especially for PCOS — is key to protecting your long-term health.
+If you experience irregular periods, unusual hair growth, persistent acne, unexplained weight gain, or difficulty conceiving, a comprehensive evaluation at Health Nest for <a href="/services/pcos-pcod-treatment">PCOS &amp; PCOD treatment</a> can provide clarity and a personalised treatment plan. Early intervention — especially for PCOS — is key to protecting your long-term health.
 
 Dr. Sanjana L is a trusted gynaecologist in HSR Layout and Attibele, Bangalore, with 10-plus years of experience managing both PCOS and PCOD. She consults at Health Nest (HSR Layout, near Agara Lake) and Raghava Hospital (Attibele, opposite Syndicate Bank), serving patients from Koramangala, BTM Layout, Sarjapura, Electronic City, Chandapura, and across South Bangalore.
 
 Book your appointment today to take the first step toward hormonal balance and better health.
+
+## Related Reading
+
+- <a href="/services/pcos-pcod-treatment">PCOS &amp; PCOD Treatment</a>
+- <a href="/services/fertility-treatment">Fertility Treatment</a>
+- <a href="/blog/pcos-diet-plan-indian">PCOS Diet Plan (Indian)</a>
+- <a href="/blog/fertility-after-35-getting-pregnant">Fertility After 35</a>
+
     `,
   },
   {
@@ -338,6 +346,14 @@ At your first prenatal visit, Dr. Sanjana L will confirm your pregnancy with an 
 Dr. Sanjana L is an experienced obstetrician and gynaecologist at Health Nest, HSR Layout, Bangalore, and also consults at Raghava Hospital, Attibele. She serves patients from Koramangala, BTM Layout, Sarjapura Road, Electronic City, Chandapura, and all of South Bangalore.
 
 Book your first prenatal appointment today and begin your pregnancy journey with expert, compassionate care.
+
+## Related Reading
+
+- <a href="/services/pregnancy-care">Pregnancy Care</a>
+- <a href="/services/prenatal-screening">Prenatal Screening</a>
+- <a href="/blog/pregnancy-week-by-week-guide">Pregnancy Week by Week</a>
+- <a href="/blog/early-signs-of-pregnancy">Early Signs of Pregnancy</a>
+
     `,
   },
   {
@@ -481,6 +497,14 @@ Health Nest sits near Agara Lake. She also consults at Raghava Hospital, Attibel
 Patients come from Koramangala, BTM, Sarjapura, Electronic City, Chandapura, and nearby areas.
 
 Call Health Nest or use the online booking form to choose a time.
+
+## Related Reading
+
+- <a href="/services">All Gynaecology Services</a>
+- <a href="/blog/first-gynaecologist-visit-how-to-book-what-to-expect-cost">Your First Gynae Visit: Booking, What to Bring &amp; Cost</a>
+- <a href="/blog/pcos-vs-pcod-difference">PCOS vs PCOD</a>
+- <a href="/blog/menopause-symptoms-management-guide">Menopause Guide</a>
+
     `,
   },
   {
@@ -601,6 +625,15 @@ Dr. Sanjana maintains a low and ethical C-section rate by supporting normal deli
 Whether you are planning a normal delivery or need expert guidance on a C-section, Dr. Sanjana L provides compassionate, evidence-based obstetric care at Health Nest (HSR Layout) and Raghava Hospital (Attibele), Bangalore. Every birth plan is personalised to your unique needs, health history, and preferences.
 
 Book your consultation today and feel confident about your delivery journey.
+
+## Related Reading
+
+- <a href="/services/normal-delivery">Normal Delivery</a>
+- <a href="/services/painless-delivery">Painless Delivery</a>
+- <a href="/services/cesarean-delivery">Caesarean Delivery</a>
+- <a href="/blog/delivery-cost-bangalore-normal-vs-c-section">Delivery Cost in Bangalore</a>
+- <a href="/blog/how-to-prepare-for-normal-delivery">How to Prepare for Normal Delivery</a>
+
     `,
   },
   {
@@ -623,7 +656,7 @@ Each cycle this tissue thickens and bleeds, like a period, but the blood cannot 
 
 About 10% of women of reproductive age are affected worldwide (roughly 190 million). Many wait 7–10 years from first symptoms to diagnosis.
 
-Dr. Sanjana L at Health Nest (HSR Layout) and Raghava Hospital (Attibele) diagnoses and treats endometriosis, including advanced laparoscopic surgery when needed.
+Dr. Sanjana L at Health Nest (HSR Layout) and Raghava Hospital (Attibele) diagnoses and treats endometriosis, including advanced <a href="/services/laparoscopic-surgery">laparoscopic surgery</a> when needed.
 
 ## What Causes Endometriosis?
 
@@ -728,6 +761,14 @@ If you suspect you have endometriosis — or if you have been living with pelvic
 Health Nest is located in HSR Layout (near Agara Lake), Bangalore, with easy access from Koramangala and BTM Layout. Dr. Sanjana also consults at Raghava Hospital, Attibele, serving Sarjapura, Electronic City, Chandapura, and surrounding areas.
 
 Book your consultation today.
+
+## Related Reading
+
+- <a href="/services/laparoscopic-surgery">Laparoscopic Surgery</a>
+- <a href="/services/fertility-treatment">Fertility Treatment</a>
+- <a href="/blog/laparoscopic-surgery-gynaecology-guide">Laparoscopic Surgery Guide</a>
+- <a href="/blog/fertility-after-35-getting-pregnant">Fertility After 35</a>
+
     `,
   },
   {
@@ -861,6 +902,14 @@ Whether you are just starting to think about motherhood or have been trying for 
 Health Nest, HSR Layout (near Agara Lake) and Raghava Hospital, Attibele (opposite Syndicate Bank). Serving Sarjapura, Electronic City, and South Bangalore.
 
 Book your fertility consultation today.
+
+## Related Reading
+
+- <a href="/services/fertility-treatment">Fertility Treatment</a>
+- <a href="/services/ivf-iui">IVF &amp; IUI</a>
+- <a href="/blog/ivf-iui-cost-bangalore-where-to-start-fertility">IVF &amp; IUI Cost in Bangalore</a>
+- <a href="/blog/pcos-vs-pcod-difference">PCOS vs PCOD</a>
+
     `,
   },
   {
@@ -901,7 +950,7 @@ Nearly all cervical cancers are caused by persistent infection with high-risk st
 
 ### 1. Pap Smear (Cervical Cytology)
 
-The Pap smear has been the cornerstone of cervical cancer screening for decades. It is a simple, quick procedure performed during a routine gynaecological examination.
+The Pap smear has been the cornerstone of <a href="/services/cervical-cancer-screening">cervical cancer screening</a> for decades. It is a simple, quick procedure performed during a routine gynaecological examination.
 
 **How it works:**
 - A small brush or spatula is used to gently collect cells from the surface of the cervix
@@ -1001,6 +1050,14 @@ Do not wait for symptoms. Cervical cancer in its early and precancerous stages h
 Health Nest (HSR Layout, near Agara Lake) and Raghava Hospital (Attibele, opposite Syndicate Bank). Serving Koramangala, BTM Layout, Sarjapura, Electronic City, and all of South Bangalore.
 
 Book your cervical screening appointment today.
+
+## Related Reading
+
+- <a href="/services/cervical-cancer-screening">Cervical Cancer Screening</a>
+- <a href="/services">All Women&apos;s Health Services</a>
+- <a href="/blog/when-to-visit-gynaecologist">When to Visit a Gynaecologist</a>
+- <a href="/blog/menopause-symptoms-management-guide">Menopause Guide</a>
+
     `,
   },
   {
@@ -1178,6 +1235,14 @@ You do not have to suffer through menopause in silence. Dr. Sanjana L at Health 
 Health Nest (HSR Layout, near Agara Lake) and Raghava Hospital (Attibele). Accessible from Koramangala, BTM Layout, Sarjapura Road, Electronic City, and all of South Bangalore.
 
 Book your menopause consultation today. Take control of this new chapter of your life.
+
+## Related Reading
+
+- <a href="/services/menopause-management">Menopause Management</a>
+- <a href="/services">All Gynaecology Services</a>
+- <a href="/blog/cervical-cancer-screening-hpv-vaccine-guide">Cervical Cancer Screening &amp; HPV Vaccine</a>
+- <a href="/blog/when-to-visit-gynaecologist">When to Visit a Gynaecologist</a>
+
     `,
   },
   {
@@ -1406,6 +1471,14 @@ Yes. Dr. Sanjana L is a woman gynaecologist at Raghava Hospital, Attibele. Consu
 Whether you need a routine pregnancy visit, PCOS help, fertility guidance, cyst or fibroid surgery, menopause support, or simply a second opinion — Dr. Sanjana L is available at Raghava Multispeciality Hospital, Attibele, and at Health Nest, HSR Layout.
 
 Call **+91-9980031006** or book your appointment online. Care close to home, delivered with the clinical rigour of a Gold Medalist gynaecologist and FMAS-trained laparoscopic surgeon.
+
+## Related Reading
+
+- <a href="/attibele-gynaecologist">Gynaecologist in Attibele</a>
+- <a href="/services/pregnancy-care">Pregnancy Care</a>
+- <a href="/services/laparoscopic-surgery">Laparoscopic Surgery</a>
+- <a href="/blog/how-to-choose-best-gynaecologist-hsr-layout-south-bangalore">How to Choose the Best Gynaecologist</a>
+
     `,
   },
   {

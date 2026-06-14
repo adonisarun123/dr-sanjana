@@ -258,6 +258,9 @@ export default function AboutPage() {
                 View Services <ArrowRight size={16} />
               </Link>
             </div>
+            <p className="text-white/80 text-sm mt-6" style={{ fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
+              Read real <Link href="/patient-stories" className="text-white font-semibold underline">patient stories</Link>, browse our <Link href="/blog" className="text-white font-semibold underline">women's health blog</Link>, or see <Link href="/blog/how-to-choose-best-gynaecologist-hsr-layout-south-bangalore" className="text-white font-semibold underline">how to choose the best gynaecologist</Link>.
+            </p>
           </div>
         </section>
       </main>

@@ -118,6 +118,9 @@ export default function FAQPage() {
               Book a consultation with Dr. Sanjana L and get personalised answers.
             </p>
             <Link href="/book-appointment" className="btn-white">Book Appointment</Link>
+            <p className="text-white/80 text-sm mt-6" style={{ fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
+              You may also want to read about <Link href="/services" className="text-white font-semibold underline">our services</Link>, <Link href="/blog/first-gynaecologist-visit-how-to-book-what-to-expect-cost" className="text-white font-semibold underline">what to expect at your first visit</Link>, or <Link href="/blog/delivery-cost-bangalore-normal-vs-c-section" className="text-white font-semibold underline">delivery costs in Bangalore</Link>.
+            </p>
           </div>
         </section>
       </main>

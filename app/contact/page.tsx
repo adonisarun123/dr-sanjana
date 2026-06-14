@@ -198,6 +198,32 @@ export default function ContactPage() {
           </div>
           </div>
         </section>
+
+        {/* Contextual interlinks — help patients find the next step */}
+        <section className="section-sm" style={{ background: '#FFF8F0' }}>
+          <div className="container-hn">
+            <h2 className="text-center text-2xl font-bold mb-6" style={{ color: '#2D2D2D', fontFamily: 'var(--font-display), Georgia, serif' }}>
+              Before You Visit
+            </h2>
+            <div className="grid sm:grid-cols-3 gap-4 max-w-4xl mx-auto">
+              <Link href="/book-appointment" className="p-5 rounded-2xl border border-gray-100 bg-white text-center hover:shadow-md transition-shadow" style={{ textDecoration: 'none' }}>
+                <p className="font-bold mb-1" style={{ color: '#8B5E83' }}>Book an Appointment</p>
+                <p className="text-sm" style={{ color: '#6B6B6B' }}>Reserve your slot online in under a minute.</p>
+              </Link>
+              <Link href="/blog/first-gynaecologist-visit-how-to-book-what-to-expect-cost" className="p-5 rounded-2xl border border-gray-100 bg-white text-center hover:shadow-md transition-shadow" style={{ textDecoration: 'none' }}>
+                <p className="font-bold mb-1" style={{ color: '#8B5E83' }}>What to Expect at Your First Visit</p>
+                <p className="text-sm" style={{ color: '#6B6B6B' }}>How to prepare, what to bring and the typical fee.</p>
+              </Link>
+              <Link href="/services" className="p-5 rounded-2xl border border-gray-100 bg-white text-center hover:shadow-md transition-shadow" style={{ textDecoration: 'none' }}>
+                <p className="font-bold mb-1" style={{ color: '#8B5E83' }}>Explore Our Services</p>
+                <p className="text-sm" style={{ color: '#6B6B6B' }}>Pregnancy, fertility, surgery and women's health care.</p>
+              </Link>
+            </div>
+            <p className="text-center text-sm mt-6" style={{ color: '#6B6B6B' }}>
+              New to the clinic? Learn more <Link href="/about-dr-sanjana" style={{ color: '#8B5E83', fontWeight: 600 }}>about Dr. Sanjana L</Link> or read real <Link href="/patient-stories" style={{ color: '#8B5E83', fontWeight: 600 }}>patient stories</Link>.
+            </p>
+          </div>
+        </section>
       </main>
       <Footer />
       <FloatingButtons />

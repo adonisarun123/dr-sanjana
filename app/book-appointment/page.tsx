@@ -325,6 +325,16 @@ export default function BookAppointmentPage() {
                     </div>
                   ))}
                 </div>
+                {/* Contextual interlinks for the booking page */}
+                <div className="rounded-2xl p-5" style={{ background: '#FFF8F0', border: '1px solid #E8E0DB' }}>
+                  <h3 className="font-bold mb-3" style={{ fontFamily: 'var(--font-body), system-ui, sans-serif', color: '#2D2D2D' }}>Helpful Links</h3>
+                  <ul className="space-y-2 text-sm">
+                    <li><Link href="/services" style={{ color: '#8B5E83', fontWeight: 600 }}>Browse all services →</Link></li>
+                    <li><Link href="/about-dr-sanjana" style={{ color: '#8B5E83', fontWeight: 600 }}>About Dr. Sanjana L →</Link></li>
+                    <li><Link href="/blog/first-gynaecologist-visit-how-to-book-what-to-expect-cost" style={{ color: '#8B5E83', fontWeight: 600 }}>What to expect at your first visit →</Link></li>
+                    <li><Link href="/patient-stories" style={{ color: '#8B5E83', fontWeight: 600 }}>Read patient stories →</Link></li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>

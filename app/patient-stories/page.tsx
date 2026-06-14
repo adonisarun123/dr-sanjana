@@ -167,6 +167,9 @@ export default function PatientStoriesPage() {
             </h2>
             <p className="text-white/80 mb-5" style={{ fontFamily: 'var(--font-body), system-ui, sans-serif' }}>Book your appointment at Health Nest, HSR Layout today.</p>
             <Link href="/book-appointment" className="btn-white">Book Appointment</Link>
+            <p className="text-white/80 text-sm mt-6" style={{ fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
+              Learn more <Link href="/about-dr-sanjana" className="text-white font-semibold underline">about Dr. Sanjana L</Link>, explore our <Link href="/services" className="text-white font-semibold underline">range of services</Link>, or see <Link href="/blog/how-to-choose-best-gynaecologist-hsr-layout-south-bangalore" className="text-white font-semibold underline">how to choose the right gynaecologist</Link>.
+            </p>
           </div>
         </section>
       </main>
