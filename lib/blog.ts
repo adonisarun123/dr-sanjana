@@ -2698,6 +2698,666 @@ Dr. Sanjana L (MBBS, MS OBG, Gold Medalist, FRM RGUHS, FMAS) is a fellowship-tra
 Call **+91-9449031003** (HSR Layout) or **+91-9980031006** (Attibele) to book a complete **laparoscopic surgery consultation** — including ultrasound review, treatment planning and a transparent cost estimate. Or learn more about our complete <a href="/services/laparoscopic-surgery">laparoscopic surgery programme</a> and <a href="/services/hysteroscopy">hysteroscopy services</a>. Continue reading our <a href="/blog/endometriosis-symptoms-treatment">endometriosis symptoms and treatment guide</a> for related insights.
     `,
   },
+  {
+    slug: 'delivery-cost-bangalore-normal-vs-c-section',
+    title: 'Delivery Cost in Bangalore 2026: Normal Delivery vs C-Section Price, Packages & What\'s Included',
+    excerpt: 'How much does delivery cost in Bangalore? Dr. Sanjana L breaks down realistic 2026 price ranges for normal delivery and C-section at private hospitals in HSR Layout, Attibele and South Bangalore — what a maternity package includes, what raises the bill, insurance, and how to get a transparent estimate before you book.',
+    category: 'Pregnancy',
+    tags: ['delivery cost Bangalore', 'normal delivery cost', 'c-section cost Bangalore', 'maternity package', 'delivery package HSR Layout', 'delivery cost Attibele', 'painless delivery cost', 'pregnancy cost Bangalore', 'gynaecologist HSR Layout', 'gynaecologist Attibele'],
+    readTime: 12,
+    date: '2026-06-02',
+    author: 'Dr. Sanjana L',
+    metaTitle: 'Delivery Cost in Bangalore 2026: Normal vs C-Section Price | Dr. Sanjana L',
+    metaDescription: 'Normal delivery and C-section cost in Bangalore explained by Dr. Sanjana L. 2026 price ranges, what the maternity package includes, insurance & how to book a transparent estimate in HSR Layout & Attibele.',
+    content: `
+## How Much Does Delivery Cost in Bangalore in 2026?
+
+"What will my delivery cost?" is one of the first questions expecting families ask — and one of the hardest to get a straight answer to. Prices are quoted as wide ranges, packages hide exclusions, and the final bill often surprises people.
+
+As a gynaecologist and obstetrician practising in HSR Layout and Attibele for over 10 years, Dr. Sanjana L believes you deserve a transparent conversation about cost *before* you commit. This guide gives you realistic 2026 price ranges for Bangalore private hospitals, explains exactly what drives the number up or down, and shows you how to get a clear estimate for your own pregnancy.
+
+A quick, honest caveat: the figures below are typical market ranges for private hospitals across Bangalore. Your actual cost depends on the hospital, room type, your clinical situation and whether any complications arise. For a current, specific estimate at Health Nest (HSR Layout) or Raghava Multispeciality Hospital (Attibele), please call — the numbers here are for planning, not a quotation.
+
+## Normal Delivery Cost in Bangalore (2026 Range)
+
+A **normal (vaginal) delivery** in a Bangalore private hospital typically falls in the range of **₹40,000 to ₹1,25,000**.
+
+The spread is wide because it depends almost entirely on the hospital tier and the room you choose:
+
+- **Mid-range private hospitals / nursing homes:** ₹40,000 – ₹75,000
+- **Premium corporate maternity chains:** ₹85,000 – ₹1,25,000+
+
+Most uncomplicated normal deliveries at a well-equipped mid-market hospital — which is what most families actually need — land comfortably in the lower-to-middle part of this range.
+
+## C-Section (Caesarean) Cost in Bangalore (2026 Range)
+
+A **caesarean section** costs more than a normal delivery because it is a surgical procedure requiring an operating theatre, a surgical team, anaesthesia and a longer hospital stay.
+
+Typical 2026 range across Bangalore private hospitals: **₹70,000 to ₹2,00,000**.
+
+- **Mid-range private hospitals:** ₹70,000 – ₹1,20,000
+- **Premium corporate chains:** ₹1,40,000 – ₹2,00,000+
+
+As a rule of thumb, a C-section costs roughly **1.5 to 2.5 times** a normal delivery at the same hospital, for the same room category.
+
+This is one of several reasons Dr. Sanjana follows an evidence-based, low-primary-caesarean approach: a <a href="/services/normal-delivery">safe normal delivery</a> is not only better for most mothers and babies medically, it is also significantly less expensive. A C-section should be done when it is genuinely needed — not by default.
+
+## Normal Delivery vs C-Section: Cost at a Glance
+
+| Item | Normal Delivery | C-Section |
+|---|---|---|
+| Typical Bangalore range (2026) | ₹40,000 – ₹1,25,000 | ₹70,000 – ₹2,00,000 |
+| Procedure type | Vaginal birth | Major surgery |
+| Operating theatre + surgical team | Not required | Required |
+| Anaesthesia | Optional (epidural for <a href="/services/painless-delivery">painless delivery</a>) | Spinal/epidural always |
+| Typical hospital stay | 1 – 2 days | 3 – 4 days |
+| Recovery time | Faster (days) | Longer (weeks) |
+| Cost driver | Room + delivery | Surgery + longer stay |
+
+## What Does a Maternity / Delivery Package Include?
+
+Many Bangalore hospitals sell a fixed "maternity package." A typical package covers:
+
+- The delivery itself (normal or C-section as specified)
+- Obstetrician and anaesthetist fees
+- Hospital room and nursing for the standard number of days
+- Routine medications during the stay
+- Basic newborn care and a paediatrician check at birth
+- Standard labour-room or operating-theatre charges
+
+That sounds complete — but the exclusions are where bills grow.
+
+### What is usually NOT included in the package
+
+- **Antenatal care** — all the scans, blood tests and check-ups across your nine months are billed separately from the delivery package
+- **Extra hospital days** beyond the package limit (common after a C-section or if mother/baby need monitoring)
+- **NICU care** if the baby needs the special-care nursery
+- **Complications** — if a planned normal delivery becomes an emergency C-section, or if there is a postpartum complication, costs change
+- **Special medications, blood products, or additional specialist consultations**
+- **Epidural for painless delivery** (often a small add-on, typically ₹5,000 – ₹15,000)
+
+This is why the package price is a *starting* number, not the final bill.
+
+## What Actually Drives Your Delivery Cost Up or Down
+
+Six factors explain almost the entire difference between a ₹50,000 delivery and a ₹2,00,000 one:
+
+1. **Hospital tier** — a corporate chain's brand and facilities cost more than a focused mid-market hospital, for the same clinical outcome in an uncomplicated birth.
+2. **Room type** — a shared/twin-sharing room is dramatically cheaper than a single deluxe or suite. This is often the single biggest lever you control.
+3. **Type of delivery** — normal vs C-section, as above.
+4. **Length of stay** — every extra day adds room, nursing and medication charges.
+5. **Complications** — high-risk pregnancy, prematurity or an emergency changes everything; this is unpredictable, which is why good antenatal care that reduces risk also protects your budget.
+6. **Add-ons** — epidural, extra scans, NICU, additional specialists.
+
+## Does Insurance Cover Delivery in Bangalore?
+
+Many corporate and individual health insurance policies in India now cover maternity — but with important conditions:
+
+- Most policies have a **waiting period** (commonly 2 – 4 years) before maternity benefits apply, so it must be planned in advance.
+- There is usually a **capped sum** for normal delivery and a separate (higher) cap for C-section.
+- **Cashless treatment** is possible at network/empanelled hospitals; otherwise you claim reimbursement.
+- Newborn cover and complications may have separate rules.
+
+Always read your maternity sub-limits and confirm cashless eligibility with both your insurer and the hospital's TPA desk *before* admission. The Raghava Multispeciality Hospital and Health Nest teams can guide you on the documentation.
+
+## How to Get a Transparent Delivery Estimate (Before You Book)
+
+You can avoid almost every nasty billing surprise by asking five questions at your booking consultation:
+
+1. What does the package cover, and for how many days?
+2. What is the price difference between room categories?
+3. What is the estimated cost if a normal delivery becomes a C-section?
+4. Is epidural (painless delivery) included or an add-on?
+5. Is cashless insurance available here, and what are my sub-limits?
+
+At Dr. Sanjana's practice, this conversation happens openly during your antenatal visits — so by the time you are due, there are no surprises.
+
+## Why Cost and Care Quality Are Linked
+
+It is tempting to choose purely on price, in either direction — cheapest, or most expensive assuming "expensive = safest." Neither is right.
+
+What actually protects both your health and your budget is **continuity of care with an experienced obstetrician**: someone who follows your <a href="/services/pregnancy-care">pregnancy</a> from early on, catches risks early, supports a normal delivery where safe, and only recommends a C-section when it is truly indicated. Fewer surprises, fewer unnecessary interventions, and a clear cost path.
+
+## Frequently Asked Questions About Delivery Cost in Bangalore
+
+### How much does normal delivery cost in Bangalore in 2026?
+A normal delivery at a Bangalore private hospital typically costs between ₹40,000 and ₹1,25,000, depending mainly on the hospital tier and room type. Mid-range hospitals usually fall in the ₹40,000–₹75,000 band. Call the clinic for a current estimate for your situation.
+
+### How much does a C-section cost in Bangalore?
+A caesarean section in Bangalore generally costs between ₹70,000 and ₹2,00,000 in 2026. It is typically 1.5 to 2.5 times the cost of a normal delivery at the same hospital because it involves surgery, an operating theatre and a longer hospital stay.
+
+### Why is a C-section more expensive than a normal delivery?
+A C-section is major surgery. It needs an operating theatre, a surgical and anaesthesia team, more medications and a hospital stay of 3–4 days instead of 1–2. All of these add to the cost compared with a vaginal birth.
+
+### What does a maternity package include?
+A typical maternity package covers the delivery, obstetrician and anaesthetist fees, the hospital room and nursing for a set number of days, routine medications and basic newborn care. It usually does NOT include your antenatal scans and tests, extra days, NICU care, complications or epidural — these are billed separately.
+
+### Is painless delivery (epidural) extra?
+Often yes. Epidural analgesia for <a href="/services/painless-delivery">painless delivery</a> is commonly an add-on, typically ₹5,000–₹15,000, on top of the normal delivery package. Confirm whether it is included when you book.
+
+### Does insurance cover delivery in Bangalore?
+Many policies do, but most have a maternity waiting period (often 2–4 years), capped amounts for normal and C-section delivery, and rules around cashless treatment at network hospitals. Confirm your sub-limits and cashless eligibility with your insurer and the hospital before admission.
+
+### How can I reduce my delivery cost without compromising safety?
+Choose a room category that fits your budget (the biggest lever), pick an experienced obstetrician who supports safe normal delivery to avoid unnecessary C-sections, invest in good antenatal care to catch risks early, and confirm insurance cashless cover in advance.
+
+### How do I get an exact delivery cost estimate?
+Book an antenatal consultation and ask for a written package breakdown, room-category pricing, and the estimated cost if a normal delivery converts to a C-section. Call +91-9449031003 (HSR Layout) or +91-9980031006 (Attibele) for a current estimate.
+
+## Book a Transparent Pregnancy & Delivery Consultation with Dr. Sanjana L
+
+You should never have to guess what your delivery will cost. Dr. Sanjana L (MBBS, MS OBG, Gold Medalist, FRM RGUHS, FMAS) offers complete <a href="/services/pregnancy-care">pregnancy care</a>, <a href="/services/normal-delivery">normal delivery</a>, <a href="/services/painless-delivery">painless delivery</a> and <a href="/services/cesarean-delivery">caesarean delivery</a> with clear, upfront discussion of what your care will involve and what it will cost.
+
+She consults at Health Nest (1162, 24th Main Road, Sector 2, HSR Layout — near Agara Lake) and Raghava Multispeciality Hospital (Attibele — opposite Syndicate Bank), serving families from Koramangala, BTM Layout, Sarjapura, Electronic City, Chandapura, Hosur Road, Bellandur, Bommanahalli and across South Bangalore.
+
+Call **+91-9449031003** (HSR Layout) or **+91-9980031006** (Attibele), or <a href="/book-appointment">book your appointment online</a>, to get a transparent estimate for your pregnancy. You may also find our <a href="/blog/normal-delivery-vs-c-section">normal delivery vs C-section guide</a> and <a href="/blog/how-to-prepare-for-normal-delivery">how to prepare for a normal delivery</a> helpful as you plan.
+    `,
+  },
+  {
+    slug: 'how-to-choose-best-gynaecologist-hsr-layout-south-bangalore',
+    title: 'How to Choose the Best Gynaecologist in HSR Layout & South Bangalore (2026 Checklist)',
+    excerpt: 'Searching for the "best gynaecologist near me" in HSR Layout, Attibele, Sarjapura or Electronic City? Dr. Sanjana L explains exactly what to look for — qualifications, experience, the right specialisation for your need, languages, location and reviews — with a practical checklist so you can choose with confidence and book the right doctor the first time.',
+    category: 'Women\'s Health',
+    tags: ['best gynaecologist HSR Layout', 'best gynaecologist South Bangalore', 'gynaecologist near me', 'lady gynaecologist Bangalore', 'how to choose a gynaecologist', 'obstetrician HSR Layout', 'gynaecologist Sarjapura', 'gynaecologist Electronic City', 'gynaecologist Attibele', 'women\'s health Bangalore'],
+    readTime: 11,
+    date: '2026-06-05',
+    author: 'Dr. Sanjana L',
+    metaTitle: 'Best Gynaecologist in HSR Layout & South Bangalore: How to Choose (2026)',
+    metaDescription: 'How to choose the best gynaecologist in HSR Layout, Attibele & South Bangalore. A practical 2026 checklist on qualifications, experience, specialisation, languages & reviews — by Dr. Sanjana L.',
+    content: `
+## How to Choose the Best Gynaecologist for You
+
+When you search "best gynaecologist near me," you get a list of names, star ratings and ads — but very little that tells you which doctor is actually right for *your* situation. The "best" gynaecologist for a first pregnancy is not necessarily the best one for PCOS, fibroid surgery or menopause care.
+
+As a practising obstetrician and gynaecologist in HSR Layout and Attibele, Dr. Sanjana L wrote this guide to help you choose well — whether or not you end up choosing her. The right choice means continuity, trust and better outcomes. The wrong one often means switching doctors midway, repeated tests, and avoidable cost.
+
+Here is exactly what to look at, in order of importance.
+
+## 1. Qualifications and Registration (Non-Negotiable)
+
+Start with the credentials. In India, a qualified OB-GYN holds:
+
+- **MBBS** — the basic medical degree
+- **MS or MD in Obstetrics & Gynaecology** — the specialist postgraduate qualification
+- **A valid Medical Council registration number** you can verify
+
+Additional fellowships signal deeper, specific expertise — for example **FMAS** (Fellowship in Minimal Access Surgery) for laparoscopic and keyhole surgery, or fellowships in reproductive medicine for fertility.
+
+For reference, Dr. Sanjana L holds an MBBS and MS in Obstetrics & Gynaecology (Gold Medalist), FRM (RGUHS) and FMAS, with Karnataka Medical Registration No. 124759 — you can read the full background on the <a href="/about-dr-sanjana">about page</a>. A doctor who lists a clear, verifiable registration number is being transparent with you.
+
+## 2. Experience — and Experience With Your Specific Need
+
+Years of practice matter, but *relevance* matters more. Ask: how often does this doctor handle cases like mine?
+
+- **Pregnancy & delivery** → look for an obstetrician with a strong record of safe deliveries and a sensible, low-primary-caesarean approach.
+- **PCOS, irregular periods, hormonal issues** → look for someone who manages these long-term, not just prescribes and moves on.
+- **Fibroids, cysts, endometriosis** → look for laparoscopic/minimal-access surgical training (FMAS).
+- **Fertility** → look for structured evaluation and honest counselling about <a href="/services/ivf-iui">IUI and IVF</a>, including when to refer.
+- **Menopause** → look for someone who takes symptom management and long-term bone/heart health seriously.
+
+A generalist OB-GYN with 10+ years across all of these — like Dr. Sanjana — gives you continuity across life stages, which is genuinely valuable.
+
+## 3. Does the Doctor Offer What You Actually Need?
+
+Match the doctor's services to your reason for visiting. A good practice will clearly list its <a href="/services">services</a>. For example, Dr. Sanjana's covers:
+
+- Obstetrics: <a href="/services/pregnancy-care">pregnancy care</a>, <a href="/services/high-risk-pregnancy">high-risk pregnancy</a>, <a href="/services/normal-delivery">normal</a> and <a href="/services/painless-delivery">painless delivery</a>, caesarean, prenatal screening, postnatal care
+- Fertility: evaluation, ovulation induction, IUI and IVF guidance
+- Surgery: <a href="/services/laparoscopic-surgery">laparoscopic surgery</a> and hysteroscopy
+- Gynaecology: <a href="/services/pcos-pcod-treatment">PCOS/PCOD</a>, menstrual disorders, menopause, contraception, cervical cancer screening
+
+If a clinic can handle your scans, treatment and (if needed) surgery under one trusted doctor, you avoid being bounced between providers.
+
+## 4. Communication and Language
+
+You will share private, sometimes difficult information with this doctor for years. Comfort matters.
+
+- Does the doctor **listen and explain** in plain language, or rush you?
+- Can you consult in **a language you are comfortable with**? Dr. Sanjana consults in **English, Hindi, Kannada and Telugu**, which removes a real barrier for many Bangalore families.
+- Many women specifically prefer a **lady gynaecologist** for comfort during examinations — a completely valid reason to choose.
+
+## 5. Location and Accessibility
+
+Healthcare you can actually reach is healthcare you will use — especially during pregnancy, when visits are frequent.
+
+- Is the clinic **close to home or work**, with reasonable traffic access?
+- Is there a **second location** convenient to you? Dr. Sanjana consults at **Health Nest, HSR Layout** (near Agara Lake — convenient for Koramangala, BTM, Sarjapura) and **Raghava Multispeciality Hospital, Attibele** (convenient for Attibele, Chandapura, Jigani, Anekal, Hosur Road and Electronic City).
+- Are **appointments and contact** easy? A simple <a href="/book-appointment">online booking</a> and a direct phone line save you stress.
+
+## 6. Reviews, Reputation and Real Patient Stories
+
+Reviews are useful when you read them properly:
+
+- Look for **consistent themes** (calm, thorough, good with anxious patients) rather than just the star number.
+- Value reviews that mention **your kind of care** (e.g. a smooth first pregnancy, or sensitive PCOS management).
+- Read the practice's own <a href="/patient-stories">patient stories</a> alongside Google reviews for a fuller picture.
+
+Dr. Sanjana maintains a strong reputation across South Bangalore for compassionate, evidence-based care — but the most useful thing is to read what patients with situations like yours have said.
+
+## 7. Transparency on Cost
+
+A trustworthy practice will discuss cost openly. You should be able to ask about consultation fees, scan and test costs, package pricing for delivery or surgery, and insurance/cashless options — and get straight answers. (For delivery specifically, see our <a href="/blog/delivery-cost-bangalore-normal-vs-c-section">delivery cost in Bangalore guide</a>.)
+
+## Your Quick Checklist
+
+Before you book, tick these off:
+
+- ✅ Verifiable MBBS + MS/MD (OBG) and registration number
+- ✅ Experience with *your* specific need
+- ✅ Offers the services you require (scans, treatment, surgery if needed)
+- ✅ Communicates clearly in your language
+- ✅ Reachable location and easy booking
+- ✅ Consistent, relevant reviews
+- ✅ Transparent about cost and insurance
+
+If a doctor checks all seven, you have found a gynaecologist you can stay with for years — which is exactly the point.
+
+## Frequently Asked Questions About Choosing a Gynaecologist
+
+### Who is the best gynaecologist in HSR Layout?
+The "best" gynaecologist is the one whose qualifications, experience and services match your specific need, who communicates clearly and is easy to reach. In HSR Layout, Dr. Sanjana L (MBBS, MS OBG Gold Medalist, FRM RGUHS, FMAS) offers obstetrics, fertility, gynaecology and laparoscopic surgery with 10+ years of experience, consulting at Health Nest. Use the checklist in this guide and read patient reviews to decide for yourself.
+
+### What qualifications should a gynaecologist have in India?
+A qualified gynaecologist holds an MBBS plus an MS or MD in Obstetrics & Gynaecology, and a valid Medical Council registration number. Additional fellowships such as FMAS (for laparoscopic surgery) or reproductive medicine fellowships indicate deeper expertise in those areas.
+
+### Should I choose a lady gynaecologist?
+Many women feel more comfortable discussing intimate health concerns and undergoing examinations with a female gynaecologist — this is a valid and common preference. Dr. Sanjana L is a female obstetrician and gynaecologist serving HSR Layout, Attibele and South Bangalore.
+
+### How important is experience when choosing a gynaecologist?
+Very important — but relevant experience matters most. A doctor who frequently handles your specific situation (e.g. high-risk pregnancy, PCOS, fibroid surgery or fertility) will manage it better than someone who rarely sees such cases. Look for 10+ years and a track record in your area of need.
+
+### Does my gynaecologist need to speak my language?
+Ideally yes. You will share sensitive information over many years, so being able to consult comfortably in your own language improves care. Dr. Sanjana consults in English, Hindi, Kannada and Telugu.
+
+### How do I find a good gynaecologist near Electronic City or Sarjapura?
+Look for a doctor with a clinic genuinely accessible from your area. Dr. Sanjana consults at Raghava Multispeciality Hospital in Attibele (close to Electronic City, Chandapura and Hosur Road) and Health Nest in HSR Layout (close to Sarjapura, Koramangala and BTM), making her reachable from across South Bangalore.
+
+### How do I book an appointment with Dr. Sanjana L?
+Call +91-9449031003 (HSR Layout) or +91-9980031006 (Attibele), or use the online booking form. You can choose the location most convenient for you.
+
+## Book Your Appointment with Dr. Sanjana L
+
+If your checklist points you toward a calm, experienced, transparent gynaecologist who can care for you across pregnancy, fertility, surgery and every stage of women's health — Dr. Sanjana L (MBBS, MS OBG, Gold Medalist, FRM RGUHS, FMAS) would be glad to help.
+
+She consults at Health Nest (1162, 24th Main Road, Sector 2, HSR Layout — near Agara Lake) and Raghava Multispeciality Hospital (Attibele — opposite Syndicate Bank), serving Koramangala, BTM Layout, Sarjapura, Electronic City, Chandapura, Hosur Road, Bellandur, Bommanahalli and South Bangalore.
+
+Call **+91-9449031003** (HSR Layout) or **+91-9980031006** (Attibele), or <a href="/book-appointment">book online</a>. Learn more <a href="/about-dr-sanjana">about Dr. Sanjana</a>, explore our full <a href="/services">range of services</a>, or read real <a href="/patient-stories">patient stories</a> before you decide.
+    `,
+  },
+  {
+    slug: 'first-gynaecologist-visit-how-to-book-what-to-expect-cost',
+    title: 'Your First Gynaecologist Visit in Bangalore: How to Book, What to Bring & What It Costs',
+    excerpt: 'Booking your first gynaecologist appointment can feel daunting. Dr. Sanjana L walks you through exactly how to book in HSR Layout or Attibele, what documents and information to bring, what happens during the consultation, the typical fee range, and how to make the most of your visit — so you arrive prepared and leave with answers.',
+    category: 'Women\'s Health',
+    tags: ['first gynaecologist visit', 'book gynaecologist appointment Bangalore', 'gynaecologist consultation fee', 'what to expect gynae visit', 'gynaecologist HSR Layout', 'gynaecologist Attibele', 'how to book gynae appointment', 'women\'s health Bangalore', 'first prenatal visit', 'gynae checkup'],
+    readTime: 10,
+    date: '2026-06-08',
+    author: 'Dr. Sanjana L',
+    metaTitle: 'First Gynaecologist Visit Bangalore: How to Book, What to Bring & Cost | Dr. Sanjana L',
+    metaDescription: 'Your first gynaecologist visit in HSR Layout or Attibele explained by Dr. Sanjana L — how to book, what to bring, what happens during the consultation and the typical fee. Book with confidence.',
+    content: `
+## Your First Gynaecologist Visit, Made Simple
+
+Whether it is your first ever gynaecology appointment, your first prenatal visit, or your first time seeing a new doctor in Bangalore, a little preparation removes almost all of the anxiety. Dr. Sanjana L sees many first-time patients at Health Nest (HSR Layout) and Raghava Multispeciality Hospital (Attibele), and the visits that go best are the ones where the patient knew what to expect.
+
+This guide covers everything: how to book, what to bring, what actually happens in the room, what it costs, and the questions worth asking.
+
+## How to Book Your Appointment
+
+Booking with Dr. Sanjana is straightforward — choose whichever is easiest for you:
+
+- **Call directly:** +91-9449031003 for Health Nest (HSR Layout) or +91-9980031006 for Raghava Hospital (Attibele).
+- **Book online:** use the <a href="/book-appointment">appointment form</a> and the clinic will confirm your slot.
+- **WhatsApp:** message the clinic to request a time.
+
+When you book, mention briefly **why** you are coming (e.g. routine check-up, pregnancy confirmation, irregular periods, PCOS, a specific symptom). This helps the team allocate enough time and tell you if you should come with a full or empty bladder, or at a particular point in your cycle.
+
+### Which location should you choose?
+
+Pick the clinic most convenient to you:
+
+- **Health Nest, HSR Layout** — best for Koramangala, BTM Layout, Sarjapura, Agara, and central/south-central Bangalore.
+- **Raghava Multispeciality Hospital, Attibele** — best for Attibele, Chandapura, Jigani, Anekal, Hosur Road and Electronic City.
+
+## What to Bring to Your First Visit
+
+Arriving prepared means the doctor spends time on *you*, not on paperwork. Bring:
+
+- **A photo ID** (Aadhaar or any government ID)
+- **Any previous medical records** — past prescriptions, discharge summaries, surgery notes
+- **Recent test results and scan reports** — blood tests, ultrasound, Pap smear, hormone panels if you have them
+- **A list of current medications and supplements**, including doses
+- **Your menstrual history** — date of your last period, cycle length, and whether cycles are regular
+- **Insurance details / card**, if you plan to use insurance
+- **Your questions**, written down (more on this below)
+
+If you are coming to confirm a pregnancy, a record of your last menstrual period is especially helpful for dating.
+
+### A note on timing within your cycle
+
+For routine gynaecology concerns, you can usually visit any time. But:
+
+- A **Pap smear** is best done when you are *not* menstruating.
+- For **fertility or hormonal evaluation**, the doctor may want tests on specific cycle days — so an early call to ask is worthwhile.
+
+## What Actually Happens During the Consultation
+
+Knowing the flow makes the room far less intimidating. A typical first visit includes:
+
+1. **Conversation first.** The doctor asks about your reason for visiting, medical and menstrual history, family history and lifestyle. This is the most important part — be open and honest; everything is confidential.
+2. **General check.** Often blood pressure, weight and a general assessment.
+3. **Examination, if needed.** Depending on your concern, this may include an abdominal or pelvic examination. It is always explained first, and you can ask for a female attendant to be present. Not every visit needs an internal examination.
+4. **Investigations, if needed.** The doctor may recommend an ultrasound, blood tests or a Pap smear. Some can be done the same day.
+5. **Explanation and plan.** The doctor explains what she finds, what it means, and the next steps — in language you understand, in English, Hindi, Kannada or Telugu.
+
+You are always free to ask questions, ask for an attendant, or take a moment. A good consultation is a two-way conversation.
+
+## What Does a Gynaecologist Consultation Cost in Bangalore?
+
+A first **consultation fee** at a private gynaecologist in Bangalore typically falls in the range of **₹500 to ₹1,200**, depending on the doctor and clinic. A follow-up visit is often less.
+
+Keep in mind that the consultation fee is separate from any **tests or scans** the doctor may recommend. As a rough guide for Bangalore:
+
+| Item | Typical range (2026) |
+|---|---|
+| First consultation | ₹500 – ₹1,200 |
+| Follow-up consultation | ₹300 – ₹700 |
+| Pelvic / pregnancy ultrasound | ₹800 – ₹2,500 |
+| Routine blood panel | ₹500 – ₹2,000 |
+| Pap smear | ₹800 – ₹1,500 |
+
+These are general market ranges for planning only. For Dr. Sanjana's current consultation fee and any tests relevant to your visit, please call the clinic — they will tell you upfront.
+
+## Questions Worth Asking at Your First Visit
+
+Make your visit count. Depending on your reason for coming, consider asking:
+
+- What is my diagnosis, and what does it mean for me?
+- What are my treatment options, and what do you recommend?
+- Do I need any tests or scans, and what will they cost?
+- What lifestyle changes would help?
+- When should I come back, and what warning signs should bring me in sooner?
+- If relevant: is this covered by insurance here?
+
+## It Is Normal to Feel Nervous — Here's Reassurance
+
+If you have been putting off a gynae visit out of nervousness or embarrassment, please know: gynaecologists discuss these topics every single day, without judgement. Many concerns are far easier to treat when seen early. Whether it is irregular periods, <a href="/services/pcos-pcod-treatment">PCOS</a>, a pregnancy, pain, or simply a routine check, you are doing the right thing by coming in. (If you are unsure whether your symptom needs a visit, our guide on <a href="/blog/when-to-visit-gynaecologist">when to see a gynaecologist</a> can help.)
+
+## Frequently Asked Questions About Your First Gynae Visit
+
+### How do I book a gynaecologist appointment in Bangalore?
+You can call the clinic directly — +91-9449031003 (HSR Layout) or +91-9980031006 (Attibele) — use the online booking form, or message on WhatsApp. Mention your reason for visiting so the team can allocate enough time and advise on any preparation.
+
+### What should I bring to my first gynaecologist visit?
+Bring a photo ID, any previous medical records and test/scan reports, a list of your current medications, your menstrual history (date of last period and cycle details), and your insurance card if applicable. Writing down your questions in advance also helps.
+
+### How much does a gynaecologist consultation cost in Bangalore?
+A first consultation at a private gynaecologist in Bangalore typically costs ₹500–₹1,200, with follow-ups usually less. Tests and scans are billed separately. Call the clinic for the current fee for your visit.
+
+### Will I need a pelvic examination at my first visit?
+Not always. Whether an examination is needed depends entirely on your reason for visiting. If one is recommended, it will be explained beforehand, and you can ask for a female attendant to be present.
+
+### Is there anything I should do before the appointment?
+For a routine visit, no special preparation is needed. A Pap smear is best scheduled when you are not menstruating, and fertility or hormone tests may need specific cycle days — so it helps to ask when you book. Note the date of your last period.
+
+### Is my first gynae visit confidential?
+Yes. Everything you share with your gynaecologist is confidential. Being open about your history and symptoms helps the doctor give you the best care.
+
+### Can I consult Dr. Sanjana in my own language?
+Yes. Dr. Sanjana L consults in English, Hindi, Kannada and Telugu, so you can discuss your health comfortably.
+
+### Which location should I visit — HSR Layout or Attibele?
+Choose whichever is more convenient. Health Nest in HSR Layout suits Koramangala, BTM, Sarjapura and central-south Bangalore; Raghava Hospital in Attibele suits Attibele, Chandapura, Hosur Road and Electronic City.
+
+## Book Your First Appointment with Dr. Sanjana L
+
+Taking the first step is the hardest part — and you have nearly done it. Dr. Sanjana L (MBBS, MS OBG, Gold Medalist, FRM RGUHS, FMAS) offers warm, unhurried consultations for every women's health need, from routine check-ups to <a href="/services/pregnancy-care">pregnancy care</a>, <a href="/services/pcos-pcod-treatment">PCOS</a>, fertility and more.
+
+She consults at Health Nest (1162, 24th Main Road, Sector 2, HSR Layout — near Agara Lake) and Raghava Multispeciality Hospital (Attibele — opposite Syndicate Bank), serving Koramangala, BTM Layout, Sarjapura, Electronic City, Chandapura, Hosur Road, Bellandur, Bommanahalli and South Bangalore.
+
+Call **+91-9449031003** (HSR Layout) or **+91-9980031006** (Attibele), or <a href="/book-appointment">book your appointment online</a>. New to choosing a doctor? Read our guide on <a href="/blog/how-to-choose-best-gynaecologist-hsr-layout-south-bangalore">how to choose the best gynaecologist</a>, or learn more <a href="/about-dr-sanjana">about Dr. Sanjana</a>.
+    `,
+  },
+  {
+    slug: 'painless-delivery-south-bangalore-cost-eligibility-where',
+    title: 'Painless Delivery in South Bangalore: Cost, Eligibility & Where to Get It (2026)',
+    excerpt: 'Considering an epidural for a painless delivery in HSR Layout, Attibele or Electronic City? Dr. Sanjana L explains how painless delivery works, who is eligible, whether it is safe, what it costs in Bangalore in 2026, and how to plan it as part of your birth — so you can make an informed, confident choice.',
+    category: 'Pregnancy',
+    tags: ['painless delivery South Bangalore', 'epidural cost Bangalore', 'painless delivery cost', 'painless delivery HSR Layout', 'painless delivery Attibele', 'epidural delivery', 'labour pain relief', 'normal delivery with epidural', 'gynaecologist HSR Layout', 'obstetrician Attibele'],
+    readTime: 11,
+    date: '2026-06-10',
+    author: 'Dr. Sanjana L',
+    metaTitle: 'Painless Delivery in South Bangalore: Cost, Eligibility & Where | Dr. Sanjana L',
+    metaDescription: 'Painless delivery (epidural) in HSR Layout, Attibele & South Bangalore — how it works, who is eligible, is it safe, 2026 cost range, and how to plan it. Expert guide by Dr. Sanjana L.',
+    content: `
+## Painless Delivery: A Real Option for South Bangalore Mothers
+
+Childbirth does not have to mean enduring the most intense pain of your life. **Painless delivery** — a normal vaginal birth supported by epidural analgesia — lets you stay awake, alert and active during labour while the pain is dramatically reduced. For many women, it transforms the birth experience.
+
+Dr. Sanjana L offers <a href="/services/painless-delivery">painless delivery</a> as part of her obstetric care in HSR Layout and Attibele, for mothers across South Bangalore. This guide answers the questions women actually ask before deciding: how it works, whether they are eligible, whether it is safe, what it costs, and where to have it.
+
+## What Is Painless Delivery, Exactly?
+
+Painless delivery is a **normal vaginal delivery** in which labour pain is controlled using an **epidural** — a regional anaesthetic.
+
+A trained anaesthetist places a very thin tube (catheter) into the epidural space in your lower back. A carefully dosed combination of local anaesthetic and pain medication is delivered through it, numbing the pain of contractions while keeping you conscious and able to push.
+
+Importantly, it is *not* a C-section and not general anaesthesia. You are awake, you participate in the birth, and you hold your baby right after.
+
+## How Painless Delivery Works, Step by Step
+
+1. When labour is established and you request pain relief (or per your birth plan), the anaesthetist is called.
+2. You sit or lie curled on your side; the lower back is cleaned and numbed.
+3. The fine epidural catheter is placed — this takes a few minutes.
+4. Pain relief begins within about 10–20 minutes and is topped up or continuously infused as labour progresses.
+5. You remain awake, can often move or change position, and push effectively in the second stage.
+6. The catheter is removed easily after birth.
+
+## Who Is Eligible for Painless Delivery?
+
+Most healthy women planning a vaginal birth are candidates. An epidural is suitable when:
+
+- You are in established labour and want pain relief
+- There are no specific contraindications (your obstetrician and anaesthetist confirm this)
+- It is medically appropriate for your situation — and it can be *especially* helpful in some <a href="/services/high-risk-pregnancy">high-risk pregnancies</a> (for example, certain heart conditions or high blood pressure), where reducing pain-related stress is beneficial
+
+It may not be suitable if you have certain bleeding disorders, are on specific blood thinners, have an infection at the injection site, or have particular spinal issues. This is exactly why a **pre-delivery consultation** matters — so eligibility is established calmly, in advance, not in the middle of labour.
+
+## Is Painless Delivery Safe?
+
+Yes. Epidural analgesia is one of the most widely used and well-studied forms of labour pain relief worldwide, performed routinely and safely when administered by a trained anaesthetist in a proper facility.
+
+Common, minor and temporary effects can include a drop in blood pressure (monitored and managed), some heaviness in the legs, or a headache in a small number of cases. Serious complications are rare. Your obstetrician and anaesthetist will discuss your individual risk during your consultation.
+
+A key reassurance: a well-managed epidural does **not** "always lead to a C-section." Dr. Sanjana follows an evidence-based approach that supports <a href="/services/normal-delivery">normal vaginal delivery</a> with effective pain relief.
+
+## What Does Painless Delivery Cost in Bangalore (2026)?
+
+The **epidural itself** is typically an **add-on of around ₹5,000 to ₹15,000** on top of your normal delivery cost, depending on the hospital and the anaesthetist's charges.
+
+So your total is essentially:
+
+> **Normal delivery package + epidural add-on**
+
+For reference, a normal delivery in a Bangalore private hospital generally ranges from ₹40,000 to ₹1,25,000 (see our detailed <a href="/blog/delivery-cost-bangalore-normal-vs-c-section">delivery cost guide</a>). Adding painless delivery brings a modest incremental cost for a significant improvement in comfort.
+
+| Component | Typical range (2026) |
+|---|---|
+| Normal delivery (private hospital) | ₹40,000 – ₹1,25,000 |
+| Epidural (painless) add-on | ₹5,000 – ₹15,000 |
+| Antenatal care (separate) | Varies by package |
+
+These are general planning ranges. For a current, specific estimate at Health Nest or Raghava Multispeciality Hospital, please call — the team will give you a clear breakdown.
+
+## Where to Get Painless Delivery in South Bangalore
+
+Painless delivery requires a hospital with a **24/7 anaesthetist** and proper labour-and-delivery facilities — not every clinic offers it. Dr. Sanjana L provides painless delivery at:
+
+- **Health Nest, HSR Layout** (1162, 24th Main Road, Sector 2 — near Agara Lake): convenient for Koramangala, BTM Layout, Sarjapura and central-south Bangalore.
+- **Raghava Multispeciality Hospital, Attibele** (opposite Syndicate Bank): convenient for Attibele, Chandapura, Jigani, Anekal, Hosur Road and Electronic City.
+
+Both offer the monitoring and anaesthesia support a painless delivery needs, with Dr. Sanjana managing your labour throughout.
+
+## How to Plan Your Painless Delivery
+
+The best painless deliveries are planned, not improvised:
+
+1. **Discuss it during antenatal visits** — tell Dr. Sanjana you are interested, ideally in the third trimester.
+2. **Confirm eligibility** — your history and any relevant tests are reviewed in advance.
+3. **Put it in your birth plan** — so the whole team knows your preference.
+4. **Stay flexible** — labour is unpredictable; the plan adapts to keep you and baby safe.
+
+## Frequently Asked Questions About Painless Delivery
+
+### What is painless delivery?
+Painless delivery is a normal vaginal birth in which labour pain is controlled with an epidural — a regional anaesthetic delivered through a fine catheter in the lower back. You stay awake and able to push; it is not a C-section or general anaesthesia.
+
+### How much does painless delivery cost in Bangalore in 2026?
+The epidural is usually an add-on of about ₹5,000–₹15,000 on top of the normal delivery cost (₹40,000–₹1,25,000 at private hospitals). Your total is the delivery package plus the epidural add-on. Call the clinic for a current, specific estimate.
+
+### Is painless delivery safe for the baby and mother?
+Yes. Epidural analgesia is widely used and well studied, and is safe when given by a trained anaesthetist in a proper facility. Minor temporary effects (like a dip in blood pressure) are monitored and managed; serious complications are rare.
+
+### Does an epidural always lead to a C-section?
+No. A well-managed epidural does not automatically lead to a caesarean. Dr. Sanjana follows an evidence-based approach that supports a normal vaginal delivery with effective pain relief.
+
+### Who is not eligible for painless delivery?
+Epidural may not be suitable if you have certain bleeding disorders, are on specific blood thinners, have an infection at the injection site, or have particular spinal conditions. Eligibility is confirmed during a pre-delivery consultation with your obstetrician and anaesthetist.
+
+### When during labour is the epidural given?
+Usually once labour is well established and you want pain relief, or as set out in your birth plan. Pain relief typically begins within 10–20 minutes of the epidural being placed.
+
+### Where can I get painless delivery in South Bangalore?
+Dr. Sanjana L offers painless delivery at Health Nest (HSR Layout) and Raghava Multispeciality Hospital (Attibele), both equipped with anaesthesia and monitoring support — serving Koramangala, BTM, Sarjapura, Electronic City, Chandapura and Hosur Road.
+
+### How do I plan a painless delivery with Dr. Sanjana?
+Raise it during your antenatal visits, ideally in the third trimester, so eligibility can be confirmed and it can be added to your birth plan. Call +91-9449031003 (HSR Layout) or +91-9980031006 (Attibele) to discuss.
+
+## Book a Painless Delivery Consultation with Dr. Sanjana L
+
+You deserve a calmer, more comfortable birth experience — and a clear conversation about whether painless delivery is right for you. Dr. Sanjana L (MBBS, MS OBG, Gold Medalist, FRM RGUHS, FMAS) provides <a href="/services/painless-delivery">painless delivery</a>, <a href="/services/normal-delivery">normal delivery</a> and complete <a href="/services/pregnancy-care">pregnancy care</a> with experienced, compassionate support.
+
+She consults at Health Nest (1162, 24th Main Road, Sector 2, HSR Layout — near Agara Lake) and Raghava Multispeciality Hospital (Attibele — opposite Syndicate Bank), serving Koramangala, BTM Layout, Sarjapura, Electronic City, Chandapura, Hosur Road, Bellandur, Bommanahalli and South Bangalore.
+
+Call **+91-9449031003** (HSR Layout) or **+91-9980031006** (Attibele), or <a href="/book-appointment">book your appointment online</a>, to plan a comfortable birth. You may also like our <a href="/blog/how-to-prepare-for-normal-delivery">how to prepare for normal delivery</a> and <a href="/blog/delivery-cost-bangalore-normal-vs-c-section">delivery cost in Bangalore</a> guides.
+    `,
+  },
+  {
+    slug: 'ivf-iui-cost-bangalore-where-to-start-fertility',
+    title: 'IVF & IUI Cost in Bangalore 2026: Prices, What\'s Included & Where to Start Your Fertility Journey',
+    excerpt: 'How much do IUI and IVF cost in Bangalore, and what should you do first? Dr. Sanjana L explains 2026 price ranges for IUI and IVF, what each package includes, the difference between the two treatments, who needs which, and why a proper fertility evaluation in HSR Layout or Attibele is the right, cost-saving first step.',
+    category: 'Fertility',
+    tags: ['IVF cost Bangalore', 'IUI cost Bangalore', 'fertility treatment cost', 'IVF IUI difference', 'fertility evaluation', 'trying to conceive Bangalore', 'fertility doctor HSR Layout', 'fertility doctor Attibele', 'infertility treatment Bangalore', 'gynaecologist Sarjapura'],
+    readTime: 12,
+    date: '2026-06-12',
+    author: 'Dr. Sanjana L',
+    metaTitle: 'IVF & IUI Cost in Bangalore 2026: Price, Inclusions & Where to Start | Dr. Sanjana L',
+    metaDescription: 'IUI and IVF cost in Bangalore explained by Dr. Sanjana L — 2026 price ranges, what packages include, IUI vs IVF, and why a fertility evaluation in HSR Layout or Attibele is the right first step.',
+    content: `
+## Thinking About Fertility Treatment? Start Here
+
+If you have been trying to conceive without success, the world of fertility treatment can feel overwhelming — and expensive. Costs are quoted in confusing ranges, "IVF packages" mean different things at different clinics, and it is rarely clear what you should actually do *first*.
+
+Dr. Sanjana L offers <a href="/services/fertility-treatment">fertility evaluation and treatment</a> and <a href="/services/ivf-iui">IUI and IVF guidance</a> at Health Nest (HSR Layout) and Raghava Multispeciality Hospital (Attibele). This guide gives you honest 2026 Bangalore price ranges, explains what each treatment includes, and — most importantly — shows you the right, cost-effective first step so you do not overspend on the wrong treatment.
+
+A note on figures: the ranges below are typical Bangalore market prices for planning. Your actual cost depends on your diagnosis, the protocol you need, medication doses and the clinic. For a specific plan and estimate, a fertility evaluation is the place to start. Please call to discuss your situation.
+
+## First, the Most Important Point: Get Evaluated Before You Pay for Treatment
+
+The single biggest mistake couples make is jumping straight to expensive treatment without a proper **fertility evaluation**. Many causes of difficulty conceiving — irregular ovulation, <a href="/services/pcos-pcod-treatment">PCOS</a>, thyroid issues, mild hormonal imbalances — respond to simpler, far cheaper interventions than IVF.
+
+A structured evaluation for both partners (it is never only the woman) identifies *why* you are not conceiving, so your money goes toward the treatment you actually need. This is both better medicine and better economics.
+
+### When should you seek a fertility evaluation?
+
+- Under 35 and trying for **12 months** without success
+- 35 or older and trying for **6 months** without success
+- Known issues like PCOS, irregular periods, endometriosis, or previous pelvic surgery — see a doctor **sooner**
+- (Our guide on <a href="/blog/fertility-after-35-getting-pregnant">fertility after 35</a> explains why age changes the timeline.)
+
+## IUI vs IVF: What's the Difference?
+
+These are two different treatments at very different price points — and many couples need only the simpler one.
+
+**IUI (Intrauterine Insemination)** is the simpler, less expensive option. Around the time of ovulation, prepared sperm is placed directly into the uterus, shortening the journey and improving the chance of fertilisation. It suits mild male-factor issues, unexplained infertility, ovulation problems and certain other situations.
+
+**IVF (In Vitro Fertilisation)** is more advanced. Eggs are retrieved, fertilised with sperm in a laboratory, and the resulting embryo is transferred to the uterus. It is used for blocked or damaged tubes, more significant male-factor infertility, advanced maternal age, repeated IUI failures, endometriosis and other complex cases.
+
+| Feature | IUI | IVF |
+|---|---|---|
+| Complexity | Simpler | Advanced (lab-based) |
+| Typical Bangalore cost (per cycle, 2026) | ₹8,000 – ₹20,000 | ₹1,00,000 – ₹2,50,000+ |
+| Best for | Mild issues, unexplained infertility, ovulation problems | Tubal factor, significant male factor, age, IUI failures |
+| Where to begin | Often the first treatment tried | After evaluation / when IUI is unsuitable |
+
+## IUI Cost in Bangalore (2026)
+
+A single **IUI cycle** in Bangalore typically costs **₹8,000 to ₹20,000**.
+
+What this usually includes: cycle monitoring scans, the sperm preparation, and the insemination procedure. Ovulation-stimulating medication may be extra depending on your protocol. Because several factors influence success, more than one cycle is sometimes recommended — ask your doctor how many cycles are reasonable for your situation before moving on.
+
+## IVF Cost in Bangalore (2026)
+
+A single **IVF cycle** in Bangalore generally ranges from **₹1,00,000 to ₹2,50,000 or more**.
+
+The wide range reflects real differences:
+
+- **Medication costs** vary significantly with your age and ovarian response — often a large part of the bill
+- **Add-on procedures** such as ICSI (injecting a single sperm into the egg), embryo freezing, or genetic testing increase cost
+- **The clinic and laboratory** standard
+- **Number of cycles** needed
+
+### What an IVF package typically includes — and excludes
+
+Included in most base packages: consultations, monitoring scans, egg retrieval, laboratory fertilisation and embryo transfer.
+
+Often **extra**: stimulation medications, ICSI, embryo freezing and storage, frozen embryo transfer (FET) in a later cycle, and genetic testing. Always ask for an itemised quote so you know your realistic total, not just the headline package price.
+
+## Why Starting With the Right Doctor Saves Money
+
+A good fertility journey is staged sensibly: evaluate first, try the simplest effective treatment, and escalate only when needed. An experienced gynaecologist who can do your evaluation, manage ovulation and IUI, and coordinate or refer for IVF when truly required, prevents two expensive errors — paying for IVF you did not need, and losing time on treatments that were never going to work for your diagnosis.
+
+Dr. Sanjana provides honest counselling at every step, including being clear about when specialised ART referral is the right move.
+
+## Does Insurance Cover Fertility Treatment?
+
+Historically, fertility treatment has had limited insurance coverage in India, though this is gradually changing and some newer policies and corporate plans now include certain fertility benefits. Coverage, caps and waiting periods vary widely. Check your specific policy and corporate benefits, and ask the clinic which costs (e.g. diagnostics) may be claimable.
+
+## Frequently Asked Questions About IVF & IUI Cost
+
+### How much does IUI cost in Bangalore in 2026?
+A single IUI cycle in Bangalore typically costs ₹8,000–₹20,000, usually covering monitoring, sperm preparation and the insemination. Stimulation medication may be extra. Call the clinic for an estimate based on your protocol.
+
+### How much does IVF cost in Bangalore in 2026?
+One IVF cycle in Bangalore generally costs ₹1,00,000–₹2,50,000 or more. Medications, ICSI, embryo freezing and genetic testing can add to this. Ask for an itemised quote, as the base package rarely includes everything.
+
+### What is the difference between IUI and IVF?
+IUI is simpler and cheaper — prepared sperm is placed into the uterus around ovulation. IVF is advanced — eggs are retrieved and fertilised in a lab, and the embryo is transferred to the uterus. IUI suits milder issues; IVF is used for tubal factor, significant male factor, age and IUI failures.
+
+### Should I start with IUI or IVF?
+It depends on your diagnosis, which is why a fertility evaluation comes first. Many couples succeed with IUI or even simpler ovulation treatment and never need IVF. Starting with an evaluation ensures you pay for the treatment you actually need.
+
+### When should I see a fertility doctor?
+See a doctor if you are under 35 and have tried for 12 months, or 35+ and have tried for 6 months, without conceiving. If you have PCOS, irregular periods, endometriosis or previous pelvic surgery, seek evaluation sooner.
+
+### Why is a fertility evaluation important before treatment?
+An evaluation identifies the actual cause of difficulty conceiving — for both partners — so treatment is targeted. Many causes respond to simpler, far cheaper interventions than IVF, so evaluating first saves money and time.
+
+### Does insurance cover IVF or IUI in Bangalore?
+Coverage has traditionally been limited in India but is gradually expanding, with some newer and corporate policies including fertility benefits. Caps and waiting periods vary. Check your policy and ask the clinic which diagnostic costs may be claimable.
+
+### Can Dr. Sanjana help with my fertility treatment?
+Yes. Dr. Sanjana L provides fertility evaluation, ovulation induction and IUI, and counselling and co-management for IVF, coordinating specialised ART care when needed — at HSR Layout and Attibele.
+
+## Start Your Fertility Journey with Dr. Sanjana L
+
+The right first step is rarely the most expensive one — it is a clear, honest evaluation that tells you exactly what you need. Dr. Sanjana L (MBBS, MS OBG, Gold Medalist, FRM RGUHS, FMAS) offers compassionate <a href="/services/fertility-treatment">fertility evaluation and treatment</a> and <a href="/services/ivf-iui">IUI and IVF guidance</a>, with transparent discussion of options and cost at every stage.
+
+She consults at Health Nest (1162, 24th Main Road, Sector 2, HSR Layout — near Agara Lake) and Raghava Multispeciality Hospital (Attibele — opposite Syndicate Bank), serving Koramangala, BTM Layout, Sarjapura, Electronic City, Chandapura, Hosur Road, Bellandur, Bommanahalli and South Bangalore.
+
+Call **+91-9449031003** (HSR Layout) or **+91-9980031006** (Attibele), or <a href="/book-appointment">book your appointment online</a>, to begin with a proper evaluation. You may also find our guides on <a href="/blog/fertility-after-35-getting-pregnant">fertility after 35</a> and <a href="/blog/pcos-vs-pcod-difference">PCOS vs PCOD</a> helpful.
+    `,
+  },
 ];
 
 export function getBlogPostBySlug(slug: string): BlogPost | undefined {
