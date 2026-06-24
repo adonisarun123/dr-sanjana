@@ -24,7 +24,10 @@ import Footer from '@/components/Footer';
 import FloatingButtons from '@/components/FloatingButtons';
 import BreadcrumbNav from '@/components/BreadcrumbNav';
 import FAQAccordion from '@/components/FAQAccordion';
+import { getLocationServicesForService } from '@/lib/locationServices';
 import { SITE_URL } from '@/lib/site';
+
+const nearbyPages = getLocationServicesForService('painless-delivery');
 
 /* ──────────────────────────── SEO META ──────────────────────────── */
 
@@ -884,6 +887,35 @@ export default function PainlessDeliveryPage() {
             <FAQAccordion faqs={faqs} />
           </div>
         </section>
+
+        {/* ─── AVAILABLE NEAR YOU ─── */}
+        {nearbyPages.length > 0 && (
+          <section className="section-sm bg-cream">
+            <div className="container-hn">
+              <h2 className="mb-2 font-display text-2xl font-bold text-ink">
+                Painless Delivery — Available Near You
+              </h2>
+              <div className="accent-line" />
+              <p className="mb-6 max-w-2xl font-sans text-sm text-ink-muted">
+                Looking for painless (epidural) delivery in your area? Explore care close to home.
+              </p>
+              <div className="grid gap-4 sm:grid-cols-2">
+                {nearbyPages.map((lp) => (
+                  <Link
+                    key={lp.slug}
+                    href={`/${lp.slug}`}
+                    className="flex items-center justify-between gap-3 rounded-xl border border-border bg-white p-4 transition-colors hover:border-primary/40 hover:bg-purple-50"
+                  >
+                    <span className="font-sans text-sm font-semibold text-ink">
+                      {lp.shortTitle}
+                    </span>
+                    <ArrowRight size={16} className="flex-shrink-0 text-primary" />
+                  </Link>
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
 
         {/* ─── CTA STRIP ─── */}
         <section

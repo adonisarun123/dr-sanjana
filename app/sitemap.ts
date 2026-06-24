@@ -1,5 +1,6 @@
 import { MetadataRoute } from 'next';
 import { services } from '@/lib/services';
+import { locationServices } from '@/lib/locationServices';
 import { blogPosts } from '@/lib/blog';
 import { SITE_URL } from '@/lib/site';
 
@@ -32,6 +33,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
+  const locationServicePages: MetadataRoute.Sitemap = locationServices.map(ls => ({
+    url: `${baseUrl}/${ls.slug}`,
+    lastModified: new Date(),
+    changeFrequency: 'monthly' as const,
+    priority: 0.9,
+  }));
+
   const blogPages: MetadataRoute.Sitemap = blogPosts.map(post => ({
     url: `${baseUrl}/blog/${post.slug}`,
     lastModified: new Date(post.date),
@@ -39,5 +47,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  return [...staticPages, ...locationPages, ...servicePages, ...blogPages];
+  return [
+    ...staticPages,
+    ...locationPages,
+    ...servicePages,
+    ...locationServicePages,
+    ...blogPages,
+  ];
 }

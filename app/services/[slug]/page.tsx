@@ -3,6 +3,8 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { CheckCircle2, AlertCircle, ArrowRight, Calendar } from 'lucide-react';
 import { services, getServiceBySlug, getRelatedServices } from '@/lib/services';
+import { getLocationServicesForService } from '@/lib/locationServices';
+import { MapPin } from 'lucide-react';
 import { SITE_URL } from '@/lib/site';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
@@ -49,6 +51,7 @@ export default async function ServicePage({ params }: Props) {
   if (!service) notFound();
 
   const related = getRelatedServices(service.relatedSlugs);
+  const nearbyPages = getLocationServicesForService(service.slug);
 
   const medicalProcedureSchema = {
     '@context': 'https://schema.org',
@@ -244,6 +247,27 @@ export default async function ServicePage({ params }: Props) {
                     Call Clinic
                   </a>
                 </div>
+
+                {nearbyPages.length > 0 && (
+                  <div className="rounded-2xl border border-primary/20 bg-purple-50/40 p-5">
+                    <h3 className="mb-4 flex items-center gap-2 font-sans font-semibold text-ink">
+                      <MapPin size={16} className="text-primary" /> Available Near You
+                    </h3>
+                    <ul className="space-y-2">
+                      {nearbyPages.map((lp) => (
+                        <li key={lp.slug}>
+                          <Link
+                            href={`/${lp.slug}`}
+                            className="flex items-center gap-2 rounded-lg p-2 font-sans text-sm text-ink-muted transition-colors hover:bg-purple-100"
+                          >
+                            <ArrowRight size={14} className="flex-shrink-0 text-primary" />
+                            {lp.shortTitle}
+                          </Link>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
 
                 {related.length > 0 && (
                   <div className="rounded-2xl border border-border bg-white p-5">
