@@ -41,7 +41,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: post.metaDescription,
     },
     alternates: {
-      canonical: `${SITE_URL}/blog/${post.slug}`,
+      // Syndicated/press posts carry a canonicalUrl pointing to the original
+      // publisher so they are not treated as duplicate content; own posts
+      // canonicalise to themselves.
+      canonical: post.canonicalUrl ?? `${SITE_URL}/blog/${post.slug}`,
     },
   };
 }
@@ -125,6 +128,14 @@ export default async function BlogPostPage({ params }: Props) {
     wordCount: post.content.split(/\s+/).length,
     inLanguage: 'en-IN',
     isAccessibleForFree: true,
+    // For syndicated/press posts, attribute the original publisher so search
+    // engines and AI understand this content was first published elsewhere.
+    ...(post.sourceCredit
+      ? {
+          isBasedOn: post.canonicalUrl ?? post.sourceCredit.url,
+          sourceOrganization: { '@type': 'Organization', name: post.sourceCredit.name, url: post.sourceCredit.url },
+        }
+      : {}),
     mainEntityOfPage: {
       '@type': 'WebPage',
       '@id': `${SITE_URL}/blog/${post.slug}`,
@@ -273,6 +284,15 @@ export default async function BlogPostPage({ params }: Props) {
                 <span className="flex items-center gap-1"><Clock size={14} /> {post.readTime} min read</span>
                 <span className="flex items-center gap-1"><MapPin size={14} /> HSR Layout &amp; Attibele, Bangalore</span>
               </div>
+              {post.sourceCredit && (
+                <p className="mt-4 text-sm" style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
+                  Originally published by{' '}
+                  <a href={post.sourceCredit.url} target="_blank" rel="noopener noreferrer" style={{ color: '#8B5E83', fontWeight: 600 }}>
+                    {post.sourceCredit.name}
+                  </a>
+                  . Republished with the original feature credited as the source.
+                </p>
+              )}
             </div>
           </div>
         </section>

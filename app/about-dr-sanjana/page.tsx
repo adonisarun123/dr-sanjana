@@ -228,6 +228,29 @@ export default function AboutPage() {
           </div>
         </section>
 
+        {/* In the Press — E-E-A-T authority signal */}
+        <section className="section" style={{ background: '#FFF8F0' }}>
+          <div className="container-hn max-w-3xl mx-auto text-center">
+            <p className="section-label mb-2">In the Press</p>
+            <h2 className="text-3xl font-bold mb-4" style={{ fontFamily: 'var(--font-display), Georgia, serif', color: '#2D2D2D' }}>
+              Featured Stories
+            </h2>
+            <div className="accent-line-center" />
+            <div className="mt-8 p-6 rounded-2xl border border-gray-100 bg-white text-left">
+              <p className="text-xs font-semibold uppercase tracking-wider mb-2" style={{ color: '#8B5E83' }}>Janitri Club · Feature Interview</p>
+              <h3 className="text-xl font-bold mb-2" style={{ fontFamily: 'var(--font-display), Georgia, serif', color: '#2D2D2D' }}>
+                &ldquo;It Is the Couple Who Is Getting Pregnant&rdquo;
+              </h3>
+              <p className="text-sm mb-4" style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
+                Dr. Sanjana&apos;s journey from a three-generation medical family in Hassan to obstetrics and fertility medicine in Bangalore — and the philosophy at the heart of her practice.
+              </p>
+              <Link href="/blog/dr-sanjana-janitri-feature-couple-getting-pregnant" style={{ color: '#8B5E83', fontWeight: 600 }}>
+                Read the feature <ArrowRight size={14} className="inline" />
+              </Link>
+            </div>
+          </div>
+        </section>
+
         {/* FAQs */}
         <section className="section bg-gradient-hero">
           <div className="container-hn max-w-2xl mx-auto">

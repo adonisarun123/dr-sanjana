@@ -13,6 +13,19 @@ export interface BlogPost {
   metaDescription: string;
   /** Optional hero image for Open Graph / BlogPosting schema (absolute URL or path starting with `/`). */
   image?: string;
+  /**
+   * Optional canonical URL override. Set this to the ORIGINAL publisher's URL
+   * when a post is republished/syndicated from elsewhere (e.g. a press feature),
+   * so search engines credit the original source and we avoid duplicate content.
+   * When omitted, the canonical defaults to this site's own /blog/{slug}.
+   */
+  canonicalUrl?: string;
+  /**
+   * Optional source/credit for syndicated content, e.g.
+   * { name: 'Janitri', url: 'https://...' }. Rendered as a visible credit and
+   * used to attribute the original publisher in structured data.
+   */
+  sourceCredit?: { name: string; url: string };
 }
 
 export const blogPosts: BlogPost[] = [
@@ -3429,6 +3442,101 @@ The right first step is rarely the most expensive one — it is a clear, honest 
 She consults at Health Nest (1162, 24th Main Road, Sector 2, HSR Layout — near Agara Lake) and Raghava Multispeciality Hospital (Attibele — opposite Syndicate Bank), serving Koramangala, BTM Layout, Sarjapura, Electronic City, Chandapura, Hosur Road, Bellandur, Bommanahalli and South Bangalore.
 
 Call **+91-9449031003** (HSR Layout) or **+91-9980031006** (Attibele), or <a href="/book-appointment">book your appointment online</a>, to begin with a proper evaluation. You may also find our guides on <a href="/blog/fertility-after-35-getting-pregnant">fertility after 35</a> and <a href="/blog/pcos-vs-pcod-difference">PCOS vs PCOD</a> helpful.
+    `,
+  },
+  {
+    slug: 'dr-sanjana-janitri-feature-couple-getting-pregnant',
+    title: '"It Is the Couple Who Is Getting Pregnant" — Dr. Sanjana L Featured by Janitri',
+    excerpt: 'In a feature interview with Janitri, Dr. Sanjana Lakshmikanth traces her journey from a three-generation medical family in Hassan to obstetrics and fertility medicine in Bangalore — and shares the philosophy at the heart of her practice: that pregnancy belongs to the couple, not the woman alone. On planning fertility early, trusting your doctor, VBAC, recovery after a caesarean, and bringing monitoring home.',
+    category: 'Women\'s Health',
+    tags: ['Dr Sanjana Lakshmikanth', 'Janitri feature', 'in the press', 'fertility', 'high-risk pregnancy', 'couple pregnancy', 'VBAC', 'caesarean recovery', 'gynaecologist HSR Layout', 'obstetrician Attibele'],
+    readTime: 9,
+    date: '2026-06-24',
+    author: 'Dr. Sanjana L',
+    metaTitle: '"It Is the Couple Who Is Getting Pregnant" — Dr. Sanjana L | Janitri Feature',
+    metaDescription: 'Dr. Sanjana Lakshmikanth, obstetrician & fertility specialist in HSR Layout and Attibele, featured by Janitri — on couple-centred pregnancy, planning fertility early, VBAC, caesarean recovery and home monitoring.',
+    image: 'https://substackcdn.com/image/fetch/$s_!DJZ2!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc622837d-9b57-4db8-b19a-7b50b354e819_1280x960.jpeg',
+    canonicalUrl: 'https://www.janitri.club/p/it-is-the-couple-who-is-getting-pregnant',
+    sourceCredit: { name: 'Janitri', url: 'https://www.janitri.club/p/it-is-the-couple-who-is-getting-pregnant' },
+    content: `
+> This feature interview was originally published by <a href="https://www.janitri.club/p/it-is-the-couple-who-is-getting-pregnant" target="_blank" rel="noopener noreferrer">Janitri</a> as part of their series with leading voices in maternal, newborn and women's health. We share it here with the original credited as the source. To learn more about consulting with Dr. Sanjana, see our <a href="/services/pregnancy-care">pregnancy care</a> and <a href="/services/fertility-treatment">fertility treatment</a> services, or <a href="/book-appointment">book an appointment</a>.
+
+## A doctor, three generations on
+
+Somewhere in Hassan, decades ago, a boy from a family that owned almost nothing was quietly watched by his schoolteacher — who had a habit of picking out the sharpest children in the village and paying to send them to the district colleges. The boy was one of them. He studied entirely on scholarships, trained as a paediatrician in the United States on a government stipend, and came home to a district where intravenous fluids were so scarce that doctors boiled water to make their own. He became the first paediatrician in Hassan district and founded Malnad Nursing Home, which still runs today.
+
+Three generations later, his granddaughter sat down to tell his story as the reason she never once considered being anything other than a doctor.
+
+"Ever since I can remember, if anybody asked me what I wanted to be, I always wanted to be a doctor," says Dr. Sanjana. "I had no second thoughts about it. He was truly inspiring, and he was extremely smart."
+
+## Raised by a family of doctors — and by distance
+
+Dr. Sanjana grew up in what she describes as a joint family and a nuclear family at once: cousins in different houses, all within the same compound, with her grandfather at its head. Both her parents are doctors — her mother an obstetrician and gynaecologist, her father a paediatrician — and Malnad Nursing Home, where her mother still practises, was the backdrop of her childhood.
+
+But that childhood was spent almost entirely away from home: a residential school in Chikmagalur, then Mangalore, Mysore, and Davangere. "I've never actually lived in my hometown," she says. Her parents, both consumed by their practice, made a hard choice early on, and carried a quiet guilt about it. "They always felt they weren't there to teach me," she remembers. "So they thought a residential school would help me in the long run. And it definitely has made me what I am now."
+
+She completed her MBBS at JSS Medical College in Mysore, then her MS in obstetrics and gynaecology at JJM Medical College in Davangere, where she graduated with the gold medal in the subject. From there she added two fellowships: minimal access surgery at Sunrise Hospital, Kochi, under renowned laparoscopic surgeon Dr. Hafeez Rahman, and reproductive medicine at Genea Fertility Centre, Bangalore. Today she consults as an obstetrician and gynaecologist in HSR Layout and at Raghava Multispeciality Hospital in Attibele, as a fertility consultant in HSR Layout — and back home in Hassan, in the hospital her grandfather built.
+
+## Why obstetrics? "It has everything."
+
+Watching her mother decided it. But the subject itself sealed it. "OBGYN has the best of all worlds," she says. "It is medicine, it is surgery, it is psychiatry, it is counselling, it is ultrasound — it is everything you want it to be. Because women come to you first. Before they go to a physician, they come to their gynaecologist."
+
+## The cases that shook her
+
+Some lessons aren't taught in medical school. An eight-months-pregnant woman who developed eclampsia was tied to a tree by her village, who believed she was possessed; she did not survive. A mother arrived with a severely dehydrated baby she had stopped breastfeeding because someone had told her her own milk was poisonous — she had dropped a fly into a cup of it and watched the fly die. "You can't laugh, and you can't tell her she's wrong," Dr. Sanjana says. "You have to get down to her level and explain why the fly actually died — and that her milk is not poisonous." The doctor's job, she returns to often, is not only clinical: it is to meet patients where they are, without judgment.
+
+## The pregnancy she will never forget
+
+A woman in her late forties came to the fertility centre where Dr. Sanjana was training. She and her husband had lost both their children and had no other family — just each other — and she had already reached menopause. Through a donor-embryo programme, she conceived. "Every single antenatal visit, my heart would be in my mouth," Dr. Sanjana recalls. About a year ago, the woman delivered a healthy baby. "IVF is such a magical thing. That is one of the most beautiful stories I can think of."
+
+## "It is the couple who is getting pregnant"
+
+Much of Dr. Sanjana's philosophy comes back to a single, quietly radical idea: pregnancy is not a solo event. "It is the couple who is getting pregnant — not the woman," she says. The wife carries the physical and mental weight, so the husband's involvement isn't a nicety; it changes the outcome. She wants the new-age couple to attend antenatal visits together, understand what labour actually is, and be ready for the decisions that can arise on the day. "When both of them know what's happening, there's no doubt — no suspicion that the doctor is simply taking the easier way out. The journey becomes something you can actually enjoy and remember."
+
+## Plan early — before you have to regret it
+
+She is just as direct about planning. With first pregnancies pushed into the mid-thirties, <a href="/services/high-risk-pregnancy">high-risk pregnancies</a> have become far more common. She now sees women as young as 26 or 28 with an AMH as low as 0.6, with no idea anything is wrong. Her advice is blunt and practical: get evaluated early. Soon after marriage, the husband should have a semen analysis and the wife an AMH test, so the couple knows where they stand. "If your fertility is good, you can consciously decide to delay. And if it isn't, at least you'll know the outcomes of your decision. You can preserve your fertility through egg freezing and get pregnant whenever you're truly ready." (For more, see our guide on <a href="/blog/fertility-after-35-getting-pregnant">fertility after 35</a>.)
+
+## On caesareans, trust, and the absence of medals
+
+Few topics draw more public suspicion than rising C-section rates. Dr. Sanjana pushes back firmly. Rates are climbing, she explains, for reasons that have little to do with convenience — far less tolerance for error, and the very real threat of litigation. "At the end of the day, there's no medal for delivering vaginally and no medal for delivering by section. The goal is a healthy mother and a healthy baby." Some caesareans are now a matter of maternal choice, which she respects after counselling both ways. Her simplest instruction surfaces here: trust your doctor — and if you can't, find one you can. (See our balanced guide on <a href="/blog/normal-delivery-vs-c-section">normal delivery vs C-section</a>.)
+
+## VBAC: possible, but only on the right terms
+
+For mothers who have had a caesarean and hope for a vaginal birth next time, Dr. Sanjana is encouraging but careful. A VBAC is genuinely possible, but two things matter enormously: why the first caesarean was done, and the strength of the existing scar — which can never be fully assessed beforehand. A VBAC should be attempted only where there is round-the-clock monitoring, an anaesthetist and an obstetrician on hand, "because things can happen in minutes." Spontaneous labour is far safer than induction after a previous caesarean.
+
+## The complication no one warns them about
+
+Adhesions. The body heals differently in every person — even ten caesareans by the same surgeon will heal ten different ways, and some lay down dense adhesions that fix the uterus to the abdominal wall or the bladder to the uterus. This is why she does not encourage pregnancies after two caesareans: "The third is going to be a high-risk pregnancy," she tells couples plainly — best understood before the surgery, not discovered during it.
+
+## What happens after the cut
+
+If there is one gap in Indian maternal care Dr. Sanjana wants closed, it is the assumption that the story ends when the baby is delivered. "It doesn't just end at the C-section. What happens beyond that is most important." Her prescription is a team: a pelvic physiotherapist to rebuild the pelvic floor and abdominal wall, and a lactation consultant to teach feeding positions. She punctures a stubborn myth — "Spinal anaesthesia will not cause back pain"; the far more common culprit is poor feeding posture. She is firm on wound care, too: it is safe to shower, just keep the wound dry and watch for unusual discharge, foul smell or abnormal pain. Good nutrition and supplements should continue for a full three months. (Our <a href="/services/postnatal-care">postnatal care</a> service is built around exactly this kind of recovery support.)
+
+## Bringing the monitoring home
+
+For higher-risk pregnancies, Dr. Sanjana sees real value in carrying the hospital's vigilance into the home. Mothers, especially in smaller cities, often travel long distances for a single checkup; if they can send a non-stress-test reading from home between visits, both doctor and patient are reassured. A stillbirth at term, she says quietly, is the worst thing an obstetrician can face. "It is a beautiful thing which has come," she says of home monitoring devices — and yes, she would recommend them to her own mothers without hesitation.
+
+## If she could change one thing
+
+Asked what single thing she would change about the world, Dr. Sanjana doesn't reach for anything grand. She reaches for the same idea she began with — that pregnancy belongs to two people. She would find a way for fathers to feel it. "If men could go through some variation of what the mother goes through, they would understand what she feels. It should be a shared experience."
+
+## What Dr. Sanjana wants every couple to know
+
+- **Pregnancy is a shared journey.** Partners should attend antenatal visits, learn what labour involves, and make informed decisions together.
+- **Test your fertility early.** Soon after marriage, consider a semen analysis for him and an AMH test for her — so you can plan, not regret.
+- **Know your options if you're delaying.** Egg freezing and fertility preservation exist for a reason.
+- **Trust your doctor — or change your doctor.** A caesarean is not a failure; a healthy mother and baby are the only finish line that counts.
+- **A VBAC can be safe** with the right indication, spontaneous labour and a fully equipped centre.
+- **Be aware of adhesions, especially after two caesareans.** A third pregnancy is high-risk.
+- **Recovery needs a team** — pelvic physiotherapy, lactation support, good wound care, and three months of nutrition and supplements.
+- **For high-risk pregnancies, monitoring can come home.** Home NST readings shared with your doctor ease anxiety and help everyone wait for the right moment.
+
+## Consult Dr. Sanjana L
+
+Dr. Sanjana Lakshmikanth (MBBS, MS — OBG, Gold Medalist) is a consultant obstetrician–gynaecologist and fertility specialist. She practises at Health Nest in HSR Layout, at Raghava Multispeciality Hospital in Attibele, and at Malnad Nursing Home in Hassan. Read more <a href="/about-dr-sanjana">about Dr. Sanjana</a>, explore her <a href="/services">full range of services</a>, or <a href="/book-appointment">book an appointment</a> at the clinic most convenient to you.
+
+_Feature interview courtesy of <a href="https://www.janitri.club/p/it-is-the-couple-who-is-getting-pregnant" target="_blank" rel="noopener noreferrer">Janitri</a>. All quotes belong to the original publication._
     `,
   },
 ];
