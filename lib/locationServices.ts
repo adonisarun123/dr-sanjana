@@ -450,8 +450,8 @@ export const locationServices: LocationService[] = [
       },
     ],
     serviceSlug: 'laparoscopic-surgery',
-    hubHref: '/chandapura-hosur-road-gynaecologist',
-    hubLabel: 'Gynaecologist in South Bangalore',
+    hubHref: '/hsr-layout-gynaecologist',
+    hubLabel: 'Gynaecologist in HSR Layout',
     schemaType: 'MedicalProcedure',
     metaTitle: 'Laparoscopic Gynaecological Surgery in HSR Layout | Dr. Sanjana L',
     metaDescription:
@@ -648,8 +648,8 @@ export const locationServices: LocationService[] = [
       },
     ],
     serviceSlug: 'pcos-pcod-treatment',
-    hubHref: '/chandapura-hosur-road-gynaecologist',
-    hubLabel: 'Gynaecologist in South Bangalore',
+    hubHref: '/hsr-layout-gynaecologist',
+    hubLabel: 'Gynaecologist in HSR Layout',
     schemaType: 'MedicalProcedure',
     metaTitle: 'PCOS & PCOD Treatment in HSR Layout | Dr. Sanjana L',
     metaDescription:
@@ -714,8 +714,8 @@ export const locationServices: LocationService[] = [
       },
     ],
     serviceSlug: 'ivf-iui',
-    hubHref: '/electronic-city-sarjapura-gynaecologist',
-    hubLabel: 'Gynaecologist in Electronic City & Sarjapura',
+    hubHref: '/hsr-layout-gynaecologist',
+    hubLabel: 'Gynaecologist in HSR Layout',
     schemaType: 'MedicalProcedure',
     metaTitle: 'Fertility, IVF & IUI Treatment in HSR Layout | Dr. Sanjana L',
     metaDescription:
@@ -857,6 +857,666 @@ export const locationServices: LocationService[] = [
       'cesarean doctor near Chandapura',
       'delivery hospital Attibele',
       'maternity hospital Attibele C-section',
+    ],
+  },
+
+  /* ─────────────────────────────────────────────────────────────────────────
+     13. Normal Delivery — Attibele
+  ───────────────────────────────────────────────────────────────────────── */
+  {
+    slug: 'normal-delivery-attibele',
+    title: 'Normal Delivery Doctor in Attibele, Bangalore',
+    shortTitle: 'Normal Delivery — Attibele',
+    category: 'Obstetrics',
+    locality: 'Attibele',
+    clinic: 'attibele',
+    description:
+      'Safe, supported normal (vaginal) delivery for families in and around Attibele — with Dr. Sanjana L at Raghava Multispeciality Hospital, Attibele.',
+    overview:
+      'For expecting families in Attibele, a safe normal delivery close to home means less travel in labour and familiar faces through the birth. Dr. Sanjana L — MBBS, MS (OBG) Gold Medalist (RGUHS), FMAS — leads maternity care at Raghava Multispeciality Hospital on the Sarjapura–Attibele Road, supporting calm, low-intervention vaginal births with a strong normal-delivery-first philosophy for mothers from Attibele town, the industrial belt and the surrounding villages.\n\nA normal delivery here is fully supported and fully backed up. You get consistent antenatal care, continuous monitoring in labour, and the option of epidural pain relief if you want it — with 24/7 anaesthesia, newborn care and emergency caesarean capability on standby should labour ever need to change course. That combination of a genuine effort at vaginal birth with complete safety cover is what makes Raghava a trusted choice for normal delivery in Attibele.',
+    whatToExpect: [
+      'Regular antenatal check-ups and growth monitoring close to home in Attibele',
+      'A birth plan discussion by week 34 covering your delivery preferences',
+      'Continuous fetal monitoring once labour is active',
+      'Encouragement to stay mobile and upright to aid natural progress',
+      'Optional epidural pain relief if you choose a painless delivery',
+      'Immediate skin-to-skin contact and early breastfeeding support',
+      '24/7 back-up for emergency caesarean and newborn care if required',
+    ],
+    whyChoose: [
+      'Delivery at Raghava Multispeciality Hospital, right in Attibele',
+      'Strong normal-delivery-first, low-intervention philosophy',
+      '10+ years of obstetric experience with routine and complex births',
+      'Multilingual care — English, Hindi, Kannada, Telugu',
+      '24/7 anaesthesia, operative and newborn back-up on site',
+    ],
+    nearbyAreas: ['Attibele', 'Bommasandra', 'Anekal', 'Chandapura', 'Jigani', 'Sarjapura', 'Hosur Road'],
+    faqs: [
+      {
+        q: 'Where can I have a normal delivery in Attibele?',
+        a: 'Dr. Sanjana L supports normal (vaginal) deliveries at Raghava Multispeciality Hospital on the Sarjapura–Attibele Road, with 24/7 anaesthesia and newborn back-up. Call +91 99800 31006 to plan your delivery.',
+      },
+      {
+        q: 'What if a complication means I need a C-section?',
+        a: 'Raghava Hospital is fully equipped for emergency caesarean and newborn care around the clock. Dr. Sanjana aims for a safe vaginal birth wherever possible, but immediate operative back-up is always ready if labour changes course.',
+      },
+      {
+        q: 'Can I get an epidural for a painless normal delivery in Attibele?',
+        a: 'Yes. Epidural labour analgesia is available at Raghava Hospital, so you can have a normal delivery with pain relief if you choose. Your options are discussed during your birth-planning visit.',
+      },
+      {
+        q: 'Do you take patients from Bommasandra, Anekal and Chandapura?',
+        a: 'Yes. The Attibele unit regularly cares for families from Bommasandra, Anekal, Chandapura, Jigani and Sarjapura, all within a short drive of the hospital.',
+      },
+    ],
+    serviceSlug: 'normal-delivery',
+    hubHref: '/attibele-gynaecologist',
+    hubLabel: 'Gynaecologist in Attibele',
+    schemaType: 'MedicalProcedure',
+    metaTitle: 'Normal Delivery Doctor in Attibele | Dr. Sanjana L — Raghava Hospital',
+    metaDescription:
+      'Safe normal (vaginal) delivery in Attibele with Dr. Sanjana L (MS OBG) at Raghava Multispeciality Hospital. Normal-delivery-first care, epidural option, 24/7 back-up.',
+    keywords: [
+      'normal delivery Attibele',
+      'normal delivery doctor Attibele',
+      'maternity hospital Attibele',
+      'vaginal delivery Attibele',
+      'delivery hospital near Bommasandra',
+      'best gynaecologist Attibele',
+    ],
+  },
+
+  /* ─────────────────────────────────────────────────────────────────────────
+     14. Painless Delivery — Attibele
+  ───────────────────────────────────────────────────────────────────────── */
+  {
+    slug: 'painless-delivery-attibele',
+    title: 'Painless Delivery in Attibele, Bangalore',
+    shortTitle: 'Painless Delivery — Attibele',
+    category: 'Obstetrics',
+    locality: 'Attibele',
+    clinic: 'attibele',
+    description:
+      'Comfortable painless delivery (epidural labour analgesia) for mothers in Attibele — with Dr. Sanjana L at Raghava Multispeciality Hospital.',
+    overview:
+      'Painless delivery lets you experience the birth of your baby without the sharp pain of contractions, while staying fully awake and in control. For families in Attibele, Dr. Sanjana L offers epidural-supported painless delivery at Raghava Multispeciality Hospital on the Sarjapura–Attibele Road, so mothers no longer need to travel deep into the city for modern labour pain relief.\n\nA low-dose epidural is placed by an anaesthetist once labour is active, giving meaningful relief within 10–20 minutes while you remain awake, aware and able to push effectively. It is one of the safest forms of labour pain relief, with only a tiny amount of medication reaching the baby, and it still aims for a normal vaginal birth. With 24/7 anaesthesia and newborn back-up on site, Raghava is a reassuring choice for painless delivery in the Attibele belt.',
+    whatToExpect: [
+      'Birth-planning visit around week 32–34 to discuss pain-relief options',
+      'Continuous fetal monitoring once active labour begins',
+      'Anaesthetist-administered low-dose epidural when your cervix is favourable',
+      'Pain relief within 10–20 minutes while you stay awake and alert',
+      'Energy conserved for focused pushing in the second stage',
+      'Skin-to-skin contact and early breastfeeding support after birth',
+      '24/7 anaesthesia and newborn back-up on site',
+    ],
+    whyChoose: [
+      'Epidural painless delivery available locally in Attibele',
+      'Safe, low-dose technique aiming for a normal vaginal birth',
+      '10+ years of obstetric experience with low-intervention births',
+      'Multilingual care — English, Hindi, Kannada, Telugu',
+      '24/7 anaesthesia and newborn support at Raghava Hospital',
+    ],
+    nearbyAreas: ['Attibele', 'Bommasandra', 'Anekal', 'Chandapura', 'Jigani', 'Sarjapura', 'Hosur Road'],
+    faqs: [
+      {
+        q: 'Is painless delivery available in Attibele?',
+        a: 'Yes. Dr. Sanjana L offers painless delivery with epidural labour analgesia at Raghava Multispeciality Hospital, Attibele, with anaesthesia cover around the clock. Call +91 99800 31006 to plan your delivery.',
+      },
+      {
+        q: 'Is an epidural safe for my baby?',
+        a: 'Yes. Epidural analgesia is one of the most studied and safest forms of labour pain relief. Only a very small amount of medication reaches the baby, and you stay awake and able to breastfeed soon after birth.',
+      },
+      {
+        q: 'Will an epidural stop me having a normal delivery?',
+        a: 'No. A painless delivery is a normal vaginal delivery with pain relief added. The epidural removes contraction pain but keeps the goal of a safe vaginal birth wherever clinically appropriate.',
+      },
+      {
+        q: 'Can mothers from Bommasandra and Anekal come here for painless delivery?',
+        a: 'Yes. Families from Bommasandra, Anekal, Chandapura and Jigani regularly choose Raghava, Attibele for painless delivery as it is far closer than city-centre hospitals.',
+      },
+    ],
+    serviceSlug: 'painless-delivery',
+    hubHref: '/attibele-gynaecologist',
+    hubLabel: 'Gynaecologist in Attibele',
+    schemaType: 'MedicalProcedure',
+    metaTitle: 'Painless Delivery in Attibele | Dr. Sanjana L — Raghava Hospital',
+    metaDescription:
+      'Painless delivery (epidural) in Attibele with Dr. Sanjana L (MS OBG) at Raghava Multispeciality Hospital. Safe, comfortable labour with 24/7 anaesthesia back-up.',
+    keywords: [
+      'painless delivery Attibele',
+      'epidural delivery Attibele',
+      'painless delivery near Bommasandra',
+      'maternity hospital Attibele',
+      'normal delivery Attibele',
+      'best gynaecologist Attibele',
+    ],
+  },
+
+  /* ─────────────────────────────────────────────────────────────────────────
+     15. Normal Delivery — Bommasandra
+  ───────────────────────────────────────────────────────────────────────── */
+  {
+    slug: 'normal-delivery-bommasandra',
+    title: 'Normal Delivery Doctor in Bommasandra, Bangalore',
+    shortTitle: 'Normal Delivery — Bommasandra',
+    category: 'Obstetrics',
+    locality: 'Bommasandra',
+    clinic: 'attibele',
+    description:
+      'Safe, supported normal delivery for families in and around Bommasandra — with Dr. Sanjana L at Raghava Multispeciality Hospital, Attibele.',
+    overview:
+      'Bommasandra families no longer need to travel to Electronic City or deeper into Bangalore for a well-supported normal delivery. Just minutes away on the Sarjapura–Attibele Road, Dr. Sanjana L leads maternity care at Raghava Multispeciality Hospital, offering a strong normal-delivery-first approach for mothers from Bommasandra, the industrial area, Hebbagodi and the surrounding neighbourhoods.\n\nYou receive consistent antenatal care nearby, continuous monitoring during labour, and the reassurance of 24/7 anaesthesia, newborn care and emergency caesarean capability if it is ever needed. The aim is a calm, natural vaginal birth with complete safety cover — close enough that reaching the hospital in early labour is quick and low-stress.',
+    whatToExpect: [
+      'Antenatal check-ups and growth scans close to Bommasandra',
+      'Birth-plan discussion by week 34 covering your preferences',
+      'Continuous fetal monitoring in active labour',
+      'Support to stay mobile and upright to aid natural progress',
+      'Optional epidural pain relief for a painless delivery',
+      'Skin-to-skin contact and early breastfeeding support',
+      '24/7 back-up for emergency caesarean and newborn care',
+    ],
+    whyChoose: [
+      'Delivery at Raghava Hospital, a short drive from Bommasandra',
+      'Normal-delivery-first, low-intervention philosophy',
+      '10+ years of obstetric experience',
+      'Multilingual care — English, Hindi, Kannada, Telugu',
+      '24/7 anaesthesia, operative and newborn back-up',
+    ],
+    nearbyAreas: ['Bommasandra', 'Hebbagodi', 'Attibele', 'Anekal', 'Chandapura', 'Electronic City', 'Jigani'],
+    faqs: [
+      {
+        q: 'Where can I have a normal delivery near Bommasandra?',
+        a: 'Dr. Sanjana L supports normal deliveries at Raghava Multispeciality Hospital, Attibele — a short drive from Bommasandra — with 24/7 anaesthesia and newborn back-up. Call +91 99800 31006 to plan your delivery.',
+      },
+      {
+        q: 'How far is the hospital from Bommasandra?',
+        a: 'Raghava Hospital is on the Sarjapura–Attibele Road, typically 10–15 minutes from most of Bommasandra depending on traffic — much closer than city-centre maternity hospitals.',
+      },
+      {
+        q: 'Is epidural painless delivery available?',
+        a: 'Yes. You can choose a normal delivery with epidural pain relief. Anaesthesia is available around the clock at Raghava Hospital.',
+      },
+      {
+        q: 'What happens if I need an emergency C-section?',
+        a: 'The hospital is equipped for emergency caesarean and newborn care 24/7. Dr. Sanjana aims for a safe vaginal birth but keeps full operative back-up ready throughout labour.',
+      },
+    ],
+    serviceSlug: 'normal-delivery',
+    hubHref: '/bommasandra-gynaecologist',
+    hubLabel: 'Gynaecologist near Bommasandra',
+    schemaType: 'MedicalProcedure',
+    metaTitle: 'Normal Delivery Doctor in Bommasandra | Dr. Sanjana L',
+    metaDescription:
+      'Safe normal (vaginal) delivery near Bommasandra with Dr. Sanjana L (MS OBG) at Raghava Multispeciality Hospital, Attibele. Normal-delivery-first care, 24/7 back-up.',
+    keywords: [
+      'normal delivery Bommasandra',
+      'maternity hospital Bommasandra',
+      'delivery hospital near Bommasandra',
+      'normal delivery near Hebbagodi',
+      'gynaecologist Bommasandra',
+      'vaginal delivery Bommasandra',
+    ],
+  },
+
+  /* ─────────────────────────────────────────────────────────────────────────
+     16. Painless Delivery — Bommasandra
+  ───────────────────────────────────────────────────────────────────────── */
+  {
+    slug: 'painless-delivery-bommasandra',
+    title: 'Painless Delivery near Bommasandra, Bangalore',
+    shortTitle: 'Painless Delivery — Bommasandra',
+    category: 'Obstetrics',
+    locality: 'Bommasandra',
+    clinic: 'attibele',
+    description:
+      'Comfortable epidural painless delivery for mothers near Bommasandra — with Dr. Sanjana L at Raghava Multispeciality Hospital, Attibele.',
+    overview:
+      'Painless delivery gives you relief from the pain of contractions while keeping you awake and in control through the birth. For Bommasandra families, Dr. Sanjana L offers epidural-supported painless delivery at Raghava Multispeciality Hospital, just a short drive away on the Sarjapura–Attibele Road — so you can access modern labour pain relief without a long journey into the city.\n\nAn anaesthetist places a low-dose epidural once labour is active, giving relief within 10–20 minutes while you stay alert and able to push. It is a safe, well-established technique that still aims for a normal vaginal birth, backed by 24/7 anaesthesia and newborn care on site.',
+    whatToExpect: [
+      'Birth-planning visit around week 32–34 to discuss pain relief',
+      'Continuous fetal monitoring in active labour',
+      'Low-dose epidural placed by an anaesthetist when appropriate',
+      'Relief within 10–20 minutes while you stay awake and alert',
+      'Energy conserved for effective pushing',
+      'Skin-to-skin and early breastfeeding support after birth',
+      '24/7 anaesthesia and newborn back-up on site',
+    ],
+    whyChoose: [
+      'Epidural painless delivery a short drive from Bommasandra',
+      'Safe technique aiming for a normal vaginal birth',
+      '10+ years of obstetric experience',
+      'Multilingual care — English, Hindi, Kannada, Telugu',
+      '24/7 anaesthesia and newborn support at Raghava Hospital',
+    ],
+    nearbyAreas: ['Bommasandra', 'Hebbagodi', 'Attibele', 'Anekal', 'Chandapura', 'Electronic City', 'Jigani'],
+    faqs: [
+      {
+        q: 'Is painless delivery available near Bommasandra?',
+        a: 'Yes. Dr. Sanjana L offers epidural painless delivery at Raghava Multispeciality Hospital, Attibele, a short drive from Bommasandra, with anaesthesia cover around the clock. Call +91 99800 31006.',
+      },
+      {
+        q: 'How safe is an epidural for the baby?',
+        a: 'Very safe. Epidural analgesia is one of the most studied forms of labour pain relief, with only a tiny amount of medication reaching the baby. You remain awake and can breastfeed soon after birth.',
+      },
+      {
+        q: 'Can I still have a normal delivery with an epidural?',
+        a: 'Yes. Painless delivery is simply a normal vaginal delivery with pain relief added; the goal of a safe vaginal birth stays the same wherever clinically appropriate.',
+      },
+      {
+        q: 'How long does it take to reach the hospital from Bommasandra?',
+        a: 'Raghava Hospital is usually 10–15 minutes from most of Bommasandra via the Sarjapura–Attibele Road, depending on traffic.',
+      },
+    ],
+    serviceSlug: 'painless-delivery',
+    hubHref: '/bommasandra-gynaecologist',
+    hubLabel: 'Gynaecologist near Bommasandra',
+    schemaType: 'MedicalProcedure',
+    metaTitle: 'Painless Delivery near Bommasandra | Dr. Sanjana L',
+    metaDescription:
+      'Epidural painless delivery near Bommasandra with Dr. Sanjana L (MS OBG) at Raghava Multispeciality Hospital, Attibele. Safe, comfortable labour with 24/7 back-up.',
+    keywords: [
+      'painless delivery Bommasandra',
+      'epidural delivery Bommasandra',
+      'painless delivery near Hebbagodi',
+      'maternity hospital near Bommasandra',
+      'normal delivery Bommasandra',
+      'gynaecologist Bommasandra',
+    ],
+  },
+
+  /* ─────────────────────────────────────────────────────────────────────────
+     17. Maternity & Delivery Packages / Cost — Attibele
+  ───────────────────────────────────────────────────────────────────────── */
+  {
+    slug: 'maternity-package-cost-attibele',
+    title: 'Maternity & Delivery Packages in Attibele — Costs Explained',
+    shortTitle: 'Maternity Packages — Attibele',
+    category: 'Obstetrics',
+    locality: 'Attibele',
+    clinic: 'attibele',
+    description:
+      'Understand what goes into normal delivery and C-section costs in Attibele, and get a clear, personalised maternity package quote from Dr. Sanjana L at Raghava Multispeciality Hospital.',
+    overview:
+      'One of the biggest worries for expecting families is not knowing what a delivery will cost until the bill arrives. This page explains, in plain terms, what actually goes into a maternity package in Attibele so you can plan with confidence. Dr. Sanjana L delivers at Raghava Multispeciality Hospital on the Sarjapura–Attibele Road, where maternity care is offered as transparent packages rather than surprise charges.\n\nThe cost of a delivery depends on the type of birth (normal versus caesarean), the length of hospital stay, room category, whether an epidural or additional monitoring is needed, and any complications that require extra care. Because every pregnancy is different, the honest answer is that a firm figure needs a short conversation — so rather than quote a misleading number, we give you a clear, itemised package quote for your specific situation. Call the hospital and the team will walk you through inclusions, room options and what is covered by insurance.',
+    whatToExpect: [
+      'A transparent, itemised maternity package rather than surprise charges',
+      'Clear explanation of what a normal delivery package typically includes',
+      'Separate guidance on caesarean (C-section) package inclusions',
+      'How room category and length of stay affect the total',
+      'Whether epidural pain relief and extra monitoring change the cost',
+      'Support with cashless insurance and required documentation',
+      'A personalised quote after a short consultation or call',
+    ],
+    whyChoose: [
+      'Transparent package pricing at Raghava Multispeciality Hospital, Attibele',
+      'Normal-delivery-first approach that avoids unnecessary surgery costs',
+      'Help with cashless insurance and paperwork',
+      'A clear quote for your situation — no hidden charges',
+      'Full maternity and newborn care under one roof',
+    ],
+    nearbyAreas: ['Attibele', 'Bommasandra', 'Anekal', 'Chandapura', 'Jigani', 'Sarjapura', 'Hosur Road'],
+    faqs: [
+      {
+        q: 'How much does a normal delivery cost in Attibele?',
+        a: 'The cost depends on your room category, length of stay, whether you choose an epidural, and any care the baby or mother needs. Rather than quote a misleading figure, Raghava Hospital gives you an itemised package quote for your situation — call +91 99800 31006 to get one.',
+      },
+      {
+        q: 'Is a C-section more expensive than a normal delivery?',
+        a: 'Generally yes, because a caesarean involves theatre, anaesthesia and a slightly longer stay. Dr. Sanjana follows a normal-delivery-first approach, so surgery is recommended only when medically needed, which also helps keep costs down.',
+      },
+      {
+        q: 'Do you offer cashless insurance for delivery?',
+        a: 'The hospital team helps you check whether your maternity cover applies and assists with the cashless documentation where your policy allows. Ask about this when you call, and keep your insurance details handy.',
+      },
+      {
+        q: 'What is included in a maternity package?',
+        a: 'A typical package covers the delivery, standard hospital stay, routine mother and newborn care and standard consumables. Exact inclusions vary by room category and birth type, so you receive a clear itemised breakdown before delivery.',
+      },
+    ],
+    serviceSlug: 'normal-delivery',
+    hubHref: '/attibele-gynaecologist',
+    hubLabel: 'Gynaecologist in Attibele',
+    schemaType: 'MedicalProcedure',
+    metaTitle: 'Maternity & Delivery Package Cost in Attibele | Dr. Sanjana L',
+    metaDescription:
+      'What normal delivery and C-section cost in Attibele — package inclusions, room options and cashless insurance explained. Get a clear quote at Raghava Hospital.',
+    keywords: [
+      'normal delivery cost Attibele',
+      'delivery package Attibele',
+      'maternity package Attibele',
+      'C-section cost Attibele',
+      'delivery cost near Bommasandra',
+      'maternity hospital cost Attibele',
+    ],
+  },
+
+  /* ─────────────────────────────────────────────────────────────────────────
+     18. Lady / Female Gynaecologist — HSR Layout
+  ───────────────────────────────────────────────────────────────────────── */
+  {
+    slug: 'lady-gynaecologist-hsr-layout',
+    title: 'Lady Gynaecologist in HSR Layout — Dr. Sanjana L',
+    shortTitle: 'Lady Gynaecologist — HSR Layout',
+    category: 'Gynaecology',
+    locality: 'HSR Layout',
+    clinic: 'hsr',
+    description:
+      'Looking for a female gynaecologist in HSR Layout? Dr. Sanjana L offers experienced, compassionate women’s healthcare at Health Nest, HSR Layout Sector 2.',
+    overview:
+      'Many women simply feel more comfortable discussing intimate health concerns with a female doctor — and that comfort matters, because it leads to earlier visits, franker conversations and better care. Dr. Sanjana L is an experienced lady gynaecologist practising at Health Nest in HSR Layout Sector 2, offering the full range of women’s health services in a private, respectful and unhurried setting.\n\nWith MBBS, MS (OBG) Gold Medalist (RGUHS) and FMAS qualifications and over 10 years of experience, Dr. Sanjana cares for women at every life stage — first gynaecology visits, period and PCOS concerns, contraception, pregnancy and delivery, fertility, menopause and gynaecological surgery. Consultations are multilingual (English, Hindi, Kannada and Telugu), and the clinic on 24th Main Road is central to all of HSR Layout, close to Agara, Bommanahalli, Koramangala and BTM Layout.',
+    whatToExpect: [
+      'A private, respectful consultation with a female gynaecologist',
+      'Time to explain your concerns without feeling rushed',
+      'Sensitive examination only when needed, with a chaperone available',
+      'Clear, jargon-free explanations of your options',
+      'Confidential care for period, contraception and intimate-health concerns',
+      'Multilingual consultations — English, Hindi, Kannada, Telugu',
+      'Continuity of care from first visit through pregnancy, surgery or menopause',
+    ],
+    whyChoose: [
+      'An experienced female gynaecologist you can speak to openly',
+      'MBBS, MS (OBG) Gold Medalist (RGUHS), FMAS · 10+ years',
+      'Central HSR Layout Sector 2 location, easy to reach',
+      'Full range of women’s services under one roof',
+      'Trusted by 200+ patients across South Bangalore',
+    ],
+    nearbyAreas: ['HSR Layout', 'Agara', 'Bommanahalli', 'Koramangala', 'BTM Layout', 'Sarjapur Road', 'Sector 2'],
+    faqs: [
+      {
+        q: 'Is Dr. Sanjana L a female gynaecologist?',
+        a: 'Yes. Dr. Sanjana L is an experienced lady (female) gynaecologist and obstetrician practising at Health Nest, HSR Layout Sector 2. Many women prefer a female doctor for gynaecological care, and consultations are private and unhurried.',
+      },
+      {
+        q: 'Where is the clinic in HSR Layout?',
+        a: 'Health Nest is at 1162, 24th Main Road, Sector 2, HSR Layout, Bengaluru 560102 — central to all HSR sectors and close to Agara, Bommanahalli, Koramangala and BTM Layout. Call +91 94490 31003 to book.',
+      },
+      {
+        q: 'What services does she offer?',
+        a: 'Dr. Sanjana provides complete women’s healthcare — routine gynaecology, period and PCOS care, contraception, pregnancy and delivery, fertility support, menopause management and laparoscopic gynaecological surgery.',
+      },
+      {
+        q: 'Can I book a first gynaecology visit here?',
+        a: 'Yes. First visits are welcome and handled sensitively, whether it is for a period concern, contraception advice, a check-up or a specific symptom. You can book online or call +91 94490 31003.',
+      },
+    ],
+    serviceSlug: '',
+    hubHref: '/hsr-layout-gynaecologist',
+    hubLabel: 'Gynaecologist in HSR Layout',
+    schemaType: 'MedicalBusiness',
+    metaTitle: 'Lady Gynaecologist in HSR Layout | Dr. Sanjana L — Health Nest',
+    metaDescription:
+      'Experienced female (lady) gynaecologist in HSR Layout — Dr. Sanjana L (MS OBG, Gold Medalist) at Health Nest, Sector 2. Private, compassionate women’s healthcare. Book now.',
+    keywords: [
+      'lady gynaecologist HSR Layout',
+      'female gynaecologist HSR Layout',
+      'lady gynaecologist near me HSR',
+      'best female gynaecologist HSR Layout',
+      'woman gynaecologist HSR Layout',
+      'gynaecologist HSR Layout Sector 2',
+    ],
+  },
+
+  /* ─────────────────────────────────────────────────────────────────────────
+     19. PCOS & PCOD — Attibele
+  ───────────────────────────────────────────────────────────────────────── */
+  {
+    slug: 'pcos-treatment-attibele',
+    title: 'PCOS & PCOD Treatment in Attibele, Bangalore',
+    shortTitle: 'PCOS Treatment — Attibele',
+    category: 'Gynaecology',
+    locality: 'Attibele',
+    clinic: 'attibele',
+    description:
+      'Evidence-based PCOS and PCOD treatment for women in Attibele — hormonal, metabolic and fertility care — with Dr. Sanjana L at Raghava Multispeciality Hospital.',
+    overview:
+      'PCOS (polycystic ovary syndrome) is one of the most common hormonal conditions in women, and it often goes untreated for years — showing up as irregular periods, weight gain, acne, excess hair, or difficulty conceiving. For women in and around Attibele, Dr. Sanjana L offers structured, evidence-based PCOS and PCOD care at Raghava Multispeciality Hospital on the Sarjapura–Attibele Road, so you do not have to travel far for proper management.\n\nGood PCOS care is more than a single prescription. Dr. Sanjana starts with the right blood work and an ultrasound to confirm the diagnosis and rule out mimics like thyroid problems, then builds a plan around your goals — regular cycles, weight and metabolic health, skin and hair concerns, or fertility. As a fellowship-trained gynaecologist she also manages the fertility side for women trying to conceive. The approach is practical and sustainable, combining lifestyle guidance with medication only where it genuinely helps.',
+    whatToExpect: [
+      'Hormonal and metabolic blood work to confirm PCOS and rule out mimics',
+      'Thyroid check and pelvic ultrasound for ovarian assessment',
+      'A plan matched to your goals — cycles, weight, skin/hair or fertility',
+      'Practical, sustainable lifestyle and nutrition guidance',
+      'Medication only where it genuinely adds benefit',
+      'Fertility support and ovulation guidance for those trying to conceive',
+      'Regular follow-up to track progress and adjust the plan',
+    ],
+    whyChoose: [
+      'Structured PCOS care locally in Attibele — no city travel',
+      'Diagnosis confirmed properly before treatment',
+      'Practical lifestyle-first approach, medication where it helps',
+      'Fertility-aware management for those planning pregnancy',
+      'Multilingual care — English, Hindi, Kannada, Telugu',
+    ],
+    nearbyAreas: ['Attibele', 'Bommasandra', 'Anekal', 'Chandapura', 'Jigani', 'Sarjapura', 'Hosur Road'],
+    faqs: [
+      {
+        q: 'Where can I get PCOS treatment in Attibele?',
+        a: 'Dr. Sanjana L offers evidence-based PCOS and PCOD treatment at Raghava Multispeciality Hospital, Attibele, with blood work, ultrasound and a tailored plan. Call +91 99800 31006 to book.',
+      },
+      {
+        q: 'Can PCOS be cured?',
+        a: 'PCOS cannot be permanently cured, but it is very manageable. With the right mix of lifestyle changes and, where needed, medication, most women regain regular cycles, improve metabolic health and conceive when they wish to.',
+      },
+      {
+        q: 'Does PCOS affect fertility?',
+        a: 'PCOS is a common cause of difficulty conceiving because it can disrupt ovulation, but many women with PCOS conceive with the right support such as ovulation guidance. Dr. Sanjana manages the fertility side alongside overall PCOS care.',
+      },
+      {
+        q: 'Will I need lifelong medication for PCOS?',
+        a: 'Not necessarily. Many women manage PCOS largely through sustainable lifestyle changes, with medication used selectively for specific goals such as regulating periods or supporting fertility. The plan is reviewed and adjusted over time.',
+      },
+    ],
+    serviceSlug: 'pcos-pcod-treatment',
+    hubHref: '/attibele-gynaecologist',
+    hubLabel: 'Gynaecologist in Attibele',
+    schemaType: 'MedicalProcedure',
+    metaTitle: 'PCOS & PCOD Treatment in Attibele | Dr. Sanjana L — Raghava Hospital',
+    metaDescription:
+      'Evidence-based PCOS & PCOD treatment in Attibele with Dr. Sanjana L (MS OBG) at Raghava Multispeciality Hospital. Hormonal, metabolic and fertility care. Book now.',
+    keywords: [
+      'PCOS treatment Attibele',
+      'PCOD treatment Attibele',
+      'PCOS doctor Attibele',
+      'PCOS specialist near Bommasandra',
+      'irregular periods doctor Attibele',
+      'gynaecologist Attibele PCOS',
+    ],
+  },
+
+  /* ─────────────────────────────────────────────────────────────────────────
+     20. High-Risk Pregnancy — Attibele
+  ───────────────────────────────────────────────────────────────────────── */
+  {
+    slug: 'high-risk-pregnancy-attibele',
+    title: 'High-Risk Pregnancy Care in Attibele, Bangalore',
+    shortTitle: 'High-Risk Pregnancy — Attibele',
+    category: 'Obstetrics',
+    locality: 'Attibele',
+    clinic: 'attibele',
+    description:
+      'Specialist high-risk pregnancy care for expecting mothers in Attibele — close monitoring and safe delivery — with Dr. Sanjana L at Raghava Multispeciality Hospital.',
+    overview:
+      'Some pregnancies need extra attention — because of gestational diabetes, high blood pressure or preeclampsia, twins, advanced maternal age, thyroid issues, or a history of complicated pregnancies. For families in Attibele, Dr. Sanjana L provides specialist high-risk pregnancy care at Raghava Multispeciality Hospital, so closer monitoring does not mean long, frequent drives into the city.\n\nHigh-risk care here means more frequent check-ups, targeted scans, and a clear plan for a safe delivery, with 24/7 anaesthesia, operative and newborn back-up on site should anything need swift action. Dr. Sanjana — MS (OBG) Gold Medalist and FMAS-trained, with 10 plus years of experience — manages both routine and complex obstetric cases, keeping you informed and reassured at every step.',
+    whatToExpect: [
+      'A full risk assessment early in pregnancy',
+      'More frequent antenatal visits and closer monitoring',
+      'Targeted scans and tests (growth, Doppler, glucose, BP)',
+      'Management of gestational diabetes, hypertension and other conditions',
+      'A clear, individualised delivery plan',
+      '24/7 anaesthesia, operative and newborn back-up on site',
+      'Coordinated care and reassurance at every step',
+    ],
+    whyChoose: [
+      'Specialist high-risk obstetric care locally in Attibele',
+      '10+ years managing complex and high-risk pregnancies',
+      'Close monitoring without long city drives',
+      '24/7 emergency and newborn back-up at Raghava Hospital',
+      'Multilingual care — English, Hindi, Kannada, Telugu',
+    ],
+    nearbyAreas: ['Attibele', 'Bommasandra', 'Anekal', 'Chandapura', 'Jigani', 'Sarjapura', 'Hosur Road'],
+    faqs: [
+      {
+        q: 'What makes a pregnancy high-risk?',
+        a: 'Common reasons include gestational diabetes, high blood pressure or preeclampsia, twin or multiple pregnancy, advanced maternal age, thyroid or other medical conditions, and a history of pregnancy complications. A high-risk pregnancy simply needs closer monitoring and planning.',
+      },
+      {
+        q: 'Where can I get high-risk pregnancy care in Attibele?',
+        a: 'Dr. Sanjana L provides specialist high-risk pregnancy care at Raghava Multispeciality Hospital, Attibele, with close monitoring and 24/7 back-up. Call +91 99800 31006 to book.',
+      },
+      {
+        q: 'Can I still have a normal delivery with a high-risk pregnancy?',
+        a: 'Often yes. Many high-risk pregnancies still end in a safe vaginal delivery with the right monitoring. Where a caesarean is safer for you or your baby, the unit is fully equipped for it around the clock.',
+      },
+      {
+        q: 'How often will I need check-ups?',
+        a: 'High-risk pregnancies usually need more frequent visits and additional scans than routine pregnancies. Dr. Sanjana sets a schedule based on your specific situation and adjusts it as your pregnancy progresses.',
+      },
+    ],
+    serviceSlug: 'high-risk-pregnancy',
+    hubHref: '/attibele-gynaecologist',
+    hubLabel: 'Gynaecologist in Attibele',
+    schemaType: 'MedicalProcedure',
+    metaTitle: 'High-Risk Pregnancy Care in Attibele | Dr. Sanjana L',
+    metaDescription:
+      'Specialist high-risk pregnancy care in Attibele with Dr. Sanjana L (MS OBG) at Raghava Multispeciality Hospital — close monitoring, safe delivery, 24/7 back-up.',
+    keywords: [
+      'high-risk pregnancy Attibele',
+      'high risk pregnancy doctor Attibele',
+      'gestational diabetes doctor Attibele',
+      'twin pregnancy care Attibele',
+      'pregnancy specialist near Bommasandra',
+      'maternity hospital Attibele high risk',
+    ],
+  },
+
+  /* ─────────────────────────────────────────────────────────────────────────
+     21. High-Risk Pregnancy — HSR Layout
+  ───────────────────────────────────────────────────────────────────────── */
+  {
+    slug: 'high-risk-pregnancy-hsr-layout',
+    title: 'High-Risk Pregnancy Care in HSR Layout, Bangalore',
+    shortTitle: 'High-Risk Pregnancy — HSR Layout',
+    category: 'Obstetrics',
+    locality: 'HSR Layout',
+    clinic: 'hsr',
+    description:
+      'Specialist high-risk pregnancy care for expecting mothers in HSR Layout — close monitoring and safe delivery — with Dr. Sanjana L at Health Nest.',
+    overview:
+      'A high-risk pregnancy — from gestational diabetes or high blood pressure to twins, advanced maternal age, or a history of complications — needs closer monitoring and an experienced hand. For expecting mothers in HSR Layout, Dr. Sanjana L provides specialist high-risk pregnancy care at Health Nest, Sector 2, combining careful surveillance with a calm, reassuring approach.\n\nCare includes more frequent antenatal visits, targeted growth and Doppler scans, and active management of conditions like gestational diabetes and hypertension, all leading to a clear, individualised delivery plan. Dr. Sanjana — MS (OBG) Gold Medalist and FMAS-trained, with 10 plus years of experience — has managed a wide range of complex pregnancies, and keeps you informed and supported throughout.',
+    whatToExpect: [
+      'A full risk assessment early in pregnancy',
+      'More frequent antenatal visits and closer monitoring',
+      'Targeted scans and tests (growth, Doppler, glucose, BP)',
+      'Active management of gestational diabetes, hypertension and more',
+      'A clear, individualised delivery plan',
+      'Coordinated care with anaesthesia and newborn support',
+      'Ongoing reassurance and clear communication',
+    ],
+    whyChoose: [
+      'Specialist high-risk obstetric care in the heart of HSR Layout',
+      '10+ years managing complex and high-risk pregnancies',
+      'Careful monitoring with a calm, reassuring approach',
+      'Central Sector 2 location, easy to reach',
+      'Multilingual care — English, Hindi, Kannada, Telugu',
+    ],
+    nearbyAreas: ['HSR Layout', 'Agara', 'Bommanahalli', 'Koramangala', 'BTM Layout', 'Sarjapur Road', 'Sector 2'],
+    faqs: [
+      {
+        q: 'What makes a pregnancy high-risk?',
+        a: 'Common reasons include gestational diabetes, high blood pressure or preeclampsia, twin or multiple pregnancy, advanced maternal age, thyroid or other medical conditions, and previous pregnancy complications. It mainly means your pregnancy needs closer monitoring.',
+      },
+      {
+        q: 'Where can I get high-risk pregnancy care in HSR Layout?',
+        a: 'Dr. Sanjana L provides specialist high-risk pregnancy care at Health Nest, HSR Layout Sector 2, with close monitoring and a clear delivery plan. Call +91 94490 31003 to book.',
+      },
+      {
+        q: 'Can I still have a normal delivery with a high-risk pregnancy?',
+        a: 'Often yes. Many high-risk pregnancies still result in a safe vaginal delivery with the right monitoring. Where a caesarean is safer, it is planned and supported with full back-up.',
+      },
+      {
+        q: 'How often will I need check-ups?',
+        a: 'High-risk pregnancies typically need more frequent visits and extra scans than routine pregnancies. Dr. Sanjana tailors the schedule to your situation and adjusts it as the pregnancy progresses.',
+      },
+    ],
+    serviceSlug: 'high-risk-pregnancy',
+    hubHref: '/hsr-layout-gynaecologist',
+    hubLabel: 'Gynaecologist in HSR Layout',
+    schemaType: 'MedicalProcedure',
+    metaTitle: 'High-Risk Pregnancy Care in HSR Layout | Dr. Sanjana L — Health Nest',
+    metaDescription:
+      'Specialist high-risk pregnancy care in HSR Layout with Dr. Sanjana L (MS OBG) at Health Nest, Sector 2 — close monitoring, targeted scans and a safe delivery plan.',
+    keywords: [
+      'high-risk pregnancy HSR Layout',
+      'high risk pregnancy doctor HSR Layout',
+      'gestational diabetes doctor HSR Layout',
+      'twin pregnancy care HSR Layout',
+      'pregnancy specialist HSR Layout',
+      'obstetrician HSR Layout high risk',
+    ],
+  },
+
+  /* ─────────────────────────────────────────────────────────────────────────
+     22. Caesarean (C-Section) — HSR Layout
+  ───────────────────────────────────────────────────────────────────────── */
+  {
+    slug: 'cesarean-delivery-hsr-layout',
+    title: 'Caesarean (C-Section) Delivery in HSR Layout, Bangalore',
+    shortTitle: 'C-Section — HSR Layout',
+    category: 'Obstetrics',
+    locality: 'HSR Layout',
+    clinic: 'hsr',
+    description:
+      'Safe planned and emergency caesarean (C-section) delivery for mothers in HSR Layout — with Dr. Sanjana L at Health Nest.',
+    overview:
+      'A caesarean section is sometimes the safest way to deliver — whether planned in advance for a medical reason or decided during labour. For expecting mothers in HSR Layout, Dr. Sanjana L performs safe planned and emergency C-sections at Health Nest, Sector 2, always with a normal-delivery-first philosophy that reserves surgery for when it genuinely benefits mother or baby.\n\nWhere a caesarean is needed, the emphasis is on a calm, well-prepared experience: a regional (awake) anaesthetic where possible so you can meet your baby right away, gentle surgical technique, effective pain relief and a structured recovery plan. Dr. Sanjana — MS (OBG) Gold Medalist and FMAS-trained — guides you through the reasons, the process and the recovery so you feel informed and in control.',
+    whatToExpect: [
+      'A clear explanation of why a caesarean is recommended, if it is',
+      'Planned scheduling for elective C-sections, with pre-op guidance',
+      'Regional (awake) anaesthesia where possible to meet your baby sooner',
+      'Gentle surgical technique and effective post-operative pain relief',
+      'Immediate newborn care and early skin-to-skin where possible',
+      'A structured 4–6 week recovery and wound-care plan',
+      'Support for feeding and postnatal recovery',
+    ],
+    whyChoose: [
+      'Normal-delivery-first — surgery only when it truly helps',
+      'Safe planned and emergency C-sections at Health Nest, HSR Layout',
+      'Awake (regional) birth where clinically appropriate',
+      '10+ years of obstetric and surgical experience',
+      'Clear guidance through the process and recovery',
+    ],
+    nearbyAreas: ['HSR Layout', 'Agara', 'Bommanahalli', 'Koramangala', 'BTM Layout', 'Sarjapur Road', 'Sector 2'],
+    faqs: [
+      {
+        q: 'Where can I have a C-section in HSR Layout?',
+        a: 'Dr. Sanjana L performs planned and emergency caesarean deliveries at Health Nest, HSR Layout Sector 2, with a normal-delivery-first approach. Call +91 94490 31003 to discuss your delivery.',
+      },
+      {
+        q: 'Will I be awake during a C-section?',
+        a: 'In most planned and many emergency caesareans, a regional (spinal or epidural) anaesthetic is used so you stay awake and can meet your baby right away. General anaesthesia is reserved for specific situations.',
+      },
+      {
+        q: 'How long is recovery after a C-section?',
+        a: 'Most mothers stay in hospital about 3–4 days and recover over roughly 4–6 weeks. Dr. Sanjana provides clear wound-care, activity and pain-management guidance plus follow-up to ensure smooth healing.',
+      },
+      {
+        q: 'Can I have a normal delivery after a previous C-section?',
+        a: 'In many cases a vaginal birth after caesarean (VBAC) is possible and safe with the right assessment and monitoring. Dr. Sanjana will review your history and discuss whether it is a good option for you.',
+      },
+    ],
+    serviceSlug: 'cesarean-delivery',
+    hubHref: '/hsr-layout-gynaecologist',
+    hubLabel: 'Gynaecologist in HSR Layout',
+    schemaType: 'MedicalProcedure',
+    metaTitle: 'Caesarean (C-Section) Delivery in HSR Layout | Dr. Sanjana L',
+    metaDescription:
+      'Safe planned & emergency C-section delivery in HSR Layout with Dr. Sanjana L (MS OBG) at Health Nest — normal-delivery-first, awake (regional) birth where possible.',
+    keywords: [
+      'C-section HSR Layout',
+      'caesarean delivery HSR Layout',
+      'C-section hospital HSR Layout',
+      'VBAC HSR Layout',
+      'cesarean doctor HSR Layout',
+      'delivery hospital HSR Layout',
     ],
   },
 ];

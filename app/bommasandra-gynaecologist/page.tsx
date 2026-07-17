@@ -15,7 +15,6 @@ import {
   Shield,
   Scissors,
   Users,
-  Navigation,
 } from 'lucide-react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
@@ -27,32 +26,31 @@ import { SITE_URL } from '@/lib/site';
 /* ──────────────────────────── SEO META ──────────────────────────── */
 
 export const metadata: Metadata = {
-  title: 'Gynaecologist near Hosur Road, Anekal & Chandapura | Dr. Sanjana L',
+  title: 'Best Gynaecologist near Bommasandra | Dr. Sanjana L — Raghava Hospital',
   description:
-    'Looking for the best gynaecologist near Hosur Road, Anekal or Chandapura? Dr. Sanjana L (MBBS, MS OBG, Gold Medalist) at Raghava Multispeciality Hospital, Attibele offers expert pregnancy care, normal delivery, PCOS treatment, fertility support & laparoscopic surgery — just 10 minutes from Chandapura Junction.',
+    'Looking for the best gynaecologist near Bommasandra? Dr. Sanjana L (MBBS, MS OBG, Gold Medalist) at Raghava Multispeciality Hospital, Attibele offers expert pregnancy care, normal & painless delivery, PCOS treatment, fertility support and laparoscopic surgery — a short drive from Bommasandra.',
   keywords: [
-    'best gynaecologist in Chandapura',
-    'best gynaecologist near Hosur Road Bangalore',
-    'best gynaecologist Anekal',
-    'delivery hospital near Chandapura',
-    'delivery hospital near Hosur Road',
-    'maternity hospital near Chandapura',
-    'gynaecologist near Jigani',
-    'gynaecologist near Hosur',
-    'normal delivery doctor Chandapura',
-    'pregnancy doctor Chandapura',
-    'lady gynaecologist Chandapura',
-    'PCOS treatment Chandapura',
-    'fertility specialist near Hosur Road',
+    'best gynaecologist near Bommasandra',
+    'gynaecologist Bommasandra',
+    'lady gynaecologist Bommasandra',
+    'obstetrician Bommasandra',
+    'pregnancy doctor Bommasandra',
+    'normal delivery doctor Bommasandra',
+    'maternity hospital near Bommasandra',
+    'delivery hospital near Bommasandra',
+    'PCOS treatment Bommasandra',
+    'fertility specialist near Bommasandra',
+    'gynaecologist near Hebbagodi',
+    'gynaecologist near Bommasandra Industrial Area',
   ],
   alternates: {
-    canonical: `${SITE_URL}/chandapura-hosur-road-gynaecologist`,
+    canonical: `${SITE_URL}/bommasandra-gynaecologist`,
   },
   openGraph: {
-    title: 'Gynaecologist near Hosur Road, Anekal & Chandapura | Dr. Sanjana L',
+    title: 'Best Gynaecologist near Bommasandra | Dr. Sanjana L — Raghava Hospital',
     description:
-      'Dr. Sanjana L at Raghava Multispeciality Hospital, Attibele — 10+ years experienced gynaecologist near Chandapura & Hosur Road. Expert pregnancy care, normal delivery, PCOS treatment & more.',
-    url: `${SITE_URL}/chandapura-hosur-road-gynaecologist`,
+      'Dr. Sanjana L at Raghava Multispeciality Hospital, Attibele — 10+ years experienced gynaecologist a short drive from Bommasandra. Expert pregnancy care, normal delivery, PCOS treatment & more.',
+    url: `${SITE_URL}/bommasandra-gynaecologist`,
     type: 'website',
     locale: 'en_IN',
     siteName: 'Health Nest',
@@ -65,94 +63,81 @@ const services = [
   {
     icon: Baby,
     title: 'Pregnancy Care',
-    desc: 'Complete prenatal care from your first positive test to safe delivery — routine check-ups, ultrasound guidance, nutrition counselling and personalised birth planning.',
+    desc: 'Complete prenatal care from first trimester to delivery — routine check-ups, ultrasound guidance, nutrition counselling and birth planning close to Bommasandra.',
     href: '/services/pregnancy-care',
   },
   {
     icon: HeartPulse,
     title: 'Normal & Painless Delivery',
-    desc: 'Safe, evidence-based vaginal deliveries with painless delivery (epidural) options available at Raghava Multispeciality Hospital, Attibele.',
-    href: '/services/painless-delivery',
+    desc: 'Safe vaginal deliveries with a normal-delivery-first approach and epidural painless delivery available at Raghava Hospital, a short drive from Bommasandra.',
+    href: '/painless-delivery-bommasandra',
   },
   {
     icon: Shield,
     title: 'High-Risk Pregnancy',
-    desc: 'Specialist management for gestational diabetes, preeclampsia, twin pregnancies, advanced maternal age and prior complicated deliveries.',
+    desc: 'Specialist management for gestational diabetes, preeclampsia, twin pregnancies, advanced maternal age and previous complicated deliveries.',
     href: '/services/high-risk-pregnancy',
   },
   {
     icon: Microscope,
     title: 'PCOS / PCOD Treatment',
-    desc: 'Comprehensive hormonal evaluation, medication, lifestyle and diet guidance, weight management support and fertility treatment for PCOS/PCOD.',
+    desc: 'Holistic hormonal management, lifestyle guidance, weight support and fertility care for polycystic ovary conditions.',
     href: '/services/pcos-pcod-treatment',
   },
   {
     icon: Stethoscope,
     title: 'Fertility Treatment',
-    desc: 'Thorough fertility evaluation, ovulation tracking, IUI guidance and IVF counselling for couples trying to conceive.',
+    desc: 'Comprehensive fertility evaluation, ovulation induction and IUI guidance for couples trying to conceive.',
     href: '/services/fertility-treatment',
   },
   {
     icon: Scissors,
     title: 'Laparoscopic Surgery',
-    desc: 'Minimally invasive keyhole surgery for ovarian cysts, fibroids, endometriosis and ectopic pregnancies — faster healing, smaller scars.',
+    desc: 'Minimally invasive keyhole surgery for ovarian cysts, fibroids, endometriosis and ectopic pregnancies with faster recovery.',
     href: '/services/laparoscopic-surgery',
   },
 ];
 
 const faqs: { q: string; a: string }[] = [
   {
-    q: 'Who is the best gynaecologist near Chandapura, Bangalore?',
-    a: 'Dr. Sanjana L consults at Raghava Multispeciality Hospital, Attibele. It is a short drive from Chandapura and Hosur Road.\n\nShe has 10 plus years of experience. She is MS (OBG) Gold Medalist (RGUHS) and FMAS-trained. She covers pregnancy, birth, PCOS, fertility, and keyhole surgery.',
+    q: 'Who is the best gynaecologist near Bommasandra?',
+    a: 'Dr. Sanjana L consults at Raghava Multispeciality Hospital on the Sarjapura–Attibele Road, a short drive from Bommasandra. She is a trusted lady obstetrician and gynaecologist for the area.\n\nShe is MBBS, MS (OBG) Gold Medalist (RGUHS), and FMAS-trained, with 10 plus years of experience. She supports pregnancy, normal and painless birth, PCOS care, fertility, and keyhole surgery.\n\nTimings: Mon–Sat, 9 AM–9 PM. She also consults at Health Nest, HSR Layout.',
   },
   {
-    q: 'How far is Raghava Hospital, Attibele from Chandapura?',
-    a: 'The hospital is on Sarjapura–Attibele Road. From Chandapura Junction it is about 8–10 km.\n\nMost days that is a 10–15 minute drive. There is parking on site.',
+    q: 'Where can I have a normal or painless delivery near Bommasandra?',
+    a: 'Dr. Sanjana L supports normal and painless (epidural) deliveries at Raghava Multispeciality Hospital, Attibele, a short drive from Bommasandra, with 24/7 anaesthesia and newborn back-up.\n\nSee our dedicated pages for normal delivery and painless delivery near Bommasandra, or call +91-9980031006 to plan your birth.',
   },
   {
-    q: 'Is there a delivery hospital near Chandapura or Hosur Road?',
-    a: 'Yes. Raghava Hospital in Attibele has a labour suite and newborn support.\n\nDr. Sanjana attends normal birth, painless birth with epidural when suitable, and caesarean birth when needed.',
+    q: 'How far is the hospital from Bommasandra?',
+    a: 'Raghava Hospital is on the Sarjapura–Attibele Road, typically 10–15 minutes from most of Bommasandra depending on traffic — much closer than city-centre maternity hospitals.\n\nIt is easy to reach from Hebbagodi, the Bommasandra Industrial Area and Electronic City South.',
   },
   {
-    q: 'What gynaecology services are available near Hosur Road?',
-    a: 'From Hosur Road you can reach Raghava Hospital, Attibele quickly.\n\nServices include pregnancy care, normal and painless birth, caesarean birth, high-risk pregnancy, PCOS/PCOD care, fertility tests, laparoscopy, hysteroscopy, period problems, cervical screening, contraception advice, and menopause care.',
+    q: 'Is there a lady (female) gynaecologist near Bommasandra?',
+    a: 'Yes. Dr. Sanjana L is a woman gynaecologist at Raghava Hospital. Visits are private and respectful, and she speaks English, Hindi, Kannada, and Telugu.\n\nMany patients come from Bommasandra, Hebbagodi, Anekal, Chandapura and Jigani.',
   },
   {
-    q: 'Can I see Dr. Sanjana for PCOS treatment near Chandapura?',
-    a: 'Yes. PCOS and PCOD care is a core part of her practice.\n\nShe orders the right blood tests and scans. She plans medicines, food and activity steps, weight support, and fertility help if you need it.\n\nThe Attibele site is a short trip from Chandapura.',
+    q: 'What are the consulting hours and phone number?',
+    a: 'Monday to Saturday: 9:00 AM to 9:00 PM at Raghava Hospital, Attibele. Sunday: by appointment only.\n\nCall +91-9980031006 or use the website booking form.',
   },
   {
-    q: 'What are the consulting hours at Raghava Hospital for Dr. Sanjana?',
-    a: 'Monday to Saturday: 9:00 AM to 9:00 PM at Raghava Hospital, Attibele.\n\nSunday: by appointment.\n\nCall +91-9980031006 or use the online form.',
+    q: 'Does Dr. Sanjana perform C-sections if needed?',
+    a: 'Yes. She supports normal (vaginal) birth wherever possible and performs caesarean birth when it is medically right for you and your baby.\n\nThe unit has 24/7 anaesthesia, operative and newborn back-up for both routine and many high-risk cases.',
   },
   {
-    q: 'Does Dr. Sanjana also consult in HSR Layout?',
-    a: 'Yes. She also works at Health Nest, HSR Layout (Mon–Sat, 8 AM–9 PM).\n\nThat can suit people who work in central Bangalore.\n\nFor HSR bookings call +91-9449031003.',
-  },
-  {
-    q: 'Is online consultation available for patients near Chandapura?',
-    a: 'Yes. Video visits suit follow-ups, second opinions, and many non-urgent issues.\n\nThey help if travel is hard or time is tight.\n\nBook on the website or call +91-9980031006.',
+    q: 'Can I consult Dr. Sanjana online if I live near Bommasandra?',
+    a: 'Yes. Video visits work well for follow-up, second opinions, and many non-urgent questions.\n\nBook on the Health Nest website or call +91-9980031006.',
   },
 ];
 
 const nearbyAreas = [
-  'Chandapura',
-  'Anekal',
-  'Hosur Road',
-  'Jigani',
   'Bommasandra',
   'Hebbagodi',
-  'Huskur',
-  'Hosur (Tamil Nadu)',
-];
-
-const travelTimes = [
-  { from: 'Chandapura Junction', time: '10–15 min', distance: '~8 km', clinic: 'Raghava Hospital, Attibele' },
-  { from: 'Anekal Town', time: '12–18 min', distance: '~10 km', clinic: 'Raghava Hospital, Attibele' },
-  { from: 'Hosur Road (Silk Board side)', time: '25–35 min', distance: '~20 km', clinic: 'Health Nest, HSR Layout' },
-  { from: 'Jigani Industrial Area', time: '15–20 min', distance: '~12 km', clinic: 'Raghava Hospital, Attibele' },
-  { from: 'Bommasandra', time: '15–20 min', distance: '~10 km', clinic: 'Raghava Hospital, Attibele' },
-  { from: 'Hosur, Tamil Nadu', time: '20–25 min', distance: '~15 km', clinic: 'Raghava Hospital, Attibele' },
+  'Bommasandra Industrial Area',
+  'Anekal',
+  'Chandapura',
+  'Electronic City (South)',
+  'Jigani',
+  'Attibele',
 ];
 
 /* ──────────────────────────── SCHEMAS ──────────────────────────── */
@@ -160,10 +145,10 @@ const travelTimes = [
 const localBusinessSchema = {
   '@context': 'https://schema.org',
   '@type': 'MedicalBusiness',
-  name: 'Dr. Sanjana L — Gynaecologist near Hosur Road, Anekal & Chandapura',
+  name: 'Dr. Sanjana L — Gynaecologist near Bommasandra (Raghava Hospital, Attibele)',
   description:
-    'Best gynaecologist near Chandapura and Hosur Road offering pregnancy care, normal delivery, PCOS treatment, fertility support and laparoscopic surgery at Raghava Multispeciality Hospital, Attibele.',
-  url: `${SITE_URL}/chandapura-hosur-road-gynaecologist`,
+    'Best gynaecologist near Bommasandra offering pregnancy care, normal and painless delivery, PCOS treatment, fertility support and laparoscopic surgery at Raghava Multispeciality Hospital, Attibele.',
+  url: `${SITE_URL}/bommasandra-gynaecologist`,
   telephone: '+91-9980031006',
   address: {
     '@type': 'PostalAddress',
@@ -196,13 +181,12 @@ const localBusinessSchema = {
   priceRange: '$$',
   image: `${SITE_URL}/dr-sanjana-hero.png`,
   areaServed: [
-    { '@type': 'City', name: 'Chandapura' },
-    { '@type': 'City', name: 'Anekal' },
-    { '@type': 'City', name: 'Hosur Road, Bangalore' },
-    { '@type': 'City', name: 'Jigani' },
     { '@type': 'City', name: 'Bommasandra' },
     { '@type': 'City', name: 'Hebbagodi' },
-    { '@type': 'City', name: 'Hosur, Tamil Nadu' },
+    { '@type': 'City', name: 'Anekal' },
+    { '@type': 'City', name: 'Chandapura' },
+    { '@type': 'City', name: 'Electronic City, Bangalore' },
+    { '@type': 'City', name: 'Jigani' },
   ],
   aggregateRating: {
     '@type': 'AggregateRating',
@@ -226,8 +210,8 @@ const breadcrumbSchema = {
     {
       '@type': 'ListItem',
       position: 2,
-      name: 'Gynaecologist near Hosur Road, Anekal & Chandapura',
-      item: `${SITE_URL}/chandapura-hosur-road-gynaecologist`,
+      name: 'Gynaecologist near Bommasandra',
+      item: `${SITE_URL}/bommasandra-gynaecologist`,
     },
   ],
 };
@@ -247,7 +231,7 @@ const faqSchema = {
 
 /* ──────────────────────────── PAGE ──────────────────────────── */
 
-export default function ChandapuraHosurRoadGynaecologistPage() {
+export default function BommasandraGynaecologistPage() {
   return (
     <>
       {/* Structured Data */}
@@ -276,7 +260,7 @@ export default function ChandapuraHosurRoadGynaecologistPage() {
             <BreadcrumbNav
               crumbs={[
                 { label: 'Home', href: '/' },
-                { label: 'Gynaecologist near Chandapura, Hosur Road & Anekal' },
+                { label: 'Gynaecologist near Bommasandra' },
               ]}
             />
 
@@ -291,14 +275,14 @@ export default function ChandapuraHosurRoadGynaecologistPage() {
                     fontFamily: 'var(--font-body), system-ui, sans-serif',
                   }}
                 >
-                  Chandapura &middot; Hosur Road &middot; Anekal &middot; Jigani
+                  Bommasandra &middot; Hebbagodi &middot; Anekal &middot; Jigani
                 </span>
 
                 <h1
                   className="text-3xl md:text-4xl lg:text-5xl font-bold mb-5 leading-tight"
                   style={{ fontFamily: 'var(--font-display), Georgia, serif', color: '#2D2D2D' }}
                 >
-                  Best Gynaecologist near Hosur Road, Anekal &amp; Chandapura —{' '}
+                  Best Gynaecologist near Bommasandra —{' '}
                   <span style={{ color: '#8B5E83' }}>Dr. Sanjana L</span>
                 </h1>
 
@@ -308,20 +292,21 @@ export default function ChandapuraHosurRoadGynaecologistPage() {
                   className="text-base md:text-lg mb-4 leading-relaxed max-w-[68ch]"
                   style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}
                 >
-                  If you live near <strong>Chandapura, Hosur Road, Anekal, or Jigani</strong>, you can
-                  see a senior <strong>obstetrician and gynaecologist</strong> without a long commute.
-                  Dr. Sanjana L has 10 plus years of experience. She is an <strong>MS (OBG) Gold
-                  Medalist (RGUHS)</strong> and is <strong>FMAS</strong>-trained.
+                  Dr. Sanjana L is a <strong>lady obstetrician and gynaecologist</strong> at{' '}
+                  <strong>Raghava Multispeciality Hospital, Attibele</strong> — a short drive from
+                  Bommasandra. She has 10 plus years of experience, is an{' '}
+                  <strong>MS (OBG) Gold Medalist (RGUHS)</strong> and holds <strong>FMAS</strong>{' '}
+                  (keyhole surgery) training.
                 </p>
                 <p
                   className="text-base mb-6 leading-relaxed max-w-[68ch]"
                   style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}
                 >
-                  She consults at <strong>Raghava Multispeciality Hospital, Attibele</strong>. From
-                  Chandapura Junction that is often about <strong>10–15 minutes</strong> on
-                  Sarjapura–Attibele Road. She supports <strong>normal delivery</strong>,{' '}
-                  <strong>high-risk pregnancy</strong>, <strong>PCOS care</strong>, and more. Languages:
-                  English, Hindi, Kannada, Telugu.
+                  She cares for women from Bommasandra, Hebbagodi, the industrial area, Anekal and
+                  Chandapura. Common reasons for visits include <strong>pregnancy check-ups</strong>,{' '}
+                  <strong>normal and painless delivery</strong>, <strong>PCOS</strong>,{' '}
+                  <strong>fertility support</strong>, and <strong>laparoscopic surgery</strong>.
+                  Consults are in English, Hindi, Kannada, or Telugu.
                 </p>
 
                 {/* Trust Badges */}
@@ -353,47 +338,35 @@ export default function ChandapuraHosurRoadGynaecologistPage() {
                   <Link href="/book-appointment" className="btn-primary">
                     <Calendar size={18} /> Book Appointment
                   </Link>
-                  <a
-                    href="tel:+919980031006"
-                    className="btn-outline flex items-center gap-2"
-                  >
+                  <a href="tel:+919980031006" className="btn-outline flex items-center gap-2">
                     <Phone size={18} /> Call: +91-9980031006
                   </a>
                 </div>
               </div>
 
               {/* Right — Clinic Card */}
-              <div className="lg:col-span-5 space-y-5">
-                {/* Raghava Hospital - Primary */}
+              <div className="lg:col-span-5">
                 <div
                   className="rounded-2xl p-6 sticky top-24"
                   style={{ background: '#FFFFFF', border: '1px solid #E8E0DB' }}
                 >
-                  <div className="flex items-center gap-2 mb-3">
-                    <div
-                      className="px-2 py-0.5 rounded text-[10px] font-bold uppercase tracking-wider"
-                      style={{ background: 'rgba(42,107,90,0.12)', color: '#2A6B5A' }}
-                    >
-                      Nearest Clinic
-                    </div>
-                  </div>
                   <h2
-                    className="text-lg font-bold mb-3"
+                    className="text-lg font-bold mb-4"
                     style={{ fontFamily: 'var(--font-display), Georgia, serif', color: '#2D2D2D' }}
                   >
                     Raghava Multispeciality Hospital
                   </h2>
 
-                  <div className="space-y-3">
+                  <div className="space-y-4">
                     <div className="flex items-start gap-3">
-                      <MapPin size={16} className="mt-0.5 flex-shrink-0" style={{ color: '#8B5E83' }} />
+                      <MapPin size={18} className="mt-0.5 flex-shrink-0" style={{ color: '#8B5E83' }} />
                       <p className="text-sm" style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
                         39, Sarjapura – Attibele Rd, opposite Syndicate Bank, Attibele, Bengaluru,
                         Karnataka 562107
                       </p>
                     </div>
                     <div className="flex items-center gap-3">
-                      <Phone size={16} className="flex-shrink-0" style={{ color: '#8B5E83' }} />
+                      <Phone size={18} className="flex-shrink-0" style={{ color: '#8B5E83' }} />
                       <a
                         href="tel:+919980031006"
                         className="text-sm font-semibold hover:underline"
@@ -403,7 +376,7 @@ export default function ChandapuraHosurRoadGynaecologistPage() {
                       </a>
                     </div>
                     <div className="flex items-start gap-3">
-                      <Clock size={16} className="mt-0.5 flex-shrink-0" style={{ color: '#8B5E83' }} />
+                      <Clock size={18} className="mt-0.5 flex-shrink-0" style={{ color: '#8B5E83' }} />
                       <div className="text-sm" style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
                         <p className="font-semibold" style={{ color: '#2D2D2D' }}>
                           Mon – Sat: 9:00 AM – 9:00 PM
@@ -411,29 +384,23 @@ export default function ChandapuraHosurRoadGynaecologistPage() {
                         <p>Sunday: By Appointment</p>
                       </div>
                     </div>
-                    <div className="flex items-center gap-3">
-                      <Navigation size={16} className="flex-shrink-0" style={{ color: '#8B5E83' }} />
-                      <p className="text-sm" style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
-                        ~10–15 min from Chandapura Junction
-                      </p>
-                    </div>
                   </div>
 
                   {/* Google Map Embed */}
-                  <div className="mt-4 rounded-xl overflow-hidden" style={{ height: '180px' }}>
+                  <div className="mt-5 rounded-xl overflow-hidden" style={{ height: '200px' }}>
                     <iframe
                       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.6!2d77.7707144!3d12.7803654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae7193012f5045%3A0xaeb4c2023a37fea6!2sRaghava%20Multispeciality%20Hospital!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
                       width="100%"
-                      height="180"
+                      height="200"
                       style={{ border: 0 }}
                       allowFullScreen
                       loading="lazy"
                       referrerPolicy="no-referrer-when-downgrade"
-                      title="Raghava Multispeciality Hospital Attibele — near Chandapura & Hosur Road"
+                      title="Raghava Multispeciality Hospital — near Bommasandra"
                     />
                   </div>
 
-                  <div className="mt-4 space-y-2">
+                  <div className="mt-5 space-y-3">
                     <Link
                       href="/book-appointment"
                       className="w-full flex items-center justify-center gap-2 py-3 rounded-xl text-white font-semibold text-sm"
@@ -459,115 +426,19 @@ export default function ChandapuraHosurRoadGynaecologistPage() {
                     </a>
                   </div>
                 </div>
-
-                {/* HSR Layout Clinic - Alternative */}
-                <div
-                  className="rounded-2xl p-5"
-                  style={{ background: '#FFFFFF', border: '1px solid #E8E0DB' }}
-                >
-                  <h3
-                    className="text-base font-bold mb-2"
-                    style={{ fontFamily: 'var(--font-body), system-ui, sans-serif', color: '#2D2D2D' }}
-                  >
-                    Also available at: Health Nest, HSR Layout
-                  </h3>
-                  <div className="flex items-start gap-2">
-                    <MapPin size={14} className="mt-0.5 flex-shrink-0" style={{ color: '#8B5E83' }} />
-                    <p className="text-xs" style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
-                      1162, 24th Main Rd, Sector 2, HSR Layout, Bangalore 560102 &middot;{' '}
-                      <a href="tel:+919449031003" className="font-semibold hover:underline" style={{ color: '#2A6B5A' }}>
-                        +91-9449031003
-                      </a>
-                    </p>
-                  </div>
-                  <p className="text-xs mt-1" style={{ color: '#9B9B9B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
-                    Convenient for patients who work in central Bangalore
-                  </p>
-                </div>
               </div>
             </div>
           </div>
         </section>
 
-        {/* ─── PROXIMITY / TRAVEL TIMES ─── */}
+        {/* ─── ABOUT ─── */}
         <section className="section-padding" style={{ background: '#FFFFFF' }}>
           <div className="container-hn max-w-4xl">
             <h2
               className="text-2xl md:text-3xl font-bold mb-4"
               style={{ fontFamily: 'var(--font-display), Georgia, serif', color: '#2D2D2D' }}
             >
-              How to Reach Dr. Sanjana from Chandapura, Hosur Road &amp; Anekal
-            </h2>
-            <div className="accent-line" />
-
-            <p
-              className="text-base mb-8 leading-relaxed"
-              style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}
-            >
-              Raghava Multispeciality Hospital in Attibele is the nearest clinic for residents of
-              Chandapura, Anekal, Jigani and areas along Hosur Road. The hospital sits on the main
-              Sarjapura–Attibele Road, opposite Syndicate Bank, with ample parking.
-              For patients closer to central Bangalore, Health Nest in HSR Layout is an alternative.
-            </p>
-
-            <div className="overflow-x-auto">
-              <table className="w-full text-sm" style={{ fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
-                <thead>
-                  <tr style={{ background: '#FFF8F0' }}>
-                    <th className="text-left p-3 font-semibold rounded-tl-xl" style={{ color: '#2D2D2D' }}>
-                      Your Location
-                    </th>
-                    <th className="text-left p-3 font-semibold" style={{ color: '#2D2D2D' }}>
-                      Nearest Clinic
-                    </th>
-                    <th className="text-center p-3 font-semibold" style={{ color: '#2D2D2D' }}>
-                      Distance
-                    </th>
-                    <th className="text-center p-3 font-semibold rounded-tr-xl" style={{ color: '#2D2D2D' }}>
-                      Drive Time
-                    </th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {travelTimes.map((row, i) => (
-                    <tr
-                      key={i}
-                      className="border-b"
-                      style={{ borderColor: '#E8E0DB' }}
-                    >
-                      <td className="p-3 font-medium" style={{ color: '#2D2D2D' }}>
-                        {row.from}
-                      </td>
-                      <td className="p-3" style={{ color: '#6B6B6B' }}>
-                        {row.clinic}
-                      </td>
-                      <td className="p-3 text-center" style={{ color: '#6B6B6B' }}>
-                        {row.distance}
-                      </td>
-                      <td className="p-3 text-center">
-                        <span
-                          className="px-2 py-1 rounded-full text-xs font-semibold"
-                          style={{ background: 'rgba(42,107,90,0.1)', color: '#2A6B5A' }}
-                        >
-                          {row.time}
-                        </span>
-                      </td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </section>
-
-        {/* ─── ABOUT DR. SANJANA ─── */}
-        <section className="section-padding" style={{ background: '#FFF8F0' }}>
-          <div className="container-hn max-w-4xl">
-            <h2
-              className="text-2xl md:text-3xl font-bold mb-4"
-              style={{ fontFamily: 'var(--font-display), Georgia, serif', color: '#2D2D2D' }}
-            >
-              Why Families near Chandapura &amp; Hosur Road Choose Dr. Sanjana L
+              Why Women near Bommasandra Trust Dr. Sanjana L
             </h2>
             <div className="accent-line" />
 
@@ -576,35 +447,36 @@ export default function ChandapuraHosurRoadGynaecologistPage() {
               style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif', lineHeight: 1.8 }}
             >
               <p>
-                The Chandapura–Hosur Road–Anekal area is growing fast. Many families still travel far
-                for women&apos;s health care. Dr. Sanjana L at <strong>Raghava Hospital, Attibele</strong>{' '}
-                offers the same clinical standard as her HSR Layout practice.
+                Bommasandra sits right beside the Sarjapura–Attibele Road, so families here have a
+                well-equipped maternity and gynaecology unit close by. Dr. Sanjana L consults at{' '}
+                <strong>Raghava Multispeciality Hospital</strong> — no long drive into the city for
+                trusted care.
               </p>
               <p>
-                She listens, explains tests in simple words, and reviews options with you. First
-                pregnancies, complex gynaecology, and teen health questions are all welcome.
+                She listens, explains results in plain language, and reviews options with you before
+                deciding anything. That approach has earned the trust of{' '}
+                <strong>thousands of women</strong> across the southern belt.
               </p>
               <p>
-                She has cared for <strong>5,000 plus patients</strong> and holds a strong{' '}
-                <strong>4.9/5 Google</strong> rating. Consults run in{' '}
-                <strong>English, Hindi, Kannada, and Telugu</strong>.
+                She treats both routine and complex cases — first pregnancies, high-risk pregnancy,
+                PCOS, fibroids, ovarian cysts, endometriosis, fertility concerns and menopause. Visits
+                are offered in <strong>English, Hindi, Kannada, and Telugu</strong>.
               </p>
             </div>
 
-            {/* Key credentials */}
             <div className="grid sm:grid-cols-2 gap-4 mt-8">
               {[
                 'MBBS, MS (Obstetrics & Gynaecology) — Gold Medalist, RGUHS',
                 'FMAS — Fellowship in Minimal Access Surgery',
                 '10+ years of clinical experience in obstetrics & gynaecology',
-                'Multilingual: English, Hindi, Kannada, Telugu',
-                'Fully equipped labour ward & neonatal care at Attibele',
-                'Also available at Health Nest, HSR Layout',
+                'A female (lady) gynaecologist you can speak to openly',
+                '24/7 anaesthesia, operative & newborn back-up at Raghava Hospital',
+                'A short drive from Bommasandra, Hebbagodi & Anekal',
               ].map((item, i) => (
                 <div
                   key={i}
                   className="flex items-start gap-3 p-3 rounded-xl"
-                  style={{ background: '#FFFFFF', border: '1px solid #E8E0DB' }}
+                  style={{ background: '#FFF8F0', border: '1px solid #E8E0DB' }}
                 >
                   <CheckCircle2 size={16} className="mt-0.5 flex-shrink-0" style={{ color: '#8B5E83' }} />
                   <p className="text-sm" style={{ color: '#2D2D2D', fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
@@ -617,18 +489,18 @@ export default function ChandapuraHosurRoadGynaecologistPage() {
         </section>
 
         {/* ─── SERVICES ─── */}
-        <section className="section-padding" style={{ background: '#FFFFFF' }}>
+        <section className="section-padding" style={{ background: '#FFF8F0' }}>
           <div className="container-hn">
             <div className="text-center mb-12">
               <h2
                 className="text-2xl md:text-3xl font-bold mb-3"
                 style={{ fontFamily: 'var(--font-display), Georgia, serif', color: '#2D2D2D' }}
               >
-                Gynaecology Services for Chandapura, Hosur Road &amp; Anekal Residents
+                Gynaecology Services for Bommasandra Families
               </h2>
               <div className="accent-line mx-auto" />
               <div className="mx-auto max-w-2xl space-y-3 text-base font-sans text-ink-muted">
-                <p className="m-0">Dr. Sanjana L sees women at Raghava Multispeciality Hospital, Attibele.</p>
+                <p className="m-0">Dr. Sanjana L runs a full women&apos;s health clinic at Raghava Multispeciality Hospital, Attibele.</p>
                 <p className="m-0">You can book routine visits, pregnancy care, birth planning, and keyhole surgery when needed.</p>
               </div>
             </div>
@@ -639,7 +511,7 @@ export default function ChandapuraHosurRoadGynaecologistPage() {
                   key={i}
                   href={svc.href}
                   className="group block p-6 rounded-2xl border transition-all duration-300 hover:shadow-lg"
-                  style={{ background: '#FFF8F0', borderColor: '#E8E0DB' }}
+                  style={{ background: '#FFFFFF', borderColor: '#E8E0DB' }}
                 >
                   <div
                     className="w-12 h-12 rounded-xl flex items-center justify-center mb-4 transition-transform group-hover:scale-110"
@@ -659,57 +531,41 @@ export default function ChandapuraHosurRoadGynaecologistPage() {
                   >
                     {svc.desc}
                   </p>
-                  <span
-                    className="text-sm font-semibold flex items-center gap-1"
-                    style={{ color: '#8B5E83' }}
-                  >
+                  <span className="text-sm font-semibold flex items-center gap-1" style={{ color: '#8B5E83' }}>
                     Learn More <ArrowRight size={14} />
                   </span>
                 </Link>
               ))}
             </div>
 
-            {/* Additional services */}
             <div className="mt-10 max-w-3xl mx-auto text-center">
               <p
                 className="text-sm leading-relaxed"
                 style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}
               >
-                <strong style={{ color: '#2D2D2D' }}>Also available:</strong>{' '}
-                <Link href="/services/cesarean-delivery" className="hover:underline" style={{ color: '#8B5E83' }}>
-                  Caesarean Delivery
+                <strong style={{ color: '#2D2D2D' }}>Popular near Bommasandra:</strong>{' '}
+                <Link href="/normal-delivery-bommasandra" className="hover:underline" style={{ color: '#8B5E83' }}>
+                  Normal Delivery near Bommasandra
                 </Link>
                 {', '}
-                <Link href="/services/hysteroscopy" className="hover:underline" style={{ color: '#8B5E83' }}>
-                  Hysteroscopy
+                <Link href="/painless-delivery-bommasandra" className="hover:underline" style={{ color: '#8B5E83' }}>
+                  Painless Delivery near Bommasandra
                 </Link>
                 {', '}
-                <Link href="/services/menstrual-disorders" className="hover:underline" style={{ color: '#8B5E83' }}>
-                  Menstrual Disorder Treatment
+                <Link href="/maternity-package-cost-attibele" className="hover:underline" style={{ color: '#8B5E83' }}>
+                  Maternity Package &amp; Cost
                 </Link>
                 {', '}
-                <Link href="/services/prenatal-screening" className="hover:underline" style={{ color: '#8B5E83' }}>
-                  Prenatal Screening
+                <Link href="/services/uterine-fibroids-treatment" className="hover:underline" style={{ color: '#8B5E83' }}>
+                  Uterine Fibroids
                 </Link>
                 {', '}
-                <Link href="/services/postnatal-care" className="hover:underline" style={{ color: '#8B5E83' }}>
-                  Postnatal Care
-                </Link>
-                {', '}
-                <Link href="/services/cervical-cancer-screening" className="hover:underline" style={{ color: '#8B5E83' }}>
-                  Cervical Cancer Screening
-                </Link>
-                {', '}
-                <Link href="/services/contraception-counselling" className="hover:underline" style={{ color: '#8B5E83' }}>
-                  Contraception Counselling
-                </Link>
-                {', '}
-                <Link href="/services/menopause-management" className="hover:underline" style={{ color: '#8B5E83' }}>
-                  Menopause Management
+                <Link href="/services/ovarian-cyst-treatment" className="hover:underline" style={{ color: '#8B5E83' }}>
+                  Ovarian Cysts
                 </Link>
                 {', and '}
-                <Link href="/services/adolescent-gynaecology" className="hover:underline" style={{ color: '#8B5E83' }}>
-                  Adolescent Gynaecology
+                <Link href="/services/cesarean-delivery" className="hover:underline" style={{ color: '#8B5E83' }}>
+                  Caesarean Delivery
                 </Link>
                 .
               </p>
@@ -718,24 +574,26 @@ export default function ChandapuraHosurRoadGynaecologistPage() {
         </section>
 
         {/* ─── AREAS SERVED ─── */}
-        <section className="section-padding" style={{ background: '#FFF8F0' }}>
+        <section className="section-padding" style={{ background: '#FFFFFF' }}>
           <div className="container-hn max-w-4xl">
             <h2
               className="text-2xl md:text-3xl font-bold mb-4"
               style={{ fontFamily: 'var(--font-display), Georgia, serif', color: '#2D2D2D' }}
             >
-              Serving Women across Chandapura, Hosur Road &amp; Surrounding Areas
+              Serving Women across Bommasandra and Nearby Areas
             </h2>
             <div className="accent-line" />
 
-            <div className="mb-6 max-w-[68ch] space-y-3 text-base leading-relaxed font-sans text-ink-muted">
+            <div className="text-base mb-6 leading-relaxed max-w-[68ch] space-y-3" style={{ color: '#6B6B6B', fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
               <p className="m-0">
-                Raghava Multispeciality Hospital, Attibele, is easy to reach from Chandapura, Hosur Road, and Jigani.
+                Raghava Multispeciality Hospital is on the Sarjapura–Attibele Road, an easy drive from
+                Bommasandra, Hebbagodi and the industrial area.
               </p>
               <p className="m-0">
-                It works well if you want a <strong>gynaecologist near Jigani</strong>, a{' '}
-                <strong>maternity hospital near Chandapura</strong>, or a <strong>delivery unit near Hosur Road</strong>.
-                Patients also travel from Hosur, Tamil Nadu.
+                If you want a <strong>maternity hospital near Bommasandra</strong>, a{' '}
+                <strong>lady gynaecologist near Hebbagodi</strong>, or a{' '}
+                <strong>delivery hospital near Anekal</strong>, Dr. Sanjana L is often just minutes
+                away.
               </p>
             </div>
 
@@ -745,7 +603,7 @@ export default function ChandapuraHosurRoadGynaecologistPage() {
                   key={i}
                   className="flex items-center gap-2 p-3 rounded-xl text-sm font-medium"
                   style={{
-                    background: '#FFFFFF',
+                    background: '#FFF8F0',
                     border: '1px solid #E8E0DB',
                     color: '#2D2D2D',
                     fontFamily: 'var(--font-body), system-ui, sans-serif',
@@ -759,42 +617,39 @@ export default function ChandapuraHosurRoadGynaecologistPage() {
 
             <div className="mt-6 max-w-[68ch] space-y-2 text-sm leading-relaxed font-sans text-ink-muted">
               <p className="m-0">
-                She also sees patients from{' '}
+                She also consults at{' '}
+                <Link href="/hsr-layout-gynaecologist" className="font-semibold text-primary hover:underline">
+                  Health Nest, HSR Layout
+                </Link>{' '}
+                and at{' '}
                 <Link href="/attibele-gynaecologist" className="font-semibold text-primary hover:underline">
-                  Attibele
+                  Raghava Hospital, Attibele
                 </Link>
                 .
               </p>
               <p className="m-0">
-                Live in Chandapura? See our dedicated{' '}
+                She also welcomes patients from{' '}
                 <Link href="/chandapura-gynaecologist" className="font-semibold text-primary hover:underline">
-                  gynaecologist in Chandapura
+                  Chandapura
                 </Link>{' '}
-                page, or find care near{' '}
-                <Link href="/bommasandra-gynaecologist" className="font-semibold text-primary hover:underline">
-                  Bommasandra
+                and{' '}
+                <Link href="/electronic-city-sarjapura-gynaecologist" className="font-semibold text-primary hover:underline">
+                  Electronic City &amp; Sarjapura
                 </Link>
                 .
-              </p>
-              <p className="m-0">
-                She covers{' '}
-                <Link href="/electronic-city-sarjapura-gynaecologist" className="font-semibold text-primary hover:underline">
-                  Electronic City, Sarjapura &amp; Dommasandra
-                </Link>{' '}
-                from her HSR and Attibele sites.
               </p>
             </div>
           </div>
         </section>
 
-        {/* ─── FAQ SECTION ─── */}
-        <section className="section-padding" style={{ background: '#FFFFFF' }}>
+        {/* ─── FAQ ─── */}
+        <section className="section-padding" style={{ background: '#FFF8F0' }}>
           <div className="container-hn max-w-3xl">
             <h2
               className="text-2xl md:text-3xl font-bold mb-4"
               style={{ fontFamily: 'var(--font-display), Georgia, serif', color: '#2D2D2D' }}
             >
-              Frequently Asked Questions — Gynaecologist near Chandapura &amp; Hosur Road
+              Frequently Asked Questions — Gynaecologist near Bommasandra
             </h2>
             <div className="accent-line" />
             <FAQAccordion faqs={faqs} />
@@ -811,11 +666,11 @@ export default function ChandapuraHosurRoadGynaecologistPage() {
               className="text-2xl md:text-3xl font-bold text-white mb-3"
               style={{ fontFamily: 'var(--font-display), Georgia, serif' }}
             >
-              Trusted Gynaecology Care — Close to Chandapura &amp; Hosur Road
+              Looking for a Trusted Gynaecologist near Bommasandra?
             </h2>
             <div className="mx-auto mb-8 max-w-xl space-y-2 font-sans text-white/80">
               <p className="m-0">Book with Dr. Sanjana L at Raghava Multispeciality Hospital, Attibele.</p>
-              <p className="m-0">Clear advice and kind support, a short drive from Chandapura and Hosur Road.</p>
+              <p className="m-0">Expect clear advice and kind support, close to home.</p>
             </div>
             <div className="flex flex-wrap justify-center gap-4">
               <Link

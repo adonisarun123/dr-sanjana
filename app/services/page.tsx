@@ -38,6 +38,12 @@ const allServices = [
   { slug: 'cervical-cancer-screening', icon: Shield, title: 'Cervical Cancer Screening', desc: 'Pap smear and HPV testing for early detection and prevention.', category: 'Gynaecology' },
   { slug: 'urogynaecology', icon: Droplets, title: 'Urogynaecology', desc: 'Treatment for urinary incontinence and pelvic organ prolapse.', category: 'Gynaecology' },
   { slug: 'adolescent-gynaecology', icon: UserRound, title: 'Adolescent Gynaecology', desc: 'Sensitive gynaecological care for young girls and teenagers.', category: 'Gynaecology' },
+  { slug: 'uterine-fibroids-treatment', icon: Activity, title: 'Uterine Fibroids', desc: 'Diagnosis and fertility-sparing treatment for uterine fibroids.', category: 'Gynaecology' },
+  { slug: 'ovarian-cyst-treatment', icon: Droplets, title: 'Ovarian Cysts', desc: 'Assessment and laparoscopic treatment of ovarian cysts.', category: 'Gynaecology' },
+  { slug: 'endometriosis-treatment', icon: HeartPulse, title: 'Endometriosis', desc: 'Pain relief, hormonal therapy and laparoscopic care for endometriosis.', category: 'Gynaecology' },
+  { slug: 'white-discharge-leucorrhoea', icon: Droplets, title: 'White Discharge (Leucorrhoea)', desc: 'Confidential, cause-first treatment for white discharge and leucorrhoea.', category: 'Gynaecology' },
+  { slug: 'uti-vaginal-infections', icon: Shield, title: 'UTI & Vaginal Infections', desc: 'Fast, confidential care for urinary and vaginal infections, including recurrent cases.', category: 'Gynaecology' },
+  { slug: 'heavy-irregular-periods', icon: Activity, title: 'Heavy & Irregular Periods', desc: 'Cause-first diagnosis and treatment for heavy bleeding and irregular cycles.', category: 'Gynaecology' },
 ];
 
 const categories = ['Obstetrics', 'Fertility', 'Surgery', 'Gynaecology'];

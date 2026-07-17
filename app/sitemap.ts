@@ -21,6 +21,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ];
 
   const locationPages: MetadataRoute.Sitemap = [
+    { url: `${baseUrl}/hsr-layout-gynaecologist`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.9 },
+    { url: `${baseUrl}/bommasandra-gynaecologist`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.9 },
+    { url: `${baseUrl}/chandapura-gynaecologist`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.9 },
+    { url: `${baseUrl}/anekal-gynaecologist`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.9 },
+    { url: `${baseUrl}/jigani-gynaecologist`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.9 },
     { url: `${baseUrl}/attibele-gynaecologist`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.9 },
     { url: `${baseUrl}/electronic-city-sarjapura-gynaecologist`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.9 },
     { url: `${baseUrl}/chandapura-hosur-road-gynaecologist`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.9 },

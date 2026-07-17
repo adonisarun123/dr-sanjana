@@ -64,3 +64,5 @@ Use `py-16` (or `py-20` for hero-sized closers) plus a coloured background:
 ```
 
 This convention applies to ALL new pages and to any edits to existing pages. Audit every section wrapper before committing.
+
+## Imported Claude Cowork project instructions

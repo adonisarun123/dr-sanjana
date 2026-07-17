@@ -3539,6 +3539,1423 @@ Dr. Sanjana Lakshmikanth (MBBS, MS — OBG, Gold Medalist) is a consultant obste
 _Feature interview courtesy of <a href="https://www.janitri.club/p/it-is-the-couple-who-is-getting-pregnant" target="_blank" rel="noopener noreferrer">Janitri</a>. All quotes belong to the original publication._
     `,
   },
+  {
+    slug: 'uterine-fibroids-symptoms-sizes-when-surgery-needed',
+    title: 'Uterine Fibroids: Symptoms, Sizes and When Surgery Is Actually Needed',
+    excerpt: 'Most uterine fibroids never need surgery. Dr. Sanjana L, gynaecologist in HSR Layout & Attibele, explains fibroid symptoms, when size actually matters, and when fertility-sparing treatment is genuinely required.',
+    category: 'Gynaecology Tips',
+    tags: ['uterine fibroids', 'fibroid treatment', 'myomectomy', 'heavy periods', 'fibroid surgery', 'gynaecologist HSR Layout', 'gynaecologist Attibele', 'Bangalore', 'womens health'],
+    readTime: 8,
+    date: '2026-07-14',
+    author: 'Dr. Sanjana L',
+    metaTitle: 'Uterine Fibroids: Symptoms, Sizes & When Surgery Is Needed | Dr. Sanjana L',
+    metaDescription: 'When do uterine fibroids need treatment? Dr. Sanjana L (HSR Layout & Attibele) explains fibroid symptoms, the sizes that matter, and fertility-sparing options.',
+    content: `
+## Fibroids Are Common — and Usually Not an Emergency
+
+If a scan has shown you have a uterine fibroid, take a breath first. Fibroids (also called myomas) are non-cancerous growths in the muscle of the uterus, and they are extremely common — many women in their 30s and 40s have one or more without ever knowing.
+
+The important question is almost never "do I have a fibroid?" It is "is this fibroid actually causing a problem?" In more than 10 years as a gynaecologist across HSR Layout and Attibele, Dr. Sanjana L has seen many women rushed toward surgery for fibroids that never needed touching — and others who were reassured for years while a treatable problem quietly caused anaemia.
+
+## Symptoms Worth Paying Attention To
+
+Many fibroids cause no symptoms at all. When they do, the common ones are:
+
+- Heavy or prolonged periods, sometimes with large clots
+- Periods that soak through protection every hour or last more than seven days
+- Pelvic pressure, fullness, or a feeling of a lump low in the abdomen
+- Frequent urination or difficulty emptying the bladder
+- Pain during intercourse or a persistent lower backache
+- Tiredness, breathlessness or dizziness — often from anaemia caused by heavy bleeding
+- Difficulty conceiving, in some cases
+
+The last two matter most. Heavy bleeding that quietly drops your haemoglobin, and fibroids that affect fertility, are the situations where doing nothing has a real cost.
+
+## Does Size Actually Matter?
+
+Size is only part of the story. A small fibroid sitting inside the uterine cavity (a submucosal fibroid) can cause far heavier bleeding than a large one growing on the outer wall. So the two things that decide whether a fibroid needs treatment are its **location** and your **symptoms** — not the centimetre count alone.
+
+That said, very large fibroids, or fibroids growing quickly, do deserve closer evaluation. This is why an ultrasound — and occasionally an MRI — is used to map the size, number and exact position of each fibroid before any decision is made.
+
+## When Fibroids Need Treatment
+
+Treatment is considered mainly when fibroids cause:
+
+- Heavy bleeding leading to anaemia
+- Significant pressure symptoms affecting daily life
+- Fertility problems or recurrent pregnancy loss linked to the fibroid
+- Rapid growth that needs assessment
+
+When treatment is needed, it does not automatically mean major surgery. Options range from medical and hormonal therapy to control bleeding, to a <a href="/services/laparoscopic-surgery">minimally invasive laparoscopic or hysteroscopic myomectomy</a> that removes the fibroid while preserving the uterus — which matters if you still wish to have children.
+
+## Fibroids and Pregnancy
+
+Most women with fibroids conceive and deliver normally. Certain fibroids, especially those that distort the uterine cavity, can make conceiving harder or raise specific pregnancy risks — which is exactly why a proper assessment, rather than blanket worry, is the right response. If you are planning a pregnancy, this is worth discussing before you conceive.
+
+## The Bottom Line
+
+A fibroid on a scan is not, by itself, a reason for surgery. The honest questions are whether it is causing heavy bleeding, pressure, or fertility trouble — and whether the least invasive option can fix that while protecting your uterus. You can read more about how this is assessed and treated on our <a href="/services/uterine-fibroids-treatment">uterine fibroids treatment</a> page.
+
+## Frequently Asked Questions
+
+### Do all uterine fibroids need surgery?
+No. Many fibroids are small, symptom-free and can simply be monitored with a periodic scan. Surgery is considered mainly when fibroids cause heavy bleeding, pressure symptoms, or fertility problems.
+
+### Can fibroids be removed without removing the uterus?
+Yes. A myomectomy removes the fibroids while keeping the uterus intact, which is important if you plan to have children. Laparoscopic (keyhole) and hysteroscopic myomectomy are often possible.
+
+### Do fibroids turn into cancer?
+Fibroids are non-cancerous, and the risk of a fibroid being or becoming cancerous is very low. Rapidly growing fibroids, especially after menopause, are checked more carefully as a precaution.
+
+### Where can I get fibroid treatment in HSR Layout or Attibele?
+Dr. Sanjana L evaluates and treats fibroids at Health Nest, HSR Layout and Raghava Multispeciality Hospital, Attibele.
+
+## Consult Dr. Sanjana L
+
+Dr. Sanjana L (MBBS, MS — OBG, Gold Medalist, FMAS) is a consultant obstetrician–gynaecologist and keyhole surgeon in Bangalore. If heavy periods or a fibroid on a scan are worrying you, book a proper assessment rather than guessing. Learn more <a href="/about-dr-sanjana">about Dr. Sanjana</a>, see her <a href="/hsr-layout-gynaecologist">HSR Layout</a> and <a href="/attibele-gynaecologist">Attibele</a> clinics, or <a href="/book-appointment">book an appointment</a>.
+    `,
+  },
+  {
+    slug: 'ovarian-cysts-harmless-vs-need-treatment',
+    title: 'Ovarian Cysts: Which Ones Are Harmless and Which Need Treatment',
+    excerpt: 'Most ovarian cysts disappear on their own. Dr. Sanjana L, gynaecologist in HSR Layout & Attibele, explains the difference between harmless functional cysts and the ones that genuinely need treatment.',
+    category: 'Gynaecology Tips',
+    tags: ['ovarian cyst', 'ovarian cyst treatment', 'functional cyst', 'ovarian cyst surgery', 'pelvic pain', 'gynaecologist HSR Layout', 'gynaecologist Attibele', 'Bangalore', 'womens health'],
+    readTime: 7,
+    date: '2026-07-15',
+    author: 'Dr. Sanjana L',
+    metaTitle: 'Ovarian Cysts: Harmless vs Needs Treatment | Dr. Sanjana L',
+    metaDescription: 'Are ovarian cysts dangerous? Dr. Sanjana L (HSR Layout & Attibele) explains which cysts resolve on their own and which need treatment or keyhole surgery.',
+    content: `
+## Most Ovarian Cysts Are Nothing to Fear
+
+An ovarian cyst is a fluid-filled sac on or inside the ovary. The word "cyst" sounds alarming, but the large majority are **functional cysts** — a normal by-product of the menstrual cycle that forms and then disappears on its own within a few weeks.
+
+So when a scan reports a cyst, the real task is telling a harmless one apart from the small number that need attention. Over more than 10 years across HSR Layout and Attibele, Dr. Sanjana L has reassured far more women about cysts than she has operated on — and the goal is always the least intervention that safely resolves the problem.
+
+## The Cysts That Are Usually Harmless
+
+Functional cysts — follicular and corpus luteum cysts — form as part of ovulation. They:
+
+- Are very common in women of reproductive age
+- Usually cause no symptoms
+- Typically resolve on their own within one to three menstrual cycles
+- Need only a repeat scan to confirm they have gone
+
+For these, the right response is reassurance and a short interval scan, not surgery.
+
+## The Cysts That Need a Closer Look
+
+A cyst deserves more attention when it is:
+
+- Large, or growing on repeat scans
+- Persistent — still there after a few cycles
+- Causing pain, pressure or bloating
+- Showing complex features on ultrasound (solid areas, septations)
+- Associated with conditions such as endometriosis (endometriomas) or, rarely, other growths
+
+One situation is urgent: sudden, severe, one-sided pelvic pain can signal **ovarian torsion** (a twisted cyst) — this needs immediate medical care.
+
+## How Cysts Are Assessed
+
+Assessment is straightforward: a symptom review, a pelvic examination, and an ultrasound to characterise the cyst. Where the scan warrants it, blood tests or tumour markers add information. Together these usually make it clear whether a cyst can simply be watched or needs treatment.
+
+## When Treatment Is Needed
+
+When a cyst is large, persistent, twisted or symptomatic, treatment is usually a <a href="/services/laparoscopic-surgery">laparoscopic (keyhole) cystectomy</a> that removes the cyst while preserving healthy ovarian tissue — protecting your future fertility. Open surgery is rarely required for straightforward cysts. You can read more on our <a href="/services/ovarian-cyst-treatment">ovarian cyst treatment</a> page.
+
+## Cysts, PCOS and Fertility
+
+Having "cysts" on a scan is not the same as having PCOS. In <a href="/services/pcos-pcod-treatment">PCOS</a>, the ovaries show many small follicles rather than a single significant cyst, and the condition is hormonal and metabolic. Most simple ovarian cysts do not affect fertility, though conditions like endometriomas can — which is another reason accurate assessment matters.
+
+## Frequently Asked Questions
+
+### Are ovarian cysts dangerous?
+Most are functional and harmless and resolve on their own. A minority need treatment because they are large, persistent, painful, or have concerning features on a scan.
+
+### Will I need surgery for an ovarian cyst?
+Often not. Simple cysts are usually just monitored with a repeat scan. Surgery — usually keyhole — is reserved for cysts that are large, growing, twisted or symptomatic.
+
+### Can an ovarian cyst affect my fertility?
+Most cysts do not. Some linked conditions, such as endometriomas or PCOS, can affect fertility, which is why proper evaluation matters.
+
+### When is ovarian cyst pain an emergency?
+Sudden, severe, one-sided pelvic pain — sometimes with nausea or vomiting — can indicate torsion (a twisted cyst) and needs immediate medical attention.
+
+## Consult Dr. Sanjana L
+
+Dr. Sanjana L (MBBS, MS — OBG, Gold Medalist, FMAS) is a consultant obstetrician–gynaecologist and keyhole surgeon. If a scan has shown a cyst, a calm, accurate assessment usually settles the question quickly. Learn more <a href="/about-dr-sanjana">about Dr. Sanjana</a>, see her <a href="/hsr-layout-gynaecologist">HSR Layout</a> and <a href="/attibele-gynaecologist">Attibele</a> clinics, or <a href="/book-appointment">book an appointment</a>.
+    `,
+  },
+  {
+    slug: 'white-discharge-leucorrhoea-normal-vs-warning-signs',
+    title: 'White Discharge (Leucorrhoea): Normal vs Warning Signs',
+    excerpt: 'Not all vaginal discharge is a problem. Dr. Sanjana L, gynaecologist in HSR Layout & Attibele, explains what normal discharge looks like, when leucorrhoea signals an infection, and when to see a doctor.',
+    category: 'Women\'s Health',
+    tags: ['white discharge', 'leucorrhoea', 'vaginal discharge', 'vaginal infection', 'intimate health', 'gynaecologist HSR Layout', 'gynaecologist Attibele', 'Bangalore', 'womens health'],
+    readTime: 6,
+    date: '2026-07-16',
+    author: 'Dr. Sanjana L',
+    metaTitle: 'White Discharge (Leucorrhoea): Normal vs Warning Signs | Dr. Sanjana L',
+    metaDescription: 'Is white discharge normal? Dr. Sanjana L (HSR Layout & Attibele) explains normal vs abnormal leucorrhoea, common causes, and when to see a gynaecologist.',
+    content: `
+## First, Some Reassurance
+
+Vaginal discharge is normal. It is the body's way of keeping the vagina clean and healthy, and it changes naturally through the menstrual cycle — clearer and stretchier around ovulation, thicker and whiter at other times. Many women worry about discharge that is completely normal.
+
+It becomes worth checking when the amount, colour, smell or associated symptoms change. That is the useful distinction — and one Dr. Sanjana L helps women make every week across HSR Layout and Attibele, always confidentially and without judgement.
+
+## What Normal Discharge Looks Like
+
+Healthy discharge is usually:
+
+- Clear or milky white
+- Odourless or very mild in smell
+- Thin and stretchy around ovulation, thicker at other times
+- Not associated with itching, burning or pain
+
+The total amount varies from woman to woman and can increase during pregnancy, around ovulation, or with hormonal contraception — all of which can be perfectly normal.
+
+## Warning Signs Worth Acting On
+
+See a gynaecologist if discharge is accompanied by any of these:
+
+- A thick, cottage-cheese-like white discharge with intense itching — often a yeast (candida) infection
+- A grey or white discharge with a fishy odour — often bacterial vaginosis
+- A green, yellow or frothy discharge — may point to other infections
+- Foul smell, or discharge with blood or spotting between periods
+- Itching, burning, redness or swelling around the vagina
+- Pain during urination or intercourse
+
+These usually signal an infection or, less often, a hormonal cause — and both respond well to the right, targeted treatment.
+
+## Common Causes of Abnormal Discharge
+
+The frequent culprits are:
+
+- **Yeast (fungal) infections** — very common, itchy, thick white discharge
+- **Bacterial vaginosis** — an imbalance of vaginal bacteria, often with odour
+- **Other infections** — diagnosed with a simple swab
+- **Hormonal changes** — including around pregnancy and menopause
+- **Irritation** — from harsh soaps, douching or synthetic underwear
+
+The key point: these have different treatments, so guessing — or using a leftover medicine — often fails. A quick examination and, where needed, a swab identify the exact cause.
+
+## How It Is Treated
+
+Treatment targets the cause: antifungal medication for yeast, the right antibiotic for bacterial infections, and a hormonal or hygiene plan where relevant. For recurrent discharge, the focus shifts to why it keeps returning, so you are not stuck in a cycle of repeat treatment. You can read more on our <a href="/services/white-discharge-leucorrhoea">white discharge and leucorrhoea treatment</a> page.
+
+## A Note on Prevention
+
+Simple habits help: avoid douching and harsh intimate washes, wear breathable cotton underwear, wipe front to back, and change out of wet clothing promptly. These support the vagina's natural balance rather than disrupting it.
+
+## Frequently Asked Questions
+
+### Is white discharge normal?
+A certain amount of clear or milky, odourless discharge is normal and varies through the cycle. It needs checking when it becomes heavy, discoloured or foul-smelling, or comes with itching, burning or pain.
+
+### What causes leucorrhoea?
+Common causes include yeast and bacterial infections, hormonal changes, and irritation from harsh products. A simple examination and, where needed, a swab identifies the exact cause.
+
+### Can I treat white discharge at home?
+Mild changes may settle with better intimate hygiene, but persistent, itchy, smelly or discoloured discharge needs a proper diagnosis, because different causes need different treatment.
+
+### When should I see a doctor about discharge?
+See a gynaecologist if there is itching, burning, a strong smell, an unusual colour, blood, or pain — or if the discharge keeps coming back.
+
+## Consult Dr. Sanjana L
+
+Dr. Sanjana L (MBBS, MS — OBG, Gold Medalist) offers confidential, non-judgemental care for intimate health concerns. There is no need to feel embarrassed — these are among the most common reasons women visit. Learn more <a href="/about-dr-sanjana">about Dr. Sanjana</a>, see her <a href="/hsr-layout-gynaecologist">HSR Layout</a> and <a href="/attibele-gynaecologist">Attibele</a> clinics, or <a href="/book-appointment">book an appointment</a>.
+    `,
+  },
+  {
+    slug: 'heavy-periods-menorrhagia-causes-treatment-india',
+    title: 'Heavy Periods (Menorrhagia): Causes and Treatment Options in India',
+    excerpt: 'Very heavy periods are common but not something you simply have to endure. Dr. Sanjana L, gynaecologist in HSR Layout & Attibele, explains what causes menorrhagia and how it is treated.',
+    category: 'Women\'s Health',
+    tags: ['heavy periods', 'menorrhagia', 'irregular periods', 'heavy bleeding', 'anaemia', 'gynaecologist HSR Layout', 'gynaecologist Attibele', 'Bangalore', 'womens health'],
+    readTime: 8,
+    date: '2026-07-17',
+    author: 'Dr. Sanjana L',
+    metaTitle: 'Heavy Periods (Menorrhagia): Causes & Treatment in India | Dr. Sanjana L',
+    metaDescription: 'Are your periods too heavy? Dr. Sanjana L (HSR Layout & Attibele) explains the causes of menorrhagia, when to worry, and the treatment options available in Bangalore.',
+    content: `
+## Heavy Periods Are Common — but Not "Just Normal"
+
+A surprising number of women assume their heavy periods are simply how their body works, and quietly put up with them for years. Some do have naturally heavier cycles. But heavy or prolonged bleeding is often a sign of a **treatable underlying cause** — and it should not be dismissed, especially when it is affecting your energy, your work, or your quality of life.
+
+Across HSR Layout and Attibele, Dr. Sanjana L regularly meets women who had normalised bleeding heavy enough to cause anaemia. The message is simple: heavy periods deserve a proper look, not resignation.
+
+## What Counts as "Heavy"?
+
+Bleeding is worth investigating when you:
+
+- Soak through a pad or tampon every hour for several hours
+- Need to change protection during the night
+- Pass large blood clots
+- Bleed for longer than seven days
+- Feel tired, breathless or dizzy — signs of anaemia from blood loss
+- Have to plan your life around your period
+
+If any of these sound familiar, it is worth a conversation with a gynaecologist.
+
+## Common Causes of Heavy or Irregular Bleeding
+
+Menorrhagia has several possible causes, which is why proper assessment matters:
+
+- **Hormonal imbalance** — including thyroid problems and <a href="/services/pcos-pcod-treatment">PCOS</a>
+- **<a href="/services/uterine-fibroids-treatment">Uterine fibroids</a>** — a very common cause of heavy bleeding
+- **Uterine polyps** — small growths in the uterine lining
+- **<a href="/services/endometriosis-treatment">Endometriosis</a> or adenomyosis**
+- **Bleeding or clotting disorders**
+- **Certain contraceptives** — such as the copper IUD in some women
+- **Perimenopause** — as hormones fluctuate before menopause
+
+## How the Cause Is Found
+
+Investigation is straightforward and worth doing properly:
+
+- A detailed history of your cycles and how bleeding affects daily life
+- Blood tests for anaemia, thyroid function and hormonal causes
+- A pelvic ultrasound to look for fibroids, polyps or PCOS
+- A hysteroscopy where the uterine cavity needs closer assessment
+
+## Treatment Options
+
+The good news is that most heavy bleeding responds well to treatment, and surgery is often not needed:
+
+- **Medical and hormonal treatment** — tablets, hormonal IUDs or other options to reduce bleeding
+- **Treating the underlying cause** — for example, managing thyroid or PCOS
+- **Minimally invasive procedures** — <a href="/services/laparoscopic-surgery">keyhole surgery</a> for fibroids or polyps, where they are the cause
+- **Iron correction** — to reverse anaemia caused by blood loss
+
+Treatment is always chosen with your fertility plans in mind. You can read more on our <a href="/services/heavy-irregular-periods">heavy and irregular periods treatment</a> page. This article focuses on heavy bleeding; for the full range of period problems, see our <a href="/services/menstrual-disorders">menstrual disorders</a> page.
+
+## Frequently Asked Questions
+
+### When are heavy periods a problem worth treating?
+When you soak through protection hourly, pass large clots, bleed for more than seven days, or feel tired and breathless from blood loss — these point to a treatable cause.
+
+### What causes irregular periods?
+Common causes include PCOS, thyroid problems, hormonal imbalance, stress, fibroids or polyps, and perimenopause. Tests and an ultrasound identify the specific cause.
+
+### Do heavy periods always need surgery?
+No. Many cases respond to medical or hormonal treatment. Surgery — usually minimally invasive — is considered mainly when fibroids or polyps are the cause.
+
+### Can heavy periods cause anaemia?
+Yes. Ongoing heavy blood loss is a common cause of iron-deficiency anaemia, which is why tiredness and breathlessness with heavy periods should be checked.
+
+## Consult Dr. Sanjana L
+
+Dr. Sanjana L (MBBS, MS — OBG, Gold Medalist, FMAS) is a consultant obstetrician–gynaecologist and keyhole surgeon. If your periods are heavy enough to disrupt your life, they are worth investigating. Learn more <a href="/about-dr-sanjana">about Dr. Sanjana</a>, see her <a href="/hsr-layout-gynaecologist">HSR Layout</a> and <a href="/attibele-gynaecologist">Attibele</a> clinics, or <a href="/book-appointment">book an appointment</a>.
+    `,
+  },
+  {
+    slug: 'irregular-periods-after-30-what-they-mean',
+    title: 'Irregular Periods After 30: What They Could Mean',
+    excerpt: 'Cycles that suddenly become unpredictable in your 30s are worth understanding. Dr. Sanjana L, gynaecologist in HSR Layout & Attibele, explains the common causes and when to get checked.',
+    category: 'Women\'s Health',
+    tags: ['irregular periods', 'menstrual health', 'PCOS', 'thyroid', 'perimenopause', 'gynaecologist HSR Layout', 'gynaecologist Attibele', 'Bangalore', 'womens health'],
+    readTime: 6,
+    date: '2026-07-10',
+    author: 'Dr. Sanjana L',
+    metaTitle: 'Irregular Periods After 30: Causes & When to Worry | Dr. Sanjana L',
+    metaDescription: 'Why do periods become irregular after 30? Dr. Sanjana L (HSR Layout & Attibele) explains the common causes, from PCOS and thyroid to perimenopause, and when to see a doctor.',
+    content: `
+## When "Regular" Suddenly Changes
+
+Many women have predictable cycles through their 20s, then notice things shift in their 30s — periods arriving early or late, becoming heavier or lighter, or skipping altogether. An occasional off month is usually nothing. A consistent change in your pattern, though, is your body telling you something worth listening to.
+
+Across HSR Layout and Attibele, Dr. Sanjana L sees this often, and the reassuring part is that most causes are identifiable and manageable once you look properly.
+
+## Common Causes in Your 30s
+
+- **PCOS** — polycystic ovary syndrome commonly causes irregular or skipped periods, sometimes with weight changes, acne or excess hair. See our <a href="/services/pcos-pcod-treatment">PCOS and PCOD treatment</a> page.
+- **Thyroid problems** — an underactive or overactive thyroid can disrupt cycles and is easily checked with a blood test.
+- **Stress and lifestyle** — significant stress, rapid weight change, over-exercising or poor sleep can all affect cycles.
+- **Fibroids or polyps** — these can cause heavier or irregular bleeding.
+- **Perimenopause** — earlier than many expect, hormonal fluctuations can begin in the late 30s.
+- **Contraception changes** — starting or stopping hormonal contraception can shift your pattern for a few months.
+
+## When to See a Gynaecologist
+
+Book a visit if you notice:
+
+- Cycles consistently shorter than 21 days or longer than 35 days
+- Bleeding between periods or after intercourse
+- Very heavy periods or large clots
+- Periods that stop for several months (and you are not pregnant)
+- Irregular cycles alongside difficulty conceiving
+
+## How the Cause Is Found
+
+Assessment is simple and worth doing: a history of your cycles, blood tests (including thyroid and hormones), and a pelvic ultrasound. Together these usually point clearly to the cause, so treatment can be targeted rather than guessed. For heavy or irregular bleeding specifically, see our <a href="/services/heavy-irregular-periods">heavy and irregular periods</a> page.
+
+## Frequently Asked Questions
+
+### Are irregular periods after 30 normal?
+An occasional irregular cycle is common. A persistent change in your pattern is worth checking, as it can point to PCOS, thyroid issues, fibroids or early perimenopause.
+
+### Can stress cause irregular periods?
+Yes. Significant stress, sudden weight change and over-exercising can all disrupt the hormones that control your cycle.
+
+### Do irregular periods affect fertility?
+They can, because irregular cycles often mean irregular ovulation. Many women still conceive with the right support once the cause is identified.
+
+### Could irregular periods mean early menopause?
+Perimenopause can begin in the late 30s for some women. A simple assessment helps tell this apart from other causes.
+
+## Consult Dr. Sanjana L
+
+Dr. Sanjana L (MBBS, MS — OBG, Gold Medalist) helps women get to the bottom of cycle changes with a calm, thorough assessment. Learn more <a href="/about-dr-sanjana">about Dr. Sanjana</a>, see her <a href="/hsr-layout-gynaecologist">HSR Layout</a> and <a href="/attibele-gynaecologist">Attibele</a> clinics, or <a href="/book-appointment">book an appointment</a>.
+    `,
+  },
+  {
+    slug: 'recurrent-utis-in-women-causes-prevention',
+    title: 'Recurrent UTIs in Women: Why They Happen and How to Stop Them',
+    excerpt: 'If urinary infections keep coming back, treating each one is not enough. Dr. Sanjana L, gynaecologist in HSR Layout & Attibele, explains why recurrent UTIs happen and how to break the cycle.',
+    category: 'Women\'s Health',
+    tags: ['UTI', 'recurrent UTI', 'urinary infection', 'womens health', 'bladder infection', 'gynaecologist HSR Layout', 'gynaecologist Attibele', 'Bangalore', 'prevention'],
+    readTime: 6,
+    date: '2026-07-09',
+    author: 'Dr. Sanjana L',
+    metaTitle: 'Recurrent UTIs in Women: Causes & Prevention | Dr. Sanjana L',
+    metaDescription: 'Why do UTIs keep coming back? Dr. Sanjana L (HSR Layout & Attibele) explains the causes of recurrent urinary infections in women and practical ways to prevent them.',
+    content: `
+## When One UTI Becomes Many
+
+A single urinary tract infection is uncomfortable but usually easy to treat. The frustrating situation is when infections keep returning — two, three or more in a year. At that point, treating each episode in isolation misses the point. The real question becomes why they keep happening.
+
+Dr. Sanjana L helps women across HSR Layout and Attibele break this cycle, and it usually starts with looking beyond the current infection.
+
+## Why UTIs Recur
+
+- **Incomplete treatment** — stopping antibiotics early, so some bacteria survive
+- **Anatomy and habits** — a shorter urethra means bacteria reach the bladder more easily; wiping direction and hydration matter
+- **Sexual activity** — a common trigger for some women
+- **Hormonal changes** — lower oestrogen around menopause thins the urinary tissues and raises risk
+- **Incomplete bladder emptying** — sometimes linked to other conditions
+- **Underlying factors** — occasionally diabetes or a structural issue needs ruling out
+
+## Breaking the Cycle
+
+For recurrent infections, Dr. Sanjana looks at the pattern and builds a prevention plan rather than just prescribing again:
+
+- Confirming the infection type with a urine test before treatment
+- Completing the right, targeted course of antibiotics
+- Practical prevention — good hydration, not delaying urination, wiping front to back, urinating after intercourse
+- Addressing hormonal factors around menopause where relevant
+- Investigating further if infections are frequent or complicated
+
+You can read more on our <a href="/services/uti-vaginal-infections">UTI and vaginal infection treatment</a> page.
+
+## When to See a Doctor Promptly
+
+Seek care quickly if you have fever, back or flank pain, blood in the urine, or symptoms that do not settle — these can mean the infection is spreading to the kidneys and needs urgent treatment.
+
+## Frequently Asked Questions
+
+### Why do I keep getting UTIs?
+Recurrent UTIs can be linked to hydration and hygiene habits, sexual activity, hormonal changes around menopause, incomplete previous treatment, or occasionally an underlying condition. Finding the pattern is key to prevention.
+
+### Can UTIs be prevented without antibiotics?
+Many recurrences can be reduced with practical measures — staying well hydrated, not holding urine, urinating after intercourse, and addressing hormonal factors. A doctor tailors this to your situation.
+
+### When is a UTI an emergency?
+Fever, back pain, vomiting or blood in the urine can signal a kidney infection and need prompt medical care.
+
+### Are recurrent UTIs a sign of something serious?
+Usually not, but frequent infections deserve a proper look to rule out contributing factors such as diabetes or incomplete bladder emptying.
+
+## Consult Dr. Sanjana L
+
+Dr. Sanjana L (MBBS, MS — OBG, Gold Medalist) offers confidential care that targets the cause of recurrent infections, not just the current one. Learn more <a href="/about-dr-sanjana">about Dr. Sanjana</a>, see her <a href="/hsr-layout-gynaecologist">HSR Layout</a> and <a href="/attibele-gynaecologist">Attibele</a> clinics, or <a href="/book-appointment">book an appointment</a>.
+    `,
+  },
+  {
+    slug: 'recurrent-miscarriage-causes-tests-next-steps',
+    title: 'Recurrent Miscarriage: Causes, Tests, and What to Do Next',
+    excerpt: 'Losing a pregnancy more than once is heartbreaking, and it is not something to face without answers. Dr. Sanjana L, gynaecologist in HSR Layout & Attibele, explains the causes, the tests that help, and the way forward.',
+    category: 'Pregnancy',
+    tags: ['recurrent miscarriage', 'pregnancy loss', 'high-risk pregnancy', 'fertility', 'gynaecologist HSR Layout', 'gynaecologist Attibele', 'Bangalore', 'womens health'],
+    readTime: 7,
+    date: '2026-07-08',
+    author: 'Dr. Sanjana L',
+    metaTitle: 'Recurrent Miscarriage: Causes, Tests & Next Steps | Dr. Sanjana L',
+    metaDescription: 'Facing repeated pregnancy loss? Dr. Sanjana L (HSR Layout & Attibele) explains the causes of recurrent miscarriage, the tests that help find answers, and treatment options.',
+    content: `
+## You Deserve Answers, and Support
+
+Miscarriage is more common than many people realise, and a single loss is usually not a sign of a lasting problem. Recurrent miscarriage — typically defined as two or more consecutive losses — is different. It deserves proper evaluation, and it deserves to be met with care rather than a shrug of "try again."
+
+Dr. Sanjana L supports women and couples through this across HSR Layout and Attibele, combining a thorough search for causes with steady emotional support.
+
+## Possible Causes
+
+Recurrent miscarriage can have several contributing factors, and sometimes more than one is involved:
+
+- **Hormonal and metabolic** — thyroid problems, poorly controlled diabetes, or PCOS
+- **Uterine factors** — the shape of the uterus, fibroids or polyps affecting the cavity
+- **Genetic** — chromosomal factors in either partner
+- **Blood clotting disorders** — such as antiphospholipid syndrome
+- **Immune and other factors**
+- In many cases, investigation finds a treatable cause; in some, no clear cause is found — and even then, the outlook for a future pregnancy is often good.
+
+## The Tests That Help
+
+Evaluation is done as a couple and usually includes:
+
+- Blood tests — thyroid, blood sugar, hormonal and clotting screens
+- A pelvic ultrasound, and sometimes a hysteroscopy, to assess the uterus
+- Genetic testing where indicated
+- Review of both partners, not just the woman
+
+## The Way Forward
+
+Treatment depends on what is found — for example, managing thyroid or blood sugar, correcting a uterine problem, or specific medication for clotting disorders. Care also includes closer monitoring in the next pregnancy, which is where our <a href="/services/high-risk-pregnancy">high-risk pregnancy care</a> comes in. If conceiving is also proving difficult, our <a href="/services/fertility-treatment">fertility treatment</a> support can help.
+
+## Frequently Asked Questions
+
+### What counts as recurrent miscarriage?
+It is usually defined as two or more consecutive pregnancy losses. At this point, evaluation for underlying causes is recommended.
+
+### Can recurrent miscarriage be treated?
+Often yes. When a cause such as a thyroid, uterine or clotting problem is found, treating it can significantly improve the chance of a successful pregnancy.
+
+### Will I be able to have a baby after recurrent miscarriage?
+Many women go on to have a successful pregnancy, even when no clear cause is found. Evaluation and closer monitoring improve the odds.
+
+### Should my partner be tested too?
+Yes. Some causes, such as certain genetic factors, involve the male partner, so evaluating both is important.
+
+## Consult Dr. Sanjana L
+
+Dr. Sanjana L (MBBS, MS — OBG, Gold Medalist) provides thorough, compassionate care for recurrent pregnancy loss. You do not have to navigate this alone. Learn more <a href="/about-dr-sanjana">about Dr. Sanjana</a>, see her <a href="/hsr-layout-gynaecologist">HSR Layout</a> and <a href="/attibele-gynaecologist">Attibele</a> clinics, or <a href="/book-appointment">book an appointment</a>.
+    `,
+  },
+  {
+    slug: 'ectopic-pregnancy-early-warning-signs',
+    title: 'Ectopic Pregnancy: Early Warning Signs You Should Never Ignore',
+    excerpt: 'An ectopic pregnancy is a medical emergency, and knowing the early signs can save a life. Dr. Sanjana L, gynaecologist in HSR Layout & Attibele, explains what to watch for and when to act.',
+    category: 'Pregnancy',
+    tags: ['ectopic pregnancy', 'pregnancy warning signs', 'early pregnancy', 'pelvic pain', 'gynaecologist HSR Layout', 'gynaecologist Attibele', 'Bangalore', 'womens health'],
+    readTime: 6,
+    date: '2026-07-07',
+    author: 'Dr. Sanjana L',
+    metaTitle: 'Ectopic Pregnancy: Early Warning Signs to Never Ignore | Dr. Sanjana L',
+    metaDescription: 'Know the early signs of an ectopic pregnancy. Dr. Sanjana L (HSR Layout & Attibele) explains the warning symptoms, why it is an emergency, and when to seek urgent care.',
+    content: `
+## Why This One Matters So Much
+
+An ectopic pregnancy is one where the fertilised egg implants outside the uterus — most often in a fallopian tube. It cannot develop into a healthy pregnancy there, and if it grows unchecked it can rupture and cause dangerous internal bleeding. This is the reason knowing the early signs genuinely matters.
+
+The good news is that when caught early, an ectopic pregnancy can usually be managed safely. Dr. Sanjana L urges any woman in early pregnancy with the warning signs below to seek care promptly rather than wait.
+
+## Early Warning Signs
+
+In early pregnancy (often around weeks 4 to 12), watch for:
+
+- Sharp or persistent pain on one side of the lower abdomen or pelvis
+- Vaginal bleeding or spotting that is different from a normal period
+- Shoulder-tip pain (an unusual but important sign)
+- Dizziness, faintness or feeling very unwell
+- Pain when passing urine or opening the bowels
+- A positive pregnancy test with these symptoms
+
+Severe pain, fainting or heavy bleeding needs **emergency care immediately**.
+
+## Who Is at Higher Risk
+
+Some factors raise the risk, though an ectopic pregnancy can happen to anyone:
+
+- Previous ectopic pregnancy
+- Previous pelvic infection or tubal surgery
+- Endometriosis
+- Pregnancy conceived with an IUD in place or after certain fertility treatments
+
+## How It Is Diagnosed and Managed
+
+Diagnosis uses a combination of a pregnancy hormone (beta-hCG) blood test and a pelvic ultrasound. Depending on how early it is caught and your situation, management may be with medication or with <a href="/services/laparoscopic-surgery">keyhole surgery</a> — which is why early diagnosis gives the safest, least invasive options. Early pregnancy care and monitoring is part of our <a href="/services/pregnancy-care">pregnancy care</a>.
+
+## Frequently Asked Questions
+
+### What are the first signs of an ectopic pregnancy?
+Common early signs are one-sided lower abdominal or pelvic pain, unusual vaginal bleeding, and sometimes shoulder-tip pain or dizziness in early pregnancy. These need prompt assessment.
+
+### Is an ectopic pregnancy an emergency?
+It can become one. Caught early it is usually managed safely, but a rupture causes dangerous internal bleeding — so severe pain, fainting or heavy bleeding needs emergency care immediately.
+
+### Can I have a normal pregnancy after an ectopic one?
+Yes. Many women go on to have healthy pregnancies. Early monitoring in the next pregnancy is recommended.
+
+### How is an ectopic pregnancy diagnosed?
+With a beta-hCG blood test and a pelvic ultrasound, sometimes repeated over a couple of days to confirm.
+
+## Consult Dr. Sanjana L
+
+Dr. Sanjana L (MBBS, MS — OBG, Gold Medalist, FMAS) provides careful early-pregnancy assessment and, where needed, keyhole surgical care. If you are in early pregnancy with warning signs, do not wait. Learn more <a href="/about-dr-sanjana">about Dr. Sanjana</a>, see her <a href="/hsr-layout-gynaecologist">HSR Layout</a> and <a href="/attibele-gynaecologist">Attibele</a> clinics, or <a href="/book-appointment">book an appointment</a>.
+    `,
+  },
+  {
+    slug: 'fibroids-medicine-vs-laparoscopy-vs-open-surgery',
+    title: 'Fibroids: Medicine vs Laparoscopy vs Open Surgery — How to Decide',
+    excerpt: 'If a fibroid needs treatment, the next question is how. Dr. Sanjana L, gynaecologist and keyhole surgeon in HSR Layout & Attibele, compares medical management, laparoscopy and open surgery.',
+    category: 'Gynaecology Tips',
+    tags: ['uterine fibroids', 'myomectomy', 'laparoscopic surgery', 'fibroid treatment', 'keyhole surgery', 'gynaecologist HSR Layout', 'gynaecologist Attibele', 'Bangalore', 'womens health'],
+    readTime: 7,
+    date: '2026-07-06',
+    author: 'Dr. Sanjana L',
+    metaTitle: 'Fibroids: Medicine vs Laparoscopy vs Open Surgery | Dr. Sanjana L',
+    metaDescription: 'How is a fibroid treated? Dr. Sanjana L (HSR Layout & Attibele) compares medical management, laparoscopic myomectomy and open surgery, and how the right option is chosen.',
+    content: `
+## First, Does It Even Need Treating?
+
+Before comparing treatments, the honest first question is whether a fibroid needs treatment at all — many do not. If you have not already, our guide on <a href="/blog/uterine-fibroids-symptoms-sizes-when-surgery-needed">fibroid symptoms and when surgery is needed</a> is a good starting point. This article assumes treatment has been recommended, and looks at how the options compare.
+
+## Option 1: Medical Management
+
+For fibroids whose main problem is heavy bleeding, medication often comes first:
+
+- Hormonal treatments and a hormonal IUD can reduce bleeding
+- Other medicines can temporarily shrink fibroids or control symptoms
+- Iron corrects anaemia from blood loss
+
+Medical management suits women who want to avoid surgery, or as a step before it. It controls symptoms but does not remove the fibroid, so symptoms can return.
+
+## Option 2: Laparoscopic (Keyhole) Surgery
+
+A <a href="/services/laparoscopic-surgery">laparoscopic myomectomy</a> removes fibroids through small incisions using a camera and fine instruments. Where suitable, it is usually the preferred surgical option because it offers:
+
+- Smaller incisions and minimal scarring
+- Less pain and faster recovery (often days rather than weeks)
+- Preservation of the uterus, protecting future fertility
+
+Hysteroscopic surgery (through the cervix, no external incision) is ideal for fibroids inside the uterine cavity.
+
+## Option 3: Open Surgery
+
+Open (abdominal) myomectomy or, where appropriate, hysterectomy is reserved for situations where keyhole surgery is not the safest choice — for example very large or numerous fibroids. Recovery is longer, but for certain cases it is the right, safe option.
+
+## How the Decision Is Made
+
+The best option depends on the size, number and position of the fibroids, your symptoms, and — importantly — whether you want to preserve fertility. A fellowship-trained (FMAS) surgeon like Dr. Sanjana favours the least invasive option that safely solves the problem. You can read more on our <a href="/services/uterine-fibroids-treatment">uterine fibroids treatment</a> page.
+
+## Frequently Asked Questions
+
+### Can fibroids be treated without surgery?
+Yes, when the main problem is bleeding. Medical and hormonal treatments can control symptoms, though they do not remove the fibroid, so symptoms may return.
+
+### Is laparoscopic fibroid surgery better than open surgery?
+For suitable cases, keyhole surgery offers less pain, faster recovery and smaller scars while preserving the uterus. Very large or numerous fibroids may still need open surgery.
+
+### Will I be able to have children after fibroid surgery?
+A myomectomy is specifically designed to remove fibroids while preserving the uterus, which supports future fertility. Your surgeon will discuss your individual situation.
+
+### How long is recovery after keyhole fibroid surgery?
+Many women return to light activity within a few days and normal activity within one to two weeks, faster than open surgery.
+
+## Consult Dr. Sanjana L
+
+Dr. Sanjana L (MBBS, MS — OBG, Gold Medalist, FMAS) is a keyhole surgeon who favours fertility-sparing, minimally invasive options wherever safe. Learn more <a href="/about-dr-sanjana">about Dr. Sanjana</a>, see her <a href="/hsr-layout-gynaecologist">HSR Layout</a> and <a href="/attibele-gynaecologist">Attibele</a> clinics, or <a href="/book-appointment">book an appointment</a>.
+    `,
+  },
+  {
+    slug: 'copper-t-vs-hormonal-iud-vs-pills-contraception',
+    title: 'Copper-T vs Hormonal IUD vs Pills: Which Contraception Is Right for You?',
+    excerpt: 'There is no single best contraceptive — only the best one for you. Dr. Sanjana L, gynaecologist in HSR Layout & Attibele, compares the copper IUD, hormonal IUD and pills.',
+    category: 'Preventive Care',
+    tags: ['contraception', 'copper T', 'IUD', 'hormonal IUD', 'birth control pills', 'family planning', 'gynaecologist HSR Layout', 'gynaecologist Attibele', 'Bangalore'],
+    readTime: 7,
+    date: '2026-07-05',
+    author: 'Dr. Sanjana L',
+    metaTitle: 'Copper-T vs Hormonal IUD vs Pills: Which Is Right? | Dr. Sanjana L',
+    metaDescription: 'Choosing contraception? Dr. Sanjana L (HSR Layout & Attibele) compares the copper-T, hormonal IUD and birth control pills so you can choose what fits your life.',
+    content: `
+## The Right Choice Depends on You
+
+Contraception is not one-size-fits-all. The best method depends on your health, your plans for children, how much you want to think about it day to day, and how your periods behave. Here is how three common options compare, so a conversation with your gynaecologist can be focused and informed.
+
+## Copper IUD (Copper-T)
+
+A small copper device placed in the uterus. It is **hormone-free**, which some women prefer.
+
+- Long-lasting (up to several years) and reversible
+- Very effective, and nothing to remember daily
+- Can make periods heavier or crampier, especially at first — not ideal if you already have heavy periods
+
+## Hormonal IUD
+
+A device that releases a small amount of hormone locally in the uterus.
+
+- Long-lasting, reversible and very effective
+- Often makes periods much lighter — helpful for women with heavy bleeding
+- Localised hormone means lower body-wide exposure than pills
+- Some irregular spotting is common in the early months
+
+## Birth Control Pills
+
+Taken daily, pills are a familiar and flexible option.
+
+- Effective when taken consistently at the same time each day
+- Can regulate cycles and help with acne and painful periods
+- Easy to stop when you want to try for a baby
+- Rely on remembering them daily, and are not suitable for everyone (your doctor will check your history)
+
+## How to Choose
+
+If you want something you do not have to think about daily, an IUD suits you. If you have heavy periods, a hormonal IUD may help both problems at once. If you prefer no hormones, the copper-T fits. If you like daily control and cycle benefits, pills may be right. A short consultation — part of our <a href="/services/contraception-counselling">contraception counselling</a> — matches the method to your health and plans.
+
+## Frequently Asked Questions
+
+### Which contraception is best for heavy periods?
+A hormonal IUD often reduces heavy bleeding significantly, making it a good dual-purpose choice. The copper-T can make periods heavier, so it is usually avoided in that situation.
+
+### Does the copper-T have hormones?
+No. The copper-T is hormone-free, which is why some women prefer it. Its main drawback is that it can make periods heavier or crampier.
+
+### Will contraception affect my future fertility?
+These methods are reversible, and fertility typically returns after stopping them. Your doctor can advise on timelines for each.
+
+### Can I switch methods if one does not suit me?
+Yes. It is common to try one method and switch if it does not fit your body or lifestyle. A review visit makes this straightforward.
+
+## Consult Dr. Sanjana L
+
+Dr. Sanjana L (MBBS, MS — OBG, Gold Medalist) offers unbiased contraception counselling to match the method to your life. Learn more <a href="/about-dr-sanjana">about Dr. Sanjana</a>, see her <a href="/hsr-layout-gynaecologist">HSR Layout</a> and <a href="/attibele-gynaecologist">Attibele</a> clinics, or <a href="/book-appointment">book an appointment</a>.
+    `,
+  },
+  {
+    slug: 'gestational-diabetes-indian-diet-management',
+    title: 'Gestational Diabetes: Indian Diet Chart and How to Manage It',
+    excerpt: 'Gestational diabetes is common and very manageable. Dr. Sanjana L, gynaecologist in HSR Layout & Attibele, explains what it means and how an Indian diet and simple steps keep you and your baby safe.',
+    category: 'Pregnancy',
+    tags: ['gestational diabetes', 'pregnancy diet', 'GDM', 'high-risk pregnancy', 'Indian diet', 'gynaecologist HSR Layout', 'gynaecologist Attibele', 'Bangalore', 'nutrition'],
+    readTime: 8,
+    date: '2026-07-04',
+    author: 'Dr. Sanjana L',
+    metaTitle: 'Gestational Diabetes: Indian Diet Chart & Management | Dr. Sanjana L',
+    metaDescription: 'Diagnosed with gestational diabetes? Dr. Sanjana L (HSR Layout & Attibele) explains an Indian diet approach, monitoring, and simple steps to manage GDM safely.',
+    content: `
+## A Common Diagnosis, and a Manageable One
+
+Gestational diabetes (GDM) is high blood sugar that develops during pregnancy. It is common — and in India, where it is diagnosed frequently, the reassuring truth is that with the right diet, activity and monitoring, most women have healthy pregnancies and healthy babies. A diagnosis is a prompt to make some changes, not a cause for panic.
+
+Dr. Sanjana L manages GDM routinely across HSR Layout and Attibele, and the foundation is almost always food and lifestyle first.
+
+## Why It Matters
+
+Well-managed gestational diabetes usually causes no problems. Poorly controlled high sugar can lead to a larger baby, delivery complications and higher risks for mother and baby — which is exactly why the screening glucose test and follow-up matter as part of <a href="/services/pregnancy-care">routine pregnancy care</a>.
+
+## The Indian Diet Approach
+
+The aim is steady blood sugar, not deprivation. Practical principles:
+
+- **Choose complex carbs** — whole wheat roti, brown rice, millets (ragi, jowar, bajra) over white rice and maida
+- **Pair carbs with protein and fibre** — dal, paneer, eggs, curd, sprouts, vegetables slow sugar release
+- **Smaller, frequent meals** — three moderate meals and two to three small snacks, avoiding long gaps
+- **Limit sugar and sweets** — sweets, sugary drinks, fruit juices and sweetened chai spike blood sugar
+- **Whole fruit in moderation** — prefer whole fruit over juice, in measured portions
+- **Watch portion sizes** — even healthy carbs matter in quantity
+
+A dietitian can tailor this to your routine, region and food preferences.
+
+## Beyond Diet
+
+- **Gentle activity** — a short walk after meals helps lower blood sugar
+- **Home monitoring** — checking sugar as advised shows what is working
+- **Medication if needed** — some women need medication or insulin, which is safe in pregnancy when prescribed
+- **Regular check-ups** — GDM pregnancies are monitored more closely, part of <a href="/services/high-risk-pregnancy">high-risk pregnancy care</a>
+
+## Frequently Asked Questions
+
+### Can I have a normal delivery with gestational diabetes?
+Yes. Many women with well-controlled GDM have a normal vaginal delivery. Good sugar control through pregnancy makes this more likely.
+
+### Will gestational diabetes harm my baby?
+Well-managed GDM usually does not. The risks come from poorly controlled high sugar, which is why diet, monitoring and follow-up matter.
+
+### Does gestational diabetes go away after delivery?
+It usually resolves after birth, but it raises your future risk of type 2 diabetes, so a follow-up sugar check after delivery is recommended.
+
+### Can I eat rice with gestational diabetes?
+In moderation, preferably brown rice or millets, and always paired with protein, dal and vegetables to slow the sugar release.
+
+## Consult Dr. Sanjana L
+
+Dr. Sanjana L (MBBS, MS — OBG, Gold Medalist) supports women through gestational diabetes with practical diet guidance and close monitoring. Learn more <a href="/about-dr-sanjana">about Dr. Sanjana</a>, see her <a href="/hsr-layout-gynaecologist">HSR Layout</a> and <a href="/attibele-gynaecologist">Attibele</a> clinics, or <a href="/book-appointment">book an appointment</a>.
+    `,
+  },
+  {
+    slug: 'thyroid-in-pregnancy-why-early-testing-matters',
+    title: 'Thyroid in Pregnancy (Hypothyroidism): Why Testing Early Matters',
+    excerpt: 'Thyroid problems in pregnancy are common and easily treated — if they are found. Dr. Sanjana L, gynaecologist in HSR Layout & Attibele, explains why early thyroid testing matters.',
+    category: 'Pregnancy',
+    tags: ['thyroid in pregnancy', 'hypothyroidism', 'pregnancy care', 'TSH', 'high-risk pregnancy', 'gynaecologist HSR Layout', 'gynaecologist Attibele', 'Bangalore'],
+    readTime: 6,
+    date: '2026-07-03',
+    author: 'Dr. Sanjana L',
+    metaTitle: 'Thyroid in Pregnancy: Why Early Testing Matters | Dr. Sanjana L',
+    metaDescription: 'Thyroid problems in pregnancy are common and treatable. Dr. Sanjana L (HSR Layout & Attibele) explains why early testing matters for you and your baby.',
+    content: `
+## A Small Gland with a Big Role
+
+The thyroid gland controls metabolism, and in pregnancy it also plays a crucial part in your baby's brain and nervous system development — especially in the early weeks. An underactive thyroid (hypothyroidism) is common in Indian women, and it often has vague symptoms, so it can go unnoticed without a test.
+
+That is the whole point Dr. Sanjana L makes to expecting mothers across HSR Layout and Attibele: a simple blood test finds it early, and treatment is straightforward and safe.
+
+## Why Early Testing Matters
+
+Untreated or poorly controlled hypothyroidism in pregnancy can be linked to:
+
+- Higher risk of miscarriage
+- Effects on the baby's brain development
+- Pre-eclampsia and other complications
+- Low birth weight or preterm birth
+
+Treated properly, these risks largely disappear — which is why testing early, ideally at the first prenatal visit, is so valuable. It is a standard part of <a href="/services/pregnancy-care">pregnancy care</a>.
+
+## Symptoms That Can Be Easy to Miss
+
+Hypothyroid symptoms overlap with normal pregnancy, which is why a test matters more than symptoms alone:
+
+- Tiredness and low energy
+- Feeling cold, dry skin, hair fall
+- Constipation
+- Low mood
+- Excessive weight gain
+
+## Treatment Is Simple and Safe
+
+Treatment is usually a daily thyroid hormone tablet, with the dose adjusted through pregnancy based on blood tests. It is safe for the baby and, in fact, protects development. Women with existing thyroid problems often need a dose increase in pregnancy, so early review is important. This is part of <a href="/services/high-risk-pregnancy">closer monitoring</a> where needed.
+
+## Frequently Asked Questions
+
+### Should thyroid be tested in every pregnancy?
+Testing thyroid function early in pregnancy is widely recommended, especially given how common hypothyroidism is in Indian women and how easily it is missed.
+
+### Is thyroid medication safe during pregnancy?
+Yes. Thyroid hormone replacement is safe and actively protects your baby's development. The dose is adjusted with blood tests through pregnancy.
+
+### Can a thyroid problem cause miscarriage?
+Untreated hypothyroidism is linked to a higher miscarriage risk, which is one reason early detection and treatment matter.
+
+### I already take thyroid medicine — do I need a change in pregnancy?
+Often yes. Many women need a higher dose in pregnancy, so your levels should be checked early and monitored.
+
+## Consult Dr. Sanjana L
+
+Dr. Sanjana L (MBBS, MS — OBG, Gold Medalist) ensures thyroid and other key checks are done early so problems are caught and treated in time. Learn more <a href="/about-dr-sanjana">about Dr. Sanjana</a>, see her <a href="/hsr-layout-gynaecologist">HSR Layout</a> and <a href="/attibele-gynaecologist">Attibele</a> clinics, or <a href="/book-appointment">book an appointment</a>.
+    `,
+  },
+  {
+    slug: 'second-trimester-pregnancy-guide-tests-scans',
+    title: 'Second Trimester Pregnancy Guide: Tests, Scans and What to Expect',
+    excerpt: 'The second trimester is often the most comfortable. Dr. Sanjana L, gynaecologist in HSR Layout & Attibele, walks you through the key tests, scans and changes from weeks 13 to 26.',
+    category: 'Pregnancy',
+    tags: ['second trimester', 'pregnancy guide', 'anomaly scan', 'prenatal tests', 'pregnancy care', 'gynaecologist HSR Layout', 'gynaecologist Attibele', 'Bangalore'],
+    readTime: 7,
+    date: '2026-07-02',
+    author: 'Dr. Sanjana L',
+    metaTitle: 'Second Trimester Guide: Tests, Scans & What to Expect | Dr. Sanjana L',
+    metaDescription: 'What happens in the second trimester? Dr. Sanjana L (HSR Layout & Attibele) explains the key tests, scans and body changes from weeks 13 to 26 of pregnancy.',
+    content: `
+## Often the Sweet Spot of Pregnancy
+
+The second trimester runs from about week 13 to week 26, and for many women it is the most comfortable stretch — early nausea often eases, energy returns, and the bump becomes visible. It is also a busy time for important checks. Here is what to expect, from Dr. Sanjana L, who guides mothers through it across HSR Layout and Attibele.
+
+## Key Tests and Scans
+
+- **Anomaly scan (around 18 to 22 weeks)** — a detailed scan checking your baby's organs and development. See our dedicated guide on the <a href="/blog/anomaly-scan-20-week-what-it-checks">20-week anomaly scan</a>.
+- **Glucose screening** — testing for gestational diabetes, usually around 24 to 28 weeks
+- **Blood pressure and urine checks** — at each visit, watching for pre-eclampsia
+- **Blood tests** — including a repeat haemoglobin to check for anaemia
+- These are part of structured <a href="/services/prenatal-screening">prenatal screening</a> and <a href="/services/pregnancy-care">pregnancy care</a>.
+
+## What You Might Feel
+
+- Feeling your baby move for the first time (often 18 to 22 weeks)
+- More energy and a returning appetite
+- A growing bump, mild back or round-ligament aches
+- Skin and hair changes
+
+## Looking After Yourself
+
+- Keep up iron, calcium and folate as advised — see our guide on <a href="/blog/iron-calcium-in-pregnancy-indian-vegetarian-guide">iron and calcium in pregnancy</a>
+- Stay gently active and well hydrated
+- Attend every scheduled check-up, even when you feel well
+
+## When to Call Your Doctor
+
+Contact your doctor promptly for heavy bleeding, severe abdominal pain, a bad headache with blurred vision, or a noticeable drop in your baby's movements later in the trimester.
+
+## Frequently Asked Questions
+
+### When will I feel my baby move?
+Many women first feel movement between 18 and 22 weeks, sometimes a little earlier in later pregnancies. Fluttering sensations gradually become clearer kicks.
+
+### What is the most important second-trimester scan?
+The anomaly scan, usually done around 18 to 22 weeks, is a detailed check of your baby's development and anatomy.
+
+### Is the glucose test necessary?
+Yes. Screening for gestational diabetes is important because GDM often has no symptoms and is very manageable once found.
+
+### How often are check-ups in the second trimester?
+Usually about every four weeks in a routine pregnancy, with more frequent visits if you have a high-risk pregnancy.
+
+## Consult Dr. Sanjana L
+
+Dr. Sanjana L (MBBS, MS — OBG, Gold Medalist) provides complete second-trimester care with the right scans and tests at the right time. Learn more <a href="/about-dr-sanjana">about Dr. Sanjana</a>, see her <a href="/hsr-layout-gynaecologist">HSR Layout</a> and <a href="/attibele-gynaecologist">Attibele</a> clinics, or <a href="/book-appointment">book an appointment</a>.
+    `,
+  },
+  {
+    slug: 'third-trimester-pregnancy-checklist',
+    title: 'Third Trimester Checklist: Growth Scans, Kick Counts and Birth Prep',
+    excerpt: 'The final stretch is about monitoring and preparation. Dr. Sanjana L, gynaecologist in HSR Layout & Attibele, shares a practical third-trimester checklist for a safe, calm delivery.',
+    category: 'Pregnancy',
+    tags: ['third trimester', 'growth scan', 'kick count', 'birth plan', 'pregnancy care', 'gynaecologist HSR Layout', 'gynaecologist Attibele', 'Bangalore'],
+    readTime: 7,
+    date: '2026-07-01',
+    author: 'Dr. Sanjana L',
+    metaTitle: 'Third Trimester Checklist: Scans, Kick Counts & Birth Prep | Dr. Sanjana L',
+    metaDescription: 'Preparing for your delivery? Dr. Sanjana L (HSR Layout & Attibele) shares a third-trimester checklist covering growth scans, kick counts and birth planning.',
+    content: `
+## The Final Stretch
+
+The third trimester, from about week 27, is when preparation meets closer monitoring. Your baby is growing quickly, and your visits become more frequent as your due date approaches. Here is a practical checklist Dr. Sanjana L shares with mothers across HSR Layout and Attibele.
+
+## Monitoring in the Third Trimester
+
+- **More frequent check-ups** — usually every two weeks, then weekly near the end
+- **Growth scans** — to check your baby is growing well and the fluid and placenta are healthy
+- **Blood pressure and urine checks** — watching closely for pre-eclampsia
+- **Position checks** — confirming whether the baby is head-down as delivery nears
+- For pregnancies that need it, this is part of <a href="/services/high-risk-pregnancy">high-risk pregnancy monitoring</a>.
+
+## Counting Kicks
+
+From around 28 weeks, being aware of your baby's movement pattern matters. Babies have active and quiet periods, but a clear reduction in movements should never be ignored — contact your doctor the same day. Trust your instinct about what is normal for your baby.
+
+## Preparing for Birth
+
+- **Make a birth plan** — discuss your preferences, including <a href="/services/painless-delivery">painless delivery</a> options, with your doctor
+- **Pack your hospital bag** by around week 36
+- **Know the signs of labour** and when to come in
+- **Sort the logistics** — hospital route, who will be with you, newborn essentials
+- **Ask about a maternity package** so costs are clear in advance
+
+## Warning Signs — Call Immediately
+
+- A noticeable drop in your baby's movements
+- Vaginal bleeding or leaking fluid
+- Severe headache, blurred vision or sudden swelling
+- Regular painful contractions before 37 weeks
+
+## Frequently Asked Questions
+
+### How many kicks are normal in the third trimester?
+Rather than a fixed number, learn your baby's usual pattern. A clear reduction from what is normal for your baby should be checked the same day.
+
+### Why are growth scans done in the third trimester?
+They confirm your baby is growing well and check the fluid and placenta, helping plan a safe delivery.
+
+### When should I pack my hospital bag?
+By around week 36, so you are ready if labour starts early.
+
+### When should I go to hospital in labour?
+Your doctor will give you specific guidance, but regular painful contractions, waters breaking, or bleeding are reasons to come in.
+
+## Consult Dr. Sanjana L
+
+Dr. Sanjana L (MBBS, MS — OBG, Gold Medalist) provides attentive third-trimester care and clear birth planning. Learn more <a href="/about-dr-sanjana">about Dr. Sanjana</a>, see her <a href="/hsr-layout-gynaecologist">HSR Layout</a> and <a href="/attibele-gynaecologist">Attibele</a> clinics, or <a href="/book-appointment">book an appointment</a>.
+    `,
+  },
+  {
+    slug: 'anomaly-scan-20-week-what-it-checks',
+    title: 'Anomaly Scan (20-Week Scan): What It Checks and Why It Matters',
+    excerpt: 'The 20-week anomaly scan is one of the most important scans in pregnancy. Dr. Sanjana L, gynaecologist in HSR Layout & Attibele, explains what it looks at and why it matters.',
+    category: 'Pregnancy',
+    tags: ['anomaly scan', '20 week scan', 'ultrasound', 'prenatal screening', 'pregnancy care', 'gynaecologist HSR Layout', 'gynaecologist Attibele', 'Bangalore'],
+    readTime: 6,
+    date: '2026-06-30',
+    author: 'Dr. Sanjana L',
+    metaTitle: 'Anomaly Scan (20-Week Scan): What It Checks & Why | Dr. Sanjana L',
+    metaDescription: 'What does the 20-week anomaly scan check? Dr. Sanjana L (HSR Layout & Attibele) explains this key pregnancy ultrasound and why it matters for your baby.',
+    content: `
+## One of the Most Important Scans
+
+The anomaly scan — often called the 20-week scan, usually done between 18 and 22 weeks — is a detailed ultrasound that checks your baby's development in depth. It is a milestone many parents look forward to, and it is an important safety check as part of <a href="/services/prenatal-screening">prenatal screening</a>.
+
+Dr. Sanjana L makes sure mothers across HSR Layout and Attibele understand what this scan is for, so it feels reassuring rather than nerve-wracking.
+
+## What the Scan Checks
+
+The sonographer systematically examines:
+
+- The brain and skull
+- The face, lips and palate
+- The heart and its major vessels
+- The spine
+- The stomach, bowel and kidneys
+- The limbs, hands and feet
+- The placenta position and the amount of amniotic fluid
+- Your baby's growth and measurements
+
+## Why It Matters
+
+The scan can detect many structural differences early, which allows for planning, further tests if needed, and the right specialist care to be arranged before birth. In the large majority of cases, it provides welcome reassurance that development is on track.
+
+## What It Does Not Do
+
+The anomaly scan is not a guarantee that everything is perfect — some conditions cannot be seen on ultrasound. It also is not primarily a gender-reveal scan; in India, by law, the sex of the baby is not disclosed during pregnancy.
+
+## Preparing for the Scan
+
+There is little to do beyond attending on time. The scan is painless and usually takes 20 to 45 minutes. If your baby is in an awkward position, you may be asked to walk around and return so the sonographer can complete all the views.
+
+## Frequently Asked Questions
+
+### At how many weeks is the anomaly scan done?
+Usually between 18 and 22 weeks, most often around 20 weeks, when the baby's organs are well enough developed to examine in detail.
+
+### Is the anomaly scan safe?
+Yes. Ultrasound is a safe, widely used part of pregnancy care with no known harm to you or your baby.
+
+### Will the scan tell me my baby's gender?
+In India, disclosing the sex of the baby during pregnancy is not permitted by law, so this scan is used for medical assessment, not gender reveal.
+
+### What if the scan finds something?
+Many findings are minor or need only monitoring. Where needed, your doctor arranges further tests and specialist input, and explains the next steps clearly.
+
+## Consult Dr. Sanjana L
+
+Dr. Sanjana L (MBBS, MS — OBG, Gold Medalist) ensures your scans are done at the right time and their results explained clearly. Learn more <a href="/about-dr-sanjana">about Dr. Sanjana</a>, see her <a href="/hsr-layout-gynaecologist">HSR Layout</a> and <a href="/attibele-gynaecologist">Attibele</a> clinics, or <a href="/book-appointment">book an appointment</a>.
+    `,
+  },
+  {
+    slug: 'iron-calcium-in-pregnancy-indian-vegetarian-guide',
+    title: 'Iron and Calcium in Pregnancy: An Indian Vegetarian Guide',
+    excerpt: 'Iron and calcium are two nutrients pregnancy demands most. Dr. Sanjana L, gynaecologist in HSR Layout & Attibele, shares a practical vegetarian guide to getting enough of both.',
+    category: 'Nutrition',
+    tags: ['pregnancy nutrition', 'iron in pregnancy', 'calcium in pregnancy', 'vegetarian diet', 'anaemia', 'gynaecologist HSR Layout', 'gynaecologist Attibele', 'Bangalore'],
+    readTime: 7,
+    date: '2026-06-29',
+    author: 'Dr. Sanjana L',
+    metaTitle: 'Iron & Calcium in Pregnancy: Indian Vegetarian Guide | Dr. Sanjana L',
+    metaDescription: 'Getting enough iron and calcium while pregnant and vegetarian? Dr. Sanjana L (HSR Layout & Attibele) shares practical Indian vegetarian food sources and tips.',
+    content: `
+## Two Nutrients That Matter Most
+
+Pregnancy increases your need for many nutrients, but iron and calcium are two of the most important — and two that vegetarian diets need a little planning to cover well. Iron-deficiency anaemia is common in Indian pregnancies, and calcium supports both your baby's bones and your own. Here is a practical guide from Dr. Sanjana L, who counsels mothers on this across HSR Layout and Attibele, as part of <a href="/services/pregnancy-care">pregnancy care</a>.
+
+## Iron: Vegetarian Sources
+
+Iron carries oxygen in your blood, and your needs rise significantly in pregnancy. Good vegetarian sources:
+
+- Green leafy vegetables — spinach (palak), methi, amaranth
+- Legumes — rajma, chana, whole dals, sprouts
+- Jaggery, dates and dried fruits (in moderation)
+- Whole grains and millets like ragi and bajra
+- Iron-fortified foods
+
+**Absorption tip:** vitamin C boosts iron absorption, so add lemon, amla or tomato to iron-rich meals. Tea and coffee reduce absorption, so avoid them right after meals.
+
+## Calcium: Vegetarian Sources
+
+Calcium builds your baby's bones and teeth and protects your own bones. Good vegetarian sources:
+
+- Milk, curd, paneer and buttermilk
+- Ragi (finger millet) — an excellent calcium source
+- Sesame seeds (til) and almonds
+- Green leafy vegetables
+- Tofu and calcium-fortified foods
+
+Vitamin D helps you absorb calcium, so some safe sunlight and, where advised, a supplement help.
+
+## Supplements Are Usually Needed Too
+
+Even a good diet often cannot fully meet pregnancy iron and calcium needs, which is why doctors routinely prescribe iron, folic acid and calcium supplements. Take them as advised — iron and calcium are best spaced apart, as taking them together reduces absorption.
+
+## Watch for Anaemia
+
+Tiredness, breathlessness, pallor and dizziness can signal anaemia. Your haemoglobin is checked during pregnancy for this reason, and treatment is straightforward when caught.
+
+## Frequently Asked Questions
+
+### How can I get enough iron as a vegetarian in pregnancy?
+Combine leafy greens, legumes, jaggery, dates and whole grains with vitamin C foods like lemon or amla to boost absorption, alongside the iron supplement your doctor prescribes.
+
+### Can I take iron and calcium together?
+It is best to space them apart, as taking iron and calcium at the same time reduces how well each is absorbed. Your doctor will advise timing.
+
+### Is ragi good in pregnancy?
+Yes. Ragi (finger millet) is an excellent vegetarian source of calcium and iron and is a useful addition to a pregnancy diet.
+
+### Do I still need supplements if I eat well?
+Usually yes. Pregnancy iron and calcium needs are high, so supplements are routinely prescribed alongside a good diet.
+
+## Consult Dr. Sanjana L
+
+Dr. Sanjana L (MBBS, MS — OBG, Gold Medalist) offers practical, culturally-tailored nutrition guidance through pregnancy. Learn more <a href="/about-dr-sanjana">about Dr. Sanjana</a>, see her <a href="/hsr-layout-gynaecologist">HSR Layout</a> and <a href="/attibele-gynaecologist">Attibele</a> clinics, or <a href="/book-appointment">book an appointment</a>.
+    `,
+  },
+  {
+    slug: 'is-it-safe-to-travel-or-fast-during-pregnancy',
+    title: 'Is It Safe to Travel or Fast During Pregnancy?',
+    excerpt: 'Two questions expecting mothers ask often. Dr. Sanjana L, gynaecologist in HSR Layout & Attibele, gives practical, honest guidance on travelling and fasting during pregnancy.',
+    category: 'Pregnancy',
+    tags: ['pregnancy travel', 'fasting in pregnancy', 'pregnancy safety', 'pregnancy care', 'gynaecologist HSR Layout', 'gynaecologist Attibele', 'Bangalore', 'womens health'],
+    readTime: 6,
+    date: '2026-06-28',
+    author: 'Dr. Sanjana L',
+    metaTitle: 'Is It Safe to Travel or Fast During Pregnancy? | Dr. Sanjana L',
+    metaDescription: 'Can you travel or fast while pregnant? Dr. Sanjana L (HSR Layout & Attibele) shares practical, honest guidance on both, and when to check with your doctor first.',
+    content: `
+## Practical Answers to Common Questions
+
+Travelling and fasting are two things expecting mothers ask about constantly. The honest answer to both is "usually yes, with sensible precautions" — but the details depend on your pregnancy. Dr. Sanjana L shares practical guidance here for mothers across HSR Layout and Attibele, though your own doctor's advice, based on your <a href="/services/pregnancy-care">pregnancy care</a>, always comes first.
+
+## Travelling While Pregnant
+
+For most low-risk pregnancies, travel is fine, with the **second trimester** generally the most comfortable window. Tips:
+
+- **Timing** — many women find weeks 14 to 28 easiest; long travel very late in pregnancy is usually discouraged
+- **Move regularly** — on long journeys, stretch and walk to reduce the risk of blood clots; stay hydrated
+- **Wear a seatbelt** — with the lap strap under the bump, across the hips
+- **Carry your records** — keep your pregnancy notes and doctor's contact with you
+- **Air travel** — usually fine in an uncomplicated pregnancy up to around 36 weeks, but check the airline's policy and your doctor first
+
+Avoid travel, or take extra advice, if you have a high-risk pregnancy, bleeding, or a history of preterm labour — this is where <a href="/services/high-risk-pregnancy">high-risk pregnancy advice</a> matters.
+
+## Fasting While Pregnant
+
+Whether for religious or personal reasons, fasting in pregnancy is a personal decision best made with your doctor. Points to consider:
+
+- A healthy, low-risk pregnancy may tolerate short fasts, but pregnancy increases your needs for fluids and nutrients
+- Dehydration and low blood sugar are the main concerns, and they can affect you and your baby
+- Women with gestational diabetes, anaemia, or a high-risk pregnancy are generally advised not to fast
+- If you do fast, plan nutrient-dense meals at the permitted times, prioritise fluids, and stop immediately if you feel dizzy, unwell, or notice reduced baby movements
+
+## The Bottom Line
+
+Both travel and fasting can often be done safely in a healthy pregnancy with the right precautions — but "healthy pregnancy" is the key phrase. A quick check with your doctor beforehand is always worth it.
+
+## Frequently Asked Questions
+
+### When is the safest time to travel during pregnancy?
+The second trimester (roughly weeks 14 to 28) is generally the most comfortable and lower-risk window for most women.
+
+### Can I fly while pregnant?
+In an uncomplicated pregnancy, flying is usually fine up to around 36 weeks, but check your airline's policy and your doctor first.
+
+### Is it safe to fast during pregnancy?
+It depends on your pregnancy. A healthy, low-risk pregnancy may tolerate short fasts, but women with gestational diabetes, anaemia or a high-risk pregnancy are usually advised not to. Discuss it with your doctor.
+
+### What are the warning signs to stop fasting or travelling?
+Dizziness, feeling faint or unwell, dehydration, or reduced baby movements mean you should stop and seek advice.
+
+## Consult Dr. Sanjana L
+
+Dr. Sanjana L (MBBS, MS — OBG, Gold Medalist) gives clear, practical advice tailored to your pregnancy. Learn more <a href="/about-dr-sanjana">about Dr. Sanjana</a>, see her <a href="/hsr-layout-gynaecologist">HSR Layout</a> and <a href="/attibele-gynaecologist">Attibele</a> clinics, or <a href="/book-appointment">book an appointment</a>.
+    `,
+  },
+  {
+    slug: 'egg-freezing-in-your-30s-process-success-india',
+    title: 'Egg Freezing in Your 30s: Process, Success Rates and What to Consider',
+    excerpt: 'Egg freezing gives women more time and choice. Dr. Sanjana L, gynaecologist in HSR Layout & Attibele, explains how it works, how age affects success, and what to consider.',
+    category: 'Fertility',
+    tags: ['egg freezing', 'fertility preservation', 'fertility', 'family planning', 'AMH', 'gynaecologist HSR Layout', 'gynaecologist Attibele', 'Bangalore', 'womens health'],
+    readTime: 7,
+    date: '2026-06-27',
+    author: 'Dr. Sanjana L',
+    metaTitle: 'Egg Freezing in Your 30s: Process & Success Rates | Dr. Sanjana L',
+    metaDescription: 'Considering egg freezing? Dr. Sanjana L (HSR Layout & Attibele) explains the process, how age affects success rates, and what to consider before deciding.',
+    content: `
+## Giving Yourself Time and Options
+
+Egg freezing (oocyte cryopreservation) lets a woman store her eggs now to use later, preserving younger, healthier eggs for a future pregnancy. More women in their late 20s and 30s are considering it — to focus on career or study, because they have not yet found the right partner, or before medical treatment that could affect fertility.
+
+Dr. Sanjana L helps women across HSR Layout and Attibele understand whether it makes sense for them, with honest information rather than hype.
+
+## Why Age Is the Key Factor
+
+Both the number and quality of a woman's eggs decline with age, most noticeably after the mid-30s. This is why egg freezing generally gives better results the earlier it is done — eggs frozen in the earlier 30s tend to produce better future success than those frozen later. Freezing does not stop your biological clock, but it "saves" younger eggs for later use.
+
+## The Process, Step by Step
+
+- **Assessment** — a consultation, an AMH blood test and an ultrasound to check your ovarian reserve
+- **Stimulation** — about 10 to 12 days of hormone injections to help several eggs mature
+- **Monitoring** — scans and blood tests to track progress
+- **Egg retrieval** — a short procedure under sedation to collect the eggs
+- **Freezing** — mature eggs are frozen (vitrified) and stored
+- Later, eggs are thawed, fertilised and transferred as part of an <a href="/services/ivf-iui">IVF process</a>.
+
+## What to Consider
+
+- Success is never guaranteed and depends heavily on your age at freezing
+- More than one cycle is sometimes needed to store enough eggs
+- There are costs for the cycle and ongoing storage — ask for a clear, itemised quote before starting
+- It is a personal decision best made with unbiased medical advice
+
+## Frequently Asked Questions
+
+### What is the best age to freeze eggs?
+Generally the earlier the better, ideally before the mid-30s, because egg quantity and quality decline with age. Your AMH level and ovarian reserve help guide the decision.
+
+### Does egg freezing guarantee a baby later?
+No. It improves your future options by preserving younger eggs, but success depends on your age at freezing, egg quality and the later IVF process.
+
+### How many eggs should I freeze?
+It varies by age and goals; sometimes more than one cycle is needed. Your doctor will discuss a realistic target for your situation.
+
+### Is egg freezing safe?
+It is a well-established procedure. As with any medical procedure there are some risks, which your doctor will explain during assessment.
+
+## Consult Dr. Sanjana L
+
+Dr. Sanjana L (MBBS, MS — OBG, Gold Medalist) offers honest, unbiased fertility-preservation guidance and assessment. Learn more <a href="/about-dr-sanjana">about Dr. Sanjana</a>, see her <a href="/hsr-layout-gynaecologist">HSR Layout</a> and <a href="/attibele-gynaecologist">Attibele</a> clinics, or <a href="/book-appointment">book an appointment</a>.
+    `,
+  },
+  {
+    slug: 'pcos-and-weight-gain-what-actually-works',
+    title: 'PCOS and Weight Gain: Why It Is So Hard and What Actually Works',
+    excerpt: 'If losing weight with PCOS feels impossible, you are not imagining it. Dr. Sanjana L, gynaecologist in HSR Layout & Attibele, explains the reason and what genuinely helps.',
+    category: 'Fertility',
+    tags: ['PCOS', 'weight gain', 'insulin resistance', 'PCOS diet', 'hormonal health', 'gynaecologist HSR Layout', 'gynaecologist Attibele', 'Bangalore', 'womens health'],
+    readTime: 7,
+    date: '2026-06-26',
+    author: 'Dr. Sanjana L',
+    metaTitle: 'PCOS and Weight Gain: Why It Is Hard & What Works | Dr. Sanjana L',
+    metaDescription: 'Struggling to lose weight with PCOS? Dr. Sanjana L (HSR Layout & Attibele) explains why it is harder and shares what actually works for PCOS weight management.',
+    content: `
+## It Is Not a Lack of Willpower
+
+Many women with PCOS are told to "just lose weight," then blamed when it does not work. The truth is that PCOS makes weight gain easier and weight loss harder — for biological reasons, not a lack of effort. Understanding why is the first step to an approach that actually works.
+
+Dr. Sanjana L helps women across HSR Layout and Attibele with realistic, sustainable PCOS management, as part of <a href="/services/pcos-pcod-treatment">PCOS and PCOD treatment</a>.
+
+## The Insulin Resistance Link
+
+Many women with PCOS have insulin resistance, where the body's cells respond poorly to insulin. The body then makes more insulin, which:
+
+- Encourages fat storage, especially around the abdomen
+- Increases hunger and cravings
+- Makes weight harder to lose through standard calorie-cutting alone
+
+This is the biological reason PCOS weight gain is stubborn — and why the approach needs to target insulin, not just calories.
+
+## What Actually Helps
+
+- **Lower-glycaemic eating** — whole grains, millets, dals, vegetables and protein over refined carbs and sugar, to steady blood sugar and insulin
+- **Protein and fibre at each meal** — to reduce cravings and stabilise energy
+- **Strength and regular movement** — muscle improves insulin sensitivity; a mix of walking and resistance work beats cardio alone
+- **Sleep and stress** — poor sleep and high stress worsen insulin resistance and cravings
+- **Small, consistent changes** — sustainable habits beat crash diets, which often backfire with PCOS
+- **Medical support where needed** — some women benefit from medication that improves insulin sensitivity, prescribed by their doctor
+
+## Even Modest Loss Helps
+
+Encouragingly, losing even 5 to 10 percent of body weight can improve PCOS symptoms, restore more regular cycles and support fertility. The goal is health and hormone balance, not a number on a scale.
+
+## Frequently Asked Questions
+
+### Why is it so hard to lose weight with PCOS?
+Insulin resistance, common in PCOS, promotes fat storage and cravings and makes weight loss through calorie-cutting alone harder. Targeting insulin with diet, movement and sometimes medication works better.
+
+### What diet is best for PCOS weight loss?
+A lower-glycaemic pattern — whole grains and millets, dals, vegetables and protein, with less sugar and refined carbs — helps steady insulin. There is no single fixed diet; consistency matters most.
+
+### Does exercise help PCOS?
+Yes. Strength training and regular movement improve insulin sensitivity, which is central to PCOS management, and help with weight and cycles.
+
+### How much weight do I need to lose to see benefits?
+Even a 5 to 10 percent reduction can improve symptoms, cycles and fertility, so the goal is realistic, sustainable change.
+
+## Consult Dr. Sanjana L
+
+Dr. Sanjana L (MBBS, MS — OBG, Gold Medalist) offers realistic, non-judgemental PCOS care that addresses the root causes. Learn more <a href="/about-dr-sanjana">about Dr. Sanjana</a>, see her <a href="/hsr-layout-gynaecologist">HSR Layout</a> and <a href="/attibele-gynaecologist">Attibele</a> clinics, or <a href="/book-appointment">book an appointment</a>.
+    `,
+  },
+  {
+    slug: 'perimenopause-in-your-40s-symptoms-often-missed',
+    title: 'Perimenopause in Your 40s: Symptoms Indian Women Often Miss',
+    excerpt: 'The years before menopause bring changes many women do not recognise. Dr. Sanjana L, gynaecologist in HSR Layout & Attibele, explains perimenopause and how to manage it well.',
+    category: 'Women\'s Health',
+    tags: ['perimenopause', 'menopause', 'hormonal health', 'womens health', 'irregular periods', 'gynaecologist HSR Layout', 'gynaecologist Attibele', 'Bangalore'],
+    readTime: 7,
+    date: '2026-06-25',
+    author: 'Dr. Sanjana L',
+    metaTitle: 'Perimenopause in Your 40s: Symptoms Often Missed | Dr. Sanjana L',
+    metaDescription: 'Confused by changes in your 40s? Dr. Sanjana L (HSR Layout & Attibele) explains perimenopause symptoms Indian women often miss and how to manage them.',
+    content: `
+## The Transition Before Menopause
+
+Menopause is a single point — 12 months after your last period. Perimenopause is the transition leading up to it, often beginning in the 40s (sometimes late 30s) and lasting several years. During this time hormones fluctuate, and the symptoms can be confusing because they are easy to attribute to stress or ageing rather than a recognised phase.
+
+Dr. Sanjana L helps women across HSR Layout and Attibele name what is happening and manage it well, as part of <a href="/services/menopause-management">menopause management</a>.
+
+## Symptoms That Are Often Missed
+
+- **Irregular periods** — cycles becoming shorter, longer, heavier or lighter
+- **Hot flushes and night sweats** — sometimes mild at first
+- **Sleep problems** — difficulty falling or staying asleep
+- **Mood changes** — irritability, anxiety or low mood
+- **Brain fog** — trouble concentrating or remembering
+- **Vaginal dryness or discomfort**
+- **Changes in libido**
+- **Joint aches and fatigue**
+
+Because these creep in gradually, many women do not connect them to perimenopause and simply put up with them.
+
+## Why It Is Worth Addressing
+
+Perimenopause is also a time when longer-term health matters more — bone health, heart health and emotional wellbeing all deserve attention. Recognising the phase lets you take supportive steps rather than struggling silently.
+
+## What Helps
+
+- **Lifestyle** — regular exercise (including weight-bearing for bones), a calcium- and protein-rich diet, good sleep and stress management
+- **Symptom-specific care** — for heavy or erratic bleeding, hot flushes, or vaginal dryness
+- **Hormone therapy** — for suitable women, HRT can be very effective; the risks and benefits are discussed individually
+- **Bone and heart health checks** — as advised for your age
+
+## Frequently Asked Questions
+
+### When does perimenopause start?
+Often in the 40s, sometimes the late 30s, and it can last several years before periods stop completely at menopause.
+
+### Are irregular periods a sign of perimenopause?
+They can be. In your 40s, cycles becoming shorter, longer, heavier or lighter is a common early sign, though other causes should also be checked.
+
+### Do I need treatment for perimenopause?
+Not everyone does. Where symptoms affect your quality of life, lifestyle measures, symptom-specific care or hormone therapy can help significantly.
+
+### Is HRT safe?
+For many suitable women, hormone therapy is safe and effective. The decision is individual, based on your health and symptoms, and is discussed with your doctor.
+
+## Consult Dr. Sanjana L
+
+Dr. Sanjana L (MBBS, MS — OBG, Gold Medalist) helps women navigate perimenopause with clear information and personalised care. Learn more <a href="/about-dr-sanjana">about Dr. Sanjana</a>, see her <a href="/hsr-layout-gynaecologist">HSR Layout</a> and <a href="/attibele-gynaecologist">Attibele</a> clinics, or <a href="/book-appointment">book an appointment</a>.
+    `,
+  },
+  {
+    slug: 'vaginal-health-myths-facts-simple-habits',
+    title: 'Vaginal Health: Myths, Facts and Simple Habits',
+    excerpt: 'Much of what women are told about intimate hygiene is wrong. Dr. Sanjana L, gynaecologist in HSR Layout & Attibele, separates myth from fact and shares simple, healthy habits.',
+    category: 'Women\'s Health',
+    tags: ['vaginal health', 'intimate hygiene', 'womens health', 'infections', 'preventive care', 'gynaecologist HSR Layout', 'gynaecologist Attibele', 'Bangalore'],
+    readTime: 6,
+    date: '2026-06-24',
+    author: 'Dr. Sanjana L',
+    metaTitle: 'Vaginal Health: Myths, Facts and Simple Habits | Dr. Sanjana L',
+    metaDescription: 'What is good intimate hygiene really? Dr. Sanjana L (HSR Layout & Attibele) busts common vaginal health myths and shares simple, doctor-approved habits.',
+    content: `
+## The Vagina Is Self-Cleaning
+
+Here is the single most important fact about intimate hygiene: the vagina cleans itself. It maintains a delicate balance of healthy bacteria and a natural acidity that protects against infection. Most "hygiene" products marketed to women actually disrupt that balance and do more harm than good.
+
+Dr. Sanjana L clears up the confusion for women across HSR Layout and Attibele, because so much intimate-health advice is myth.
+
+## Common Myths
+
+- **Myth: You need special intimate washes.** Fact: plain water is enough for the external area; harsh washes and douches disturb the natural balance and raise infection risk.
+- **Myth: Douching keeps you clean.** Fact: douching flushes out protective bacteria and is linked to more infections, not fewer.
+- **Myth: All discharge is a problem.** Fact: normal discharge is healthy. Changes in colour, smell or associated itching are what to watch — see our guide on <a href="/blog/white-discharge-leucorrhoea-normal-vs-warning-signs">white discharge</a>.
+- **Myth: A smell means you are dirty.** Fact: a mild natural scent is normal; a strong or fishy odour signals an imbalance or infection worth checking.
+
+## Simple, Healthy Habits
+
+- Wash the external area with plain water; skip soaps, sprays and douches inside
+- Wear breathable cotton underwear and avoid staying in wet or tight clothing
+- Wipe front to back
+- Change sanitary products regularly during periods
+- Stay hydrated and urinate after intercourse
+- Do not ignore itching, burning, unusual discharge or odour — get it checked
+
+## When to See a Doctor
+
+See a gynaecologist for persistent itching, burning, unusual discharge, odour, or pain — these usually signal a treatable infection, addressed in our <a href="/services/uti-vaginal-infections">UTI and vaginal infection</a> care. There is nothing embarrassing about it; these are among the most common reasons women visit.
+
+## Frequently Asked Questions
+
+### Do I need to use an intimate wash?
+No. The vagina is self-cleaning, and plain water for the external area is enough. Harsh washes and douches disturb the natural balance and can cause infections.
+
+### Is vaginal discharge normal?
+Yes, normal discharge is healthy and varies through the cycle. Changes in colour, smell, or itching are the signs worth getting checked.
+
+### Is douching good for hygiene?
+No. Douching removes protective bacteria and is linked to more infections. It is not recommended.
+
+### What underwear is best for vaginal health?
+Breathable cotton underwear, and avoiding staying in wet or very tight clothing, supports a healthy balance.
+
+## Consult Dr. Sanjana L
+
+Dr. Sanjana L (MBBS, MS — OBG, Gold Medalist) offers straightforward, judgement-free advice on intimate health. Learn more <a href="/about-dr-sanjana">about Dr. Sanjana</a>, see her <a href="/hsr-layout-gynaecologist">HSR Layout</a> and <a href="/attibele-gynaecologist">Attibele</a> clinics, or <a href="/book-appointment">book an appointment</a>.
+    `,
+  },
+  {
+    slug: 'fertility-check-up-for-couples-tests-explained',
+    title: 'Fertility Check-up for Couples: Tests for Him and Her Explained',
+    excerpt: 'Trying to conceive is a shared journey, and so is the check-up. Dr. Sanjana L, gynaecologist in HSR Layout & Attibele, explains the fertility tests for both partners.',
+    category: 'Fertility',
+    tags: ['fertility', 'fertility test', 'trying to conceive', 'male fertility', 'IUI', 'gynaecologist HSR Layout', 'gynaecologist Attibele', 'Bangalore', 'womens health'],
+    readTime: 7,
+    date: '2026-06-23',
+    author: 'Dr. Sanjana L',
+    metaTitle: 'Fertility Check-up for Couples: Tests Explained | Dr. Sanjana L',
+    metaDescription: 'What does a fertility check-up involve? Dr. Sanjana L (HSR Layout & Attibele) explains the tests for both partners when trying to conceive, and when to seek help.',
+    content: `
+## Fertility Is a Couple Matter
+
+When conceiving is taking longer than hoped, it is natural to worry — and just as natural to assume the "issue" lies with the woman. In reality, fertility factors are shared: a significant proportion of cases involve the male partner, either alone or alongside female factors. That is why a proper fertility check-up evaluates both partners together.
+
+Dr. Sanjana L guides couples across HSR Layout and Attibele through this, as part of <a href="/services/fertility-treatment">fertility treatment</a>, with a calm, practical approach.
+
+## When to Seek a Check-up
+
+Consider a fertility assessment if you have been trying to conceive for:
+
+- 12 months, if the woman is under 35
+- 6 months, if the woman is 35 or older
+- Sooner, if there are known issues such as irregular periods, PCOS, endometriosis, previous pelvic surgery or infection
+
+## Tests for Her
+
+- **Hormone blood tests** — to assess ovulation and ovarian reserve, including AMH
+- **Thyroid and other checks** — as these affect fertility
+- **Pelvic ultrasound** — to assess the uterus and ovaries
+- **Tubal assessment** — a test to check the fallopian tubes are open, where indicated
+
+## Tests for Him
+
+- **Semen analysis** — the key male fertility test, checking sperm count, movement and shape
+- **Further tests** — hormonal or other tests if the semen analysis is abnormal
+
+A semen analysis is simple and should be part of the very first round of tests, not an afterthought.
+
+## What Happens Next
+
+Results guide the plan. Many couples need only simple support — timing, ovulation help, or treating an underlying issue like <a href="/services/pcos-pcod-treatment">PCOS</a> or thyroid. Others benefit from <a href="/services/ivf-iui">IUI or IVF</a>. The aim is to find the cause and match the least intensive effective treatment.
+
+## Frequently Asked Questions
+
+### When should a couple see a doctor about fertility?
+After 12 months of trying if the woman is under 35, or 6 months if she is 35 or older — and sooner if there are known issues like irregular periods or PCOS.
+
+### Should the man be tested too?
+Yes, always. A large share of fertility issues involve the male partner, so a semen analysis should be part of the first round of tests.
+
+### What is the main test for male fertility?
+A semen analysis, which checks sperm count, movement and shape. It is simple and central to the couple's assessment.
+
+### Does a fertility problem always mean IVF?
+No. Many couples conceive with simpler help such as ovulation support or treating an underlying condition. IVF is one option among several.
+
+## Consult Dr. Sanjana L
+
+Dr. Sanjana L (MBBS, MS — OBG, Gold Medalist) evaluates couples together and matches treatment to the actual cause. Learn more <a href="/about-dr-sanjana">about Dr. Sanjana</a>, see her <a href="/hsr-layout-gynaecologist">HSR Layout</a> and <a href="/attibele-gynaecologist">Attibele</a> clinics, or <a href="/book-appointment">book an appointment</a>.
+    `,
+  },
 ];
 
 export function getBlogPostBySlug(slug: string): BlogPost | undefined {
