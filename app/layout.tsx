@@ -254,6 +254,72 @@ const rootStructuredData = {
         "Obstetrician and gynaecologist (MBBS MS OBG Gold Medalist, FRM RGUHS, FMAS). Over 10 years of clinical experience. Consults in English, Hindi, Kannada, and Telugu.",
       knowsLanguage: ["English", "Hindi", "Kannada", "Telugu"],
       medicalSpecialty: ["Gynecologic", "Obstetric"],
+      // ── E-E-A-T (added Aug 2026) ────────────────────────────────────────
+      // Her qualifications were previously stated only in prose, so they were
+      // invisible as entity attributes. Every value below is already asserted
+      // in the site's own copy — nothing here is new or unverified.
+      //
+      // STILL MISSING, needs Dr. Sanjana to supply: professional society
+      // memberships (`memberOf`, e.g. FOGSI / IMA / IAGE) and her external
+      // profile URLs (Practo, Justdial, Google Business Profile, Instagram)
+      // for `sameAs` in lib/site.ts. Do NOT invent these.
+      alumniOf: {
+        "@type": "CollegeOrUniversity",
+        name: "Rajiv Gandhi University of Health Sciences",
+        alternateName: "RGUHS",
+        address: {
+          "@type": "PostalAddress",
+          addressLocality: "Bengaluru",
+          addressRegion: "Karnataka",
+          addressCountry: "IN",
+        },
+      },
+      award: "Gold Medalist, MS (Obstetrics & Gynaecology), Rajiv Gandhi University of Health Sciences",
+      hasCredential: [
+        {
+          "@type": "EducationalOccupationalCredential",
+          credentialCategory: "degree",
+          name: "MBBS",
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          credentialCategory: "degree",
+          name: "MS (Obstetrics & Gynaecology)",
+          recognizedBy: {
+            "@type": "CollegeOrUniversity",
+            name: "Rajiv Gandhi University of Health Sciences",
+          },
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          credentialCategory: "Fellowship",
+          name: "FMAS — Fellowship in Minimal Access Surgery",
+        },
+      ],
+      knowsAbout: [
+        "Pregnancy care",
+        "High-risk pregnancy",
+        "Normal delivery",
+        "Painless delivery (epidural labour analgesia)",
+        "Caesarean delivery",
+        "PCOS and PCOD treatment",
+        "Fertility treatment",
+        "IVF and IUI",
+        "Laparoscopic gynaecological surgery",
+        "Hysteroscopy",
+        "Uterine fibroids",
+        "Ovarian cysts",
+        "Endometriosis",
+        "Menstrual disorders",
+        "Menopause management",
+        "Cervical cancer screening",
+        "Contraception counselling",
+        "Adolescent gynaecology",
+      ],
+      hospitalAffiliation: [
+        { "@id": `${SITE_URL}/#location-hsr` },
+        { "@id": `${SITE_URL}/#location-attibele` },
+      ],
       // Required by Google's LocalBusiness rich-result validation because
       // Physician inherits from MedicalBusiness > LocalBusiness.
       address: PRIMARY_PRACTICE_ADDRESS,

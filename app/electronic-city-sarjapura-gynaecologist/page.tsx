@@ -22,6 +22,7 @@ import Footer from '@/components/Footer';
 import FloatingButtons from '@/components/FloatingButtons';
 import BreadcrumbNav from '@/components/BreadcrumbNav';
 import FAQAccordion from '@/components/FAQAccordion';
+import AreaMoneyPageLinks from '@/components/AreaMoneyPageLinks';
 import { SITE_URL } from '@/lib/site';
 
 /* ──────────────────────────── SEO META ──────────────────────────── */
@@ -686,6 +687,14 @@ export default function ElectronicCitySarjapuraGynaecologistPage() {
             </div>
           </div>
         </section>
+
+        {/* ─── MONEY PAGES FOR THIS AREA ─── */}
+        <AreaMoneyPageLinks
+          localities={['Electronic City', 'Sarjapura Road']}
+          heading={'Treatments & Delivery Care for Electronic City & Sarjapura Road'}
+          intro="Detailed guides to the care Dr. Sanjana provides for families in Electronic City and along Sarjapura Road — what to expect, who it suits and how to book."
+          background="#FFF8F0"
+        />
 
         {/* ─── AREAS SERVED ─── */}
         <section className="section-padding" style={{ background: '#FFF8F0' }}>

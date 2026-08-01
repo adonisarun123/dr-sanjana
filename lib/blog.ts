@@ -8,6 +8,18 @@ export interface BlogPost {
   tags: string[];
   readTime: number;
   date: string;
+  /**
+   * Date this post was last substantively revised (YYYY-MM-DD). Set it when you
+   * update an article's clinical content.
+   *
+   * Before Aug 2026 no such field existed, so `dateModified` in the BlogPosting
+   * schema was hardcoded to `datePublished` — meaning none of the 43 posts could
+   * ever signal a refresh. For YMYL medical content, where recency is a ranking
+   * and trust signal, that made every update invisible to search engines.
+   *
+   * Falls back to `date` when omitted.
+   */
+  updated?: string;
   author: string;
   metaTitle: string;
   metaDescription: string;

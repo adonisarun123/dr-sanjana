@@ -21,6 +21,7 @@ import Footer from '@/components/Footer';
 import FloatingButtons from '@/components/FloatingButtons';
 import BreadcrumbNav from '@/components/BreadcrumbNav';
 import FAQAccordion from '@/components/FAQAccordion';
+import AreaMoneyPageLinks from '@/components/AreaMoneyPageLinks';
 import { SITE_URL } from '@/lib/site';
 
 /* ──────────────────────────── SEO META ──────────────────────────── */
@@ -573,6 +574,14 @@ export default function ChandapuraGynaecologistPage() {
             </div>
           </div>
         </section>
+
+        {/* ─── MONEY PAGES FOR THIS AREA ─── */}
+        <AreaMoneyPageLinks
+          localities={['Attibele', 'Bommasandra']}
+          heading={'Treatment & Delivery Guides near Chandapura'}
+          intro="Dr. Sanjana consults at Raghava Multispeciality Hospital, Attibele — a short drive from Chandapura. These guides cover what each treatment involves and how to book."
+          background="#FFF8F0"
+        />
 
         {/* ─── AREAS SERVED ─── */}
         <section className="section-padding" style={{ background: '#FFFFFF' }}>

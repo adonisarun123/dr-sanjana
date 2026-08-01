@@ -125,7 +125,7 @@ export const locationServices: LocationService[] = [
     hubHref: '/electronic-city-sarjapura-gynaecologist',
     hubLabel: 'Gynaecologist near Sarjapura Road & Electronic City',
     schemaType: 'MedicalProcedure',
-    metaTitle: 'Painless Delivery in Sarjapura Road | Dr. Sanjana L — Health Nest',
+    metaTitle: 'Painless Delivery in Sarjapura Road | Dr. Sanjana L',
     metaDescription:
       'Painless delivery (epidural) near Sarjapura Road, Bangalore. Dr. Sanjana L (MS OBG, Gold Medalist) offers safe, comfortable labour at Health Nest, HSR Layout. Call to plan your delivery.',
     keywords: [
@@ -322,7 +322,7 @@ export const locationServices: LocationService[] = [
     hubHref: '/electronic-city-sarjapura-gynaecologist',
     hubLabel: 'Gynaecologist near Sarjapura Road & Electronic City',
     schemaType: 'MedicalProcedure',
-    metaTitle: 'High-Risk Pregnancy Specialist near Sarjapura Road | Dr. Sanjana L',
+    metaTitle: 'High-Risk Pregnancy near Sarjapura Road | Dr. Sanjana L',
     metaDescription:
       'High-risk pregnancy care near Sarjapura Road — gestational diabetes, preeclampsia, twins, advanced maternal age. Dr. Sanjana L (MS OBG) at Health Nest, HSR Layout. 24/7 back-up.',
     keywords: [
@@ -453,7 +453,7 @@ export const locationServices: LocationService[] = [
     hubHref: '/hsr-layout-gynaecologist',
     hubLabel: 'Gynaecologist in HSR Layout',
     schemaType: 'MedicalProcedure',
-    metaTitle: 'Laparoscopic Gynaecological Surgery in HSR Layout | Dr. Sanjana L',
+    metaTitle: 'Laparoscopic Surgery in HSR Layout | Dr. Sanjana L',
     metaDescription:
       'Minimally invasive laparoscopic surgery in HSR Layout for ovarian cysts, fibroids, endometriosis & ectopic pregnancy. FMAS-trained Dr. Sanjana L at Health Nest. Faster recovery, smaller scars.',
     keywords: [
@@ -782,7 +782,7 @@ export const locationServices: LocationService[] = [
     hubHref: '/electronic-city-sarjapura-gynaecologist',
     hubLabel: 'Gynaecologist in Electronic City & Sarjapura',
     schemaType: 'MedicalProcedure',
-    metaTitle: 'High-Risk Pregnancy Specialist near Electronic City | Dr. Sanjana L',
+    metaTitle: 'High-Risk Pregnancy near Electronic City | Dr. Sanjana L',
     metaDescription:
       'High-risk pregnancy care near Electronic City — gestational diabetes, preeclampsia, twins, advanced maternal age. Dr. Sanjana L (MS OBG) at Raghava Hospital (Attibele) & Health Nest. 24/7 back-up.',
     keywords: [
@@ -913,7 +913,7 @@ export const locationServices: LocationService[] = [
     hubHref: '/attibele-gynaecologist',
     hubLabel: 'Gynaecologist in Attibele',
     schemaType: 'MedicalProcedure',
-    metaTitle: 'Normal Delivery Doctor in Attibele | Dr. Sanjana L — Raghava Hospital',
+    metaTitle: 'Normal Delivery Doctor in Attibele | Dr. Sanjana L',
     metaDescription:
       'Safe normal (vaginal) delivery in Attibele with Dr. Sanjana L (MS OBG) at Raghava Multispeciality Hospital. Normal-delivery-first care, epidural option, 24/7 back-up.',
     keywords: [
@@ -979,7 +979,7 @@ export const locationServices: LocationService[] = [
     hubHref: '/attibele-gynaecologist',
     hubLabel: 'Gynaecologist in Attibele',
     schemaType: 'MedicalProcedure',
-    metaTitle: 'Painless Delivery in Attibele | Dr. Sanjana L — Raghava Hospital',
+    metaTitle: 'Painless Delivery in Attibele | Dr. Sanjana L',
     metaDescription:
       'Painless delivery (epidural) in Attibele with Dr. Sanjana L (MS OBG) at Raghava Multispeciality Hospital. Safe, comfortable labour with 24/7 anaesthesia back-up.',
     keywords: [
@@ -1177,7 +1177,7 @@ export const locationServices: LocationService[] = [
     hubHref: '/attibele-gynaecologist',
     hubLabel: 'Gynaecologist in Attibele',
     schemaType: 'MedicalProcedure',
-    metaTitle: 'Maternity & Delivery Package Cost in Attibele | Dr. Sanjana L',
+    metaTitle: 'Maternity Package Cost in Attibele | Dr. Sanjana L',
     metaDescription:
       'What normal delivery and C-section cost in Attibele — package inclusions, room options and cashless insurance explained. Get a clear quote at Raghava Hospital.',
     keywords: [
@@ -1239,11 +1239,11 @@ export const locationServices: LocationService[] = [
         a: 'Yes. First visits are welcome and handled sensitively, whether it is for a period concern, contraception advice, a check-up or a specific symptom. You can book online or call +91 94490 31003.',
       },
     ],
-    serviceSlug: '',
+    serviceSlug: 'pregnancy-care',
     hubHref: '/hsr-layout-gynaecologist',
     hubLabel: 'Gynaecologist in HSR Layout',
     schemaType: 'MedicalBusiness',
-    metaTitle: 'Lady Gynaecologist in HSR Layout | Dr. Sanjana L — Health Nest',
+    metaTitle: 'Lady Gynaecologist in HSR Layout | Dr. Sanjana L',
     metaDescription:
       'Experienced female (lady) gynaecologist in HSR Layout — Dr. Sanjana L (MS OBG, Gold Medalist) at Health Nest, Sector 2. Private, compassionate women’s healthcare. Book now.',
     keywords: [
@@ -1309,7 +1309,7 @@ export const locationServices: LocationService[] = [
     hubHref: '/attibele-gynaecologist',
     hubLabel: 'Gynaecologist in Attibele',
     schemaType: 'MedicalProcedure',
-    metaTitle: 'PCOS & PCOD Treatment in Attibele | Dr. Sanjana L — Raghava Hospital',
+    metaTitle: 'PCOS & PCOD Treatment in Attibele | Dr. Sanjana L',
     metaDescription:
       'Evidence-based PCOS & PCOD treatment in Attibele with Dr. Sanjana L (MS OBG) at Raghava Multispeciality Hospital. Hormonal, metabolic and fertility care. Book now.',
     keywords: [
@@ -1441,7 +1441,7 @@ export const locationServices: LocationService[] = [
     hubHref: '/hsr-layout-gynaecologist',
     hubLabel: 'Gynaecologist in HSR Layout',
     schemaType: 'MedicalProcedure',
-    metaTitle: 'High-Risk Pregnancy Care in HSR Layout | Dr. Sanjana L — Health Nest',
+    metaTitle: 'High-Risk Pregnancy Care in HSR Layout | Dr. Sanjana L',
     metaDescription:
       'Specialist high-risk pregnancy care in HSR Layout with Dr. Sanjana L (MS OBG) at Health Nest, Sector 2 — close monitoring, targeted scans and a safe delivery plan.',
     keywords: [
@@ -1519,6 +1519,164 @@ export const locationServices: LocationService[] = [
       'delivery hospital HSR Layout',
     ],
   },
+
+  /* ─────────────────────────────────────────────────────────────────────────
+     23. Normal Delivery — HSR Layout
+     NOTE (added 2026-08): clinical claims here are reused verbatim in substance
+     from the existing Sarjapura Road / Attibele normal-delivery entries. No new
+     medical assertion, statistic or outcome promise has been introduced.
+     Pending Dr. Sanjana's sign-off before this is treated as final copy.
+  ───────────────────────────────────────────────────────────────────────── */
+  {
+    slug: 'normal-delivery-hsr-layout',
+    title: 'Normal Delivery Doctor in HSR Layout, Bangalore',
+    shortTitle: 'Normal Delivery — HSR Layout',
+    category: 'Obstetrics',
+    locality: 'HSR Layout',
+    clinic: 'hsr',
+    description:
+      'Safe, evidence-based vaginal delivery care for mothers in HSR Layout — with Dr. Sanjana L at Health Nest, Sector 2.',
+    overview:
+      'Health Nest is a maternity unit in the heart of HSR Layout, which means mothers living in Sectors 1 to 7 have experienced normal-delivery care within minutes of home — no cross-city drive in early labour, no unfamiliar hospital. Dr. Sanjana L — MBBS, MS (OBG) Gold Medalist (RGUHS), FMAS, 10+ years — supports mothers from across HSR Layout, Agara, Koramangala, BTM Layout and Bommanahalli at 1162, 24th Main Road, Sector 2.\n\nDr. Sanjana has supported thousands of safe vaginal births — first-time mothers, VBAC (vaginal birth after caesarean) candidates and women with previous high-risk pregnancies. Her low-intervention philosophy combines continuous labour support, freedom to move, and the full range of evidence-based pain relief including painless epidural delivery, with 24/7 emergency back-up so labour can switch safely to a caesarean if it ever needs to.\n\nBeing local matters more than it sounds. Antenatal visits fit around work, your birth partner can reach you quickly, and the team caring for you in labour is the same team you have seen through your pregnancy. Health Nest is operative-theatre ready around the clock with anaesthesia and paediatric cover.',
+    whatToExpect: [
+      'Birth-planning consultation by week 32–34 — preferences, fears, pain relief, birth-partner role',
+      'Continuous fetal monitoring (CTG) through active labour',
+      'Full range of pain relief including painless delivery (epidural) when you choose it',
+      'Freedom to move and change position through early labour',
+      'Active pushing support and perineal protection techniques to reduce tears',
+      'Immediate skin-to-skin, delayed cord clamping and early breastfeeding initiation',
+      'Shorter hospital stay (typically 24–48 hours) and faster recovery',
+      'Postnatal monitoring, lactation support and a structured 6-week recovery plan',
+    ],
+    whyChoose: [
+      'A maternity unit inside HSR Layout — minutes from home in early labour',
+      '10+ years supporting safe, low-intervention vaginal births and VBAC',
+      'The same doctor through pregnancy, labour and postnatal recovery',
+      'Painless (epidural) delivery available when you want it',
+      'Multilingual care — English, Hindi, Kannada, Telugu',
+      '24/7 anaesthesia, paediatric and operative back-up at Health Nest',
+    ],
+    nearbyAreas: ['HSR Layout', 'Agara', 'Bommanahalli', 'Koramangala', 'BTM Layout', 'Sarjapur Road', 'Sector 2'],
+    faqs: [
+      {
+        q: 'Who is the best normal delivery doctor in HSR Layout?',
+        a: 'Dr. Sanjana L (MBBS, MS OBG Gold Medalist, FMAS, 10+ years) supports normal deliveries at Health Nest, 1162, 24th Main Road, Sector 2, HSR Layout. The unit is 24/7 maternity-ready with anaesthesia and newborn back-up. Call +91 94490 31003 to plan your delivery.',
+      },
+      {
+        q: 'Is there a maternity hospital inside HSR Layout?',
+        a: 'Yes. Health Nest is located at 1162, 24th Main Road, Sector 2, HSR Layout — central to all HSR sectors and a short drive from Agara, Koramangala, BTM Layout and Bommanahalli. Consulting hours are Mon–Sat, 10 AM–8 PM.',
+      },
+      {
+        q: 'Can I have a normal delivery after a previous C-section?',
+        a: 'Many women with a previous low-transverse caesarean can safely deliver vaginally (VBAC) in a later pregnancy. Dr. Sanjana supports VBAC when criteria are met — single baby, head-down, no other contraindications — with full emergency back-up available.',
+      },
+      {
+        q: 'Is painless (epidural) delivery available at Health Nest?',
+        a: 'Yes. A painless delivery is a normal vaginal delivery with epidural pain relief added. Dr. Sanjana offers it at Health Nest when your cervix is favourable, so you stay awake and comfortable through labour.',
+      },
+      {
+        q: 'How long will I stay in hospital after a normal delivery?',
+        a: 'Most mothers stay about 24–48 hours after an uncomplicated vaginal birth, then recover at home with a structured 6-week plan and lactation support. Your exact stay depends on how you and your baby are doing.',
+      },
+      {
+        q: 'What happens if my labour needs to become a caesarean?',
+        a: 'Health Nest is operative-theatre ready around the clock with anaesthesia and paediatric cover, so labour can switch safely to a caesarean if it ever needs to. Dr. Sanjana explains the reason and the process at the time.',
+      },
+    ],
+    serviceSlug: 'normal-delivery',
+    hubHref: '/hsr-layout-gynaecologist',
+    hubLabel: 'Gynaecologist in HSR Layout',
+    schemaType: 'MedicalProcedure',
+    metaTitle: 'Normal Delivery Doctor in HSR Layout | Dr. Sanjana L',
+    metaDescription:
+      'Normal delivery doctor in HSR Layout. Dr. Sanjana L (MS OBG) supports safe vaginal birth, VBAC & painless delivery at Health Nest, Sector 2. 24/7 maternity-ready.',
+    keywords: [
+      'normal delivery doctor HSR Layout',
+      'normal delivery HSR Layout',
+      'maternity hospital HSR Layout',
+      'delivery hospital HSR Layout',
+      'VBAC doctor HSR Layout',
+      'best gynaecologist HSR Layout delivery',
+    ],
+  },
+
+  /* ─────────────────────────────────────────────────────────────────────────
+     24. Painless Delivery — HSR Layout
+     NOTE (added 2026-08): clinical claims reused in substance from the existing
+     Sarjapura Road / Electronic City / Attibele painless-delivery entries.
+     Pending Dr. Sanjana's sign-off before this is treated as final copy.
+  ───────────────────────────────────────────────────────────────────────── */
+  {
+    slug: 'painless-delivery-hsr-layout',
+    title: 'Painless Delivery in HSR Layout, Bangalore',
+    shortTitle: 'Painless Delivery — HSR Layout',
+    category: 'Obstetrics',
+    locality: 'HSR Layout',
+    clinic: 'hsr',
+    description:
+      'Safe, comfortable painless delivery (epidural labour analgesia) for expecting mothers in HSR Layout — with Dr. Sanjana L at Health Nest, Sector 2.',
+    overview:
+      'For expecting mothers in HSR Layout, epidural-equipped painless delivery is available inside the neighbourhood rather than across town. Dr. Sanjana L offers painless delivery with low-dose epidural labour analgesia at Health Nest, 1162, 24th Main Road, Sector 2 — serving mothers from all HSR sectors and from Agara, Koramangala, BTM Layout and Bommanahalli.\n\nA modern epidural blocks the sharp pain of contractions while keeping you fully awake and in control. Most mothers feel meaningful relief within 10–20 minutes of placement, conserve their energy for the pushing stage, and are able to do skin-to-skin and begin breastfeeding within minutes of birth — exactly like an unmedicated vaginal delivery, only far more comfortable.\n\nPainless delivery is a normal delivery with pain relief added, not a different kind of birth. Dr. Sanjana keeps a low-intervention, normal-delivery-first philosophy throughout, and Health Nest is 24/7 maternity-ready with anaesthesia, paediatric and operative-theatre back-up should labour ever need to change course.',
+    whatToExpect: [
+      'Birth-planning consultation by week 32–34 to discuss pain relief preferences and your epidural options',
+      'Continuous fetal monitoring (CTG) once active labour begins',
+      'Anaesthetist-administered low-dose epidural when your cervix is favourable',
+      'Pain relief within 10–20 minutes while you stay awake and mobile in bed',
+      'Conserved energy for active, focused pushing in the second stage',
+      'Immediate skin-to-skin, delayed cord clamping and early breastfeeding support',
+      'Postnatal monitoring and a structured 6-week recovery plan',
+    ],
+    whyChoose: [
+      'An epidural-equipped maternity unit inside HSR Layout',
+      '10+ years of obstetric experience with safe, low-intervention births',
+      'Normal-delivery-first philosophy — the epidural supports the birth, not replaces it',
+      'Multilingual care — English, Hindi, Kannada, Telugu',
+      '24/7 anaesthesia, paediatric and operative back-up at Health Nest',
+      'Patient-led birth planning with informed consent at every step',
+    ],
+    nearbyAreas: ['HSR Layout', 'Agara', 'Bommanahalli', 'Koramangala', 'BTM Layout', 'Sarjapur Road', 'Sector 2'],
+    faqs: [
+      {
+        q: 'Where can I get a painless delivery in HSR Layout?',
+        a: 'Dr. Sanjana L offers painless delivery (epidural labour analgesia) at Health Nest, 1162, 24th Main Road, Sector 2, HSR Layout. The unit is 24/7 maternity-ready with anaesthesia and newborn back-up. Call +91 94490 31003 to plan your delivery.',
+      },
+      {
+        q: 'Is epidural painless delivery safe for the baby?',
+        a: 'Yes. Decades of obstetric data show epidural anaesthesia is one of the safest forms of labour pain relief, with only a tiny fraction of the medication reaching the baby. You stay fully conscious and can breastfeed within minutes of birth.',
+      },
+      {
+        q: 'Can I still have a normal delivery if I choose an epidural?',
+        a: 'Absolutely. A painless delivery is a normal (vaginal) delivery with epidural pain relief added. The epidural removes the pain of contractions but does not change the goal of a safe vaginal birth wherever clinically appropriate.',
+      },
+      {
+        q: 'Will an epidural slow down my labour?',
+        a: 'Modern low-dose epidurals are designed to relieve pain while allowing labour to progress. In some cases the second stage is slightly longer, but Dr. Sanjana monitors progress closely and supports active pushing so most women still achieve a normal vaginal birth.',
+      },
+      {
+        q: 'How soon does the epidural work?',
+        a: 'Most mothers feel meaningful relief within 10–20 minutes of the epidural being placed. It is administered by an anaesthetist once your cervix is favourable, and you stay awake and in control throughout.',
+      },
+      {
+        q: 'Do I have to decide about an epidural in advance?',
+        a: 'No. Dr. Sanjana discusses every pain-relief option at your birth-planning consultation around week 32–34 so you know what is available, but the decision can be made during labour. Birth planning is patient-led with informed consent at every step.',
+      },
+    ],
+    serviceSlug: 'painless-delivery',
+    hubHref: '/hsr-layout-gynaecologist',
+    hubLabel: 'Gynaecologist in HSR Layout',
+    schemaType: 'MedicalProcedure',
+    metaTitle: 'Painless Delivery in HSR Layout | Dr. Sanjana L',
+    metaDescription:
+      'Painless delivery (epidural) in HSR Layout. Dr. Sanjana L (MS OBG, Gold Medalist) offers safe, comfortable labour at Health Nest, Sector 2. Call to plan your delivery.',
+    keywords: [
+      'painless delivery HSR Layout',
+      'epidural delivery HSR Layout',
+      'painless delivery near HSR Layout',
+      'normal delivery doctor HSR Layout',
+      'maternity hospital HSR Layout',
+      'best gynaecologist HSR Layout delivery',
+    ],
+  },
 ];
 
 export function getLocationServiceBySlug(slug: string): LocationService | undefined {
@@ -1528,4 +1686,14 @@ export function getLocationServiceBySlug(slug: string): LocationService | undefi
 /** Money pages that drill down from a given canonical service (for cross-linking). */
 export function getLocationServicesForService(serviceSlug: string): LocationService[] {
   return locationServices.filter(ls => ls.serviceSlug === serviceSlug);
+}
+
+/**
+ * Money pages serving one or more localities — used by the /<area>-gynaecologist
+ * hub pages to link *down* to their money pages, so internal link equity flows
+ * both ways instead of only upward via `hubHref`.
+ */
+export function getLocationServicesForLocalities(localities: string[]): LocationService[] {
+  const wanted = new Set(localities.map(l => l.toLowerCase()));
+  return locationServices.filter(ls => wanted.has(ls.locality.toLowerCase()));
 }

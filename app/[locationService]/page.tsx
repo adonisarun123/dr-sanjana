@@ -19,8 +19,9 @@ interface Props {
   params: Promise<{ locationService: string }>;
 }
 
-// Only the 6 curated money-page slugs resolve. Any other top-level slug that
-// isn't a real static folder will 404 rather than render an empty page.
+// Only the curated money-page slugs defined in lib/locationServices.ts resolve
+// (22 as of Aug 2026). Any other top-level slug that isn't a real static folder
+// will 404 rather than render an empty page.
 export const dynamicParams = false;
 
 export async function generateStaticParams() {
@@ -77,28 +78,11 @@ export default async function LocationServicePage({ params }: Props) {
     url: `${SITE_URL}/${page.slug}`,
   };
 
-  const breadcrumbSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'BreadcrumbList',
-    itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: SITE_URL },
-      { '@type': 'ListItem', position: 2, name: 'Services', item: `${SITE_URL}/services` },
-      { '@type': 'ListItem', position: 3, name: page.shortTitle, item: `${SITE_URL}/${page.slug}` },
-    ],
-  };
-
-  const faqSchema =
-    page.faqs.length > 0
-      ? {
-          '@context': 'https://schema.org',
-          '@type': 'FAQPage',
-          mainEntity: page.faqs.map(({ q, a }) => ({
-            '@type': 'Question',
-            name: q,
-            acceptedAnswer: { '@type': 'Answer', text: a },
-          })),
-        }
-      : null;
+  // NOTE: BreadcrumbList and FAQPage JSON-LD are intentionally NOT emitted here.
+  // <BreadcrumbNav> and <FAQAccordion> each emit their own schema from the same
+  // source data. Emitting them here as well produced duplicate, conflicting
+  // FAQPage/BreadcrumbList blocks on every money page, which risks Google
+  // dropping the FAQ rich result entirely.
 
   return (
     <>
@@ -106,16 +90,6 @@ export default async function LocationServicePage({ params }: Props) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(procedureSchema) }}
       />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
-      />
-      {faqSchema && (
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-        />
-      )}
       <Navbar />
       <main id="main-content">
         {/* ── Hero ──────────────────────────────────────────────────────── */}

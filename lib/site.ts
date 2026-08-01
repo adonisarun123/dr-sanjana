@@ -26,6 +26,52 @@ export const PHYSICIAN_SAME_AS: readonly string[] = [
   'https://g.page/r/HealthNestHSRLayout/review',
 ];
 
+/**
+ * The 8 `/<area>-gynaecologist` hub pages, in one place so the footer, homepage
+ * and any future navigation stay in sync. Previously the footer listed only 3,
+ * which left /jigani-gynaecologist with zero inbound internal links.
+ */
+export const AREA_HUBS: readonly { label: string; short: string; href: string }[] = [
+  { label: 'Gynaecologist in HSR Layout', short: 'HSR Layout', href: '/hsr-layout-gynaecologist' },
+  { label: 'Gynaecologist in Attibele', short: 'Attibele', href: '/attibele-gynaecologist' },
+  {
+    label: 'Near Electronic City & Sarjapura',
+    short: 'Electronic City & Sarjapura',
+    href: '/electronic-city-sarjapura-gynaecologist',
+  },
+  {
+    label: 'Near Chandapura & Hosur Road',
+    short: 'Chandapura & Hosur Road',
+    href: '/chandapura-hosur-road-gynaecologist',
+  },
+  { label: 'Gynaecologist in Bommasandra', short: 'Bommasandra', href: '/bommasandra-gynaecologist' },
+  { label: 'Gynaecologist in Chandapura', short: 'Chandapura', href: '/chandapura-gynaecologist' },
+  { label: 'Gynaecologist in Anekal', short: 'Anekal', href: '/anekal-gynaecologist' },
+  { label: 'Gynaecologist in Jigani', short: 'Jigani', href: '/jigani-gynaecologist' },
+];
+
+/**
+ * When each group of pages was last substantively revised (YYYY-MM-DD).
+ *
+ * `app/sitemap.ts` previously used `new Date()` for every non-blog URL, so all
+ * 68 of them claimed "modified today" on every single build. Google discounts
+ * `lastmod` when it is obviously automated, which cost the sitemap its value as
+ * a freshness signal.
+ *
+ * BUMP THESE BY HAND when you meaningfully change the corresponding content.
+ * An inaccurate-but-stable date is far better than an always-today one.
+ */
+export const CONTENT_LAST_REVISED = {
+  /** Home, about, services index, contact, FAQ, etc. */
+  static: '2026-08-01',
+  /** The 8 /<area>-gynaecologist hub pages. */
+  hubs: '2026-08-01',
+  /** lib/services.ts — the /services/<slug> pages. */
+  services: '2026-07-17',
+  /** lib/locationServices.ts — the service × location money pages. */
+  moneyPages: '2026-08-01',
+} as const;
+
 /** E.164 country + number, no + (HSR line; same as WhatsApp). */
 export const HSR_CLINIC_PHONE_E164 = '919449031003' as const;
 

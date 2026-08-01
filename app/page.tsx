@@ -10,6 +10,7 @@ import TestimonialCarousel from '@/components/TestimonialCarousel';
 import FloatingButtons from '@/components/FloatingButtons';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import HomeAreaLinks from '@/components/HomeAreaLinks';
 import { SITE_URL } from '@/lib/site';
 
 export const metadata: Metadata = {
@@ -357,6 +358,9 @@ export default function HomePage() {
             </div>
           </div>
         </section>
+
+        {/* ─── CARE NEAR YOU (area hubs + money pages) ─── */}
+        <HomeAreaLinks />
 
         {/* ─── ABOUT QUICK INTRO ─── */}
         <section className="section bg-gradient-hero">

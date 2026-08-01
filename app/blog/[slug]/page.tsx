@@ -4,6 +4,8 @@ import Link from 'next/link';
 import { ArrowLeft, ArrowRight, Clock, Calendar, User, MapPin, Phone } from 'lucide-react';
 import { blogPosts, getBlogPostBySlug } from '@/lib/blog';
 import { SITE_URL, DEFAULT_OG_IMAGE_PATH } from '@/lib/site';
+import { getRelatedMoneyPages } from '@/lib/relatedContent';
+import RelatedMoneyPages from '@/components/RelatedMoneyPages';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import FloatingButtons from '@/components/FloatingButtons';
@@ -116,7 +118,8 @@ export default async function BlogPostPage({ params }: Props) {
     },
     url: `${SITE_URL}/blog/${post.slug}`,
     datePublished: post.date,
-    dateModified: post.date,
+    // Falls back to the publish date when a post has never been revised.
+    dateModified: post.updated ?? post.date,
     author: { '@id': `${SITE_URL}/#physician` },
     // Medical content E-E-A-T: a named, qualified clinician is credited as the
     // reviewer of the article, which is a strong trust signal for YMYL health
@@ -314,12 +317,19 @@ export default async function BlogPostPage({ params }: Props) {
                   dangerouslySetInnerHTML={{ __html: renderContent(post.content) }}
                 />
 
+                {/* Related money pages — informational article → commercial page */}
+                <RelatedMoneyPages pages={getRelatedMoneyPages(post)} />
+
                 {/* Author bio with E-E-A-T signals */}
                 <div className="mt-10 pt-6" style={{ borderTop: '1px solid #E8E0DB' }}>
                   <div className="flex items-start gap-4">
                     <div className="w-14 h-14 rounded-full flex items-center justify-center text-white font-bold text-xl flex-shrink-0" style={{ background: 'linear-gradient(135deg, #8B5E83, #2A6B5A)' }}>SL</div>
                     <div>
-                      <p className="font-bold text-lg" style={{ fontFamily: 'var(--font-body), system-ui, sans-serif', color: '#2D2D2D' }}>Dr. Sanjana L</p>
+                      <p className="font-bold text-lg" style={{ fontFamily: 'var(--font-body), system-ui, sans-serif', color: '#2D2D2D' }}>
+                        <Link href="/about-dr-sanjana" className="hover:underline" style={{ color: '#2D2D2D' }}>
+                          Dr. Sanjana L
+                        </Link>
+                      </p>
                       <p className="text-sm mb-1" style={{ color: '#6B6B6B' }}>MBBS MS ( OBG) Gold Medalist FRM ( RGUHS) FMAS</p>
                       <p className="text-sm mb-2" style={{ color: '#6B6B6B' }}>Gynaecologist &amp; Obstetrician at Health Nest, HSR Layout &amp; Raghava Hospital, Attibele, Bangalore</p>
                       <p className="text-sm" style={{ color: '#6B6B6B', lineHeight: 1.6 }}>

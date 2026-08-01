@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { Phone, Mail, MapPin, Clock, Linkedin } from 'lucide-react';
-import { PHYSICIAN_LINKEDIN_URL } from '@/lib/site';
+import { PHYSICIAN_LINKEDIN_URL, AREA_HUBS } from '@/lib/site';
 
 const serviceLinks = [
   { label: 'Pregnancy Care', href: '/services/pregnancy-care' },
@@ -22,11 +22,10 @@ const quickLinks = [
   { label: 'Privacy Policy', href: '/privacy-policy' },
 ];
 
-const areaLinks = [
-  { label: 'Gynaecologist in Attibele', href: '/attibele-gynaecologist' },
-  { label: 'Near Electronic City & Sarjapura', href: '/electronic-city-sarjapura-gynaecologist' },
-  { label: 'Near Chandapura & Hosur Road', href: '/chandapura-hosur-road-gynaecologist' },
-];
+// All 8 area hubs, sourced from lib/site.ts. Before Aug 2026 only 3 appeared
+// here, which left /jigani-gynaecologist with ZERO inbound internal links and
+// /anekal-gynaecologist with one — both were effectively invisible to crawlers.
+const areaLinks = AREA_HUBS;
 
 export default function Footer() {
   return (
