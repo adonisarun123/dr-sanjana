@@ -5,11 +5,12 @@ import { CheckCircle2, AlertCircle, ArrowRight, Calendar } from 'lucide-react';
 import { services, getServiceBySlug, getRelatedServices } from '@/lib/services';
 import { getLocationServicesForService } from '@/lib/locationServices';
 import { MapPin } from 'lucide-react';
-import { SITE_URL } from '@/lib/site';
+import { SITE_URL, CONTENT_LAST_REVISED } from '@/lib/site';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import FloatingButtons from '@/components/FloatingButtons';
 import BreadcrumbNav from '@/components/BreadcrumbNav';
+import MedicalReviewByline from '@/components/MedicalReviewByline';
 import FAQAccordion from '@/components/FAQAccordion';
 
 interface Props {
@@ -70,6 +71,27 @@ export default async function ServicePage({ params }: Props) {
     url: `${SITE_URL}/services/${service.slug}`,
   };
 
+  // MedicalWebPage — YMYL page-level attribution (see the money-page route and
+  // components/MedicalReviewByline.tsx for the rationale). One node, emitted
+  // here only; the byline component renders the visible half.
+  const medicalWebPageSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'MedicalWebPage',
+    '@id': `${SITE_URL}/services/${service.slug}/#medicalwebpage`,
+    url: `${SITE_URL}/services/${service.slug}`,
+    name: service.title,
+    description: service.metaDescription,
+    inLanguage: 'en-IN',
+    lastReviewed: CONTENT_LAST_REVISED.services,
+    author: { '@id': `${SITE_URL}/#physician` },
+    reviewedBy: { '@id': `${SITE_URL}/#physician` },
+    publisher: { '@id': `${SITE_URL}/#organization` },
+    about: { '@type': 'MedicalCondition', name: service.shortTitle },
+    specialty: 'https://schema.org/Gynecologic',
+    audience: { '@type': 'MedicalAudience', audienceType: 'Patient' },
+    isPartOf: { '@id': `${SITE_URL}/#website` },
+  };
+
   // BreadcrumbList JSON-LD for rich-results breadcrumbs in SERP
   const breadcrumbSchema = {
     '@context': 'https://schema.org',
@@ -100,6 +122,10 @@ export default async function ServicePage({ params }: Props) {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(medicalProcedureSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(medicalWebPageSchema) }}
       />
       <script
         type="application/ld+json"
@@ -140,6 +166,10 @@ export default async function ServicePage({ params }: Props) {
 
         <section className="section-sm bg-white">
           <div className="container-hn">
+            <MedicalReviewByline
+              reviewedOn={CONTENT_LAST_REVISED.services}
+              className="mx-auto mb-6 max-w-4xl"
+            />
             <div className="at-a-glance mx-auto max-w-4xl">
               <h2 className="mb-4 font-sans text-xl font-bold text-ink">
                 At a Glance — {service.shortTitle}

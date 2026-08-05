@@ -1677,6 +1677,794 @@ export const locationServices: LocationService[] = [
       'best gynaecologist HSR Layout delivery',
     ],
   },
+  /* ─────────────────────────────────────────────────────────────────────────
+     25. Pregnancy Care & Antenatal — HSR Layout
+  ───────────────────────────────────────────────────────────────────────── */
+  {
+    slug: 'pregnancy-care-hsr-layout',
+    title: 'Pregnancy Care & Antenatal Check-ups in HSR Layout',
+    shortTitle: 'Pregnancy Care — HSR Layout',
+    category: 'Obstetrics',
+    locality: 'HSR Layout',
+    clinic: 'hsr',
+    description:
+      'Complete antenatal care in HSR Layout with Dr. Sanjana L at Health Nest, Sector 2 — the same doctor from your first scan through to delivery day.',
+    overview:
+      'Finding out you are pregnant brings a rush of questions at once — when to book the first scan, which tests actually matter, what is safe to eat, and who will be in the room on the day. Dr. Sanjana L looks after expecting mothers across HSR Layout from Health Nest in Sector 2, guiding you from the first confirmed heartbeat right through to delivery. The first visit sets the foundation: dating the pregnancy on ultrasound, fixing your due date, checking blood group, haemoglobin, thyroid and infection screening, and starting folic acid. From there the antenatal calendar takes shape — an NT scan in the first trimester, the detailed anomaly scan at around twenty weeks, glucose screening in the second trimester, and growth scans in the closing weeks.\n\nWhat sets this practice apart is continuity. In large corporate chains you often meet whichever consultant is rostered that day, and the doctor who delivers your baby may be someone you have never met. Here the same doctor sees you at every visit, reads your own scan reports, remembers which of your readings ran borderline last month, and is the one planning your birth. Dr. Sanjana — MBBS, MS (OBG) Gold Medalist from RGUHS and FMAS-trained, with over ten years in obstetrics — also covers the practical side: your tetanus and Tdap vaccination schedule, safe travel and exercise, the warning signs that need a same-day call, and a birth plan discussed well before the due date. Consultations run in English, Hindi, Kannada and Telugu.',
+    whatToExpect: [
+      'A first visit with dating scan, due-date confirmation and baseline bloods',
+      'A trimester-by-trimester schedule of visits, scans and screening tests',
+      'NT scan and anomaly (TIFFA) scan timed correctly, with findings explained',
+      'Glucose, thyroid, haemoglobin and blood-pressure checks at the right weeks',
+      'Your tetanus and Tdap vaccination schedule tracked for you',
+      'Growth and Doppler scans through the third trimester',
+      'A birth plan agreed and written down before the due date',
+    ],
+    whyChoose: [
+      'The same doctor from your first visit to the delivery room',
+      'MS (OBG) Gold Medalist with 10+ years in obstetrics',
+      'Unhurried appointments — time to ask everything on your list',
+      'Health Nest, Sector 2 — reachable from most of HSR Layout in minutes',
+      'Multilingual consultations — English, Hindi, Kannada, Telugu',
+    ],
+    nearbyAreas: ['HSR Layout', 'Agara', 'Koramangala', 'BTM Layout', 'Bommanahalli', 'Sarjapur Road', 'Harlur'],
+    faqs: [
+      {
+        q: 'When should I book my first pregnancy check-up?',
+        a: 'Book as soon as a home test reads positive — ideally between six and eight weeks. That first visit confirms the pregnancy is sitting in the right place, dates it accurately on ultrasound, and picks up anything needing early attention, such as low haemoglobin or an untreated thyroid problem. Starting folic acid matters most in these first weeks.',
+      },
+      {
+        q: 'Which pregnancy doctor should I see in HSR Layout?',
+        a: 'Dr. Sanjana L, MS (OBG), sees expecting mothers at Health Nest, 1162, 24th Main Rd, Sector 2, HSR Layout, Monday to Saturday between 10 AM and 8 PM. Call +91 94490 31003 to book an antenatal appointment. She follows her own patients from the first visit through to delivery, so you are never handed to an unfamiliar consultant.',
+      },
+      {
+        q: 'How many scans are needed during pregnancy?',
+        a: 'A straightforward pregnancy usually needs three to four: a dating scan in the first trimester, an NT scan at eleven to thirteen weeks, the detailed anomaly scan at around twenty weeks, and a growth scan in the third trimester. Extra scans are added only when a specific finding or condition calls for closer monitoring.',
+      },
+      {
+        q: 'How often will I have antenatal visits?',
+        a: 'Typically once a month until twenty-eight weeks, then fortnightly until thirty-six weeks, and weekly after that until delivery. The schedule tightens if you develop gestational diabetes, raised blood pressure or any condition needing a closer watch, and Dr. Sanjana explains the reason behind every additional visit.',
+      },
+    ],
+    serviceSlug: 'pregnancy-care',
+    hubHref: '/hsr-layout-gynaecologist',
+    hubLabel: 'Gynaecologist in HSR Layout',
+    schemaType: 'MedicalProcedure',
+    metaTitle: 'Pregnancy Doctor in HSR Layout | Dr. Sanjana L',
+    metaDescription:
+      'Antenatal and pregnancy care in HSR Layout with Dr. Sanjana L (MS OBG) at Health Nest, Sector 2 — scans, screening and the same doctor through to delivery.',
+    keywords: [
+      'pregnancy doctor HSR Layout',
+      'obstetrician in HSR Layout',
+      'antenatal check-up HSR Layout',
+      'best pregnancy care HSR Layout Bangalore',
+      'first pregnancy visit HSR Layout',
+      'lady obstetrician near HSR Layout Sector 2',
+    ],
+  },
+
+  /* ─────────────────────────────────────────────────────────────────────────
+     26. Maternity & Delivery Package Costs — HSR Layout
+  ───────────────────────────────────────────────────────────────────────── */
+  {
+    slug: 'maternity-package-cost-hsr-layout',
+    title: 'Maternity & Delivery Package Costs in HSR Layout, Explained',
+    shortTitle: 'Delivery Package Costs — HSR Layout',
+    category: 'Obstetrics',
+    locality: 'HSR Layout',
+    clinic: 'hsr',
+    description:
+      'What actually drives the cost of a delivery in Bangalore, how cashless maternity insurance works, and the questions to ask any hospital before you book a package.',
+    overview:
+      'Almost every family planning a delivery in Bangalore starts with the same question, and almost no website answers it honestly. A delivery does not have one price — it has a set of variables. Whether the birth is normal or caesarean is the single biggest factor, followed by the room category you choose, how many nights you stay, whether you opt for an epidural, and how much extra monitoring your pregnancy needs. Add routine newborn care, and any complication that calls for a longer stay or specialist input, and two mothers in the same hospital can leave with very different bills. This page sets out each of those variables so you can read any hospital quote and understand exactly what you are being charged for.\n\nOn insurance: most maternity covers carry a waiting period, a defined sub-limit and a list of exclusions, so it is worth confirming your eligibility in the second trimester rather than in labour. Keep your policy number, corporate ID card, employer letter, KYC documents and your antenatal records together in one folder — cashless approvals stall far more often on missing paperwork than on medical grounds. Dr. Sanjana L consults at Health Nest, Sector 2, HSR Layout, and prefers to talk through the delivery route your pregnancy is actually pointing towards before anyone discusses numbers, because an estimate given without knowing your history is only a guess. Then compare quotes on the same basis, using the checklist below.',
+    whatToExpect: [
+      'A plain breakdown of the cost drivers: birth type, room category, length of stay',
+      'Ask any hospital: what exactly is inside the package, and what is billed separately?',
+      'Ask: how many nights are covered, and what applies if the stay runs longer?',
+      'Ask: are the epidural, anaesthetist and theatre charges included or extra?',
+      'Ask: if a planned normal delivery becomes a caesarean, how does the package change?',
+      'Ask: what routine newborn care is covered, and how is nursery or NICU care billed?',
+      'Ask: is cashless approved here for my insurer, and which documents are needed?',
+    ],
+    whyChoose: [
+      'A straight explanation of what moves the total before you commit to anything',
+      'Normal-delivery-first approach — surgery only where it is medically needed',
+      'Guidance on cashless insurance and the paperwork to keep ready',
+      'An estimate built around your actual pregnancy, not a generic advertised figure',
+      'Health Nest, Sector 2, HSR Layout — easy to reach for a short planning visit',
+    ],
+    nearbyAreas: ['HSR Layout', 'Agara', 'Koramangala', 'Bommanahalli', 'BTM Layout', 'Sarjapur Road', 'Begur'],
+    faqs: [
+      {
+        q: 'What decides how much a delivery costs in Bangalore?',
+        a: 'Six things, mainly: whether the birth is normal or caesarean, the room category, the number of nights you stay, whether you have an epidural, how much extra monitoring the pregnancy needs, and any newborn or complication care. Change any one of them and the total moves, which is why advertised figures rarely match a final bill.',
+      },
+      {
+        q: 'Where can I get a maternity package quote in HSR Layout?',
+        a: 'Dr. Sanjana L consults at Health Nest, 1162, 24th Main Rd, Sector 2, HSR Layout, Monday to Saturday, 10 AM to 8 PM. Call +91 94490 31003 and the team will walk you through package inclusions, room options and cashless insurance, then prepare an itemised estimate based on your own pregnancy rather than an average.',
+      },
+      {
+        q: 'Does health insurance cover a normal delivery or caesarean?',
+        a: 'Many policies do, but maternity benefit usually carries a waiting period before it starts, a sub-limit on the amount payable, and rules about which expenses count. Check your eligibility in the second trimester, confirm whether the hospital sits in your insurer network, and keep policy and KYC documents ready to avoid last-minute delays.',
+      },
+      {
+        q: 'Why will nobody quote a delivery price over the phone?',
+        a: 'Because an honest figure depends on facts nobody knows yet — how labour progresses, which room you choose, and whether mother or baby needs extra care. A short consultation lets the likely delivery route be assessed first, so the estimate you receive reflects your pregnancy instead of a number that later has to be revised.',
+      },
+    ],
+    serviceSlug: 'pregnancy-care',
+    hubHref: '/hsr-layout-gynaecologist',
+    hubLabel: 'Gynaecologist in HSR Layout',
+    schemaType: 'MedicalProcedure',
+    metaTitle: 'Delivery Package Costs in HSR Layout | Explained',
+    metaDescription:
+      'What drives delivery and caesarean package costs in HSR Layout — birth type, room, stay, epidural and cashless insurance, plus what to ask before booking.',
+    keywords: [
+      'delivery package HSR Layout',
+      'maternity package HSR Layout',
+      'normal delivery charges HSR Layout',
+      'C-section package HSR Layout Bangalore',
+      'cashless delivery insurance HSR Layout',
+      'maternity hospital packages near HSR Layout',
+    ],
+  },
+
+  /* ─────────────────────────────────────────────────────────────────────────
+     27. Pregnancy Scans & Prenatal Screening — HSR Layout
+  ───────────────────────────────────────────────────────────────────────── */
+  {
+    slug: 'pregnancy-scan-ultrasound-hsr-layout',
+    title: 'Pregnancy Scans & Prenatal Screening in HSR Layout',
+    shortTitle: 'Pregnancy Scans — HSR Layout',
+    category: 'Obstetrics',
+    locality: 'HSR Layout',
+    clinic: 'hsr',
+    description:
+      'A scan-by-scan pregnancy calendar for HSR Layout — dating, NT, anomaly, growth and Doppler scans plus NIPT, with results explained clearly by Dr. Sanjana L.',
+    overview:
+      'Scans are the part of pregnancy most mothers count down to, and also the part that stirs the most anxiety in the minutes before a report is read. Dr. Sanjana L runs a clear, well-timed screening schedule for expecting mothers in HSR Layout from Health Nest in Sector 2, so you know which scan falls due when and, just as importantly, what each one can and cannot tell you. The calendar opens with a dating scan between six and nine weeks, confirming the pregnancy is inside the uterus and fixing your due date. The NT scan follows between eleven and thirteen weeks plus six days, usually paired with the double marker blood test. The detailed anomaly or TIFFA scan sits between eighteen and twenty-two weeks.\n\nFrom twenty-eight weeks onward, growth scans track how well the baby is putting on weight, with Doppler studies added where the placenta or blood flow warrants a closer look, generally up to around thirty-six weeks. Non-invasive prenatal testing, or NIPT, is a maternal blood test that screens for the common chromosomal conditions with greater accuracy than the double marker, and it is offered where first-trimester screening comes back borderline, where there is a relevant history, or simply where parents want it. Every one of these tests screens rather than diagnoses. A soft marker on an anomaly scan is a minor finding that nudges probability, not a verdict, and most babies who have one are entirely well.',
+    whatToExpect: [
+      'Dating scan at six to nine weeks — location, viability and an accurate due date',
+      'NT scan between eleven and thirteen weeks plus six days, with the double marker',
+      'Anomaly (TIFFA) scan between eighteen and twenty-two weeks',
+      'Growth and Doppler scans from around twenty-eight to thirty-six weeks',
+      'NIPT discussed where screening is borderline or your history suggests it',
+      'Findings explained in plain language, including what a soft marker means',
+      'A defined next step whenever something needs following up',
+    ],
+    whyChoose: [
+      'A written scan calendar so no timing window is missed',
+      'Reports reviewed by the doctor who is following your whole pregnancy',
+      'Honest framing — screening gives probabilities, not certainties',
+      'MS (OBG) Gold Medalist, FMAS-trained, 10+ years in obstetrics',
+      'Health Nest, Sector 2 — central to HSR Layout, Agara and Harlur',
+    ],
+    nearbyAreas: ['HSR Layout', 'Agara', 'Harlur', 'Koramangala', 'Bommanahalli', 'Sarjapur Road', 'Somasundarapalya'],
+    faqs: [
+      {
+        q: 'What scans are needed during pregnancy and when?',
+        a: 'Four scans cover a routine pregnancy: a dating scan at six to nine weeks, an NT scan between eleven and thirteen weeks plus six days, the anomaly or TIFFA scan at eighteen to twenty-two weeks, and growth scans from around twenty-eight weeks. Anything beyond that is added only when a finding or medical condition calls for it.',
+      },
+      {
+        q: 'Where can I get an NT scan or anomaly scan in HSR Layout?',
+        a: 'Dr. Sanjana L arranges and reviews pregnancy scans for patients at Health Nest, 1162, 24th Main Rd, Sector 2, HSR Layout, open Monday to Saturday from 10 AM to 8 PM. Call +91 94490 31003 to book, ideally a week before your scan window opens, since both the NT and anomaly scans are time-sensitive.',
+      },
+      {
+        q: 'What does a soft marker on the anomaly scan mean?',
+        a: 'A soft marker is a minor, often harmless finding that slightly shifts the statistical chance of a chromosomal condition — it is not a diagnosis. Most babies with an isolated soft marker are completely well. Your doctor reads it alongside your screening results and history, and may suggest a repeat scan or further testing.',
+      },
+      {
+        q: 'Is NIPT better than the double marker test?',
+        a: 'NIPT screens for the common chromosomal conditions more accurately than the double marker, but it remains a screening test rather than a diagnosis, so a high-chance result still needs confirmatory testing. It is usually discussed when first-trimester screening is borderline, when there is a relevant history, or when parents want more reassurance.',
+      },
+    ],
+    serviceSlug: 'prenatal-screening',
+    hubHref: '/hsr-layout-gynaecologist',
+    hubLabel: 'Gynaecologist in HSR Layout',
+    schemaType: 'MedicalProcedure',
+    metaTitle: 'Pregnancy Scans & NT Scan in HSR Layout | Dr. Sanjana',
+    metaDescription:
+      'Pregnancy scan calendar for HSR Layout — dating, NT, anomaly (TIFFA), growth and Doppler scans plus NIPT, timed correctly and explained by Dr. Sanjana L.',
+    keywords: [
+      'pregnancy scan HSR Layout',
+      'NT scan HSR Layout',
+      'anomaly scan TIFFA HSR Layout',
+      'growth scan in pregnancy HSR Layout',
+      'NIPT test Bangalore HSR Layout',
+      'double marker test near HSR Layout',
+    ],
+  },
+  /* ─────────────────────────────────────────────────────────────────────────
+     28. Adolescent & Teenage Gynaecology — HSR Layout
+  ───────────────────────────────────────────────────────────────────────── */
+  {
+    slug: 'adolescent-gynaecology-hsr-layout',
+    title: 'Adolescent & Teenage Gynaecology in HSR Layout, Bangalore',
+    shortTitle: 'Teenage Gynaecology — HSR Layout',
+    category: 'Gynaecology',
+    locality: 'HSR Layout',
+    clinic: 'hsr',
+    description:
+      'Gentle gynaecology care for girls aged 13 to 17 in HSR Layout — periods, teenage PCOS, acne and HPV vaccination — with Dr. Sanjana L at Health Nest.',
+    overview:
+      'If your daughter has just started her periods and something feels wrong — cycles that are wildly irregular, bleeding that soaks through at school, cramps that keep her in bed for two days — you deserve a proper answer rather than late-night searching. Dr. Sanjana L sees girls of roughly 13 to 17 at Health Nest in HSR Layout Sector 2, and one thing is worth saying before anything else: a first adolescent gynaecology visit almost never involves an internal examination. It is a conversation, a general physical check, and, if the story calls for it, an abdominal ultrasound or a blood test. Knowing that in advance removes the biggest single reason these appointments get postponed, sometimes for years.\n\nFamilies come in about very heavy or very painful periods, cycles that have not settled eighteen months to two years after they began, suspected polycystic ovary syndrome alongside acne or excess facial and body hair, sudden weight change, and questions about the right timing for HPV vaccination. There is also plain, practical guidance on pads, tampons and menstrual cups, and on what good hygiene actually requires. Dr. Sanjana — MBBS, MS (OBG) Gold Medalist from RGUHS, with over 10 years of experience — explains findings to mother and daughter together in English, Hindi, Kannada or Telugu. A parent may stay in the room for the whole visit, and the teenager’s dignity and confidentiality are treated as non-negotiable.',
+    whatToExpect: [
+      'A first visit built around conversation, not examination',
+      'A menstrual history — cycle length, flow, pain, school days missed',
+      'General checks only: height, weight, blood pressure, thyroid, skin and hair',
+      'An abdominal ultrasound or hormone blood tests only where the story warrants it',
+      'Plain guidance on pads, tampons, menstrual cups and hygiene',
+      'Advice on HPV vaccination and the right age to give it',
+      'A parent may stay throughout, with the teenager’s privacy respected',
+    ],
+    whyChoose: [
+      'A dedicated adolescent consultation, not a rushed add-on to an adult clinic',
+      'Explained twice over — once for the mother, once in the teenager’s own language',
+      'MS (OBG) Gold Medalist with 10+ years of experience across all ages',
+      'Health Nest, Sector 2, easy to reach after school hours',
+      'Consultations in English, Hindi, Kannada or Telugu',
+    ],
+    nearbyAreas: ['HSR Layout', 'Somasundarapalya', 'Agara', 'Koramangala', 'Sarjapur Road', 'Bommanahalli', 'Harlur'],
+    faqs: [
+      {
+        q: 'Will my daughter need an internal examination?',
+        a: 'Almost certainly not. A first adolescent gynaecology visit is a conversation about cycles, symptoms and general health, followed by routine external checks such as height, weight and blood pressure. Where more information is needed, an abdominal ultrasound or a blood test is used instead. Nothing is ever done without explaining it first and asking her.',
+      },
+      {
+        q: 'Where can I find a teenage gynaecologist in HSR Layout?',
+        a: 'Dr. Sanjana L holds adolescent and teenage gynaecology consultations at Health Nest, 1162, 24th Main Road, Sector 2, HSR Layout, Monday to Saturday between 10 AM and 8 PM. Call +91 94490 31003 to book. Mothers usually make the first appointment and are welcome to stay in the room for it.',
+      },
+      {
+        q: 'At what age should a girl first see a gynaecologist?',
+        a: 'There is no fixed age, and most girls never need to. A visit is worth making if periods have not started by about 15 or 16, if bleeding is heavy enough to disrupt school, if pain is severe, if cycles remain very irregular two years after they began, or if there is stubborn acne, excess hair or rapid weight gain.',
+      },
+      {
+        q: 'Does PCOS in a teenager mean she cannot have children later?',
+        a: 'No. Polycystic ovary syndrome is not infertility. It is a hormonal and metabolic pattern that responds well to early, unhurried attention — sleep, activity, diet and sometimes medication — and many women with PCOS conceive naturally. Recognising it in the teenage years is an advantage, because it allows years of steady management instead of a scramble later.',
+      },
+    ],
+    serviceSlug: 'adolescent-gynaecology',
+    hubHref: '/hsr-layout-gynaecologist',
+    hubLabel: 'Gynaecologist in HSR Layout',
+    schemaType: 'MedicalProcedure',
+    metaTitle: 'Teenage Gynaecologist in HSR Layout | Dr. Sanjana L',
+    metaDescription:
+      'Adolescent gynaecology in HSR Layout with Dr. Sanjana L at Health Nest — teenage periods, PCOS, acne and HPV vaccine. First visit needs no internal exam.',
+    keywords: [
+      'teenage gynaecologist HSR Layout',
+      'adolescent gynaecologist in Bangalore',
+      'irregular periods in teenage girl doctor HSR Layout',
+      'teenage PCOS treatment HSR Layout',
+      'painful periods teenager doctor Bangalore',
+      'HPV vaccination for girls HSR Layout',
+    ],
+  },
+
+  /* ─────────────────────────────────────────────────────────────────────────
+     29. Menopause & Perimenopause Care — HSR Layout
+  ───────────────────────────────────────────────────────────────────────── */
+  {
+    slug: 'menopause-treatment-hsr-layout',
+    title: 'Menopause & Perimenopause Care in HSR Layout, Bangalore',
+    shortTitle: 'Menopause Care — HSR Layout',
+    category: 'Gynaecology',
+    locality: 'HSR Layout',
+    clinic: 'hsr',
+    description:
+      'Menopause and perimenopause care in HSR Layout — hot flushes, sleep, mood, irregular bleeding, bone health and honest HRT advice — with Dr. Sanjana L.',
+    overview:
+      'Waking at three in the morning for no reason. A temper you do not recognise as your own. Knees and shoulders that ache, a heart that races on the stairs, words that go missing mid-sentence. Most women in their forties never connect any of this to hormones, and being told it is just your age settles nothing. For women across HSR Layout, Dr. Sanjana L offers a structured perimenopause and menopause consultation at Health Nest, Sector 2, that begins by taking every symptom seriously — including the ones that seem to have nothing to do with periods — and placing them against where you actually are in the transition.\n\nPerimenopause can run for several years before periods stop for good, and cycles often turn erratic along the way. Some of that irregularity is expected. Some is not: bleeding that is very heavy, that comes between cycles, or that returns after twelve months without a period needs investigation rather than reassurance. Consultations also cover hot flushes and night sweats, vaginal dryness and painful intercourse, mood and sleep, bone health with calcium and vitamin D, and checks on thyroid and haemoglobin. Menopausal hormone therapy is discussed evenly — who it tends to suit, who it does not, and why timing matters. It is a conversation to be had, not a default to be handed out.',
+    whatToExpect: [
+      'A full symptom review, including sleep, mood, joints and concentration',
+      'A clear explanation of where you are — perimenopause or post-menopause',
+      'Assessment of irregular or heavy bleeding, with a scan where indicated',
+      'Blood tests for thyroid, haemoglobin, sugar and vitamin D as needed',
+      'Practical treatment for vaginal dryness and painful intercourse',
+      'Bone health guidance — calcium, vitamin D, weight-bearing activity',
+      'A balanced discussion of hormone therapy and the non-hormonal alternatives',
+    ],
+    whyChoose: [
+      'Symptoms taken seriously instead of attributed to age',
+      'Bleeding changes investigated properly, not simply reassured away',
+      'Honest, non-alarmist guidance on menopausal hormone therapy',
+      'MS (OBG) Gold Medalist with 10+ years in women’s health',
+      'Unhurried consultations in English, Hindi, Kannada or Telugu',
+    ],
+    nearbyAreas: ['HSR Layout', 'BTM Layout', 'Silk Board', 'Kudlu Gate', 'Agara', 'Sarjapur Road', 'Bommanahalli'],
+    faqs: [
+      {
+        q: 'What are the early signs of perimenopause?',
+        a: 'The earliest signs are often not hot flushes. Broken sleep, unfamiliar anxiety or irritability, joint aches, brain fog, palpitations and a dip in energy commonly arrive first, alongside cycles that shorten, lengthen or skip. Perimenopause can start in the early forties and last several years before periods stop altogether.',
+      },
+      {
+        q: 'Where can I see a doctor for menopause in HSR Layout?',
+        a: 'Dr. Sanjana L offers menopause and perimenopause consultations at Health Nest, 1162, 24th Main Road, Sector 2, HSR Layout, open Monday to Saturday from 10 AM to 8 PM. Call +91 94490 31003 for an appointment. Bring a note of your recent cycle dates and symptoms if you can.',
+      },
+      {
+        q: 'Is hormone therapy for menopause safe?',
+        a: 'For many women in early menopause with troublesome symptoms, menopausal hormone therapy is a reasonable and effective option; for others, personal or family history makes it unsuitable. Age, time since your last period, symptom severity and medical history all shape the answer, so it is decided case by case after discussion, never automatically.',
+      },
+      {
+        q: 'Is heavy bleeding normal during perimenopause?',
+        a: 'Cycles commonly become irregular, but bleeding is not automatically harmless. Flooding, clots, periods lasting well over a week, bleeding between cycles, bleeding after intercourse, or any bleeding once you have gone twelve months without a period should be examined and scanned rather than accepted as part of the change.',
+      },
+    ],
+    serviceSlug: 'menopause-management',
+    hubHref: '/hsr-layout-gynaecologist',
+    hubLabel: 'Gynaecologist in HSR Layout',
+    schemaType: 'MedicalProcedure',
+    metaTitle: 'Menopause Treatment in HSR Layout | Dr. Sanjana L',
+    metaDescription:
+      'Menopause and perimenopause care in HSR Layout with Dr. Sanjana L at Health Nest, Sector 2 — hot flushes, sleep, mood, bleeding changes and balanced HRT advice.',
+    keywords: [
+      'menopause doctor HSR Layout',
+      'perimenopause treatment Bangalore',
+      'hot flushes treatment HSR Layout',
+      'irregular periods after 45 doctor HSR Layout',
+      'hormone replacement therapy gynaecologist Bangalore',
+      'menopause specialist near HSR Layout',
+    ],
+  },
+
+  /* ─────────────────────────────────────────────────────────────────────────
+     30. Uterine Fibroid Treatment — HSR Layout
+  ───────────────────────────────────────────────────────────────────────── */
+  {
+    slug: 'uterine-fibroids-treatment-hsr-layout',
+    title: 'Uterine Fibroid Treatment in HSR Layout, Bangalore',
+    shortTitle: 'Fibroid Treatment — HSR Layout',
+    category: 'Gynaecology',
+    locality: 'HSR Layout',
+    clinic: 'hsr',
+    description:
+      'Fibroid care in HSR Layout with Dr. Sanjana L at Health Nest — monitoring, medical treatment and uterus-preserving keyhole myomectomy where surgery is needed.',
+    overview:
+      'Being told after a scan that you have fibroids is unsettling, and for most women the next thought is that a hysterectomy is coming. For the majority, it is not. Fibroids are non-cancerous growths in the muscular wall of the uterus, they are extremely common, and a great many are picked up incidentally on a scan done for something else and never cause a single symptom. Where there are no symptoms and the fibroid is not in a troublesome position, the correct answer is usually monitoring with a repeat scan, not an operation. Dr. Sanjana L sees women with newly diagnosed fibroids at Health Nest in HSR Layout Sector 2, and the visit generally starts with translating your scan report into plain language.\n\nPosition matters more than size. A small submucosal fibroid pushing into the cavity of the uterus can cause heavy bleeding and interfere with conception, while a considerably larger subserosal one sitting on the outer surface may cause nothing at all; intramural fibroids grow within the wall and behave somewhere between the two. Treatment follows a ladder — watchful monitoring, then medical management for heavy bleeding and the anaemia that follows it, then uterus-preserving surgery such as hysteroscopic or laparoscopic myomectomy when symptoms justify it. Dr. Sanjana is FMAS-trained in minimally invasive surgery, so keyhole options are weighed properly. Hysterectomy sits at the end of that ladder, not the start.',
+    whatToExpect: [
+      'Your scan report explained — number, size and, crucially, position',
+      'A symptom review covering bleeding, pain, pressure, bowel and bladder',
+      'Haemoglobin and iron studies where periods have been heavy',
+      'Reassurance and a monitoring plan when no treatment is needed',
+      'Medical options to control bleeding before surgery is considered',
+      'Discussion of hysteroscopic or laparoscopic myomectomy that preserves the uterus',
+      'Fertility and pregnancy planning factored into every recommendation',
+    ],
+    whyChoose: [
+      'Monitoring offered first where fibroids are genuinely harmless',
+      'FMAS-trained in minimally invasive and keyhole gynaecological surgery',
+      'Uterus-preserving myomectomy discussed before hysterectomy',
+      'Scan findings explained in full, without jargon or alarm',
+      'Health Nest, Sector 2, HSR Layout — Monday to Saturday, 10 AM to 8 PM',
+    ],
+    nearbyAreas: ['HSR Layout', 'Harlur', 'Kasavanahalli', 'Koramangala', 'Singasandra', 'Agara', 'Begur Road'],
+    faqs: [
+      {
+        q: 'Do fibroids always need surgery?',
+        a: 'No. Many fibroids are found by chance, cause no symptoms and need nothing more than a repeat scan to confirm they are stable. Surgery is considered when there is heavy bleeding, anaemia, pressure on the bladder or bowel, pain, or an effect on fertility — and even then, uterus-preserving options come first.',
+      },
+      {
+        q: 'Where can I get fibroid treatment in HSR Layout?',
+        a: 'Dr. Sanjana L assesses and treats uterine fibroids at Health Nest, 1162, 24th Main Road, Sector 2, HSR Layout, Monday to Saturday from 10 AM to 8 PM. Call +91 94490 31003 to book. Carry your ultrasound report and any recent blood test results to the consultation.',
+      },
+      {
+        q: 'Can fibroids be removed without removing the uterus?',
+        a: 'Yes. A myomectomy removes the fibroids and leaves the uterus in place, performed hysteroscopically through the cervix for fibroids inside the cavity, or laparoscopically through small keyhole incisions for those in or on the wall. Dr. Sanjana is FMAS-trained in minimally invasive surgery, so these routes are assessed before hysterectomy is raised.',
+      },
+      {
+        q: 'Do fibroids affect fertility or pregnancy?',
+        a: 'It depends almost entirely on position. Submucosal fibroids distorting the cavity of the uterus can interfere with implantation and are the ones most likely to need removal before conception. Fibroids sitting on the outer surface often have no effect at all. Many women with fibroids conceive and carry a pregnancy without difficulty.',
+      },
+    ],
+    serviceSlug: 'uterine-fibroids-treatment',
+    hubHref: '/hsr-layout-gynaecologist',
+    hubLabel: 'Gynaecologist in HSR Layout',
+    schemaType: 'MedicalProcedure',
+    metaTitle: 'Uterine Fibroid Treatment in HSR Layout | Dr. Sanjana',
+    metaDescription:
+      'Fibroid treatment in HSR Layout with Dr. Sanjana L at Health Nest, Sector 2 — monitoring, medical management and uterus-preserving keyhole myomectomy surgery.',
+    keywords: [
+      'fibroid treatment HSR Layout',
+      'uterine fibroid doctor Bangalore',
+      'laparoscopic myomectomy HSR Layout',
+      'fibroid surgery without hysterectomy Bangalore',
+      'heavy periods fibroids doctor HSR Layout',
+      'fibroid specialist near HSR Layout',
+    ],
+  },
+  /* ─────────────────────────────────────────────────────────────────────────
+     31. Lady / Female Gynaecologist — Koramangala
+  ───────────────────────────────────────────────────────────────────────── */
+  {
+    slug: 'lady-gynaecologist-koramangala',
+    title: 'Lady Gynaecologist in Koramangala, Bangalore',
+    shortTitle: 'Lady Gynaecologist — Koramangala',
+    category: 'Gynaecology',
+    locality: 'Koramangala',
+    clinic: 'hsr',
+    description:
+      'A lady gynaecologist within easy reach of Koramangala — Dr. Sanjana L consults until 8 PM at Health Nest, HSR Layout Sector 2, a short drive down Sarjapur Road.',
+    overview:
+      'Koramangala runs on long working days. Between standups, client calls and a commute that only worsens after six in the evening, the gynaecology appointment is usually the thing that gets pushed to next month, and then the month after. Dr. Sanjana L consults until 8 PM, Monday to Saturday, at Health Nest on 24th Main Road in HSR Layout Sector 2. For women in 6th, 7th and 8th Block, that is a ten to fifteen minute run down Sarjapur Road past the Agara junction. From 1st to 5th Block, Ejipura and Adugodi, 80 Feet Road is generally the simpler approach, and off-peak the drive is shorter than crossing Koramangala itself.\n\nWhat tends to matter more than the drive is seeing the same doctor each time. Dr. Sanjana — MBBS, MS (OBG) Gold Medalist (RGUHS), FMAS-trained, with more than 10 years in practice — follows her own patients, so your cycle history, scan reports and treatment plan never have to be re-explained to an unfamiliar face. Care spans first gynaecology consultations, irregular periods and PCOS, contraception, pregnancy and delivery, fertility concerns, menopause and laparoscopic gynaecological surgery. Consultations are held in English, Hindi, Kannada or Telugu, and evening slots mean most visits fit after work rather than costing you half a day of leave.',
+    whatToExpect: [
+      'Evening consulting slots up to 8 PM, Monday to Saturday',
+      'The same gynaecologist at every visit, not a rotating panel',
+      'A private, unhurried consultation with a female doctor',
+      'Straight answers on what a symptom means and what comes next',
+      'Scans, blood work and prescriptions explained without jargon',
+      'Consultations in English, Hindi, Kannada or Telugu',
+      'Follow-up scheduled around a working week',
+    ],
+    whyChoose: [
+      'Ten to fifteen minutes from most Koramangala blocks via Sarjapur Road or 80 Feet Road',
+      'Consulting hours that run to 8 PM, so visits fit around office hours',
+      'MBBS, MS (OBG) Gold Medalist (RGUHS), FMAS-trained · 10+ years in practice',
+      'Continuity — Dr. Sanjana carries your case herself from the first visit onwards',
+      'Multilingual care — English, Hindi, Kannada, Telugu',
+    ],
+    nearbyAreas: ['Koramangala', 'Ejipura', 'Adugodi', 'HSR Layout', 'Agara', 'Domlur', 'BTM Layout'],
+    faqs: [
+      {
+        q: 'Where can I see a lady gynaecologist near Koramangala?',
+        a: 'Dr. Sanjana L consults at Health Nest, 1162, 24th Main Road, Sector 2, HSR Layout — roughly ten to fifteen minutes from most Koramangala blocks via Sarjapur Road and the Agara junction. Clinic hours are Monday to Saturday, 10 AM to 8 PM. Call +91 94490 31003 to book a slot.',
+      },
+      {
+        q: 'Are there appointments after office hours?',
+        a: 'Yes. Consulting runs until 8 PM, Monday to Saturday, which suits most people working in Koramangala or along Sarjapur Road. Evening slots are the first to fill, so booking a day or two ahead is sensible — call +91 94490 31003 and pick a time that sits outside your working hours.',
+      },
+      {
+        q: 'Will I see the same doctor at every visit?',
+        a: 'Yes. Dr. Sanjana sees her own patients each time, so there is no re-explaining your history to somebody new. That continuity counts most in pregnancy, PCOS management and fertility work, where good decisions depend on how things have shifted across several months rather than on one isolated consultation.',
+      },
+      {
+        q: 'What is the quickest route from Koramangala to the HSR clinic?',
+        a: 'From 6th, 7th and 8th Block, take Sarjapur Road towards Agara and turn into HSR Sector 2 — usually the fastest run. From 1st to 5th Block, Ejipura and Adugodi, 80 Feet Road down to Sarjapur Road is generally easier. Outside peak hours the drive is around ten minutes.',
+      },
+    ],
+    serviceSlug: 'pregnancy-care',
+    hubHref: '/hsr-layout-gynaecologist',
+    hubLabel: 'Gynaecologist in HSR Layout',
+    schemaType: 'MedicalBusiness',
+    metaTitle: 'Lady Gynaecologist in Koramangala | Dr. Sanjana L',
+    metaDescription:
+      'Lady gynaecologist near Koramangala — Dr. Sanjana L (MS OBG Gold Medalist) at Health Nest, HSR Sector 2. Evening slots to 8 PM and the same doctor each visit.',
+    keywords: [
+      'lady gynaecologist Koramangala',
+      'female gynaecologist near Koramangala',
+      'gynaecologist in Koramangala Bangalore',
+      'lady gynaecologist near me Koramangala',
+      'evening gynaecologist appointment Koramangala',
+      'lady doctor for pregnancy Koramangala',
+    ],
+  },
+
+  /* ─────────────────────────────────────────────────────────────────────────
+     32. Lady / Female Gynaecologist — Sarjapura Road
+  ───────────────────────────────────────────────────────────────────────── */
+  {
+    slug: 'lady-gynaecologist-sarjapura-road',
+    title: 'Lady Gynaecologist on Sarjapura Road, Bangalore',
+    shortTitle: 'Lady Gynaecologist — Sarjapura Road',
+    category: 'Gynaecology',
+    locality: 'Sarjapura Road',
+    clinic: 'hsr',
+    description:
+      'Dr. Sanjana L is a lady gynaecologist consulting at two points along Sarjapura Road — Health Nest in HSR Layout and Raghava Multispeciality Hospital, Attibele.',
+    overview:
+      'The Sarjapura Road corridor has filled up with young families, and that stage brings its own set of questions — planning a first pregnancy, sorting out cycles that have gone irregular, choosing contraception after a baby. What it needs is a gynaecologist who is genuinely reachable on a weekday. Dr. Sanjana L consults at both ends of this corridor. Health Nest, 1162, 24th Main Road, HSR Layout Sector 2 (+91 94490 31003) is the practical choice for Haralur, Kudlu Gate and Bellandur. Raghava Multispeciality Hospital on Sarjapura–Attibele Road (+91 99800 31006) is the easier stop for families around Dommasandra, Carmelaram and the layouts out past Kaikondrahalli.\n\nBecause it is the same doctor at both addresses, you can pick whichever end is closer on the day without starting over with somebody new — your notes, scan reports and plan travel with you. Dr. Sanjana holds MBBS and MS (OBG) as a Gold Medalist of RGUHS, is FMAS-trained, and brings more than 10 years of practice across antenatal care and delivery, PCOS and period problems, fertility concerns, contraception, menopause and laparoscopic gynaecological surgery. Consultations happen in English, Hindi, Kannada or Telugu. For anyone who has watched Sarjapura Road traffic decide how their evening will go, a choice of two clinics is a practical arrangement rather than a slogan.',
+    whatToExpect: [
+      'A choice of two locations — HSR Layout Sector 2 or Sarjapura–Attibele Road',
+      'The same gynaecologist at both, with your records carried across',
+      'Antenatal visits timed around the corridor traffic rather than against it',
+      'A private consultation with a female doctor and time to actually talk',
+      'Scans and blood work explained, including what each result changes',
+      'Consultations in English, Hindi, Kannada or Telugu',
+      'Delivery planning discussed well ahead of the due date',
+    ],
+    whyChoose: [
+      'Two consulting locations on the same corridor — attend whichever end is closer',
+      'Health Nest, 1162, 24th Main Road, HSR Layout Sector 2 — +91 94490 31003',
+      'Raghava Multispeciality Hospital, Sarjapura–Attibele Road — +91 99800 31006',
+      'MBBS, MS (OBG) Gold Medalist (RGUHS), FMAS-trained · 10+ years',
+      'Multilingual care — English, Hindi, Kannada, Telugu',
+    ],
+    nearbyAreas: ['Sarjapur Road', 'Haralur', 'Kaikondrahalli', 'Bellandur', 'Carmelaram', 'Dommasandra', 'Kudlu Gate'],
+    faqs: [
+      {
+        q: 'Where can I find a lady gynaecologist on Sarjapura Road?',
+        a: 'Dr. Sanjana L consults at two points along the corridor: Health Nest, 1162, 24th Main Road, HSR Layout Sector 2 (+91 94490 31003), and Raghava Multispeciality Hospital on Sarjapura–Attibele Road (+91 99800 31006). Residents of Haralur and Bellandur usually choose HSR; those nearer Dommasandra find Attibele quicker.',
+      },
+      {
+        q: 'Can I switch between the two clinics during pregnancy?',
+        a: 'Yes. It is the same doctor at both addresses, so your antenatal record, scan reports and delivery plan stay continuous whichever location you attend. Patients along Sarjapura Road often book wherever the traffic is kinder that week — closer to home for an evening visit, closer to work during the day.',
+      },
+      {
+        q: 'How far is the HSR clinic from Haralur and Kaikondrahalli?',
+        a: 'From Haralur and Kudlu Gate, HSR Layout Sector 2 is a short run of roughly ten to fifteen minutes outside peak hours. From Kaikondrahalli and Carmelaram, allow longer during the evening crawl on Sarjapura Road, or use the Raghava Multispeciality Hospital location on Sarjapura–Attibele Road instead.',
+      },
+      {
+        q: 'What does she treat apart from pregnancy?',
+        a: 'Alongside antenatal care and delivery, Dr. Sanjana manages PCOS and irregular periods, heavy or painful bleeding, contraception and post-delivery planning, fertility concerns, recurrent infections, menopause symptoms and laparoscopic gynaecological surgery. First gynaecology visits for teenagers and young women are handled sensitively too.',
+      },
+    ],
+    serviceSlug: 'pregnancy-care',
+    hubHref: '/electronic-city-sarjapura-gynaecologist',
+    hubLabel: 'Gynaecologist near Electronic City & Sarjapura',
+    schemaType: 'MedicalBusiness',
+    metaTitle: 'Lady Gynaecologist on Sarjapura Road | Dr. Sanjana L',
+    metaDescription:
+      'Lady gynaecologist on Sarjapura Road — Dr. Sanjana L (MS OBG) consults at Health Nest, HSR Layout and Raghava Hospital, Attibele. Pick whichever end is closer.',
+    keywords: [
+      'lady gynaecologist Sarjapura Road',
+      'female gynaecologist near Sarjapur Road',
+      'gynaecologist Sarjapur Road Bangalore',
+      'lady gynaecologist near me Sarjapur Road',
+      'pregnancy doctor Sarjapur Road',
+      'lady gynaecologist Haralur Bellandur',
+    ],
+  },
+
+  /* ─────────────────────────────────────────────────────────────────────────
+     33. Lady / Female Gynaecologist — Bellandur
+  ───────────────────────────────────────────────────────────────────────── */
+  {
+    slug: 'lady-gynaecologist-bellandur',
+    title: 'Lady Gynaecologist in Bellandur, Bangalore',
+    shortTitle: 'Lady Gynaecologist — Bellandur',
+    category: 'Gynaecology',
+    locality: 'Bellandur',
+    clinic: 'hsr',
+    description:
+      'A lady gynaecologist for Bellandur and the Outer Ring Road belt — Dr. Sanjana L at Health Nest, HSR Layout Sector 2, with appointments booked to a time.',
+    overview:
+      'Anyone living around Bellandur knows the calculation: an appointment in central Bangalore means the Outer Ring Road at precisely the wrong hour. Going south to HSR Layout removes that problem. Health Nest sits at 1162, 24th Main Road, Sector 2, HSR Layout — reached from Ecospace, Devarabisanahalli and Kadubeesanahalli by dropping down through Haralur or Sarjapura Road instead of pushing towards Marathahalli, which usually turns an hour into fifteen or twenty minutes. Dr. Sanjana L, a lady gynaecologist with over 10 years in practice, consults here Monday to Saturday, 10 AM to 8 PM, and visits are given a time rather than a place in an open queue.\n\nThat scheduling matters when you are stepping out between meetings from an office in Ecospace or a flat in Panathur. Dr. Sanjana holds MBBS and MS (OBG) as a Gold Medalist of RGUHS and is FMAS-trained, caring for women across the full range — painful or irregular periods, PCOS, contraception, pregnancy from the first scan through to delivery, fertility questions, menopause and keyhole gynaecological surgery. Consultations are private, unhurried and available in English, Hindi, Kannada or Telugu. If you are pregnant, the same routing logic applies to every antenatal visit, and a dozen or more appointments is a great deal of Outer Ring Road to think about early.',
+    whatToExpect: [
+      'An appointment booked to a time, not an open waiting queue',
+      'A route that keeps you off the Marathahalli stretch of the ORR',
+      'A private consultation with a female gynaecologist',
+      'Scans, reports and next steps explained in plain language',
+      'Antenatal visits planned around your working week',
+      'Consultations in English, Hindi, Kannada or Telugu',
+      'Evening slots up to 8 PM, Monday to Saturday',
+    ],
+    whyChoose: [
+      'HSR Layout is a far shorter run from Bellandur than central Bangalore, without the ORR crawl',
+      'Scheduling that respects office hours, with consulting until 8 PM',
+      'MBBS, MS (OBG) Gold Medalist (RGUHS), FMAS-trained · 10+ years',
+      'One doctor across pregnancy, routine gynaecology and keyhole surgery',
+      'Multilingual care — English, Hindi, Kannada, Telugu',
+    ],
+    nearbyAreas: ['Bellandur', 'Kadubeesanahalli', 'Devarabisanahalli', 'Panathur', 'Haralur', 'HSR Layout', 'Sarjapur Road'],
+    faqs: [
+      {
+        q: 'Is there a lady gynaecologist near Bellandur?',
+        a: 'Yes. Dr. Sanjana L consults at Health Nest, 1162, 24th Main Road, Sector 2, HSR Layout — the nearest practice for much of Bellandur once you head south rather than onto the Outer Ring Road. Hours are Monday to Saturday, 10 AM to 8 PM. Call +91 94490 31003 to book.',
+      },
+      {
+        q: 'How long does it take to reach HSR Layout from Bellandur?',
+        a: 'Usually fifteen to twenty minutes outside peak hours. From Ecospace, Devarabisanahalli and Kadubeesanahalli, the quicker approach is down through Haralur or Sarjapura Road into HSR Sector 2, which keeps you clear of the Marathahalli stretch of the ORR where the queues build up worst.',
+      },
+      {
+        q: 'Can antenatal appointments be scheduled around work?',
+        a: 'Yes. Visits are booked to a specific time and consulting runs until 8 PM, Monday to Saturday, so most antenatal checks can be taken before or after office hours. A pregnancy involves a dozen or more visits, so it is worth planning that timing at the very first appointment.',
+      },
+      {
+        q: 'What happens at a first gynaecology appointment?',
+        a: 'Dr. Sanjana begins with your history — cycles, symptoms, past pregnancies, medication — then examines only where it is needed, with a chaperone available. Any scan or blood test is explained before it is ordered, and you leave with a written plan rather than a list of instructions to decode later.',
+      },
+    ],
+    serviceSlug: 'pregnancy-care',
+    hubHref: '/hsr-layout-gynaecologist',
+    hubLabel: 'Gynaecologist in HSR Layout',
+    schemaType: 'MedicalBusiness',
+    metaTitle: 'Lady Gynaecologist in Bellandur | Dr. Sanjana L',
+    metaDescription:
+      'Lady gynaecologist near Bellandur — Dr. Sanjana L (MS OBG) at Health Nest, HSR Layout Sector 2. Skip the ORR crawl; appointments booked to a time, until 8 PM.',
+    keywords: [
+      'lady gynaecologist Bellandur',
+      'female gynaecologist near Bellandur',
+      'gynaecologist Bellandur Bangalore',
+      'lady gynaecologist near me Bellandur',
+      'pregnancy doctor Bellandur ORR',
+      'gynaecologist near Ecospace Bellandur',
+    ],
+  },
+  /* ─────────────────────────────────────────────────────────────────────────
+     34. PCOS & PCOD Treatment — Sarjapura Road
+  ───────────────────────────────────────────────────────────────────────── */
+  {
+    slug: 'pcos-treatment-sarjapura-road',
+    title: 'PCOS & PCOD Treatment for Sarjapura Road, Bangalore',
+    shortTitle: 'PCOS Treatment — Sarjapura Road',
+    category: 'Gynaecology',
+    locality: 'Sarjapura Road',
+    clinic: 'hsr',
+    description:
+      'PCOS and PCOD care for women working along Sarjapura Road — irregular cycles, weight, skin and hair, and fertility plans — with Dr. Sanjana L.',
+    overview:
+      'Sarjapura Road runs through some of the busiest office corridors in Bengaluru, and many of the women who come to Dr. Sanjana L with PCOS or PCOD are working inside them. Ten hours at a desk, sleep pushed later by calls with other time zones, lunch eaten at the laptop, gym plans that survive until the first release week. None of that causes PCOS on its own, but it feeds the parts that are hardest to live with — cycles that arrive whenever they like or skip a season entirely, weight that settles around the middle and refuses to move, acne well into the late twenties, hair thinning at the temples while growing where it is not wanted. Care here begins by hearing how your months actually run.\n\nA diagnosis is not made from an ultrasound picture alone. Dr. Sanjana looks for a pattern — cycles that are consistently long or absent, signs of higher male-type hormones on examination and in blood work, and the appearance of the ovaries on scan — while ruling out thyroid and other conditions that produce a similar picture. Sitting underneath most cases is insulin resistance: the body has to produce far more insulin than it should to handle ordinary meals, and that surplus nudges the ovaries towards making more testosterone. Explaining that link is usually the point where things start to make sense, because it also explains why the weight is genuinely harder to shift than it is for a friend eating the same food.',
+    whatToExpect: [
+      'An unhurried first consultation covering cycles, energy, skin, hair, mood and your actual work routine',
+      'Blood work and a pelvic ultrasound to confirm the picture and rule out thyroid and other look-alike causes',
+      'A plain-English explanation of insulin resistance and what it means for your body',
+      'Nutrition and movement targets built around shift timings and desk work, not an idealised week',
+      'Medical options discussed in general terms — what each approach is trying to achieve, and what it will not do',
+      'A separate plan if you are trying to conceive now, or want to protect that option for later',
+      'Follow-up at sensible intervals to see what is genuinely working before anything is changed',
+    ],
+    whyChoose: [
+      'A short drive from Sarjapura Road, Kasavanahalli and Haralur Road to Health Nest in HSR Layout Sector 2',
+      'Dr. Sanjana L — MBBS, MS (OBG) Gold Medalist (RGUHS) — with 10+ years in women’s health',
+      'Honest framing from the first visit: PCOS is managed well over time, not cured',
+      'Plans written for a real working week, including late shifts and travel',
+      'Consultations in English, Hindi, Kannada or Telugu',
+    ],
+    nearbyAreas: ['Sarjapura Road', 'Kasavanahalli', 'Haralur Road', 'Bellandur', 'Carmelaram', 'Dommasandra', 'HSR Layout'],
+    faqs: [
+      {
+        q: 'Where can I see a PCOS specialist near Sarjapura Road?',
+        a: 'Dr. Sanjana L consults at Health Nest, 1162, 24th Main Rd, Sector 2, HSR Layout, Bengaluru 560102 — a short drive from Sarjapura Road, Kasavanahalli and Haralur Road. Clinic hours are Monday to Saturday, 10 AM to 8 PM. Call +91 94490 31003 to book a consultation.',
+      },
+      {
+        q: 'Can PCOS be cured completely?',
+        a: 'No. PCOS is a long-term hormonal and metabolic condition that is managed rather than cured, and any clinic promising a permanent cure is overselling. What can change, and often changes a great deal, is how much it affects you — cycle regularity, skin, hair, weight trends and your chances of conceiving all respond to a consistent plan.',
+      },
+      {
+        q: 'Why is losing weight so hard with PCOS, and is weight loss enough on its own?',
+        a: 'Insulin resistance makes fat storage easier and fat release harder, so the same effort produces less result — which is why being told to simply lose weight is unhelpful advice on its own. Weight change does help, but it works best alongside sleep, strength work, meal timing and, where appropriate, medical treatment.',
+      },
+      {
+        q: 'Can I plan a pregnancy if I have PCOS?',
+        a: 'Yes. Irregular ovulation is the usual obstacle rather than an inability to conceive, and it is one of the more treatable fertility problems. Dr. Sanjana will review your cycles, your partner’s side of the picture and your timeline, then plan ovulation support in a stepwise way rather than starting with the most aggressive option.',
+      },
+    ],
+    serviceSlug: 'pcos-pcod-treatment',
+    hubHref: '/electronic-city-sarjapura-gynaecologist',
+    hubLabel: 'Gynaecologist near Electronic City & Sarjapura',
+    schemaType: 'MedicalProcedure',
+    metaTitle: 'PCOS & PCOD Treatment, Sarjapura Road | Dr. Sanjana L',
+    metaDescription:
+      'PCOS and PCOD treatment for women on Sarjapura Road — irregular periods, weight, skin, hair and fertility plans with Dr. Sanjana L (MS OBG) at Health Nest, HSR.',
+    keywords: [
+      'PCOS treatment Sarjapura Road',
+      'PCOD doctor Sarjapur Road Bangalore',
+      'PCOS specialist near Sarjapur Road',
+      'irregular periods doctor Sarjapur Road',
+      'PCOS weight gain treatment Bangalore',
+      'gynaecologist near Kasavanahalli for PCOS',
+    ],
+  },
+
+  /* ─────────────────────────────────────────────────────────────────────────
+     35. Normal Delivery — Koramangala
+  ───────────────────────────────────────────────────────────────────────── */
+  {
+    slug: 'normal-delivery-koramangala',
+    title: 'Normal Delivery Doctor for Koramangala, Bangalore',
+    shortTitle: 'Normal Delivery — Koramangala',
+    category: 'Obstetrics',
+    locality: 'Koramangala',
+    clinic: 'hsr',
+    description:
+      'Normal-delivery-first maternity care for Koramangala families with Dr. Sanjana L at Health Nest, HSR Layout — birth planning, patience in labour, honest advice.',
+    overview:
+      'Almost every Koramangala couple who sits down to plan a birth has heard the same worry from a friend, a cousin or a WhatsApp group — that a caesarean in urban Bangalore can feel less like a medical decision and more like a default. It is a fair thing to ask about, and Dr. Sanjana L would rather you ask it in the first trimester than wonder about it at 3 AM in labour. Her approach is normal-delivery-first: a vaginal birth is the working plan for every pregnancy that is suitable for one, and anything that changes that plan has to be justified by what is happening to you and your baby on the day, not by the hour on the clock.\n\nThat philosophy only works if the groundwork is done. It means antenatal visits with the same doctor, so your history is known rather than re-read; a birth plan written down together in the last weeks; realistic preparation for what early labour actually feels like; and the patience to let a first labour take the time first labours take, while both of you are monitored and doing well. It also means being straightforward about the other side. Some pregnancies genuinely need a caesarean, and when that becomes clear it is done without delay and the reason is explained to you in words you can repeat to your family.',
+    whatToExpect: [
+      'An early conversation about the birth you are hoping for and what would realistically change it',
+      'Antenatal visits with the same doctor throughout, rather than whoever is on duty that week',
+      'A written birth plan in the last weeks — positions, pain relief, your birth partner, your preferences',
+      'Patience through labour where you and your baby are both doing well',
+      'Monitoring during labour with the reasons for any change explained while it is happening',
+      'Support with positions, breathing and pushing, and care taken to protect the perineum',
+      'Skin-to-skin contact, feeding support and a structured postnatal review afterwards',
+    ],
+    whyChoose: [
+      'A normal-delivery-first philosophy — caesarean when it is needed, not when it is merely convenient',
+      'Dr. Sanjana L — MBBS, MS (OBG) Gold Medalist (RGUHS), FMAS-trained, 10+ years of experience',
+      'Health Nest, Sector 2, HSR Layout — a short drive from Koramangala and Ejipura',
+      'Straight answers, including the ones that are not what you were hoping to hear',
+      'Care in English, Hindi, Kannada or Telugu',
+    ],
+    nearbyAreas: ['Koramangala', 'Ejipura', 'HSR Layout', 'Adugodi', 'BTM Layout', 'Domlur', 'Agara'],
+    faqs: [
+      {
+        q: 'Where can I find a normal delivery doctor near Koramangala?',
+        a: 'Dr. Sanjana L sees expecting mothers from Koramangala at Health Nest, 1162, 24th Main Rd, Sector 2, HSR Layout, Bengaluru 560102, open Monday to Saturday, 10 AM to 8 PM. It is a short drive down from Koramangala and Ejipura. Call +91 94490 31003 to book an antenatal consultation.',
+      },
+      {
+        q: 'Can a doctor guarantee me a normal delivery?',
+        a: 'No, and you should be wary of anyone who does. Labour cannot be promised in advance because it depends on how your baby is positioned, how the labour progresses and how you both cope on the day. What can be promised is that a vaginal birth stays the plan unless there is a clear clinical reason to change it.',
+      },
+      {
+        q: 'What actually makes a caesarean necessary?',
+        a: 'Genuine reasons include a baby showing signs of distress, a breech or transverse position that cannot be corrected, the placenta lying over the cervix, a labour that stops progressing despite adequate time and support, cord prolapse, and certain maternal conditions. Convenience, scheduling and impatience are not among them.',
+      },
+      {
+        q: 'Why do caesarean rates seem so high in Bangalore?',
+        a: 'Caesarean rates in urban private practice have risen over the past two decades, and the reasons are mixed — more induced labours, more monitoring that prompts earlier intervention, smaller families, and time pressure on both sides. The practical answer for you is to choose a doctor who explains the threshold for surgery before labour begins.',
+      },
+    ],
+    serviceSlug: 'normal-delivery',
+    hubHref: '/hsr-layout-gynaecologist',
+    hubLabel: 'Gynaecologist in HSR Layout',
+    schemaType: 'MedicalProcedure',
+    metaTitle: 'Normal Delivery Doctor for Koramangala | Dr. Sanjana L',
+    metaDescription:
+      'Normal delivery for Koramangala families. Dr. Sanjana L (MS OBG) at Health Nest, HSR Layout — normal-delivery-first approach, birth planning, honest advice.',
+    keywords: [
+      'normal delivery doctor Koramangala',
+      'normal delivery hospital near Koramangala',
+      'gynaecologist Koramangala normal delivery',
+      'avoid unnecessary c-section Bangalore',
+      'obstetrician near Koramangala for delivery',
+      'vaginal birth doctor Koramangala Bangalore',
+    ],
+  },
+
+  /* ─────────────────────────────────────────────────────────────────────────
+     36. Endometriosis Treatment — HSR Layout
+  ───────────────────────────────────────────────────────────────────────── */
+  {
+    slug: 'endometriosis-treatment-hsr-layout',
+    title: 'Endometriosis Treatment in HSR Layout, Bangalore',
+    shortTitle: 'Endometriosis Treatment — HSR Layout',
+    category: 'Gynaecology',
+    locality: 'HSR Layout',
+    clinic: 'hsr',
+    description:
+      'Endometriosis diagnosis and treatment in HSR Layout — severe period pain, pelvic pain and fertility concerns — with Dr. Sanjana L at Health Nest, Sector 2.',
+    overview:
+      'Women with endometriosis often describe years of being told that bad periods are normal, that the pain is stress, or that it will settle after marriage or after a baby. By the time they reach a consultation many have stopped expecting to be believed, and open with an apology for taking up time. That experience is common enough to be predictable, and it is worth saying plainly: pain that empties a hot-water-bottle every month, sends you home from work, or has you curled up on the bathroom floor is not a normal period, and describing it in detail is not exaggeration. At Health Nest in HSR Layout Sector 2, Dr. Sanjana L starts by taking that history seriously rather than reaching for the scan first.\n\nEndometriosis is tissue similar to the uterine lining growing where it should not — on the ovaries, the pelvic lining, the bowel or bladder surface — bleeding with each cycle and leaving inflammation and scarring behind. That is why symptoms spread beyond periods: pain during or after intercourse, painful bowel movements or bladder discomfort that follows the cycle, pelvic ache between periods, a heavy fatigue, and difficulty conceiving. It is also why an ultrasound can look reassuringly normal while the disease is present, since superficial deposits and adhesions are simply not visible on a routine scan. Where the history points that way, a laparoscopy both confirms the diagnosis and treats the disease in the same sitting.',
+    whatToExpect: [
+      'Time to describe the pain properly — when it starts, what it stops you doing, how long this has been going on',
+      'A symptom map across the whole cycle, including bowel, bladder, intercourse, energy and mood',
+      'Examination and ultrasound, plus a clear explanation of what a normal scan does and does not rule out',
+      'Pain management that does not amount to being told to push through it',
+      'Hormonal options explained in general terms, including what each is trying to achieve and its limits',
+      'Diagnostic and excisional laparoscopy where that is the right next step, using FMAS-trained keyhole technique',
+      'A long-term plan, including fertility timing if relevant and what to do if symptoms return',
+    ],
+    whyChoose: [
+      'Your pain is taken at face value from the first consultation',
+      'Dr. Sanjana L — MBBS, MS (OBG) Gold Medalist (RGUHS), FMAS-trained in laparoscopic surgery, 10+ years',
+      'Medical and surgical management under one doctor, so the advice does not fragment between clinics',
+      'Health Nest, 1162, 24th Main Rd, Sector 2, HSR Layout — Monday to Saturday, 10 AM to 8 PM',
+      'Consultations in English, Hindi, Kannada or Telugu',
+    ],
+    nearbyAreas: ['HSR Layout', 'Agara', 'Koramangala', 'BTM Layout', 'Bommanahalli', 'Bellandur', 'Sarjapura Road'],
+    faqs: [
+      {
+        q: 'Where can I see an endometriosis specialist in HSR Layout?',
+        a: 'Dr. Sanjana L treats endometriosis at Health Nest, 1162, 24th Main Rd, Sector 2, HSR Layout, Bengaluru 560102, Monday to Saturday, 10 AM to 8 PM. She is FMAS-trained in laparoscopic surgery and manages both the medical and surgical sides of the condition. Call +91 94490 31003 to book.',
+      },
+      {
+        q: 'Why was my scan normal if I might have endometriosis?',
+        a: 'A normal ultrasound does not rule out endometriosis. Scans reliably show larger ovarian cysts of endometriosis, but superficial deposits on the pelvic lining and the adhesions that cause much of the pain are usually invisible on imaging. Diagnosis therefore rests on your symptom pattern, examination and, where needed, laparoscopy.',
+      },
+      {
+        q: 'What symptoms suggest endometriosis rather than ordinary period pain?',
+        a: 'Pain that starts before bleeding and lasts through it, pain during or after intercourse, painful bowel movements or bladder discomfort that follows the cycle, pelvic ache on ordinary days, unusual fatigue, and difficulty conceiving. Period pain that stops you working or that painkillers no longer touch also deserves proper assessment.',
+      },
+      {
+        q: 'Can endometriosis be cured permanently?',
+        a: 'Endometriosis is managed long term rather than cured, and it can recur after treatment including after surgery. That is not a reason to avoid treatment. Careful excision of visible disease, sustained hormonal or pain management, and planned follow-up let most women get their symptoms down to a level that no longer runs their life.',
+      },
+    ],
+    serviceSlug: 'endometriosis-treatment',
+    hubHref: '/hsr-layout-gynaecologist',
+    hubLabel: 'Gynaecologist in HSR Layout',
+    schemaType: 'MedicalProcedure',
+    metaTitle: 'Endometriosis Treatment in HSR Layout | Dr. Sanjana L',
+    metaDescription:
+      'Endometriosis treatment in HSR Layout with Dr. Sanjana L (MS OBG, FMAS) at Health Nest — severe period pain, pelvic pain, laparoscopy and fertility care.',
+    keywords: [
+      'endometriosis treatment HSR Layout',
+      'endometriosis specialist Bangalore HSR',
+      'severe period pain doctor HSR Layout',
+      'laparoscopy for endometriosis Bangalore',
+      'chronic pelvic pain gynaecologist HSR Layout',
+      'endometriosis and infertility doctor Bangalore',
+    ],
+  },
 ];
 
 export function getLocationServiceBySlug(slug: string): LocationService | undefined {
@@ -1696,4 +2484,79 @@ export function getLocationServicesForService(serviceSlug: string): LocationServ
 export function getLocationServicesForLocalities(localities: string[]): LocationService[] {
   const wanted = new Set(localities.map(l => l.toLowerCase()));
   return locationServices.filter(ls => wanted.has(ls.locality.toLowerCase()));
+}
+
+/**
+ * Sibling money pages to surface on a money page itself.
+ *
+ * Why this exists: until Aug 2026 every one of the 36 money pages linked only
+ * *upward* — to its area hub, its canonical /services/<slug> page and /services.
+ * None linked sideways. That made them crawl leaves: PageRank flowed in from the
+ * homepage and hubs and then stopped dead, and a patient who landed on
+ * "PCOS Treatment — HSR Layout" had no path to "PCOS Treatment — Attibele" or to
+ * "Fertility & IVF — HSR Layout" without going back up two levels.
+ *
+ * Selection is two-sided so the mesh has both axes:
+ *   1. SAME SERVICE, other localities — catches "is there one nearer me?"
+ *   2. SAME LOCALITY, other services — catches "what else do they do here?"
+ *
+ * ROTATION (important): the locality axis starts at an offset derived from the
+ * page's own index, not at 0. Without it, all 16 HSR Layout pages picked the
+ * same first few HSR siblings in array order, and the five services unique to
+ * HSR — prenatal screening, adolescent gynaecology, menopause, fibroids,
+ * endometriosis — sat at the tail of the array and received ZERO sibling links
+ * sitewide. They have no same-service sibling to be picked by either, so they
+ * would have stayed the least-linked pages on the site: exactly the profile
+ * that lands in "Discovered — currently not indexed".
+ *
+ * The offset is the page's array index, so it is deterministic and identical on
+ * every build. Do NOT make it random: that would change the internal link graph
+ * on every deploy, which is a genuinely bad signal.
+ */
+export function getRelatedLocationServices(
+  page: LocationService,
+  limit = 6
+): LocationService[] {
+  const sameService = locationServices.filter(
+    ls => ls.slug !== page.slug && ls.serviceSlug === page.serviceSlug
+  );
+
+  const localityPool = locationServices.filter(
+    ls =>
+      ls.slug !== page.slug &&
+      ls.serviceSlug !== page.serviceSlug &&
+      ls.locality.toLowerCase() === page.locality.toLowerCase()
+  );
+
+  // Rotate the locality pool so different pages in the same locality surface
+  // different siblings, spreading inbound links across the whole cluster.
+  const offset = Math.max(0, locationServices.indexOf(page));
+  const sameLocality = localityPool.map(
+    (_, i) => localityPool[(i + offset) % localityPool.length]
+  );
+
+  const picked: LocationService[] = [];
+  const seen = new Set<string>();
+  const half = Math.ceil(limit / 2);
+
+  // Interleave the two axes so a heavily-duplicated service cannot fill the
+  // block on its own, then let whichever axis still has candidates top it up.
+  for (let i = 0; i < Math.max(sameService.length, sameLocality.length); i++) {
+    for (const candidate of [sameService[i], sameLocality[i]]) {
+      if (!candidate || picked.length >= limit || seen.has(candidate.slug)) continue;
+      const isServiceAxis = candidate.serviceSlug === page.serviceSlug;
+      const serviceCount = picked.filter(p => p.serviceSlug === page.serviceSlug).length;
+      if (
+        isServiceAxis &&
+        serviceCount >= half &&
+        sameLocality.length > picked.length - serviceCount
+      ) {
+        continue;
+      }
+      picked.push(candidate);
+      seen.add(candidate.slug);
+    }
+  }
+
+  return picked.slice(0, limit);
 }

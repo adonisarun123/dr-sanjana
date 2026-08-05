@@ -6,6 +6,12 @@ interface RelatedMoneyPagesProps {
   pages: LocationService[];
   /** Optional heading override. */
   heading?: string;
+  /**
+   * Optional intro override. The default is written for blog posts ("if you
+   * want care rather than information"); money pages pass their own copy,
+   * since a visitor already on a treatment page is past that distinction.
+   */
+  intro?: string;
 }
 
 /**
@@ -18,6 +24,7 @@ interface RelatedMoneyPagesProps {
 export default function RelatedMoneyPages({
   pages,
   heading = 'Related treatments with Dr. Sanjana',
+  intro = 'If you are looking for care rather than just information, these pages cover what the treatment involves and where Dr. Sanjana provides it.',
 }: RelatedMoneyPagesProps) {
   if (pages.length === 0) return null;
 
@@ -34,8 +41,7 @@ export default function RelatedMoneyPages({
         {heading}
       </h2>
       <p className="mb-4 text-sm m-0" style={{ color: '#6B6B6B' }}>
-        If you are looking for care rather than just information, these pages cover what the
-        treatment involves and where Dr. Sanjana provides it.
+        {intro}
       </p>
       <ul className="grid gap-3 sm:grid-cols-2">
         {pages.map(page => (

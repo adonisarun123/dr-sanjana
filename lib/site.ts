@@ -12,12 +12,34 @@ export const DEFAULT_OG_IMAGE_PATH = '/og-image.jpg' as const;
 export const PHYSICIAN_LINKEDIN_URL =
   'https://www.linkedin.com/in/dr-sanjana-lakshmikanth-588281141' as const;
 
+/**
+ * `sameAs` means "a URL that unambiguously identifies THIS entity" — it is an
+ * identity assertion, not a list of useful links.
+ *
+ * Two entries were removed in Aug 2026 because they asserted things that are
+ * not true of the Health Nest organization:
+ *
+ *   1. `.../maps/place/Raghava+Multispeciality+Hospital/...` — Raghava is a
+ *      separate, third-party hospital where Dr. Sanjana consults. Listing its
+ *      Maps place here told Google "Health Nest IS Raghava Multispeciality
+ *      Hospital", merging two distinct businesses into one entity. The Attibele
+ *      relationship is already modelled correctly in app/layout.tsx as a `Place`
+ *      node under the organization's `location`, with that same Maps URL as
+ *      `hasMap` — which is the accurate predicate.
+ *
+ *   2. `maps.google.com/?q=Health+Nest+HSR+Layout+Bangalore` — a search-results
+ *      query string, not a stable entity URL. It identifies nothing; it just
+ *      runs a search. Also already present as `hasMap` on the HSR Place node.
+ *
+ * Only add a URL here if it is a canonical profile FOR Health Nest itself:
+ * the Google Business Profile short link, Practo/Justdial/Lybrate clinic
+ * listings, the clinic's own Instagram/Facebook page. Do NOT add another
+ * business's listing, and do NOT add search or directions URLs.
+ */
 export const ORGANIZATION_SAME_AS: readonly string[] = [
   SITE_URL,
   PHYSICIAN_LINKEDIN_URL,
   'https://g.page/r/HealthNestHSRLayout/review',
-  'https://maps.google.com/?q=Health+Nest+HSR+Layout+Bangalore',
-  'https://www.google.com/maps/place/Raghava+Multispeciality+Hospital/@12.7803654,77.7707144,17z',
 ];
 
 export const PHYSICIAN_SAME_AS: readonly string[] = [

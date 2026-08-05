@@ -28,7 +28,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/contact`, lastModified: staticRevised, changeFrequency: 'monthly', priority: 0.7 },
     { url: `${baseUrl}/faq`, lastModified: staticRevised, changeFrequency: 'monthly', priority: 0.7 },
     { url: `${baseUrl}/privacy-policy`, lastModified: staticRevised, changeFrequency: 'yearly', priority: 0.3 },
-    { url: `${baseUrl}/llms.txt`, lastModified: staticRevised, changeFrequency: 'yearly', priority: 0.2 },
+    // NOTE: /llms.txt is deliberately NOT listed. An XML sitemap is a list of
+    // pages you want *indexed*; llms.txt is a plain-text file for AI crawlers and
+    // will never be indexed as a search result. Leaving it in guaranteed one
+    // permanent "Crawled — currently not indexed" entry in Search Console, which
+    // is noise in the one report used to spot real indexation problems.
+    // AI crawlers find llms.txt by convention at the site root, not via sitemap.
   ];
 
   const locationPages: MetadataRoute.Sitemap = [

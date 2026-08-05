@@ -609,10 +609,18 @@ export default function HSRLayoutGynaecologistPage() {
         </section>
 
         {/* ─── MONEY PAGES FOR THIS AREA ─── */}
+        {/*
+          Koramangala and Bellandur have no hub page of their own, and their
+          money pages already point *up* here via `hubHref: '/hsr-layout-gynaecologist'`.
+          Without them in this list that link was one-way: those three pages
+          received only a single internal link (the homepage grid) while every
+          HSR page received eight or more. Listing them here makes the hub
+          relationship reciprocal and matches what the money pages already claim.
+        */}
         <AreaMoneyPageLinks
-          localities={['HSR Layout']}
+          localities={['HSR Layout', 'Koramangala', 'Bellandur']}
           heading={'Treatments & Delivery Care in HSR Layout'}
-          intro="Detailed guides to the care Dr. Sanjana provides at Health Nest, Sector 2 — what to expect, who it suits and how to book."
+          intro="Detailed guides to the care Dr. Sanjana provides at Health Nest, Sector 2 — what to expect, who it suits and how to book. Also serving neighbouring Koramangala and Bellandur."
           background="#FFFFFF"
         />
 

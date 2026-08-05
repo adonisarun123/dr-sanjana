@@ -5,22 +5,25 @@ import { CheckCircle2, AlertCircle, ArrowRight, Calendar, MapPin, Phone, Clock }
 import {
   locationServices,
   getLocationServiceBySlug,
+  getRelatedLocationServices,
   getClinic,
 } from '@/lib/locationServices';
 import { getServiceBySlug } from '@/lib/services';
-import { SITE_URL } from '@/lib/site';
+import { SITE_URL, CONTENT_LAST_REVISED } from '@/lib/site';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import FloatingButtons from '@/components/FloatingButtons';
 import BreadcrumbNav from '@/components/BreadcrumbNav';
 import FAQAccordion from '@/components/FAQAccordion';
+import MedicalReviewByline from '@/components/MedicalReviewByline';
+import RelatedMoneyPages from '@/components/RelatedMoneyPages';
 
 interface Props {
   params: Promise<{ locationService: string }>;
 }
 
 // Only the curated money-page slugs defined in lib/locationServices.ts resolve
-// (22 as of Aug 2026). Any other top-level slug that isn't a real static folder
+// (36 as of Aug 2026). Any other top-level slug that isn't a real static folder
 // will 404 rather than render an empty page.
 export const dynamicParams = false;
 
@@ -60,11 +63,15 @@ export default async function LocationServicePage({ params }: Props) {
 
   const clinic = getClinic(page.clinic);
   const service = getServiceBySlug(page.serviceSlug);
+  const relatedPages = getRelatedLocationServices(page);
 
   /* ── JSON-LD ──────────────────────────────────────────────────────────── */
   const procedureSchema = {
     '@context': 'https://schema.org',
     '@type': 'MedicalProcedure',
+    // Without an @id this node was unaddressable, so the MedicalWebPage below
+    // could not point at it and the page emitted two disconnected graphs.
+    '@id': `${SITE_URL}/${page.slug}/#procedure`,
     name: page.shortTitle,
     description: page.description,
     procedureType: page.category,
@@ -78,6 +85,35 @@ export default async function LocationServicePage({ params }: Props) {
     url: `${SITE_URL}/${page.slug}`,
   };
 
+  // MedicalWebPage — the health-specific page node Google documents for YMYL
+  // content. `lastReviewed` + `reviewedBy` + `author` are the properties that
+  // let Google attribute this page to a named, credentialled clinician instead
+  // of an anonymous site. Dates come from CONTENT_LAST_REVISED (hand-bumped),
+  // never from new Date() — see the note on that constant in lib/site.ts.
+  const medicalWebPageSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'MedicalWebPage',
+    '@id': `${SITE_URL}/${page.slug}/#medicalwebpage`,
+    url: `${SITE_URL}/${page.slug}`,
+    name: page.title,
+    description: page.metaDescription,
+    inLanguage: 'en-IN',
+    lastReviewed: CONTENT_LAST_REVISED.moneyPages,
+    author: { '@id': `${SITE_URL}/#physician` },
+    reviewedBy: { '@id': `${SITE_URL}/#physician` },
+    publisher: { '@id': `${SITE_URL}/#organization` },
+    // `about` previously declared a MedicalCondition named e.g. "Painless
+    // Delivery — Sarjapura Road". That is a procedure in a suburb, not a
+    // condition, so the node asserted a medical fact that does not exist.
+    // The page's real subject is the procedure defined above — point at it by
+    // @id instead, which also stitches the two JSON-LD blocks into one graph.
+    mainEntity: { '@id': `${SITE_URL}/${page.slug}/#procedure` },
+    about: { '@id': `${SITE_URL}/${page.slug}/#procedure` },
+    specialty: 'https://schema.org/Gynecologic',
+    audience: { '@type': 'MedicalAudience', audienceType: 'Patient' },
+    isPartOf: { '@id': `${SITE_URL}/#website` },
+  };
+
   // NOTE: BreadcrumbList and FAQPage JSON-LD are intentionally NOT emitted here.
   // <BreadcrumbNav> and <FAQAccordion> each emit their own schema from the same
   // source data. Emitting them here as well produced duplicate, conflicting
@@ -89,6 +125,10 @@ export default async function LocationServicePage({ params }: Props) {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(procedureSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(medicalWebPageSchema) }}
       />
       <Navbar />
       <main id="main-content">
@@ -132,6 +172,10 @@ export default async function LocationServicePage({ params }: Props) {
         {/* ── At a Glance ───────────────────────────────────────────────── */}
         <section className="section-sm bg-white">
           <div className="container-hn">
+            <MedicalReviewByline
+              reviewedOn={CONTENT_LAST_REVISED.moneyPages}
+              className="mx-auto mb-6 max-w-4xl"
+            />
             <div className="at-a-glance mx-auto max-w-4xl">
               <h2 className="mb-4 font-sans text-xl font-bold text-ink">
                 At a Glance — {page.shortTitle}
@@ -265,6 +309,20 @@ export default async function LocationServicePage({ params }: Props) {
                   <div className="accent-line" />
                   <FAQAccordion faqs={page.faqs} />
                 </div>
+
+                {/*
+                  Sibling money pages — the lateral half of the internal link
+                  graph. Every money page already links up (hub, canonical
+                  service, /services); none linked sideways, which made all 36
+                  crawl leaves and forced a patient comparing localities back up
+                  two levels. See getRelatedLocationServices() for the two-axis
+                  selection (same service elsewhere / same locality, other care).
+                */}
+                <RelatedMoneyPages
+                  pages={relatedPages}
+                  heading={`Related care near ${page.locality}`}
+                  intro={`Other treatments Dr. Sanjana provides in ${page.locality}, and the same care at her other locations across South Bangalore.`}
+                />
               </div>
 
               {/* Sidebar */}
