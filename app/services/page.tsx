@@ -30,6 +30,7 @@ const allServices = [
   { slug: 'fertility-treatment', icon: Flower2, title: 'Fertility Treatment', desc: 'Compassionate fertility evaluation and treatment support.', category: 'Fertility' },
   { slug: 'ivf-iui', icon: Microscope, title: 'IVF & IUI', desc: 'Advanced assisted reproductive technology guidance and co-management.', category: 'Fertility' },
   { slug: 'laparoscopic-surgery', icon: Scissors, title: 'Laparoscopic Surgery', desc: 'Minimally invasive keyhole surgery for fibroids, cysts, endometriosis.', category: 'Surgery' },
+  { slug: 'hysterectomy', icon: Scissors, title: 'Hysterectomy', desc: 'Laparoscopic, vaginal and abdominal uterus removal — with alternatives assessed first.', category: 'Surgery' },
   { slug: 'hysteroscopy', icon: Search, title: 'Hysteroscopy', desc: 'Diagnostic and operative hysteroscopy for uterine conditions.', category: 'Surgery' },
   { slug: 'pcos-pcod-treatment', icon: Activity, title: 'PCOS & PCOD', desc: 'Holistic hormonal management and lifestyle support.', category: 'Gynaecology' },
   { slug: 'menstrual-disorders', icon: CalendarIcon, title: 'Menstrual Disorders', desc: 'Diagnosis and treatment for irregular, painful, or heavy periods.', category: 'Gynaecology' },

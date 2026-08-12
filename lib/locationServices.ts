@@ -2465,6 +2465,665 @@ export const locationServices: LocationService[] = [
       'endometriosis and infertility doctor Bangalore',
     ],
   },
+  /* ─────────────────────────────────────────────────────────────────────────
+     37. Lady Gynaecologist — Electronic City
+  ───────────────────────────────────────────────────────────────────────── */
+  {
+    slug: 'lady-gynaecologist-electronic-city',
+    title: 'Lady Gynaecologist in Electronic City, Bangalore',
+    shortTitle: 'Lady Gynaecologist — Electronic City',
+    category: 'Gynaecology',
+    locality: 'Electronic City',
+    clinic: 'attibele',
+    description:
+      'A female gynaecologist for women in Electronic City — Dr. Sanjana L, MS (OBG) Gold Medalist, consulting at Raghava Multispeciality Hospital, Attibele.',
+    overview:
+      'Most women searching for a lady gynaecologist in Electronic City are not being fussy about the doctor’s gender. They are trying to avoid a specific experience: describing something personal to someone who visibly wants the consultation to end, being examined without being told what is about to happen, or leaving with a prescription and no explanation. A female doctor does not automatically fix that — but for a great many women it removes one barrier to saying the thing they actually came to say.\n\nDr. Sanjana L — MBBS, MS (OBG) Gold Medalist (RGUHS), FMAS — has spent over ten years consulting for women across the Hosur Road corridor, and sees the full range at Raghava Multispeciality Hospital in Attibele: first pregnancies and repeat pregnancies, periods that have gone wrong, PCOS picked up at a corporate health check, discharge and infections that women have been treating with over-the-counter remedies for months, contraception decisions, fertility questions, and the perimenopausal symptoms that get misattributed to work stress. Consultations run in English, Hindi, Kannada or Telugu.\n\nFor Electronic City residents, Raghava Hospital is roughly 20–25 minutes down Hosur Road, and it is open Monday to Saturday, 9 AM to 9 PM — which for the Phase 1 and Phase 2 tech population usually matters more than distance, because it means an appointment that does not have to be carved out of the working day. Where surgery or specialised laparoscopic work is needed, Dr. Sanjana also consults at Health Nest in HSR Layout, so the plan does not have to fragment across two unrelated clinics.',
+    whatToExpect: [
+      'An unhurried first consultation — history taken properly before any examination',
+      'A clear explanation of what an examination involves and your consent before it starts',
+      'Ultrasound and blood work arranged on site where the picture needs clarifying',
+      'The reasoning behind the diagnosis explained in plain language, not just the prescription',
+      'Treatment options laid out with their trade-offs, so the decision is genuinely yours',
+      'Referral or surgical planning under the same doctor rather than a hand-off to a stranger',
+      'Follow-up scheduled with a defined purpose, not an open-ended “come back if it persists”',
+    ],
+    whyChoose: [
+      'A female gynaecologist for women who would rather not explain themselves to a male doctor',
+      'Dr. Sanjana L — MBBS, MS (OBG) Gold Medalist (RGUHS), FMAS-trained, 10+ years',
+      'Raghava Multispeciality Hospital, Attibele — Monday to Saturday, 9 AM to 9 PM',
+      'Evening slots that work around Electronic City office hours',
+      'Consultations in English, Hindi, Kannada or Telugu',
+    ],
+    nearbyAreas: ['Electronic City', 'Electronic City Phase 1', 'Electronic City Phase 2', 'Neeladri Nagar', 'Konappana Agrahara', 'Hebbagodi', 'Bommasandra'],
+    faqs: [
+      {
+        q: 'Is there a lady gynaecologist near Electronic City?',
+        a: 'Yes. Dr. Sanjana L — MBBS, MS (OBG) Gold Medalist (RGUHS), FMAS — consults at Raghava Multispeciality Hospital, Sarjapura–Attibele Road, Attibele, roughly 20–25 minutes from Electronic City via Hosur Road. Timings are Monday to Saturday, 9 AM to 9 PM. Call +91 99800 31006 to book.',
+      },
+      {
+        q: 'Can I get an appointment after office hours?',
+        a: 'The Attibele clinic runs until 9 PM Monday to Saturday, which makes evening appointments practical for people working in Electronic City. Call ahead so a slot is held for you rather than arriving and waiting.',
+      },
+      {
+        q: 'What does a first gynaecology consultation involve?',
+        a: 'It begins as a conversation — your symptoms, cycle history, any previous pregnancies, medication and family history. An examination or scan follows only if it is needed, and only after you have been told what it involves. You should leave understanding what is likely going on and what happens next.',
+      },
+      {
+        q: 'Which problems can be handled without travelling further into the city?',
+        a: 'Routine and most non-routine gynaecology — pregnancy care, period problems, PCOS, discharge and infections, contraception, fertility assessment, menopause symptoms and preventive screening — are all managed at Attibele. Laparoscopic surgery and certain procedures are done under the same doctor at Health Nest, HSR Layout.',
+      },
+    ],
+    serviceSlug: 'pregnancy-care',
+    hubHref: '/electronic-city-sarjapura-gynaecologist',
+    hubLabel: 'Gynaecologist in Electronic City & Sarjapura',
+    schemaType: 'MedicalBusiness',
+    metaTitle: 'Lady Gynaecologist in Electronic City | Dr. Sanjana L',
+    metaDescription:
+      'Looking for a lady gynaecologist in Electronic City? Dr. Sanjana L (MS OBG Gold Medalist, FMAS) consults at Raghava Hospital, Attibele — Mon–Sat, 9 AM–9 PM.',
+    keywords: [
+      'lady gynaecologist Electronic City',
+      'female gynaecologist Electronic City Bangalore',
+      'lady doctor gynaecology Electronic City',
+      'women’s doctor Electronic City Phase 1',
+      'gynaecologist near Electronic City Hosur Road',
+      'best lady gynaecologist near me Electronic City',
+    ],
+  },
+
+  /* ─────────────────────────────────────────────────────────────────────────
+     38. Lady Gynaecologist — Attibele
+  ───────────────────────────────────────────────────────────────────────── */
+  {
+    slug: 'lady-gynaecologist-attibele',
+    title: 'Lady Gynaecologist in Attibele, Bangalore',
+    shortTitle: 'Lady Gynaecologist — Attibele',
+    category: 'Gynaecology',
+    locality: 'Attibele',
+    clinic: 'attibele',
+    description:
+      'Dr. Sanjana L — MS (OBG) Gold Medalist, FMAS — is a female gynaecologist consulting in Attibele at Raghava Multispeciality Hospital, on Sarjapura–Attibele Road.',
+    overview:
+      'In and around Attibele, the practical problem is rarely a shortage of doctors. It is that women who want to be seen by a female gynaecologist have often ended up travelling towards Electronic City, Jayanagar or further into Bangalore for something that should be a local appointment — and once travel is involved, the visit gets postponed. Symptoms that would have been simple to treat in month one arrive in month six.\n\nDr. Sanjana L consults at Raghava Multispeciality Hospital on Sarjapura–Attibele Road, opposite Syndicate Bank, Monday to Saturday, 9 AM to 9 PM. She is MBBS, MS (OBG) Gold Medalist (RGUHS) and FMAS-trained in laparoscopic surgery, with more than ten years of practice covering both obstetrics and gynaecology. That range matters locally: the same doctor handles a first antenatal visit, a delivery, a fibroid that needs keyhole surgery, a teenager brought in by her mother for irregular cycles, and a woman in her late forties whose periods have become unpredictable.\n\nConsultations are in English, Hindi, Kannada or Telugu, and the hospital serves the wider belt — Attibele town, Anekal, Jigani, Chandapura, Hebbagodi and across into the Hosur side. For women who have been putting off a visit because of the language, the travel or the discomfort of explaining a personal complaint to a male doctor, none of those three should be the reason it keeps getting postponed.',
+    whatToExpect: [
+      'A first consultation that starts with your history rather than a prescription pad',
+      'Examination only when clinically needed, explained beforehand and done with a chaperone',
+      'On-site ultrasound and laboratory tests so a diagnosis does not need a second trip',
+      'Plain-language explanation of what the findings mean and what the options are',
+      'Medical management first where that is reasonable, surgery only where it is genuinely indicated',
+      'Keyhole (FMAS-trained laparoscopic) surgery where an operation is the right answer',
+      'A written plan and a defined follow-up point rather than an open-ended wait',
+    ],
+    whyChoose: [
+      'A local female gynaecologist — no travelling towards the city for a routine consultation',
+      'Dr. Sanjana L — MBBS, MS (OBG) Gold Medalist (RGUHS), FMAS-trained, 10+ years',
+      'Raghava Multispeciality Hospital, Sarjapura–Attibele Road — Monday to Saturday, 9 AM to 9 PM',
+      'Obstetrics, gynaecology and laparoscopic surgery under one doctor',
+      'Consultations in English, Hindi, Kannada or Telugu',
+    ],
+    nearbyAreas: ['Attibele', 'Anekal', 'Jigani', 'Chandapura', 'Hebbagodi', 'Bommasandra', 'Sarjapura'],
+    faqs: [
+      {
+        q: 'Who is the lady gynaecologist in Attibele?',
+        a: 'Dr. Sanjana L — MBBS, MS (OBG) Gold Medalist (RGUHS), FMAS — consults at Raghava Multispeciality Hospital, 39, Sarjapura–Attibele Road, opposite Syndicate Bank, Attibele, Bengaluru 562107. Timings are Monday to Saturday, 9 AM to 9 PM. Call +91 99800 31006.',
+      },
+      {
+        q: 'Do I need an appointment or can I walk in?',
+        a: 'Walk-ins are possible during clinic hours, but calling +91 99800 31006 ahead of time means a slot is reserved and your waiting time is much shorter — particularly in the evening, which is the busiest stretch.',
+      },
+      {
+        q: 'Can deliveries and surgery be done in Attibele itself?',
+        a: 'Yes. Raghava Multispeciality Hospital is a 24/7 maternity-capable unit with operative theatre and anaesthesia cover, so normal deliveries, painless deliveries and caesarean sections are managed there. Certain laparoscopic procedures are scheduled at Health Nest, HSR Layout, under the same doctor.',
+      },
+      {
+        q: 'Which languages can I consult in?',
+        a: 'English, Hindi, Kannada or Telugu. If you are more comfortable describing symptoms in your own language, say so at the start of the consultation — detail matters more than the language it arrives in.',
+      },
+    ],
+    serviceSlug: 'pregnancy-care',
+    hubHref: '/attibele-gynaecologist',
+    hubLabel: 'Gynaecologist in Attibele',
+    schemaType: 'MedicalBusiness',
+    metaTitle: 'Lady Gynaecologist in Attibele | Dr. Sanjana L',
+    metaDescription:
+      'Lady gynaecologist in Attibele — Dr. Sanjana L (MS OBG Gold Medalist, FMAS) at Raghava Multispeciality Hospital, Sarjapura–Attibele Road. Mon–Sat, 9 AM–9 PM.',
+    keywords: [
+      'lady gynaecologist Attibele',
+      'female gynaecologist Attibele Bangalore',
+      'lady doctor Attibele gynaecology',
+      'women’s specialist Attibele',
+      'gynaecologist near Attibele Sarjapura Road',
+      'best lady gynaecologist near me Attibele',
+    ],
+  },
+
+  /* ─────────────────────────────────────────────────────────────────────────
+     39. Lady Gynaecologist — Bommasandra
+  ───────────────────────────────────────────────────────────────────────── */
+  {
+    slug: 'lady-gynaecologist-bommasandra',
+    title: 'Lady Gynaecologist near Bommasandra, Bangalore',
+    shortTitle: 'Lady Gynaecologist — Bommasandra',
+    category: 'Gynaecology',
+    locality: 'Bommasandra',
+    clinic: 'attibele',
+    description:
+      'A female gynaecologist for Bommasandra and the Jigani industrial belt — Dr. Sanjana L at Raghava Multispeciality Hospital, Attibele, about 15 minutes away.',
+    overview:
+      'Bommasandra and the Jigani industrial belt are full of households where both adults work shifts, and where a gynaecology appointment competes directly with a day’s pay. The consequence is predictable: women present late. Heavy bleeding that has been going on for a year, a lump noticed months ago, a pregnancy where the first scan happens well into the second trimester. Almost none of that is because the problem was ignored — it is because the appointment never fitted.\n\nDr. Sanjana L — MBBS, MS (OBG) Gold Medalist (RGUHS), FMAS — consults at Raghava Multispeciality Hospital on Sarjapura–Attibele Road, about 10–15 minutes from Bommasandra down Hosur Road, Monday to Saturday from 9 AM to 9 PM. The long evening window is the point: it makes a visit possible after a shift rather than instead of one. Consultations are available in English, Hindi, Kannada or Telugu.\n\nThe clinical range covers what this catchment actually needs — antenatal care and delivery, heavy or irregular periods, PCOS, anaemia in pregnancy, discharge and recurrent infections, contraception including long-acting options, fertility assessment, and menopause. Where a condition needs keyhole surgery, Dr. Sanjana is FMAS-trained and can plan and perform it herself rather than referring you onward to somebody you have never met.',
+    whatToExpect: [
+      'Appointment slots late enough to be reachable after a shift',
+      'History taken first, with time to describe how long the problem has actually been going on',
+      'Examination explained before it begins, with a chaperone present',
+      'On-site scan and blood tests so most cases are resolved in a single visit',
+      'Anaemia and nutrition checked as a matter of routine, not only when symptoms are severe',
+      'Clear costs discussed before tests or procedures are ordered',
+      'A defined follow-up point so the problem does not drift again',
+    ],
+    whyChoose: [
+      'Roughly 10–15 minutes from Bommasandra — no trip into central Bangalore',
+      'Open until 9 PM Monday to Saturday, workable around factory and shift timings',
+      'Dr. Sanjana L — MBBS, MS (OBG) Gold Medalist (RGUHS), FMAS-trained, 10+ years',
+      'Delivery, gynaecology and laparoscopic surgery handled by the same doctor',
+      'Consultations in English, Hindi, Kannada or Telugu',
+    ],
+    nearbyAreas: ['Bommasandra', 'Jigani', 'Hebbagodi', 'Chandapura', 'Attibele', 'Anekal', 'Electronic City'],
+    faqs: [
+      {
+        q: 'Where is the nearest lady gynaecologist to Bommasandra?',
+        a: 'Dr. Sanjana L consults at Raghava Multispeciality Hospital, 39, Sarjapura–Attibele Road, opposite Syndicate Bank, Attibele — about 10–15 minutes from Bommasandra via Hosur Road. Timings are Monday to Saturday, 9 AM to 9 PM. Call +91 99800 31006.',
+      },
+      {
+        q: 'Can I come after work?',
+        a: 'Yes. The clinic runs until 9 PM from Monday to Saturday, specifically so that people working shifts in the Bommasandra and Jigani belt can be seen without losing a day’s wages. Call ahead to reserve a slot.',
+      },
+      {
+        q: 'Is a scan available at the same visit?',
+        a: 'Ultrasound and routine blood tests are available on site, so in most cases the consultation, the scan and the treatment plan happen in one trip rather than three.',
+      },
+      {
+        q: 'I have had heavy periods for a long time. Is it too late to get it checked?',
+        a: 'No. Long-standing heavy bleeding is common and treatable, and the usual causes — fibroids, polyps, thyroid problems, PCOS, hormonal imbalance — respond well once identified. The main cost of the delay is usually anaemia, which is also treatable. Come in and get it assessed.',
+      },
+    ],
+    serviceSlug: 'pregnancy-care',
+    hubHref: '/bommasandra-gynaecologist',
+    hubLabel: 'Gynaecologist in Bommasandra',
+    schemaType: 'MedicalBusiness',
+    metaTitle: 'Lady Gynaecologist in Bommasandra | Dr. Sanjana L',
+    metaDescription:
+      'Lady gynaecologist near Bommasandra — Dr. Sanjana L (MS OBG Gold Medalist, FMAS) at Raghava Hospital, Attibele, 10–15 min away. Open Mon–Sat until 9 PM.',
+    keywords: [
+      'lady gynaecologist Bommasandra',
+      'female gynaecologist near Bommasandra',
+      'lady doctor Bommasandra gynaecology',
+      'gynaecologist Jigani Bommasandra belt',
+      'women’s doctor near Bommasandra Hosur Road',
+      'evening gynaecologist appointment Bommasandra',
+    ],
+  },
+
+  /* ─────────────────────────────────────────────────────────────────────────
+     40. Caesarean Delivery — Electronic City
+  ───────────────────────────────────────────────────────────────────────── */
+  {
+    slug: 'cesarean-delivery-electronic-city',
+    title: 'Caesarean Delivery (C-Section) near Electronic City',
+    shortTitle: 'Caesarean Delivery — Electronic City',
+    category: 'Obstetrics',
+    locality: 'Electronic City',
+    clinic: 'attibele',
+    description:
+      'Planned and emergency caesarean delivery for families in Electronic City — with Dr. Sanjana L at Raghava Multispeciality Hospital, Attibele.',
+    overview:
+      'A caesarean is not a failure of the birth plan, and it is also not something that should happen because nobody explained the alternative in time. Both of those framings cause harm. The useful position sits in between: a C-section is a major abdominal operation that saves lives when it is genuinely indicated, and carries a longer recovery and implications for future pregnancies when it is not. Which is why the reason for it matters as much as the operation.\n\nDr. Sanjana L — MBBS, MS (OBG) Gold Medalist (RGUHS), FMAS — performs planned and emergency caesarean deliveries at Raghava Multispeciality Hospital in Attibele, roughly 20–25 minutes from Electronic City via Hosur Road. Her practice is deliberately low-intervention: a trial of labour is supported where it is safe, and a caesarean is recommended where the clinical picture calls for it — breech presentation at term, placenta praevia, certain repeat sections, failure to progress, fetal distress, or a maternal condition that makes labour unsafe. When it is recommended, you should be told which of those applies to you specifically.\n\nFor planned sections, the date is set with your input, the anaesthetic (usually spinal, so you are awake for the birth) is explained beforehand, and skin-to-skin in theatre is standard practice wherever the baby is well. For emergencies, the unit is 24/7 with anaesthesia, theatre and newborn care on site. Recovery support afterwards — pain control, mobilising early, wound care, and honest advice about lifting, driving and what a scar actually feels like at six weeks — is treated as part of the delivery, not an afterthought.',
+    whatToExpect: [
+      'A frank conversation about why a caesarean is or is not being recommended in your case',
+      'For planned sections: a date agreed with you, with pre-operative bloods and fitness checks',
+      'Spinal anaesthesia explained in advance — awake for the birth, numb from the chest down',
+      'Skin-to-skin contact in theatre wherever mother and baby are stable',
+      '24/7 emergency theatre, anaesthesia and newborn cover if labour changes course',
+      'Structured post-operative care — pain relief, early mobilising and wound review',
+      'A six-week recovery plan and a clear discussion about future deliveries and VBAC',
+    ],
+    whyChoose: [
+      'Caesarean recommended on clinical grounds, with the specific reason explained to you',
+      'Dr. Sanjana L — MBBS, MS (OBG) Gold Medalist (RGUHS), FMAS, 10+ years of obstetrics',
+      '24/7 maternity unit with theatre, anaesthesia and newborn cover at Attibele',
+      'Roughly 20–25 minutes from Electronic City down Hosur Road',
+      'The doctor who did your antenatal care is the one in theatre',
+    ],
+    nearbyAreas: ['Electronic City', 'Electronic City Phase 1', 'Electronic City Phase 2', 'Konappana Agrahara', 'Hebbagodi', 'Bommasandra', 'Neeladri Nagar'],
+    faqs: [
+      {
+        q: 'Where can I have a C-section near Electronic City?',
+        a: 'Dr. Sanjana L performs planned and emergency caesarean deliveries at Raghava Multispeciality Hospital, Sarjapura–Attibele Road, Attibele — about 20–25 minutes from Electronic City via Hosur Road. The unit has 24/7 theatre, anaesthesia and newborn cover. Call +91 99800 31006.',
+      },
+      {
+        q: 'Will I be asleep during a caesarean?',
+        a: 'Usually not. Most planned and many emergency caesareans are done under spinal anaesthesia, which numbs you from the chest down while you stay fully awake — so you see and hear your baby being born. General anaesthesia is reserved for specific emergency situations.',
+      },
+      {
+        q: 'Can I have a normal delivery after a previous caesarean?',
+        a: 'Often yes. A vaginal birth after caesarean (VBAC) is possible for many women and depends on why the first section was done, the type of uterine incision, the interval between pregnancies and how this pregnancy progresses. It needs a unit with immediate theatre access, which Attibele has. Discuss it early in the pregnancy rather than near term.',
+      },
+      {
+        q: 'How long is the recovery after a C-section?',
+        a: 'Most women are mobile within a day and home within three to four days. The wound is comfortable at around two weeks and the internal healing takes about six weeks — which is why heavy lifting and driving are restricted until then. Full recovery of core strength typically takes a few months.',
+      },
+    ],
+    serviceSlug: 'cesarean-delivery',
+    hubHref: '/electronic-city-sarjapura-gynaecologist',
+    hubLabel: 'Gynaecologist in Electronic City & Sarjapura',
+    schemaType: 'MedicalProcedure',
+    metaTitle: 'C-Section Delivery near Electronic City | Dr. Sanjana',
+    metaDescription:
+      'Planned and emergency caesarean delivery near Electronic City with Dr. Sanjana L (MS OBG, FMAS) at Raghava Hospital, Attibele — 24/7 theatre and newborn cover.',
+    keywords: [
+      'caesarean delivery Electronic City',
+      'C-section hospital near Electronic City',
+      'planned c section doctor Electronic City Bangalore',
+      'emergency caesarean Hosur Road',
+      'VBAC after c section Electronic City',
+      'best c section doctor near Electronic City',
+    ],
+  },
+
+  /* ─────────────────────────────────────────────────────────────────────────
+     41. Pregnancy Scan & Ultrasound — Electronic City
+  ───────────────────────────────────────────────────────────────────────── */
+  {
+    slug: 'pregnancy-scan-ultrasound-electronic-city',
+    title: 'Pregnancy Scan & Ultrasound near Electronic City',
+    shortTitle: 'Pregnancy Scans — Electronic City',
+    category: 'Obstetrics',
+    locality: 'Electronic City',
+    clinic: 'attibele',
+    description:
+      'Dating, NT, anomaly and growth scans for pregnancies in Electronic City — read and explained by Dr. Sanjana L at Raghava Multispeciality Hospital, Attibele.',
+    overview:
+      'The problem with pregnancy scans is rarely the scan. It is that women are handed a report full of abbreviations, told it is “normal”, and sent away — and then spend the next fortnight typing phrases from it into a search bar at midnight. A scan is only useful if somebody explains what was looked at, what was found, and what would have to be true for it to change the plan.\n\nDr. Sanjana L — MBBS, MS (OBG) Gold Medalist (RGUHS) — provides the full antenatal scan sequence at Raghava Multispeciality Hospital in Attibele, about 20–25 minutes from Electronic City down Hosur Road, and reads each one in the context of your pregnancy rather than in isolation. The sequence runs: a dating scan at 6–9 weeks to confirm the pregnancy is in the uterus and establish the due date; the NT scan at 11–13+6 weeks alongside first-trimester blood markers; the anomaly scan at 18–22 weeks, which is the detailed structural survey; and growth and Doppler scans in the third trimester where growth, fluid or placental function need watching.\n\nFor two-income households in Electronic City, the practical advantage is that the scan and the consultation happen with the same doctor in the same visit, until 9 PM Monday to Saturday. You do not book a scan at one centre, wait for a report, and then book a separate appointment somewhere else to have it interpreted — which is exactly the gap where anxiety and unnecessary repeat testing live.',
+    whatToExpect: [
+      'Dating scan at 6–9 weeks — confirms location, viability and an accurate due date',
+      'NT scan at 11–13+6 weeks with first-trimester screening bloods',
+      'Anomaly scan at 18–22 weeks — the detailed structural check of the baby',
+      'Growth and Doppler scans in the third trimester where indicated',
+      'Every scan explained at the time, in plain language, by the doctor managing your pregnancy',
+      'A clear statement of what a scan can and cannot rule out',
+      'Next steps agreed on the spot if anything needs a second look',
+    ],
+    whyChoose: [
+      'Scan and consultation in one visit — no separate centre, no waiting on a report',
+      'Findings explained by the doctor managing the pregnancy, not just printed',
+      'Dr. Sanjana L — MBBS, MS (OBG) Gold Medalist (RGUHS), 10+ years of obstetrics',
+      'Open until 9 PM Monday to Saturday, workable around Electronic City office hours',
+      'Continuity through to delivery at the same 24/7 maternity unit',
+    ],
+    nearbyAreas: ['Electronic City', 'Electronic City Phase 1', 'Electronic City Phase 2', 'Konappana Agrahara', 'Hebbagodi', 'Bommasandra', 'Neeladri Nagar'],
+    faqs: [
+      {
+        q: 'How many scans are needed during pregnancy?',
+        a: 'A routine pregnancy usually involves three to four: a dating scan at 6–9 weeks, an NT scan at 11–13+6 weeks, the anomaly scan at 18–22 weeks, and a growth scan in the third trimester. More are added only where there is a clinical reason — growth concerns, fluid levels, placental position or a high-risk pregnancy.',
+      },
+      {
+        q: 'Where can I get a pregnancy scan near Electronic City?',
+        a: 'Dr. Sanjana L performs antenatal ultrasound at Raghava Multispeciality Hospital, Sarjapura–Attibele Road, Attibele — roughly 20–25 minutes from Electronic City. Scans are done and explained in the same visit as your consultation. Call +91 99800 31006.',
+      },
+      {
+        q: 'What does the 20-week anomaly scan actually check?',
+        a: 'It is a systematic survey of the baby’s structure — brain, face, spine, heart chambers and outflows, abdominal wall, stomach, kidneys, bladder, limbs — plus the placenta, cord and amniotic fluid. It detects many but not all structural differences, and it is not a guarantee of a completely normal baby. That limitation should be stated to you plainly rather than discovered later.',
+      },
+      {
+        q: 'Are ultrasound scans safe in pregnancy?',
+        a: 'Yes. Diagnostic ultrasound uses sound waves, not radiation, and has been used in obstetrics for decades with no evidence of harm to the baby at the intensities used. Scans are still done for a clinical reason rather than casually repeated.',
+      },
+    ],
+    serviceSlug: 'prenatal-screening',
+    hubHref: '/electronic-city-sarjapura-gynaecologist',
+    hubLabel: 'Gynaecologist in Electronic City & Sarjapura',
+    schemaType: 'MedicalProcedure',
+    metaTitle: 'Pregnancy Scan & Ultrasound near Electronic City',
+    metaDescription:
+      'Dating, NT, anomaly and growth scans near Electronic City with Dr. Sanjana L (MS OBG) at Raghava Hospital, Attibele — scan and consultation in one visit.',
+    keywords: [
+      'pregnancy scan Electronic City',
+      'ultrasound centre near Electronic City Bangalore',
+      'anomaly scan Electronic City',
+      'NT scan near Electronic City',
+      'growth scan pregnancy Hosur Road',
+      'dating scan near Electronic City',
+    ],
+  },
+
+  /* ─────────────────────────────────────────────────────────────────────────
+     42. Fertility & IVF Treatment — Electronic City
+  ───────────────────────────────────────────────────────────────────────── */
+  {
+    slug: 'fertility-ivf-treatment-electronic-city',
+    title: 'Fertility & IVF Treatment near Electronic City',
+    shortTitle: 'Fertility & IVF — Electronic City',
+    category: 'Fertility',
+    locality: 'Electronic City',
+    clinic: 'attibele',
+    description:
+      'Fertility evaluation, ovulation induction, IUI guidance and IVF co-management for couples in Electronic City — with Dr. Sanjana L at Raghava Hospital, Attibele.',
+    overview:
+      'Most couples arriving for a fertility consultation have already spent a year being told to relax. The more useful thing to say is that “trying for a year” is the standard threshold to be assessed under 35, and six months over 35 — and that assessment is not the same as treatment. A great many couples who are investigated properly turn out to need something far short of IVF: ovulation timing corrected, a thyroid or prolactin abnormality treated, PCOS addressed, or a semen parameter improved.\n\nDr. Sanjana L — MBBS, MS (OBG) Gold Medalist (RGUHS), FMAS — runs fertility evaluation at Raghava Multispeciality Hospital in Attibele, about 20–25 minutes from Electronic City. The workup is deliberately parallel rather than sequential, because sequential testing is how couples lose a year: hormone profile including AMH, thyroid and prolactin, a pelvic ultrasound with antral follicle count, tubal assessment where indicated, and a semen analysis for the male partner in the same window. Investigating one partner at a time is a common and expensive mistake — roughly a third to a half of cases involve a male factor.\n\nWhere the answer is timed intercourse or ovulation induction, that is done here. Where IUI is appropriate, it is planned and monitored here. Where IVF is genuinely indicated — tubal blockage, significant male factor, advanced age, failed prior cycles — Dr. Sanjana co-manages with an IVF centre rather than handing you over, so someone who knows your history is still reading the cycle. She will also tell you when IVF is not yet the right step, which is the more useful conversation and the one that is often skipped.',
+    whatToExpect: [
+      'A joint first consultation — both partners, one history, one plan',
+      'Parallel workup rather than sequential: female hormone profile and male semen analysis together',
+      'AMH, thyroid, prolactin and an antral follicle count to assess ovarian reserve',
+      'Pelvic ultrasound and tubal assessment where the history points that way',
+      'Ovulation induction and cycle tracking where that is what is actually needed',
+      'IUI planning and monitoring, with realistic per-cycle expectations stated up front',
+      'IVF co-management with a fertility centre when it is genuinely indicated — and a clear reason why',
+    ],
+    whyChoose: [
+      'Both partners assessed together, so a male factor is not discovered a year late',
+      'Honest about when IVF is not yet the right step',
+      'Dr. Sanjana L — MBBS, MS (OBG) Gold Medalist (RGUHS), FMAS-trained laparoscopic surgeon',
+      'PCOS, endometriosis and fibroids managed by the same doctor handling the fertility plan',
+      'Roughly 20–25 minutes from Electronic City, open until 9 PM Monday to Saturday',
+    ],
+    nearbyAreas: ['Electronic City', 'Electronic City Phase 1', 'Electronic City Phase 2', 'Konappana Agrahara', 'Hebbagodi', 'Bommasandra', 'Neeladri Nagar'],
+    faqs: [
+      {
+        q: 'When should we see a fertility doctor?',
+        a: 'After twelve months of regular unprotected intercourse without conception if the female partner is under 35, or after six months if she is 35 or older. Sooner if there are irregular or absent periods, known PCOS or endometriosis, previous pelvic surgery or infection, or a known male-factor issue.',
+      },
+      {
+        q: 'Does the male partner need to be tested too?',
+        a: 'Yes, and at the same time rather than afterwards. A male factor contributes in roughly a third to a half of cases, and a semen analysis is quick, inexpensive and non-invasive. Testing the female partner alone for months first is one of the most common ways couples lose time.',
+      },
+      {
+        q: 'Do we have to go straight to IVF?',
+        a: 'Usually not. Many couples conceive with ovulation induction, corrected cycle timing, treatment of a thyroid or prolactin problem, or PCOS management. IVF is indicated for specific reasons — blocked tubes, significant male factor, advanced maternal age, or failed prior treatment. You should be told which reason applies to you before starting.',
+      },
+      {
+        q: 'Is IVF available near Electronic City?',
+        a: 'Dr. Sanjana L provides fertility evaluation, ovulation induction and IUI at Raghava Multispeciality Hospital, Attibele, and co-manages IVF cycles with a fertility centre where that is the right step — so your own doctor stays involved throughout rather than handing your file over. Call +91 99800 31006.',
+      },
+    ],
+    serviceSlug: 'ivf-iui',
+    hubHref: '/electronic-city-sarjapura-gynaecologist',
+    hubLabel: 'Gynaecologist in Electronic City & Sarjapura',
+    schemaType: 'MedicalProcedure',
+    metaTitle: 'Fertility & IVF Treatment near Electronic City',
+    metaDescription:
+      'Fertility evaluation, ovulation induction, IUI and IVF co-management near Electronic City with Dr. Sanjana L (MS OBG, FMAS) at Raghava Hospital, Attibele.',
+    keywords: [
+      'fertility treatment Electronic City',
+      'IVF centre near Electronic City Bangalore',
+      'IUI treatment Electronic City',
+      'infertility doctor near Electronic City',
+      'fertility specialist Hosur Road Bangalore',
+      'ovulation induction Electronic City',
+    ],
+  },
+
+  /* ─────────────────────────────────────────────────────────────────────────
+     43. PCOS Treatment — Bommasandra
+  ───────────────────────────────────────────────────────────────────────── */
+  {
+    slug: 'pcos-treatment-bommasandra',
+    title: 'PCOS & PCOD Treatment near Bommasandra, Bangalore',
+    shortTitle: 'PCOS Treatment — Bommasandra',
+    category: 'Gynaecology',
+    locality: 'Bommasandra',
+    clinic: 'attibele',
+    description:
+      'PCOS and PCOD diagnosis, hormonal management and fertility-aware treatment for women near Bommasandra — with Dr. Sanjana L at Raghava Hospital, Attibele.',
+    overview:
+      'PCOS is one of the most over-diagnosed and under-treated conditions in Indian gynaecology at the same time. Over-diagnosed because a scan showing multiple small follicles gets reported as “polycystic ovaries” and handed over as a diagnosis, when the scan alone is not sufficient. Under-treated because the women who genuinely have it are frequently given a contraceptive pill, told to lose weight, and left to work out the rest themselves.\n\nDr. Sanjana L — MBBS, MS (OBG) Gold Medalist (RGUHS) — treats PCOS at Raghava Multispeciality Hospital in Attibele, about 10–15 minutes from Bommasandra down Hosur Road. Diagnosis follows the standard criteria rather than the scan alone: irregular or absent ovulation, clinical or biochemical signs of excess androgen (acne, hair growth, hair thinning), and polycystic ovarian morphology — two of the three, with thyroid disease, high prolactin and other mimics ruled out first. That matters, because treating the wrong condition for two years is a real cost.\n\nTreatment then depends on what you actually want to solve now, which is a question worth being asked. Cycle regulation, acne and unwanted hair, insulin resistance, and fertility are four different targets with four different first-line approaches — and the metabolic side matters for the long term regardless, since PCOS raises the risk of type 2 diabetes and gestational diabetes. For the shift-working households around Bommasandra and Jigani, the plan is built to be followable in practice rather than in theory: realistic dietary changes, achievable activity, and medication where it earns its place.',
+    whatToExpect: [
+      'Diagnosis against proper criteria — not a scan report on its own',
+      'Blood work to rule out thyroid disease, high prolactin and other PCOS mimics',
+      'Assessment of insulin resistance, weight, blood pressure and lipid profile',
+      'A frank conversation about which problem you want addressed first',
+      'Cycle regulation, androgen symptoms, metabolic health or fertility — treated on their own terms',
+      'Ovulation induction where you are trying to conceive',
+      'Lifestyle guidance built around shift work and real budgets, not generic advice',
+    ],
+    whyChoose: [
+      'Diagnosed properly before being treated — mimics ruled out first',
+      'Treatment matched to your actual priority rather than a default pill prescription',
+      'Long-term metabolic risk taken seriously, not just this month’s cycle',
+      'Dr. Sanjana L — MBBS, MS (OBG) Gold Medalist (RGUHS), 10+ years',
+      '10–15 minutes from Bommasandra, open until 9 PM Monday to Saturday',
+    ],
+    nearbyAreas: ['Bommasandra', 'Jigani', 'Hebbagodi', 'Chandapura', 'Attibele', 'Anekal', 'Electronic City'],
+    faqs: [
+      {
+        q: 'Does a scan showing polycystic ovaries mean I have PCOS?',
+        a: 'No. Polycystic ovarian morphology on ultrasound is one of three criteria, and a significant proportion of women with that appearance do not have the syndrome. Diagnosis needs two of three — irregular ovulation, signs of excess androgen, and the scan appearance — with thyroid disease and high prolactin ruled out.',
+      },
+      {
+        q: 'Can PCOS be cured?',
+        a: 'PCOS is managed rather than cured, but it is managed well. Cycles can be regularised, acne and excess hair improved, insulin resistance reduced, and most women with PCOS who want to conceive do conceive — often with simple ovulation induction. The condition tends to become easier to control with sustained weight and metabolic management.',
+      },
+      {
+        q: 'Where can I get PCOS treatment near Bommasandra?',
+        a: 'Dr. Sanjana L treats PCOS and PCOD at Raghava Multispeciality Hospital, Sarjapura–Attibele Road, Attibele — about 10–15 minutes from Bommasandra. Timings are Monday to Saturday, 9 AM to 9 PM. Call +91 99800 31006 to book.',
+      },
+      {
+        q: 'Will PCOS stop me getting pregnant?',
+        a: 'For most women, no. PCOS makes ovulation irregular or absent, which makes conception harder to time rather than impossible. Ovulation induction is effective for a large majority. It is worth being assessed earlier rather than later if your cycles are irregular and you are planning a pregnancy.',
+      },
+    ],
+    serviceSlug: 'pcos-pcod-treatment',
+    hubHref: '/bommasandra-gynaecologist',
+    hubLabel: 'Gynaecologist in Bommasandra',
+    schemaType: 'MedicalProcedure',
+    metaTitle: 'PCOS & PCOD Treatment near Bommasandra | Dr. Sanjana',
+    metaDescription:
+      'PCOS and PCOD treatment near Bommasandra with Dr. Sanjana L (MS OBG) at Raghava Hospital, Attibele — proper diagnosis, cycle, metabolic and fertility care.',
+    keywords: [
+      'PCOS treatment Bommasandra',
+      'PCOD doctor near Bommasandra',
+      'PCOS specialist Jigani Bommasandra',
+      'irregular periods doctor Bommasandra',
+      'PCOS and pregnancy doctor Hosur Road',
+      'hormonal treatment near Bommasandra',
+    ],
+  },
+
+  /* ─────────────────────────────────────────────────────────────────────────
+     44. High-Risk Pregnancy — Bommasandra
+  ───────────────────────────────────────────────────────────────────────── */
+  {
+    slug: 'high-risk-pregnancy-bommasandra',
+    title: 'High-Risk Pregnancy Care near Bommasandra, Bangalore',
+    shortTitle: 'High-Risk Pregnancy — Bommasandra',
+    category: 'Obstetrics',
+    locality: 'Bommasandra',
+    clinic: 'attibele',
+    description:
+      'Close monitoring for high-risk pregnancies near Bommasandra — gestational diabetes, high blood pressure, twins, previous losses — with Dr. Sanjana L at Attibele.',
+    overview:
+      'Being told a pregnancy is “high risk” frightens people more than it should. The label does not predict a bad outcome — it describes a pregnancy that needs to be watched more closely than the standard schedule allows. Most high-risk pregnancies that are monitored properly end with a healthy mother and a healthy baby. The ones that go wrong are usually the ones where the extra monitoring never happened.\n\nThat is the specific risk in the Bommasandra and Jigani belt, where appointments compete with shifts and antenatal visits get skipped when nothing feels wrong — which is exactly when pre-eclampsia and gestational diabetes are silent. Dr. Sanjana L — MBBS, MS (OBG) Gold Medalist (RGUHS), FMAS, with over ten years of obstetric practice including complex pregnancies — manages high-risk antenatal care at Raghava Multispeciality Hospital in Attibele, about 10–15 minutes away, open until 9 PM Monday to Saturday so that a visit does not have to cost a day’s wages.\n\nWhat puts a pregnancy in this category: gestational or pre-existing diabetes, high blood pressure or pre-eclampsia, thyroid disease, twins, significant anaemia, age under 18 or over 35, a previous caesarean, previous preterm birth, recurrent miscarriage or stillbirth, a low-lying placenta, or a baby measuring small or large for dates. Several of these are common in this catchment and several are detected only on testing — which is the argument for keeping the schedule even when you feel fine.',
+    whatToExpect: [
+      'Risk assessed at booking and reviewed at every visit, not fixed at the first appointment',
+      'More frequent antenatal visits with a schedule explained up front so it can be planned around',
+      'Blood pressure, urine protein and blood sugar checked to a defined protocol',
+      'Glucose tolerance testing, thyroid and haemoglobin monitoring',
+      'Serial growth scans and Doppler studies to track the baby’s growth and placental function',
+      'Anaemia treated actively — it is common here and it worsens every other risk',
+      'A delivery plan made in advance, with 24/7 theatre, anaesthesia and newborn cover on site',
+    ],
+    whyChoose: [
+      'Extra monitoring that is actually reachable — 10–15 minutes, open until 9 PM',
+      'Dr. Sanjana L — MBBS, MS (OBG) Gold Medalist (RGUHS), FMAS, 10+ years including complex cases',
+      '24/7 maternity unit with theatre, anaesthesia and newborn back-up at Attibele',
+      'The same doctor through antenatal care and delivery — no hand-off at the critical moment',
+      'Consultations in English, Hindi, Kannada or Telugu',
+    ],
+    nearbyAreas: ['Bommasandra', 'Jigani', 'Hebbagodi', 'Chandapura', 'Attibele', 'Anekal', 'Electronic City'],
+    faqs: [
+      {
+        q: 'What makes a pregnancy high risk?',
+        a: 'Gestational or pre-existing diabetes, high blood pressure or pre-eclampsia, thyroid disease, twins, significant anaemia, maternal age under 18 or over 35, a previous caesarean or preterm birth, recurrent miscarriage, a low-lying placenta, or a baby measuring small or large for dates. Several of these are detected only on testing, which is why the schedule matters.',
+      },
+      {
+        q: 'Does high risk mean I will need a caesarean?',
+        a: 'No. Many high-risk pregnancies end in a normal vaginal delivery. The label means closer monitoring, not a predetermined mode of delivery. The delivery plan is made from how your pregnancy actually progresses, and discussed with you in advance rather than announced in labour.',
+      },
+      {
+        q: 'How often will I need to come in?',
+        a: 'More often than the standard schedule, and how much more depends on the condition — commonly every two weeks from the second trimester and weekly in the last month, with extra visits around specific tests or scans. The schedule is given to you up front so it can be planned around work.',
+      },
+      {
+        q: 'Where can I get high-risk pregnancy care near Bommasandra?',
+        a: 'Dr. Sanjana L manages high-risk pregnancies at Raghava Multispeciality Hospital, Sarjapura–Attibele Road, Attibele — about 10–15 minutes from Bommasandra, with 24/7 maternity, theatre and newborn cover. Call +91 99800 31006.',
+      },
+    ],
+    serviceSlug: 'high-risk-pregnancy',
+    hubHref: '/bommasandra-gynaecologist',
+    hubLabel: 'Gynaecologist in Bommasandra',
+    schemaType: 'MedicalProcedure',
+    metaTitle: 'High-Risk Pregnancy Care near Bommasandra | Dr. Sanjana',
+    metaDescription:
+      'High-risk pregnancy care near Bommasandra with Dr. Sanjana L (MS OBG, FMAS) at Raghava Hospital, Attibele — diabetes, BP, twins and previous-loss pregnancies.',
+    keywords: [
+      'high risk pregnancy Bommasandra',
+      'high risk pregnancy doctor near Bommasandra',
+      'gestational diabetes doctor Bommasandra',
+      'pre-eclampsia care Hosur Road Bangalore',
+      'twin pregnancy doctor near Bommasandra',
+      'pregnancy after miscarriage doctor Attibele',
+    ],
+  },
+
+  /* ─────────────────────────────────────────────────────────────────────────
+     45. Laparoscopic Surgery — Attibele
+  ───────────────────────────────────────────────────────────────────────── */
+  {
+    slug: 'laparoscopic-surgery-attibele',
+    title: 'Laparoscopic Gynaec Surgery in Attibele, Bangalore',
+    shortTitle: 'Laparoscopic Surgery — Attibele',
+    category: 'Surgery',
+    locality: 'Attibele',
+    clinic: 'attibele',
+    description:
+      'Keyhole gynaecological surgery for women in Attibele and the Anekal belt — fibroids, ovarian cysts, endometriosis and ectopic pregnancy — with Dr. Sanjana L, FMAS.',
+    overview:
+      'The word “operation” still carries an old meaning for many families in the Attibele and Anekal belt: a long cut, a week in hospital, a month off work, and someone at home unable to lift a child. That expectation is why women postpone surgery that would have been straightforward, and it is roughly twenty years out of date for most gynaecological conditions.\n\nLaparoscopic — keyhole — surgery is done through a few incisions under a centimetre, with a camera and fine instruments. In practice that means far less blood loss, markedly less post-operative pain, a hospital stay usually measured in a day or two rather than a week, and a return to ordinary activity in one to two weeks instead of four to six. Dr. Sanjana L is FMAS-trained (Fellowship in Minimal Access Surgery) with over ten years of practice, and performs laparoscopic procedures for the conditions that most commonly need them: uterine fibroids where the uterus is to be preserved, ovarian cysts, endometriosis excision, adhesions, ectopic pregnancy, and diagnostic laparoscopy for chronic pelvic pain or unexplained infertility.\n\nThe decision to operate is the part worth getting right, and it is where a second opinion is most valuable. A fibroid that is not causing symptoms often does not need removing. An ovarian cyst found incidentally is frequently one that will resolve on its own with a repeat scan. Where surgery is genuinely indicated, you should be told which finding is driving it, what the alternative is, and what happens if you wait — and the plan should account for whether you still want to have children.',
+    whatToExpect: [
+      'Assessment of whether surgery is actually needed, with the non-surgical alternative stated',
+      'Ultrasound and, where relevant, hysteroscopy to define the problem before operating',
+      'Pre-operative bloods, anaesthetic fitness check and a clear consent conversation',
+      'Keyhole procedure through incisions under a centimetre, under general anaesthesia',
+      'Typically a one to two day hospital stay rather than a week',
+      'Return to ordinary activity in about one to two weeks in uncomplicated cases',
+      'Fertility-sparing technique wherever preserving the uterus or ovarian tissue is the goal',
+    ],
+    whyChoose: [
+      'FMAS fellowship-trained in minimal access surgery — not occasional keyhole work',
+      'Honest assessment of whether an operation is needed at all',
+      'Fertility preserved wherever that is your priority',
+      'Surgery in Attibele itself rather than a referral into central Bangalore',
+      'Dr. Sanjana L — MBBS, MS (OBG) Gold Medalist (RGUHS), FMAS, 10+ years',
+    ],
+    nearbyAreas: ['Attibele', 'Anekal', 'Jigani', 'Chandapura', 'Bommasandra', 'Hebbagodi', 'Sarjapura'],
+    faqs: [
+      {
+        q: 'What gynaecological conditions can be treated by keyhole surgery?',
+        a: 'Uterine fibroids (myomectomy), ovarian cysts, endometriosis, pelvic adhesions, ectopic pregnancy, tubal surgery, hysterectomy in suitable cases, and diagnostic laparoscopy for chronic pelvic pain or unexplained infertility. Not every case is suitable — very large fibroids, extensive adhesions or suspected malignancy may need an open approach.',
+      },
+      {
+        q: 'How long is the recovery after laparoscopic surgery?',
+        a: 'Most women go home within one to two days and return to ordinary activity within one to two weeks, compared with four to six weeks after open surgery. Heavy lifting is usually restricted for around four weeks. Recovery depends on the specific procedure — a cyst removal is quicker than a multiple myomectomy.',
+      },
+      {
+        q: 'Will laparoscopic surgery affect my chances of getting pregnant?',
+        a: 'Done properly, it often improves them — removing fibroids distorting the cavity, excising endometriosis, or clearing adhesions can all help fertility. Technique matters, which is why fertility plans should be stated before surgery, not after. Tell the doctor if you intend to conceive.',
+      },
+      {
+        q: 'Where can I have laparoscopic gynaec surgery near Attibele?',
+        a: 'Dr. Sanjana L performs laparoscopic gynaecological surgery at Raghava Multispeciality Hospital, 39, Sarjapura–Attibele Road, Attibele, with theatre and anaesthesia cover on site. Certain complex procedures are scheduled at Health Nest, HSR Layout, under the same surgeon. Call +91 99800 31006.',
+      },
+    ],
+    serviceSlug: 'laparoscopic-surgery',
+    hubHref: '/attibele-gynaecologist',
+    hubLabel: 'Gynaecologist in Attibele',
+    schemaType: 'MedicalProcedure',
+    metaTitle: 'Laparoscopic Gynaec Surgery in Attibele | Dr. Sanjana',
+    metaDescription:
+      'Keyhole gynaecological surgery in Attibele with Dr. Sanjana L (MS OBG, FMAS) — fibroids, ovarian cysts, endometriosis and ectopic pregnancy. Faster recovery.',
+    keywords: [
+      'laparoscopic surgery Attibele',
+      'keyhole gynaec surgery Attibele Bangalore',
+      'laparoscopic surgeon near Anekal',
+      'fibroid removal surgery Attibele',
+      'ovarian cyst surgery near Attibele',
+      'FMAS laparoscopic gynaecologist Hosur Road',
+    ],
+  },
+
+  /* ─────────────────────────────────────────────────────────────────────────
+     46. Uterine Fibroids Treatment — Attibele
+  ───────────────────────────────────────────────────────────────────────── */
+  {
+    slug: 'uterine-fibroids-treatment-attibele',
+    title: 'Uterine Fibroid Treatment in Attibele, Bangalore',
+    shortTitle: 'Uterine Fibroids — Attibele',
+    category: 'Gynaecology',
+    locality: 'Attibele',
+    clinic: 'attibele',
+    description:
+      'Fibroid diagnosis and treatment in Attibele — heavy bleeding, pressure symptoms and fertility concerns — with Dr. Sanjana L, FMAS, at Raghava Hospital.',
+    overview:
+      'Two opposite mistakes are made with fibroids, and both are common. The first is treating a fibroid because it exists — operating on a small, symptomless fibroid found incidentally on a scan, when watchful waiting would have been correct. The second is dismissing years of heavy bleeding as ordinary periods until a woman is significantly anaemic and exhausted. The size on the report matters far less than what the fibroid is doing to you.\n\nFibroids are benign muscular growths in the uterine wall, and they are extremely common — a large proportion of women have them by their forties, most without ever knowing. They matter when they cause heavy or prolonged periods, pressure on the bladder causing frequent urination, a feeling of fullness or a visibly distended abdomen, pain during intercourse, back or leg discomfort, or difficulty conceiving and recurrent miscarriage when they distort the uterine cavity. Position matters more than size: a small submucosal fibroid inside the cavity can cause far more bleeding and fertility trouble than a large one sitting on the outer wall.\n\nDr. Sanjana L — MBBS, MS (OBG) Gold Medalist (RGUHS), FMAS — assesses and treats fibroids at Raghava Multispeciality Hospital in Attibele. Assessment covers the symptom picture, haemoglobin, and an ultrasound mapping number, size and position, with hysteroscopy where the cavity needs a direct look. Treatment then ranges from monitoring, to medical management of bleeding and correction of anaemia, to hysteroscopic removal of a submucosal fibroid, to laparoscopic myomectomy that removes the fibroids while preserving the uterus. Whether you still want children is part of that decision, and it should be asked before the plan is made rather than after.',
+    whatToExpect: [
+      'A symptom-led assessment — what the fibroid is doing, not just how large it measures',
+      'Haemoglobin checked, because anaemia from heavy bleeding is common and treatable',
+      'Ultrasound mapping the number, size and position of each fibroid',
+      'Hysteroscopy where the uterine cavity needs to be seen directly',
+      'Watchful waiting where the fibroid is small and symptomless — with a review date',
+      'Medical management to control bleeding where surgery is not yet warranted',
+      'Hysteroscopic or laparoscopic myomectomy that preserves the uterus where surgery is indicated',
+    ],
+    whyChoose: [
+      'Treatment decided by symptoms and position, not by the number on the scan report',
+      'Uterus-preserving surgery wherever fertility or preference calls for it',
+      'FMAS fellowship-trained in minimal access surgery — keyhole where it is suitable',
+      'Diagnosis, medical management and surgery under one doctor in Attibele',
+      'Dr. Sanjana L — MBBS, MS (OBG) Gold Medalist (RGUHS), FMAS, 10+ years',
+    ],
+    nearbyAreas: ['Attibele', 'Anekal', 'Jigani', 'Chandapura', 'Bommasandra', 'Hebbagodi', 'Sarjapura'],
+    faqs: [
+      {
+        q: 'Do all fibroids need to be removed?',
+        a: 'No. Most fibroids are small, symptomless and found incidentally, and the right management is monitoring with a review scan. Treatment is driven by symptoms — heavy bleeding, anaemia, pressure effects, pain, or fertility problems — and by position, not by the existence of a fibroid on a report.',
+      },
+      {
+        q: 'Can fibroids be removed without removing the uterus?',
+        a: 'Yes. A myomectomy removes the fibroids and preserves the uterus, and can be done hysteroscopically for fibroids inside the cavity or laparoscopically for those in or on the wall. Hysterectomy is one option among several, not the default, and is generally reserved for women who have completed their family and have severe symptoms.',
+      },
+      {
+        q: 'Do fibroids stop you getting pregnant?',
+        a: 'Most do not. Those that distort the uterine cavity — particularly submucosal fibroids — can reduce fertility and increase miscarriage risk, and removing them often helps. Fibroids on the outer wall usually have little effect on conception. Position is what decides this, which is why the scan needs to be mapped rather than just counted.',
+      },
+      {
+        q: 'Where can I get fibroid treatment in Attibele?',
+        a: 'Dr. Sanjana L assesses and treats uterine fibroids at Raghava Multispeciality Hospital, 39, Sarjapura–Attibele Road, opposite Syndicate Bank, Attibele. Monday to Saturday, 9 AM to 9 PM. Call +91 99800 31006 to book an assessment.',
+      },
+    ],
+    serviceSlug: 'uterine-fibroids-treatment',
+    hubHref: '/attibele-gynaecologist',
+    hubLabel: 'Gynaecologist in Attibele',
+    schemaType: 'MedicalProcedure',
+    metaTitle: 'Uterine Fibroid Treatment in Attibele | Dr. Sanjana L',
+    metaDescription:
+      'Uterine fibroid treatment in Attibele with Dr. Sanjana L (MS OBG, FMAS) — heavy bleeding, pressure symptoms and uterus-preserving laparoscopic myomectomy.',
+    keywords: [
+      'fibroid treatment Attibele',
+      'uterine fibroid doctor near Attibele',
+      'myomectomy surgery Attibele Bangalore',
+      'heavy periods fibroids Anekal',
+      'fibroid removal without hysterectomy Attibele',
+      'fibroid specialist Hosur Road Bangalore',
+    ],
+  },
 ];
 
 export function getLocationServiceBySlug(slug: string): LocationService | undefined {
